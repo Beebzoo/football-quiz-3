@@ -286,11 +286,11 @@ check("flex:1 is not sitting on a summary that can never use it",
 
 console.log("\n--- the app has one name ---");
 check("the title says it",
-  html.indexOf("<title>BALL 2</title>") > -1, "the title still says BALL");
+  html.indexOf("<title>BALL 3</title>") > -1, "the title still says BALL");
 check("iOS is told the same thing, first in its own order of precedence",
-  /apple-mobile-web-app-title" content="BALL 2"/.test(html), "no apple title");
+  /apple-mobile-web-app-title" content="BALL 3"/.test(html), "no apple title");
 check("and the button offering the home screen calls the app by its name",
-  html.indexOf("Add BALL 2 to your home screen") > -1, "still says BALL");
+  html.indexOf("Add BALL 3 to your home screen") > -1, "still says BALL");
 
 /* ---------- and the fifty-one names stay inside ---------- */
 console.log("\n--- nothing leaked out of the closure ---");

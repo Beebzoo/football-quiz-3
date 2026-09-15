@@ -18,10 +18,9 @@
  * The rest guards the two things a staging like this classically breaks. It
  * must not decide anything, because the coin already knows which way up it is
  * landing before it starts spinning, and everything drawn round it is a
- * consequence rather than an input. And it must not leak into the sixteen-bit
- * skin or out of it, which _tests/pixel-test.js polices in general and this
- * checks for the referee in particular, because he is the one figure variant
- * that exists only on this screen and nothing else would notice him going.
+ * consequence rather than an input. And it checks the referee in particular,
+ * because he is the one figure variant that exists only on this screen and
+ * nothing else would notice him going.
  */
 const fs = require("fs");
 const path = require("path");
@@ -46,12 +45,10 @@ const check = (n, c, x) => {
    every regex below is about CSS, so the file is normalised once and read as
    text rather than as a document. */
 const html = fs.readFileSync(path.join(REPO, "index.html"), "utf8").replace(/\r\n/g, "\n");
-/* the same two boundaries pixel-test.js uses, so "inside the skin" and
-   "outside it" mean exactly what they mean over there */
-const blkStart = html.lastIndexOf("/*", html.indexOf("THE SIXTEEN-BIT SKIN"));
-const blkEnd = html.indexOf("/* the boot going through it", blkStart);
-const SKIN = html.slice(blkStart, blkEnd);
-const NIGHT = html.slice(0, blkStart) + html.slice(blkEnd);
+/* ONE LOOK, SO ONE SLICE. BALL 2 cut the file in two here because the skin
+   block had to be told apart from the night rules. BALL 3 has no skin, so
+   "where the rules live" is simply the file. */
+const NIGHT = html;
 
 (async () => {
   const app = makeInstance("toss");
@@ -155,63 +152,32 @@ const NIGHT = html.slice(0, blkStart) + html.slice(blkEnd);
   check("and his kit reads as black against a white badge",
     ev(app, 'kitInk(H2_REF_KIT)') === "#fff", ev(app, 'kitInk(H2_REF_KIT)'));
 
-  /* THE SKIN IS A STYLESHEET, NOT A BRANCH. Nothing in the builder asks which
-     look is on, so "in both looks" is two separate claims: the markup is the
-     same either way, which is checked by toggling, and each look actually
-     paints him, which is a text check on where the rules live because there is
-     no browser here. Same shape pixel-test.js uses, for the same reason. */
-  console.log("\n--- and he is drawn in both looks ---");
-  /* THE CLASS COMES OFF AND GOES BACK ON BY HAND. This used to toggle the skin,
-     and the skin is not a setting any more: it is a class on the body and
-     nothing else. Taking the class away is what the toggle was doing, and it is
-     the truer test of the claim, which is that nothing in the builder asks which
-     look is on, so the markup cannot move when the look does. */
-  run(app, 'document.body.classList.remove("pixel"); render();'); await tick(120);
-  check("the night look changes nothing about the markup",
-    stage(app).includes('class="fig ref"') &&
-    (stage(app).match(/class="tossman/g) || []).length === 3, "the referee went missing");
-  run(app, 'document.body.classList.add("pixel"); render();'); await tick(120);
-  check("and neither does putting the skin back",
-    stage(app).includes('class="fig ref"') &&
-    (stage(app).match(/class="tossman/g) || []).length === 3, "the referee went missing");
-  check("the night look draws his badge", /\.fig\.ref \.f-torso::after\{/.test(NIGHT), "no badge rule");
-  check("the sixteen-bit one draws it again, on the grid",
-    /body\.pixel \.fig\.ref \.f-torso::after\{/.test(SKIN) &&
-    /body\.pixel \.fig\.ref \.f-torso::after\{[^}]*var\(--px\)/.test(SKIN), "not on the grid");
-  check("the armband is in the night look", /\.fig\.cap \.f-arm\.l::before\{/.test(NIGHT), "no armband");
-  check("and in the sixteen-bit one",
-    /body\.pixel \.fig\.cap \.f-arm\.l::before\{/.test(SKIN), "no armband in the skin");
+  /* ONE LOOK, SO ONE CLAIM. BALL 2 asserted the referee was painted twice over,
+     once by the night rules and once by the skin's, because either could be on.
+     BALL 3 has only the night rules, so this is a text check on where they live,
+     there being no browser here. */
+  check("the referee's badge is drawn",
+    /\.fig\.ref \.f-torso::after\{/.test(NIGHT), "no badge rule");
+  check("the armband is drawn",
+    /\.fig\.cap \.f-arm\.l::before\{/.test(NIGHT), "no armband");
   /* --ink IS ALREADY ON EVERY FIGURE and is already the one colour kitInk has
      decided reads against this kit. An armband painted in anything else is a
      second opinion about the same question, on 250 kits nobody has looked at. */
   check("the band is the kit's own contrast colour rather than a new one",
     /\.fig\.cap \.f-arm\.l::before\{[^}]*background:var\(--ink/.test(NIGHT), "hardcoded");
-  check("the referee keeps black shorts instead of the off-white every dark kit gets",
-    /body\.pixel \.fig\.ref\{--pxshorts:/.test(SKIN), "kitShorts still wins");
 
   /* ---------- the dropped head ---------- */
   console.log("\n--- the loser drops his head, in a way that works twice ---");
-  /* .f-head is centred with translateX(-50%) and the sixteen-bit skin absorbs
-     that translate into its left offset rather than cancelling it, so BOTH
-     looks still have it live. Any keyframe that writes transform and forgets
-     it moves him half a head sideways off his own neck. */
-  check("the night keyframe carries the translate that centres the head",
+  /* .f-head is centred with translateX(-50%), so any keyframe that writes
+     transform and forgets it moves him half a head sideways off his own neck.
+     BALL 2 had to make this claim twice, once for the night keyframe and once
+     for the sprite's h2drop16; there is one head here and one keyframe. */
+  check("the keyframe carries the translate that centres the head",
     /@keyframes h2drop\{[^}]*translateX\(-50%\)/.test(html), "he will step sideways");
-  check("so does the sixteen-bit one",
-    /@keyframes h2drop16\{[^}]*translateX\(-50%\)/.test(html), "he will step sideways");
   check("the head is given a neck to pivot on, not its own middle",
     /\.tossman\.lost \.fig \.f-head\{transform-origin:/.test(html), "it will read as a tilt");
-  /* A THIRTEEN DEGREE ROTATION ON A TWENTY PIXEL HEAD is the anti-aliased edge
-     the whole skin exists to avoid, so the sprite drops it by whole units
-     instead, and the switch is an animation-name inside the block with the
-     keyframe outside it, exactly as h2balance16 does it. */
-  check("the sprite drops by units rather than degrees",
-    !/@keyframes h2drop16\{[^}]*rotate/.test(html) &&
-    /@keyframes h2drop16\{[^}]*var\(--px/.test(html), "it rotates a sprite");
-  check("and it is switched on from inside the skin",
-    /body\.pixel[^{]*\.tossman\.lost[^{]*\.f-head\{[^}]*animation-name:h2drop16/.test(SKIN), "not wired");
-  check("with the keyframe left outside it, the way h2balance16 is",
-    SKIN.indexOf("@keyframes") < 0 && /@keyframes h2drop16/.test(NIGHT), "a keyframe is in the block");
+  check("and the sprite's own drop went with the skin",
+    !/h2drop16/.test(html), "a sixteen-bit keyframe outlived the skin");
   /* a head that falls on shoulders that do not is a broken doll */
   check("the man sinks under it", /\.tossman\.lost \.fig\{animation:h2sink/.test(html), "only the head moves");
   check("and the sink is a translate, because rotating a sprite costs it its edges",

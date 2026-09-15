@@ -67,7 +67,7 @@ const check = (n, c, x) => {
   };
 
   console.log("--- a match with known outcomes ---");
-  run(app, "localStorage.setItem('ball2-outcomes','[]');");
+  run(app, "localStorage.setItem('ball3-outcomes','[]');");
   start("manager");
   const mid = ev(app, "S.mid");
   check("the match has an id from the first ball", !!mid, mid);
@@ -151,7 +151,7 @@ const check = (n, c, x) => {
     ev(app, 'h2Report("no-such-match")') === null, ev(app, 'h2Report("no-such-match")'));
 
   console.log("\n--- the league is caught before it is thrown away ---");
-  run(app, "localStorage.setItem('ball2-outcomes','[]');");
+  run(app, "localStorage.setItem('ball3-outcomes','[]');");
   start("manager");
   const mid3 = ev(app, "S.mid");
   for (let k = 0; k < 4; k++) await ball(0, 5, 7, true);
@@ -160,11 +160,11 @@ const check = (n, c, x) => {
   check("every ball knows which deck answered it, or honestly says the bank",
     named + (4 - named) === 4 && named >= 0, JSON.stringify(r3.leagues));
   check("the shape was recorded too",
-    ev(app, 'JSON.parse(localStorage.getItem("ball2-outcomes")).slice(-1)[0].form') === "4-2-3-1",
-    ev(app, 'JSON.parse(localStorage.getItem("ball2-outcomes")).slice(-1)[0].form'));
+    ev(app, 'JSON.parse(localStorage.getItem("ball3-outcomes")).slice(-1)[0].form') === "4-2-3-1",
+    ev(app, 'JSON.parse(localStorage.getItem("ball3-outcomes")).slice(-1)[0].form'));
 
   console.log("\n--- One on One logs the men too, but claims nothing about lines ---");
-  run(app, "localStorage.setItem('ball2-outcomes','[]');");
+  run(app, "localStorage.setItem('ball3-outcomes','[]');");
   start("pitch");
   const mid4 = ev(app, "S.mid");
   for (let k = 0; k < 3; k++) await ball(0, 5, 7, false);

@@ -87,7 +87,7 @@ function restart(old, label) {
   await tick(300);
   run(host, 'S = freshState(["Martijn","Bram"], false, "classic", 0); hostRoom();');
   await tick(300);
-  guest.localStorage.setItem("ball-mp-name", "Bram");
+  guest.localStorage.setItem("ball3-mp-name", "Bram");
   run(guest, `joinRoom("${ev(host, "MP.code")}")`);
   await tick(400);
   check("the guest is in the room", ev(guest, "myIdx()") === 1, ev(guest, "myIdx()"));
@@ -161,12 +161,12 @@ function restart(old, label) {
   /* the boxes were reordered once Martijn and Bram became the usual two, and a
      saved name beats a default, so a phone still holding the old order has to
      be moved across or it would never see the change */
-  run(cleared, 'localStorage.setItem("ball-names", JSON.stringify(["Ale","Martijn","Bram"]));');
+  run(cleared, 'localStorage.setItem("ball3-names", JSON.stringify(["Ale","Martijn","Bram"]));');
   const moved = restart(cleared, "names-old-order");
   await tick(300);
   check("a phone holding the old order is moved across",
     ev(moved, "JSON.stringify(loadNames())") === '["Martijn","Bram","Ale"]', ev(moved, "JSON.stringify(loadNames())"));
-  run(moved, 'localStorage.setItem("ball-names", JSON.stringify(["Ale","Sander","Bram"]));');
+  run(moved, 'localStorage.setItem("ball3-names", JSON.stringify(["Ale","Sander","Bram"]));');
   const kept = restart(moved, "names-old-order-edited");
   await tick(300);
   check("but one with a name typed into it is left alone",

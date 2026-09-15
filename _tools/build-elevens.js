@@ -47,7 +47,7 @@ const YEAR = T.year;
 const POOL = T.pool;
 const OUT = path.join(REPO, "assets", POOL, "index.json");
 const CACHE = path.join(__dirname, "_models");
-const UA = "ball2-xi/1.0 (personal quiz project)";
+const UA = "ball3-xi/1.0 (personal quiz project)";
 const WRITE = process.argv.includes("--write");
 const WHO = (i => i > -1 ? process.argv[i + 1] : null)(process.argv.indexOf("--who"));
 

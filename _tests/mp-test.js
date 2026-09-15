@@ -152,7 +152,7 @@ const score    = (ctx, i) => ev(ctx, `S.players[${i}].score`);
   const code4 = ev(host, "MP.code");
   console.log(`Room ${code4} open\n`);
 
-  guest.localStorage.setItem("ball-mp-name", "Alejandro");
+  guest.localStorage.setItem("ball3-mp-name", "Alejandro");
   run(guest, `joinRoom("${code4}")`);
   await tick(260);
 
@@ -204,7 +204,7 @@ const score    = (ctx, i) => ev(ctx, `S.players[${i}].score`);
   console.log("\n--- the steal, from the other phone ---");
   const guest2 = makeInstance("guest2");
   await tick(260);
-  guest2.localStorage.setItem("ball-mp-name", "Martijn");
+  guest2.localStorage.setItem("ball3-mp-name", "Martijn");
   run(guest2, `joinRoom("${code4}")`);
   await tick(260);
   check("guest2 is Martijn", ev(guest2, "myIdx()") === 0, ev(guest2, "myIdx()"));
@@ -241,7 +241,7 @@ const score    = (ctx, i) => ev(ctx, `S.players[${i}].score`);
   console.log("\n--- a name that matches nobody ---");
   const spec = makeInstance("spec");
   await tick(260);
-  spec.localStorage.setItem("ball-mp-name", "Bram");
+  spec.localStorage.setItem("ball3-mp-name", "Bram");
   run(spec, `joinRoom("${code4}")`);
   await tick(260);
   check("spectator has no role", ev(spec, "guestRole()") === null, ev(spec, "guestRole()"));
@@ -249,7 +249,7 @@ const score    = (ctx, i) => ev(ctx, `S.players[${i}].score`);
   check("spectator is warned, with a fix", /isn't a player/.test(mpbar(spec)), mpbar(spec).slice(0, 90));
 
   console.log("\n--- guest hygiene ---");
-  check("guest never writes its own save", guest.localStorage.getItem("ball-quiz-v1") === null, guest.localStorage.getItem("ball-quiz-v1"));
+  check("guest never writes its own save", guest.localStorage.getItem("ball3-quiz-v1") === null, guest.localStorage.getItem("ball3-quiz-v1"));
   check("host is still the only scorer", score(host, 0) === score(guest, 0) && score(host, 1) === score(guest, 1),
         `${score(host,0)}/${score(host,1)} vs ${score(guest,0)}/${score(guest,1)}`);
 
@@ -281,7 +281,7 @@ const score    = (ctx, i) => ev(ctx, `S.players[${i}].score`);
   check("solo wrong answer offers the steal", phase(solo) === "steal_offer", phase(solo));
   run(solo, "claimSteal(1); reveal(); judge(true);"); await tick();
   check("solo steal scored", score(solo, 1) === 1, score(solo, 1));
-  check("solo saves normally", !!solo.localStorage.getItem("ball-quiz-v1"));
+  check("solo saves normally", !!solo.localStorage.getItem("ball3-quiz-v1"));
   check("solo screen never locks", !canInput(solo));
 
   console.log("\n--- the clock restarts when it should, and only then ---");

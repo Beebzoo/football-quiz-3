@@ -76,7 +76,7 @@ const check = (n, c, x) => {
     JSON.stringify(qs).slice(0, 80));
 
   console.log("\n--- playing it ---");
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null;');
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null;');
   run(app, "dailyStart();"); await tick(140);
   check("it opens on the first rung", ev(app, "S.phase") === "d_q", ev(app, "S.phase"));
   check("which is the Easy one", ev(app, "S.tier") === "easy", ev(app, "S.tier"));
@@ -133,7 +133,7 @@ const check = (n, c, x) => {
     ev(app, "mine().streak.half"));
 
   console.log("\n--- it does not burn the match bank ---");
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; dailyStart();'); await tick(140);
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; dailyStart();'); await tick(140);
   const k0 = ev(app, "mine().daily.six[0].i");
   run(app, "dailyPick(q().k); dailyOn();"); await tick(120);
   run(app, 'S = freshState(["A","B"], false, "classic", 0, "board", true);');
@@ -147,7 +147,7 @@ const check = (n, c, x) => {
     JSON.stringify(stillThere));
 
   console.log("\n--- a week does not repeat itself ---");
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null;');
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null;');
   run(app, "mine().daily = {date: 1, spent: {}};");
   const seen = {};
   let clash = 0;
@@ -161,7 +161,7 @@ const check = (n, c, x) => {
   console.log("\n--- player of the day ---");
   /* THE SAME MAN ON EVERY PHONE is the whole reason this is not a per-phone
      skip list, so it is the first thing checked. */
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null;');
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null;');
   const man = d => JSON.stringify(ev(app, "dailyMan(" + d + ")"));
   check("a day has a man", ev(app, "!!dailyMan(20260914)") === true, man(20260914));
   check("and he is the same man asked twice", man(20260914) === man(20260914), "he moved");
@@ -182,7 +182,7 @@ const check = (n, c, x) => {
     order.length - new Set(order).size + " repeats");
 
   console.log("\n--- one strip a rung, and the striker pays ---");
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; dailyStart();'); await tick(140);
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; dailyStart();'); await tick(140);
   check("today's daily is played for somebody", !!ev(app, "mine().daily.man"),
     JSON.stringify(ev(app, "mine().daily.man")));
   check("and nothing is uncovered yet", ev(app, "dailyPeel(mine().daily)") === 0,
@@ -209,7 +209,7 @@ const check = (n, c, x) => {
   check("the share line says so", /is mine\./.test(ev(app, "dailyShare()")), ev(app, "dailyShare()"));
   /* A DAY YOU LOSE KEEPS THE PACK AND LOSES THE MAN, which is the whole point
      of showing him at the start. */
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; dailyStart();'); await tick(140);
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; dailyStart();'); await tick(140);
   run(app, "dailyPick((q().k + 1) % 4); dailyOn();"); await tick(130);
   check("one wrong answer ends it", ev(app, "mine().daily.done") === true, ev(app, "mine().daily.done"));
   check("the pack for turning up is still paid", ev(app, "mine().album.packs") === 1,
@@ -224,7 +224,7 @@ const check = (n, c, x) => {
   /* THE HARNESS HAS NO CANVAS, which is the case that matters: a browser that
      refuses one must still hand over the daily, the text line and the streak.
      The picture is the extra, and it has to be absent rather than broken. */
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; dailyStart();'); await tick(140);
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; dailyStart();'); await tick(140);
   for (let i = 0; i < 6; i++) { run(app, "dailyPick(q().k); dailyOn();"); await tick(110); }
   check("the text line still works", /Daily Ball/.test(ev(app, "dailyShare()")), ev(app, "dailyShare()"));
   check("the picture is simply not offered", ev(app, "dailyCanShare()") === false,
@@ -249,11 +249,11 @@ const check = (n, c, x) => {
      directly, so it has to write it down before asking for an export */
   run(app, "mineSave();");
   const dump = ev(app, "exportMine()");
-  check("the export is our own file", JSON.parse(dump).app === "BALL 2", JSON.parse(dump).app);
-  check("and carries the namespace", !!JSON.parse(dump).data["ball2-mine"], "missing");
+  check("the export is our own file", JSON.parse(dump).app === "BALL 3", JSON.parse(dump).app);
+  check("and carries the namespace", !!JSON.parse(dump).data["ball3-mine"], "missing");
   /* the harness's localStorage has getItem, setItem and removeItem, which is
      all the app ever uses, so a cleared phone is spelled out */
-  run(app, '["ball2-mine","ball-quiz-history-v1","ball-crew","ball2-outcomes","ball-names","ball-mp-name"]' +
+  run(app, '["ball3-mine","ball3-quiz-history-v1","ball3-crew","ball3-outcomes","ball3-names","ball3-mp-name"]' +
     '.forEach(k => localStorage.removeItem(k)); MINE = null;');
   check("a cleared phone has nothing", ev(app, "mine().streak.played") === 0, ev(app, "mine().streak.played"));
   run(app, "importMine(" + JSON.stringify(dump) + ");"); await tick(120);
@@ -271,7 +271,7 @@ const check = (n, c, x) => {
      that passed by coincidence of the date they were written on. */
   const AT = (h, mi) => "new Date(2026, 8, 14, " + h + ", " + (mi || 0) + ")";
   const standing = (played, last) =>
-    'localStorage.removeItem("ball2-mine"); MINE = null; ' +
+    'localStorage.removeItem("ball3-mine"); MINE = null; ' +
     "mine().streak.played = " + played + "; mine().streak.last = " + last + "; " +
     "delete mine().daily; mineSave();";
   const risk = (h, mi) => ev(app, "dailyRisk(" + AT(h, mi) + ")");
@@ -396,13 +396,13 @@ const check = (n, c, x) => {
      Tuesday. This used to read yesterday off the wall clock, which made the
      fixtures below pass only on 14 Sep 2026 and punished anybody who took the
      evening warning literally. */
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; ' +
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; ' +
     "mine().streak.played = 30; mine().streak.last = 20251231; " +
     "mine().daily = {date: 20260101, reached: 4, got: [1,1,1,1,0], done: true, spent: {}}; " +
     "dailyStreak(mine().daily);");
   check("new year's day carries on from new year's eve",
     ev(app, "mine().streak.played") === 31, ev(app, "mine().streak.played"));
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; ' +
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; ' +
     "mine().streak.played = 30; mine().streak.last = 20251229; " +
     "mine().daily = {date: 20260101, reached: 4, got: [1,1,1,1,0], done: true, spent: {}}; " +
     "dailyStreak(mine().daily);");

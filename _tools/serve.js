@@ -1,4 +1,4 @@
-/* A static server for working on BALL 2 locally.
+/* A static server for working on BALL 3 locally.
  *
  *     node _tools/serve.js [port]        default 8802
  *
@@ -51,6 +51,6 @@ http.createServer((req, res) => {
     }).end(buf);
   });
 }).listen(PORT, "127.0.0.1", () => {
-  console.log("BALL 2 serving at http://localhost:" + PORT + "/");
+  console.log("BALL 3 serving at http://localhost:" + PORT + "/");
   console.log("root: " + ROOT);
 });

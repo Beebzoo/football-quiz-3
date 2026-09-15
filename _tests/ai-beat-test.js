@@ -128,9 +128,9 @@ const check = (n, c, x) => {
     ev(app, "(() => { const a = beat('read', 140); AI_TEMPO = 2; const b = beat('read', 140); AI_TEMPO = 1; return a === 2100 && b === 1050; })()"), "no");
   check("the dial is clamped to 0.5 and 2 on the way in",
     ev(app, "(() => { setAiTempo(9); const hi = AI_TEMPO; setAiTempo(0); const lo = AI_TEMPO; setAiTempo(1); return hi === 2 && lo === .5; })()"), "no");
-  check("and remembered under ball2-ai-tempo",
-    ev(app, "(() => { setAiTempo(.5); const k = localStorage.getItem('ball2-ai-tempo'); setAiTempo(1); return k; })()") === "0.5",
-    ev(app, "localStorage.getItem('ball2-ai-tempo')"));
+  check("and remembered under ball3-ai-tempo",
+    ev(app, "(() => { setAiTempo(.5); const k = localStorage.getItem('ball3-ai-tempo'); setAiTempo(1); return k; })()") === "0.5",
+    ev(app, "localStorage.getItem('ball3-ai-tempo')"));
 
   console.log("\n--- and AI_BEAT is still the way out for a test in a hurry ---");
   const ALL = ["think", "pass", "read", "answer", "save", "tackle", "sub"];

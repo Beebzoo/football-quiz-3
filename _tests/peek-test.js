@@ -53,8 +53,8 @@ const reads = (c, text) => text != null &&
   run(host, 'S = freshState(["Martijn","Bram","Ale"], false, "classic", 0); hostRoom();');
   await tick(300);
   const code = ev(host, "MP.code");
-  bram.localStorage.setItem("ball-mp-name", "Bram");
-  ale.localStorage.setItem("ball-mp-name", "Ale");
+  bram.localStorage.setItem("ball3-mp-name", "Bram");
+  ale.localStorage.setItem("ball3-mp-name", "Ale");
   run(bram, `joinRoom("${code}")`);
   run(ale, `joinRoom("${code}")`);
   await tick(400);

@@ -311,10 +311,10 @@ const CORNERS = ["tl", "tr", "bl", "br"];
   /* ================================================================ */
   console.log("\n--- and nothing about it reaches the question bank ---");
   start("pitch", false);
-  run(app, 'localStorage.removeItem("ball2-outcomes"); S.tier = "extreme"; S.qi = 7;');
+  run(app, 'localStorage.removeItem("ball3-outcomes"); S.tier = "extreme"; S.qi = 7;');
   duel("tl", "tl");
   duel("tr", "bl");
-  const rows = JSON.parse(ev(app, 'JSON.stringify(JSON.parse(localStorage.getItem("ball2-outcomes") || "[]"))'));
+  const rows = JSON.parse(ev(app, 'JSON.stringify(JSON.parse(localStorage.getItem("ball3-outcomes") || "[]"))'));
   check("two duels, two rows", rows.length === 2, rows.length);
   check("filed as saves, so the match report can still count them",
     rows[0].kind === "save" && rows[0].ok === true && rows[1].ok === false,

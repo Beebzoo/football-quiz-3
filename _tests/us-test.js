@@ -5,13 +5,11 @@
  * not the toggling, which is three lines, but the four ways it can be quietly
  * wrong, and three of those are invisible without a browser.
  *
- * THE SKIN EATING THE FACES. body.pixel .fig > * sets background-image:none
- * !important on every part and every pseudo of every figure, and the skin is
- * always on. That rule has already silently eaten one thing in this app's
- * history: the mown bands under #pitchbg stopped drawing the day the skin went
- * permanent and nobody noticed for months. These three are the only men in here
- * with faces, so the declarations that beat it are asserted, and so is the rule
- * they beat, because a guard that stops guarding should say so.
+ * THE FACES ARE PAINTED AT ALL. BALL 2 had a sixteen-bit skin whose
+ * body.pixel .fig > * blanked background-image on every part of every figure,
+ * and these three are the only men in the app with faces, so it took two
+ * !important declarations to beat it. BALL 3 has no skin, so the declarations
+ * are all there is and they are what gets asserted.
  *
  * HOW MUCH OF A MAN SHOWS. "Heads only" and "not more than mid body" are the
  * whole brief and they are geometry, so they are checked as geometry: the
@@ -86,20 +84,21 @@ const check = (n, c, x) => {
   check("and no panel behind them", !/background|usline|h2xipitch/.test(hung),
     "something is painted behind them");
 
-  console.log("\n--- the skin does not eat their faces ---");
-  check("the skin really does blank every background-image",
-    /body\.pixel \.fig > \*[^{]*\{[^}]*background-image:none !important/.test(SRC),
-    "the blanket rule is gone, so this test is now checking nothing");
-  check("the face is declared back with !important",
-    /\.fig\.us \.f-head::after\{[^}]*background-image:var\(--usface\) !important/.test(SRC),
-    "the faces will be blanked by the skin");
-  check("and so is the flag on the chest",
-    /\.fig\.us \.f-torso\{background-image:var\(--usflag\) !important/.test(SRC),
-    "the flags will be blanked by the skin");
-  check("the block hair and eyes are turned off under a drawn face",
-    /\.fig\.us \.f-head\{background:none !important/.test(SRC) &&
-    /\.fig\.us \.f-head::before\{display:none !important/.test(SRC),
-    "the drawn face will have blocks on top of it");
+  console.log("\n--- their faces and flags are painted ---");
+  check("the face is painted onto the head",
+    /\.fig\.us \.f-head::after\{[^}]*background-image:var\(--usface\)/.test(SRC),
+    "the face is not declared, so nothing paints it");
+  check("and the flag onto the chest",
+    /\.fig\.us \.f-torso\{[^}]*background-image:var\(--usflag\)/.test(SRC),
+    "the flag is not declared, so nothing paints it");
+  /* THE HEAD UNDERNEATH HAS TO GO QUIET. The drawing is the whole head, so the
+     skull fill and the hair bar over it would both sit on top of a real face.
+     No !important anywhere: there is no skin to out-shout any more, and
+     .fig.us .f-head::after already beats .f-head::after on specificity. */
+  check("the plain head and its hair are turned off under a drawn face",
+    /\.fig\.us \.f-head\{background:none/.test(SRC) &&
+    /\.fig\.us \.f-head::after\{[^}]*background:none/.test(SRC),
+    "the drawn face will have a skull and a fringe on top of it");
   const men = ev(app, "US.length");
   check("every one of them has a face and a flag",
     (SRC.match(/--usface:url\("data:image\/svg\+xml;base64,/g) || []).length === men &&
@@ -148,7 +147,7 @@ const check = (n, c, x) => {
      a fresh page has everybody down. This is asserted on the markup as well as
      the state, because "up" is a class and a state that never reached the class
      would look exactly like a bug in the CSS. */
-  run(app, 'localStorage.removeItem("ball2-us"); usUp = usLoad(); render();');
+  run(app, 'localStorage.removeItem("ball3-us"); usUp = usLoad(); render();');
   await tick(220);
   check("nobody is up on a fresh page", up().length === 0, JSON.stringify(up()));
   check("and no head on the page is wearing a shirt",
@@ -195,18 +194,18 @@ const check = (n, c, x) => {
 
   console.log("\n--- and it remembers, within reason ---");
   check("what is up is written down",
-    JSON.parse(ev(app, 'localStorage.getItem("ball2-us")')).length === up().length,
-    ev(app, 'localStorage.getItem("ball2-us")'));
+    JSON.parse(ev(app, 'localStorage.getItem("ball3-us")')).length === up().length,
+    ev(app, 'localStorage.getItem("ball3-us")'));
   /* AN EMPTY LIST IS A REAL ANSWER NOW, so it has to survive the round trip:
      a load that quietly refilled the wall would undo the last tap. */
-  run(app, 'localStorage.setItem("ball2-us", "[]");');
+  run(app, 'localStorage.setItem("ball3-us", "[]");');
   check("an empty wall comes back empty rather than refilling itself",
     ev(app, "usLoad().length") === 0, JSON.stringify(ev(app, "usLoad()")));
-  run(app, 'localStorage.setItem("ball2-us", JSON.stringify(["nobody","mar","bra"]));');
+  run(app, 'localStorage.setItem("ball3-us", JSON.stringify(["nobody","mar","bra"]));');
   check("a name that is not one of us is dropped",
     ev(app, "usLoad().indexOf('nobody')") === -1 && ev(app, "usLoad().length") === 2,
     JSON.stringify(ev(app, "usLoad()")));
-  run(app, 'localStorage.setItem("ball2-us", "not json at all");');
+  run(app, 'localStorage.setItem("ball3-us", "not json at all");');
   check("rubbish on the disk does not take the front door down",
     ev(app, "usLoad().length") === 0, JSON.stringify(ev(app, "usLoad()")));
 

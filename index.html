@@ -20,13 +20,13 @@
      headings on olive grass. Here rather than only in the CSS so it holds on the
      first paint too, before applyTheme has stamped the root. -->
 <meta name="color-scheme" content="light dark">
-<title>BALL 2</title>
+<title>BALL 3</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/ball.png">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<!-- THE NAME IS BALL 2 IN ALL THREE PLACES A PHONE CAN ASK FOR IT. The
-     manifest has said BALL 2 since it was written, the title said BALL, and
+<!-- THE NAME IS BALL 3 IN ALL THREE PLACES A PHONE CAN ASK FOR IT. The
+     manifest has said BALL 3 since it was written, the title said BALL, and
      this line did not exist at all, which is not a cosmetic mismatch. iOS
      reads apple-mobile-web-app-title first, falls back to the manifest's
      short_name on newer Safari, and falls back to the title tag on anything
@@ -36,7 +36,7 @@
      because that sheet reads the title. Three sources, one answer, and the one
      with the highest precedence is now stated rather than left to be guessed
      at. -->
-<meta name="apple-mobile-web-app-title" content="BALL 2">
+<meta name="apple-mobile-web-app-title" content="BALL 3">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   :root{
@@ -58,7 +58,7 @@
   @font-face{font-family:'Barlow Semi Condensed';font-style:italic;font-weight:700;font-display:swap;src:url(assets/fonts/barlow-semicondensed-700i-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
   @font-face{font-family:'Lora';font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/lora-400i-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
   @font-face{font-family:'Lora';font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/lora-400i-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
-  /* the pixel face, used only by the sixteen-bit pitch */
+  /* the pixel face: numbers on the scorebug and the tier keys */
   @font-face{font-family:'Silkscreen';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/silkscreen-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 
     /* one place for the interface face; everything else says var(--ui) */
@@ -2669,372 +2669,6 @@
     brightness(1.08)}
   .h2man.hold .h2lb{color:#f7e3a6;text-shadow:0 1px 3px rgba(0,0,0,.98),0 0 8px rgba(245,221,150,.5)}
 
-  /* ================================================================
-     THE SIXTEEN-BIT SKIN
-     ================================================================
-     A second look for the match, behind a toggle next to view, sound and
-     tackles, exactly the way the tackle shipped behind a flag. Every rule
-     below is prefixed body.pixel and nothing outside that prefix changes, so
-     the night look cannot regress by accident: with the toggle off this whole
-     block is inert.
-
-     The tilt stays. The perspective is what makes the ladder readable and the
-     geometry IS the game, so this changes what the match looks like and not
-     one thing about how it is priced.
-
-     ---------------- the man ----------------
-     A real sprite grid. One unit is the man's height over 22, rounded to a
-     half pixel so every edge lands on a device pixel on a phone and nothing
-     blurs, and so 34px and 48px men stay different sizes. Ten units wide,
-     twenty-two tall, every part placed in units and never in per cent. The
-     outline is one unit, capped at 3px so a blown-up man is not all outline.
-
-     It applies to every .fig, not just the pitch men: the goal scene builds
-     the same seven parts at 96px and 168px and the grid is a fraction of --h,
-     so the celebration is the same sprite for free. */
-  body.pixel .fig{--px:calc(var(--h) / 22);--px:round(var(--h) / 22, 0.5px);
-    --ow:min(var(--px), 3px);--o:#0b0b0b;
-    width:calc(var(--px) * 10);height:calc(var(--px) * 22);filter:none}
-  /* NO transform:none HERE. The draft had it, which is right for a still and
-     fatal in the app: every limb animation targets these parts. */
-  body.pixel .fig > *, body.pixel .fig > *::before, body.pixel .fig > *::after{
-    border-radius:0 !important;background-image:none !important;
-    box-shadow:0 0 0 var(--ow) var(--o)}
-  /* head: columns 3-6 of ten, rows 0-3, hair on the top two, eyes on row 2.
-     THE OFFSET IS FIVE, NOT THREE, and that is not an off-by-two. The night
-     rule centres the head with translateX(-50%) and nothing here cancels it,
-     so the browser takes off half a head width, two columns, from whatever is
-     written here. Five minus two is three. Writing three put the head on
-     columns 1-4 of a man whose torso is 2-7, which is a head sitting on his
-     left shoulder, and it had been that way since the skin was written.
-     Absorbing the translate instead of cancelling it keeps transform:none out
-     of this block, which the guard downstairs cares about. */
-  body.pixel .fig .f-head{left:calc(var(--px) * 5);top:0;width:calc(var(--px) * 4);
-    height:calc(var(--px) * 4);background:#e3b58c}
-  body.pixel .fig .f-head::after{left:0;right:0;top:0;height:calc(var(--px) * 2);
-    background:#2a1c12;box-shadow:none}
-  body.pixel .fig .f-head::before{content:"";position:absolute;left:var(--px);
-    top:calc(var(--px) * 2);width:var(--px);height:var(--px);background:var(--o);
-    box-shadow:calc(var(--px) * 2) 0 0 0 var(--o)}
-  /* THESE THREE HAVE FACES, AND NOBODY ELSE IN THE APP DOES. The rule above
-     sets background-image:none !important on every part and every pseudo of
-     every figure, which is right for a crowd of identical men and is exactly
-     what would silently eat three faces: the same shape of bug as the mown
-     bands that stopped drawing when this skin went permanent. So these say
-     !important back, deliberately, rather than hoping to out-specify it.
-
-     THE HEAD ITSELF GOES. The drawing is the whole head, hair and all, in a 24
-     by 16 box that is the head's four rows by six columns including the one
-     unit of overhang each side, so the skin's own hair bar and its two eye
-     pixels have to stop being drawn or they sit on top of the face. */
-  body.pixel .fig.us .f-head{background:none !important;box-shadow:none !important}
-  body.pixel .fig.us .f-head::before{display:none !important}
-  body.pixel .fig.us .f-head::after{left:calc(var(--px) * -1);right:calc(var(--px) * -1);
-    top:0;height:calc(var(--px) * 4);background:none !important;box-shadow:none !important;
-    background-image:var(--usface) !important;background-repeat:no-repeat !important;
-    background-size:100% 100% !important}
-  /* and the flag on the chest, at rows 6 to 7.5, which is why ten units of him
-     is enough to see which country he is */
-  body.pixel .fig.us .f-torso{background-image:var(--usflag) !important;
-    background-repeat:no-repeat !important;
-    background-size:calc(var(--px) * 1.55) auto !important;
-    background-position:calc(var(--px) * 0.6) calc(var(--px) * 1) !important}
-
-  /* torso: six wide, rows 5-12, a darker column down the right for depth */
-  body.pixel .fig .f-torso{left:calc(var(--px) * 2);top:calc(var(--px) * 5);
-    width:calc(var(--px) * 6);height:calc(var(--px) * 8);background:var(--kit);
-    box-shadow:0 0 0 var(--ow) var(--o),inset calc(var(--px) * -1) 0 0 0 rgba(0,0,0,.28)}
-  body.pixel .fig .f-torso::before{left:calc(var(--px) * 2);width:calc(var(--px) * 2);
-    height:var(--px);top:calc(var(--px) * -1);background:#e3b58c;box-shadow:none}
-  /* four units, not 3.2, so the number is a whole number of pixels high: 8 on
-     our men and 6 on theirs instead of 6.4 and 4.8. Silkscreen has no size
-     that comes out crisp down here, its digit ink is 11/16 of an em and the
-     advance is half, so there is nothing to land on and the only lever is more
-     ink. Two digits measure 1.2em, which is 9.6px inside a 12px torso and
-     7.2px inside a 9px one, so both still fit with room. */
-  body.pixel .fig .f-torso i{font-size:calc(var(--px) * 4);opacity:1;letter-spacing:0;
-    margin-top:0;text-shadow:none;font-family:"Silkscreen","Courier New",monospace;font-weight:400}
-  /* arms: two wide, sleeve rows 5-9, forearm 10-12 */
-  body.pixel .fig .f-arm{top:calc(var(--px) * 5);width:calc(var(--px) * 2);
-    height:calc(var(--px) * 8);background:color-mix(in srgb,var(--kit) 80%,#000)}
-  /* AND THE SAME LEAK ON THE ARMS. The night look rests them at 8 degrees,
-     which is the one soft anti-aliased shape on a figure made of hard edges,
-     and straightening it needs a transform. So this is the deliberate
-     exception the guard in _tests/pixel-test.js now names by shape.
-     It cancels the resting tilt and nothing else. Every pose that carries
-     meaning has four classes against this rule's three and still wins: the
-     keeper at 34 degrees, the striker, the man brought down, the man caught.
-     Animations beat a static declaration outright whatever the specificity, so
-     the run, the slide and the through-ball never notice. */
-  body.pixel .fig .f-arm{transform:none}
-  body.pixel .fig .f-arm.l{left:0}
-  body.pixel .fig .f-arm.r{right:0}
-  body.pixel .fig .f-arm::after{height:calc(var(--px) * 3);background:#e3b58c;box-shadow:none}
-  /* shorts: rows 13-15, with the gap between the legs on the last two. The
-     colour comes from kitShorts, which hands back the same off-white these
-     have always been for all but two kits in the app. Unlike --ink this
-     property is not a :root token, so the fallback is a real one. */
-  body.pixel .fig .f-shorts{left:calc(var(--px) * 2);top:calc(var(--px) * 13);
-    width:calc(var(--px) * 6);height:calc(var(--px) * 3);background:var(--pxshorts,#f4f1ea)}
-  body.pixel .fig .f-shorts::after{left:calc(var(--px) * 2.5);right:calc(var(--px) * 2.5);
-    top:var(--px);bottom:0;background:var(--o);box-shadow:none}
-  /* legs: two wide, rows 16-21, socks 18-20 with a turnover, boot on row 21 */
-  body.pixel .fig .f-leg{top:calc(var(--px) * 16);width:calc(var(--px) * 2);
-    height:calc(var(--px) * 6);background:#e3b58c}
-  body.pixel .fig .f-leg.l{left:calc(var(--px) * 2)}
-  body.pixel .fig .f-leg.r{right:calc(var(--px) * 2)}
-  body.pixel .fig .f-leg::before{top:calc(var(--px) * 2);bottom:var(--px);left:0;right:0;
-    background:var(--kit);box-shadow:none;
-    background-image:linear-gradient(180deg,var(--pxshorts,#f4f1ea) 0 var(--px),transparent var(--px)) !important}
-  body.pixel .fig .f-leg::after{left:calc(var(--px) * -1);right:0;bottom:0;height:var(--px);
-    background:#2b2b2b;box-shadow:0 0 0 var(--ow) var(--o)}
-  body.pixel .fig .f-leg.r::after{left:0;right:calc(var(--px) * -1)}
-  /* the soft lifts the night look puts on a selected or holding man are drop
-     shadows and glows, which have no meaning on a sprite. Scale and a hard
-     outline do the same job in this language. */
-  body.pixel .h2man .fig.pm{filter:none;transition:transform .18s}
-  body.pixel .h2man.sel .fig.pm{transform:scale(1.26);filter:none}
-  body.pixel .h2man.hold .fig.pm{filter:none}
-  /* A RING, NOT A WASH. At twice the outline's spread and half opacity this
-     was painting 50% white over everything the torso is drawn on top of, and
-     the builder emits the head and both arms before the torso: grey at the
-     neck, grey at both shoulders, and the sleeve shading that
-     color-mix(kit 80%, #000) exists to give gone with it. On a yellow kit the
-     sleeve went from 1.59:1 against the shirt to 1.12:1. A single device
-     pixel past the outline leaves a hard rim instead, which is the same cue
-     in the sprite's own language and stops at the edge of the man. */
-  body.pixel .h2man.can .fig.pm .f-torso{box-shadow:0 0 0 var(--ow) var(--o),
-    inset calc(var(--px) * -1) 0 0 0 rgba(0,0,0,.28),
-    0 0 0 calc(var(--ow) + 1px) rgba(255,255,255,.5)}
-  /* AND THE MEN LIGHTING UP AFTER THE SWING DO NOT UNDO IT. h2lightup ends on
-     the night look's box-shadow, and an animation beats a plain declaration
-     whatever the specificity says, so with both-fill holding that last frame
-     the hard rim above was replaced by the soft white one for as long as .lit
-     sat on the pitch, which is the whole time somebody is choosing a pass. The
-     rim is the sprite's own way of saying a man can be found, so the sprite
-     keeps it and does without the fade, the way .h2ring and the scorebug halo
-     already do.
-     The .lit qualifier is deliberately left off. The animation only exists
-     under .lit in the first place, and pixel-test reads its class names out of
-     the rendered markup, where the flag is written as " lit" with a leading
-     space and so never lands in that corpus. A selector naming it here would
-     read as dead and fail the block's own test. */
-  body.pixel .h2pitch .h2man.can .fig.pm .f-torso{animation:none}
-
-  /* ---------------- SPRITES STEP ----------------
-     The keyframes are untouched. Only the timing changes, and only here: a
-     smooth bob is right for a drawn man and wrong for a sprite, and steps(2)
-     on the same keyframes is a two-frame walk for nothing. The fall and the
-     slide rotate the whole figure, which costs a sprite its edges, so they
-     snap through four angles instead of sweeping.
-
-     THE FALL IS CALLED .thru, the man who has been put through. .down is the
-     obvious guess and it is a trap: it carries a static transform rather than
-     an animation, so animation-timing-function has nothing to act on. This
-     rule named .fall for a long time, which is no class at all, so the man
-     going down kept sweeping under a skin that had squared off everything
-     around him. */
-  body.pixel .h2man.run .fig.pm,
-  body.pixel .h2man.step .fig.pm,
-  body.pixel .h2man.moved .fig.pm,
-  body.pixel .h2man.run .fig.pm .f-leg,
-  body.pixel .h2man.step .fig.pm .f-leg,
-  body.pixel .h2man.moved .fig.pm .f-leg,
-  body.pixel .h2man.run .fig.pm .f-arm,
-  body.pixel .h2man.step .fig.pm .f-arm{animation-timing-function:steps(2)}
-  body.pixel .h2man.thru .fig.pm,
-  body.pixel .h2man.slide .fig.pm,
-  body.pixel .h2man.felled .fig.pm{animation-timing-function:steps(4)}
-  /* h2balance starts and ends at the 8 degrees the sprite no longer rests at,
-     so the passer's arm would snap out and back for half a second. Same swing,
-     from zero. The keyframe itself lives with the other keyframes and is left
-     alone, because the night look still wants the original. */
-  body.pixel .h2man.from .fig.pm .f-arm.l{animation-name:h2balance16}
-
-  /* ---------------- the ground ----------------
-     Flat two-tone grass in hard bands, solid chalk with no softness, no
-     floodlight pools, no vignette, no rounded corners anywhere. */
-  body.pixel .h2pitch{
-    background:repeating-linear-gradient(180deg,#3aa04a 0 7.6%,#2f8a3f 7.6% 15.2%);
-    border-radius:0;box-shadow:6px 6px 0 #061a0c}
-  body.pixel .h2pitch::before{border:3px solid #f2f6ee;border-radius:0;inset:2% 2.5%}
-  body.pixel .h2pitch::after{border-top:3px solid #f2f6ee}
-  body.pixel .h2box, body.pixel .h2six{border:3px solid #f2f6ee;border-radius:0}
-  body.pixel .h2box.t, body.pixel .h2six.t{border-top-color:transparent}
-  body.pixel .h2box.b, body.pixel .h2six.b{border-bottom-color:transparent}
-  body.pixel .h2circle{border:3px solid #f2f6ee;border-radius:50%;box-shadow:none;background:none}
-  body.pixel .h2spot{width:6px;height:6px;background:#f2f6ee;border-radius:0;box-shadow:none}
-  body.pixel .h2net{image-rendering:pixelated;opacity:.9}
-  body.pixel .h2dline{border-top-style:solid;border-top-width:3px}
-  /* the flags are PNGs and pixelating them is the whole treatment they need */
-  body.pixel .sb-flag, body.pixel .h2flag, body.pixel .tflag,
-  body.pixel .h2handbadge,
-  body.pixel .cupme img, body.pixel .cupch img,
-  body.pixel .cupside img, body.pixel .cuptab td.cn img{image-rendering:pixelated}
-  /* shadows: a flat dark slab, no blur */
-  body.pixel .h2man .h2sh{filter:none;border-radius:0;background:rgba(0,0,0,.38);height:3px;width:18px}
-  body.pixel .h2bsh{filter:none;border-radius:0;background:rgba(0,0,0,.38);height:3px;width:12px}
-  /* the ball: the Teamgeist goes away and an eight-pixel ball is drawn on the
-     wrap, so it flies and lifts with every existing animation and does not
-     spin, which is correct for a sprite */
-  body.pixel .h2ballwrap .h2ball{visibility:hidden}
-  body.pixel .h2ballwrap::before{content:"";position:absolute;left:50%;top:50%;
-    width:8px;height:8px;margin:-4px 0 0 -4px;background:#ffffff;
-    box-shadow:0 0 0 2px #0b0b0b, 2px 0 0 0 #0b0b0b inset, 0 2px 0 0 #0b0b0b inset;
-    image-rendering:pixelated}
-  body.pixel .h2ballwrap::after{content:"";position:absolute;left:50%;top:50%;
-    width:2px;height:2px;margin:-1px 0 0 1px;background:#0b0b0b;
-    box-shadow:-4px 2px 0 0 #0b0b0b,2px -4px 0 0 #0b0b0b}
-  /* the ring under the man on the ball: a hard slab, and it does not breathe */
-  body.pixel .h2ring{filter:none;border-radius:0;border:2px solid #f5dd9a;
-    background:none;box-shadow:none;height:8px;width:30px;animation:none}
-  /* names in a pixel face */
-  body.pixel .h2man .h2lb{font:400 7px/1 "Silkscreen","Courier New",monospace;
-    letter-spacing:0;text-shadow:1px 1px 0 #0b0b0b;color:#f2f6ee}
-  body.pixel .h2man.sel .h2lb, body.pixel .h2man.hold .h2lb{color:#ffe540;text-shadow:1px 1px 0 #0b0b0b}
-
-  /* ---------------- the chrome round it ----------------
-     Square corners and hard shadows, because one soft rounded panel against a
-     pixel pitch is the tell. The QUESTION CARD is deliberately left alone: it
-     is the reading surface, it carries paragraphs, and pixel type at that
-     length is unreadable. */
-  body.pixel .sb, body.pixel .h2confirm, body.pixel .toast,
-  body.pixel .h2heat, body.pixel .h2where, body.pixel .h2scout{border-radius:0}
-  /* THE QUESTION CARD GETS THE FRAME AND NOT THE FACE. The note above says the
-     card is left alone because it is the reading surface and pixel type at
-     paragraph length is unreadable, and that is still true and still right. It
-     is the OUTLINE that was out of place: the scorebug above it and the turn
-     card beside it are square boxes with a three pixel white edge and a hard
-     shadow, and this was a rounded rectangle with a hairline sitting between
-     them. So it gets the box, and the sentence inside it stays in a face you
-     can read a sentence in. */
-  body.pixel .qcard{border-radius:0;border:3px solid var(--board-ink);
-    box-shadow:4px 4px 0 rgba(0,0,0,.45)}
-  /* the men you are marking get the same box as everything else on the board */
-  body.pixel .h2markbtn{border-radius:0;border-width:2px;box-shadow:3px 3px 0 rgba(0,0,0,.35)}
-  /* the team sheet: the pitch gets the same solid white edge every board has,
-     and the name plates and the empty slots square off with everything else */
-  body.pixel .h2xipitch{border-radius:0;box-shadow:inset 0 0 0 2px #f2f6ee}
-  body.pixel .h2xislot b{border-radius:0}
-  body.pixel .h2xislot.empty i{border-radius:0}
-  body.pixel .h2opt{border-radius:0;border-width:2px}
-  body.pixel .h2opt .k{border-radius:0}
-  body.pixel .qcard .atext{border-radius:0}
-  body.pixel .h2confirm{box-shadow:4px 4px 0 rgba(0,0,0,.5)}
-  /* THE SCOREBUG IS MORE THAN ITS CORNERS. The group above squares the bar,
-     and that used to be the whole treatment, which left the one panel at the
-     top of every match screen sitting over hard-edged men with a blurred
-     shadow under it, rounded flags, a rounded score separator, and a halo on
-     the lit half that bled sideways and pulsed. The halo gets the same answer
-     .h2ring got: a hard edge that does not breathe.
-
-     THE KIT-COLOUR FADE BEHIND THE LIT HALF STAYS. It is how possession reads
-     and which way round it is, and flattening it would cost the bar its job to
-     save it a gradient. */
-  body.pixel .sb{box-shadow:4px 4px 0 rgba(0,0,0,.5)}
-  body.pixel .sb-flag{border-radius:0;box-shadow:0 0 0 1px #0b0b0b}
-  body.pixel .sb-mid s{border-radius:0}
-  body.pixel .sb-t.on::after{box-shadow:none;animation:none}
-  body.pixel .sb-dots s{border-radius:0;width:2px;height:2px}
-  body.pixel .h2ctier{border-radius:0}
-  /* the pack reveal in the pixel skin: the plate, the name bar and the stamp
-     are chrome and lose their corners with the rest of it, and the one line of
-     serif in the whole app goes pixel too, because a Lora italic sitting over a
-     sixteen-bit card is the exact tell this block exists to stop */
-  body.pixel .pkrv-plate,body.pixel .pkrv-side,body.pixel .pkrv-stamp{border-radius:0}
-  body.pixel .pkrv-stamp{box-shadow:3px 3px 0 rgba(0,0,0,.5)}
-  body.pixel .pkrv-pos em{font:400 .8rem/1.3 var(--px16);font-style:normal}
-
-  /* ---------------- the ground the pitch sits on ----------------
-     Flat mid-dark rather than the night look's soft near-black. A gradient
-     behind a hard-edged pitch is the tell, and the grass wants something to
-     sit ON rather than to fade into. */
-  /* THE BACKDROP FOLLOWS THE LOOK, WHICH IT ALWAYS SHOULD HAVE. This forced
-     #0b2a14 with an !important, so with the skin on the page behind the whole
-     app was dark green whatever the theme said, and the light theme's charcoal
-     ink was being written on it. The rule three hundred lines up says outright
-     that this one follows the look and the pitch is green in both; this was the
-     line breaking it. The image still goes, because mown bands behind a
-     sixteen-bit pitch is two grass textures arguing.
-
-     AND THAT ARGUMENT IS ONLY EVER HAD ON A MATCH SCREEN, which is what the
-     scope is for now. h2Pixel is a hardcoded true, so this rule fires on every
-     screen there is, and killing the image everywhere killed the mown bands
-     under the menu, the album and the Cup as well. #pitchbg was written to
-     carry them: it has a 72px gradient of its own and a note saying the bands
-     say pitch quite enough, which is why it has no centre circle and no halfway
-     line. That has not drawn since the skin went permanent, and --mow-a,
-     --mow-b and --flood have been dead tokens in both themes.
-
-     A MATCH STILL GETS THE FLAT BACKDROP. h2hmode is on exactly while a pitch
-     is on screen, which is exactly when two grass textures would argue. */
-  body.pixel #pitchbg{background:var(--bg) !important}
-  body.pixel.h2hmode #pitchbg{background-image:none !important}
-  body.pixel .h2stage{background:none;box-shadow:none;border-radius:0}
-
-  /* ---------------- the goal scene ----------------
-     THERE IS NOTHING LEFT IN HERE TO RESTYLE, and that is the answer to the
-     question rather than a gap. The shot is a canvas of pixels in both looks
-     now, so the skin has nothing to flatten: the sky, the stand, the
-     floodlight pools, the wash and the net were all soft CSS that the toggle
-     used to harden, and not one of them exists any more.
-
-     WHY BOTH LOOKS GET THE PIXELS. It is the same argument the menu hero was
-     settled on, with one more reason on top. The toggle only exists inside a
-     match, so anything that appears only under body.pixel is invisible to most
-     people who ever open this app, and a scene worth building is not worth
-     hiding behind a switch nobody finds. The extra reason is the picker: two
-     different shot scenes would mean two goals, two sets of geometry and two
-     places for the corner overlay to be pinned to, and keeping those in step
-     is exactly the drift the whole rebuild exists to remove. One scene, drawn
-     once, and the skin takes the frame around it, which is all that is left. */
-  body.pixel .g3{border-radius:0;box-shadow:6px 6px 0 #061a0c}
-
-  /* ---------------- the referee, and the armband ----------------
-     Both are pseudo-elements on parts the sprite already owns, so the grid
-     does all the work: the badge is one unit by two on the chest and the
-     armband is a single row across the sleeve, which is the only place a band
-     CAN go on a man who is ten units wide. The night look's shapes leak in
-     through .fig.ref and .fig.cap and are wrong here for the usual reason,
-     per cent of a box instead of units of the grid, so both get their
-     geometry again in units. Not their corners: the blanket child rule at the
-     top of this block already squares every pseudo-element with !important,
-     which is one of the few times that hammer has saved a line. */
-  body.pixel .fig.ref .f-torso::after{left:var(--px);top:calc(var(--px) * 2);
-    width:var(--px);height:calc(var(--px) * 2);opacity:1;box-shadow:none}
-  body.pixel .fig.cap .f-arm.l::before{left:calc(var(--px) * -0.5);
-    right:calc(var(--px) * -0.5);top:calc(var(--px) * 4);height:var(--px);box-shadow:none}
-  /* A SPRITE GETS ITS SHAPES FROM TONE, NOT FROM OUTLINES. Everywhere else
-     one unit of #0b0b0b between an arm and a torso is plenty, because the kit
-     is a colour and the outline is not. On the referee they are nearly the
-     same thing and he came out a black brick with a face on it. A step up on
-     the sleeve is what sixteen bits actually did about a black kit. */
-  body.pixel .fig.ref .f-arm{background:#3c424b}
-  /* AND HIS SHORTS, because kitShorts hands him the off-white it hands every
-     dark kit in the app. That is right for a footballer and wrong for a
-     referee, who is black from collar to boot. h2FigHTML writes the property
-     on the element, so an ordinary rule loses to it and an author !important
-     is the one thing that beats an inline declaration. It is overruling a
-     value this figure should never have been handed rather than a decision,
-     and it takes the sock turnover with it, which is the same answer to the
-     same question. */
-  body.pixel .fig.ref{--pxshorts:#191d22 !important}
-  /* the grass and the chalk under the three of them: the same flat two-tone
-     and the same solid white .h2pitch gets, because it is the same pitch */
-  body.pixel .h2toss3{border-radius:0;box-shadow:4px 4px 0 #061a0c;
-    background:repeating-linear-gradient(180deg,#3aa04a 0 9%,#2f8a3f 9% 18%)}
-  body.pixel .h2tcirc{border:3px solid #f2f6ee;border-radius:50%;background:none}
-  /* the names, in the face the pitch already uses for exactly this job */
-  body.pixel .h2toss3 .h2lb{font:400 8px/1 "Silkscreen","Courier New",monospace;
-    letter-spacing:0;text-shadow:1px 1px 0 #0b0b0b;color:#f2f6ee}
-  /* THE DROPPED HEAD CANNOT BE A ROTATION HERE. Thirteen degrees on a
-     twenty-pixel head is exactly the anti-aliased edge this skin exists to
-     avoid, and it would be the only soft thing on the screen. A sprite drops
-     its head by moving it down two rows, which is how the era drew a beaten
-     man, and h2drop16 lives out with the other keyframes the way
-     h2balance16 does, so that nothing in this block declares one. */
-  body.pixel .h2toss3.done .tossman.lost .fig .f-head{animation-name:h2drop16;
-    animation-timing-function:steps(2)}
   /* the boot going through it, and the man who collects it */
   /* the man playing it */
   .h2man.from .fig.pm{animation:h2lean .5s cubic-bezier(.3,1.1,.4,1)}
@@ -3052,10 +2686,6 @@
   @keyframes h2plant{0%,100%{transform:rotate(0)}44%{transform:rotate(-9deg)}}
   .h2man.from .fig.pm .f-arm.l{animation:h2balance .5s ease-out}
   @keyframes h2balance{0%,100%{transform:rotate(8deg)}46%{transform:rotate(42deg)}}
-  /* the same swing for the sprite, whose arms rest straight. Out here with the
-     other keyframes rather than in the skin block, because a keyframe's
-     percentages read as selectors to the scoping test. */
-  @keyframes h2balance16{0%,100%{transform:rotate(0deg)}46%{transform:rotate(42deg)}}
   /* the man taking it */
   .h2man.to .fig.pm{animation:h2settle .5s .4s cubic-bezier(.25,1.5,.4,1) both}
   @keyframes h2settle{0%,100%{transform:translateY(0)}40%{transform:translateY(-2px)}}
@@ -3289,6 +2919,35 @@
     opacity:.92;margin-top:8%}
   .f-torso::before{content:"";position:absolute;left:33%;right:33%;top:-3%;height:12%;
     background:rgba(0,0,0,.4);border-radius:0 0 60% 60%/0 0 130% 130%}   /* collar */
+
+  /* ---------- the three of us ----------
+     THE DRAWING IS THE WHOLE HEAD, hair and all, in a 24 by 16 box, so the
+     head's own fill and the hair bar over it both have to stop being painted
+     or they sit on top of the face. BALL 2 kept these rules inside the
+     sixteen-bit block because the skin was always on and the sprite was the
+     only thing that ever drew these three. There is no skin here, so the night
+     figure is the only figure and this is the only place the faces can live.
+     Found by us-test rather than by looking, which is the whole reason that
+     file asserts the declarations instead of trusting them. */
+  .fig.us .f-head{background:none;box-shadow:none}
+  /* a third of a head of overhang each side, which is the one unit the sprite
+     gave itself on a six-unit head: the drawing carries ears and hair past
+     where the skull is */
+  .fig.us .f-head::after{left:-16.7%;right:-16.7%;top:0;height:100%;
+    border-radius:0;background:none;
+    background-image:var(--usface);background-repeat:no-repeat;
+    background-size:100% 100%}
+  /* AND THE FLAG ON THE CHEST, at rows 6 to 7.5 of the twenty-two he is, which
+     is why ten units of him is enough to see which country he is. The torso
+     runs 3.2 to 11, so the flag sits at 36 per cent down it and is 36 per cent
+     of its width, the 3:2 of the drawing doing the rest. The shirt's own
+     shading is kept underneath rather than replaced, which is what the sprite
+     had to do to it. */
+  .fig.us .f-torso{
+    background-image:var(--usflag),linear-gradient(180deg,rgba(255,255,255,.2),rgba(0,0,0,.26));
+    background-repeat:no-repeat,no-repeat;
+    background-size:36% auto,auto;
+    background-position:11% 36%,0 0}
 
   .f-arm{top:16.5%;width:14%;height:32%;background:var(--kit);border-radius:44%;
     background-image:linear-gradient(180deg,rgba(255,255,255,.14),rgba(0,0,0,.3))}
@@ -5004,22 +4663,13 @@
      pivots about its own middle, which reads as a tilt and not as a drop; the
      neck is the bottom edge. And a head that falls on shoulders that do not is
      a broken doll, so the man goes down three pixels under it. The sink is a
-     pure translate on purpose, because rotating a whole figure is what costs a
-     sprite its edges and this has to be right in both looks.
-
-     That is the cheap half. The other half is that the rotation itself cannot
-     cross into the sixteen-bit skin at all, which is h2drop16 below and the
-     rule that switches to it inside the block. */
+     pure translate on purpose, because rotating a whole figure is what costs
+     it its edges. */
   .h2toss3.done .tossman.lost .fig{animation:h2sink .5s .12s ease-out both}
   @keyframes h2sink{to{transform:translateY(3px)}}
   .h2toss3.done .tossman.lost .fig .f-head{transform-origin:50% 96%;
     animation:h2drop .5s .12s cubic-bezier(.3,1.2,.5,1) both}
   @keyframes h2drop{to{transform:translateX(-50%) rotate(13deg)}}
-  /* the sprite's answer to the same thing, named out here with the rest of the
-     keyframes and switched on from inside the skin, exactly the way
-     h2balance16 is. Two whole units down, so both halves of the steps(2) land
-     on a real pixel, and --px is inherited from the figure. */
-  @keyframes h2drop16{to{transform:translateX(-50%) translateY(calc(var(--px,5px) * 2))}}
   /* REDUCED MOTION: the coin still lands, the men do not move. The spin and
      the arc are deliberately not in here, because the coin IS the result and
      the result has to arrive. Everything the staging added goes, except the
@@ -5029,8 +4679,7 @@
      saying out loud rather than discovering. The drop lives only in h2drop,
      the blanket rule above matches .f-head because it is a direct child of
      .fig, and there is no static rotate underneath it to fall back on. Giving
-     him one would cost two rules, not one, since thirteen degrees on a sprite
-     head is the exact edge h2drop16 exists to avoid.
+     him one would cost two rules, not one.
 
      The wrapper cannot merely lose its animation. The small coin in his hand
      is an animation END STATE, and without one it would spin unreadably at his
@@ -7301,7 +6950,7 @@ const CAREERS = [
   {"n":"James McFadden","c":["motherwell","everton","birmingham","everton","sunderland","motherwell","st-johnstone","motherwell","queen-of-the-south"]},
 ];
 
-const SAVE_KEY = "ball-quiz-v1";
+const SAVE_KEY = "ball3-quiz-v1";
 const OFFENCE_PENALTY = n => n<=1 ? 0 : n===2 ? 1 : 2;
 
 let S = null; // {players:[{name,score,off}], turn, round, phase, tier, qi, stealer, timeUp, used:{tier:[i,..]}}
@@ -7777,7 +7426,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    ever has work to do for somebody who has chosen the night. */
 let THEME = "light";
 try{
-  const saved = localStorage.getItem("ball2-theme");
+  const saved = localStorage.getItem("ball3-theme");
   if(saved === "light" || saved === "dark") THEME = saved;
 }catch(e){}
 /* THE BROWSER CHROME follows the look too. It was a fixed broadcast green from
@@ -7795,7 +7444,7 @@ applyTheme();
 function setTheme(t){
   audio();
   THEME = t === "light" ? "light" : "dark";
-  try{ localStorage.setItem("ball2-theme", THEME); }catch(e){}
+  try{ localStorage.setItem("ball3-theme", THEME); }catch(e){}
   applyTheme();
   render();
 }
@@ -8287,7 +7936,7 @@ const roomCode = () => Array.from({length:4},()=>"ABCDEFGHJKLMNPQRSTUVWXYZ"[Math
    match a name on the host phone. No match means spectator: watch and buzz. */
 const isGuest = () => !!(MP && MP.role==="guest");
 const isHost  = () => !!(MP && MP.role==="host");
-const mpName  = () => (localStorage.getItem("ball-mp-name")||"").trim();
+const mpName  = () => (localStorage.getItem("ball3-mp-name")||"").trim();
 const myIdx   = () => (S && S.players) ? S.players.findIndex(p=>nameKey(p.name)===nameKey(mpName())) : -1;
 // the player on the hook right now: the stealer during a steal, otherwise whoever's turn it is
 const answerIdx = () => (S.phase==="steal_q"||S.phase==="steal_judge") ? S.stealer : S.turn;
@@ -8489,7 +8138,7 @@ function joinRoom(code){
 function mpBuzz(){
   if(!MP || !MP.ch) return;
   const now=Date.now(); if(now-mpLastBuzz<1200) return; mpLastBuzz=now;
-  const name=(localStorage.getItem("ball-mp-name")||"Someone");
+  const name=(localStorage.getItem("ball3-mp-name")||"Someone");
   try{ MP.ch.send({type:"broadcast", event:"buzz", payload:{name}}); }catch(e){}
   popfx(); toast("Buzzed!");
 }
@@ -8532,7 +8181,7 @@ function renameGuest(){
 function setGuestName(i){
   const n = (S && S.players && S.players[i]) ? S.players[i].name : "";
   if(!n) return;
-  localStorage.setItem("ball-mp-name", n);
+  localStorage.setItem("ball3-mp-name", n);
   if(MP && MP.ch){ try{ MP.ch.track({role:"guest", name:n}); }catch(e){} }
   closeSheet(); toast(`You're ${n}`); render();
 }
@@ -8587,7 +8236,7 @@ function mpStealHTML(){
 }
 function mpGuestAnswerHTML(){
   const t=TIERS[S.tier];
-  const my=(localStorage.getItem("ball-mp-name")||"").trim();
+  const my=(localStorage.getItem("ball3-mp-name")||"").trim();
   const idx=S.players.findIndex(p=>nameKey(p.name)===nameKey(my));
   const qcard=`
     <div class="qcard${(q().duo||q().badge||q().kit)?" natq":""}" style="--dc:${t.color}">
@@ -8612,7 +8261,7 @@ function mpSendAns(){
   const text=el?el.value.trim():"";
   if(!text){ toast("Type something first!", true); return; }
   MP.draft=text; MP.locked=true;
-  const name=(localStorage.getItem("ball-mp-name")||"");
+  const name=(localStorage.getItem("ball3-mp-name")||"");
   try{ MP.ch.send({type:"broadcast", event:"wans", payload:{name, text}}); }catch(e){}
   popfx(); render();
 }
@@ -8653,21 +8302,21 @@ function askPlayTogether(){
     <p style="opacity:.75">Type your name exactly as it is on the host phone, otherwise you just get to watch and buzz. Internet needed on every phone.</p>
     <button class="bigbtn" onclick="hostRoom()">Host a room</button>
     <div class="kick" style="margin:12px 0 6px">Or join one</div>
-    <input class="nm-in" id="mpname" placeholder="Your name" maxlength="12" autocomplete="off" value="${esc(localStorage.getItem("ball-mp-name")||"")}">
+    <input class="nm-in" id="mpname" placeholder="Your name" maxlength="12" autocomplete="off" value="${esc(localStorage.getItem("ball3-mp-name")||"")}">
     <input class="nm-in" id="mpcode" placeholder="Room code" maxlength="4" autocomplete="off" autocapitalize="characters" style="text-transform:uppercase">
     <button class="bigbtn ghost" onclick="joinFromSheet()">Join</button>
     <button class="bigbtn ghost" onclick="closeSheet()">Never mind</button>`);
 }
 function joinFromSheet(){
   const nm=document.getElementById("mpname"), cd=document.getElementById("mpcode");
-  if(nm && nm.value.trim()) localStorage.setItem("ball-mp-name", nm.value.trim());
+  if(nm && nm.value.trim()) localStorage.setItem("ball3-mp-name", nm.value.trim());
   joinRoom(cd ? cd.value : "");
 }
 
 /* ============================ THE RECORD BOOK ============================
    Every finished match gets filed here so there is a running table across
    nights. Local to this phone, like everything else in the app. */
-const HIST_KEY = "ball-quiz-history-v1";
+const HIST_KEY = "ball3-quiz-history-v1";
 /* classic is called Let's Ball on the outside: it is the flagship quiz and the
    thing the app is for, so it gets the name and the gold button. The mode that
    deals one of everything is Rainbow Road, which is where the idea came from. */
@@ -8779,7 +8428,7 @@ function recordMirrored(){
    Matches carry a match id made once by whoever started the match and shared
    with the state, so the three phones filing the same match write the same
    row rather than three copies of one night. */
-const CREW_KEY = "ball-crew";
+const CREW_KEY = "ball3-crew";
 const crewName = () => (localStorage.getItem(CREW_KEY)||"").trim().toLowerCase();
 function setCrew(v){
   try{ localStorage.setItem(CREW_KEY, String(v||"").trim().toLowerCase()); }catch(e){}
@@ -9810,7 +9459,7 @@ function h2ShotTier(i, w){
    to the view and sound switches. If it plays badly the old game is one tap
    away rather than one revert away. */
 let h2TackleOn = true;
-try{ h2TackleOn = localStorage.getItem("ball2-tackle") !== "0"; }catch(e){}
+try{ h2TackleOn = localStorage.getItem("ball3-tackle") !== "0"; }catch(e){}
 function h2ToggleTackle(){
   h2TackleOn = !h2TackleOn;
   /* THE RULE CHANGED UNDER THE POSSESSION, so the possession's marking state
@@ -9824,7 +9473,7 @@ function h2ToggleTackle(){
      turnover hand the phone over properly. */
   const H = S && S.h2h;
   if(H){ H.marks = []; H.markedAgainst = null; H.relief = false; H.caught = null; }
-  try{ localStorage.setItem("ball2-tackle", h2TackleOn ? "1" : "0"); }catch(e){}
+  try{ localStorage.setItem("ball3-tackle", h2TackleOn ? "1" : "0"); }catch(e){}
   render();
 }
 const H2_MARKS       = 2;            // men he may mark, once, for the whole possession
@@ -9994,30 +9643,16 @@ const h2Live    = w => h2Shape(w).map((_, i) => i).filter(i => !h2IsOff(w, i));
    flags work. It holds the ball's flight in pitch percentages, so it survives
    possession changing hands mid-move. */
 let h2Anim = null;
-/* THE SECOND SKIN. Remembered the way the other three toggles are, and read
-   at boot rather than on first render so the first frame is already right. */
-/* SIXTEEN-BIT IS THE LOOK, not one of two. It was a per-phone choice in
-   localStorage and a button in the match toggles, which left the app with two
-   looks to keep honest and most people never seeing the one it was designed
-   around. Pinned rather than deleted, so every body.pixel rule keeps its scope
-   and the night look is one word from coming back.
-
-   WHAT THIS LEAVES BEHIND, because it should be found on purpose rather than by
-   accident: the non-pixel branch of the match CSS is now unreachable. Sweeping
-   it is a few hundred lines of deletion that forecloses going back, so it is a
-   decision for a person rather than a tidy-up to do quietly here. */
-const h2Pixel = true;
-function h2ApplyPixel(){
-  try{ document.body.classList.toggle("pixel", !!h2Pixel); }catch(e){}
-}
-/* on before the first frame, so a resumed match does not draw once in the
-   wrong look and then snap into the right one */
-try{ h2ApplyPixel(); }catch(e){}
+/* NO SECOND SKIN. BALL 2 shipped a sixteen-bit look behind a toggle, then in
+   1007dc5 pinned it on and left the night branch of the match CSS unreachable
+   with a note saying the night look was one word from coming back. BALL 3 is
+   that word: the skin block, its two keyframes and this toggle are gone, and
+   the floodlit look BALL 1 wore is the only one the match has. */
 let h2Tilt = true;
-try{ h2Tilt = localStorage.getItem("ball2-h2h-flat") !== "1"; }catch(e){}
+try{ h2Tilt = localStorage.getItem("ball3-h2h-flat") !== "1"; }catch(e){}
 function h2ToggleView(){
   h2Tilt = !h2Tilt;
-  try{ localStorage.setItem("ball2-h2h-flat", h2Tilt ? "0" : "1"); }catch(e){}
+  try{ localStorage.setItem("ball3-h2h-flat", h2Tilt ? "0" : "1"); }catch(e){}
   render();
 }
 /* dur is optional and only the challenge uses it: the ball has to arrive as the
@@ -10385,12 +10020,12 @@ const h2No = (i, w) => { const m = h2Man(i, w); return (m && m.no) || h2Spot(i, 
    so starting the bed has to be idempotent: it checks whether it is already
    going instead of stacking up a new one every frame. */
 let h2Sound = true;
-try{ h2Sound = localStorage.getItem("ball2-mute") !== "1"; }catch(e){}
+try{ h2Sound = localStorage.getItem("ball3-mute") !== "1"; }catch(e){}
 let h2CrowdEl = null;
 
 function h2ToggleSound(){
   h2Sound = !h2Sound;
-  try{ localStorage.setItem("ball2-mute", h2Sound ? "0" : "1"); }catch(e){}
+  try{ localStorage.setItem("ball3-mute", h2Sound ? "0" : "1"); }catch(e){}
   if(h2Sound) h2CrowdStart(); else h2CrowdStop();
   render();
 }
@@ -11303,7 +10938,7 @@ function h2Book(w, i){
    it was written for and leaves everything else exactly where it was, because
    a field this build has never heard of is far more likely to belong to a
    build that has than to be rubbish. */
-const MINE_KEY = "ball2-mine";
+const MINE_KEY = "ball3-mine";
 const MINE_V = 2;
 /* THE BLANK IS VERSION TWO, so a phone that has never played skips the
    migrator entirely rather than being migrated from a shape it never had.
@@ -11481,10 +11116,10 @@ function mineSave(){
 /* SPELLED OUT RATHER THAN REFERENCED. Two of these constants are declared
    further down the file, and a const in the temporal dead zone throws on the
    line that reads it, which would be a blank app rather than a missing export. */
-const EXPORT_KEYS = ["ball2-mine", "ball-quiz-history-v1", "ball-crew",
-                     "ball2-outcomes", "ball-names", "ball-mp-name"];
+const EXPORT_KEYS = ["ball3-mine", "ball3-quiz-history-v1", "ball3-crew",
+                     "ball3-outcomes", "ball3-names", "ball3-mp-name"];
 function exportMine(){
-  const out = {app: "BALL 2", at: new Date().toISOString(), data: {}};
+  const out = {app: "BALL 3", at: new Date().toISOString(), data: {}};
   for(const k of EXPORT_KEYS){
     try{ const v = localStorage.getItem(k); if(v != null) out.data[k] = v; }catch(e){}
   }
@@ -11513,7 +11148,12 @@ function copyMine(){
 function importMine(text){
   let j = null;
   try{ j = JSON.parse(text); }catch(e){ return toast("That is not a BALL file.", true); }
-  if(!j || j.app !== "BALL 2" || !j.data) return toast("That is not a BALL file.", true);
+  /* A BALL 2 FILE STILL IMPORTS. The storage keys are split on purpose, so
+     nothing crosses between the two apps by itself, but a save somebody
+     deliberately exported and carried over is the one path where sharing is a
+     decision rather than an accident. The shapes are identical: BALL 3 forked
+     from BALL 2 and has not changed what any of these keys hold. */
+  if(!j || (j.app !== "BALL 3" && j.app !== "BALL 2") || !j.data) return toast("That is not a BALL file.", true);
   let n = 0;
   for(const k of EXPORT_KEYS){
     if(typeof j.data[k] !== "string") continue;
@@ -11837,7 +11477,7 @@ function dailyShare(){
   const card = d.reached >= 6 ? dailyManCard(d.man) : null;
   return "The Daily Ball \u00b7 " + day + "\n" + sq + "  " + got +
          (card ? "\n" + card.m.n + " is mine." : "") +
-         "\nbeebzoo.github.io/football-quiz-2";
+         "\nbeebzoo.github.io/football-quiz-3";
 }
 /* ---------- THE SHARE IMAGE ----------
    A square pitch, the ladder up it, and the ball where it stopped. Every
@@ -12030,7 +11670,7 @@ function dailyCanvas(){
   box(ballx - 4, bally + 4, 8, 4, "#0a1f0f");
 
   /* THE MAN AT THE TOP OF THE LADDER, and the app's own silhouette on the one
-     picture that ever leaves the phone. Every other surface in BALL 2 wears the
+     picture that ever leaves the phone. Every other surface in BALL 3 wears the
      shirt, the album sticker and the head to head pitch both, and this was the
      single place it had never appeared, for the plain reason that box() is
      fillRect and a twelve point clip-path is not a rectangle. So he is
@@ -12683,9 +12323,9 @@ const AI_BEATS = {
    tempo: turn it up and he plays quicker. The plan settles which way round it
    goes, "if it runs longer, AI_TEMPO goes up, not the bands". Remembered the
    way the sound toggle is, under a key that sits next to the other two things
-   you choose about him, ball2-ai and ball2-ai-level. */
+   you choose about him, ball3-ai and ball3-ai-level. */
 let AI_TEMPO = 1;
-try{ AI_TEMPO = Math.min(2, Math.max(.5, parseFloat(localStorage.getItem("ball2-ai-tempo")) || 1)); }catch(e){}
+try{ AI_TEMPO = Math.min(2, Math.max(.5, parseFloat(localStorage.getItem("ball3-ai-tempo")) || 1)); }catch(e){}
 /* THREE PILLS RATHER THAN A SLIDER, because a slider is a fiddly thing under a
    thumb and nobody wants 1.37. One word each, because a pill is a third of a
    phone wide and the note underneath is where the talking happens, which is
@@ -12699,7 +12339,7 @@ const AI_PACE = [
 function setAiTempo(v){
   audio();
   AI_TEMPO = Math.min(2, Math.max(.5, v));
-  try{ localStorage.setItem("ball2-ai-tempo", String(AI_TEMPO)); }catch(e){}
+  try{ localStorage.setItem("ball3-ai-tempo", String(AI_TEMPO)); }catch(e){}
   render();
 }
 /* THE REFERENCE BEAT, and still the way a test turns him into a machine gun.
@@ -14394,7 +14034,7 @@ function albumCheckPage(book, side){
 /* WHAT A FINISHED BOOK IS WORTH, and the number comes straight out of what
    everything else in this game already pays. A win is one pack. Topping a group
    is two, and so is a knockout tie. Winning the entire World Cup, seven matches
-   and the biggest single payment BALL 2 has ever made, is five or six. Closing a
+   and the biggest single payment BALL 3 has ever made, is five or six. Closing a
    book is thirty-two pages with several hundred matches behind them, so it has
    to beat winning the World Cup, and it has to beat it by enough that nobody has
    to sit and work out whether it did. Double the Cup and round it off. Twelve.
@@ -14510,7 +14150,7 @@ function albumSwap(wantId, give){
    understood and were wrong about. The second is the better signal and it was
    being diluted by the first. */
 let h2Expired = false;
-const LOG_KEY = "ball2-outcomes";
+const LOG_KEY = "ball3-outcomes";
 const LOG_MAX = 8000;
 /* WHO IT WAS ABOUT, read at the moment it happened. w is the side the man
    belongs to and i his slot; the name is resolved now because a substitute
@@ -14696,12 +14336,12 @@ function downloadOutcomes(){
   let log = [];
   try{ log = JSON.parse(localStorage.getItem(LOG_KEY) || "[]"); }catch(e){}
   if(!log.length) return toast("Nothing judged on this phone yet.", true);
-  const out = JSON.stringify({app: "BALL 2 outcomes", at: new Date().toISOString(), rows: log});
+  const out = JSON.stringify({app: "BALL 3 outcomes", at: new Date().toISOString(), rows: log});
   try{
     const a = document.createElement("a");
     if(typeof a.click !== "function") return toast("This browser will not save a file.", true);
     a.href = "data:application/json;charset=utf-8," + encodeURIComponent(out);
-    a.download = "ball2-outcomes-" + dayKey() + ".json";
+    a.download = "ball3-outcomes-" + dayKey() + ".json";
     a.click();
     toast(log.length + " outcomes saved.");
   }catch(e){ toast("Could not save it.", true); }
@@ -18968,19 +18608,19 @@ function render(){
    choice so the solo player does not re-pick it every night. */
 let setupAi = null, setupAiLevel = "ere";
 try{
-  setupAi = localStorage.getItem("ball2-ai") || null;
-  setupAiLevel = localStorage.getItem("ball2-ai-level") || "ere";
+  setupAi = localStorage.getItem("ball3-ai") || null;
+  setupAiLevel = localStorage.getItem("ball3-ai-level") || "ere";
 }catch(e){}
 function setAi(id){
   audio();
   setupAi = (setupAi === id) ? null : id;
-  try{ localStorage.setItem("ball2-ai", setupAi || ""); }catch(e){}
+  try{ localStorage.setItem("ball3-ai", setupAi || ""); }catch(e){}
   render();
 }
 function setAiLevel(k){
   audio();
   setupAiLevel = k;
-  try{ localStorage.setItem("ball2-ai-level", k); }catch(e){}
+  try{ localStorage.setItem("ball3-ai-level", k); }catch(e){}
   render();
 }
 let setupCount = 3;
@@ -19009,7 +18649,7 @@ const MODE_META = (()=>{ const m={};
   for(const [id,r] of Object.entries(PICTURE_MODES)) m[id]=[r.ic, r.label, r.ac];
   return m; })();
 /* The two axes the menu now offers alongside the mode itself. The football
-   game is the default because it is what BALL 2 is for; the board is still
+   game is the default because it is what BALL 3 is for; the board is still
    there for three people round one phone, which the pitch cannot do. */
 let setupPlay = "pitch";
 let setupMc = false;
@@ -19119,7 +18759,7 @@ function setTarget(n){ snapshotNames(); setupTarget=n; render(); }
    rather than making them type it again on a Friday night. Anything typed
    over the top is remembered, so a fourth at the table is typed once and a
    cleared box falls back to the regular. */
-const NAMES_KEY = "ball-names";
+const NAMES_KEY = "ball3-names";
 /* Order matters, it is not just a list. Two players takes the first two boxes
    and referee mode plays the first two with the third holding the phone, so
    the pair who play most sit at the top and Ale gets the third box either way. */
@@ -19137,7 +18777,7 @@ const US = [
   {k:"mar", n:"Martijn", no:14, kit:"#FF5533", skin:"#EFC49A"},
   {k:"bra", n:"Bram", no:7, kit:"#FF0000", skin:"#D9A574"},
 ];
-const US_KEY = "ball2-us";
+const US_KEY = "ball3-us";
 /* TWO, BECAUSE THE PILLS SAY TWO. The count control on the setup page offers
    2 players or 3 players and nothing else, so this is the app's own floor read
    back rather than a number chosen here. It is a floor on the COUNT and never
@@ -21172,9 +20812,9 @@ function renderSetup(st){
         <button class="mm-ghost" onclick="openBoard()">The Table · ${books().length} match${books().length===1?"":"es"}${crewName()?" · "+esc(crewName()):""}</button>`:""}
         <details class="rules">
           <summary>${ico('book')}Rules</summary>
-          <div class="hint"><b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Let's Ball:</b> the quiz itself, and the one the app opens on. One player picks a difficulty and answers out loud, the rest can steal. 3,800 questions across five levels, from one pointers to the BALL tier nobody sensible gets. <b>Written:</b> everyone types an answer to the same question, then you reveal it and award the points. <b>Career Path:</b> club logos revealed one by one, in career order, and you shout the player's name whenever you dare. Guess on the first logo for +15; every extra logo costs 3 (never below +3). Wrong guess: −2 and you're locked out of that career. <b>Stadium:</b> a photo of a ground appears and you climb as high up the ladder as you can. Name the ground for the full points, the city for a good chunk, the country for a consolation. Easy 3/2/1 · Hard 8/5/3 · BALL 20/12/6, and the reader pays the best rung you reached. 342 grounds from Camp Nou to places only true BALL knowers recognise, steals work like Let's Ball. <b>One &amp; Only:</b> a club crest and a country flag appear, and you name the only player of that nationality ever to play there, from 1,311 real one-offs (Wikidata-sourced; citizenship counts, so the odd surprise is part of the game). The reveal also says what he played, the years he was there and how many games he got, so a name nobody recognised still tells you something. Easy +1 · Medium +2 · Hard +5 · BALL +20. <b>Badge Zoom:</b> a crest appears zoomed right in, and you name the club, 1,437 crests deep. Easy +1 · Normal +2 · Hard +5. BALL crops in hard on clubs you have heard of and cannot place, so it pays on a ladder instead: answer on the tight shot for +20, or pull the camera back for a wider one at +12, and the whole crest at +6. Once you have pulled back you cannot go back in, so decide as a table. <b>Manager Path:</b> the same game as Career Path, played with the men in the dugout: crests appear one by one in the order he took the jobs, and you shout the manager. 227 careers from Ajax to Al-Ettifaq, national teams included, so a run of clubs ending at a country flag is a strong hint. Same scoring as Career Path. <b>League Rush:</b> pick a league and type as many of its clubs as you can in thirty seconds. Type it how you say it: Atleti, Spurs and PSV all count, and accents and full stops never cost you. +1 per club and +10 for naming the whole league, and at the end you see the ones you missed. Thirteen leagues, current season, from the Eredivisie and the Eerste Divisie to MLS. <b>Guess the Kit:</b> a home shirt appears and you name whose it is, from 1,021 kits including 174 national sides. Easy +1 · Normal +2 · Hard +5 · BALL +20, steals work like Let's Ball. Shirts carry less to go on than crests do, so the bank is built to keep any two of them tellable apart, though a few of the originals really are near enough identical, and a plain white one could fairly be Valencia or Marseille. <b>Name the XI:</b> a famous final's line-up appears as eleven shirts on the pitch and the whole table shouts, and the reader taps a shirt when someone names its player and hands out the point, +1 per shirt. <b>Older or Taller:</b> two players's faces appear and you tap the one who is older, or the taller one, whichever it asks. The app knows, so there is nothing to argue about until afterwards. +1 each time, and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. 471 players, nobody twice in a run, and no pair closer than two years or three centimetres, because a coin toss is not a question. <b>Timeline:</b> five moments from football history. Drag them into chronological order, earliest on top, and lock it in. The years are revealed and the app pays +1 per event in the right spot, +5 for a perfect five. First to the target score wins, or pick "No limit" and end with the full-time whistle. <b>Rainbow Road:</b> all twelve modes in one match, and you do not get to choose. Each go the app rolls a mode, throws its name up on the screen and deals it, so a career of crests can be followed by a shirt, a crest cropped to bits, five events to drag into order or thirty seconds of typing out a league. Every mode keeps its own scoring, so the same go can be worth one point or twenty, and the same mode never lands twice in a row. Play it to the target and the night decides itself. <b>Play together (beta):</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone: pick the difficulty, say your answer out loud, then reveal it on your own phone and call it right or wrong yourself. The answer stays hidden on everybody else's phone while you do, because they are the ones about to be offered the steal. Miss it and their phones race for a STEAL IT button, and the phone that steals gets the answer the same way. Once a question is dead every phone shows it. In Written mode everyone types secretly on their own phone. Join with exactly the name the host gave you, otherwise you just watch and buzz. The host's buttons still work for anything if a phone freezes. Internet needed on every phone; the pub's single-phone ritual stays the default. Easy +1 · Normal +2 · Hard +5 · Extreme +10 · BALL +20. <b>The Table:</b> every finished match is filed on the phone that played it and survives the app being closed. Type the same shared table name on all three phones and you keep one table between you, with everybody's matches in it. Leave it empty and the phone keeps its own. Tap ✏️ on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
+          <div class="hint"><b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Let's Ball:</b> the quiz itself, and the one the app opens on. One player picks a difficulty and answers out loud, the rest can steal. 3,800 questions across five levels, from one pointers to the BALL tier nobody sensible gets. <b>Written:</b> everyone types an answer to the same question, then you reveal it and award the points. <b>Career Path:</b> club logos revealed one by one, in career order, and you shout the player's name whenever you dare. Guess on the first logo for +15; every extra logo costs 3 (never below +3). Wrong guess: −2 and you're locked out of that career. <b>Stadium:</b> a photo of a ground appears and you climb as high up the ladder as you can. Name the ground for the full points, the city for a good chunk, the country for a consolation. Easy 3/2/1 · Hard 8/5/3 · BALL 30/12/6, and the reader pays the best rung you reached. 342 grounds from Camp Nou to places only true BALL knowers recognise, steals work like Let's Ball. <b>One &amp; Only:</b> a club crest and a country flag appear, and you name the only player of that nationality ever to play there, from 1,311 real one-offs (Wikidata-sourced; citizenship counts, so the odd surprise is part of the game). The reveal also says what he played, the years he was there and how many games he got, so a name nobody recognised still tells you something. Easy +1 · Medium +2 · Hard +5 · BALL +20. <b>Badge Zoom:</b> a crest appears zoomed right in, and you name the club, 1,437 crests deep. Easy +1 · Normal +2 · Hard +5. BALL crops in hard on clubs you have heard of and cannot place, so it pays on a ladder instead: answer on the tight shot for +20, or pull the camera back for a wider one at +12, and the whole crest at +6. Once you have pulled back you cannot go back in, so decide as a table. <b>Manager Path:</b> the same game as Career Path, played with the men in the dugout: crests appear one by one in the order he took the jobs, and you shout the manager. 227 careers from Ajax to Al-Ettifaq, national teams included, so a run of clubs ending at a country flag is a strong hint. Same scoring as Career Path. <b>League Rush:</b> pick a league and type as many of its clubs as you can in thirty seconds. Type it how you say it: Atleti, Spurs and PSV all count, and accents and full stops never cost you. +1 per club and +10 for naming the whole league, and at the end you see the ones you missed. Thirteen leagues, current season, from the Eredivisie and the Eerste Divisie to MLS. <b>Guess the Kit:</b> a home shirt appears and you name whose it is, from 1,021 kits including 174 national sides. Easy +1 · Normal +2 · Hard +5 · BALL +20, steals work like Let's Ball. Shirts carry less to go on than crests do, so the bank is built to keep any two of them tellable apart, though a few of the originals really are near enough identical, and a plain white one could fairly be Valencia or Marseille. <b>Name the XI:</b> a famous final's line-up appears as eleven shirts on the pitch and the whole table shouts, and the reader taps a shirt when someone names its player and hands out the point, +1 per shirt. <b>Older or Taller:</b> two players's faces appear and you tap the one who is older, or the taller one, whichever it asks. The app knows, so there is nothing to argue about until afterwards. +1 each time, and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. 471 players, nobody twice in a run, and no pair closer than two years or three centimetres, because a coin toss is not a question. <b>Timeline:</b> five moments from football history. Drag them into chronological order, earliest on top, and lock it in. The years are revealed and the app pays +1 per event in the right spot, +5 for a perfect five. First to the target score wins, or pick "No limit" and end with the full-time whistle. <b>Rainbow Road:</b> all twelve modes in one match, and you do not get to choose. Each go the app rolls a mode, throws its name up on the screen and deals it, so a career of crests can be followed by a shirt, a crest cropped to bits, five events to drag into order or thirty seconds of typing out a league. Every mode keeps its own scoring, so the same go can be worth one point or twenty, and the same mode never lands twice in a row. Play it to the target and the night decides itself. <b>Play together (beta):</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone: pick the difficulty, say your answer out loud, then reveal it on your own phone and call it right or wrong yourself. The answer stays hidden on everybody else's phone while you do, because they are the ones about to be offered the steal. Miss it and their phones race for a STEAL IT button, and the phone that steals gets the answer the same way. Once a question is dead every phone shows it. In Written mode everyone types secretly on their own phone. Join with exactly the name the host gave you, otherwise you just watch and buzz. The host's buttons still work for anything if a phone freezes. Internet needed on every phone; the pub's single-phone ritual stays the default. Easy +1 · Normal +2 · Hard +5 · Extreme +10 · BALL +20. <b>The Table:</b> every finished match is filed on the phone that played it and survives the app being closed. Type the same shared table name on all three phones and you keep one table between you, with everybody's matches in it. Leave it empty and the phone keeps its own. Tap ✏️ on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
         </details>
-        ${isStandalone()?"":`<button class="mm-quiet" onclick="installApp()">Add BALL 2 to your home screen</button>`}
+        ${isStandalone()?"":`<button class="mm-quiet" onclick="installApp()">Add BALL 3 to your home screen</button>`}
         <div class="themerow">
           <button class="themebtn${THEME==="dark"?" on":""}" onclick="setTheme('dark')">Dark</button>
           <button class="themebtn${THEME==="light"?" on":""}" onclick="setTheme('light')">Light</button>

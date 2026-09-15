@@ -62,7 +62,7 @@ const SHARED = [["Switzerland", 21], ["Belgium", 12], ["England", 13]];
   await tick(340);
   for (const id of BOOKS) run(app, "TEAMS[" + JSON.stringify(id) + "] = " +
     JSON.stringify(R("assets/" + id + "/index.json")) + ";");
-  const clean = () => run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; DREAM_SIG = "";');
+  const clean = () => run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; DREAM_SIG = "";');
   clean();
 
   console.log("--- what is a book and what is not ---");

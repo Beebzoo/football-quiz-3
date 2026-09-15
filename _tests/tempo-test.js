@@ -262,15 +262,11 @@ const HUMAN = {
   check("killing the ring's animation puts its transform back by hand",
     /\.h2ring,\.h2pitch\.landing \.h2ring\{animation:none;transform:translate\(-50%,50%\)\}/.test(css),
     "the reduced-motion ring has no transform on it");
-  /* AN ANIMATION BEATS A PLAIN DECLARATION whatever the specificity says, and
-     h2lightup ends on the night look's outline with both-fill holding it, so
-     without this the sprite's hard rim is repainted for the whole time somebody
-     is choosing a pass. It has to sit inside the pixel block, which pixel-test
-     polices separately. */
-  check("the pixel skin keeps its own rim when the men light up",
-    /body\.pixel \.h2pitch \.h2man\.can \.fig\.pm \.f-torso\{animation:none\}/.test(css),
-    "h2lightup paints over the sprite");
-  check("and the coin's spin is dropped for somebody who asked for less of it",
+  /* BALL 2 also held the sprite's hard rim out of h2lightup here, because an
+     animation beats a plain declaration whatever the specificity says and the
+     sixteen-bit rim was a plain one. There is no sprite in BALL 3, so h2lightup
+     ending on the night look's own outline is the whole of it. */
+  check("the coin's spin is dropped for somebody who asked for less of it",
     /\.h2coin\.flip,\.h2coin\.landed,\.cshadow\.flip\{animation:none\}/.test(css),
     "the coin still spins under reduced motion");
 

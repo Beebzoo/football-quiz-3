@@ -2,7 +2,7 @@
  *
  *     node _tests/migrate-test.js
  *
- * There is no server. The only copy of anybody's album is the ball2-mine key
+ * There is no server. The only copy of anybody's album is the ball3-mine key
  * in one browser on one phone, and the only backup is a string somebody may
  * have pasted into a note. So the day the album stopped being one book and
  * became a shelf of them, and every sticker id grew a book on the front, was
@@ -59,9 +59,9 @@ const check = (n, c, x) => {
   /* OPENING THE APP ON A PHONE THAT HAS THIS SAVE. MINE is read lazily on the
      first call and cached after it, so putting a string in the drawer and
      clearing the cache is exactly what a cold start does. */
-  const boot = obj => run(app, 'localStorage.setItem("ball2-mine", ' +
+  const boot = obj => run(app, 'localStorage.setItem("ball3-mine", ' +
     JSON.stringify(JSON.stringify(obj)) + '); MINE = null; MINE_FOREIGN = false; mine();');
-  const disk = () => JSON.parse(ev(app, 'localStorage.getItem("ball2-mine")'));
+  const disk = () => JSON.parse(ev(app, 'localStorage.getItem("ball3-mine")'));
 
   /* ---------- the save, written the way version 1 wrote it ----------
      Built out of the real 2006 file rather than out of invented strings,
@@ -187,7 +187,7 @@ const check = (n, c, x) => {
   check("still eleven men", ev(app, "dreamHave().length") === 11, ev(app, "dreamHave().length"));
 
   console.log("\n--- a phone that has never played ---");
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; MINE_FOREIGN = false;');
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; MINE_FOREIGN = false;');
   const F = ev(app, "JSON.parse(JSON.stringify(mine()))");
   check("comes up stamped, so it is never migrated from a shape it never had",
     F.v === 2, F.v);
@@ -218,20 +218,20 @@ const check = (n, c, x) => {
   run(app, "mine().album.packs = 7; mineSave(); albumStick('wc2006:italy/1'); mineSave();");
   run(app, "render();"); await tick(140);
   check("and after all that the drawer is byte for byte what it was",
-    ev(app, 'localStorage.getItem("ball2-mine")') === raw,
-    ev(app, 'localStorage.getItem("ball2-mine")'));
+    ev(app, 'localStorage.getItem("ball3-mine")') === raw,
+    ev(app, 'localStorage.getItem("ball3-mine")'));
   /* and it comes back the moment a build that understands it is opened */
   run(app, "MINE = null; MINE_FOREIGN = false;");
-  check("the future save is still readable", JSON.parse(ev(app, 'localStorage.getItem("ball2-mine")')).v === 99,
+  check("the future save is still readable", JSON.parse(ev(app, 'localStorage.getItem("ball3-mine")')).v === 99,
     "it was overwritten");
 
   console.log("\n--- an import off an old phone goes through the same door ---");
   /* importMine clears MINE rather than migrating anything itself, which is the
      whole reason the migrator lives inside the read: a file pasted in off a
      phone that never saw this build is migrated by the next thing that asks. */
-  run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; MINE_FOREIGN = false;');
+  run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; MINE_FOREIGN = false;');
   run(app, "importMine(" + JSON.stringify(JSON.stringify({
-    app: "BALL 2", at: "2026-01-01T00:00:00.000Z", data: {"ball2-mine": JSON.stringify(V1)},
+    app: "BALL 3", at: "2026-01-01T00:00:00.000Z", data: {"ball3-mine": JSON.stringify(V1)},
   })) + ");");
   await tick(140);
   check("the pasted album arrives migrated",

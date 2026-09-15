@@ -65,7 +65,7 @@ const check = (n, c, x) => {
   await tick(340);
   const wc = R("assets/wc2006/index.json");
   run(app, "TEAMS.wc2006 = " + JSON.stringify(wc) + ";");
-  const clean = () => run(app, 'localStorage.removeItem("ball2-mine"); MINE = null;');
+  const clean = () => run(app, 'localStorage.removeItem("ball3-mine"); MINE = null;');
 
   console.log("--- 736 men, and every one of them has a slot ---");
   const c = ev(app, 'albumCount("wc2006")');
@@ -282,7 +282,7 @@ const check = (n, c, x) => {
      being switched off, and the ceiling coming off. */
   console.log("\n--- the draw goes weighted past halfway ---");
   const rate = own => ev(app, '(() => { ' +
-    'localStorage.removeItem("ball2-mine"); MINE = null; ' +
+    'localStorage.removeItem("ball3-mine"); MINE = null; ' +
     'const b = albumBookState("wc2006"), all = []; ' +
     'for(const s of albumSides("wc2006")) for(const m of albumMen("wc2006", s)) all.push(albumId("wc2006", s, m)); ' +
     'for(let i = 0; i < ' + own + '; i++) b.have[all[i]] = 1; ' +
@@ -354,8 +354,8 @@ const check = (n, c, x) => {
     ev(app, "mine().album.packs") === ev(app, "ALBUM_BOOK_PACKS") && ev(app, "ALBUM_BOOK_PACKS") === 12,
     ev(app, "mine().album.packs"));
   check("in the drawer, not only on the screen",
-    ev(app, 'JSON.parse(localStorage.getItem("ball2-mine")).album.packs') === 12,
-    ev(app, 'JSON.parse(localStorage.getItem("ball2-mine")).album.packs'));
+    ev(app, 'JSON.parse(localStorage.getItem("ball3-mine")).album.packs') === 12,
+    ev(app, 'JSON.parse(localStorage.getItem("ball3-mine")).album.packs'));
   /* THE LATCH IS THE ONLY THING STOPPING A SECOND PAYOUT, so it is worth two
      lines to prove that it holds against both doors into it. */
   run(app, 'albumCheckBook("wc2006"); for(const s of albumSides("wc2006")) albumCheckPage("wc2006", s);');

@@ -41,7 +41,7 @@ const check = (n, c, x) => {
   const app = makeInstance("dream");
   await tick(340);
   run(app, "TEAMS.wc2006 = " + JSON.stringify(R("assets/wc2006/index.json")) + ";");
-  const clean = () => run(app, 'localStorage.removeItem("ball2-mine"); MINE = null; DREAM_SIG = "";');
+  const clean = () => run(app, 'localStorage.removeItem("ball3-mine"); MINE = null; DREAM_SIG = "";');
 
   console.log("--- an empty album fields nobody ---");
   clean();

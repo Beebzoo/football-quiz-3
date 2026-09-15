@@ -52,7 +52,7 @@ const qKey = q => {
      A copy of the repo's deck under a temp root, so a --write run can be
      inspected without touching anything that ships. */
   console.log("--- the tool, on a deck of its own ---");
-  const root = fs.mkdtempSync(path.join(os.tmpdir(), "ball2-retier-"));
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "ball3-retier-"));
   fs.mkdirSync(path.join(root, "assets", "mc"), { recursive: true });
   fs.mkdirSync(path.join(root, "_tools"), { recursive: true });
   fs.mkdirSync(path.join(root, "_outcomes"), { recursive: true });
@@ -77,10 +77,10 @@ const qKey = q => {
   push("hard", thin, 8, 1, t0 + 200000);
   push("normal", fine, 30, 20, t0 + 300000);
   fs.writeFileSync(path.join(root, "_outcomes", "phone-a.json"),
-    JSON.stringify({ app: "BALL 2 outcomes", at: "2026-09-14T00:00:00Z", rows: rows }));
+    JSON.stringify({ app: "BALL 3 outcomes", at: "2026-09-14T00:00:00Z", rows: rows }));
   /* THE SAME MATCH FILED TWICE, which is what a host and a guest both do */
   fs.writeFileSync(path.join(root, "_outcomes", "phone-b.json"),
-    JSON.stringify({ app: "BALL 2 outcomes", at: "2026-09-14T00:00:00Z", rows: rows.slice(0, 10) }));
+    JSON.stringify({ app: "BALL 3 outcomes", at: "2026-09-14T00:00:00Z", rows: rows.slice(0, 10) }));
 
   const tool = a => execFileSync(process.execPath,
     [path.join(root, "_tools", "retier.js"), path.join(root, "_outcomes")].concat(a || []),

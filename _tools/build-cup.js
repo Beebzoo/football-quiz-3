@@ -56,7 +56,7 @@ const POOL = T.pool;
 const DECK = path.join(REPO, "assets", POOL, "index.json");
 const OUT = path.join(REPO, "assets", "cup", POOL.replace(/^wc/, "") + ".json");
 const CACHE = path.join(__dirname, "_models");
-const UA = "ball2-cup/1.0 (personal quiz project)";
+const UA = "ball3-cup/1.0 (personal quiz project)";
 const WRITE = process.argv.includes("--write");
 
 /* EIGHT GROUPS AND A ROUND OF SIXTEEN, which is every World Cup from 1998 to

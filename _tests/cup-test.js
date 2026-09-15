@@ -60,7 +60,7 @@ const WC18 = R("assets/wc2018/index.json");
   /* The Dugout asks Pick One, so the Cup needs the multiple choice bank before
      it will let anybody kick off. */
   run(app, 'DECKS["classic-mc"] = ' + JSON.stringify(R("assets/mc/index.json")) + ";");
-  const clean = () => run(app, 'localStorage.removeItem("ball2-mine"); MINE = null;');
+  const clean = () => run(app, 'localStorage.removeItem("ball3-mine"); MINE = null;');
   const cup = () => ev(app, "mine().cup");
   const file = (f, g, pens) => run(app, "cupFiled(" + f + ", " + g + ", " +
     (pens ? JSON.stringify(pens) : "null") + ");");

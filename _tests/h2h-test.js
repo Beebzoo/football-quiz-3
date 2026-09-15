@@ -409,8 +409,8 @@ const GK = 0, LCB = 1, RCB = 2, LWB = 3, RWB = 4, SIX = 5, EIGHT = 6, TEN = 7, L
   run(app, "h2ToggleSound()"); await tick(160);
   check("turning it off sticks", ev(app, "h2Sound") === false, ev(app, "h2Sound"));
   check("and the switch says so", stage(app).includes("Sound on"), "the label did not flip");
-  check("it is remembered", ev(app, 'localStorage.getItem("ball2-mute")') === "1",
-    ev(app, 'localStorage.getItem("ball2-mute")'));
+  check("it is remembered", ev(app, 'localStorage.getItem("ball3-mute")') === "1",
+    ev(app, 'localStorage.getItem("ball3-mute")'));
   /* The harness has no Audio constructor, which is the point: every call is
      wrapped, so a browser that refuses to play must never take the game down
      with it. */
