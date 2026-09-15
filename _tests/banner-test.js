@@ -126,11 +126,19 @@ check("the app still has exactly one #stage",
    CANVAS called that, which is what the spec's markup would have pasted in. */
 check("no canvas has taken the app's stage id",
   html.indexOf('<canvas id="stage"') < 0, "the spec's own id got pasted in");
-check("it is bnstage, once, in the menu head",
-  (html.match(/id="bnstage"/g) || []).length === 1,
-  (html.match(/id="bnstage"/g) || []).length);
-check("and the canvas sits after the words, so the ball crosses in front",
-  html.indexOf('<canvas id="bnstage"') > html.indexOf('<div class="words">'), "behind the type");
+/* THE BANNER IS NOT ON THE FRONT PAGE IN BALL 3, and this is the assertion that
+   says so out loud rather than letting the file quietly stop being drawn. BALL 1's
+   own front door won the fork: three flags, a line of small caps and the gold
+   wordmark. The block above still has to load, run and paint, which everything
+   before this line checks, because putting it back is meant to stay a one-block
+   edit rather than an archaeology exercise. What must NOT happen is the canvas
+   reappearing by accident and drawing behind the wordmark. */
+check("the banner canvas is off the front page",
+  (html.match(/id="bnstage"/g) || []).length === 0,
+  (html.match(/id="bnstage"/g) || []).length + " left on the page");
+check("and BALL 1's wordmark is what stands there instead",
+  /<h1 class="title ballhero"/.test(html) &&
+  /<span class="goldtext">BALL<\/span>/.test(html), "the gold wordmark is gone too");
 
 /* ---------- the loop's life ---------- */
 console.log("\n--- the loop starts and stops with the menu ---");

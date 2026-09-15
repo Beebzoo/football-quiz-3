@@ -1788,6 +1788,44 @@
      wordmark and a sprite needed, and it keeps a little air under it */
   .mm-head.mm-banner{display:block;padding-bottom:12px}
 
+  /* ---------- BALL 1'S OWN FRONT DOOR ----------
+     Three flags, a line of small caps and a gold word with a ball beside it.
+     This is what the app looked like before any of the rest of it existed, and
+     it is the thing somebody who has played BALL recognises from across a pub
+     table. BALL 2 replaced it with a drawn banner; BALL 3 is the fork where the
+     original wins, so it comes back at BALL 1's own sizes.
+
+     THE GOLD IS A GRADIENT CLIPPED TO THE TEXT, not a colour, which is why
+     --gold-metal exists and why only two things in the app are allowed to wear
+     it. A flat #e9b84c sits underneath as the colour the letters fall back to
+     if background-clip:text is not honoured, so the word is never invisible. */
+  h1.title.ballhero{
+    position:relative;text-transform:uppercase;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;gap:.14em;
+    font:800 clamp(3.4rem,21vw,5.2rem)/1.02 var(--ui);letter-spacing:.08em;
+    color:#e9b84c;-webkit-tap-highlight-color:transparent;
+    filter:drop-shadow(0 0 26px rgba(233,184,76,.45)) drop-shadow(0 4px 12px rgba(0,0,0,.5));
+  }
+  .ballhero .ballimg{width:.84em;height:.84em;flex:0 0 auto}
+  .ballhero .goldtext{
+    display:inline-block;
+    background:var(--gold-metal);
+    background-size:250% 100%;
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;color:transparent;
+    animation:goldshimmer 11s linear infinite;
+  }
+  /* goldshimmer is already declared up with the gold pill that uses it; the
+     wordmark borrows the same one rather than restating it. */
+  /* THE SHIMMER PARKS MID-SWEEP rather than stopping, so a still wordmark is
+     still a metal one and not a flat brown word. */
+  @media (prefers-reduced-motion:reduce){
+    .ballhero .goldtext{animation:none;background-position:50% 0}
+  }
+  .flagrow{display:flex;gap:10px;align-items:center;justify-content:center}
+  .flagrow img{height:26px;border-radius:5px;border:2px solid #fff;
+    box-shadow:0 1px 5px rgba(16,24,40,.25)}
+
   /* ---------- the club-logo ticker ----------
      BALL 1's front page, and the one thing on it nothing in BALL 2 replaced.
      Two rows of crests crossing in opposite directions under the wordmark: it
@@ -20603,10 +20641,20 @@ function renderSetup(st){
 
   st.innerHTML = `
     <div class="mm-head mm-banner">
-      <div class="banner" onclick="goHome()" title="Back to the start">
-        <div class="words"><h1>Ball</h1></div>
-        <canvas id="bnstage" width="600" height="246" aria-hidden="true"></canvas>
+      <!-- THE ORIGINAL FRONT DOOR. BALL 2's drawn banner, a goal and a juggler
+           on a canvas, is still in this file and still tested: the BN closure
+           builds it and banner-test.js holds it to its palette and its poses.
+           It is simply not on this page any more, because BALL 3 is the fork
+           where BALL 1's look wins and this is the most recognisable thing
+           about it. Putting it back is this block swapping for the three lines
+           in the git history at 924c475, so nothing here forecloses that. -->
+      <div class="flagrow">
+        <img src="assets/flags/nl.webp" alt="Netherlands">
+        <img src="assets/flags/gran-canaria.webp" alt="Gran Canaria">
+        <img src="assets/flags/morocco.webp" alt="Morocco">
       </div>
+      <div class="kick" style="text-align:center">Gran Canaria MVV Ultras</div>
+      <h1 class="title ballhero" onclick="goHome()" title="Back to the start"><span class="goldtext">BALL</span><img class="ballimg" src="assets/ball.png" alt=""></h1>
       ${logoTicker()}
     </div>
 
