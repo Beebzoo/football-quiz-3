@@ -1787,6 +1787,36 @@
   /* the banner is the whole head, so it is a block rather than the flex row a
      wordmark and a sprite needed, and it keeps a little air under it */
   .mm-head.mm-banner{display:block;padding-bottom:12px}
+
+  /* ---------- the club-logo ticker ----------
+     BALL 1's front page, and the one thing on it nothing in BALL 2 replaced.
+     Two rows of crests crossing in opposite directions under the wordmark: it
+     says football before you have read a word, and it is the reason the front
+     page never needed a photograph. Ported whole, at BALL 1's own timings.
+
+     FULL BLEED, so the rows run off both edges rather than stopping inside a
+     gutter and reading as a list of fourteen clubs. #stage carries 16px of
+     side padding and this takes exactly that back. */
+  .logoticker{display:flex;flex-direction:column;gap:10px;overflow:hidden;margin:2px -16px 0}
+  /* THE ROW IS DOUBLED IN THE MARKUP and translated by half its own width, so
+     the loop is seamless: at -50% the second copy sits exactly where the first
+     one started. Any other distance shows a seam once a lap. */
+  .tickrow{display:flex;gap:10px;width:max-content;animation:tickmove 46s linear infinite}
+  .tickrow.rev{animation-direction:reverse;animation-duration:58s}
+  .tickrow .tk{
+    width:54px;height:54px;flex:0 0 auto;border-radius:12px;
+    background:linear-gradient(160deg, rgba(215,240,225,.26), rgba(150,205,175,.12));
+    border:1px solid rgba(255,255,255,.18);
+    backdrop-filter:blur(2px);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 5px 12px rgba(0,0,0,.35);
+  }
+  .tickrow .tk img{max-width:76%;max-height:76%}
+  @keyframes tickmove{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  /* IT STOPS DEAD rather than slowing down. A ticker is decoration, and
+     decoration is the first thing somebody who asked for less motion wants
+     gone. The crests stay on the page, they just stop moving. */
+  @media (prefers-reduced-motion:reduce){.tickrow{animation:none}}
   .mm-head{padding:22px 2px 16px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;
     border-bottom:var(--head-rule) solid var(--line-head)}
   /* THE HERO. One thing makes a hard-edged sprite belong next to soft type,
@@ -20477,6 +20507,30 @@ return { start:bnStart, stop:bnStop, sweep:bnSweep, paint:paint, poses:LEGS.leng
          art:{PAL:PAL, BASE:BASE, LEGS:LEGS, BALL:BALL, SQUASH:SQUASH, NUMBER:NUMBER} };
 })();
 
+/* THE TICKER IS BUILT ONCE PER SESSION and then handed back as the same string
+   every time. renderSetup runs on every tap on the front page, and a ticker
+   that reshuffled on each of them would deal a different twenty-eight clubs
+   while you were looking at it. The shuffle is the point; doing it repeatedly
+   is not. Straight out of BALL 1, which is where CAREERS and assets/logos both
+   came from, so it needed no new data at all. */
+let tickerHTML = null;
+function logoTicker(){
+  if(tickerHTML) return tickerHTML;
+  const all = [...new Set(CAREERS.flatMap(c => c.c))];
+  for(let i = all.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [all[i], all[j]] = [all[j], all[i]];
+  }
+  const rows = [all.slice(0, 14), all.slice(14, 28)];
+  /* each row is written out twice: the keyframe travels -50%, so the copy
+     lands exactly where the original began and the loop has no seam */
+  tickerHTML = '<div class="logoticker">' + rows.map((r, i) =>
+    '<div class="tickrow' + (i === 1 ? " rev" : "") + '">' + [...r, ...r].map(s =>
+      '<div class="tk"><img src="assets/logos/' + s + '.png" loading="lazy" alt=""></div>').join("") +
+    '</div>').join("") + '</div>';
+  return tickerHTML;
+}
+
 function renderSetup(st){
   const saved = (()=>{ try{ const s=JSON.parse(localStorage.getItem(SAVE_KEY)); return s && s.phase!=="setup" && s.phase!=="results" ? s : null; }catch(e){ return null; }})();
   /* how deep the chosen quiz is, for the front door's right hand side */
@@ -20553,6 +20607,7 @@ function renderSetup(st){
         <div class="words"><h1>Ball</h1></div>
         <canvas id="bnstage" width="600" height="246" aria-hidden="true"></canvas>
       </div>
+      ${logoTicker()}
     </div>
 
     <div class="mm-page">
