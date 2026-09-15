@@ -65,7 +65,7 @@ SCALE="${2:-.62}"
 STATE="${3:-pick}"
 SCROLL="${4:-0}"
 SCRUB="${5:-}"
-PORT=8811
+PORT=${PORT:-8811}   # override to reuse a server you already have up
 EDGE="/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
 
 cd "$REPO"
@@ -130,13 +130,8 @@ const setups={
   dugout: `S=freshState(["Martijn","Bram"],false,"classic",0,"manager",false); h2TackleOn=false; h2Start(); h2PickTeam("Italy"); h2PickTeam("Costa Rica"); S.h2h.tossed=true; setTimeout(()=>{ S.h2h.who=0; S.h2h.at=5; S.phase="h_pick"; render(); h2Select(2); h2Play(); }, 2200);`,
   /* the private screen in The Dugout: marks and the line, or just the line */
   /* picking a shape, and the pitch once a side is in a 5-3-2 */
-  /* the same screens in daylight */
-  dayq:   `setTheme("light"); S=freshState(["Martijn","Bram","Ale"],false,"classic",100,"board",false); S.phase="pick"; render(); pickTier("hard");`,
-  dayboard:`setTheme("light"); S=freshState(["Martijn","Bram","Ale"],false,"classic",100,"board",false); S.phase="pick"; render();`,
-  daymark:`setTheme("light"); ${nl2} h2TackleOn=true; S.h2h.who=0; S.h2h.at=0; S.h2h.hand=null; S.phase="h_mark"; render(); h2Mark(5); h2Mark(9);`,
-  day:    `setTheme("light"); S=null; setupMode="classic"; setupPlay="pitch"; render();`,
-  night:  `setTheme("dark"); S=null; setupMode="classic"; setupPlay="pitch"; render();`,
-  daypitch:`setTheme("light"); ${nl} S.h2h.who=0; S.h2h.at=0; S.phase="h_pick"; render(); h2Select(7);`,
+  /* BALL 2 had these screens twice over, once in daylight, because there were
+     two palettes to photograph. One look, one set of states. */
   dugshape:`S=freshState(["Martijn","Bram"],false,"classic",0,"manager",false); h2TackleOn=false; h2Start(); h2PickTeam("Netherlands"); h2PickTeam("Italy"); render();`,
   dugbus:`S=freshState(["Martijn","Bram"],false,"classic",0,"manager",false); h2TackleOn=false; h2Start(); h2PickTeam("Netherlands"); h2PickTeam("Italy"); S.h2h.tossed=true; S.h2h.form=["4-3-3","5-3-2"]; S.h2h.who=0; S.h2h.at=0; S.h2h.markedAgainst=0; S.phase="h_pick"; render(); h2Select(9);`,
   dugline:`S=freshState(["Martijn","Bram"],false,"classic",0,"manager",false); h2TackleOn=false; h2Start(); h2PickTeam("Netherlands"); h2PickTeam("Italy"); S.h2h.tossed=true; S.h2h.who=0; h2KickOff(); h2HandGo();`,
@@ -280,7 +275,13 @@ HTML
 node _tools/serve.js $PORT >/dev/null 2>&1 &
 SRV=$!
 trap 'kill $SRV 2>/dev/null; rm -f "$REPO/_shot_app.html" "$REPO/_shot_frame.html"' EXIT
-sleep 1
+# WAIT FOR IT TO ANSWER rather than for a second to pass. One second is enough
+# on a warm machine and is not on a cold one, and when it is not, Edge photographs
+# the browser's own connection-refused page and the script still says "wrote".
+for i in 1 2 3 4 5 6 7 8 9 10; do
+  curl -s -o /dev/null "http://localhost:$PORT/index.html" && break
+  sleep 1
+done
 
 "$EDGE" --headless=new --disable-gpu --hide-scrollbars \
   --screenshot="$OUT" --virtual-time-budget=5000 \

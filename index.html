@@ -3,23 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<!-- THE FIRST PAINT'S COLOUR, AND ONLY THE FIRST. themeColor() rewrites this
-     off the live --bg the moment applyTheme runs, so what is written here is
-     what the browser chrome shows for the sliver of time between this head
-     being parsed and the script reaching that line. It was #0b8250, a
-     broadcast green that belongs to neither look and has not been a colour in
-     this app since the sweep. The app opens dark unless the phone asks for
-     light, and dark is the pitch green, so the bar starts there and is
-     corrected for a light-theme person before they ever see the page. -->
-<meta name="theme-color" content="#FDF6E2">
-<!-- BOTH LOOKS, DECLARED BEFORE THE STYLESHEET PARSES. Without this the browser
-     has no way to know the app has a dark theme, because the theme is switched
-     by a data-theme attribute rather than by a media query, and Chrome and Edge
-     on Android will helpfully invert the page for you. They invert backgrounds
+<!-- THE BAR ABOVE THE APP IS THE PITCH. BALL 2 had two palettes and corrected
+     this from the live --bg once the script got there; there is one palette
+     here, so the value is simply the night's --bg and nothing rewrites it. -->
+<meta name="theme-color" content="#123D24">
+<!-- DARK, DECLARED BEFORE THE STYLESHEET PARSES. Without this Chrome and Edge
+     on Android will helpfully invert the page for you: they invert backgrounds
      and skip most saturated colour, which is how you end up reading charcoal
-     headings on olive grass. Here rather than only in the CSS so it holds on the
-     first paint too, before applyTheme has stamped the root. -->
-<meta name="color-scheme" content="light dark">
+     headings on olive grass. Here rather than only in the CSS so it holds on
+     the first paint. -->
+<meta name="color-scheme" content="dark">
 <title>BALL 3</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/ball.png">
@@ -91,15 +84,20 @@
     position:fixed;inset:0;z-index:-1;pointer-events:none;
     background:repeating-linear-gradient(180deg,#e7f2e8 0 72px,#deecdf 72px 144px);
   }
-  /* NO LITERAL CENTRE CIRCLE. A 240px ring drawn across the middle of the
-     menu was a picture of a pitch laid over the thing you came to read. The
-     mown bands say pitch quite enough on their own, and the actual playing
-     surface is drawn properly inside a match. */
-  #pitchbg::before{ display:none }
-  /* and no halfway line or corner arcs either: same reasoning, and 2b has no
-     pitch furniture on the page at all. The pitch lives inside a match. */
-  #pitchbg::after{ display:none }
-  .cornerarc{ display:none }
+  /* THE PAGE IS A PITCH, AND A PITCH HAS MARKINGS ON IT. BALL 2 switched all
+     three of these off and said why: a 240px ring across the middle of the menu
+     is a picture of a pitch laid over the thing you came to read, and the mown
+     bands say pitch well enough on their own. That was the right call for an
+     app whose front page had been rebuilt around hairlines and blocks of green.
+     It is the wrong one here, because the BALL 1 look IS the ring, the halfway
+     line and the four arcs, and taking them out leaves the bands doing the work
+     of a whole ground. They come back at BALL 1's own weights, and
+     body.h2hmode still hides them inside a match, where one pitch is plenty. */
+  #pitchbg::before{ /* centre circle */
+    content:"";position:absolute;left:50%;top:150px;width:240px;height:240px;
+    transform:translateX(-50%);
+    border:3px solid rgba(255,255,255,.85);border-radius:50%;
+  }
   #pitchbg::after{ /* halfway line */
     content:"";position:absolute;left:0;right:0;top:268px;height:3px;
     background:rgba(255,255,255,.85);
@@ -347,13 +345,14 @@
 
      --turf and the two card colours are NOT theme-aware on purpose. A yellow
      card is yellow, a red card is red, and grass is grass. */
-  /* THE NIGHT IS NOW ONLY EVER THE STAMPED ATTRIBUTE. It used to sit on bare
-     :root as well, which made it the palette the page painted in the gap
-     between html{background:var(--sky)} resolving and applyTheme stamping the
-     root, so a cold start flashed dark green before it went cream. Nothing
-     about the night changed except that it stopped being what you get when
-     nobody has said anything. */
-  :root[data-theme="dark"]{
+  /* AND THE NIGHT IS WHAT YOU GET, because it is the only thing there is.
+     BALL 2 carried two palettes and stamped data-theme on the root to choose
+     between them, which is why this was a selector rather than bare :root: on
+     bare :root the night was what the page painted in the gap between
+     html{background:var(--sky)} resolving and applyTheme stamping, so a cold
+     start flashed dark green before it went cream. There is no cream to go to
+     here, so the flash is the destination and the attribute is gone. */
+  :root{
     /* Scrollbars, form controls and the canvas the browser paints behind the
        page all follow this. It was being worked around by hand before. */
     color-scheme:dark;
@@ -423,114 +422,6 @@
     --chalkline:rgba(248,241,221,.10);
     --chalkline-soft:rgba(248,241,221,.07);
     --head-rule:1px;
-  }
-  /* AND PAPER IS WHAT YOU GET WHEN NOBODY HAS SAID ANYTHING. Bare :root carries
-     it, so it is on the page from the first byte of CSS rather than from
-     whenever the script reaches applyTheme, and there is no flash to fix. The
-     stamped form stays on the selector because it costs nothing and says out
-     loud that the day is a theme you can be on deliberately rather than only a
-     fallback. Weight still works out: a stamped night at (0,2,0) beats this at
-     (0,1,0), and a stamped day matches the half of this selector it is named
-     in. */
-  :root, :root[data-theme="light"]{
-    /* "only" rather than plain "light", which is the difference between saying
-       which scheme is in use and telling the browser not to second-guess it. The
-       case that broke was the light theme on a phone set to dark, and plain
-       light does not reliably hold there. */
-    color-scheme:only light;
-    /* and on paper, where a white goal on cream is no goal at all */
-    --bn-post:#6b808a; --bn-post-m:#52656d; --bn-post-d:#3a4950;
-    --bn-net:rgba(45,74,62,.26); --bn-net-d:rgba(45,74,62,.15);
-    --bn-flash:#b8860b; --bn-shadow:rgba(70,58,34,.22);
-
-    --card:#FFFCF4;                /* paper, a shade above the ground */
-    --chalk:#2A2620;
-    --chalk-dim:#5C5344;
-    --blue:#2050B8;
-    --ok:#1E7A4C;
-    --bad:#B42B1B;
-    --shadow:0 6px 18px rgba(42,38,32,.14);
-    /* PAPER, NOT A TINTED PITCH. Taking this green was the wrong lever: a page
-       does not read as football because the paper is tinted, it reads as
-       football because solid green things sit on warm paper, the way a kit
-       looks on a clubhouse wall. Tinting it only made the whole page murkier
-       and moved nothing that mattered, so the green lives in blocks now and
-       this goes back to being cream. */
-    --bg:#FDF6E2;                  /* warm paper, never white */
-    --ink:#2A2620;                 /* charcoal, never black */
-    --ink-soft:#5C5344;
-    /* THIS ONE STAYS FIXED, because it was a real defect rather than part of
-       the wrong turn. At #8C8170 it was 3.54 to 1 on this cream, and it carries
-       small type all over the app, so it has been failing AA since light became
-       the default. A sage that clears 4.5 is a fix and a green tone at once. */
-    --ink-dim:#57735F;             /* 4.84:1, where the warm grey was 3.54 */
-    --line:#DBCCA6;
-    --line-soft:#E4D8BC;
-    --line-head:#2D4A3E;
-    --panel:transparent;
-    --gold:#C99A2E; --gold-hi:#B98E28;
-    --gold-fill:#C99A2E;
-    --gold-fill-ink:#241B08;
-    --green:#2D4A3E;
-    --green-fill:linear-gradient(135deg,#2D4A3E,#3E6B52);
-    --green-ink:#F8F1DD;
-    --on-fill:rgba(45,74,62,.09);
-    --on-line:#2D4A3E;
-    --on-ink:#2D4A3E;
-    --desk:#E8E4DA;
-    --drop:rgba(42,38,32,.16);
-    /* on paper the shadow goes warm charcoal. #05100a, which is what the
-       sprite was drawn against, is floodlit grass and punches a cold hole in
-       the cream. */
-    /* FLAT, AND THAT ORIGINAL NOTE WAS RIGHT. Mown bands on cream are streaks
-       and a floodlight on cream is a smudge behind the wordmark. Both bands are
-       the same cream, so the gradient below paints one colour and the page is
-       paper. The bands are a night thing, and the scope on #pitchbg now lets
-       them be one. */
-    --mow-a:#FDF6E2; --mow-b:#FDF6E2;
-    --flood:transparent;
-    --chalkline:rgba(45,74,62,.14);
-    --chalkline-soft:rgba(45,74,62,.09);
-    /* THE FRONT PAGE'S FURNITURE, DRAWN THE OTHER WAY UP. The night page is
-       grass with chalk on it; paper is chalk, so the lines on it are grass.
-
-       AND THE TWO INK VALUES ARE A CONTRAST FIX AS MUCH AS A COLOUR. They
-       replace --ink-dim, which is 3.54 to 1 on this page and carries the
-       section labels, every subtitle, every value and the streak caption, all
-       of it small type that needs 4.5. The forest is --green's own value, so
-       nothing new is invented; the sage is the lightest green that clears AA.
-
-       THE TWO LINES LEFT WANT DIFFERENT WEIGHTS. --grass-line is the line under
-       a row at 1.33, where the sand it replaced was 1.31: a divider is meant to
-       be felt rather than read. --grass-edge is the outline of a quiet button,
-       which wants to hold a shape without asking for anything.
-
-       THERE WAS A THIRD, --grass-rule, the two-pixel marking that ran out of a
-       section label across the page. The label is a banner now and a bar does
-       not have a line running out of it, so it went, and --grass-eye went with
-       it: that was the label's colour on paper and the label is on a bar. */
-    --grass-dim:#57735F;      /* 4.84:1, the lightest sage that clears AA */
-    --grass-edge:#B3C9AE;     /* 1.64:1, the outline of a quiet button */
-    --offpitch:#D3DFCC;       /* 1.28:1, the ground outside the touchline */
-    /* THE PITCH IN THE BANNER, which is what the frame round the app should be:
-       grass, not one of the markings painted on it. The banner mows in two
-       bands and this is the shaded one, because the lit #3AA04A is 3.08 against
-       the page but only 2.41 against the strip outside, and a touchline has to
-       hold on both sides of itself. This is 4.03 and 3.15. */
-    --touchline:#2F8A3F;      /* the banner's own shaded mown band */
-    --grass-line:#CBDCC6;     /* 1.33:1, a divider you feel rather than read */
-    /* THE HEADINGS GO BACK TO CHARCOAL. Six green names on cream turned out to
-       be green everywhere and emphasis nowhere: the green has to be spent on
-       the one row that has earned it, not spread across all of them. */
-    --grass-nm:#2A2620;       /* --ink's own value */
-    --grass-go:#2D4A3E;       /* 9.01:1, where the gold outline was 2.79 */
-    /* A BADGE IS THE OPPOSITE OF WHAT IT SITS ON. On the cream page that is
-       green; on the chosen row's green card the rule below turns it gold. */
-    --grass-live:#2D4A3E;     /* 9.01:1 against the page and under cream ink */
-    /* gold on cream has nowhere near the contrast it has at night, so the
-       kicker goes forest green, and a hairline on paper reads as a mistake
-       rather than a rule, so the header rule doubles. */
-    --head-rule:2px;
   }
   /* what the rest of the app already asks for, answered in the new palette */
   :root{
@@ -2157,41 +2048,6 @@
 
   /* Night and day. Small, at the bottom, next to the other thing you only
      touch once: this is a preference, not a feature. */
-  /* THE LAST ROUND THING ON A PAGE OF HAIRLINES. This was a 999px capsule with
-     a fill and a border, holding two 999px chips, one of which carried an
-     inset shadow nothing else in the app uses. A container with a skin holding
-     a chip with a skin is two boxes doing one box's work, on the same screen
-     where the rules card has just been told it is not a card, so leaving it
-     would have been the one thing a reader caught immediately. 9a draws it as
-     two bordered rectangles joined down the middle with nothing behind them,
-     and that is what this is now: one hairline each, the seam shared, --r2 on
-     the outer corners so the pair reads as a single object rather than as two
-     buttons that happen to touch.
-     DARK AND LIGHT ARE LABELS, SO THEY GET THE LABEL FACE. Every other ten
-     pixel uppercase mark on this page is Silkscreen: the eyebrow above each
-     section, and the ON chip on the chosen mode. These two were the odd pair,
-     set in the interface font at 700 and tracked out by hand to imitate it,
-     which is a worse version of the thing sitting directly above them on the
-     same page. Silkscreen is latin-1 only and the standing rule is that it
-     never touches anything with a name in it, which these do not: they are two
-     hard-coded English words in the markup and they cannot turn into
-     "Dusseldorf" later. The hand tracking goes with the swap, and 9a has none
-     either, because Silkscreen is a fixed-width face already carrying its own
-     air between letters and .16em on top of that pulls the two words apart
-     into single characters.
-     THE PRESS IS AN OPACITY RATHER THAN A SCALE. It was a scale while the two
-     were separate chips with a gap between them; now that they share a seam,
-     shrinking one half pulls it off the other and the pair comes apart in your
-     hand. */
-  .themerow{display:flex;justify-content:center;margin:2px 0 0;align-self:center}
-  .themebtn{
-    padding:8px 16px;border:1px solid var(--line);background:none;color:var(--ink-dim);
-    font:400 10px/1 var(--px16);text-transform:uppercase;cursor:pointer;
-  }
-  .themebtn:first-child{border-radius:var(--r2) 0 0 var(--r2)}
-  .themebtn:last-child{border-left:none;border-radius:0 var(--r2) var(--r2) 0}
-  .themebtn:active{opacity:.7}
-  .themebtn.on{border-color:var(--on-line);background:var(--on-fill);color:var(--on-ink)}
 
   /* the build stamp: findable, never in the way, and a tap reloads from the net */
   .buildline{text-align:center;margin:14px 0 2px;padding:6px;cursor:pointer;
@@ -3257,10 +3113,10 @@
   .mm-count{flex:none;display:flex;flex-direction:column;align-items:center;gap:3px}
   .mm-count b{font:700 24px/1 var(--ui);color:var(--gold-hi)}
   .mm-count span{font:400 10px/1 var(--px16);color:var(--grass-dim)}
-  /* SILKSCREEN LIVES HERE, ON THE EYEBROWS AND ON THE TWO THEME BUTTONS, AND
-     NOWHERE ELSE. It is latin-1 only, so it is fine for ON, for 1 PACK and for
-     the hard-coded words DARK and LIGHT, and it would quietly drop the accent
-     off anything with a name in it. */
+  /* SILKSCREEN LIVES HERE, ON THE EYEBROWS, AND NOWHERE ELSE. It is latin-1
+     only, so it is fine for ON and for 1 PACK, and it would quietly drop the
+     accent off anything with a name in it. The two theme buttons were the
+     other place it was allowed; they went with the second palette. */
   .mm-chip{flex:none;font:400 10px/1 var(--px16);color:var(--bg);background:var(--grass-live);
     padding:5px 6px;border-radius:var(--r2)}
   /* A BADGE IS THE OPPOSITE OF ITS GROUND, which is a simpler rule than the one
@@ -7424,30 +7280,11 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    The bare :root block up in the stylesheet carries the day for the same
    reason, so there is nothing to correct on the first frame and this line only
    ever has work to do for somebody who has chosen the night. */
-let THEME = "light";
-try{
-  const saved = localStorage.getItem("ball3-theme");
-  if(saved === "light" || saved === "dark") THEME = saved;
-}catch(e){}
-/* THE BROWSER CHROME follows the look too. It was a fixed broadcast green from
-   before there were two themes, so the bar above the app stayed green on paper. */
-function themeColor(){
-  try{
-    const m = document.querySelector('meta[name="theme-color"]');
-    if(!m) return;
-    const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim();
-    if(bg) m.setAttribute("content", bg);
-  }catch(e){}
-}
-function applyTheme(){ try{ document.documentElement.setAttribute("data-theme", THEME); themeColor(); }catch(e){} }
-applyTheme();
-function setTheme(t){
-  audio();
-  THEME = t === "light" ? "light" : "dark";
-  try{ localStorage.setItem("ball3-theme", THEME); }catch(e){}
-  applyTheme();
-  render();
-}
+/* NO THEME TO APPLY. BALL 2 held a THEME, read it back out of localStorage,
+   stamped data-theme on the root, rewrote the theme-color meta off the live
+   --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
+   else, so the palette is bare :root, the meta is a literal, and the whole
+   machine is four lines of nothing. */
 const BUILD = "14 Sep 2026 · 09:24";
 const DECKS = {};
 const TEAMS = {};
@@ -20278,10 +20115,13 @@ let inkFor=null;
    recalculation sixty times a second for a colour that cannot change without a
    render. Reading one attribute triggers nothing, so that is what is watched. */
 function ink(){
-  let t=null;
-  try{ t=document.documentElement.getAttribute("data-theme"); }catch(e){ return; }
-  if(t===inkFor) return;
-  inkFor=t;
+  /* ONCE, BECAUSE THERE IS ONE PALETTE. BALL 2 watched the data-theme attribute
+     here: getComputedStyle inside a rAF loop forces a style recalculation sixty
+     times a second, so it read one attribute instead and only re-read the
+     colours when that moved. Nothing moves now, so this is a first-frame read
+     and then a return. */
+  if(inkFor) return;
+  inkFor = true;
   try{
     const cs=getComputedStyle(document.documentElement);
     const g=(n,d)=>{ const v=cs.getPropertyValue(n).trim(); return v||d; };
@@ -20815,10 +20655,6 @@ function renderSetup(st){
           <div class="hint"><b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Let's Ball:</b> the quiz itself, and the one the app opens on. One player picks a difficulty and answers out loud, the rest can steal. 3,800 questions across five levels, from one pointers to the BALL tier nobody sensible gets. <b>Written:</b> everyone types an answer to the same question, then you reveal it and award the points. <b>Career Path:</b> club logos revealed one by one, in career order, and you shout the player's name whenever you dare. Guess on the first logo for +15; every extra logo costs 3 (never below +3). Wrong guess: −2 and you're locked out of that career. <b>Stadium:</b> a photo of a ground appears and you climb as high up the ladder as you can. Name the ground for the full points, the city for a good chunk, the country for a consolation. Easy 3/2/1 · Hard 8/5/3 · BALL 30/12/6, and the reader pays the best rung you reached. 342 grounds from Camp Nou to places only true BALL knowers recognise, steals work like Let's Ball. <b>One &amp; Only:</b> a club crest and a country flag appear, and you name the only player of that nationality ever to play there, from 1,311 real one-offs (Wikidata-sourced; citizenship counts, so the odd surprise is part of the game). The reveal also says what he played, the years he was there and how many games he got, so a name nobody recognised still tells you something. Easy +1 · Medium +2 · Hard +5 · BALL +20. <b>Badge Zoom:</b> a crest appears zoomed right in, and you name the club, 1,437 crests deep. Easy +1 · Normal +2 · Hard +5. BALL crops in hard on clubs you have heard of and cannot place, so it pays on a ladder instead: answer on the tight shot for +20, or pull the camera back for a wider one at +12, and the whole crest at +6. Once you have pulled back you cannot go back in, so decide as a table. <b>Manager Path:</b> the same game as Career Path, played with the men in the dugout: crests appear one by one in the order he took the jobs, and you shout the manager. 227 careers from Ajax to Al-Ettifaq, national teams included, so a run of clubs ending at a country flag is a strong hint. Same scoring as Career Path. <b>League Rush:</b> pick a league and type as many of its clubs as you can in thirty seconds. Type it how you say it: Atleti, Spurs and PSV all count, and accents and full stops never cost you. +1 per club and +10 for naming the whole league, and at the end you see the ones you missed. Thirteen leagues, current season, from the Eredivisie and the Eerste Divisie to MLS. <b>Guess the Kit:</b> a home shirt appears and you name whose it is, from 1,021 kits including 174 national sides. Easy +1 · Normal +2 · Hard +5 · BALL +20, steals work like Let's Ball. Shirts carry less to go on than crests do, so the bank is built to keep any two of them tellable apart, though a few of the originals really are near enough identical, and a plain white one could fairly be Valencia or Marseille. <b>Name the XI:</b> a famous final's line-up appears as eleven shirts on the pitch and the whole table shouts, and the reader taps a shirt when someone names its player and hands out the point, +1 per shirt. <b>Older or Taller:</b> two players's faces appear and you tap the one who is older, or the taller one, whichever it asks. The app knows, so there is nothing to argue about until afterwards. +1 each time, and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. 471 players, nobody twice in a run, and no pair closer than two years or three centimetres, because a coin toss is not a question. <b>Timeline:</b> five moments from football history. Drag them into chronological order, earliest on top, and lock it in. The years are revealed and the app pays +1 per event in the right spot, +5 for a perfect five. First to the target score wins, or pick "No limit" and end with the full-time whistle. <b>Rainbow Road:</b> all twelve modes in one match, and you do not get to choose. Each go the app rolls a mode, throws its name up on the screen and deals it, so a career of crests can be followed by a shirt, a crest cropped to bits, five events to drag into order or thirty seconds of typing out a league. Every mode keeps its own scoring, so the same go can be worth one point or twenty, and the same mode never lands twice in a row. Play it to the target and the night decides itself. <b>Play together (beta):</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone: pick the difficulty, say your answer out loud, then reveal it on your own phone and call it right or wrong yourself. The answer stays hidden on everybody else's phone while you do, because they are the ones about to be offered the steal. Miss it and their phones race for a STEAL IT button, and the phone that steals gets the answer the same way. Once a question is dead every phone shows it. In Written mode everyone types secretly on their own phone. Join with exactly the name the host gave you, otherwise you just watch and buzz. The host's buttons still work for anything if a phone freezes. Internet needed on every phone; the pub's single-phone ritual stays the default. Easy +1 · Normal +2 · Hard +5 · Extreme +10 · BALL +20. <b>The Table:</b> every finished match is filed on the phone that played it and survives the app being closed. Type the same shared table name on all three phones and you keep one table between you, with everybody's matches in it. Leave it empty and the phone keeps its own. Tap ✏️ on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
         </details>
         ${isStandalone()?"":`<button class="mm-quiet" onclick="installApp()">Add BALL 3 to your home screen</button>`}
-        <div class="themerow">
-          <button class="themebtn${THEME==="dark"?" on":""}" onclick="setTheme('dark')">Dark</button>
-          <button class="themebtn${THEME==="light"?" on":""}" onclick="setTheme('light')">Light</button>
-        </div>
         <div class="buildline" onclick="freshen()" title="Tap to fetch the newest one">${esc(BUILD)}</div>
       </div>
     </div>`;
