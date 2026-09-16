@@ -60,6 +60,43 @@ const load = f => JSON.parse(fs.readFileSync(path.join(REPO, f), "utf8"));
     ev(app, "matchLabel({mode:'h2h'})") === "One on One", ev(app, "matchLabel({mode:'h2h'})"));
   check("nothing hidden on a second shelf", ev(app, "MODE_EXTRA.size") === 0, ev(app, "MODE_EXTRA.size"));
 
+  /* ---------- a mode you can see is a mode you can pick ----------
+     THE THREE PICTURE MODES WERE UNPICKABLE AND NOTHING WAS BROKEN. The app
+     opens on the football game, picture modes can never go on a pitch, and the
+     drawer rendered them disabled on exactly that basis, so the tap never
+     reached setMode. Which is where the answer already was: setMode moves the
+     toggle to the board itself for anything that cannot go on a pitch, and that
+     branch was unreachable. Two parts of the app had opposite answers and the
+     refusing one won, because refusing is an attribute and agreeing is a
+     function nobody called.
+
+     This is asserted on the RENDERED tile rather than on playableAs, because a
+     test that asked the function would have passed against the broken version:
+     the function was right the whole time. */
+  run(app, "BADGE = " + JSON.stringify(load("assets/badges/index.json")));
+  run(app, "MGRS = " + JSON.stringify(load("assets/managers/index.json")));
+  run(app, "S = null; showBoard = false; setupMode = null; setupPlay = 'pitch'; modesOpen = true; render();");
+  await tick(300);
+  const tile = id => ((stage(app).match(new RegExp("setMode\\('" + id + "'\\)[^>]*", "g")) || [])[0] || "");
+  for (const id of ["career", "mgr", "badge"])
+    check(id + " can be tapped while the football game is selected",
+      !!tile(id) && !/disabled/.test(tile(id)), tile(id) ? "disabled" : "no tile at all");
+  /* AND THE TAP ARRANGES THE REST. Picking what you want to play should not
+     require knowing that a toggle two sections down has to be flipped first. */
+  for (const id of ["career", "mgr", "badge"]) {
+    run(app, "setupPlay = 'pitch'; setMode('" + id + "');");
+    await tick(200);
+    check("tapping " + id + " moves you to the board by itself",
+      ev(app, "setupMode") === id && ev(app, "setupPlay") === "board",
+      ev(app, "setupMode") + " / " + ev(app, "setupPlay"));
+  }
+  run(app, "setupPlay = 'pitch'; setMode('classic');");
+  await tick(200);
+  check("and a quiz still stays on the pitch",
+    ev(app, "setupMode") === "classic" && ev(app, "setupPlay") === "pitch",
+    ev(app, "setupMode") + " / " + ev(app, "setupPlay"));
+  run(app, "modesOpen = false;");
+
   console.log("\n--- Let's Ball (the embedded classic bank) ---");
   run(app, 'S = freshState(["Martijn","Bram","Ale"], false, "classic", 0); render();'); await tick(280);
   run(app, 'pickTier("easy")'); await tick(280);

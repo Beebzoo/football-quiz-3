@@ -7400,7 +7400,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "16 Sep 2026 · 15:10";
+const BUILD = "16 Sep 2026 · 16:01";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
@@ -18721,10 +18721,27 @@ function modeDrawerHTML(){
   const btn = m && !modesOpen
     ? `<button class="bigbtn ghost sel modestoggle" style="--ac:${m[2]}" onclick="toggleModes()"><span class="mico">${ico(m[0])}</span><span class="mlab">${m[1]}</span>${chev}</button>`
     : `<button class="bigbtn ghost modestoggle" onclick="toggleModes()"><span class="mico">${ico('grid')}</span><span class="mlab">More quizzes</span>${chev}</button>`;
-  /* dim on the CHOSEN way of playing, not merely on whether the deck exists:
-     with the football game selected, the two picture modes and any league
-     without squads are not on the table and should say so. */
-  const off = {}; Object.keys(MODE_META).forEach(k => off[k] = !playableAs(k, setupPlay));
+  /* DIM ON THE ONE THING THAT IS ACTUALLY TEMPORARY, which is whether the deck
+     has landed. This used to ask playableAs(k, setupPlay), and that made the
+     three picture modes unpickable: with the football game selected, which is
+     what the app opens on, Career Path, Manager Path and Badge Zoom were
+     rendered disabled, so the tap never reached setMode.
+
+     WHICH IS WHERE THE ANSWER ALREADY WAS. setMode has carried this since long
+     before any of them: a mode that cannot be played the way the toggle
+     currently says quietly moves the toggle rather than offering something that
+     would break. That branch was unreachable. Two parts of the app had opposite
+     answers to one question and the refusing one won, because refusing is an
+     attribute and agreeing is a function nobody called.
+
+     AND THE OLD QUESTION COULD NEVER CHANGE ITS MIND. The half doing the damage
+     was canEver, which for the pitch is canPitch, which reads QUIZZES and POOLS,
+     and both are static registries. So it was not "not yet", it was "never", and
+     a door locked for ever against a toggle nobody knows to flip first is not
+     information. modeLive is the temporary question, and it heals itself on the
+     render a fetch fires. Everything else is setMode's job: pick what you want
+     to play and the app arranges how. */
+  const off = {}; Object.keys(MODE_META).forEach(k => off[k] = !modeLive(k));
   /* The accent rides on the button as --ac so the tile can light its edge and
      its icon from one value. A disabled mode dims the whole thing, lamp and
      all, exactly as an exhausted tier does on the picker board. */
