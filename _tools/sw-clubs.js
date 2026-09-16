@@ -257,11 +257,11 @@ if (a >= 0 && b > a) {
 }
 
 /* bump the cache, or phones keep serving the old build */
-const m = s.match(/const CACHE = "ball-quiz-2-v(\d+)"/);
+const m = s.match(/const CACHE = "ball-quiz-3-v(\d+)"/);
 let bumped = null;
 if (m) {
   bumped = Number(m[1]) + 1;
-  s = s.replace(m[0], 'const CACHE = "ball-quiz-2-v' + bumped + '"');
+  s = s.replace(m[0], 'const CACHE = "ball-quiz-3-v' + bumped + '"');
 }
 
 console.log(decks.length + " club deck files, " + crests.size + " crests for " + clubs + " clubs");
