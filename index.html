@@ -4060,7 +4060,6 @@
   .h2hand.h2wait .h2handbadge{width:clamp(64px,19vw,92px);height:clamp(64px,19vw,92px)}
 
   /* ---------- picking the men you are marking ---------- */
-  .h2marks{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:8px 0 10px}
   /* three ways to set up, same furniture as every other ghost row */
   .h2lines{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:8px 0 4px}
   /* the shapes, each drawn rather than named: a 5-3-2 explains itself in a way
@@ -4133,6 +4132,54 @@
     width:26px;height:32px;font:700 .54rem/1 var(--ui);font-style:normal;
     letter-spacing:.04em;color:rgba(242,246,238,.72);
     border:1.5px dashed rgba(242,246,238,.42);border-radius:5px}
+  /* ---------- marking them, on the shape they are actually standing in ----------
+     THE POSITION LABEL WAS DOING THE PITCH'S JOB. Marking used to be a grid of
+     three-across cards, each carrying CB or LWB or a bare squad number, and a
+     defender had to rebuild the shape in his head from ten labels before he
+     could think about which two to take. Standing them where they stand answers
+     the question the screen is actually asking, which is not "who is the left
+     wing-back" but "who is dangerous from here". It also makes the shape itself
+     readable: a 3-5-2 and a 4-2-3-1 look different at a glance, and they should,
+     because they price every ball differently.
+
+     The same pitch as the team sheet, deliberately. Two screens that draw an
+     eleven and draw it two ways is how a look comes apart. */
+  .h2markpitch{position:relative;width:100%;aspect-ratio:3/4;max-height:46vh;
+    margin:2px auto 10px;border-radius:10px;overflow:hidden;
+    background:
+      repeating-linear-gradient(180deg,
+        rgba(255,255,255,.035) 0 12.5%, rgba(0,0,0,.035) 12.5% 25%),
+      linear-gradient(180deg,#1d5c37,#0f3d26);
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
+  .h2markman{position:absolute;transform:translate(-50%,-50%);
+    display:flex;flex-direction:column;align-items:center;gap:2px;
+    width:23%;min-width:0;padding:0;border:none;background:none;cursor:pointer}
+  .h2markman .h2mnm{max-width:100%;overflow:hidden;text-overflow:ellipsis;
+    white-space:nowrap;font:700 .56rem/1.35 var(--ui);color:#F2F6EE;
+    padding:1px 4px;border-radius:4px;background:rgba(9,26,17,.72)}
+  .h2markman:active{transform:translate(-50%,-50%) scale(.94)}
+  /* MARKED IS A RING ROUND HIM, not a colour swap. He is wearing his own kit and
+     that is the thing you are picking him out by, so the mark goes round the
+     outside and the shirt underneath is left alone. */
+  .h2markman.on .alsbadge{box-shadow:0 0 0 2px var(--gold-hi),0 0 10px rgba(233,184,76,.55)}
+  .h2markman.on .h2mnm{background:var(--gold-hi);color:#241B08}
+  /* THE MAN ON THE BALL IS DRAWN AND CANNOT BE TAKEN. Leaving him out left a
+     hole in the shape and no reason for it, which reads as a bug rather than as
+     a rule: a mark on the man who already has it is a mark thrown away. */
+  .h2markman[disabled]{cursor:default;opacity:.7}
+  .h2markman[disabled] .h2mnm{background:rgba(9,26,17,.5)}
+  /* AND THE BALL SAYS WHY. Dimming him alone only says "not this one"; the ball
+     on his shoulder says which rule it is, without a line of text under the
+     pitch that nobody reads twice. */
+  .h2markman .h2hasball{position:absolute;top:-3px;right:16%;
+    width:8px;height:8px;border-radius:50%;background:#F2F6EE;
+    box-shadow:0 0 0 1.5px rgba(9,26,17,.85)}
+  /* and a man who has been sent off keeps his slot, empty, because the gap he
+     leaves is the whole point of a red card */
+  .h2markman.gone i{display:flex;align-items:center;justify-content:center;
+    width:26px;height:32px;font:700 .5rem/1 var(--ui);font-style:normal;
+    letter-spacing:.04em;color:rgba(242,246,238,.55);
+    border:1.5px dashed rgba(242,246,238,.34);border-radius:5px}
   .h2picksubs{display:flex;flex-direction:column;gap:6px;min-width:0}
   .h2subhead{font:600 .6rem/1 var(--ui);letter-spacing:.1em;text-transform:uppercase;
     color:var(--board-dim)}
@@ -7353,7 +7400,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "16 Sep 2026 · 14:26";
+const BUILD = "16 Sep 2026 · 15:10";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
@@ -17248,6 +17295,31 @@ function h2Render(st){
     const picked = H.marks || [];
     const tier = TIERS[H2_TACKLE_TIER];
     const left = H2_MARKS - picked.length;
+    /* THE ELEVEN WHERE THEY ACTUALLY STAND. h2Shape is the same table the pitch
+       prices every ball off, so this is not a diagram OF the shape, it is the
+       shape. Three things fall out of drawing it rather than listing it: the
+       position label stops being needed at all, because he is standing on it;
+       a 3-5-2 and a 4-2-3-1 stop looking like the same screen with different
+       words on it; and the two men you are about to mark are chosen by where
+       the danger is rather than by reading ten abbreviations. */
+    const markPitch = (() => {
+      const aKit = h2Kit(att), slots = h2Shape(att), live = h2Live(att);
+      return '<div class="h2markpitch">' + H2_MINI_LINES + slots.map((sp, i) => {
+        const at = ' style="left:' + sp.x + '%;top:' + sp.y + '%"';
+        /* a sent-off man keeps his slot and loses his shirt: the hole is the
+           point of a red card, and an eleven that silently becomes a ten reads
+           as a drawing bug */
+        if(live.indexOf(i) === -1)
+          return '<span class="h2markman gone"' + at + '><i>' + esc(sp.n) + '</i></span>';
+        const on = picked.indexOf(i) !== -1, ball = i === H.at;
+        return '<button class="h2markman' + (on ? " on" : "") + '"' + at +
+          (ball ? ' disabled' : ' onclick="h2Mark(' + i + ')"') + '>' +
+          albumBadgeHTML(aKit, h2No(i, att)) +
+          (ball ? '<i class="h2hasball" aria-hidden="true"></i>' : '') +
+          '<span class="h2mnm">' + esc(h2Who(i, att)) + '</span>' +
+        '</button>';
+      }).join("") + '</div>';
+    })();
     /* LINE HEIGHT rides on the same private screen as the marks, because it is
        the same moment: the one time in his possession that you have the phone.
        It is not a secret though, and the pitch says so as soon as he gets it
@@ -17277,17 +17349,7 @@ function h2Render(st){
           "'s possession. Play the ball into one and you get a <b>" + tier.label +
           '</b> question to take it off him.</div>'
         : '') +
-      (h2TackleOn ? '<div class="h2marks">' : '<div style="display:none">') +
-        /* not the man on the ball: he cannot be passed to, so a mark on him is
-           a mark thrown away, and offering it is a trap for the tired */
-        h2Live(att).filter(i => i !== H.at).map(i =>
-          '<button class="h2markbtn' + (picked.indexOf(i) !== -1 ? " on" : "") +
-            '" onclick="h2Mark(' + i + ')">' +
-            '<span class="h2mno">' + h2No(i, att) + '</span>' +
-            '<span class="h2mnm">' + esc(h2Who(i, att)) + '</span>' +
-            '<span class="h2mps">' + h2Shape(att)[i].n + '</span>' +
-          '</button>').join("") +
-      '</div>' +
+      (h2TackleOn ? markPitch : '') +
       lineRow +
       (picked.length
         ? '<button class="bigbtn" onclick="h2MarksDone(false)">' +

@@ -86,12 +86,21 @@ const GK = 0, LCB = 1, RCB = 2, LWB = 3, RWB = 4, SIX = 5, EIGHT = 6, TEN = 7, L
   check("and it is the defending man's card", H("hand.w") === 1, H("hand.w"));
   run(app, "h2HandGo()"); await tick(140);
   check("he gets the private screen", phase() === "h_mark", phase());
-  /* ten, not eleven: the man on the ball cannot be passed to, so he is not
-     offered, because a mark on him is a mark thrown away */
-  check("the attacker's eleven are on it, less the man on the ball", (stage(app).match(/h2markbtn/g) || []).length === 10,
-    (stage(app).match(/h2markbtn/g) || []).length);
-  check("and the man on the ball is the one missing",
-    !new RegExp('onclick="h2Mark\\(' + ev(app, "S.h2h.at") + '\\)"').test(stage(app)), "he was offered");
+  /* ELEVEN, NOT TEN. The screen draws the attacker's shape on a pitch now, so
+     every live man is on it including the one with the ball. He is drawn and
+     disabled rather than left out: a mark on the man who already has it is a
+     mark thrown away, but a hole where a man should be standing reads as a
+     drawing bug rather than as a rule. */
+  check("the attacker's whole eleven are on the pitch",
+    (stage(app).match(/h2markman/g) || []).length === 11,
+    (stage(app).match(/h2markman/g) || []).length);
+  check("and the man on the ball is drawn but cannot be taken",
+    !new RegExp('onclick="h2Mark\\(' + ev(app, "S.h2h.at") + '\\)"').test(stage(app)) &&
+    /h2markman[^"]*"[^>]*disabled/.test(stage(app)), "he was offered, or he is missing");
+  /* the position abbreviation went with the list: he is standing on it */
+  check("and the shape is drawn rather than labelled",
+    /h2markpitch/.test(stage(app)) && !/h2markbtn/.test(stage(app)),
+    "the old grid is still there");
   run(app, `h2Mark(${SIX}); h2Mark(${ST});`); await tick(140);
   check("he can mark two", JSON.stringify(H("marks")) === JSON.stringify([SIX, ST]), JSON.stringify(H("marks")));
   run(app, `h2Mark(${TEN});`); await tick(140);
@@ -219,9 +228,15 @@ const GK = 0, LCB = 1, RCB = 2, LWB = 3, RWB = 4, SIX = 5, EIGHT = 6, TEN = 7, L
     (stage(app).match(/class="h2man [^"]*"/g) || []).length);
   run(app, `S.phase = "h_mark"; S.h2h.who = 0; S.h2h.off[0] = [${TEN}]; render();`);
   await tick(140);
-  /* nine: eleven, less the man sent off, less the man on the ball */
-  check("and he cannot be marked", (stage(app).match(/h2markbtn/g) || []).length === 9,
-    (stage(app).match(/h2markbtn/g) || []).length);
+  /* NINE TAPPABLE: eleven, less the man sent off, less the man on the ball.
+     Counted by the handler rather than by the class, because all eleven slots
+     are drawn now and two of them are simply not offers: the sent-off man is a
+     dashed hole where he used to stand, and the man on the ball is his own
+     shirt with the ball on his shoulder. */
+  check("and he cannot be marked", (stage(app).match(/onclick="h2Mark\(/g) || []).length === 9,
+    (stage(app).match(/onclick="h2Mark\(/g) || []).length);
+  check("but his slot is still drawn, empty",
+    /h2markman gone/.test(stage(app)), "the shape silently became a ten");
   run(app, "S.h2h.off = [[], []];");
 
   console.log("\n--- a keeper sent off is an outfield man in goal ---");
