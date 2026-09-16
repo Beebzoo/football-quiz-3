@@ -15601,17 +15601,41 @@ const NUM = {
 
    WHAT IT COSTS, HAVING TRIED THE CHEAP VERSION FIRST. Translating the
    existing pose downwards is free and it is wrong, and it is wrong in the one
-   place you are actually looking: the gloves. The reach pose has the arm out
-   at shoulder height, so sliding the whole man down the screen leaves a keeper
-   whose hands are at waist height while the ball is rolling along the floor
-   past his shins. Rotating it is out on its own terms, because rotating pixel
-   art shears it to bits.
+   place you are actually looking: the gloves. Sliding the whole man down the
+   screen leaves a keeper whose hands are at waist height while the ball is
+   rolling along the floor past his shins. Rotating it is out on its own terms,
+   because rotating pixel art shears it to bits.
 
-   So it is one more pose, drawn low: same man, same build, the arm angled
-   DOWN and the gloves on the grass. Two poses times a mirror is four corners,
+   So it is one more pose, drawn low. Two poses times a mirror is four corners,
    and the mirror is free. The per-corner vertical nudge still earns its keep
    on top of that, as a nudge rather than as the whole answer: a high dive is
    thrown up a little and a low one down a little, off the same two poses.
+
+   ALL THREE WERE REDRAWN, BECAUSE NONE OF THEM WAS A DIVE. Reported from a
+   phone, in the words that matter: he looks weird standing there and worse
+   when he goes. Three separate faults, and they are worth naming because they
+   are the standard ones at this size.
+
+   The gloves were not attached to anything. A 3x3 white block sat out in space
+   with nothing but outline between it and the shoulder, so the set pose read
+   as a bowling pin with two dice beside it. A limb needs an unbroken run of
+   colour from the body to the hand, and it needs to be at least three rows
+   deep: at two it stays a stick with a brick on the end however wide you draw
+   it. An outline INSIDE a limb at this size is a cut, not a contour.
+
+   And the dives were a standing man with an arm out. Both of them kept the
+   legs hanging vertically under the hips, which is the one thing a diving body
+   never does, so the eye read them as somebody leaning rather than somebody
+   in the air. They are built on a skeleton now: gloves, shoulders, hips and
+   boots placed first, then filled, with each row stepping one or two columns
+   from the last. A jump of three columns is exactly where a limb comes off,
+   which is what had happened to the low dive's arm: it had become a two-pixel
+   diagonal line with a gap at the shoulder, a man holding a strip light.
+
+   The set pose also stopped holding its arms straight out sideways. A keeper
+   waiting for a penalty has them down and a little out with the gloves at hip
+   height, which is both what he actually does and the fastest way to stop a
+   sprite reading as a scarecrow.
 
    AND THE UNMIRRORED SPRITE REACHES LEFT. Worth saying out loud because the
    prototype's driver did not: the gloves sit at columns two to eight and the
@@ -15622,64 +15646,64 @@ const NUM = {
    corner and nothing else. */
 const GK = [
   // 0 set, on his line
-  ["............XXXXXX..............",
-   "..........XXhhhhhhXX............",
+  ["................................",
+   "...........XXXXXX...............",
    "..........XhhhhhhhhX............",
-   "..........XhhsssshhX............",
+   "..........XhhhhhhhhX............",
+   "..........XhhssssHhX............",
    "..........XsssssssSX............",
-   "..........XXsssssXX.............",
-   "...........XsssSX...............",
-   "....XXXX..XXXXXXXXXX..XXXX......",
-   "...XmmmX.XXeggggggGXX.XmMMX.....",
-   "...XmmmXXXeggggggggGXXXmMMX.....",
-   "...XmmmXXeggggggggggGXXmMMX.....",
-   "....XXXXXeggggggggggGXXXXX......",
-   ".........XeggggggggGX...........",
-   ".........XGGGGGGGGGX............",
-   ".........XXGGGGGGXX.............",
-   "..........XgwwwwWX..............",
-   "..........XgwXXwWX..............",
-   "..........XssX.XsSX.............",
-   "..........XwwX.XwWX.............",
-   "..........XggX.XgGX.............",
-   ".........XbbbX.XbbbX............",
-   ".........XXXXX.XXXXX............",
-   "................................",
-   "................................",
-   "................................",
-   "................................",
-   "................................",
-   "................................"],
-  // 1 HIGH: full stretch to our left, arm out at shoulder height
-  ["................................",
-   "................................",
-   "................................",
-   "................................",
-   "................................",
-   "..................XXXX..........",
-   ".............XXXXXhhhhX.........",
-   "...XXXX...XXXeeeeehssssX........",
-   "..XmmmXXXXeggggggGGssssX........",
-   "..XmmmmmmeggggggggGXssXX........",
-   "..XmmmXXXXeggggggGGXXX..........",
-   "...XXXX...XXXGGGGGGX............",
-   "............XgwwwwWX............",
-   "...........XgwwwwwwWX...........",
-   "..........XssXXXssssX...........",
-   ".........XggX..XsgggX...........",
-   ".......XXbbX....XggbbX..........",
-   ".......XbbX......XbbbX..........",
-   "........XX........XXX...........",
-   "................................",
-   "................................",
-   "................................",
-   "................................",
+   "...........XsssssSX.............",
+   "............XsssSX..............",
+   ".............XssX...............",
+   ".........XXXeeeeeeeeXXX.........",
+   "........XeeXeggggggeXeeX........",
+   "........XggXggggggggXggX........",
+   "........XggXggggggggXggX........",
+   "........XggXggggggggXggX........",
+   "........XssXGGGGGGGGXssX........",
+   "........XssXXGGGGGGXXssX........",
+   ".......XmmmXwwwwwwwwXmmmX.......",
+   ".......XmmMXwwWXXWwwXMmmX.......",
+   ".......XXXXXXssX.XssXXXXX.......",
+   "............XggX.XggX...........",
+   "............XggX.XggX...........",
+   "...........XbbbX.XbbbX..........",
+   "...........XXXXX.XXXXX..........",
    "................................",
    "................................",
    "................................",
    "................................",
    "................................"],
-  // 2 LOW: same man, down to our left, gloves on the grass
+  // 1 HIGH: airborne, thrown up to our left, legs trailing
+  ["................................",
+   "................................",
+   "................................",
+   "......XXXXX.....................",
+   ".....XmmMmmX....................",
+   ".....XmmMmmX....................",
+   "......XmmMmmX...................",
+   ".......XssssX...................",
+   "........XssssX......XXXXX.......",
+   ".........XssssXX..XhhhhhX.......",
+   "..........XeeggggXhhssshX.......",
+   "...........XegggggghsssssX......",
+   "............XeggggggggssSX......",
+   ".............XeggggggggGXX......",
+   "...............XggggggggGX......",
+   ".................XGGGGGGX.......",
+   "..................XwwwwwWX......",
+   "...................XwwXXWX......",
+   "...................XssXXssX.....",
+   "...................XggXXssX.....",
+   "...................XbbXXggX.....",
+   "...................XXXXXbbX.....",
+   "........................XXXX....",
+   "................................",
+   "................................",
+   "................................",
+   "................................",
+   "................................"],
+  // 2 LOW: flat along the floor, gloves in the grass to our left
   ["................................",
    "................................",
    "................................",
@@ -15688,20 +15712,20 @@ const GK = [
    "................................",
    "................................",
    "................................",
-   "..................XXXX..........",
-   ".............XXXXXhhhhX.........",
-   "..........XXXeeeeehssssX........",
-   ".........XeggggggGGssssX........",
-   ".......XXXeggggggggGXsXX........",
-   "......XmmXXeggggggGGXX..........",
-   ".....XmmX..XXGGGGGGX............",
-   "....XmmX...XgwwwwWX.............",
-   "...XmmX....XgwwwwwWX............",
-   "..XmmX....XssXXXsssX............",
-   "..XXX.....XggX..XsggX...........",
-   "..........XbbX...XggbX..........",
-   "..........XXXX...XbbbX..........",
-   ".................XXXX...........",
+   "................................",
+   "................................",
+   "................................",
+   "................XXXXX...........",
+   "...XXXXXXX.....XhhhhhX..........",
+   "..XmmMmmX.....XhhhssshX.........",
+   "..XmmMmmXssXXhhsssssX...........",
+   "..XmmMmmssssXXeegssssSX.........",
+   "...XssssssXXeggggggggssX........",
+   "....XXXXXXXXeggggggggGXwwwX.....",
+   "...........XgggggggggGXwwXssX...",
+   "...........XGGGGGGGGGXXXggX.....",
+   "............XXXXXXXXXX.XbbbX....",
+   ".......................XXXXX....",
    "................................",
    "................................",
    "................................",
