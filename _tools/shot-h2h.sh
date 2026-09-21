@@ -107,6 +107,12 @@ const setups={
   landed:`${picked} render(); h2Call("heads"); h2Land();`,
   pick:  `${base} S.h2h.tossed=true; S.h2h.who=0; S.h2h.at=0; S.phase="h_pick"; render();`,
   sel:   `${base} S.h2h.tossed=true; S.h2h.who=0; S.h2h.at=0; S.phase="h_pick"; render(); h2Select(5);`,
+  /* THE MAN CARD in the confirm bar. It fires late for the same reason the
+     Dugout state does: the card is drawn out of the squad, and the squad is a
+     fetch, so a state that runs on the first frame photographs a card with
+     nothing on it but a position. */
+  card:  `${nl} setTimeout(()=>{ S.h2h.who=0; S.h2h.at=1; S.phase="h_pick"; render(); h2Select(9); }, 2200);`,
+  cardlg:`S=freshState(["Martijn","Bram"],false,"champ",0,"pitch",false); h2TackleOn=false; h2Start(); setTimeout(()=>{ h2PickTeam("Wrexham"); h2PickTeam("Birmingham City"); S.h2h.tossed=true; S.h2h.who=0; S.h2h.at=1; S.phase="h_pick"; render(); h2Select(9); }, 3200);`,
   att:   `${base} S.h2h.tossed=true; S.h2h.who=0; S.h2h.at=9; S.phase="h_pick"; render();`,
   flat:  `h2Tilt=false; ${nl} S.h2h.who=0; S.h2h.at=0; S.phase="h_pick"; render();`,
   nl:    `${nl} S.h2h.who=0; S.h2h.at=0; S.phase="h_pick"; render(); h2Select(7);`,

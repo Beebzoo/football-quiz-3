@@ -258,28 +258,33 @@ check("reduced motion paints him once and books nothing",
 /* ---------- the front page's own regressions ----------
    Source checks, so they need no harness. Each one is a thing that goes back to
    how it was the moment somebody pastes an older copy of a block over the top. */
-console.log("\n--- the ball on the front door is drawn, not fetched ---");
-check("no kick button carries the 512 pixel photograph",
-  !/class="mm-kick"[^>]*>[\s\S]{0,160}assets\/ball\.png/.test(html), "ball.png is back");
-check("the ball is built out of the banner's own art",
-  /function pxBallHTML\(\)[\s\S]{0,200}BN\.art/.test(html), "a second ball got drawn");
-check("and it is the only ball on the page",
-  (html.match(/pxBallHTML\(\)/g) || []).length === 2,
-  (html.match(/pxBallHTML\(\)/g) || []).length + " call sites");
-/* Run it for real against the live art rather than trusting the regex: the
-   thing that breaks this is the art changing shape, not the function. */
-const px = vm.runInNewContext(
-  html.slice(html.indexOf("function pxBallHTML()"), html.indexOf("\n/* THE ONE TAP THAT FIXES")) +
-  ";pxBallHTML()", { BN: BN });
-check("it draws something, out of a nine by nine grid",
-  px.indexOf('viewBox="0 0 9 9"') > -1 && (px.match(/<rect /g) || []).length > 20,
-  px.slice(0, 80));
-check("every colour in it came out of the banner's palette",
-  (px.match(/fill="([^"]+)"/g) || []).every(f =>
-    Object.values(BN.art.PAL).indexOf(f.slice(6, -1)) > -1), "a colour from nowhere");
-check("and the box is a whole multiple of the grid",
-  /\.mm-kick \.pxball\{width:27px/.test(html), "not 3x9");
+console.log("\n--- the ball on the front door is the ball the pitch plays with ---");
+/* IT USED TO BE A DRAWN ONE, and these checks used to defend that: the kick
+   button carried nine pixels of the banner's own art turned into rectangles,
+   and a check here refused assets/ball.png in case somebody pasted an older
+   block over the top.
 
+   BALL 3 IS THE FORK WHERE THE SIXTEEN BIT LOOK GOES, and that ball was the
+   last of it anywhere in the chrome: a pixel ball on the one button everybody
+   presses on the way into a match, on a front page rebuilt to look like BALL 1.
+   PLAN.md had it written down as a taste call waiting for a person.
+
+   So the guard is inverted rather than deleted. What it defends now is that
+   the front door and the pitch use the SAME ball, and that the pixel one
+   cannot come back by paste without this failing and asking why. */
+check("the kick button carries the real ball",
+  /class="mm-kick"[\s\S]{0,200}kickBallHTML\(\)/.test(html), "the kick button lost its ball");
+check("and it is the one the match plays with",
+  /function kickBallHTML\(\)[\s\S]{0,240}assets\/ball\.png/.test(html), "a second ball got drawn");
+check("the pixel ball is gone rather than sitting there unused",
+  html.indexOf("function pxBallHTML") === -1, "pxBallHTML is back");
+/* AND THE BANNER IS STILL BUILT, which is the thing that just lost its last
+   reader. Every check above this line drives BN for real, so the closure is
+   still held to its palette and its poses; it simply is not drawn on this
+   page. PLAN.md says putting it back is one block in renderSetup and that is
+   still true. */
+check("the banner closure is still here to put back",
+  /const BN\s*=/.test(html) && !!BN.art && !!BN.art.PAL, "BN went with it");
 console.log("\n--- the secondary buttons are still sentences ---");
 check("the shared secondary rule transforms nothing",
   !/\.mm-ghost,\.rules summary\{[^}]*text-transform/.test(html), "uppercase is back");

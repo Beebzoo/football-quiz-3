@@ -2095,12 +2095,13 @@
     cursor:pointer;transition:transform .06s ease}
   .mm-kick:active{transform:scale(.98)}
   .mm-kick .big{font:700 26px/1 var(--ui);letter-spacing:-.01em;text-transform:uppercase}
-  /* 27 AND NOT 26, because the ball is nine pixels of drawn art and 27 is three
-     of them exactly. There is no image-rendering here and none is wanted: what
-     sits in this box is geometry rather than a bitmap, so there is nothing to
-     resample and no smoothing to switch off. The long version is on
-     pxBallHTML, where the art is turned into rectangles. */
-  .mm-kick .pxball{width:27px;height:27px;flex:none;display:block}
+  /* TWENTY SEVEN, WHICH USED TO BE ARITHMETIC AND IS NOW JUST THE SIZE.
+     The ball here was nine pixels of drawn art and 27 was three of them
+     exactly, so the number had a reason. It is the pitch's own ball now, the
+     same file the match plays with, and the size is kept only so that the
+     button does not change shape. */
+  .mm-kick .kickball{width:27px;height:27px;flex:none;display:block;object-fit:contain;
+    filter:drop-shadow(0 1px 2px rgba(0,0,0,.45))}
 
   .mm-foot{display:flex;flex-direction:column;gap:10px;padding-top:16px;border-top:1px solid var(--grass-line)}
   /* ONE ITALIC VOICE, NOT TWO. The last match line and the notes under the
@@ -3997,6 +3998,31 @@
   .h2cwhat{font-weight:700;font-size:1rem}
   .h2ctier{font-weight:800;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;
     padding:3px 9px;border-radius:999px;border:1px solid var(--dc);color:var(--dc);white-space:nowrap}
+  /* ---------- the man you are about to find ----------
+     It sits INSIDE the confirm bar and takes the bar's own colour, because it
+     is part of the same decision rather than a second panel about a different
+     thing. The badge is the album's, at the size the bench already draws it,
+     so a man looks the same everywhere he turns up. */
+  .h2mancard{display:flex;flex-direction:column;gap:3px;margin:0 0 9px;
+    padding:8px 9px;border-radius:9px;
+    background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09)}
+  .h2mchead{display:flex;align-items:center;gap:8px;min-width:0}
+  .h2mchead .alsbadge{flex:0 0 auto}
+  .h2mcname{font:800 .98rem/1.15 var(--ui);flex:1 1 auto;min-width:0;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  /* the flag is a fact about him, not decoration, so it sits on the name line
+     and keeps a real border rather than floating on the dark */
+  .h2mcflag{flex:0 0 auto;width:22px;height:15px;object-fit:cover;border-radius:2px;
+    box-shadow:0 0 0 1px rgba(255,255,255,.28)}
+  .h2mcmeta{font:600 .74rem/1.25 var(--ui);opacity:.74}
+  .h2mcdid{display:flex;flex-wrap:wrap;align-items:center;gap:5px;
+    font:600 .7rem/1.3 var(--ui);opacity:.7}
+  /* a trait is the one thing here that CHANGES the price of the ball, so it is
+     the one thing that is lit rather than quiet */
+  .h2mctrait{padding:1px 7px;border-radius:999px;opacity:1;
+    border:1px solid var(--gold-hi);color:var(--gold-hi);
+    font:800 .66rem/1.35 var(--ui);letter-spacing:.05em;text-transform:uppercase}
+  .h2mclg{opacity:.85}
   .h2hintline{text-align:center;font-size:.85rem;opacity:.72;font-style:italic;margin-top:7px}
   /* The scouting line. Quieter than the caption above it, because it is a
      standing fact rather than news, and the man's name is the only part
@@ -4174,6 +4200,13 @@
   .h2markman .h2hasball{position:absolute;top:-3px;right:16%;
     width:8px;height:8px;border-radius:50%;background:#F2F6EE;
     box-shadow:0 0 0 1.5px rgba(9,26,17,.85)}
+  /* HIS FLAG, on the other shoulder from the ball, so the two can never sit on
+     top of each other on the one man who has both. Same corner on the team
+     sheet, where there is no ball to avoid, because a man should be the same
+     shape on both screens that draw an eleven. */
+  .h2markman .h2mnflag, .h2xislot .h2mnflag{position:absolute;top:-3px;left:16%;
+    width:13px;height:9px;object-fit:cover;border-radius:1.5px;
+    box-shadow:0 0 0 1px rgba(9,26,17,.9)}
   /* and a man who has been sent off keeps his slot, empty, because the gap he
      leaves is the whole point of a red card */
   .h2markman.gone i{display:flex;align-items:center;justify-content:center;
@@ -4225,7 +4258,13 @@
   .h2mno{font:800 .95rem/1 var(--ui);color:var(--board-dim);font-variant-numeric:tabular-nums}
   .h2markbtn.on .h2mno{color:#241B08}
   .h2mnm{font:700 .74rem/1.15 var(--ui);text-align:center;word-break:break-word}
-  .h2mps{font:600 .6rem/1 var(--ui);letter-spacing:.1em;text-transform:uppercase;color:var(--board-dim)}
+  .h2mps{font:600 .6rem/1 var(--ui);letter-spacing:.1em;text-transform:uppercase;color:var(--board-dim);
+    display:flex;align-items:center;justify-content:center;gap:4px}
+  /* on a bench chip the flag sits on the position line rather than on the
+     shirt, because the shirt here is a number in a kit both sides share and
+     the line underneath is where everything else about him already is */
+  .h2mpsflag{width:12px;height:8px;object-fit:cover;border-radius:1.5px;
+    box-shadow:0 0 0 1px rgba(0,0,0,.35)}
   .h2markbtn.on .h2mps{color:#3E2A16}
 
   /* a booking, worn on the shirt for the rest of the match */
@@ -7484,6 +7523,27 @@ Object.keys(POOLS).forEach(loadPool);
 let STICK=null;
 fetch("assets/stickers/index.json").then(r=>r.json()).then(x=>{ STICK=x; }).catch(()=>{});
 
+/* ---------- A THREE LETTER CODE INTO A FLAG ----------
+   Every man in the twelve club leagues carries his country as nat=GER, off the
+   squad template on his club's article, and every man in the sixteen
+   tournament pools carries one too. _tools/build-natcodes.js turns 193 of those
+   codes into a file in assets/natflags, harvested off FIFA's list and the
+   IOC's rather than typed, because the codes are written by whoever edited the
+   article and Spain is ESP on one page and SPA on the next.
+
+   IT IS A FETCH AND IT IS ALLOWED TO NEVER ARRIVE. A card with no flag on it is
+   a card; a card that waits for one is a bug. 15 of 5,313 men have a code whose
+   flag is not on disk and they draw nothing, which is the same path as the file
+   being slow, so the empty case is the one that gets played rather than the
+   rare one. */
+const NATCODES = {};
+fetch("assets/natflags/codes.json").then(r => r.ok ? r.json() : null)
+  .then(j => { if(j) Object.assign(NATCODES, j); }).catch(()=>{});
+const h2FlagOf = m => {
+  const c = m && m.nat && NATCODES[String(m.nat).toUpperCase()];
+  return c ? "assets/natflags/" + c + ".png" : null;
+};
+
 let BIDS=null;
 let ORDB=null;
 let MYS=null, MYSI=null;
@@ -8703,7 +8763,24 @@ function stickerPop(){
    celebrates exactly like a +1 is the app not paying attention. */
 const goalFx = (big, pts) => big ? ballGoal() : (stickerPop(), confetti(pts>=10 ? 110 : pts>=5 ? 85 : 65));
 
+/* ---------- THE PHONE ITSELF ----------
+   Two things in a match change the score, and both happen while the phone is
+   lying on the table between two people rather than in anybody's hand. A goal
+   and a lost ball are exactly the moments somebody looks up for, so they get a
+   buzz as well as a colour.
+
+   IT IS NOT TIED TO THE SOUND TOGGLE. Sound off on a Friday night means the pub
+   cannot hear the crowd, not that the phone should stop telling you your
+   striker missed. Every call is allowed to fail and most of them will: vibrate
+   does not exist on iOS at all, and is refused on a page nobody has tapped
+   yet. */
+function buzz(pattern){
+  try{
+    if(typeof navigator !== "undefined" && typeof navigator.vibrate === "function") navigator.vibrate(pattern);
+  }catch(e){}
+}
 function flashBad(){
+  buzz(18);
   if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const f=document.createElement("div"); f.className="redflash";
   document.body.appendChild(f);
@@ -10416,6 +10493,32 @@ function h2KickOff(){
 }
 
 /* ---------- passing ---------- */
+/* ---------- BRING THE DECISION INTO VIEW ----------
+   The pitch is three quarters of a phone and everything you have to read is
+   underneath it: what the ball costs, who is at the end of it, and the button
+   that plays it. So picking a man put the whole decision below the fold and
+   every single pass in a ninety minute match cost a scroll to find a button
+   that was always in the same place.
+
+   block:"nearest" IS THE WHOLE TRICK. A bar already on screen does not move, so
+   this is completely silent on a tall screen and only does something on the
+   phones where it was actually a problem. Anything that throws here is a
+   browser that cannot scroll smoothly, and the answer to that is to not scroll
+   smoothly rather than to take the match down. */
+function h2BringIntoView(sel){
+  try{
+    if(typeof requestAnimationFrame !== "function" || typeof document === "undefined") return;
+    requestAnimationFrame(() => {
+      try{
+        const el = document.querySelector(sel);
+        if(!el || !el.scrollIntoView) return;
+        let smooth = true;
+        try{ smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches; }catch(e){}
+        el.scrollIntoView({block: "nearest", behavior: smooth ? "smooth" : "auto"});
+      }catch(e){}
+    });
+  }catch(e){}
+}
 function h2Select(i){
   audio();
   const H = h2();
@@ -10423,6 +10526,9 @@ function h2Select(i){
   if(h2IsOff(H.who, i)) return;      // he is off; there is nobody there to find
   H.sel = H.sel === i ? null : i;
   render();
+  /* only on the way IN. Letting a man go is not a decision that needs reading,
+     and scrolling somebody down to an empty space is worse than not scrolling. */
+  if(H.sel != null) h2BringIntoView(".h2confirm");
 }
 /* WHICH DECK THIS MAN'S QUESTION COMES FROM. In The Dugout it is his career:
    van Nistelrooy can be asked Eredivisie, Premier League, La Liga or
@@ -10547,6 +10653,7 @@ function h2Play(){
         if(C) h2Fly(h2BX(H.at, true), h2BY(H.at, true), C.bx, C.by2, H.at, null, Math.round(C.sd * 0.84));
         S.timeUp = false; S.phase = "h_tackle";
         render();
+        h2BringIntoView(".qcard");
         return;
       }
       // nothing left at that level: let it through rather than stall the game
@@ -10581,6 +10688,7 @@ function h2Play(){
       if(relieved) H.relief = false;
       S.timeUp = false; S.phase = "h_tackle";
       render();
+      h2BringIntoView(".qcard");
       return;
     }
     // no question left at that level: let the pass go rather than stall the game
@@ -10590,6 +10698,7 @@ function h2Play(){
   H.shooting = false;
   S.timeUp = false; S.phase = "h_q";
   render();
+  h2BringIntoView(".qcard");
 }
 
 function h2TackleReveal(){ stopTimer(); S.phase = "h_tjudge"; render(); }
@@ -14620,6 +14729,8 @@ function h2AfterStrike(){
   }
   S.players[H.who].score += 1;
   ballGoal();
+  /* three of them, so a goal cannot feel like a miss with a longer buzz */
+  buzz([30, 55, 95]);
   H.scorer = H.who;
   h2Cele = true;
   S.phase = "h_goal";
@@ -16936,6 +17047,63 @@ function h2TeamBtnHTML(pool, s, taken){
     '</button>';
 }
 
+/* ---------- WHO HE IS, ON A CARD ----------
+   The confirm bar named the man in a sentence, "Pass to Cocu", and that was
+   everything the screen ever said about him. It is the one moment in the match
+   where you are choosing BETWEEN men, and the only thing separating them was a
+   surname and how far up the pitch they stood.
+
+   Everything on this card is already in the deck and was simply never drawn.
+   A club side carries a name, a number, a position and a country; a tournament
+   squad carries his club that season, his caps, and what he did at the
+   tournament, down to the yellows. It is the same card either way and the
+   shorter deck just makes a shorter card, which is why there is one of these
+   rather than one per pool.
+
+   IT SAYS NOTHING THAT IS NOT ALREADY HIS. No marks, no relief, nothing about
+   the other man's line: the card is about the eleven you picked, and the one
+   secret this mode has stays where it is. */
+function h2ManCardHTML(i, w){
+  const m = h2Man(i, w), sp = h2Spot(i, w), kit = h2Kit(w);
+  const flag = h2FlagOf(m);
+  const name = (m && (m.full || m.n)) || sp.n;
+  /* the position first, because it is the reason he is standing where he is
+     and the reason the ball to him costs what it costs */
+  const meta = [sp.long];
+  if(m && m.club) meta.push(m.club);
+  if(m && m.caps) meta.push(m.caps + (m.caps === 1 ? " cap" : " caps"));
+  /* WHAT HE DID AT THE TOURNAMENT, which is also what made him eligible for a
+     trait, so the two read together rather than contradicting each other. */
+  const did = [];
+  if(m && m.cap) did.push("wore the armband");
+  if(m && m.g) did.push(m.g + (m.g === 1 ? " goal" : " goals"));
+  if(m && m.y) did.push(m.y + (m.y === 1 ? " yellow" : " yellows"));
+  if(m && m.r) did.push("sent off");
+  const tk = h2TraitOf(i, w);
+  const trait = tk && H2_TRAITS[tk] ? H2_TRAITS[tk].label : null;
+  /* WHICH DECK A BALL TO HIM DRAWS FROM, in The Dugout only, where it is the
+     whole idea of the mode and you otherwise found out after you had played
+     it. h2Decks shuffles and this does not: the card names the set he can ask,
+     not the one he will. */
+  const lgs = (h2Tactical() && m && m.lg ? m.lg : [])
+    .map(id => (QUIZZES[id] || {}).label || id);
+  return '<div class="h2mancard">' +
+    '<div class="h2mchead">' +
+      albumBadgeHTML(kit, h2No(i, w)) +
+      '<span class="h2mcname">' + esc(name) + '</span>' +
+      (flag ? '<img class="h2mcflag" src="' + flag + '" alt="">' : '') +
+    '</div>' +
+    '<div class="h2mcmeta">' + esc(meta.join(" · ")) + '</div>' +
+    (did.length || trait || lgs.length
+      ? '<div class="h2mcdid">' +
+        (trait ? '<span class="h2mctrait">' + esc(trait) + '</span>' : '') +
+        (did.length ? '<span>' + esc(did.join(" · ")) + '</span>' : '') +
+        (lgs.length ? '<span class="h2mclg">' + esc(lgs.join(" or ")) + '</span>' : '') +
+      '</div>'
+      : '') +
+  '</div>';
+}
+
 function h2Render(st){
   const H = h2();
   const me = S.players[H.who], them = S.players[h2Other()];
@@ -17030,9 +17198,12 @@ function h2Render(st){
            an empty LB is an answer. */
         if(!man) return '<span class="h2xislot empty" style="left:' + sp.x + '%;top:' +
           sp.y + '%"><i>' + esc(sp.n) + '</i></span>';
+        const fl = h2FlagOf(man);
         return '<button class="h2xislot" style="left:' + sp.x + '%;top:' + sp.y +
           '%" onclick="h2SquadPick(' + pool.indexOf(man) + ')">' +
-          albumBadgeHTML(kit, man.no) + '<b>' + esc(man.n) + '</b></button>';
+          albumBadgeHTML(kit, man.no) +
+          (fl ? '<img class="h2mnflag" src="' + fl + '" alt="">' : '') +
+          '<b>' + esc(man.n) + '</b></button>';
       }).join("") + '</div>';
     st.innerHTML =
       '<div class="kick">' + ico('clipboard') + 'The Dugout \u00b7 ' + esc(h2Team(w) || picker.name) + '</div>' +
@@ -17072,7 +17243,9 @@ function h2Render(st){
              from the other side of a table. */
           albumBadgeHTML(kit, p.no) +
           '<span class="h2mnm">' + esc(p.n) + '</span>' +
-          '<span class="h2mps">' + esc(p.pos || "") + (ls.length ? ' \u00b7 ' + ls.length : '') + '</span>' +
+          '<span class="h2mps">' +
+            (h2FlagOf(p) ? '<img class="h2mpsflag" src="' + h2FlagOf(p) + '" alt="">' : '') +
+            esc(p.pos || "") + (ls.length ? ' \u00b7 ' + ls.length : '') + '</span>' +
         '</button>';
       }).join("") + '</div></div></div>' +
       '<div class="h2hintline">' + (
@@ -17362,10 +17535,15 @@ function h2Render(st){
         if(live.indexOf(i) === -1)
           return '<span class="h2markman gone"' + at + '><i>' + esc(sp.n) + '</i></span>';
         const on = picked.indexOf(i) !== -1, ball = i === H.at;
+        /* his flag, on the shoulder the ball is not on. Eleven surnames on a
+           pitch is eleven surnames; a flag is the thing that makes one of them
+           the Brazilian you were worried about. */
+        const fl = h2FlagOf(h2Man(i, att));
         return '<button class="h2markman' + (on ? " on" : "") + '"' + at +
           (ball ? ' disabled' : ' onclick="h2Mark(' + i + ')"') + '>' +
           albumBadgeHTML(aKit, h2No(i, att)) +
           (ball ? '<i class="h2hasball" aria-hidden="true"></i>' : '') +
+          (fl ? '<img class="h2mnflag" src="' + fl + '" alt="">' : '') +
           '<span class="h2mnm">' + esc(h2Who(i, att)) + '</span>' +
         '</button>';
       }).join("") + '</div>';
@@ -17455,7 +17633,9 @@ function h2Render(st){
           '<button class="h2markbtn" style="--ac:' + kit + '" onclick="h2SubSwap(' + b.i + ')">' +
             '<span class="h2mno">' + (b.p.no || "") + '</span>' +
             '<span class="h2mnm">' + esc(b.p.n) + '</span>' +
-            '<span class="h2mps">' + esc(b.p.pos || "") + '</span>' +
+            '<span class="h2mps">' +
+              (h2FlagOf(b.p) ? '<img class="h2mpsflag" src="' + h2FlagOf(b.p) + '" alt="">' : '') +
+              esc(b.p.pos || "") + '</span>' +
           '</button>').join("") + '</div>') +
       '<button class="bigbtn ghost" onclick="h2SubDecline()">Leave it as it is</button>' +
       foot;
@@ -17479,7 +17659,9 @@ function h2Render(st){
         '<button class="h2markbtn" onclick="h2SubOn(' + b.i + ')">' +
           '<span class="h2mno">' + (b.p.no || "") + '</span>' +
           '<span class="h2mnm">' + esc(b.p.n) + '</span>' +
-          '<span class="h2mps">' + esc(b.p.pos || "") + '</span>' +
+          '<span class="h2mps">' +
+            (h2FlagOf(b.p) ? '<img class="h2mpsflag" src="' + h2FlagOf(b.p) + '" alt="">' : '') +
+            esc(b.p.pos || "") + '</span>' +
         '</button>').join("") + '</div>' +
       '<button class="bigbtn ghost" onclick="h2SubDecline()">No. He has lost it.</button>' +
       foot;
@@ -17612,6 +17794,10 @@ function h2Render(st){
               (contested ? "#e04a34" : tt.color) + '">' +
               '<div class="h2cline"><span class="h2cwhat">' + h2PassName(H.at, H.sel) + '</span>' +
               '<span class="h2ctier">' + (contested ? "Contested" : tt.label) + '</span></div>' +
+              /* AND WHO HE IS. The line above says what the ball is and what it
+                 costs; this says who is at the end of it, which is the half of
+                 the decision the screen never showed. */
+              h2ManCardHTML(H.sel, H.who) +
               /* WHAT HE ASKS ABOUT, before the ball is played, because that is
                  the whole reason to pick one man over another. */
               (h2Spec(H.sel) && !contested
@@ -20907,7 +21093,7 @@ function renderSetup(st){
             <div class="mm-row"><span>${i+1}</span><input id="n${i}" placeholder="${esc(REGULARS[i]||("Player "+(i+1)))}" maxlength="12" autocomplete="off" value="${esc(setupNames[i]||"")}"></div>`).join("")}
           ${setupRef&&!isPitch(setupPlay)?`<div class="mm-row"><span>R</span><input id="n2" placeholder="Referee" maxlength="12" autocomplete="off" value="${esc(setupNames[2]||"")}"></div>`:""}
         </div>
-        <button class="mm-kick" onclick="startGame()"><span class="big">Kick off</span>${pxBallHTML()}</button>
+        <button class="mm-kick" onclick="startGame()"><span class="big">Kick off</span>${kickBallHTML()}</button>
       </div>`}
 
       <div class="mm-foot">
@@ -20915,7 +21101,7 @@ function renderSetup(st){
         <button class="mm-ghost" onclick="openBoard()">The Table · ${books().length} match${books().length===1?"":"es"}${crewName()?" · "+esc(crewName()):""}</button>`:""}
         <details class="rules">
           <summary>${ico('book')}Rules</summary>
-          <div class="hint"><b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Let's Ball:</b> the quiz itself, and the one the app opens on. One player picks a difficulty and answers out loud, the rest can steal. 3,800 questions across five levels, from one pointers to the BALL tier nobody sensible gets. <b>Written:</b> everyone types an answer to the same question, then you reveal it and award the points. <b>Career Path:</b> club logos revealed one by one, in career order, and you shout the player's name whenever you dare. Guess on the first logo for +15; every extra logo costs 3 (never below +3). Wrong guess: −2 and you're locked out of that career. <b>Stadium:</b> a photo of a ground appears and you climb as high up the ladder as you can. Name the ground for the full points, the city for a good chunk, the country for a consolation. Easy 3/2/1 · Hard 8/5/3 · BALL 30/12/6, and the reader pays the best rung you reached. 342 grounds from Camp Nou to places only true BALL knowers recognise, steals work like Let's Ball. <b>One &amp; Only:</b> a club crest and a country flag appear, and you name the only player of that nationality ever to play there, from 1,311 real one-offs (Wikidata-sourced; citizenship counts, so the odd surprise is part of the game). The reveal also says what he played, the years he was there and how many games he got, so a name nobody recognised still tells you something. Easy +1 · Medium +2 · Hard +5 · BALL +20. <b>Badge Zoom:</b> a crest appears zoomed right in, and you name the club, 1,437 crests deep. Easy +1 · Normal +2 · Hard +5. BALL crops in hard on clubs you have heard of and cannot place, so it pays on a ladder instead: answer on the tight shot for +20, or pull the camera back for a wider one at +12, and the whole crest at +6. Once you have pulled back you cannot go back in, so decide as a table. <b>Manager Path:</b> the same game as Career Path, played with the men in the dugout: crests appear one by one in the order he took the jobs, and you shout the manager. 227 careers from Ajax to Al-Ettifaq, national teams included, so a run of clubs ending at a country flag is a strong hint. Same scoring as Career Path. <b>League Rush:</b> pick a league and type as many of its clubs as you can in thirty seconds. Type it how you say it: Atleti, Spurs and PSV all count, and accents and full stops never cost you. +1 per club and +10 for naming the whole league, and at the end you see the ones you missed. Thirteen leagues, current season, from the Eredivisie and the Eerste Divisie to MLS. <b>Guess the Kit:</b> a home shirt appears and you name whose it is, from 1,021 kits including 174 national sides. Easy +1 · Normal +2 · Hard +5 · BALL +20, steals work like Let's Ball. Shirts carry less to go on than crests do, so the bank is built to keep any two of them tellable apart, though a few of the originals really are near enough identical, and a plain white one could fairly be Valencia or Marseille. <b>Name the XI:</b> a famous final's line-up appears as eleven shirts on the pitch and the whole table shouts, and the reader taps a shirt when someone names its player and hands out the point, +1 per shirt. <b>Older or Taller:</b> two players's faces appear and you tap the one who is older, or the taller one, whichever it asks. The app knows, so there is nothing to argue about until afterwards. +1 each time, and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. 471 players, nobody twice in a run, and no pair closer than two years or three centimetres, because a coin toss is not a question. <b>Timeline:</b> five moments from football history. Drag them into chronological order, earliest on top, and lock it in. The years are revealed and the app pays +1 per event in the right spot, +5 for a perfect five. First to the target score wins, or pick "No limit" and end with the full-time whistle. <b>Rainbow Road:</b> all twelve modes in one match, and you do not get to choose. Each go the app rolls a mode, throws its name up on the screen and deals it, so a career of crests can be followed by a shirt, a crest cropped to bits, five events to drag into order or thirty seconds of typing out a league. Every mode keeps its own scoring, so the same go can be worth one point or twenty, and the same mode never lands twice in a row. Play it to the target and the night decides itself. <b>Play together (beta):</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone: pick the difficulty, say your answer out loud, then reveal it on your own phone and call it right or wrong yourself. The answer stays hidden on everybody else's phone while you do, because they are the ones about to be offered the steal. Miss it and their phones race for a STEAL IT button, and the phone that steals gets the answer the same way. Once a question is dead every phone shows it. In Written mode everyone types secretly on their own phone. Join with exactly the name the host gave you, otherwise you just watch and buzz. The host's buttons still work for anything if a phone freezes. Internet needed on every phone; the pub's single-phone ritual stays the default. Easy +1 · Normal +2 · Hard +5 · Extreme +10 · BALL +20. <b>The Table:</b> every finished match is filed on the phone that played it and survives the app being closed. Type the same shared table name on all three phones and you keep one table between you, with everybody's matches in it. Leave it empty and the phone keeps its own. Tap ✏️ on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
+          <div class="hint"><b>The three ways to play.</b> <b>The Board</b> is the quiz itself: pick a difficulty, answer out loud, take the points, and the others can steal it. <b>One on One</b> is a match between two of you: the ball moves by answering, and how far it travels is how hard the question is. <b>The Dugout</b> is One on One with an eleven you picked yourself, and a ball to a man draws a question from a league he actually played in. <b>What you answer.</b> <b>Let's Ball</b> is the whole bank, 6,984 questions across five tiers. Then twelve leagues, six top flights and the second division under each of them, each with its own deck: the Eredivisie and the Eerste Divisie, the Premier League and the Championship, La Liga and the Segunda, the Bundesliga and the 2. Bundesliga, Serie A and Serie B, the Pro League and the Challenger Pro League. The second divisions live on their own shelf in the drawer. <b>Three you play on the board only.</b> <b>Career Path:</b> club crests appear one by one in the order he played for them, and you shout the player. Guess on the first crest for +15, every extra crest costs 3, never below +3, and a wrong guess is minus 2 and locks you out. <b>Manager Path:</b> the same game with the men in the dugout. <b>Badge Zoom:</b> a crest cropped right in, and you name the club. <b>On the pitch.</b> The ladder is distance: a ball to a centre-back is Easy, to the six is Hard, to the ten is Extreme, and anything from the back four straight into the front three is a BALL question however short it looks. Backwards and square are Easy. Get it wrong and your opponent picks the ball up where you lost it. Three short balls in a row and he comes for it. From the front three you can shoot, and his keeper gets one question to keep it out. First to two, or ninety minutes, then penalties. <b>Tackles.</b> With them on, the man without the ball secretly marks two of your eleven at the start of every possession, and those marks stand until the ball changes hands. A pass into a marked man is his question to win the ball; miss it and it is a foul, a booking, and a penalty if it was in the box. Two yellows for the same man is a red, and he leaves the pitch. Three substitutions a match, offered the moment one of your men gets a question wrong. <b>The Cup, the Album and Your XI.</b> Take a nation through a real World Cup against the computer, seven matches, saved between them. Every pack and every Daily Ball fills the album, 736 men from 2006, and you can only field men you have collected. <b>The Daily Ball</b> is six questions for one sticker, the same man on every phone. <b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Play together:</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone. <b>The Table:</b> every finished match is filed on the phone that played it. Type the same shared table name on all three phones to keep one table between you. Tap the pencil on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
         </details>
         ${isStandalone()?"":`<button class="mm-quiet" onclick="installApp()">Add BALL 3 to your home screen</button>`}
         <div class="buildline" onclick="freshen()" title="Tap to fetch the newest one">${esc(BUILD)}</div>
@@ -20970,27 +21156,19 @@ function renderSetup(st){
    IT FAILS QUIETLY. If BN never built, this returns an empty string and the
    button loses its ball, which nobody dies of, where throwing out of here
    would take the entire menu with it. */
-function pxBallHTML(){
-  const art = (typeof BN !== "undefined" && BN.art) || null;
-  if(!art || !art.BALL || !art.BALL[0]) return "";
-  const g = art.BALL[0];
-  let out = "";
-  /* HORIZONTAL RUNS RATHER THAN A RECT PER PIXEL. The same picture in 31
-     elements instead of 81, and the art is written out in rows anyway, so the
-     run is already sitting there in the string waiting to be counted. */
-  for(let y=0; y<g.length; y++){
-    const row = g[y];
-    for(let x=0; x<row.length;){
-      let n=1; while(row[x+n] === row[x]) n++;
-      const col = art.PAL[row[x]];
-      if(col) out += '<rect x="'+x+'" y="'+y+'" width="'+n+'" height="1" fill="'+col+'"/>';
-      x += n;
-    }
-  }
-  return '<svg class="pxball" viewBox="0 0 '+g[0].length+' '+g.length+'" shape-rendering="crispEdges"'
-       + ' aria-hidden="true" focusable="false">' + out + '</svg>';
-}
+/* THE KICK OFF BALL, which was the last sixteen bit thing left in the chrome.
+   BALL 3 took the skin out and put BALL 1's look back, and then the one button
+   everybody presses on the way into a match still had a pixel ball drawn on it
+   in eighty one squares. It is the same ball the pitch plays with now.
 
+   WHAT THIS QUIETLY CHANGES UPSTAIRS. pxBallHTML below was the only thing left
+   reading BN.art, and PLAN.md says in writing that the drawn banner is kept
+   BECAUSE of it. The banner closure still builds and banner-test still holds it
+   to its palette and its poses, so it is still a tested thing rather than dead
+   code, but the reason written down for keeping it is now one reader short. */
+function kickBallHTML(){
+  return '<img class="kickball" src="assets/ball.png" alt="" aria-hidden="true">';
+}
 /* THE ONE TAP THAT FIXES A STALE PHONE. The app is served network first, so
    an online reload is normally enough, but a home screen PWA can sit on an
    old service worker and "clear your site data" is not an answer on a Friday
