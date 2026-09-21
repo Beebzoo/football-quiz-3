@@ -1153,8 +1153,9 @@
   },
   {
    "q": "Which club conceded the fewest goals in the 2010-11 Belgian Pro League?",
-   "a": "Cercle Brugge",
-   "cat": "records"
+   "a": "Anderlecht",
+   "cat": "records",
+   "sub": "Twenty in thirty games, on their way to the title."
   },
   {
    "q": "Which club finished third in the 2011-12 Belgian Pro League?",
@@ -1263,13 +1264,15 @@
   },
   {
    "q": "Which club scored the most goals in the 2021-22 Belgian Pro League?",
-   "a": "Cercle Brugge",
-   "cat": "records"
+   "a": "Union SG",
+   "cat": "records",
+   "sub": "Seventy eight of them, and they conceded the fewest as well."
   },
   {
    "q": "Which club scored the most goals in the 2022-23 Belgian Pro League?",
-   "a": "OH Leuven",
-   "cat": "records"
+   "a": "Genk",
+   "cat": "records",
+   "sub": "Seventy eight, four clear of the champions."
   },
   {
    "q": "Which club conceded the fewest goals in the 2022-23 Belgian Pro League?",

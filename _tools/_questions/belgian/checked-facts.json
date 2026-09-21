@@ -484,11 +484,12 @@
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2010-11 Belgian Pro League?",
-  "a": "Cercle Brugge",
+  "a": "Anderlecht",
   "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Belgian_Pro_League",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table 21 Sep 2026: was read off a play-off group table rather than the season. Corrected against the regular season standings, eighteen clubs and thirty four games.",
+  "sub": "Twenty in thirty games, on their way to the title."
  },
  {
   "tier": "normal",
@@ -941,11 +942,12 @@
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2021-22 Belgian Pro League?",
-  "a": "Cercle Brugge",
+  "a": "Union SG",
   "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Belgian_First_Division_A",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table 21 Sep 2026: was read off a play-off group table rather than the season. Corrected against the regular season standings, eighteen clubs and thirty four games.",
+  "sub": "Seventy eight of them, and they conceded the fewest as well."
  },
  {
   "tier": "easy",
@@ -971,11 +973,12 @@
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2022-23 Belgian Pro League?",
-  "a": "OH Leuven",
+  "a": "Genk",
   "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Belgian_Pro_League",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table 21 Sep 2026: was read off a play-off group table rather than the season. Corrected against the regular season standings, eighteen clubs and thirty four games.",
+  "sub": "Seventy eight, four clear of the champions."
  },
  {
   "tier": "extreme",
