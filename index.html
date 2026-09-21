@@ -7274,6 +7274,21 @@ const POOLS = {
            file:"assets/seriea/clubs.json", flags:"assets/logos/", ext:".png"},
   "belgian-clubs": {label:"Belgian clubs", group:"Leagues", of:"belgian",
            file:"assets/belgian/clubs.json", flags:"assets/logos/", ext:".png"},
+  /* THE SECOND DIVISIONS' OWN SIDES. Their own group, because the picker only
+     draws a heading for a group with more than one pool in it and these would
+     otherwise sit in the same row as the top flights they are underneath. */
+  "champ-clubs": {label:"Championship clubs", group:"Second divisions", of:"champ",
+           file:"assets/championship/clubs.json", flags:"assets/logos/", ext:".png"},
+  "segunda-clubs": {label:"Segunda clubs", group:"Second divisions", of:"segunda",
+           file:"assets/segunda/clubs.json", flags:"assets/logos/", ext:".png"},
+  "bundesliga2-clubs": {label:"2. Bundesliga clubs", group:"Second divisions", of:"bundesliga2",
+           file:"assets/bundesliga2/clubs.json", flags:"assets/logos/", ext:".png"},
+  "serieb-clubs": {label:"Serie B clubs", group:"Second divisions", of:"serieb",
+           file:"assets/serieb/clubs.json", flags:"assets/logos/", ext:".png"},
+  "challenger-clubs": {label:"Challenger clubs", group:"Second divisions", of:"challenger",
+           file:"assets/challenger/clubs.json", flags:"assets/logos/", ext:".png"},
+  "eerste-clubs": {label:"Eerste Divisie clubs", group:"Second divisions", of:"eerste",
+           file:"assets/eerste/clubs.json", flags:"assets/logos/", ext:".png"},
 };
 const QUIZZES = {
   classic: {label:"Let's Ball", ic:"trophy", ac:"#e9b84c",
@@ -7307,6 +7322,41 @@ const QUIZZES = {
             spoken:"assets/belgian/index.json", mc:"assets/belgian/mc.json",
             pool:"belgian-clubs", flags:"assets/logos/", ext:".png",
             blurb:"Belgium, which Limburg can see from the window."},
+  /* THE SECOND DIVISION UNDER EACH OF THE SIX, and they are quizzes in their
+     own right rather than another pool of sides for the league above. A pool
+     only decides who you play AS; the questions would still have come out of
+     the top flight's deck, so you would have been Wrexham being asked about
+     the Premier League. Its own deck is the whole point.
+
+     THEY KEEP THEIR COUNTRY'S COLOUR, one step lighter. The six above tell
+     themselves apart by accent because they share an icon, and these share it
+     too: a second division is the same KIND of thing as a first. So the hue
+     says which country and the lightness says which tier, and the shelf they
+     sit on says it again in words. */
+  champ:   {label:"Championship", ic:"stripes", ac:"#9b7ff0",
+            spoken:"assets/championship/index.json", mc:"assets/championship/mc.json",
+            pool:"champ-clubs", flags:"assets/logos/", ext:".png",
+            blurb:"England's second tier, and the richest match in football at the end of it."},
+  segunda: {label:"Segunda División", ic:"stripes", ac:"#f08a72",
+            spoken:"assets/segunda/index.json", mc:"assets/segunda/mc.json",
+            pool:"segunda-clubs", flags:"assets/logos/", ext:".png",
+            blurb:"Spain's second tier, where Oviedo, Zaragoza and Deportivo are waiting."},
+  bundesliga2:{label:"2. Bundesliga", ic:"stripes", ac:"#6b7688",
+            spoken:"assets/bundesliga2/index.json", mc:"assets/bundesliga2/mc.json",
+            pool:"bundesliga2-clubs", flags:"assets/logos/", ext:".png",
+            blurb:"Germany's second tier, and it holds more old champions than you would think."},
+  serieb:  {label:"Serie B", ic:"stripes", ac:"#6fa8e8",
+            spoken:"assets/serieb/index.json", mc:"assets/serieb/mc.json",
+            pool:"serieb-clubs", flags:"assets/logos/", ext:".png",
+            blurb:"Italy's second tier, which Juventus, Napoli and Parma have all had to play."},
+  challenger:{label:"Challenger Pro League", ic:"stripes", ac:"#f0cf5c",
+            spoken:"assets/challenger/index.json", mc:"assets/challenger/mc.json",
+            pool:"challenger-clubs", flags:"assets/logos/", ext:".png",
+            blurb:"Belgium's second tier, reserve sides and all."},
+  eerste:  {label:"Eerste Divisie", ic:"stripes", ac:"#f7c08a",
+            spoken:"assets/eerste/index.json", mc:"assets/eerste/mc.json",
+            pool:"eerste-clubs", flags:"assets/logos/", ext:".png",
+            blurb:"The Dutch second tier, MVV and De Geusselt included."},
 };
 /* The five quizzes that are decks of written questions AND have an XI to put
    on a pitch. Career Path and Badge Zoom are neither, so they live outside it
@@ -18632,7 +18682,14 @@ let extraOpen = false; // the second shelf inside it
    for it deliberately, and the other three are the ones that come up in a mood
    rather than by default. Everything on the shelf still plays identically and
    still turns up in Rainbow Road's own roll. */
-const MODE_EXTRA = new Set([]);   // one shelf is still enough, nothing downstairs
+/* THE SECOND SHELF, and the six things it was waiting for. It sat empty from
+   the fork until now with a note saying one shelf was enough, which it was
+   while there were nine modes. Thirteen of them down one column is a list to
+   read rather than a set of tiles to look at, and the six that belong
+   downstairs pick themselves: a second division is the thing you reach for
+   second. Every one of them still plays exactly the same and still turns up in
+   the roll. */
+const MODE_EXTRA = new Set(["champ", "segunda", "bundesliga2", "serieb", "challenger", "eerste"]);
 /* Built off the two registries rather than typed out again beside them: a
    second list of the same modes is a second list to forget to update. */
 const MODE_META = (()=>{ const m={};
@@ -18757,7 +18814,7 @@ function modeDrawerHTML(){
      an EXTRA MODES lid over an empty set. */
   const downstairs = extra.length ? `
     <button class="bigbtn ghost${em&&!extraOpen?" sel":""} modestoggle extratoggle"${em?` style="--ac:${em[2]}"`:""} onclick="toggleExtra()">
-      <span class="mico">${ico(em&&!extraOpen?em[0]:'grid')}</span><span class="mlab">${em&&!extraOpen?em[1]:"Extra modes"}</span>${echev}</button>
+      <span class="mico">${ico(em&&!extraOpen?em[0]:'grid')}</span><span class="mlab">${em&&!extraOpen?em[1]:"Second divisions"}</span>${echev}</button>
     ${extraOpen?`<div class="modes">${extra.map(tile).join("")}</div>`:""}` : "";
   const grid = modesOpen?`<div class="modes">${main.map(tile).join("")}</div>${downstairs}`:"";
   return btn+grid;

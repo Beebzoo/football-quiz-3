@@ -1,0 +1,973 @@
+{
+ "easy": [
+  {
+   "q": "Which club won the 2016-17 Serie B?",
+   "a": "SPAL",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2017-18 Serie B?",
+   "a": "Empoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2018-19 Serie B?",
+   "a": "Brescia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2019-20 Serie B?",
+   "a": "Benevento",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2020-21 Serie B?",
+   "a": "Empoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2021-22 Serie B?",
+   "a": "Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2022-23 Serie B?",
+   "a": "Frosinone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2023-24 Serie B?",
+   "a": "Parma",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2024-25 Serie B?",
+   "a": "Sassuolo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2025-26 Serie B?",
+   "a": "Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club plays its home games at the Stadio Renato Dall'Ara?",
+   "a": "Bologna",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Sicilian club plays at the Stadio Renzo Barbera?",
+   "a": "Palermo",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club plays its home games at the Stadio San Nicola?",
+   "a": "Bari",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club plays its home games at the Stadio Ennio Tardini?",
+   "a": "Parma",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club from Campania plays at the Stadio Arechi?",
+   "a": "Salernitana",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Genoese club shares the Stadio Luigi Ferraris with Genoa?",
+   "a": "Sampdoria",
+   "cat": "grounds"
+  }
+ ],
+ "normal": [
+  {
+   "q": "Which club won the 1995-96 Serie B?",
+   "a": "Bologna",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1996-97 Serie B?",
+   "a": "Brescia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1997-98 Serie B?",
+   "a": "Salernitana",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1998-99 Serie B?",
+   "a": "Hellas Verona",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1999-00 Serie B?",
+   "a": "Vicenza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2000-01 Serie B?",
+   "a": "Torino",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2001-02 Serie B?",
+   "a": "Como",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2002-03 Serie B?",
+   "a": "Siena",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2003-04 Serie B?",
+   "a": "Palermo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2004-05 Serie B?",
+   "a": "Empoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2005-06 Serie B?",
+   "a": "Atalanta",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2006-07 Serie B?",
+   "a": "Juventus",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2007-08 Serie B?",
+   "a": "Chievo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2008-09 Serie B?",
+   "a": "Bari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2009-10 Serie B?",
+   "a": "Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2010-11 Serie B?",
+   "a": "Atalanta",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2011-12 Serie B?",
+   "a": "Pescara",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2012-13 Serie B?",
+   "a": "Sassuolo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2013-14 Serie B?",
+   "a": "Palermo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2015-16 Serie B?",
+   "a": "Cagliari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2016-17 Serie B?",
+   "a": "Hellas Verona",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2017-18 Serie B?",
+   "a": "Parma",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2018-19 Serie B?",
+   "a": "Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2019-20 Serie B?",
+   "a": "Crotone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2020-21 Serie B?",
+   "a": "Salernitana",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2020-21?",
+   "a": "Empoli, Salernitana, Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2021-22 Serie B?",
+   "a": "Cremonese",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2021-22?",
+   "a": "Lecce, Cremonese, Monza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2022-23 Serie B?",
+   "a": "Genoa",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2022-23?",
+   "a": "Frosinone, Genoa, Cagliari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2023-24 Serie B?",
+   "a": "Como",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2023-24?",
+   "a": "Parma, Como, Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2024-25 Serie B?",
+   "a": "Pisa",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2025-26 Serie B?",
+   "a": "Frosinone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2025-26?",
+   "a": "Venezia, Frosinone, Monza",
+   "cat": "champions"
+  }
+ ],
+ "hard": [
+  {
+   "q": "Which club finished second in the 1995-96 Serie B?",
+   "a": "Hellas Verona",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 1995-96?",
+   "a": "Bologna, Hellas Verona, Perugia, Reggiana",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1996-97 Serie B?",
+   "a": "Empoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 1996-97?",
+   "a": "Brescia, Empoli, Lecce, Bari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1997-98 Serie B?",
+   "a": "Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 1997-98?",
+   "a": "Salernitana, Venezia, Cagliari, Perugia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1998-99 Serie B?",
+   "a": "Torino",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 1998-99?",
+   "a": "Hellas Verona, Torino, Reggina, Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1999-00 Serie B?",
+   "a": "Atalanta",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 1999-00?",
+   "a": "Vicenza, Atalanta, Brescia, Napoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2000-01 Serie B?",
+   "a": "Chievo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2000-01?",
+   "a": "Torino, Chievo, Piacenza, Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2001-02 Serie B?",
+   "a": "Modena",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2001-02?",
+   "a": "Como, Modena, Reggina, Empoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2002-03?",
+   "a": "Sampdoria, Siena, Lecce, Ancona",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2003-04 Serie B?",
+   "a": "Cagliari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2004-05?",
+   "a": "Empoli, Treviso, Ascoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2005-06 Serie B?",
+   "a": "Catania",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2005-06?",
+   "a": "Atalanta, Catania",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2006-07 Serie B?",
+   "a": "Napoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2006-07?",
+   "a": "Napoli, Genoa",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2007-08 Serie B?",
+   "a": "Bologna",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2007-08?",
+   "a": "Chievo, Bologna, Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2008-09 Serie B?",
+   "a": "Parma",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2009-10 Serie B?",
+   "a": "Cesena",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2010-11 Serie B?",
+   "a": "Siena",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2011-12 Serie B?",
+   "a": "Torino",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2012-13 Serie B?",
+   "a": "Hellas Verona",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2013-14 Serie B?",
+   "a": "Empoli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2014-15 Serie B?",
+   "a": "Frosinone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2015-16 Serie B?",
+   "a": "Crotone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Serie B in 2015-16?",
+   "a": "Cagliari, Crotone, Pescara",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2016-17 Serie B?",
+   "a": "Frosinone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2016-17?",
+   "a": "Trapani, Vicenza, Latina, Pisa",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2017-18 Serie B?",
+   "a": "Frosinone",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2018-19 Serie B?",
+   "a": "Palermo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2018-19?",
+   "a": "Palermo, Foggia, Padova, Carpi",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2019-20 Serie B?",
+   "a": "Spezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2019-20?",
+   "a": "Trapani, Perugia, Juve Stabia, Livorno",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2020-21 Serie B?",
+   "a": "Monza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2020-21?",
+   "a": "Chievo, Reggiana, Pescara, Virtus Entella",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2020-21?",
+   "a": "Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2021-22 Serie B?",
+   "a": "Monza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2021-22?",
+   "a": "Vicenza, Alessandria, Crotone, Pordenone",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2021-22?",
+   "a": "Monza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2022-23 Serie B?",
+   "a": "Bari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2022-23?",
+   "a": "Perugia, SPAL, Benevento",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2022-23?",
+   "a": "Cagliari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2023-24 Serie B?",
+   "a": "Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2023-24?",
+   "a": "Ternana, Ascoli, Feralpisalò, Lecco",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2023-24?",
+   "a": "Venezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2024-25 Serie B?",
+   "a": "Spezia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2024-25?",
+   "a": "Brescia, Salernitana, Cittadella, Cosenza",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2025-26 Serie B?",
+   "a": "Monza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2025-26?",
+   "a": "Bari, Reggiana, Pescara, Spezia",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2025-26?",
+   "a": "Monza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club was thrown out of Serie B in 2019 over its finances and restarted in Serie D?",
+   "a": "Palermo",
+   "cat": "stories"
+  }
+ ],
+ "extreme": [
+  {
+   "q": "Which club finished third in the 1995-96 Serie B?",
+   "a": "Perugia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 1995-96?",
+   "a": "Fidelis Andria, Avellino, Ancona, Pistoiese",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1995-96 Serie B?",
+   "a": "Genoa",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1996-97 Serie B?",
+   "a": "Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 1996-97?",
+   "a": "Cosenza, Cesena, Palermo, Cremonese",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1996-97 Serie B?",
+   "a": "Genoa",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1996-97 Serie B?",
+   "a": "Genoa",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1997-98 Serie B?",
+   "a": "Cagliari",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 1997-98?",
+   "a": "Foggia, Ancona, Padova, Castel di Sangro",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1997-98 Serie B?",
+   "a": "Venezia",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1998-99 Serie B?",
+   "a": "Reggina",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 1998-99?",
+   "a": "Reggiana, Fidelis Andria, Lucchese, Cremonese",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1998-99 Serie B?",
+   "a": "Atalanta",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1999-00 Serie B?",
+   "a": "Brescia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 1999-00?",
+   "a": "Cesena, Alzano Virescit, Savoia, Fermana",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1999-00 Serie B?",
+   "a": "Atalanta",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2000-01 Serie B?",
+   "a": "Piacenza",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2000-01?",
+   "a": "Treviso, Monza, Ravenna, Pescara",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2000-01 Serie B?",
+   "a": "Venezia",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2001-02 Serie B?",
+   "a": "Reggina",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2001-02?",
+   "a": "Cittadella, Pistoiese, Crotone",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2001-02 Serie B?",
+   "a": "Empoli",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2001-02 Serie B?",
+   "a": "Modena",
+   "cat": "records"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2002-03?",
+   "a": "Cosenza",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2002-03 Serie B?",
+   "a": "Vicenza",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2003-04 Serie B?",
+   "a": "Livorno",
+   "cat": "champions"
+  },
+  {
+   "q": "The 2003-04 Serie B was decided on goal difference. Which club took it?",
+   "a": "Palermo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2003-04?",
+   "a": "Napoli, Avellino, Como",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2003-04 Serie B?",
+   "a": "Cagliari",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2003-04 Serie B?",
+   "a": "Atalanta",
+   "cat": "records"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2004-05?",
+   "a": "Genoa, Perugia, Salernitana, Venezia",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2004-05 Serie B?",
+   "a": "Genoa",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2004-05 Serie B?",
+   "a": "Torino",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2005-06 Serie B?",
+   "a": "Torino",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2005-06?",
+   "a": "Avellino, Ternana, Cremonese, Catanzaro",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2005-06 Serie B?",
+   "a": "Catania",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2005-06 Serie B?",
+   "a": "Torino",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2006-07 Serie B?",
+   "a": "Genoa",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2006-07?",
+   "a": "Arezzo, Verona, Crotone, Pescara",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2006-07 Serie B?",
+   "a": "Napoli",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2007-08 Serie B?",
+   "a": "Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2007-08?",
+   "a": "Messina, Ravenna, Spezia, Cesena",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2007-08?",
+   "a": "Lecce",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2007-08 Serie B?",
+   "a": "Bologna",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2008-09 Serie B?",
+   "a": "Livorno",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2008-09?",
+   "a": "Rimini, Pisa, Avellino, Treviso",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2008-09 Serie B?",
+   "a": "Parma",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2009-10 Serie B?",
+   "a": "Brescia",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2009-10?",
+   "a": "Ancona, Mantova, Gallipoli, Salernitana",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2009-10 Serie B?",
+   "a": "Cesena",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2010-11 Serie B?",
+   "a": "Novara",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2010-11?",
+   "a": "Piacenza, Triestina, Portogruaro, Frosinone",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2010-11 Serie B?",
+   "a": "Siena",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2010-11 Serie B?",
+   "a": "Varese",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2011-12 Serie B?",
+   "a": "Sassuolo",
+   "cat": "champions"
+  },
+  {
+   "q": "The 2011-12 Serie B was decided on goal difference. Which club took it?",
+   "a": "Pescara",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2011-12?",
+   "a": "Nocerina, Gubbio, AlbinoLeffe",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2011-12 Serie B?",
+   "a": "Torino",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2012-13 Serie B?",
+   "a": "Livorno",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Serie B in 2012-13?",
+   "a": "Vicenza, Ascoli, Grosseto, Pro Vercelli",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2012-13 Serie B?",
+   "a": "Hellas Verona",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2013-14 Serie B?",
+   "a": "Siena",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2013-14 Serie B?",
+   "a": "Modena",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2014-15 Serie B?",
+   "a": "Bologna",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2014-15?",
+   "a": "Bologna",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2014-15 Serie B?",
+   "a": "Pescara",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2015-16 Serie B?",
+   "a": "Trapani",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Serie B play-offs in 2015-16?",
+   "a": "Pescara",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2015-16 Serie B?",
+   "a": "Novara",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2016-17 Serie B?",
+   "a": "Spezia",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2017-18 Serie B?",
+   "a": "Parma",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2018-19 Serie B?",
+   "a": "Cremonese",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2020-21 Serie B?",
+   "a": "Monza",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2021-22 Serie B?",
+   "a": "Benevento",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2023-24 Serie B?",
+   "a": "Venezia",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2023-24 Serie B?",
+   "a": "Cremonese",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2024-25 Serie B?",
+   "a": "Spezia",
+   "cat": "records"
+  }
+ ],
+ "ball": [
+  {
+   "q": "Which club was sent down to Serie B in 2006 over Calciopoli and came straight back up?",
+   "a": "Juventus",
+   "sub": "Stripped of two titles, and they won Serie B at the first attempt.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club went bankrupt in 2004 and was refounded by the film producer Aurelio De Laurentiis?",
+   "a": "Napoli",
+   "sub": "They restarted in the third tier and were back in Serie A in three years.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club collapsed in 2015, restarted in the fourth tier and climbed back to Serie A in three seasons?",
+   "a": "Parma",
+   "sub": "Three promotions in a row, which no Italian club had managed.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club went under in 2002 and spent a season playing as Florentia Viola?",
+   "a": "Fiorentina",
+   "sub": "Diego Della Valle bought the name back the following year.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won promotion in 2005 and was then demoted to the third tier for fixing its last match?",
+   "a": "Genoa",
+   "sub": "The game against Venezia, and the city did not take it well.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club plays at the Penzo, a ground supporters can reach by boat?",
+   "a": "Venezia",
+   "sub": "One of the oldest grounds in Italy, out on Sant'Elena.",
+   "cat": "grounds"
+  }
+ ]
+}

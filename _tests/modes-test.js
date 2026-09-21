@@ -38,10 +38,20 @@ const load = f => JSON.parse(fs.readFileSync(path.join(REPO, f), "utf8"));
      toggles rather than two more ids. */
   check("every mode is a quiz or a picture mode",
     ev(app, "Object.keys(MODE_META).sort().join(',')") ===
-      "badge,belgian,bundesliga,career,classic,ere,laliga,mgr,premier,seriea",
+      "badge,belgian,bundesliga,bundesliga2,career,challenger,champ,classic,eerste,ere,laliga,mgr,premier,segunda,seriea,serieb",
     ev(app, "Object.keys(MODE_META).sort().join(',')"));
-  check("six leagues plus the classic bank",
-    ev(app, "Object.keys(QUIZZES).length") === 7, ev(app, "Object.keys(QUIZZES).length"));
+  /* twelve leagues now: six countries, two tiers each, plus the classic bank */
+  check("twelve leagues plus the classic bank",
+    ev(app, "Object.keys(QUIZZES).length") === 13, ev(app, "Object.keys(QUIZZES).length"));
+  /* THE SIX DOWNSTAIRS ARE THE SIX SECOND DIVISIONS, and nothing else has been
+     swept onto that shelf. The drawer opens on the top flights and the picture
+     modes, which is what it did before the second tiers existed. */
+  check("the extra shelf holds the second divisions and only those",
+    ev(app, "[...MODE_EXTRA].sort().join(',')") ===
+      "bundesliga2,challenger,champ,eerste,segunda,serieb",
+    ev(app, "[...MODE_EXTRA].sort().join(',')"));
+  check("and every one of them is a quiz that exists",
+    ev(app, "[...MODE_EXTRA].every(id => !!QUIZZES[id])"), "a shelf id is not a quiz");
   check("and every quiz names both of its decks",
     ev(app, "Object.values(QUIZZES).every(r=>r.mc && (r.spoken || r.label===\"Let's Ball\"))"),
     "a quiz is missing a deck path");
@@ -51,14 +61,25 @@ const load = f => JSON.parse(fs.readFileSync(path.join(REPO, f), "utf8"));
     "a mode is missing its label");
   check("the pitch is offered for every quiz and for none of the picture modes",
     ev(app, "Object.keys(MODE_META).filter(canPitch).sort().join(',')") ===
-      "belgian,bundesliga,classic,ere,laliga,premier,seriea",
+      "belgian,bundesliga,bundesliga2,challenger,champ,classic,eerste,ere,laliga,premier,segunda,seriea,serieb",
     ev(app, "Object.keys(MODE_META).filter(canPitch).sort().join(',')"));
   check("One on One reads back as the classic quiz on the pitch",
     ev(app, "matchLabel({mode:'classic',play:'pitch'}) + ' / ' + playLabel({mode:'classic',play:'pitch'})") === "Let's Ball / One on One",
     ev(app, "matchLabel({mode:'classic',play:'pitch'}) + ' / ' + playLabel({mode:'classic',play:'pitch'})"));
   check("and an old h2h row in the record book still reads right",
     ev(app, "matchLabel({mode:'h2h'})") === "One on One", ev(app, "matchLabel({mode:'h2h'})"));
-  check("nothing hidden on a second shelf", ev(app, "MODE_EXTRA.size") === 0, ev(app, "MODE_EXTRA.size"));
+  /* This read "nothing hidden on a second shelf" and asserted a size of zero,
+     which was true and worth saying while the shelf was empty: it stopped a
+     mode being quietly swept downstairs where nobody would find it. The six
+     second divisions are a deliberate shelf rather than a sweeping, so what is
+     worth asserting now is that everything downstairs is reachable and none of
+     the top flights went with them. */
+  check("nothing downstairs that cannot be played",
+    ev(app, "[...MODE_EXTRA].every(id => canPitch(id) || !isQuiz(id))"),
+    "a mode on the second shelf has no sides to put on a pitch");
+  check("and the top flights stayed upstairs",
+    ev(app, "['classic','ere','premier','laliga','bundesliga','seriea','belgian'].every(id => !MODE_EXTRA.has(id))"),
+    "a top flight was swept onto the second shelf");
 
   /* ---------- a mode you can see is a mode you can pick ----------
      THE THREE PICTURE MODES WERE UNPICKABLE AND NOTHING WAS BROKEN. The app

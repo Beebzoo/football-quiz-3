@@ -130,7 +130,47 @@ const unlink = t => String(t)
   .replace(/\{\{(?:nowrap|nobr|sortname)\|([^}]*)\}\}/gi, "$1")
   .replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 
+/* EVERY STANDINGS TABLE ON THE PAGE, AND THEN THE RIGHT ONE OF THEM.
+   This used to read the whole article in one go, which is correct for a league
+   that prints one table and quietly wrong for every league that does not. The
+   Eerste Divisie prints its standings and then FOUR PERIOD TABLES in the same
+   template, and because a later name_XXX simply overwrote an earlier one, what
+   came back was period four: twenty clubs, nine games each, wearing a season's
+   clothes.
+
+   The positional questions survived that by accident. trustOrder refuses to
+   believe a sort whose top is not the marked champion, and a period winner
+   never is, so second and third were never emitted. The RECORDS questions did
+   not survive: goals for and against are a plain count and looked perfectly
+   trustworthy from here, so "which club scored the most goals in the 2008-09
+   Eerste Divisie" was answered with the best attack of an eight-game period.
+
+   So each {{#invoke:Sports table}} is parsed on its own, and the season table
+   is the one whose clubs have played the most football. A period table and a
+   play-off table both lose that comparison on the same rule, which is why the
+   test is games played rather than the heading above it: headings are in six
+   languages and arithmetic is not. */
+function parseTables(wt) {
+  const RX = /\{\{\s*#invoke:\s*Sports table/gi;
+  const at = [];
+  let m;
+  while ((m = RX.exec(wt))) at.push(m.index);
+  /* an older article writes the parameters bare, with no invoke, and is one
+     table by construction */
+  const blocks = at.length
+    ? at.map((start, i) => wt.slice(start, at[i + 1] === undefined ? wt.length : at[i + 1]))
+    : [wt];
+  return blocks.map(parseOne).filter(Boolean);
+}
 function parseTable(wt) {
+  const tables = parseTables(wt);
+  if (!tables.length) return null;
+  /* the median rather than the total, so one club with a game in hand cannot
+     decide which table is the season */
+  const games = t => t.map(r => r.w + r.d + r.l).sort((a, b) => a - b)[Math.floor(t.length / 2)];
+  return tables.slice().sort((a, b) => games(b) - games(a))[0];
+}
+function parseOne(wt) {
   const get = re => { const out = {}; let m; const r = new RegExp(re, "g");
     while ((m = r.exec(wt))) out[m[1]] = m[2]; return out; };
   const win  = get("\\|\\s*win_([A-Za-z0-9]+)\\s*=\\s*(\\d+)");
@@ -248,10 +288,33 @@ function questions(season, title, table, scorers) {
   if (down.length && down.length <= 4) {
     add(step("hard", "extreme"), "relegation", "Which clubs went down from the " + L + " in " + s + "?", down.join(", "));
   }
-  /* The best attack and the meanest defence. Goals for and against are a plain
-     count of the season and survive a play-off format, so these do not need
-     trustOrder. Skipped when the answer is the champion, because "who scored
-     the most" answered by the side that won it is not a question. */
+  /* WHO WENT UP, WHICH IS WHAT A SECOND DIVISION IS FOR. This harvester was
+     written for the top flight, where there is no such row, so it read C and R
+     and walked straight past the one status that matters most down here. P is
+     promoted, CP is promoted as champions, OP is up through the play-offs, and
+     every one of them carries a P.
+
+     Checked against 2015-16 rather than assumed: the article marks Burnley CP,
+     Middlesbrough P and Hull City OP, which is exactly who went up and exactly
+     how each of them did it. */
+  const gone = table.filter(r => /P/.test(r.status)).map(r => r.name);
+  if (gone.length >= 2 && gone.length <= 4) {
+    add(step("normal", "hard"), "champions", "Which clubs went up from the " + L + " in " + s + "?", gone.join(", "));
+  }
+  /* THROUGH THE PLAY-OFFS, and only when exactly one club came that way.
+     England sends one up through the richest match in football and the question
+     asks itself; the Netherlands has sent two and three up through play-offs in
+     the same season, and "which club" with three right answers is not a
+     question. */
+  const viaPo = table.filter(r => r.status.indexOf("OP") !== -1);
+  if (viaPo.length === 1) {
+    add(step("hard", "extreme"), "champions",
+      "Which club came up through the " + L + " play-offs in " + s + "?", viaPo[0].name);
+  }
+  /* The best attack and the meanest defence, off the season table now that
+     there is only one of those to read. Skipped when the answer is the
+     champion, because "who scored the most" answered by the side that won it
+     is not a question. */
   const mostGf = table.slice().sort((a, b) => b.gf - a.gf)[0];
   const leastGa = table.slice().sort((a, b) => a.ga - b.ga)[0];
   if (mostGf && champ && mostGf.code !== champ.code)

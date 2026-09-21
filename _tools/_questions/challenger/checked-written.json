@@ -1,0 +1,104 @@
+[
+ {
+  "tier": "ball",
+  "cat": "records",
+  "q": "The Challenger Pro League took its current name in 2022. What had it been called for the six years before that?",
+  "a": "First Division B",
+  "sub": "And before 2016 it was simply the Second Division.",
+  "src": "https://en.wikipedia.org/wiki/Challenger_Pro_League",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Club NXT, in the Belgian second tier, is the under-23 side of which club?",
+  "a": "Club Brugge",
+  "src": "https://en.wikipedia.org/wiki/Challenger_Pro_League",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "RSCA Futures is the under-23 side of which Brussels club?",
+  "a": "Anderlecht",
+  "src": "https://en.wikipedia.org/wiki/Challenger_Pro_League",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club went bankrupt in 2018 and returned with Kempenzonen added to its name?",
+  "a": "Lierse",
+  "sub": "The old SK had been champions of Belgium four times.",
+  "src": "https://en.wikipedia.org/wiki/Lierse_Kempenzonen",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which Belgian professional club comes from the German speaking east of the country?",
+  "a": "Eupen",
+  "sub": "Close enough to the border that its youth play in two languages.",
+  "src": "https://en.wikipedia.org/wiki/K.A.S._Eupen",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "records",
+  "q": "The Challenger Pro League is the second tier of which country?",
+  "a": "Belgium",
+  "src": "https://en.wikipedia.org/wiki/Challenger_Pro_League",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Belgian under-23 sides put which Dutch word in front of the club name, as in Jong Genk?",
+  "a": "Jong",
+  "src": "https://en.wikipedia.org/wiki/Challenger_Pro_League",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Antwerp club plays at Het Kiel?",
+  "a": "Beerschot",
+  "src": "https://en.wikipedia.org/wiki/Olympisch_Stadion_(Antwerp)",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Limburg club near the Dutch border carries Maasmechelen in its name?",
+  "a": "Patro Eisden Maasmechelen",
+  "src": "https://en.wikipedia.org/wiki/Patro_Eisden_Maasmechelen",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club from the province of Luxembourg has bounced between the Belgian divisions and licence trouble?",
+  "a": "Virton",
+  "src": "https://en.wikipedia.org/wiki/R.E._Virton",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club on the Meuse south of Liège shares its name with the steelworks town it comes from?",
+  "a": "Seraing",
+  "src": "https://en.wikipedia.org/wiki/R.F.C._Seraing_(1922)",
+  "conf": "likely",
+  "verdict": "ok"
+ }
+]

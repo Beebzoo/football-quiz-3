@@ -1,0 +1,15 @@
+[
+{"tier":"ball","cat":"stories","q":"Which club nearly folded in 2012 and was saved when supporters around the world bought shares in it?","a":"Real Oviedo","sub":"Carlos Slim came in too, and the shares sold out in days.","src":"https://en.wikipedia.org/wiki/Real_Oviedo","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which club won La Liga in 2000 and had fallen to the third tier twenty years later?","a":"Deportivo La Coruña","sub":"Champions under Javier Irureta, down to the Primera Federación in 2020.","src":"https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which club's players stood still at kick off in a 2014 cup tie in protest at unpaid wages?","a":"Racing Santander","sub":"The referee abandoned it, and the board resigned.","src":"https://en.wikipedia.org/wiki/Racing_de_Santander","conf":"likely"},
+{"tier":"ball","cat":"records","q":"A reserve side can win promotion from the Segunda but is barred from which division?","a":"La Liga","sub":"So Barcelona Atlètic and Real Madrid Castilla stop where they are.","src":"https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n","conf":"sure"},
+{"tier":"ball","cat":"grounds","q":"Which club plays at El Molinón, a ground in use since 1908?","a":"Sporting Gijón","sub":"The oldest professional football ground in Spain.","src":"https://en.wikipedia.org/wiki/El_Molin%C3%B3n","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which Basque club spent one season in La Liga in 1998-99 and has not been back since that decade?","a":"Eibar","sub":"They went up again in 2014 and stayed eight years.","src":"https://en.wikipedia.org/wiki/SD_Eibar","conf":"likely"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at La Romareda?","a":"Real Zaragoza","src":"https://en.wikipedia.org/wiki/La_Romareda","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at the Estadio Carlos Tartiere?","a":"Real Oviedo","src":"https://en.wikipedia.org/wiki/Estadio_Carlos_Tartiere","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at the Riazor?","a":"Deportivo La Coruña","src":"https://en.wikipedia.org/wiki/Estadio_Riazor","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at the Estadio de Gran Canaria?","a":"Las Palmas","src":"https://en.wikipedia.org/wiki/Estadio_de_Gran_Canaria","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club from Pamplona plays its home games at El Sadar?","a":"Osasuna","src":"https://en.wikipedia.org/wiki/Estadio_El_Sadar","conf":"sure"},
+{"tier":"hard","cat":"stories","q":"Which club won the Segunda in 1999-2000 and was relegated straight back down the next season?","a":"Osasuna","src":"https://en.wikipedia.org/wiki/CA_Osasuna","conf":"likely"},
+{"tier":"hard","cat":"grounds","q":"Which club from the Canary Islands plays at the Heliodoro Rodríguez López?","a":"Tenerife","src":"https://en.wikipedia.org/wiki/Estadio_Heliodoro_Rodr%C3%ADguez_L%C3%B3pez","conf":"sure"}
+]

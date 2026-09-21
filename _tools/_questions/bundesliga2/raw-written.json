@@ -1,0 +1,15 @@
+[
+{"tier":"ball","cat":"stories","q":"Which club came up in 1997 and won the Bundesliga at the first attempt the following season?","a":"Kaiserslautern","sub":"Otto Rehhagel's side, and nobody has done it since.","src":"https://en.wikipedia.org/wiki/1._FC_Kaiserslautern","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which club kept a clock at its ground counting its unbroken years in the Bundesliga until 2018?","a":"Hamburger SV","sub":"It was taken down when they finally went down.","src":"https://en.wikipedia.org/wiki/Hamburger_SV","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which club's supporters took the skull and crossbones as their emblem?","a":"St. Pauli","sub":"It arrived on the terraces of the Millerntor in the 1980s.","src":"https://en.wikipedia.org/wiki/FC_St._Pauli","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which Berlin club's supporters gave blood in 2004 to raise money to keep it alive?","a":"Union Berlin","sub":"They called it Bleeding for Union.","src":"https://en.wikipedia.org/wiki/1._FC_Union_Berlin","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which club became the first in Germany to carry a sponsor on its shirt, in 1973?","a":"Eintracht Braunschweig","sub":"A Jägermeister stag, which the federation only allowed as a club badge.","src":"https://en.wikipedia.org/wiki/Eintracht_Braunschweig","conf":"sure"},
+{"tier":"ball","cat":"stories","q":"Which Munich club dropped from the second division to the fourth tier in 2017 when a licence was refused?","a":"1860 Munich","sub":"They had been sharing the Allianz Arena with their neighbours.","src":"https://en.wikipedia.org/wiki/TSV_1860_Munich","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at the Millerntor-Stadion?","a":"St. Pauli","src":"https://en.wikipedia.org/wiki/Millerntor-Stadion","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays at the Fritz-Walter-Stadion, up on the Betzenberg?","a":"Kaiserslautern","src":"https://en.wikipedia.org/wiki/Fritz-Walter-Stadion","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at the Volksparkstadion?","a":"Hamburger SV","src":"https://en.wikipedia.org/wiki/Volksparkstadion","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays its home games at the Veltins-Arena in Gelsenkirchen?","a":"Schalke 04","src":"https://en.wikipedia.org/wiki/Veltins-Arena","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which Berlin club has played its home games at the Olympiastadion since 1963?","a":"Hertha BSC","src":"https://en.wikipedia.org/wiki/Olympiastadion_(Berlin)","conf":"sure"},
+{"tier":"easy","cat":"grounds","q":"Which club plays at a ground in Nuremberg named after Max Morlock?","a":"1. FC Nürnberg","src":"https://en.wikipedia.org/wiki/Max-Morlock-Stadion","conf":"sure"},
+{"tier":"hard","cat":"stories","q":"Which Dresden club was the biggest name in East German football and now plays in the German lower divisions?","a":"Dynamo Dresden","src":"https://en.wikipedia.org/wiki/Dynamo_Dresden","conf":"sure"}
+]

@@ -1,0 +1,125 @@
+[
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club was sent down to Serie B in 2006 over Calciopoli and came straight back up?",
+  "a": "Juventus",
+  "sub": "Stripped of two titles, and they won Serie B at the first attempt.",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club went bankrupt in 2004 and was refounded by the film producer Aurelio De Laurentiis?",
+  "a": "Napoli",
+  "sub": "They restarted in the third tier and were back in Serie A in three years.",
+  "src": "https://en.wikipedia.org/wiki/S.S.C._Napoli",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club collapsed in 2015, restarted in the fourth tier and climbed back to Serie A in three seasons?",
+  "a": "Parma",
+  "sub": "Three promotions in a row, which no Italian club had managed.",
+  "src": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club went under in 2002 and spent a season playing as Florentia Viola?",
+  "a": "Fiorentina",
+  "sub": "Diego Della Valle bought the name back the following year.",
+  "src": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club won promotion in 2005 and was then demoted to the third tier for fixing its last match?",
+  "a": "Genoa",
+  "sub": "The game against Venezia, and the city did not take it well.",
+  "src": "https://en.wikipedia.org/wiki/Genoa_C.F.C.",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "grounds",
+  "q": "Which club plays at the Penzo, a ground supporters can reach by boat?",
+  "a": "Venezia",
+  "sub": "One of the oldest grounds in Italy, out on Sant'Elena.",
+  "src": "https://en.wikipedia.org/wiki/Stadio_Pier_Luigi_Penzo",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which club plays its home games at the Stadio Renato Dall'Ara?",
+  "a": "Bologna",
+  "src": "https://en.wikipedia.org/wiki/Stadio_Renato_Dall%27Ara",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Sicilian club plays at the Stadio Renzo Barbera?",
+  "a": "Palermo",
+  "src": "https://en.wikipedia.org/wiki/Stadio_Renzo_Barbera",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which club plays its home games at the Stadio San Nicola?",
+  "a": "Bari",
+  "src": "https://en.wikipedia.org/wiki/Stadio_San_Nicola",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which club plays its home games at the Stadio Ennio Tardini?",
+  "a": "Parma",
+  "src": "https://en.wikipedia.org/wiki/Stadio_Ennio_Tardini",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which club from Campania plays at the Stadio Arechi?",
+  "a": "Salernitana",
+  "src": "https://en.wikipedia.org/wiki/Stadio_Arechi",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Genoese club shares the Stadio Luigi Ferraris with Genoa?",
+  "a": "Sampdoria",
+  "src": "https://en.wikipedia.org/wiki/Stadio_Luigi_Ferraris",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club was thrown out of Serie B in 2019 over its finances and restarted in Serie D?",
+  "a": "Palermo",
+  "src": "https://en.wikipedia.org/wiki/Palermo_F.C.",
+  "conf": "likely",
+  "verdict": "ok"
+ }
+]

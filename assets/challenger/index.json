@@ -1,0 +1,376 @@
+{
+ "easy": [
+  {
+   "q": "Which club won the 2022-23 Challenger Pro League?",
+   "a": "RWD Molenbeek",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2023-24 Challenger Pro League?",
+   "a": "Beerschot",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2024-25 Challenger Pro League?",
+   "a": "Zulte Waregem",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2025-26 Challenger Pro League?",
+   "a": "Beveren",
+   "cat": "champions"
+  },
+  {
+   "q": "The Challenger Pro League is the second tier of which country?",
+   "a": "Belgium",
+   "cat": "records"
+  },
+  {
+   "q": "Belgian under-23 sides put which Dutch word in front of the club name, as in Jong Genk?",
+   "a": "Jong",
+   "cat": "stories",
+   "club": "genk"
+  },
+  {
+   "q": "Which Antwerp club plays at Het Kiel?",
+   "a": "Beerschot",
+   "cat": "stories"
+  }
+ ],
+ "normal": [
+  {
+   "q": "Which club won the 2009-10 Challenger Pro League?",
+   "a": "Lierse",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2010-11 Challenger Pro League?",
+   "a": "OH Leuven",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2011-12 Challenger Pro League?",
+   "a": "Charleroi",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2012-13 Challenger Pro League?",
+   "a": "Oostende",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2013-14 Challenger Pro League?",
+   "a": "Westerlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2014-15 Challenger Pro League?",
+   "a": "Sint-Truiden",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2015-16 Challenger Pro League?",
+   "a": "WS Brussels",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2022-23 Challenger Pro League?",
+   "a": "Beveren",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2022-23 Challenger Pro League?",
+   "a": "Thierno Barry",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2023-24 Challenger Pro League?",
+   "a": "Dender EH",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2023-24 Challenger Pro League?",
+   "a": "Goduine Koyalipou",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who was the top scorer in the 2024-25 Challenger Pro League?",
+   "a": "Jelle Vossen",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2025-26 Challenger Pro League?",
+   "a": "Kortrijk",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Challenger Pro League in 2025-26?",
+   "a": "Kortrijk, Lommel",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2025-26 Challenger Pro League?",
+   "a": "Lennart Mertens",
+   "cat": "scorers"
+  }
+ ],
+ "hard": [
+  {
+   "q": "Which club finished second in the 2009-10 Challenger Pro League?",
+   "a": "Lommel",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2010-11 Challenger Pro League?",
+   "a": "Lommel",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2011-12 Challenger Pro League?",
+   "a": "Eupen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2012-13 Challenger Pro League?",
+   "a": "Mouscron-Péruwelz",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2012-13 Challenger Pro League?",
+   "a": "Hervé Onana",
+   "sub": "He got 17 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2013-14 Challenger Pro League?",
+   "a": "Eupen",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2013-14 Challenger Pro League?",
+   "a": "Koffi",
+   "sub": "He got 19 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2014-15 Challenger Pro League?",
+   "a": "Lommel",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2014-15 Challenger Pro League?",
+   "a": "Romero Regales",
+   "sub": "He got 22 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2015-16 Challenger Pro League?",
+   "a": "Eupen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2022-23 Challenger Pro League?",
+   "a": "Lommel",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2022-23?",
+   "a": "Virton",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2023-24 Challenger Pro League?",
+   "a": "Deinze",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2023-24?",
+   "a": "Oostende, SL16 FC",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2024-25?",
+   "a": "Deinze",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2025-26 Challenger Pro League?",
+   "a": "Beerschot",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2025-26?",
+   "a": "RWDM Brussels, Olympic Charleroi",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Limburg club near the Dutch border carries Maasmechelen in its name?",
+   "a": "Patro Eisden Maasmechelen",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club from the province of Luxembourg has bounced between the Belgian divisions and licence trouble?",
+   "a": "Virton",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club on the Meuse south of Liège shares its name with the steelworks town it comes from?",
+   "a": "Seraing",
+   "cat": "stories"
+  }
+ ],
+ "extreme": [
+  {
+   "q": "Which club finished third in the 2009-10 Challenger Pro League?",
+   "a": "Mons",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2009-10?",
+   "a": "Ronse, Beveren",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2009-10 Challenger Pro League?",
+   "a": "Lommel",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2010-11 Challenger Pro League?",
+   "a": "Mons",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2010-11?",
+   "a": "Rupel Boom, Tournai",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2010-11 Challenger Pro League?",
+   "a": "Waasland-Beveren",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2011-12 Challenger Pro League?",
+   "a": "Oostende",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2011-12?",
+   "a": "Dender, Tienen, Wetteren",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2011-12 Challenger Pro League?",
+   "a": "Oostende",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2012-13 Challenger Pro League?",
+   "a": "Westerlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2013-14 Challenger Pro League?",
+   "a": "Sint-Truiden",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2013-14?",
+   "a": "Brussels, Hoogstraten, Visé",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2013-14 Challenger Pro League?",
+   "a": "Eupen",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2014-15 Challenger Pro League?",
+   "a": "Eupen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Challenger Pro League in 2014-15?",
+   "a": "Mons, Aalst, Racing Mechelen",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2014-15 Challenger Pro League?",
+   "a": "Seraing United",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2014-15 Challenger Pro League?",
+   "a": "Lommel",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2015-16 Challenger Pro League?",
+   "a": "Antwerp",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2015-16 Challenger Pro League?",
+   "a": "Eupen",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2015-16 Challenger Pro League?",
+   "a": "Antwerp",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2022-23 Challenger Pro League?",
+   "a": "Beveren",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2023-24 Challenger Pro League?",
+   "a": "Dender EH",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2023-24 Challenger Pro League?",
+   "a": "Patro Eisden Maasmechelen",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2024-25 Challenger Pro League?",
+   "a": "Deinze",
+   "cat": "records"
+  }
+ ],
+ "ball": [
+  {
+   "q": "The Challenger Pro League took its current name in 2022. What had it been called for the six years before that?",
+   "a": "First Division B",
+   "sub": "And before 2016 it was simply the Second Division.",
+   "cat": "records"
+  },
+  {
+   "q": "Club NXT, in the Belgian second tier, is the under-23 side of which club?",
+   "a": "Club Brugge",
+   "cat": "stories",
+   "club": "club-brugge"
+  },
+  {
+   "q": "RSCA Futures is the under-23 side of which Brussels club?",
+   "a": "Anderlecht",
+   "cat": "stories",
+   "club": "anderlecht"
+  },
+  {
+   "q": "Which club went bankrupt in 2018 and returned with Kempenzonen added to its name?",
+   "a": "Lierse",
+   "sub": "The old SK had been champions of Belgium four times.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Belgian professional club comes from the German speaking east of the country?",
+   "a": "Eupen",
+   "sub": "Close enough to the border that its youth play in two languages.",
+   "cat": "stories"
+  }
+ ]
+}

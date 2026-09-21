@@ -59,6 +59,18 @@ const DECKS = [
   ["Bundesliga", "bundesliga"],
   ["Serie A", "seriea"],
   ["Belgian Pro League", "belgian"],
+  /* THE SECOND DIVISIONS, held to exactly the same floor. They are thin at
+     easy and at ball and the run says so out loud, because both of those are
+     written rather than harvested: a season table has no stories in it and no
+     questions anybody would call easy. The floor they have to clear is the
+     one that matters, which is that a tier survives three matches without
+     somebody at the table saying "we had this one". */
+  ["Championship", "championship"],
+  ["Segunda División", "segunda"],
+  ["2. Bundesliga", "bundesliga2"],
+  ["Serie B", "serieb"],
+  ["Challenger Pro League", "challenger"],
+  ["Eerste Divisie", "eerste"],
 ];
 const TIERS = ["easy", "normal", "hard", "extreme", "ball"];
 const pad = (s, n) => String(s).padEnd(n);

@@ -58,7 +58,8 @@ const NIGHT = html;
   console.log("--- every side in every pool puts up a captain who is playing ---");
   const pools = JSON.parse(ev(app,
     'JSON.stringify(Object.keys(POOLS).map(k => [k, POOLS[k].file, POOLS[k].of]))'));
-  check("all 22 pools are registered", pools.length === 22, pools.length);
+  /* twenty-eight since the six second divisions brought their own clubs */
+  check("all 28 pools are registered", pools.length === 28, pools.length);
 
   let sides = 0, marked = 0, deputised = 0, expect = 0;
   const broken = [];

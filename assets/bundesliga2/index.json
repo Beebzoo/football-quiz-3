@@ -1,0 +1,942 @@
+{
+ "easy": [
+  {
+   "q": "Which club won the 2016-17 2. Bundesliga?",
+   "a": "VfB Stuttgart",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2019-20 2. Bundesliga?",
+   "a": "Arminia Bielefeld",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2020-21 2. Bundesliga?",
+   "a": "VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2021-22 2. Bundesliga?",
+   "a": "Schalke 04",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2022-23 2. Bundesliga?",
+   "a": "1. FC Heidenheim",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2023-24 2. Bundesliga?",
+   "a": "FC St. Pauli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2025-26 2. Bundesliga?",
+   "a": "Schalke 04",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club plays its home games at the Millerntor-Stadion?",
+   "a": "St. Pauli",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club plays at the Fritz-Walter-Stadion, up on the Betzenberg?",
+   "a": "Kaiserslautern",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Berlin club has played its home games at the Olympiastadion since 1963?",
+   "a": "Hertha BSC",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club plays at a ground in Nuremberg named after Max Morlock?",
+   "a": "1. FC Nürnberg",
+   "cat": "grounds"
+  }
+ ],
+ "normal": [
+  {
+   "q": "Which club won the 1995-96 2. Bundesliga?",
+   "a": "VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1996-97 2. Bundesliga?",
+   "a": "1. FC Kaiserslautern",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1997-98 2. Bundesliga?",
+   "a": "Eintracht Frankfurt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1998-99 2. Bundesliga?",
+   "a": "Arminia Bielefeld",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1999-00 2. Bundesliga?",
+   "a": "1. FC Köln",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2000-01 2. Bundesliga?",
+   "a": "1. FC Nürnberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2001-02 2. Bundesliga?",
+   "a": "Hannover 96",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2002-03 2. Bundesliga?",
+   "a": "SC Freiburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2003-04 2. Bundesliga?",
+   "a": "1. FC Nürnberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2004-05 2. Bundesliga?",
+   "a": "1. FC Köln",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2005-06 2. Bundesliga?",
+   "a": "VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2006-07 2. Bundesliga?",
+   "a": "Karlsruher SC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2007-08 2. Bundesliga?",
+   "a": "Borussia Mönchengladbach",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2008-09 2. Bundesliga?",
+   "a": "SC Freiburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2009-10 2. Bundesliga?",
+   "a": "1. FC Kaiserslautern",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2010-11 2. Bundesliga?",
+   "a": "Hertha BSC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2011-12 2. Bundesliga?",
+   "a": "Greuther Fürth",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2012-13 2. Bundesliga?",
+   "a": "Hertha BSC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2013-14 2. Bundesliga?",
+   "a": "1. FC Köln",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2014-15 2. Bundesliga?",
+   "a": "FC Ingolstadt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2015-16 2. Bundesliga?",
+   "a": "SC Freiburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2016-17 2. Bundesliga?",
+   "a": "Hannover 96",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2016-17?",
+   "a": "VfB Stuttgart, Hannover 96",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2018-19?",
+   "a": "SC Paderborn, Union Berlin",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2019-20 2. Bundesliga?",
+   "a": "VfB Stuttgart",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2019-20?",
+   "a": "Arminia Bielefeld, VfB Stuttgart",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2020-21 2. Bundesliga?",
+   "a": "Holstein Kiel",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2020-21 2. Bundesliga?",
+   "a": "Serdar Dursun",
+   "sub": "He got 27 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2021-22 2. Bundesliga?",
+   "a": "Werder Bremen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2022-23 2. Bundesliga?",
+   "a": "Darmstadt 98",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2022-23?",
+   "a": "1. FC Heidenheim, Darmstadt 98",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2023-24 2. Bundesliga?",
+   "a": "Holstein Kiel",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2023-24?",
+   "a": "FC St. Pauli, Holstein Kiel",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2025-26 2. Bundesliga?",
+   "a": "SV Elversberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2025-26?",
+   "a": "Schalke 04, SV Elversberg, SC Paderborn",
+   "cat": "champions"
+  }
+ ],
+ "hard": [
+  {
+   "q": "Which club finished second in the 1995-96 2. Bundesliga?",
+   "a": "Arminia Bielefeld",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 1995-96?",
+   "a": "Arminia Bielefeld, MSV Duisburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1996-97 2. Bundesliga?",
+   "a": "VfL Wolfsburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 1996-97?",
+   "a": "VfL Wolfsburg, Hertha BSC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1997-98 2. Bundesliga?",
+   "a": "SC Freiburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 1997-98?",
+   "a": "SC Freiburg, 1. FC Nürnberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1998-99 2. Bundesliga?",
+   "a": "SpVgg Unterhaching",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 1998-99?",
+   "a": "SpVgg Unterhaching, SSV Ulm",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1999-00 2. Bundesliga?",
+   "a": "VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 1999-00?",
+   "a": "VfL Bochum, Energie Cottbus",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2000-01 2. Bundesliga?",
+   "a": "Borussia Mönchengladbach",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2000-01?",
+   "a": "Borussia Mönchengladbach, FC St. Pauli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2001-02 2. Bundesliga?",
+   "a": "Arminia Bielefeld",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2001-02?",
+   "a": "Arminia Bielefeld, VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2002-03 2. Bundesliga?",
+   "a": "1. FC Köln",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2002-03?",
+   "a": "1. FC Köln, Eintracht Frankfurt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2003-04 2. Bundesliga?",
+   "a": "Arminia Bielefeld",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2003-04?",
+   "a": "Arminia Bielefeld, Mainz 05",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2004-05 2. Bundesliga?",
+   "a": "MSV Duisburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2004-05?",
+   "a": "MSV Duisburg, Eintracht Frankfurt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2005-06 2. Bundesliga?",
+   "a": "Alemannia Aachen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2005-06?",
+   "a": "Alemannia Aachen, Energie Cottbus",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2006-07 2. Bundesliga?",
+   "a": "Hansa Rostock",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2006-07?",
+   "a": "Hansa Rostock, MSV Duisburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2007-08 2. Bundesliga?",
+   "a": "1899 Hoffenheim",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2007-08?",
+   "a": "1899 Hoffenheim, 1. FC Köln",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2008-09 2. Bundesliga?",
+   "a": "Mainz 05",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2009-10 2. Bundesliga?",
+   "a": "FC St. Pauli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2010-11 2. Bundesliga?",
+   "a": "FC Augsburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2011-12 2. Bundesliga?",
+   "a": "Eintracht Frankfurt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2011-12?",
+   "a": "Eintracht Frankfurt, Fortuna Düsseldorf",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2012-13 2. Bundesliga?",
+   "a": "Eintracht Braunschweig",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2012-13 2. Bundesliga?",
+   "a": "Dominick Kumbela",
+   "sub": "He got 19 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2013-14 2. Bundesliga?",
+   "a": "SC Paderborn",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2013-14 2. Bundesliga?",
+   "a": "Mahir Sağlık",
+   "sub": "He got 14 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2014-15 2. Bundesliga?",
+   "a": "Darmstadt 98",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2014-15?",
+   "a": "FC Ingolstadt, Darmstadt 98",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2014-15 2. Bundesliga?",
+   "a": "Rouwen Hennings",
+   "sub": "He got 17 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2015-16 2. Bundesliga?",
+   "a": "RB Leipzig",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the 2. Bundesliga in 2015-16?",
+   "a": "SC Freiburg, RB Leipzig",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2016-17 2. Bundesliga?",
+   "a": "Eintracht Braunschweig",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2016-17?",
+   "a": "1860 Munich, Karlsruher SC",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2017-18?",
+   "a": "Eintracht Braunschweig, 1. FC Kaiserslautern",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2018-19?",
+   "a": "FC Ingolstadt, 1. FC Magdeburg, MSV Duisburg",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the 2. Bundesliga play-offs in 2018-19?",
+   "a": "Union Berlin",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2019-20 2. Bundesliga?",
+   "a": "1. FC Heidenheim",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2019-20?",
+   "a": "Wehen Wiesbaden, Dynamo Dresden",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2020-21 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2020-21?",
+   "a": "VfL Osnabrück, Eintracht Braunschweig",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2021-22 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2021-22?",
+   "a": "Dynamo Dresden, Erzgebirge Aue, FC Ingolstadt",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2022-23 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2022-23?",
+   "a": "Arminia Bielefeld, Jahn Regensburg, SV Sandhausen",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2023-24 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2023-24?",
+   "a": "Wehen Wiesbaden, Hansa Rostock, VfL Osnabrück",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2024-25?",
+   "a": "SSV Ulm, Jahn Regensburg",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2025-26 2. Bundesliga?",
+   "a": "SC Paderborn",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the 2. Bundesliga play-offs in 2025-26?",
+   "a": "SC Paderborn",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Dresden club was the biggest name in East German football and now plays in the German lower divisions?",
+   "a": "Dynamo Dresden",
+   "cat": "stories"
+  }
+ ],
+ "extreme": [
+  {
+   "q": "Which club finished third in the 1995-96 2. Bundesliga?",
+   "a": "MSV Duisburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 1995-96?",
+   "a": "Chemnitzer FC, 1. FC Nürnberg, Hannover 96, SG Wattenscheid",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 1996-97 2. Bundesliga?",
+   "a": "Hertha BSC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 1996-97?",
+   "a": "Waldhof Mannheim, VfB Lübeck, Rot-Weiss Essen, VfB Oldenburg",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1996-97 2. Bundesliga?",
+   "a": "Stuttgarter Kickers",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1997-98 2. Bundesliga?",
+   "a": "1. FC Nürnberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 1997-98?",
+   "a": "VfB Leipzig, Carl Zeiss Jena, FSV Zwickau, SV Meppen",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1997-98 2. Bundesliga?",
+   "a": "SC Freiburg",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1997-98 2. Bundesliga?",
+   "a": "FC Gütersloh",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1998-99 2. Bundesliga?",
+   "a": "SSV Ulm",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 1998-99?",
+   "a": "FC Gütersloh, KFC Uerdingen, SG Wattenscheid, Fortuna Düsseldorf",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1998-99 2. Bundesliga?",
+   "a": "SSV Ulm",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1998-99 2. Bundesliga?",
+   "a": "SpVgg Unterhaching",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1999-00 2. Bundesliga?",
+   "a": "Energie Cottbus",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 1999-00?",
+   "a": "Tennis Borussia Berlin, Fortuna Köln, Kickers Offenbach, Karlsruher SC",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1999-00 2. Bundesliga?",
+   "a": "Rot-Weiß Oberhausen",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2000-01 2. Bundesliga?",
+   "a": "FC St. Pauli",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2000-01?",
+   "a": "VfL Osnabrück, SSV Ulm, Stuttgarter Kickers, Chemnitzer FC",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2000-01 2. Bundesliga?",
+   "a": "FC St. Pauli",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2000-01 2. Bundesliga?",
+   "a": "Borussia Mönchengladbach",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2001-02 2. Bundesliga?",
+   "a": "VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2001-02?",
+   "a": "SpVgg Unterhaching, 1. FC Saarbrücken, 1. FC Schweinfurt, SV Babelsberg",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2002-03 2. Bundesliga?",
+   "a": "Eintracht Frankfurt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2002-03?",
+   "a": "SSV Reutlingen, Eintracht Braunschweig, FC St. Pauli, Waldhof Mannheim",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2002-03 2. Bundesliga?",
+   "a": "Mainz 05",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2003-04 2. Bundesliga?",
+   "a": "Mainz 05",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2003-04?",
+   "a": "VfB Lübeck, Jahn Regensburg, Union Berlin, VfL Osnabrück",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2003-04 2. Bundesliga?",
+   "a": "Mainz 05",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2004-05 2. Bundesliga?",
+   "a": "Eintracht Frankfurt",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2004-05?",
+   "a": "Eintracht Trier, Rot-Weiß Oberhausen, Rot-Weiss Essen, Rot-Weiß Erfurt",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2004-05 2. Bundesliga?",
+   "a": "Eintracht Frankfurt",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2005-06 2. Bundesliga?",
+   "a": "Energie Cottbus",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2005-06?",
+   "a": "Dynamo Dresden, 1. FC Saarbrücken, LR Ahlen, Sportfreunde Siegen",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2006-07 2. Bundesliga?",
+   "a": "MSV Duisburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2006-07?",
+   "a": "Rot-Weiss Essen, SpVgg Unterhaching, Wacker Burghausen, Eintracht Braunschweig",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2006-07 2. Bundesliga?",
+   "a": "Hansa Rostock",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2007-08 2. Bundesliga?",
+   "a": "1. FC Köln",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2007-08?",
+   "a": "Kickers Offenbach, Erzgebirge Aue, SC Paderborn, Carl Zeiss Jena",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2007-08 2. Bundesliga?",
+   "a": "Mainz 05",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2008-09 2. Bundesliga?",
+   "a": "1. FC Nürnberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2008-09?",
+   "a": "VfL Osnabrück, FC Ingolstadt, Wehen Wiesbaden",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2008-09 2. Bundesliga?",
+   "a": "Mainz 05",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2008-09 2. Bundesliga?",
+   "a": "1. FC Nürnberg",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2009-10 2. Bundesliga?",
+   "a": "FC Augsburg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2009-10?",
+   "a": "Hansa Rostock, TuS Koblenz, Rot Weiss Ahlen",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2009-10 2. Bundesliga?",
+   "a": "FC St. Pauli",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2010-11 2. Bundesliga?",
+   "a": "VfL Bochum",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2010-11?",
+   "a": "VfL Osnabrück, Rot-Weiß Oberhausen, Arminia Bielefeld",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2010-11 2. Bundesliga?",
+   "a": "FC Augsburg",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2011-12 2. Bundesliga?",
+   "a": "Fortuna Düsseldorf",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2011-12?",
+   "a": "Karlsruher SC, Alemannia Aachen, Hansa Rostock",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the 2. Bundesliga play-offs in 2011-12?",
+   "a": "Fortuna Düsseldorf",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2011-12 2. Bundesliga?",
+   "a": "Eintracht Frankfurt",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2012-13 2. Bundesliga?",
+   "a": "1. FC Kaiserslautern",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2012-13?",
+   "a": "MSV Duisburg, Jahn Regensburg",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2013-14 2. Bundesliga?",
+   "a": "Greuther Fürth",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2013-14?",
+   "a": "Arminia Bielefeld, Dynamo Dresden, Energie Cottbus",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2013-14 2. Bundesliga?",
+   "a": "Greuther Fürth",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2014-15 2. Bundesliga?",
+   "a": "Karlsruher SC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2014-15?",
+   "a": "Erzgebirge Aue, VfR Aalen",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2014-15 2. Bundesliga?",
+   "a": "Darmstadt 98",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2015-16 2. Bundesliga?",
+   "a": "1. FC Nürnberg",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the 2. Bundesliga in 2015-16?",
+   "a": "MSV Duisburg, FSV Frankfurt, SC Paderborn",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2015-16 2. Bundesliga?",
+   "a": "RB Leipzig",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2016-17 2. Bundesliga?",
+   "a": "Hannover 96",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2020-21 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2020-21 2. Bundesliga?",
+   "a": "Holstein Kiel",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2021-22 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "records"
+  },
+  {
+   "q": "The 2022-23 2. Bundesliga was decided on goal difference. Which club took it?",
+   "a": "1. FC Heidenheim",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2022-23 2. Bundesliga?",
+   "a": "Hamburger SV",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2022-23 2. Bundesliga?",
+   "a": "Darmstadt 98",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2023-24 2. Bundesliga?",
+   "a": "Hertha BSC",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2025-26 2. Bundesliga?",
+   "a": "SV Elversberg",
+   "cat": "records"
+  }
+ ],
+ "ball": [
+  {
+   "q": "Which club came up in 1997 and won the Bundesliga at the first attempt the following season?",
+   "a": "Kaiserslautern",
+   "sub": "Otto Rehhagel's side, and nobody has done it since.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club kept a clock at its ground counting its unbroken years in the Bundesliga until 2018?",
+   "a": "Hamburger SV",
+   "sub": "It was taken down when they finally went down.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club's supporters took the skull and crossbones as their emblem?",
+   "a": "St. Pauli",
+   "sub": "It arrived on the terraces of the Millerntor in the 1980s.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Berlin club's supporters gave blood in 2004 to raise money to keep it alive?",
+   "a": "Union Berlin",
+   "sub": "They called it Bleeding for Union.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club became the first in Germany to carry a sponsor on its shirt, in 1973?",
+   "a": "Eintracht Braunschweig",
+   "sub": "A Jägermeister stag, which the federation only allowed as a club badge.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Munich club dropped from the second division to the fourth tier in 2017 when a licence was refused?",
+   "a": "1860 Munich",
+   "sub": "They had been sharing the Allianz Arena with their neighbours.",
+   "cat": "stories"
+  }
+ ]
+}

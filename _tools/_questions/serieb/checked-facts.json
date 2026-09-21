@@ -40,6 +40,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 1995-96?",
+  "a": "Bologna, Hellas Verona, Perugia, Reggiana",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 1995-96 Serie B?",
@@ -84,6 +94,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 1996-97?",
   "a": "Cosenza, Cesena, Palermo, Cremonese",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 1996-97?",
+  "a": "Brescia, Empoli, Lecce, Bari",
   "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -150,6 +170,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 1997-98?",
+  "a": "Salernitana, Venezia, Cagliari, Perugia",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 1997-98 Serie B?",
@@ -194,6 +224,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 1998-99?",
   "a": "Reggiana, Fidelis Andria, Lucchese, Cremonese",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 1998-99?",
+  "a": "Hellas Verona, Torino, Reggina, Lecce",
   "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -250,6 +290,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 1999-00?",
+  "a": "Vicenza, Atalanta, Brescia, Napoli",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 1999-00 Serie B?",
@@ -294,6 +344,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2000-01?",
   "a": "Treviso, Monza, Ravenna, Pescara",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2000-01?",
+  "a": "Torino, Chievo, Piacenza, Venezia",
   "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -350,6 +410,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2001-02?",
+  "a": "Como, Modena, Reggina, Empoli",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2001-02 Serie B?",
@@ -384,6 +454,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2002-03?",
   "a": "Cosenza",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2002-03?",
+  "a": "Sampdoria, Siena, Lecce, Ancona",
   "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -490,6 +570,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2004-05?",
+  "a": "Empoli, Treviso, Ascoli",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2004-05 Serie B?",
@@ -544,6 +634,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2005-06?",
   "a": "Avellino, Ternana, Cremonese, Catanzaro",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2005-06?",
+  "a": "Atalanta, Catania",
   "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -610,6 +710,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2006-07?",
+  "a": "Napoli, Genoa",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2006-07 Serie B?",
@@ -654,6 +764,26 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2007-08?",
   "a": "Messina, Ravenna, Spezia, Cesena",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2007-08?",
+  "a": "Chievo, Bologna, Lecce",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2007-08?",
+  "a": "Lecce",
   "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -1020,6 +1150,26 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2014-15?",
+  "a": "Carpi |status_CAR=CP, Frosinone, Bologna",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2014-15?",
+  "a": "Bologna",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2014-15 Serie B?",
@@ -1064,6 +1214,26 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2015-16?",
   "a": "Virtus Lanciano |status_VLA=RERR, Livorno, Modena, Como",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2015-16?",
+  "a": "Cagliari, Crotone, Pescara",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2015-16?",
+  "a": "Pescara",
   "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -1300,6 +1470,26 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2020-21?",
+  "a": "Empoli, Salernitana, Venezia",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2020-21?",
+  "a": "Venezia",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2020-21 Serie B?",
@@ -1344,6 +1534,26 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2021-22?",
   "a": "Vicenza, Alessandria, Crotone, Pordenone",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2021-22?",
+  "a": "Lecce, Cremonese, Monza",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2021-22?",
+  "a": "Monza",
   "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -1400,6 +1610,26 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2022-23?",
+  "a": "Frosinone, Genoa, Cagliari",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2022-23?",
+  "a": "Cagliari",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "easy",
   "cat": "champions",
   "q": "Which club won the 2023-24 Serie B?",
@@ -1434,6 +1664,26 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2023-24?",
   "a": "Ternana, Ascoli, Feralpisalò, Lecco",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2023-24?",
+  "a": "Parma, Como, Venezia",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2023-24?",
+  "a": "Venezia",
   "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_B",
   "conf": "sure",
   "verdict": "ok",
@@ -1544,6 +1794,26 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Serie B in 2025-26?",
   "a": "Bari, Reggiana, Pescara, Spezia",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the Serie B in 2025-26?",
+  "a": "Venezia, Frosinone, Monza",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the Serie B play-offs in 2025-26?",
+  "a": "Monza",
   "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_B",
   "conf": "sure",
   "verdict": "ok",

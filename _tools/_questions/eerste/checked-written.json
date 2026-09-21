@@ -1,0 +1,125 @@
+[
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which side won the Eerste Divisie in 2017-18 and was not allowed to go up?",
+  "a": "Jong Ajax",
+  "sub": "A reserve side can win the division and stays where it is.",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club was relegated in 2018 for the first time in its history and won the Eerste Divisie at the first attempt?",
+  "a": "Twente",
+  "sub": "Champions of the Netherlands in 2010, down eight years later.",
+  "src": "https://en.wikipedia.org/wiki/FC_Twente",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which Maastricht club took its name from the Dutch for Social Football Association?",
+  "a": "MVV",
+  "sub": "Maatschappelijke Voetbal Vereniging, founded in 1902.",
+  "src": "https://en.wikipedia.org/wiki/MVV_Maastricht",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which Venlo club beat Ajax away in 2018 and was beaten 13 to 0 by the same side two years later?",
+  "a": "VVV-Venlo",
+  "sub": "Lassina Traoré got five of the thirteen.",
+  "src": "https://en.wikipedia.org/wiki/VVV-Venlo",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "grounds",
+  "q": "Which Doetinchem club plays at De Vijverberg and is nicknamed the Superboeren?",
+  "a": "De Graafschap",
+  "sub": "The super farmers, and the away end sings about it.",
+  "src": "https://en.wikipedia.org/wiki/De_Graafschap",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which Kerkrade club played in Europe in the 1990s and now lives in the Dutch second tier?",
+  "a": "Roda JC",
+  "sub": "Two Dutch cups, in 1997 and 2000.",
+  "src": "https://en.wikipedia.org/wiki/Roda_JC_Kerkrade",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which club plays its home games at De Geusselt?",
+  "a": "MVV",
+  "src": "https://en.wikipedia.org/wiki/De_Geusselt",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Waalwijk club plays at the Mandemakers Stadion?",
+  "a": "RKC Waalwijk",
+  "src": "https://en.wikipedia.org/wiki/Mandemakers_Stadion",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club's reserve side plays as Jong PSV?",
+  "a": "PSV",
+  "src": "https://en.wikipedia.org/wiki/Jong_PSV",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which fishing town club is known for producing players and for the nickname Het Andere Oranje?",
+  "a": "Volendam",
+  "src": "https://en.wikipedia.org/wiki/FC_Volendam",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Deventer club plays at De Adelaarshorst?",
+  "a": "Go Ahead Eagles",
+  "src": "https://en.wikipedia.org/wiki/De_Adelaarshorst",
+  "conf": "sure",
+  "verdict": "ok"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Leeuwarden club shared a promotion race with Heerenveen for years and plays in Frisian colours?",
+  "a": "Cambuur",
+  "src": "https://en.wikipedia.org/wiki/SC_Cambuur",
+  "conf": "likely",
+  "verdict": "ok"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Which Emmen club plays its home games at De Oude Meerdijk?",
+  "a": "FC Emmen",
+  "src": "https://en.wikipedia.org/wiki/De_Oude_Meerdijk",
+  "conf": "likely",
+  "verdict": "ok"
+ }
+]

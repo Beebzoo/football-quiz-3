@@ -40,6 +40,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 1995-96?",
+  "a": "Arminia Bielefeld, MSV Duisburg",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "normal",
   "cat": "champions",
   "q": "Which club won the 1996-97 2. Bundesliga?",
@@ -74,6 +84,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 1996-97?",
   "a": "Waldhof Mannheim, VfB Lübeck, Rot-Weiss Essen, VfB Oldenburg",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 1996-97?",
+  "a": "VfL Wolfsburg, Hertha BSC",
   "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -124,6 +144,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 1997-98?",
   "a": "VfB Leipzig, Carl Zeiss Jena, FSV Zwickau, SV Meppen",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 1997-98?",
+  "a": "SC Freiburg, 1. FC Nürnberg",
   "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -190,6 +220,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 1998-99?",
+  "a": "SpVgg Unterhaching, SSV Ulm",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 1998-99 2. Bundesliga?",
@@ -250,6 +290,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 1999-00?",
+  "a": "VfL Bochum, Energie Cottbus",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 1999-00 2. Bundesliga?",
@@ -294,6 +344,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2000-01?",
   "a": "VfL Osnabrück, SSV Ulm, Stuttgarter Kickers, Chemnitzer FC",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2000-01?",
+  "a": "Borussia Mönchengladbach, FC St. Pauli",
   "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -360,6 +420,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2001-02?",
+  "a": "Arminia Bielefeld, VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "normal",
   "cat": "champions",
   "q": "Which club won the 2002-03 2. Bundesliga?",
@@ -394,6 +464,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2002-03?",
   "a": "SSV Reutlingen, Eintracht Braunschweig, FC St. Pauli, Waldhof Mannheim",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2002-03?",
+  "a": "1. FC Köln, Eintracht Frankfurt",
   "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -450,6 +530,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2003-04?",
+  "a": "Arminia Bielefeld, Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2003-04 2. Bundesliga?",
@@ -494,6 +584,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2004-05?",
   "a": "Eintracht Trier, Rot-Weiß Oberhausen, Rot-Weiss Essen, Rot-Weiß Erfurt",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2004-05?",
+  "a": "MSV Duisburg, Eintracht Frankfurt",
   "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -550,6 +650,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2005-06?",
+  "a": "Alemannia Aachen, Energie Cottbus",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "normal",
   "cat": "champions",
   "q": "Which club won the 2006-07 2. Bundesliga?",
@@ -584,6 +694,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2006-07?",
   "a": "Rot-Weiss Essen, SpVgg Unterhaching, Wacker Burghausen, Eintracht Braunschweig",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2006-07?",
+  "a": "Hansa Rostock, MSV Duisburg",
   "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -634,6 +754,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2007-08?",
   "a": "Kickers Offenbach, Erzgebirge Aue, SC Paderborn, Carl Zeiss Jena",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2007-08?",
+  "a": "1899 Hoffenheim, 1. FC Köln",
   "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -850,6 +980,26 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2011-12?",
+  "a": "Eintracht Frankfurt, Fortuna Düsseldorf",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club came up through the 2. Bundesliga play-offs in 2011-12?",
+  "a": "Fortuna Düsseldorf",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2011-12 2. Bundesliga?",
@@ -1012,6 +1162,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2014-15?",
+  "a": "FC Ingolstadt, Darmstadt 98",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2014-15 2. Bundesliga?",
@@ -1073,6 +1233,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2015-16?",
+  "a": "SC Freiburg, RB Leipzig",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2015-16 2. Bundesliga?",
@@ -1123,6 +1293,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2016-17?",
+  "a": "VfB Stuttgart, Hannover 96",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club conceded the fewest goals in the 2016-17 2. Bundesliga?",
@@ -1147,6 +1327,26 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2018-19?",
   "a": "FC Ingolstadt, 1. FC Magdeburg, MSV Duisburg",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2018-19?",
+  "a": "SC Paderborn, Union Berlin",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the 2. Bundesliga play-offs in 2018-19?",
+  "a": "Union Berlin",
   "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -1187,6 +1387,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the 2. Bundesliga in 2019-20?",
   "a": "Wehen Wiesbaden, Dynamo Dresden",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2019-20?",
+  "a": "Arminia Bielefeld, VfB Stuttgart",
   "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_2._Bundesliga",
   "conf": "sure",
   "verdict": "ok",
@@ -1364,6 +1574,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2022-23?",
+  "a": "1. FC Heidenheim, Darmstadt 98",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2022-23 2. Bundesliga?",
@@ -1424,6 +1644,16 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2023-24?",
+  "a": "FC St. Pauli, Holstein Kiel",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "records",
   "q": "Which club scored the most goals in the 2023-24 2. Bundesliga?",
@@ -1467,6 +1697,26 @@
   "tier": "hard",
   "cat": "champions",
   "q": "Which club finished third in the 2025-26 2. Bundesliga?",
+  "a": "SC Paderborn",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the 2. Bundesliga in 2025-26?",
+  "a": "Schalke 04, SV Elversberg, SC Paderborn",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club came up through the 2. Bundesliga play-offs in 2025-26?",
   "a": "SC Paderborn",
   "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
   "conf": "sure",

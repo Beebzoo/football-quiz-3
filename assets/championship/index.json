@@ -1,0 +1,1254 @@
+{
+ "easy": [
+  {
+   "q": "Which club won the 2016-17 Championship?",
+   "a": "Newcastle United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2017-18 Championship?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2018-19 Championship?",
+   "a": "Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2019-20 Championship?",
+   "a": "Leeds United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2020-21 Championship?",
+   "a": "Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2021-22 Championship?",
+   "a": "Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2022-23 Championship?",
+   "a": "Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2023-24 Championship?",
+   "a": "Leicester City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2024-25 Championship?",
+   "a": "Leeds United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2025-26 Championship?",
+   "a": "Coventry City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Sheffield club plays its home games at Hillsborough?",
+   "a": "Sheffield Wednesday",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club has played at the Riverside Stadium since 1995?",
+   "a": "Middlesbrough",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club plays its home games at Ashton Gate?",
+   "a": "Bristol City",
+   "cat": "grounds"
+  }
+ ],
+ "normal": [
+  {
+   "q": "Which club won the 1992-93 Championship?",
+   "a": "Newcastle United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1993-94 Championship?",
+   "a": "Crystal Palace",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1994-95 Championship?",
+   "a": "Middlesbrough",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1995-96 Championship?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1996-97 Championship?",
+   "a": "Bolton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1997-98 Championship?",
+   "a": "Nottingham Forest",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1998-99 Championship?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 1999-00 Championship?",
+   "a": "Charlton Athletic",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2000-01 Championship?",
+   "a": "Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2001-02 Championship?",
+   "a": "Manchester City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2002-03 Championship?",
+   "a": "Portsmouth",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2003-04 Championship?",
+   "a": "Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2004-05 Championship?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2006-07 Championship?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2007-08 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2008-09 Championship?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2009-10 Championship?",
+   "a": "Newcastle United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2010-11 Championship?",
+   "a": "Queens Park Rangers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2011-12 Championship?",
+   "a": "Reading",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2012-13 Championship?",
+   "a": "Cardiff City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2013-14 Championship?",
+   "a": "Leicester City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2014-15 Championship?",
+   "a": "Bournemouth",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2015-16 Championship?",
+   "a": "Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2016-17 Championship?",
+   "a": "Brighton & Hove Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2016-17?",
+   "a": "Newcastle United, Brighton & Hove Albion, Huddersfield Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2017-18 Championship?",
+   "a": "Cardiff City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2017-18?",
+   "a": "Wolverhampton Wanderers, Cardiff City, Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2018-19 Championship?",
+   "a": "Sheffield United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2018-19?",
+   "a": "Norwich City, Sheffield United, Aston Villa",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2019-20 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2019-20?",
+   "a": "Leeds United, West Bromwich Albion, Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2019-20 Championship?",
+   "a": "Aleksandar Mitrović",
+   "sub": "He got 26 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2020-21 Championship?",
+   "a": "Watford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2020-21?",
+   "a": "Watford, Brentford",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2020-21 Championship?",
+   "a": "Ivan Toney",
+   "sub": "He got 33 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2021-22 Championship?",
+   "a": "Bournemouth",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2021-22?",
+   "a": "Fulham, Bournemouth, Nottingham Forest",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2021-22 Championship?",
+   "a": "Aleksandar Mitrović",
+   "sub": "He got 43 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2022-23 Championship?",
+   "a": "Sheffield United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2022-23?",
+   "a": "Burnley, Sheffield United, Luton Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2022-23 Championship?",
+   "a": "Chuba Akpom",
+   "sub": "He got 28 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2023-24 Championship?",
+   "a": "Ipswich Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2023-24?",
+   "a": "Leicester City, Ipswich Town, Southampton",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2023-24 Championship?",
+   "a": "Sammie Szmodics",
+   "sub": "He got 27 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2024-25 Championship?",
+   "a": "Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2024-25?",
+   "a": "Burnley, Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2024-25 Championship?",
+   "a": "Joël Piroe",
+   "sub": "He got 19 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2025-26 Championship?",
+   "a": "Ipswich Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2025-26?",
+   "a": "Coventry City, Ipswich Town, Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2025-26 Championship?",
+   "a": "Žan Vipotnik",
+   "sub": "He got 23 of them.",
+   "cat": "scorers"
+  }
+ ],
+ "hard": [
+  {
+   "q": "Which club finished second in the 1992-93 Championship?",
+   "a": "West Ham United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1993-94 Championship?",
+   "a": "Nottingham Forest",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1994-95 Championship?",
+   "a": "Reading",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 1994-95 Championship?",
+   "a": "John Aldridge",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 1995-96 Championship?",
+   "a": "Derby County",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 1995-96 Championship?",
+   "a": "John Aldridge",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 1996-97 Championship?",
+   "a": "Barnsley",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 1996-97 Championship?",
+   "a": "John McGinlay",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 1997-98 Championship?",
+   "a": "Middlesbrough",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 1997-98 Championship?",
+   "a": "Kevin Phillips",
+   "sub": "He got 29 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 1998-99 Championship?",
+   "a": "Bradford City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 1999-00 Championship?",
+   "a": "Manchester City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2000-01 Championship?",
+   "a": "Blackburn Rovers",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2000-01 Championship?",
+   "a": "Louis Saha",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2001-02 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2002-03 Championship?",
+   "a": "Leicester City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2003-04 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2003-04?",
+   "a": "Norwich City, West Bromwich Albion, Crystal Palace",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2004-05 Championship?",
+   "a": "Wigan Athletic",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2004-05?",
+   "a": "Sunderland, Wigan Athletic, West Ham United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2005-06 Championship?",
+   "a": "Sheffield United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2005-06?",
+   "a": "Reading, Sheffield United, Watford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2006-07 Championship?",
+   "a": "Birmingham City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2006-07?",
+   "a": "Sunderland, Birmingham City, Derby County",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2007-08 Championship?",
+   "a": "Stoke City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2007-08?",
+   "a": "West Bromwich Albion, Stoke City, Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2008-09 Championship?",
+   "a": "Birmingham City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2008-09?",
+   "a": "Wolverhampton Wanderers, Birmingham City, Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2009-10 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2009-10?",
+   "a": "Newcastle United, West Bromwich Albion, Blackpool",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2010-11 Championship?",
+   "a": "Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2010-11 Championship?",
+   "a": "Danny Graham",
+   "sub": "He got 24 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2011-12 Championship?",
+   "a": "Southampton",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2012-13 Championship?",
+   "a": "Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2012-13 Championship?",
+   "a": "Glenn Murray",
+   "sub": "He got 30 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2013-14 Championship?",
+   "a": "Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2013-14?",
+   "a": "Leicester City, Burnley, Queens Park Rangers",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2013-14 Championship?",
+   "a": "Ross McCormack",
+   "sub": "He got 28 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2014-15 Championship?",
+   "a": "Watford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2014-15?",
+   "a": "Bournemouth, Watford, Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2015-16 Championship?",
+   "a": "Middlesbrough",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Championship in 2015-16?",
+   "a": "Burnley, Middlesbrough, Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2015-16 Championship?",
+   "a": "Andre Gray",
+   "sub": "He got 25 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished third in the 2016-17 Championship?",
+   "a": "Reading",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2016-17?",
+   "a": "Blackburn Rovers, Wigan Athletic, Rotherham United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2016-17?",
+   "a": "Huddersfield Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2017-18 Championship?",
+   "a": "Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2017-18?",
+   "a": "Barnsley, Burton Albion, Sunderland",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2017-18?",
+   "a": "Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2018-19 Championship?",
+   "a": "Leeds United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2018-19?",
+   "a": "Rotherham United, Bolton Wanderers, Ipswich Town",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2018-19?",
+   "a": "Aston Villa",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2019-20 Championship?",
+   "a": "Brentford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2019-20?",
+   "a": "Wigan Athletic, Charlton Athletic, Hull City",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2019-20?",
+   "a": "Fulham",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club was Aleksandar Mitrović playing for when he top scored in the 2019-20 Championship?",
+   "a": "Fulham",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished third in the 2020-21 Championship?",
+   "a": "Brentford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2020-21?",
+   "a": "Sheffield Wednesday, Wycombe Wanderers, Rotherham United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2020-21?",
+   "a": "Brentford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2021-22 Championship?",
+   "a": "Huddersfield Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2021-22?",
+   "a": "Derby County, Peterborough United, Barnsley",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2021-22?",
+   "a": "Nottingham Forest",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2022-23 Championship?",
+   "a": "Luton Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2022-23?",
+   "a": "Reading, Wigan Athletic, Blackpool",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2022-23?",
+   "a": "Luton Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2023-24 Championship?",
+   "a": "Leeds United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2023-24?",
+   "a": "Birmingham City, Huddersfield Town, Rotherham United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2023-24?",
+   "a": "Southampton",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2024-25 Championship?",
+   "a": "Sheffield United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2024-25?",
+   "a": "Luton Town, Plymouth Argyle, Cardiff City",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2024-25?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club was Joël Piroe playing for when he top scored in the 2024-25 Championship?",
+   "a": "Leeds United",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished third in the 2025-26 Championship?",
+   "a": "Millwall",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2025-26?",
+   "a": "Leicester City, Oxford United, Sheffield Wednesday",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2025-26?",
+   "a": "Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club was Žan Vipotnik playing for when he top scored in the 2025-26 Championship?",
+   "a": "Swansea City",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club beat Sheffield United in the 2025 play-off final to go up?",
+   "a": "Sunderland",
+   "sub": "Tommy Watson scored the winner in stoppage time.",
+   "cat": "stories",
+   "club": "sheffield-united"
+  },
+  {
+   "q": "Which Welsh club joined the English league system and plays at the Racecourse Ground?",
+   "a": "Wrexham",
+   "cat": "grounds"
+  }
+ ],
+ "extreme": [
+  {
+   "q": "Which club finished third in the 1992-93 Championship?",
+   "a": "Portsmouth",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1992-93?",
+   "a": "Brentford, Cambridge United, Bristol Rovers",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 1993-94 Championship?",
+   "a": "Millwall",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1993-94?",
+   "a": "Birmingham City, Oxford United, Peterborough United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1993-94 Championship?",
+   "a": "Nottingham Forest",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1994-95 Championship?",
+   "a": "Bolton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1994-95?",
+   "a": "Swindon Town, Burnley, Bristol City, Notts County",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1994-95 Championship?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1995-96 Championship?",
+   "a": "Crystal Palace",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1995-96?",
+   "a": "Millwall, Watford, Luton Town",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1995-96 Championship?",
+   "a": "Ipswich Town",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1996-97 Championship?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1996-97?",
+   "a": "Grimsby Town, Oldham Athletic, Southend United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1996-97 Championship?",
+   "a": "Crystal Palace",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1997-98 Championship?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1997-98?",
+   "a": "Manchester City, Stoke City, Reading",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1997-98 Championship?",
+   "a": "Sunderland",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1997-98 Championship?",
+   "a": "Birmingham City",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 1998-99 Championship?",
+   "a": "Ipswich Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1998-99?",
+   "a": "Bury, Oxford United, Bristol City",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 1999-00 Championship?",
+   "a": "Ipswich Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 1999-00?",
+   "a": "Walsall, Port Vale, Swindon Town",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 1999-00 Championship?",
+   "a": "Barnsley",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 1999-00 Championship?",
+   "a": "Manchester City",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2000-01 Championship?",
+   "a": "Bolton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2000-01?",
+   "a": "Huddersfield Town, Queens Park Rangers, Tranmere Rovers",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2001-02 Championship?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2001-02?",
+   "a": "Crewe Alexandra, Barnsley, Stockport County",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2001-02 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2002-03 Championship?",
+   "a": "Sheffield United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2002-03?",
+   "a": "Sheffield Wednesday, Grimsby Town",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2002-03 Championship?",
+   "a": "Leicester City",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2003-04 Championship?",
+   "a": "Sunderland",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2003-04?",
+   "a": "Walsall, Bradford City, Wimbledon",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2003-04?",
+   "a": "Crystal Palace",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2003-04 Championship?",
+   "a": "Ipswich Town",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2004-05 Championship?",
+   "a": "Ipswich Town",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2004-05?",
+   "a": "Gillingham, Nottingham Forest, Rotherham United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2004-05?",
+   "a": "West Ham United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2004-05 Championship?",
+   "a": "Ipswich Town",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2004-05 Championship?",
+   "a": "Wigan Athletic",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2005-06 Championship?",
+   "a": "Watford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2005-06?",
+   "a": "Crewe Alexandra, Millwall, Brighton & Hove Albion",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2005-06?",
+   "a": "Watford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2005-06 Championship?",
+   "a": "Preston North End",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2006-07 Championship?",
+   "a": "Derby County",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2006-07?",
+   "a": "Leeds United, Southend United, Luton Town",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2006-07?",
+   "a": "Derby County",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2006-07 Championship?",
+   "a": "West Bromwich Albion",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2006-07 Championship?",
+   "a": "Stoke City",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2007-08 Championship?",
+   "a": "Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2007-08?",
+   "a": "Leicester City, Scunthorpe United, Colchester United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2007-08?",
+   "a": "Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2007-08 Championship?",
+   "a": "Crystal Palace",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2008-09 Championship?",
+   "a": "Sheffield United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2008-09?",
+   "a": "Norwich City, Southampton, Charlton Athletic",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2008-09?",
+   "a": "Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2008-09 Championship?",
+   "a": "Birmingham City",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2009-10 Championship?",
+   "a": "Nottingham Forest",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2009-10?",
+   "a": "Sheffield Wednesday, Plymouth Argyle, Peterborough United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2009-10?",
+   "a": "Blackpool",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2010-11 Championship?",
+   "a": "Swansea City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2010-11?",
+   "a": "Preston North End, Sheffield United, Scunthorpe United",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2010-11 Championship?",
+   "a": "Norwich City",
+   "cat": "records"
+  },
+  {
+   "q": "Which club was Danny Graham playing for when he top scored in the 2010-11 Championship?",
+   "a": "Watford",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished third in the 2011-12 Championship?",
+   "a": "West Ham United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2011-12?",
+   "a": "Portsmouth, Coventry City, Doncaster Rovers",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2011-12 Championship?",
+   "a": "Southampton",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2012-13 Championship?",
+   "a": "Watford",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2012-13?",
+   "a": "Peterborough United, Wolverhampton Wanderers, Bristol City",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2012-13 Championship?",
+   "a": "Watford",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2012-13 Championship?",
+   "a": "Brighton & Hove Albion",
+   "cat": "records"
+  },
+  {
+   "q": "Which club was Glenn Murray playing for when he top scored in the 2012-13 Championship?",
+   "a": "Crystal Palace",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished third in the 2013-14 Championship?",
+   "a": "Derby County",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2013-14?",
+   "a": "Doncaster Rovers, Barnsley, Yeovil Town",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2013-14?",
+   "a": "Queens Park Rangers",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2013-14 Championship?",
+   "a": "Derby County",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2013-14 Championship?",
+   "a": "Burnley",
+   "cat": "records"
+  },
+  {
+   "q": "Which club was Ross McCormack playing for when he top scored in the 2013-14 Championship?",
+   "a": "Leeds United",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished third in the 2014-15 Championship?",
+   "a": "Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2014-15?",
+   "a": "Millwall, Wigan Athletic, Blackpool",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2014-15?",
+   "a": "Norwich City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2014-15 Championship?",
+   "a": "Middlesbrough",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2015-16 Championship?",
+   "a": "Brighton & Hove Albion",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Championship in 2015-16?",
+   "a": "Charlton Athletic, Milton Keynes Dons, Bolton Wanderers",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Championship play-offs in 2015-16?",
+   "a": "Hull City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2015-16 Championship?",
+   "a": "Middlesbrough",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2018-19 Championship?",
+   "a": "Sheffield United",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2019-20 Championship?",
+   "a": "Brentford",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2020-21 Championship?",
+   "a": "Brentford",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2020-21 Championship?",
+   "a": "Watford",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2021-22 Championship?",
+   "a": "Bournemouth",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2023-24 Championship?",
+   "a": "Ipswich Town",
+   "cat": "records"
+  },
+  {
+   "q": "The 2024-25 Championship was decided on goal difference. Which club took it?",
+   "a": "Leeds United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2024-25 Championship?",
+   "a": "Burnley",
+   "cat": "records"
+  }
+ ],
+ "ball": [
+  {
+   "q": "Which club won three promotions in a row under the owners Ryan Reynolds and Rob McElhenney?",
+   "a": "Wrexham",
+   "sub": "Out of the National League in 2023 and into the Championship two years later.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club took 106 points in the 2005-06 Championship, a total no second tier side had reached before?",
+   "a": "Reading",
+   "sub": "Thirty one wins, and they were up before the end of March.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won the 2013-14 Championship and then won the Premier League two seasons later?",
+   "a": "Leicester City",
+   "sub": "Five thousand to one in the summer of 2015.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won the 2010 play-off final to reach the top flight for the first time since 1971?",
+   "a": "Blackpool",
+   "sub": "Ian Holloway's side beat Cardiff City 3 to 2 at Wembley.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won the 2019-20 Championship to return to the top flight after sixteen years away?",
+   "a": "Leeds United",
+   "sub": "Marcelo Bielsa's second season in charge.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club was docked points twice in the 2021-22 season, going down while in administration?",
+   "a": "Derby County",
+   "sub": "Twelve for administration and nine more for the accounts.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club left Roker Park in 1997 for a ground named after a colliery?",
+   "a": "Sunderland",
+   "sub": "The Stadium of Light, built on the old Monkwearmouth pit.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Welsh club won the 2012 play-off final and went up to the Premier League?",
+   "a": "Swansea City",
+   "sub": "They beat Reading 4 to 2 at Wembley in 2011, and stayed seven years.",
+   "cat": "stories"
+  }
+ ]
+}

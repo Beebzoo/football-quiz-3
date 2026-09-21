@@ -60,6 +60,26 @@
   "note": "harvested from the season table"
  },
  {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2010-11 Challenger Pro League?",
+  "a": "Lommel",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2010-11 Challenger Pro League?",
+  "a": "Mons",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "relegation",
   "q": "Which clubs went down from the Challenger Pro League in 2010-11?",
@@ -72,18 +92,8 @@
  {
   "tier": "extreme",
   "cat": "records",
-  "q": "Which club scored the most goals in the 2010-11 Challenger Pro League?",
-  "a": "Heist",
-  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Belgian_Second_Division",
-  "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
- },
- {
-  "tier": "extreme",
-  "cat": "records",
   "q": "Which club conceded the fewest goals in the 2010-11 Challenger Pro League?",
-  "a": "Dender",
+  "a": "Waasland-Beveren",
   "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Belgian_Second_Division",
   "conf": "sure",
   "verdict": "ok",
@@ -94,6 +104,26 @@
   "cat": "champions",
   "q": "Which club won the 2011-12 Challenger Pro League?",
   "a": "Charleroi",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2011-12 Challenger Pro League?",
+  "a": "Eupen",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2011-12 Challenger Pro League?",
+  "a": "Oostende",
   "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Belgian_Second_Division",
   "conf": "sure",
   "verdict": "ok",
@@ -112,19 +142,39 @@
  {
   "tier": "extreme",
   "cat": "records",
-  "q": "Which club scored the most goals in the 2011-12 Challenger Pro League?",
-  "a": "Aalst",
+  "q": "Which club conceded the fewest goals in the 2011-12 Challenger Pro League?",
+  "a": "Oostende",
   "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Belgian_Second_Division",
   "conf": "sure",
   "verdict": "ok",
   "note": "harvested from the season table"
  },
  {
-  "tier": "extreme",
-  "cat": "records",
-  "q": "Which club conceded the fewest goals in the 2011-12 Challenger Pro League?",
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2012-13 Challenger Pro League?",
   "a": "Oostende",
-  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Belgian_Second_Division",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2012-13 Challenger Pro League?",
+  "a": "Mouscron-Péruwelz",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2012-13 Challenger Pro League?",
+  "a": "Westerlo",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Belgian_Second_Division",
   "conf": "sure",
   "verdict": "ok",
   "note": "harvested from the season table"
@@ -141,10 +191,50 @@
   "sub": "He got 17 of them."
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2013-14 Challenger Pro League?",
+  "a": "Westerlo",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2013-14 Challenger Pro League?",
+  "a": "Eupen",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2013-14 Challenger Pro League?",
+  "a": "Sint-Truiden",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "relegation",
   "q": "Which clubs went down from the Challenger Pro League in 2013-14?",
   "a": "Brussels, Hoogstraten, Visé",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2013-14 Challenger Pro League?",
+  "a": "Eupen",
   "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Belgian_Second_Division",
   "conf": "sure",
   "verdict": "ok",
@@ -162,10 +252,60 @@
   "sub": "He got 19 of them."
  },
  {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2014-15 Challenger Pro League?",
+  "a": "Sint-Truiden",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2014-15 Challenger Pro League?",
+  "a": "Lommel",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2014-15 Challenger Pro League?",
+  "a": "Eupen",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
   "tier": "extreme",
   "cat": "relegation",
   "q": "Which clubs went down from the Challenger Pro League in 2014-15?",
-  "a": "Mons, Racing Mechelen, Aalst",
+  "a": "Mons, Aalst, Racing Mechelen",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2014-15 Challenger Pro League?",
+  "a": "Seraing United",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Belgian_Second_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2014-15 Challenger Pro League?",
+  "a": "Lommel",
   "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Belgian_Second_Division",
   "conf": "sure",
   "verdict": "ok",
@@ -437,6 +577,16 @@
   "cat": "relegation",
   "q": "Which clubs went down from the Challenger Pro League in 2025-26?",
   "a": "RWDM Brussels, Olympic Charleroi",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Challenger_Pro_League",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which clubs went up from the Challenger Pro League in 2025-26?",
+  "a": "Kortrijk, Lommel",
   "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Challenger_Pro_League",
   "conf": "sure",
   "verdict": "ok",

@@ -39,13 +39,26 @@ const LEAGUES = {
   seriea:     {dir: "seriea",     label: "Serie A",        stop: ["serie", "italian", "italy"]},
   belgian:    {dir: "belgian",    label: "Pro League",     stop: ["belgian", "belgium", "pro"]},
   ere:        {dir: "eredivisie", label: "Eredivisie",     stop: ["eredivisie", "dutch", "netherlands"]},
-  /* the second divisions, same rule, and the stop list carries the OLD names of
-     each one too, since the questions say them */
+  /* THE SECOND DIVISIONS, and the one word each of them must NOT stop on.
+     The stop list is here so that near-dupe detection is not fooled by every
+     question in a deck carrying the league's own name. Put a second division
+     next to its top flight and that reverses: the tier word is the only thing
+     telling two questions apart, and stopping it makes them the same question.
+
+     "Which club won the 1995-96 2. Bundesliga?" normalises to 1995 96 won once
+     "bundesliga" and "2" are stopped. So does the classic bank's "Which club
+     won the 1995-96 Bundesliga?". Different question, different answer, and
+     nineteen champions of the German second tier were thrown out as dupes of
+     the German first. Serie B lost nineteen the same way, because the base
+     list already stops a bare "a" and "b" was added here.
+
+     So the tier word stays: 2, B, Challenger. Everything else that identifies
+     the competition rather than the question still goes. */
   champ:      {dir: "championship", label: "Championship", stop: ["championship", "english", "england", "efl", "first", "division"]},
   segunda:    {dir: "segunda",      label: "Segunda División", stop: ["segunda", "division", "spanish", "spain", "hypermotion"]},
-  bundesliga2:{dir: "bundesliga2",  label: "2. Bundesliga", stop: ["bundesliga", "2", "german", "germany", "zweite"]},
-  serieb:     {dir: "serieb",       label: "Serie B",      stop: ["serie", "b", "italian", "italy"]},
-  challenger: {dir: "challenger",   label: "Challenger Pro League", stop: ["challenger", "pro", "belgian", "belgium", "second", "division", "b"]},
+  bundesliga2:{dir: "bundesliga2",  label: "2. Bundesliga", stop: ["bundesliga", "german", "germany", "zweite"]},
+  serieb:     {dir: "serieb",       label: "Serie B",      stop: ["serie", "italian", "italy"]},
+  challenger: {dir: "challenger",   label: "Challenger Pro League", stop: ["pro", "belgian", "belgium", "second", "division"]},
   eerste:     {dir: "eerste",       label: "Eerste Divisie", stop: ["eerste", "divisie", "dutch", "netherlands", "keuken", "kampioen", "jupiler"]},
 };
 

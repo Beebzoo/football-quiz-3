@@ -1,0 +1,642 @@
+{
+ "easy": [
+  {
+   "q": "Which club won the 2016-17 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2017-18 Eerste Divisie?",
+   "a": "Jong Ajax",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2018-19 Eerste Divisie?",
+   "a": "Twente",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2020-21 Eerste Divisie?",
+   "a": "SC Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2021-22 Eerste Divisie?",
+   "a": "FC Emmen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2022-23 Eerste Divisie?",
+   "a": "Heracles Almelo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2023-24 Eerste Divisie?",
+   "a": "Willem II",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2024-25 Eerste Divisie?",
+   "a": "Volendam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2025-26 Eerste Divisie?",
+   "a": "ADO Den Haag",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Waalwijk club plays at the Mandemakers Stadion?",
+   "a": "RKC Waalwijk",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club's reserve side plays as Jong PSV?",
+   "a": "PSV",
+   "cat": "stories",
+   "club": "psv"
+  },
+  {
+   "q": "Which fishing town club is known for producing players and for the nickname Het Andere Oranje?",
+   "a": "Volendam",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Deventer club plays at De Adelaarshorst?",
+   "a": "Go Ahead Eagles",
+   "cat": "grounds"
+  }
+ ],
+ "normal": [
+  {
+   "q": "Which club won the 2005-06 Eerste Divisie?",
+   "a": "Excelsior Rotterdam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2006-07 Eerste Divisie?",
+   "a": "De Graafschap",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2007-08 Eerste Divisie?",
+   "a": "FC Volendam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2008-09 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2009-10 Eerste Divisie?",
+   "a": "De Graafschap",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2010-11 Eerste Divisie?",
+   "a": "RKC Waalwijk",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2011-12 Eerste Divisie?",
+   "a": "Zwolle",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2012-13 Eerste Divisie?",
+   "a": "Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2013-14 Eerste Divisie?",
+   "a": "Willem II",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2014-15 Eerste Divisie?",
+   "a": "N.E.C.",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club won the 2015-16 Eerste Divisie?",
+   "a": "Sparta Rotterdam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2016-17 Eerste Divisie?",
+   "a": "Jong Ajax",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2016-17?",
+   "a": "VVV-Venlo, NAC Breda",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2017-18 Eerste Divisie?",
+   "a": "Fortuna Sittard",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2017-18 Eerste Divisie?",
+   "a": "Mart Lieder",
+   "sub": "He got 31 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2018-19 Eerste Divisie?",
+   "a": "Sparta Rotterdam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2018-19?",
+   "a": "Twente, Sparta Rotterdam, RKC Waalwijk",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2018-19 Eerste Divisie?",
+   "a": "Ferdy Druijf",
+   "sub": "He got 34 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who was the top scorer in the 2019-20 Eerste Divisie?",
+   "a": "Robert Mühren",
+   "sub": "He got 29 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2020-21 Eerste Divisie?",
+   "a": "Go Ahead Eagles",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2020-21?",
+   "a": "Go Ahead Eagles, N.E.C.",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2020-21 Eerste Divisie?",
+   "a": "Robert Mühren",
+   "sub": "He got 38 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2021-22 Eerste Divisie?",
+   "a": "FC Volendam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2021-22?",
+   "a": "FC Emmen, FC Volendam, Excelsior",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2021-22 Eerste Divisie?",
+   "a": "Thijs Dallinga",
+   "sub": "He got 32 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2022-23 Eerste Divisie?",
+   "a": "PEC Zwolle",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2022-23?",
+   "a": "Heracles Almelo, PEC Zwolle, Almere City",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2022-23 Eerste Divisie?",
+   "a": "Lennart Thy",
+   "sub": "He got 23 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2023-24 Eerste Divisie?",
+   "a": "Groningen",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2023-24?",
+   "a": "Willem II, Groningen, NAC Breda",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2023-24 Eerste Divisie?",
+   "a": "Henk Veerman",
+   "sub": "He got 23 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2024-25 Eerste Divisie?",
+   "a": "Excelsior",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2024-25?",
+   "a": "Volendam, Excelsior",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2024-25 Eerste Divisie?",
+   "a": "Henk Veerman",
+   "sub": "He got 26 of them.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2025-26 Eerste Divisie?",
+   "a": "Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2025-26?",
+   "a": "ADO Den Haag, Cambuur, Willem II",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2025-26 Eerste Divisie?",
+   "a": "Romano Postema",
+   "sub": "He got 24 of them.",
+   "cat": "scorers"
+  }
+ ],
+ "hard": [
+  {
+   "q": "Which club finished second in the 2005-06 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2006-07 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2007-08 Eerste Divisie?",
+   "a": "RKC Waalwijk",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2008-09 Eerste Divisie?",
+   "a": "RKC Waalwijk",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2009-10 Eerste Divisie?",
+   "a": "SC Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Who was the top scorer in the 2009-10 Eerste Divisie?",
+   "a": "Michael de Leeuw",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which club finished second in the 2010-11 Eerste Divisie?",
+   "a": "Zwolle",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2011-12 Eerste Divisie?",
+   "a": "Sparta Rotterdam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2012-13 Eerste Divisie?",
+   "a": "Volendam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2013-14 Eerste Divisie?",
+   "a": "Dordrecht",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2014-15 Eerste Divisie?",
+   "a": "Eindhoven",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2014-15?",
+   "a": "N.E.C., Roda JC Kerkrade, De Graafschap",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished second in the 2015-16 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went up from the Eerste Divisie in 2015-16?",
+   "a": "Sparta Rotterdam, Go Ahead Eagles",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2016-17 Eerste Divisie?",
+   "a": "Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Eerste Divisie in 2016-17?",
+   "a": "Achilles '29",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club came up through the Eerste Divisie play-offs in 2016-17?",
+   "a": "NAC Breda",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2017-18 Eerste Divisie?",
+   "a": "NEC",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Eerste Divisie in 2017-18?",
+   "a": "Jong FC Utrecht",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club finished third in the 2018-19 Eerste Divisie?",
+   "a": "Jong PSV",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2020-21 Eerste Divisie?",
+   "a": "De Graafschap",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Eerste Divisie play-offs in 2020-21?",
+   "a": "N.E.C.",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2021-22 Eerste Divisie?",
+   "a": "ADO Den Haag",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Eerste Divisie play-offs in 2021-22?",
+   "a": "Excelsior",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2022-23 Eerste Divisie?",
+   "a": "Almere City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Eerste Divisie play-offs in 2022-23?",
+   "a": "Almere City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2023-24 Eerste Divisie?",
+   "a": "Roda JC Kerkrade",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Eerste Divisie play-offs in 2023-24?",
+   "a": "NAC Breda",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2024-25 Eerste Divisie?",
+   "a": "Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2025-26 Eerste Divisie?",
+   "a": "Willem II",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club came up through the Eerste Divisie play-offs in 2025-26?",
+   "a": "Willem II",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Leeuwarden club shared a promotion race with Heerenveen for years and plays in Frisian colours?",
+   "a": "Cambuur",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Emmen club plays its home games at De Oude Meerdijk?",
+   "a": "FC Emmen",
+   "cat": "grounds"
+  }
+ ],
+ "extreme": [
+  {
+   "q": "Which club finished third in the 2005-06 Eerste Divisie?",
+   "a": "FC Volendam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2006-07 Eerste Divisie?",
+   "a": "RBC Roosendaal",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2006-07 Eerste Divisie?",
+   "a": "FC Volendam",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2007-08 Eerste Divisie?",
+   "a": "FC Den Bosch",
+   "cat": "champions"
+  },
+  {
+   "q": "The 2007-08 Eerste Divisie was decided on goal difference. Which club took it?",
+   "a": "FC Volendam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2007-08 Eerste Divisie?",
+   "a": "FC Den Bosch",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2008-09 Eerste Divisie?",
+   "a": "Cambuur",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2008-09 Eerste Divisie?",
+   "a": "RKC Waalwijk",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2009-10 Eerste Divisie?",
+   "a": "Excelsior",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Eerste Divisie in 2009-10?",
+   "a": "FC Oss, HFC Haarlem",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2009-10 Eerste Divisie?",
+   "a": "Go Ahead Eagles",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2010-11 Eerste Divisie?",
+   "a": "Helmond Sport",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Eerste Divisie in 2010-11?",
+   "a": "RBC Roosendaal",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2010-11 Eerste Divisie?",
+   "a": "Zwolle",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2011-12 Eerste Divisie?",
+   "a": "Eindhoven",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2011-12 Eerste Divisie?",
+   "a": "Sparta Rotterdam",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2012-13 Eerste Divisie?",
+   "a": "Sparta Rotterdam",
+   "cat": "champions"
+  },
+  {
+   "q": "Which clubs went down from the Eerste Divisie in 2012-13?",
+   "a": "Veendam, AGOVV",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club scored the most goals in the 2012-13 Eerste Divisie?",
+   "a": "Volendam",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2012-13 Eerste Divisie?",
+   "a": "Veendam",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2013-14 Eerste Divisie?",
+   "a": "Excelsior",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2013-14 Eerste Divisie?",
+   "a": "Dordrecht",
+   "cat": "records"
+  },
+  {
+   "q": "Which club finished third in the 2014-15 Eerste Divisie?",
+   "a": "Roda JC Kerkrade",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club finished third in the 2015-16 Eerste Divisie?",
+   "a": "NAC Breda",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club scored the most goals in the 2015-16 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2015-16 Eerste Divisie?",
+   "a": "VVV-Venlo",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2016-17 Eerste Divisie?",
+   "a": "Jong Ajax",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2017-18 Eerste Divisie?",
+   "a": "Fortuna Sittard",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2018-19 Eerste Divisie?",
+   "a": "Jong Ajax",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2020-21 Eerste Divisie?",
+   "a": "Go Ahead Eagles",
+   "cat": "records"
+  },
+  {
+   "q": "Which club scored the most goals in the 2021-22 Eerste Divisie?",
+   "a": "Excelsior",
+   "cat": "records"
+  },
+  {
+   "q": "The 2022-23 Eerste Divisie was decided on goal difference. Which club took it?",
+   "a": "Heracles Almelo",
+   "cat": "champions"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2022-23 Eerste Divisie?",
+   "a": "Willem II",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2023-24 Eerste Divisie?",
+   "a": "Groningen",
+   "cat": "records"
+  },
+  {
+   "q": "Which club conceded the fewest goals in the 2024-25 Eerste Divisie?",
+   "a": "Excelsior",
+   "cat": "records"
+  }
+ ],
+ "ball": [
+  {
+   "q": "Which club was relegated in 2018 for the first time in its history and won the Eerste Divisie at the first attempt?",
+   "a": "Twente",
+   "sub": "Champions of the Netherlands in 2010, down eight years later.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Maastricht club took its name from the Dutch for Social Football Association?",
+   "a": "MVV",
+   "sub": "Maatschappelijke Voetbal Vereniging, founded in 1902.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Venlo club beat Ajax away in 2018 and was beaten 13 to 0 by the same side two years later?",
+   "a": "VVV-Venlo",
+   "sub": "Lassina Traoré got five of the thirteen.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Doetinchem club plays at De Vijverberg and is nicknamed the Superboeren?",
+   "a": "De Graafschap",
+   "sub": "The super farmers, and the away end sings about it.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Kerkrade club played in Europe in the 1990s and now lives in the Dutch second tier?",
+   "a": "Roda JC",
+   "sub": "Two Dutch cups, in 1997 and 2000.",
+   "cat": "stories"
+  }
+ ]
+}
