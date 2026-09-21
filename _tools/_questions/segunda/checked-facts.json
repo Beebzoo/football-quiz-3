@@ -1,0 +1,1482 @@
+[
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1998-99 Segunda División?",
+  "a": "Málaga",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1998-99 Segunda División?",
+  "a": "Atlético B",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1998-99 Segunda División?",
+  "a": "Numancia",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 1998-99?",
+  "a": "Mallorca B, Barcelona B, Ourense",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 1998-99 Segunda División?",
+  "a": "Atlético B",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1998-99 Segunda División?",
+  "a": "Recreativo",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1999-00 Segunda División?",
+  "a": "Las Palmas",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1999-00 Segunda División?",
+  "a": "Osasuna",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1999-00 Segunda División?",
+  "a": "Villarreal",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 1999-00?",
+  "a": "Atlético B, Logroñés, Toledo",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 1999-00 Segunda División?",
+  "a": "Lleida",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1999-00 Segunda División?",
+  "a": "Osasuna",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2000-01 Segunda División?",
+  "a": "Sevilla",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2000-01 Segunda División?",
+  "a": "Real Betis",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2000-01 Segunda División?",
+  "a": "Tenerife",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2000-01?",
+  "a": "Compostela, Universidad LP, Getafe, Lleida",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2000-01 Segunda División?",
+  "a": "Recreativo",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2001-02 Segunda División?",
+  "a": "Atlético",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2001-02 Segunda División?",
+  "a": "Racing San.",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2001-02 Segunda División?",
+  "a": "Recreativo",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2001-02?",
+  "a": "Burgos, Gimnàstic, Extremadura, Real Jaén",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2001-02 Segunda División?",
+  "a": "Eibar",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2002-03 Segunda División?",
+  "a": "Murcia",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2002-03 Segunda División?",
+  "a": "Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2002-03 Segunda División?",
+  "a": "Albacete",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2002-03?",
+  "a": "Compostela, Racing Ferrol, Oviedo, Badajoz",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2003-04 Segunda División?",
+  "a": "Levante",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2003-04 Segunda División?",
+  "a": "Numancia",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2003-04 Segunda División?",
+  "a": "Getafe",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2003-04?",
+  "a": "Leganés, Las Palmas, Rayo, Algeciras",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2003-04 Segunda División?",
+  "a": "Numancia",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2003-04 Segunda División?",
+  "a": "Numancia",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2004-05?",
+  "a": "Pontevedra, Salamanca, Terrassa",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2005-06 Segunda División?",
+  "a": "Recreativo",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2005-06 Segunda División?",
+  "a": "Gimnàstic",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2005-06 Segunda División?",
+  "a": "Levante",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2005-06?",
+  "a": "Lleida, Racing Ferrol, Eibar",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2006-07 Segunda División?",
+  "a": "Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2006-07 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2006-07 Segunda División?",
+  "a": "Murcia",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2006-07?",
+  "a": "R. M. Castilla, Ponferradina, Lorca, Vecindario",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2006-07 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2007-08 Segunda División?",
+  "a": "Numancia",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2007-08 Segunda División?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2007-08 Segunda División?",
+  "a": "Real Sociedad",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2007-08?",
+  "a": "Racing de Ferrol, Granada 74, Polideportivo Ejido",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2007-08 Segunda División?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2007-08 Segunda División?",
+  "a": "Castellón",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2008-09 Segunda División?",
+  "a": "Xerez",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2008-09 Segunda División?",
+  "a": "Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2008-09 Segunda División?",
+  "a": "Tenerife",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2008-09?",
+  "a": "Alavés, Alicante, Eibar, Sevilla Atlético",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2008-09 Segunda División?",
+  "a": "Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2008-09 Segunda División?",
+  "a": "Real Sociedad",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2009-10 Segunda División?",
+  "a": "Real Sociedad",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2009-10 Segunda División?",
+  "a": "Betis",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2009-10 Segunda División?",
+  "a": "Levante",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2009-10?",
+  "a": "Murcia, Real Unión, Castellón",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2009-10 Segunda División?",
+  "a": "Elche",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2010-11 Segunda División?",
+  "a": "Betis",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2010-11 Segunda División?",
+  "a": "Rayo Vallecano",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2010-11 Segunda División?",
+  "a": "Barcelona B",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2010-11?",
+  "a": "Salamanca, Tenerife, Ponferradina, Albacete",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2010-11 Segunda División?",
+  "a": "Recreativo",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2011-12 Segunda División?",
+  "a": "Deportivo La Coruña",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2011-12 Segunda División?",
+  "a": "Celta de Vigo",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2011-12 Segunda División?",
+  "a": "Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2011-12?",
+  "a": "Villarreal B, Cartagena, Alcoyano, Gimnàstic",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2011-12 Segunda División?",
+  "a": "Celta de Vigo",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2011-12 Segunda División?",
+  "a": "Celta de Vigo",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2012-13 Segunda División?",
+  "a": "Elche",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2012-13 Segunda División?",
+  "a": "Villarreal",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2012-13 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2012-13?",
+  "a": "Guadalajara, Racing Santander, Huesca, Xerez",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2012-13 Segunda División?",
+  "a": "Real Madrid Castilla",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2012-13 Segunda División?",
+  "a": "Charles",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2013-14 Segunda División?",
+  "a": "Eibar",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2013-14 Segunda División?",
+  "a": "Deportivo La Coruña",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2013-14 Segunda División?",
+  "a": "Barcelona B",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2013-14?",
+  "a": "Murcia, Real Madrid Castilla",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2013-14 Segunda División?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2014-15 Segunda División?",
+  "a": "Betis",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2014-15 Segunda División?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2014-15 Segunda División?",
+  "a": "Girona",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2014-15?",
+  "a": "Racing Santander, Recreativo, Sabadell, Barcelona B",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2014-15 Segunda División?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2015-16 Segunda División?",
+  "a": "Alavés",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2015-16 Segunda División?",
+  "a": "Leganés",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2015-16 Segunda División?",
+  "a": "Gimnàstic",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2015-16?",
+  "a": "Ponferradina, Llagostera, Albacete, Bilbao Athletic",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2015-16 Segunda División?",
+  "a": "Leganés",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2015-16 Segunda División?",
+  "a": "Girona",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2016-17 Segunda División?",
+  "a": "Levante",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2016-17 Segunda División?",
+  "a": "Girona",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2016-17 Segunda División?",
+  "a": "Getafe",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2016-17?",
+  "a": "UCAM Murcia, Mallorca, Elche, Mirandés",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2016-17 Segunda División?",
+  "a": "Girona",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2016-17 Segunda División?",
+  "a": "Reus",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2017-18 Segunda División?",
+  "a": "Rayo Vallecano",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2017-18 Segunda División?",
+  "a": "Huesca",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2017-18 Segunda División?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2017-18?",
+  "a": "Cultural Leonesa, Barcelona B, Lorca FC, Sevilla Atlético",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2017-18 Segunda División?",
+  "a": "Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2017-18 Segunda División?",
+  "a": "Cádiz",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2018-19 Segunda División?",
+  "a": "Osasuna",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2018-19 Segunda División?",
+  "a": "Granada",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2018-19 Segunda División?",
+  "a": "Málaga",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2018-19?",
+  "a": "Rayo Majadahonda, Gimnàstic, Córdoba",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2018-19 Segunda División?",
+  "a": "Granada",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2019-20 Segunda División?",
+  "a": "Huesca",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2019-20 Segunda División?",
+  "a": "Cádiz",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2019-20 Segunda División?",
+  "a": "Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2019-20?",
+  "a": "Deportivo La Coruña, Numancia, Extremadura, Racing Santander",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2019-20 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2019-20 Segunda División?",
+  "a": "Málaga",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2020-21 Segunda División?",
+  "a": "Espanyol",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2020-21 Segunda División?",
+  "a": "Mallorca",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2020-21 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "The 2020-21 Segunda División was decided on goal difference. Which club took it?",
+  "a": "Espanyol",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2020-21?",
+  "a": "Sabadell, UD Logroñés, Castellón, Albacete",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2021-22 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2021-22 Segunda División?",
+  "a": "Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2021-22 Segunda División?",
+  "a": "Eibar",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "The 2021-22 Segunda División was decided on goal difference. Which club took it?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2021-22?",
+  "a": "Amorebieta, Real Sociedad B, Fuenlabrada, Alcorcón",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2021-22 Segunda División?",
+  "a": "Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2022-23 Segunda División?",
+  "a": "Granada",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2022-23 Segunda División?",
+  "a": "Las Palmas",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2022-23 Segunda División?",
+  "a": "Levante",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2022-23?",
+  "a": "Málaga, Ponferradina, Ibiza, Lugo",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2022-23 Segunda División?",
+  "a": "Albacete",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2022-23 Segunda División?",
+  "a": "Las Palmas",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2023-24 Segunda División?",
+  "a": "Leganés",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2023-24 Segunda División?",
+  "a": "Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2023-24 Segunda División?",
+  "a": "Eibar",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2023-24?",
+  "a": "Amorebieta, Alcorcón, Andorra, Villarreal B",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2023-24 Segunda División?",
+  "a": "Eibar",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2024-25 Segunda División?",
+  "a": "Levante",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2024-25 Segunda División?",
+  "a": "Elche",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2024-25 Segunda División?",
+  "a": "Mirandés",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2024-25?",
+  "a": "Eldense, Tenerife, Racing F., Cartagena",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2024-25 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2024-25 Segunda División?",
+  "a": "Elche",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2025-26 Segunda División?",
+  "a": "Racing",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2025-26 Segunda División?",
+  "a": "Deportivo",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2025-26 Segunda División?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Segunda División in 2025-26?",
+  "a": "Mirandés, Huesca, Cultural, Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2025-26 Segunda División?",
+  "a": "Burgos",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ }
+]

@@ -1,0 +1,1504 @@
+[
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 1994-95 Championship?",
+  "a": "John Aldridge",
+  "src": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 1995-96 Championship?",
+  "a": "John Aldridge",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 1996-97 Championship?",
+  "a": "John McGinlay",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1997-98 Championship?",
+  "a": "Nottingham Forest",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1997-98 Championship?",
+  "a": "Middlesbrough",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1997-98 Championship?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 1997-98?",
+  "a": "Manchester City, Stoke City, Reading",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 1997-98 Championship?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1997-98 Championship?",
+  "a": "Birmingham City",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 1997-98 Championship?",
+  "a": "Kevin Phillips",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 29 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2000-01 Championship?",
+  "a": "Louis Saha",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2002-03 Championship?",
+  "a": "Portsmouth",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2002-03 Championship?",
+  "a": "Leicester City",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2002-03 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2002-03?",
+  "a": "Sheffield Wednesday, Grimsby Town",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2002-03 Championship?",
+  "a": "Leicester City",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2003-04 Championship?",
+  "a": "Norwich City",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2003-04 Championship?",
+  "a": "West Bromwich Albion",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2003-04 Championship?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2003-04?",
+  "a": "Walsall, Bradford City, Wimbledon",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2003-04 Championship?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Football_League_First_Division",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2004-05 Championship?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2004-05 Championship?",
+  "a": "Wigan Athletic",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2004-05 Championship?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2004-05?",
+  "a": "Gillingham, Nottingham Forest, Rotherham United",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2004-05 Championship?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2004-05 Championship?",
+  "a": "Wigan Athletic",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2005-06 Championship?",
+  "a": "Reading",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2005-06 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2005-06 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2005-06?",
+  "a": "Crewe Alexandra, Millwall, Brighton & Hove Albion",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2005-06 Championship?",
+  "a": "Preston North End",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2006-07 Championship?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2006-07 Championship?",
+  "a": "Birmingham City",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2006-07 Championship?",
+  "a": "Derby County",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2006-07?",
+  "a": "Leeds United, Southend United, Luton Town",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2006-07 Championship?",
+  "a": "West Bromwich Albion",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2006-07 Championship?",
+  "a": "Stoke City",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2007-08 Championship?",
+  "a": "West Bromwich Albion",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2007-08 Championship?",
+  "a": "Stoke City",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2007-08 Championship?",
+  "a": "Hull City",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2007-08?",
+  "a": "Leicester City, Scunthorpe United, Colchester United",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2007-08 Championship?",
+  "a": "Crystal Palace",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2008-09 Championship?",
+  "a": "Wolverhampton Wanderers",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2008-09 Championship?",
+  "a": "Birmingham City",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2008-09 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2008-09?",
+  "a": "Norwich City, Southampton, Charlton Athletic",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2008-09 Championship?",
+  "a": "Birmingham City",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2009-10 Championship?",
+  "a": "Newcastle United",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2009-10 Championship?",
+  "a": "West Bromwich Albion",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2009-10 Championship?",
+  "a": "Nottingham Forest",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2009-10?",
+  "a": "Sheffield Wednesday, Plymouth Argyle, Peterborough United",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2010-11 Championship?",
+  "a": "Queens Park Rangers",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2010-11 Championship?",
+  "a": "Norwich City",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2010-11 Championship?",
+  "a": "Swansea City",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2010-11?",
+  "a": "Preston North End, Sheffield United, Scunthorpe United",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2010-11 Championship?",
+  "a": "Norwich City",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2010-11 Championship?",
+  "a": "Danny Graham",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 24 of them."
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Which club was Danny Graham playing for when he top scored in the 2010-11 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2011-12 Championship?",
+  "a": "Reading",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2011-12 Championship?",
+  "a": "Southampton",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2011-12 Championship?",
+  "a": "West Ham United",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2011-12?",
+  "a": "Portsmouth, Coventry City, Doncaster Rovers",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2011-12 Championship?",
+  "a": "Southampton",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2012-13 Championship?",
+  "a": "Cardiff City",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2012-13 Championship?",
+  "a": "Hull City",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2012-13 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2012-13?",
+  "a": "Peterborough United, Wolverhampton Wanderers, Bristol City",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2012-13 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2012-13 Championship?",
+  "a": "Brighton & Hove Albion",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2012-13 Championship?",
+  "a": "Glenn Murray",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 30 of them."
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Which club was Glenn Murray playing for when he top scored in the 2012-13 Championship?",
+  "a": "Crystal Palace",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2013-14 Championship?",
+  "a": "Leicester City",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2013-14 Championship?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2013-14 Championship?",
+  "a": "Derby County",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2013-14?",
+  "a": "Doncaster Rovers, Barnsley, Yeovil Town",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2013-14 Championship?",
+  "a": "Derby County",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2013-14 Championship?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2013-14 Championship?",
+  "a": "Ross McCormack",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 28 of them."
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Which club was Ross McCormack playing for when he top scored in the 2013-14 Championship?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2014-15 Championship?",
+  "a": "Bournemouth",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2014-15 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2014-15 Championship?",
+  "a": "Norwich City",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2014-15?",
+  "a": "Millwall, Wigan Athletic, Blackpool",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2014-15 Championship?",
+  "a": "Middlesbrough",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Football_League_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2015-16 Championship?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2015-16 Championship?",
+  "a": "Middlesbrough",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2015-16 Championship?",
+  "a": "Brighton & Hove Albion",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2015-16?",
+  "a": "Charlton Athletic, Milton Keynes Dons, Bolton Wanderers",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2015-16 Championship?",
+  "a": "Middlesbrough",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2015-16 Championship?",
+  "a": "Andre Gray",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 25 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2016-17 Championship?",
+  "a": "Newcastle United",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2016-17 Championship?",
+  "a": "Brighton & Hove Albion",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2016-17 Championship?",
+  "a": "Reading",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2016-17?",
+  "a": "Blackburn Rovers, Wigan Athletic, Rotherham United",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2017-18 Championship?",
+  "a": "Wolverhampton Wanderers",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2017-18 Championship?",
+  "a": "Cardiff City",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2017-18 Championship?",
+  "a": "Fulham",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2017-18?",
+  "a": "Barnsley, Burton Albion, Sunderland",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2018-19 Championship?",
+  "a": "Norwich City",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2018-19 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2018-19 Championship?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2018-19?",
+  "a": "Rotherham United, Bolton Wanderers, Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2018-19 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2019-20 Championship?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2019-20 Championship?",
+  "a": "West Bromwich Albion",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2019-20 Championship?",
+  "a": "Brentford",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2019-20?",
+  "a": "Wigan Athletic, Charlton Athletic, Hull City",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2019-20 Championship?",
+  "a": "Brentford",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2019-20 Championship?",
+  "a": "Aleksandar Mitrović",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 26 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which club was Aleksandar Mitrović playing for when he top scored in the 2019-20 Championship?",
+  "a": "Fulham",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2020-21 Championship?",
+  "a": "Norwich City",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2020-21 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2020-21 Championship?",
+  "a": "Brentford",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2020-21?",
+  "a": "Sheffield Wednesday, Wycombe Wanderers, Rotherham United",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2020-21 Championship?",
+  "a": "Brentford",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2020-21 Championship?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2020-21 Championship?",
+  "a": "Ivan Toney",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 33 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2021-22 Championship?",
+  "a": "Fulham",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2021-22 Championship?",
+  "a": "Bournemouth",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2021-22 Championship?",
+  "a": "Huddersfield Town",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2021-22?",
+  "a": "Derby County, Peterborough United, Barnsley",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2021-22 Championship?",
+  "a": "Bournemouth",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2021-22 Championship?",
+  "a": "Aleksandar Mitrović",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 43 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2022-23 Championship?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2022-23 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2022-23 Championship?",
+  "a": "Luton Town",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2022-23?",
+  "a": "Reading, Wigan Athletic, Blackpool",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2022-23 Championship?",
+  "a": "Chuba Akpom",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 28 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2023-24 Championship?",
+  "a": "Leicester City",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2023-24 Championship?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2023-24 Championship?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2023-24?",
+  "a": "Birmingham City, Huddersfield Town, Rotherham United",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2023-24 Championship?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2023-24 Championship?",
+  "a": "Sammie Szmodics",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 27 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2024-25 Championship?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2024-25 Championship?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2024-25 Championship?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "The 2024-25 Championship was decided on goal difference. Which club took it?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2024-25?",
+  "a": "Luton Town, Plymouth Argyle, Cardiff City",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2024-25 Championship?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2024-25 Championship?",
+  "a": "Joël Piroe",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 19 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which club was Joël Piroe playing for when he top scored in the 2024-25 Championship?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2025-26 Championship?",
+  "a": "Coventry City",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2025-26 Championship?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2025-26 Championship?",
+  "a": "Millwall",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Championship in 2025-26?",
+  "a": "Leicester City, Oxford United, Sheffield Wednesday",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2025-26 Championship?",
+  "a": "Žan Vipotnik",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 23 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which club was Žan Vipotnik playing for when he top scored in the 2025-26 Championship?",
+  "a": "Swansea City",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_EFL_Championship",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ }
+]

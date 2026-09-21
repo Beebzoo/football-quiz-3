@@ -5148,8 +5148,9 @@
    "a": "The Gouden Kaart, the Golden Card"
   },
   {
-   "q": "Which two Dutch clubs did Dick Jol play for as a professional before he took up refereeing?",
-   "a": "NEC and KV Kortrijk"
+   "q": "Before he took up refereeing, Dick Jol played for one Dutch club and then three Belgian ones. Which Dutch club?",
+   "a": "NEC",
+   "sub": "In Belgium he turned out for SC Menen, Berchem Sport and KV Kortrijk."
   },
   {
    "q": "Which Englishman replaced John Blankenstein as referee of the 1994 Champions League final days before the game?",

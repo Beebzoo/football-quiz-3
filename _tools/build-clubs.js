@@ -84,6 +84,17 @@ const LEAGUES = {
      checked against the season article's own table rather than remembered */
   belgian:    {dir: "belgian",    league: "Belgian Pro League", qid: "Q216022", teams: 18, label: "Belgian Pro League"},
   ere:        {dir: "eredivisie", league: "Eredivisie",         qid: "Q167541", teams: 18, label: "Eredivisie"},
+  /* THE SECOND DIVISIONS, one under each of the six above. Same harvest, same
+     shape, same proof (a club earns its place by carrying a first-team squad on
+     its own article). Team counts are what each division plays this season and
+     are checked against the article rather than remembered: the Championship
+     is twenty-four, Spain twenty-two, Belgium fifteen. */
+  champ:      {dir: "championship", league: "EFL Championship",      qid: "Q19510",    teams: 24, label: "Championship"},
+  segunda:    {dir: "segunda",      league: "Segunda División",      qid: "Q35615",    teams: 22, label: "Segunda División"},
+  bundesliga2:{dir: "bundesliga2",  league: "2. Bundesliga",         qid: "Q152665",   teams: 18, label: "2. Bundesliga"},
+  serieb:     {dir: "serieb",       league: "Serie B",               qid: "Q194052",   teams: 20, label: "Serie B"},
+  challenger: {dir: "challenger",   league: "Challenger Pro League", qid: "Q23925620", teams: 15, label: "Challenger Pro League"},
+  eerste:     {dir: "eerste",       league: "Eerste Divisie",        qid: "Q610823",   teams: 20, label: "Eerste Divisie"},
 };
 
 /* ---------- being polite to Wikipedia ----------
@@ -189,6 +200,12 @@ function unlink(t) {
     .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
     .replace(/\[\[([^\]]+)\]\]/g, "$1")
     .replace(/\{\{(?:nowrap|nobr|sortname)\|([^}]*)\}\}/gi, "$1")
+    /* THE TAG AND WHAT IS INSIDE IT. The Belgian second tier marks its reserve
+       sides [[Club NXT]]<sup>'''U23'''</sup>, and stripping only the tags left
+       a club called "Club NXT '''U23'''" with the wiki bold still on it. A
+       superscript is an annotation, never part of a name. */
+    .replace(/<sup>[\s\S]*?<\/sup>/gi, " ")
+    .replace(/'{2,}/g, "")
     .replace(/<[^>]+>/g, " ")
     .replace(/\(\s*c\s*\)/gi, "")
     .replace(/\s+/g, " ")
@@ -297,7 +314,21 @@ async function candidates(row) {
 }
 
 /* ---------- the squad ---------- */
-function parseSquad(w) {
+function parseSquad(w, under) {
+  /* A RESERVE SIDE THAT SHARES ITS PARENT'S ARTICLE. The season table links
+     Jong Genk to [[KRC Genk]], whose block 0 is Genk's first team, so the
+     harvest would have put Genk's eleven in the second division wearing a
+     Jong badge. The parent article keeps the reserves as a later block under a
+     heading carrying the reserve side's name ("Jong Genk", "Jong KAA Gent"),
+     so when the side asked for is not the article's own, the block read is the
+     first one AFTER the heading that names it. No such heading, no squad: a
+     side that cannot be found is reported, never guessed. */
+  if (under) {
+    const rx = new RegExp("^==+\\s*" + under.replace(/[.*+?^$\{\}()|[\]\\]/g, "\\$&") + "\\s*==+\\s*$", "mi");
+    const at = w.search(rx);
+    if (at < 0) return [];
+    w = w.slice(at);
+  }
   /* Block 0 is the first team, every time: block 1 onward is the youth side,
      the reserves, or men out on loan, and a man out on loan is not in the
      side. Checked against Ajax, Arsenal, Bayern and Real Madrid, which have
@@ -306,7 +337,10 @@ function parseSquad(w) {
      Nottingham Forest closes its squad with {{Fs end|bg=DD0000|color=FFFFFF}}.
      Insisting on a bare {{Fs end}} matched no block at all there, so the
      club silently had no squad and the Premier League shipped nineteen. */
-  const block = w.match(/\{\{[Ff]s start[\s\S]*?\{\{[Ff]s end[^}]*\}\}/);
+  /* BOTH SPELLINGS OF THE BLOCK TOO. {{Fs start}} is the short form of
+     {{football squad start}} and FC Den Bosch writes the long one, which is
+     exactly how the player template lost Nottingham Forest before. */
+  const block = w.match(/\{\{\s*(?:[Ff]s start|[Ff]ootball squad start)[\s\S]*?\{\{\s*(?:[Ff]s end|[Ff]ootball squad end)[^}]*\}\}/);
   if (!block) return [];
   const players = [];
   /* BOTH SPELLINGS. {{Fs player}} is a redirect to {{football squad player}}
@@ -344,6 +378,14 @@ function parseSquad(w) {
   return players;
 }
 
+/* THE MAN AS THE DECK CARRIES HIM. nat is the FIFA trigram off the squad
+   template (nat=GER), kept because the cards in the app draw a flag from it;
+   it was parsed and then dropped on the floor for a year. Absent stays absent. */
+const man = p => {
+  const m = {n: shortName(p.name), full: p.name, no: p.no, pos: p.pos};
+  if (p.nat && /^[A-Z]{3}$/.test(p.nat)) m.nat = p.nat;
+  return m;
+};
 function pickXI(players) {
   const by = p => players.filter(x => x.pos === p).sort((a, b) => a.no - b.no);
   const pools = {GK: by("GK"), DF: by("DF"), MF: by("MF"), FW: by("FW")};
@@ -355,10 +397,9 @@ function pickXI(players) {
     if (!pick) pick = players.slice().sort((a, b) => a.no - b.no).find(p => !used.has(p));
     if (!pick) return null;
     used.add(pick);
-    xi.push({n: shortName(pick.name), full: pick.name, no: pick.no, pos: pick.pos});
+    xi.push(man(pick));
   }
-  const bench = players.filter(p => !used.has(p)).sort((a, b) => a.no - b.no).slice(0, 12)
-    .map(p => ({n: shortName(p.name), full: p.name, no: p.no, pos: p.pos}));
+  const bench = players.filter(p => !used.has(p)).sort((a, b) => a.no - b.no).slice(0, 12).map(man);
   return {xi: xi, bench: bench};
 }
 
@@ -372,7 +413,9 @@ function slugify(s) {
     .replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 /* the noise that sits round a club's real name */
-const AFFIX = /\b(f\.?c\.?|a\.?f\.?c\.?|s\.?c\.?|c\.?f\.?|v\.?v\.?|s\.?v\.?|k\.?v\.?|b\.?c\.?|a\.?c\.?|s\.?s\.?|u\.?s\.?|calcio|club|football|association)\b/gi;
+/* the German and Belgian forms joined the list with the second divisions:
+   VfL Bochum is Bochum, KAA Gent is Gent, RSC Anderlecht is Anderlecht */
+const AFFIX = /\b(f\.?c\.?|a\.?f\.?c\.?|s\.?c\.?|c\.?f\.?|v\.?v\.?|s\.?v\.?|k\.?v\.?|b\.?c\.?|a\.?c\.?|s\.?s\.?|u\.?s\.?|vfl|vfb|tsv|tsg|fsv|ssv|spvgg|kaa|krc|kvc|rsc|rfc|calcio|club|football|association)\b/gi;
 function bare(s) {
   return String(s).replace(/\([^)]*\)/g, " ").replace(AFFIX, " ").replace(/\s+/g, " ").trim();
 }
@@ -386,6 +429,15 @@ const CREST_ALIAS = {
   "bayern-munich": "bayern-munchen",
   "cologne": "1-fc-koln",
   "koln": "1-fc-koln",
+  /* the second divisions, from the first dry run: a reserve side wears its
+     parent's crest, and two banks filed a club under an older name */
+  "wolverhampton-wanderers": "wolves",
+  "beerschot": "beerschot-wilrijk",
+  "club-nxt": "club-brugge",
+  "rsca-futures": "anderlecht",
+  "jong-genk": "genk",
+  "jong-kaa-gent": "gent",
+  "jong-az": "az-alkmaar",
 };
 /* the words that carry meaning in a club's name, for matching one against
    another: the legal form and the founding year do not distinguish anybody */
@@ -495,7 +547,9 @@ function crestByWords(m, name) {
    genuinely only two letters stays two letters: AZ is AZ, not AZX. */
 function codes(names) {
   const out = {};
-  const letters = n => slugify(bare(n) || n).replace(/-/g, "").toUpperCase();
+  /* "1. FC Heidenheim" is HEI, not 1HE: a founding number or a numbered
+     prefix is not part of how a broadcast writes a club */
+  const letters = n => slugify(bare(n) || n).replace(/^[0-9]+-?/, "").replace(/-/g, "").toUpperCase();
   const first = n => { const s = letters(n); return s.slice(0, Math.min(3, Math.max(2, s.length))); };
   const skeleton = n => {
     const s = letters(n);
@@ -508,6 +562,11 @@ function codes(names) {
     if (taken.get(c) > 1) {
       const w = (bare(n) || n).split(/\s+/).filter(Boolean);
       c = w.length >= 2 ? (w[0][0] + w[1].slice(0, 2)).toUpperCase() : skeleton(n);
+      /* Jong Genk and Jong Gent both give JGE: the first and last letter of the
+         club then tells them apart, JGK and JGT, before a digit is reached for */
+      if (w.length >= 2 && names.some(o => o !== n && (bare(o) || o).split(/\s+/).length >= 2 &&
+          ((bare(o) || o).split(/\s+/)[0][0] + (bare(o) || o).split(/\s+/)[1].slice(0, 2)).toUpperCase() === c))
+        c = (w[0][0] + w[1][0] + w[1][w[1].length - 1]).toUpperCase();
     }
     let c2 = c, i = 1;
     while (Object.values(out).indexOf(c2) !== -1) c2 = c.slice(0, 2) + String(++i);
@@ -543,7 +602,11 @@ function codes(names) {
       if (!got) continue;
       const w = got.text;
       if (seen.has(got.title)) { dupes.push(display + " = " + seen.get(got.title)); doubled.add(page); continue; }
-      const players = parseSquad(w);
+      /* "Jong Genk" whose page is "KRC Genk": read the block under the heading
+         that carries the reserve side's own name, never the parent's first XI */
+      const disp = unlink(display).replace(/\s+/g, " ").trim();
+      const shared = /^Jong /i.test(disp) && slugify(disp) !== slugify(got.title);
+      const players = parseSquad(w, shared ? disp : null);
       if (players.length < 14) continue;          // not a club, or not a squad
       const xi = pickXI(players);
       if (!xi) continue;

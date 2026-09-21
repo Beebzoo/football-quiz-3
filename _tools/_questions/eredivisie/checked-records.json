@@ -1177,13 +1177,14 @@
  },
  {
   "tier": "extreme",
-  "q": "Which two Dutch clubs did Dick Jol play for as a professional before he took up refereeing?",
-  "a": "NEC and KV Kortrijk",
+  "q": "Before he took up refereeing, Dick Jol played for one Dutch club and then three Belgian ones. Which Dutch club?",
+  "a": "NEC",
   "src": "https://nl.wikipedia.org/wiki/Dick_Jol",
   "conf": "sure",
   "topic": "referees",
-  "verdict": "ok",
-  "note": "Confirmed: NEC and KV Kortrijk are the two professional clubs on his playing record."
+  "verdict": "fixed",
+  "note": "Confirmed: NEC and KV Kortrijk are the two professional clubs on his playing record. 19 Sep 2026: he played for four clubs and only NEC was Dutch (en.wikipedia Dick Jol, Early life). Flagged by Bram from a phone.",
+  "sub": "In Belgium he turned out for SC Menen, Berchem Sport and KV Kortrijk."
  },
  {
   "tier": "extreme",

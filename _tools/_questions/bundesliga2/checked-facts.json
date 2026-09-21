@@ -1,0 +1,1486 @@
+[
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1995-96 2. Bundesliga?",
+  "a": "VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1995-96 2. Bundesliga?",
+  "a": "Arminia Bielefeld",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1995-96 2. Bundesliga?",
+  "a": "MSV Duisburg",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 1995-96?",
+  "a": "Chemnitzer FC, 1. FC Nürnberg, Hannover 96, SG Wattenscheid",
+  "src": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1996-97 2. Bundesliga?",
+  "a": "1. FC Kaiserslautern",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1996-97 2. Bundesliga?",
+  "a": "VfL Wolfsburg",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1996-97 2. Bundesliga?",
+  "a": "Hertha BSC",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 1996-97?",
+  "a": "Waldhof Mannheim, VfB Lübeck, Rot-Weiss Essen, VfB Oldenburg",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1996-97 2. Bundesliga?",
+  "a": "Stuttgarter Kickers",
+  "src": "https://en.wikipedia.org/wiki/1996%E2%80%9397_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1997-98 2. Bundesliga?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1997-98 2. Bundesliga?",
+  "a": "SC Freiburg",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1997-98 2. Bundesliga?",
+  "a": "1. FC Nürnberg",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 1997-98?",
+  "a": "VfB Leipzig, Carl Zeiss Jena, FSV Zwickau, SV Meppen",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 1997-98 2. Bundesliga?",
+  "a": "SC Freiburg",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1997-98 2. Bundesliga?",
+  "a": "FC Gütersloh",
+  "src": "https://en.wikipedia.org/wiki/1997%E2%80%9398_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1998-99 2. Bundesliga?",
+  "a": "Arminia Bielefeld",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1998-99 2. Bundesliga?",
+  "a": "SpVgg Unterhaching",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1998-99 2. Bundesliga?",
+  "a": "SSV Ulm",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 1998-99?",
+  "a": "FC Gütersloh, KFC Uerdingen, SG Wattenscheid, Fortuna Düsseldorf",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 1998-99 2. Bundesliga?",
+  "a": "SSV Ulm",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1998-99 2. Bundesliga?",
+  "a": "SpVgg Unterhaching",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 1999-00 2. Bundesliga?",
+  "a": "1. FC Köln",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 1999-00 2. Bundesliga?",
+  "a": "VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 1999-00 2. Bundesliga?",
+  "a": "Energie Cottbus",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 1999-00?",
+  "a": "Tennis Borussia Berlin, Fortuna Köln, Kickers Offenbach, Karlsruher SC",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 1999-00 2. Bundesliga?",
+  "a": "Rot-Weiß Oberhausen",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2000-01 2. Bundesliga?",
+  "a": "1. FC Nürnberg",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2000-01 2. Bundesliga?",
+  "a": "Borussia Mönchengladbach",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2000-01 2. Bundesliga?",
+  "a": "FC St. Pauli",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2000-01?",
+  "a": "VfL Osnabrück, SSV Ulm, Stuttgarter Kickers, Chemnitzer FC",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2000-01 2. Bundesliga?",
+  "a": "FC St. Pauli",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2000-01 2. Bundesliga?",
+  "a": "Borussia Mönchengladbach",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2001-02 2. Bundesliga?",
+  "a": "Hannover 96",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2001-02 2. Bundesliga?",
+  "a": "Arminia Bielefeld",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2001-02 2. Bundesliga?",
+  "a": "VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2001-02?",
+  "a": "SpVgg Unterhaching, 1. FC Saarbrücken, 1. FC Schweinfurt, SV Babelsberg",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2002-03 2. Bundesliga?",
+  "a": "SC Freiburg",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2002-03 2. Bundesliga?",
+  "a": "1. FC Köln",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2002-03 2. Bundesliga?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2002-03?",
+  "a": "SSV Reutlingen, Eintracht Braunschweig, FC St. Pauli, Waldhof Mannheim",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2002-03 2. Bundesliga?",
+  "a": "Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2002%E2%80%9303_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2003-04 2. Bundesliga?",
+  "a": "1. FC Nürnberg",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2003-04 2. Bundesliga?",
+  "a": "Arminia Bielefeld",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2003-04 2. Bundesliga?",
+  "a": "Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2003-04?",
+  "a": "VfB Lübeck, Jahn Regensburg, Union Berlin, VfL Osnabrück",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2003-04 2. Bundesliga?",
+  "a": "Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2003%E2%80%9304_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2004-05 2. Bundesliga?",
+  "a": "1. FC Köln",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2004-05 2. Bundesliga?",
+  "a": "MSV Duisburg",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2004-05 2. Bundesliga?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2004-05?",
+  "a": "Eintracht Trier, Rot-Weiß Oberhausen, Rot-Weiss Essen, Rot-Weiß Erfurt",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2004-05 2. Bundesliga?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2005-06 2. Bundesliga?",
+  "a": "VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2005-06 2. Bundesliga?",
+  "a": "Alemannia Aachen",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2005-06 2. Bundesliga?",
+  "a": "Energie Cottbus",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2005-06?",
+  "a": "Dynamo Dresden, 1. FC Saarbrücken, LR Ahlen, Sportfreunde Siegen",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2006-07 2. Bundesliga?",
+  "a": "Karlsruher SC",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2006-07 2. Bundesliga?",
+  "a": "Hansa Rostock",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2006-07 2. Bundesliga?",
+  "a": "MSV Duisburg",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2006-07?",
+  "a": "Rot-Weiss Essen, SpVgg Unterhaching, Wacker Burghausen, Eintracht Braunschweig",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2006-07 2. Bundesliga?",
+  "a": "Hansa Rostock",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2007-08 2. Bundesliga?",
+  "a": "Borussia Mönchengladbach",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2007-08 2. Bundesliga?",
+  "a": "1899 Hoffenheim",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2007-08 2. Bundesliga?",
+  "a": "1. FC Köln",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2007-08?",
+  "a": "Kickers Offenbach, Erzgebirge Aue, SC Paderborn, Carl Zeiss Jena",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2007-08 2. Bundesliga?",
+  "a": "Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2008-09 2. Bundesliga?",
+  "a": "SC Freiburg",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2008-09 2. Bundesliga?",
+  "a": "Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2008-09 2. Bundesliga?",
+  "a": "1. FC Nürnberg",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2008-09?",
+  "a": "VfL Osnabrück, FC Ingolstadt, Wehen Wiesbaden",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2008-09 2. Bundesliga?",
+  "a": "Mainz 05",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2008-09 2. Bundesliga?",
+  "a": "1. FC Nürnberg",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2009-10 2. Bundesliga?",
+  "a": "1. FC Kaiserslautern",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2009-10 2. Bundesliga?",
+  "a": "FC St. Pauli",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2009-10 2. Bundesliga?",
+  "a": "FC Augsburg",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2009-10?",
+  "a": "Hansa Rostock, TuS Koblenz, Rot Weiss Ahlen",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2009-10 2. Bundesliga?",
+  "a": "FC St. Pauli",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2010-11 2. Bundesliga?",
+  "a": "Hertha BSC",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2010-11 2. Bundesliga?",
+  "a": "FC Augsburg",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2010-11 2. Bundesliga?",
+  "a": "VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2010-11?",
+  "a": "VfL Osnabrück, Rot-Weiß Oberhausen, Arminia Bielefeld",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2010-11 2. Bundesliga?",
+  "a": "FC Augsburg",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2011-12 2. Bundesliga?",
+  "a": "Greuther Fürth",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2011-12 2. Bundesliga?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2011-12 2. Bundesliga?",
+  "a": "Fortuna Düsseldorf",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2011-12?",
+  "a": "Karlsruher SC, Alemannia Aachen, Hansa Rostock",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2011-12 2. Bundesliga?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2012-13 2. Bundesliga?",
+  "a": "Hertha BSC",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2012-13 2. Bundesliga?",
+  "a": "Eintracht Braunschweig",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2012-13 2. Bundesliga?",
+  "a": "1. FC Kaiserslautern",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2012-13?",
+  "a": "MSV Duisburg, Jahn Regensburg",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2012-13 2. Bundesliga?",
+  "a": "Dominick Kumbela",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 19 of them."
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2013-14 2. Bundesliga?",
+  "a": "1. FC Köln",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2013-14 2. Bundesliga?",
+  "a": "SC Paderborn",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2013-14 2. Bundesliga?",
+  "a": "Greuther Fürth",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2013-14?",
+  "a": "Arminia Bielefeld, Dynamo Dresden, Energie Cottbus",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2013-14 2. Bundesliga?",
+  "a": "Greuther Fürth",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2013-14 2. Bundesliga?",
+  "a": "Mahir Sağlık",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 14 of them."
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2014-15 2. Bundesliga?",
+  "a": "FC Ingolstadt",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2014-15 2. Bundesliga?",
+  "a": "Darmstadt 98",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2014-15 2. Bundesliga?",
+  "a": "Karlsruher SC",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2014-15?",
+  "a": "Erzgebirge Aue, VfR Aalen",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2014-15 2. Bundesliga?",
+  "a": "Darmstadt 98",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2014-15 2. Bundesliga?",
+  "a": "Rouwen Hennings",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 17 of them."
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2015-16 2. Bundesliga?",
+  "a": "SC Freiburg",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2015-16 2. Bundesliga?",
+  "a": "RB Leipzig",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2015-16 2. Bundesliga?",
+  "a": "1. FC Nürnberg",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2015-16?",
+  "a": "MSV Duisburg, FSV Frankfurt, SC Paderborn",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2015-16 2. Bundesliga?",
+  "a": "RB Leipzig",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2016-17 2. Bundesliga?",
+  "a": "VfB Stuttgart",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2016-17 2. Bundesliga?",
+  "a": "Hannover 96",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2016-17 2. Bundesliga?",
+  "a": "Eintracht Braunschweig",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2016-17?",
+  "a": "1860 Munich, Karlsruher SC",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2016-17 2. Bundesliga?",
+  "a": "Hannover 96",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2017-18?",
+  "a": "Eintracht Braunschweig, 1. FC Kaiserslautern",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2018-19?",
+  "a": "FC Ingolstadt, 1. FC Magdeburg, MSV Duisburg",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2019-20 2. Bundesliga?",
+  "a": "Arminia Bielefeld",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2019-20 2. Bundesliga?",
+  "a": "VfB Stuttgart",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2019-20 2. Bundesliga?",
+  "a": "1. FC Heidenheim",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2019-20?",
+  "a": "Wehen Wiesbaden, Dynamo Dresden",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2020-21 2. Bundesliga?",
+  "a": "VfL Bochum",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2020-21 2. Bundesliga?",
+  "a": "Holstein Kiel",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2020-21 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2020-21?",
+  "a": "VfL Osnabrück, Eintracht Braunschweig",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2020-21 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2020-21 2. Bundesliga?",
+  "a": "Holstein Kiel",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2020-21 2. Bundesliga?",
+  "a": "Serdar Dursun",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 27 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2021-22 2. Bundesliga?",
+  "a": "Schalke 04",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2021-22 2. Bundesliga?",
+  "a": "Werder Bremen",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2021-22 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2021-22?",
+  "a": "Dynamo Dresden, Erzgebirge Aue, FC Ingolstadt",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2021-22 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2022-23 2. Bundesliga?",
+  "a": "1. FC Heidenheim",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2022-23 2. Bundesliga?",
+  "a": "Darmstadt 98",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2022-23 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "The 2022-23 2. Bundesliga was decided on goal difference. Which club took it?",
+  "a": "1. FC Heidenheim",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2022-23?",
+  "a": "Arminia Bielefeld, Jahn Regensburg, SV Sandhausen",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2022-23 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2022-23 2. Bundesliga?",
+  "a": "Darmstadt 98",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2023-24 2. Bundesliga?",
+  "a": "FC St. Pauli",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2023-24 2. Bundesliga?",
+  "a": "Holstein Kiel",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2023-24 2. Bundesliga?",
+  "a": "Hamburger SV",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2023-24?",
+  "a": "Wehen Wiesbaden, Hansa Rostock, VfL Osnabrück",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2023-24 2. Bundesliga?",
+  "a": "Hertha BSC",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the 2. Bundesliga in 2024-25?",
+  "a": "SSV Ulm, Jahn Regensburg",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2025-26 2. Bundesliga?",
+  "a": "Schalke 04",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2025-26 2. Bundesliga?",
+  "a": "SV Elversberg",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2025-26 2. Bundesliga?",
+  "a": "SC Paderborn",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2025-26 2. Bundesliga?",
+  "a": "SV Elversberg",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_2._Bundesliga",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ }
+]

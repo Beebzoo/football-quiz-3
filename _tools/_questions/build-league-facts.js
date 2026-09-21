@@ -56,8 +56,33 @@ const LEAGUES = {
   belgian:    {dir: "belgian",    label: "Belgian Pro League", from: 2000,
                titles: y => [sn(y) + " Belgian Pro League", sn(y) + " Belgian First Division A",
                              sn(y) + " Belgian First Division"]},
+  /* THE SECOND DIVISIONS. Same harvest; the only thing that differs is the
+     names the article has worn. England's second tier was the First Division
+     from 1992 to 2004 and the Championship since, with the sponsor prefix
+     changing in 2016; Belgium's was the Second Division until 2016, First
+     Division B until 2022 and the Challenger Pro League since. The LABEL is
+     what the question says out loud, and it is the name the division has NOW,
+     because "the 1998-99 Championship" is what a reader would say even though
+     nobody called it that at the time. */
+  champ:      {second: true, dir: "championship", label: "Championship", from: 1992,
+               titles: y => [sn(y) + " EFL Championship", sn(y) + " Football League Championship",
+                             sn(y) + " Football League First Division"]},
+  segunda:    {second: true, dir: "segunda",      label: "Segunda División", from: 1995,
+               titles: y => [sn(y) + " Segunda División"]},
+  bundesliga2:{second: true, dir: "bundesliga2",  label: "2. Bundesliga", from: 1995,
+               titles: y => [sn(y) + " 2. Bundesliga"]},
+  serieb:     {second: true, dir: "serieb",       label: "Serie B", from: 1995,
+               titles: y => [sn(y) + " Serie B"]},
+  challenger: {second: true, dir: "challenger",   label: "Challenger Pro League", from: 2000,
+               titles: y => [sn(y) + " Challenger Pro League", sn(y) + " Belgian First Division B",
+                             sn(y) + " Belgian Second Division"]},
+  eerste:     {second: true, dir: "eerste",       label: "Eerste Divisie", from: 1995,
+               titles: y => [sn(y) + " Eerste Divisie"]},
 };
-function sn(y) { return y + "–" + String(y + 1).slice(2); }      // en dash, as Wikipedia writes it
+/* en dash, as Wikipedia writes it; and the turn of the century is written out in
+   full there ("1999–2000 FA Premier League"), which is the one season every
+   league was missing until this said so */
+function sn(y) { return y + "–" + (y % 100 === 99 ? String(y + 1) : String(y + 1).slice(2)); }
 const say = y => y + "-" + String(y + 1).slice(2);               // hyphen, as the reader says it
 
 const args = process.argv.slice(2);
@@ -206,6 +231,13 @@ function questions(season, title, table, scorers) {
      is not. The cut is ten years, and everything shifts one rung behind it. */
   const old = (new Date().getFullYear() - season) > 10;
   const step = (a, b) => old ? b : a;
+  /* A SECOND DIVISION IS A RUNG HARDER ON ITS PEOPLE. Who won the Championship
+     last season is a question anybody watching answers, the same as the top
+     flight; who top scored in it is not, because the man is on Match of the
+     Day only once he has gone up. So the scorer rows of a second tier step up
+     one, and the club rows stay where they are. */
+  const ORDER = ["easy", "normal", "hard", "extreme"];
+  const up = t => row.second ? ORDER[Math.min(ORDER.length - 1, ORDER.indexOf(t) + 1)] : t;
 
   if (champ) add(step("easy", "normal"), "champions", "Which club won the " + s + " " + L + "?", champ.name);
   if (second) add(step("normal", "hard"), "champions", "Which club finished second in the " + s + " " + L + "?", second.name);
@@ -228,10 +260,10 @@ function questions(season, title, table, scorers) {
     add("extreme", "records", "Which club conceded the fewest goals in the " + s + " " + L + "?", leastGa.name);
 
   if (scorers && scorers.top) {
-    add(step("easy", "normal"), "scorers", "Who was the top scorer in the " + s + " " + L + "?", scorers.top.player,
+    add(up(step("easy", "normal")), "scorers", "Who was the top scorer in the " + s + " " + L + "?", scorers.top.player,
         scorers.goals ? "He got " + scorers.goals + " of them." : null);
     if (scorers.top.club && scorers.top.club.length > 2 && scorers.top.club.length < 40)
-      add(step("normal", "hard"), "scorers", "Which club was " + scorers.top.player + " playing for when he top scored in the " + s + " " + L + "?",
+      add(up(step("normal", "hard")), "scorers", "Which club was " + scorers.top.player + " playing for when he top scored in the " + s + " " + L + "?",
           scorers.top.club);
   }
   return out;

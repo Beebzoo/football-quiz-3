@@ -34,7 +34,9 @@ const REPO = path.resolve(HERE, "..", "..");
 const CACHE = path.join(HERE, "_cache");
 const UA = "BALL2-quiz-build/1.0 (https://github.com/Beebzoo/football-quiz-2; personal hobby project)";
 const DIRS = {premier: "premier", laliga: "laliga", bundesliga: "bundesliga",
-              seriea: "seriea", belgian: "belgian", ere: "eredivisie"};
+              seriea: "seriea", belgian: "belgian", ere: "eredivisie",
+              champ: "championship", segunda: "segunda", bundesliga2: "bundesliga2",
+              serieb: "serieb", challenger: "challenger", eerste: "eerste"};
 
 const args = process.argv.slice(2);
 const id = args.find(a => DIRS[a]);

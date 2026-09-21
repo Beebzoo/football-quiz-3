@@ -39,6 +39,14 @@ const LEAGUES = {
   seriea:     {dir: "seriea",     label: "Serie A",        stop: ["serie", "italian", "italy"]},
   belgian:    {dir: "belgian",    label: "Pro League",     stop: ["belgian", "belgium", "pro"]},
   ere:        {dir: "eredivisie", label: "Eredivisie",     stop: ["eredivisie", "dutch", "netherlands"]},
+  /* the second divisions, same rule, and the stop list carries the OLD names of
+     each one too, since the questions say them */
+  champ:      {dir: "championship", label: "Championship", stop: ["championship", "english", "england", "efl", "first", "division"]},
+  segunda:    {dir: "segunda",      label: "Segunda División", stop: ["segunda", "division", "spanish", "spain", "hypermotion"]},
+  bundesliga2:{dir: "bundesliga2",  label: "2. Bundesliga", stop: ["bundesliga", "2", "german", "germany", "zweite"]},
+  serieb:     {dir: "serieb",       label: "Serie B",      stop: ["serie", "b", "italian", "italy"]},
+  challenger: {dir: "challenger",   label: "Challenger Pro League", stop: ["challenger", "pro", "belgian", "belgium", "second", "division", "b"]},
+  eerste:     {dir: "eerste",       label: "Eerste Divisie", stop: ["eerste", "divisie", "dutch", "netherlands", "keuken", "kampioen", "jupiler"]},
 };
 
 const args = process.argv.slice(2);

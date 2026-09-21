@@ -1,0 +1,901 @@
+[
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2005-06 Eerste Divisie?",
+  "a": "Excelsior Rotterdam",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2005-06 Eerste Divisie?",
+  "a": "FC Emmen",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2005-06 Eerste Divisie?",
+  "a": "FC Zwolle",
+  "src": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2006-07 Eerste Divisie?",
+  "a": "De Graafschap",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2006-07 Eerste Divisie?",
+  "a": "VVV-Venlo",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2006-07 Eerste Divisie?",
+  "a": "RBC Roosendaal",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2006-07 Eerste Divisie?",
+  "a": "FC Volendam",
+  "src": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2007-08 Eerste Divisie?",
+  "a": "FC Volendam",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2007-08 Eerste Divisie?",
+  "a": "MVV",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2007-08 Eerste Divisie?",
+  "a": "Go Ahead Eagles",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2008-09 Eerste Divisie?",
+  "a": "VVV-Venlo",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2008-09 Eerste Divisie?",
+  "a": "RKC Waalwijk",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2009-10 Eerste Divisie?",
+  "a": "De Graafschap|note_GRA=Since '''De Graafschap''' has won the '''Eerste Divisie Title''', there will not be any team from the '''4th Period''' participating in the '''Promotion/relegation play-offs''' for Eredivisie.",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2009-10 Eerste Divisie?",
+  "a": "SC Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2009-10 Eerste Divisie?",
+  "a": "FC Emmen",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Eerste Divisie in 2009-10?",
+  "a": "FC Oss, HFC Haarlem",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2009-10 Eerste Divisie?",
+  "a": "Michael de Leeuw",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2010-11 Eerste Divisie?",
+  "a": "RKC Waalwijk",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2010-11 Eerste Divisie?",
+  "a": "Zwolle",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2010-11 Eerste Divisie?",
+  "a": "Helmond Sport",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Eerste Divisie in 2010-11?",
+  "a": "RBC Roosendaal",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2010-11 Eerste Divisie?",
+  "a": "Zwolle",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2011-12 Eerste Divisie?",
+  "a": "Zwolle",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2011-12 Eerste Divisie?",
+  "a": "Sparta Rotterdam",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2011-12 Eerste Divisie?",
+  "a": "Eindhoven",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2011-12 Eerste Divisie?",
+  "a": "Sparta Rotterdam",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2012-13 Eerste Divisie?",
+  "a": "Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2012-13 Eerste Divisie?",
+  "a": "Volendam",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2012-13 Eerste Divisie?",
+  "a": "Sparta Rotterdam",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Eerste Divisie in 2012-13?",
+  "a": "Veendam, AGOVV",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2012-13 Eerste Divisie?",
+  "a": "Volendam",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2012-13 Eerste Divisie?",
+  "a": "Veendam",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2013-14 Eerste Divisie?",
+  "a": "Willem II",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2013-14 Eerste Divisie?",
+  "a": "Dordrecht",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2013-14 Eerste Divisie?",
+  "a": "Excelsior",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2013-14 Eerste Divisie?",
+  "a": "Dordrecht",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2014-15 Eerste Divisie?",
+  "a": "N.E.C.",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2014-15 Eerste Divisie?",
+  "a": "Eindhoven",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2014-15 Eerste Divisie?",
+  "a": "Roda JC Kerkrade",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the 2015-16 Eerste Divisie?",
+  "a": "Sparta Rotterdam",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished second in the 2015-16 Eerste Divisie?",
+  "a": "VVV-Venlo",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which club finished third in the 2015-16 Eerste Divisie?",
+  "a": "NAC Breda",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2015-16 Eerste Divisie?",
+  "a": "VVV-Venlo",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2015-16 Eerste Divisie?",
+  "a": "VVV-Venlo",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2016-17 Eerste Divisie?",
+  "a": "VVV-Venlo",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Eerste Divisie in 2016-17?",
+  "a": "Achilles '29",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2016-17 Eerste Divisie?",
+  "a": "Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2016-17 Eerste Divisie?",
+  "a": "Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2017-18 Eerste Divisie?",
+  "a": "Jong Ajax",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which clubs went down from the Eerste Divisie in 2017-18?",
+  "a": "Jong FC Utrecht",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2017-18 Eerste Divisie?",
+  "a": "Jong PSV",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2017-18 Eerste Divisie?",
+  "a": "Fortuna Sittard",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2017-18 Eerste Divisie?",
+  "a": "Mart Lieder",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 31 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which club was Mart Lieder playing for when he top scored in the 2017-18 Eerste Divisie?",
+  "a": "style=\"vertical-align:top;\" | 1.",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2018-19 Eerste Divisie?",
+  "a": "Twente",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2018-19 Eerste Divisie?",
+  "a": "Jong Ajax",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2018-19 Eerste Divisie?",
+  "a": "TOP Oss",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2018-19 Eerste Divisie?",
+  "a": "Ferdy Druijf",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 34 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which club was Ferdy Druijf playing for when he top scored in the 2018-19 Eerste Divisie?",
+  "a": "style=\"vertical-align:top;\" | {{0}}1.",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2019-20 Eerste Divisie?",
+  "a": "Robert Mühren",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 29 of them."
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which club was Robert Mühren playing for when he top scored in the 2019-20 Eerste Divisie?",
+  "a": "style=\"vertical-align: top;\" | 1",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2020-21 Eerste Divisie?",
+  "a": "SC Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2020-21 Eerste Divisie?",
+  "a": "Go Ahead Eagles",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2020-21 Eerste Divisie?",
+  "a": "FC Volendam",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2020-21 Eerste Divisie?",
+  "a": "Go Ahead Eagles",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2020-21 Eerste Divisie?",
+  "a": "Robert Mühren",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 38 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2021-22 Eerste Divisie?",
+  "a": "FC Emmen",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2021-22 Eerste Divisie?",
+  "a": "Roda JC Kerkrade",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2021-22 Eerste Divisie?",
+  "a": "FC Eindhoven",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2021-22 Eerste Divisie?",
+  "a": "Jong Ajax",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2021-22 Eerste Divisie?",
+  "a": "Thijs Dallinga",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 32 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2022-23 Eerste Divisie?",
+  "a": "Heracles Almelo",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2022-23 Eerste Divisie?",
+  "a": "Willem II",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2022-23 Eerste Divisie?",
+  "a": "PEC Zwolle",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2022-23 Eerste Divisie?",
+  "a": "Willem II",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2022-23 Eerste Divisie?",
+  "a": "Lennart Thy",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 23 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2023-24 Eerste Divisie?",
+  "a": "Willem II",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club scored the most goals in the 2023-24 Eerste Divisie?",
+  "a": "Emmen",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2023-24 Eerste Divisie?",
+  "a": "Groningen",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2023-24 Eerste Divisie?",
+  "a": "Henk Veerman",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 23 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2024-25 Eerste Divisie?",
+  "a": "Volendam",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2024-25 Eerste Divisie?",
+  "a": "Excelsior",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2024-25 Eerste Divisie?",
+  "a": "Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club conceded the fewest goals in the 2024-25 Eerste Divisie?",
+  "a": "Excelsior",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2024-25 Eerste Divisie?",
+  "a": "Henk Veerman",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 26 of them."
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won the 2025-26 Eerste Divisie?",
+  "a": "ADO Den Haag",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club finished second in the 2025-26 Eerste Divisie?",
+  "a": "Cambuur",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club finished third in the 2025-26 Eerste Divisie?",
+  "a": "Willem II",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who was the top scorer in the 2025-26 Eerste Divisie?",
+  "a": "Romano Postema",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Eerste_Divisie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "harvested from the season table",
+  "sub": "He got 24 of them."
+ }
+]
