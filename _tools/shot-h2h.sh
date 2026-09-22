@@ -85,6 +85,8 @@ const setups={
   menu:  `S=null; render();`,
   clubs: `S=freshState(["Martijn","Bram"],false,"premier",0,"pitch",false); h2TackleOn=false; h2Start(); render();`,
   clubpitch: `S=freshState(["Martijn","Bram"],false,"premier",0,"pitch",false); h2TackleOn=false; h2Start(); h2PickTeam("Liverpool"); h2PickTeam("Everton"); S.h2h.tossed=true; S.h2h.who=0; S.h2h.at=0; S.phase="h_pick"; render(); h2Select(7);`,
+  caps:  `S=freshState(["Martijn","Bram"],false,"caps",0,"board",false); setTimeout(()=>{ newCaps(); render(); }, 2600);`,
+  capsshow:`S=freshState(["Martijn","Bram"],false,"caps",0,"board",false); setTimeout(()=>{ newCaps(); render(); capsPick("a"); }, 2600);`,
   modes: `S=null; modesOpen=true; setupMode="classic"; render();`,
   setup: `S=null; setupMode="classic"; setupPlay="pitch"; render();`,
   setupb:`S=null; setupMode="classic"; setupPlay="board"; render();`,

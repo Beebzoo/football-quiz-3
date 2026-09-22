@@ -617,6 +617,40 @@
   /* which one they actually tapped, so a wrong answer is legible at a glance */
   .duelcard.chose{box-shadow:0 0 0 2px #e9b84c inset}
   .duelcard.chose.lose{border-color:var(--card-r)}
+
+  /* ---------- who has more caps ----------
+     The same two-up shape as the duel above, and the same three states, because
+     it is the same question with a different fact in it and two screens that
+     ask you to tap one of two should not be two different screens.
+
+     WHAT IT DOES NOT COPY IS THE PICTURE. The duel draws a round photograph and
+     this draws the album's sticker, which is a card with its own aspect and its
+     own container query inside it, so the wrapper gives it a width and then
+     gets out of the way rather than telling it how to look. */
+  .capsrow{display:flex;gap:10px;justify-content:center;align-items:stretch;margin:6px 0 4px}
+  .capscard{
+    flex:1 1 0;min-width:0;padding:10px 8px;border-radius:16px;
+    background:var(--paper-2);border:1px solid rgba(255,255,255,.2);
+    color:var(--text);display:flex;flex-direction:column;align-items:center;gap:8px;
+    transition:transform .06s ease,border-color .15s ease,background .15s ease;
+  }
+  .capscard:active{transform:scale(.98)}
+  /* the sticker sizes itself off its own width, so this is the only number that
+     matters and everything inside the card follows it */
+  .capscard .alst{width:min(150px,38vw)}
+  .capsname{font:800 .9rem/1.2 var(--ui);text-align:center;text-wrap:balance;
+    display:flex;flex-direction:column;align-items:center;gap:2px}
+  .capsname i{font:600 .66rem/1.1 var(--ui);font-style:normal;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--text-dim)}
+  .capsv{display:flex;flex-direction:column;align-items:center;line-height:1.05}
+  .capsv b{font:800 1.5rem/1 var(--ui);font-variant-numeric:tabular-nums}
+  .capsv i{font:600 .62rem/1 var(--ui);font-style:normal;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--text-dim);margin-top:3px}
+  .capscard.win{border-color:#3fd685;background:rgba(63,214,133,.14)}
+  .capscard.win .capsv b{color:#8df0b8}
+  .capscard.lose{opacity:.72}
+  .capscard.chose{box-shadow:0 0 0 2px #e9b84c inset}
+  .capscard.chose.lose{border-color:var(--card-r)}
   .crewbar{display:flex;gap:8px;align-items:stretch;margin:8px 0 4px}
   .crewbar .nm-in{flex:1;min-width:0}
   .crewbar .bigbtn{width:auto;flex:none;padding:12px 14px;font-size:.95rem}
@@ -7411,6 +7445,15 @@ const PICTURE_MODES = {
      phone that has played it before finds it where it was. */
   mgr:    {label:"Manager Path", ic:"clipboard", ac:"#7fd4a3"},
   badge:  {label:"Badge Zoom",  ic:"zoom",  ac:"#b9a0e8"},
+  /* TWO CARDS, ONE QUESTION: which of them played more times for his country.
+     It is a picture mode for the same reason the other three are, which is that
+     it has no tiers to price a pass with, so it cannot go on a pitch.
+
+     It is the only mode in the app that draws the ALBUM'S card rather than a
+     crest or a photograph, which is the point of it: the sticker already knows
+     his kit, his number, his flag, his position and his name, so two of them
+     side by side is the whole screen. */
+  caps:   {label:"Caps",        ic:"flag",  ac:"#e07fb8"},
 };
 const MODE_ROW = id => QUIZZES[id] || PICTURE_MODES[id] || null;
 /* What the team picker calls the thing you are choosing. Let's Ball is played
@@ -7489,7 +7532,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "21 Sep 2026 · 16:38";
+const BUILD = "22 Sep 2026 · 08:17";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
@@ -7539,6 +7582,17 @@ fetch("assets/stickers/index.json").then(r=>r.json()).then(x=>{ STICK=x; }).catc
 const NATCODES = {};
 fetch("assets/natflags/codes.json").then(r => r.ok ? r.json() : null)
   .then(j => { if(j) Object.assign(NATCODES, j); }).catch(()=>{});
+
+/* ---------- WHO HAS MORE CAPS ----------
+   427 men who played a hundred times or more for their country, each one with a
+   card in one of the sixteen books. _tools/build-caps.js has the long version of
+   why the totals cannot come out of the squad files they look like they are
+   already in: those are caps AT that tournament, so van der Sar is 116 in the
+   2006 book and finished on 130, and the answer would depend on which summer
+   each man happened to be drawn from. */
+let CAPS = null;
+fetch("assets/caps/index.json").then(r => r.ok ? r.json() : null)
+  .then(j => { if(j){ CAPS = j; if(!S || S.phase === "setup") render(); } }).catch(()=>{});
 const h2FlagOf = m => {
   const c = m && m.nat && NATCODES[String(m.nat).toUpperCase()];
   return c ? "assets/natflags/" + c + ".png" : null;
@@ -7696,6 +7750,107 @@ function duelNextPlayer(){               // wrong: the run is over, pass it on
   if(S.turn===0) S.round++;
   if(S.duel) S.duel.right=null;          // a fresh run starts the streak again
   newDuel(); render();
+}
+
+/* ================= WHO HAS MORE CAPS =================
+   Two men, two of the album's own cards, and you tap the one who played more
+   times for his country. The same shape as the duel above, and deliberately so:
+   a streak that pays on five, a wrong answer that ends the run and passes the
+   phone, and nobody drawn twice while there is anybody left.
+
+   WHAT IT DOES NOT SHARE IS THE BANK OR THE PICTURE. The duel shows a
+   photograph and asks about height and birth year, which are facts nobody has
+   read; this shows the sticker and asks about caps, which is a number people
+   argue about. And BALL 1's duel bank is the one that shipped thirteen rows
+   that were a different person entirely, which is exactly the trap a list
+   naming the country beside the player cannot fall into. */
+const CAPS_GAP_MIN = 2, CAPS_GAP_MAX = 30;
+/* HIS ROW IN THE BOOK, or null while the book is still in the air. The bank
+   stores which pool and which side he came from and nothing about how he looks,
+   so the card drawn here is the album's, down to the shirt number, and a
+   re-harvest of a squad moves this mode's cards with it rather than leaving
+   them behind. */
+function capsMan(p){
+  if(!p) return null;
+  const t = (TEAMS[p.pool] || {})[p.side];
+  if(!t) return null;
+  return (t.xi || []).concat(t.bench || []).find(m => m && m.full === p.full) || null;
+}
+/* WHICH OF THEM CAN BE DRAWN RIGHT NOW. Sixteen books arrive by fetch and the
+   bank is one file, so for a few seconds after a cold start the bank is here and
+   the men are not. Memoised on how many pools have landed, because this is asked
+   once per tile on every render of the front page and a fresh scan of four
+   hundred men each time would be four hundred for nothing. */
+let capsPoolCache = null, capsPoolAt = -1;
+function capsReady(){
+  if(!CAPS) return [];
+  const n = Object.keys(TEAMS).length;
+  if(capsPoolCache && capsPoolAt === n) return capsPoolCache;
+  capsPoolAt = n;
+  capsPoolCache = CAPS.map((_, i) => i).filter(i => !!capsMan(CAPS[i]));
+  return capsPoolCache;
+}
+/* Close enough to be a question, far enough apart to have an answer. The floor
+   is two because van der Sar finished on 130 and Neuer on 128, which is the
+   pair this mode was asked for: one apart is a coin toss and a dead heat has no
+   answer at all. */
+const capsGapOk = (x, y) => {
+  const g = Math.abs(x.caps - y.caps);
+  return g >= CAPS_GAP_MIN && g <= CAPS_GAP_MAX;
+};
+function capsDraw(pool){
+  for(let t = 0; t < 600; t++){
+    const a = pool[Math.floor(Math.random() * pool.length)];
+    const b = pool[Math.floor(Math.random() * pool.length)];
+    if(a !== b && capsGapOk(CAPS[a], CAPS[b])) return [a, b];
+  }
+  return null;
+}
+function newCaps(){
+  const all = capsReady();
+  if(all.length < 2){ toast("That deck is still loading, give it a second", true); return; }
+  if(!S.usedCP) S.usedCP = [];
+  /* Nobody twice while there is anybody left: seeing the same card again tells
+     you the answer you already gave. */
+  let pool = all.filter(i => S.usedCP.indexOf(i) === -1);
+  let pair = pool.length >= 2 ? capsDraw(pool) : null;
+  /* THE POOL CAN RUN OUT TWO WAYS and only one of them is "everybody has been
+     seen". The other is that the handful left are all on the same number of
+     caps, so no pair in it clears the band, and a mode that just stops there
+     would look broken to a table that is still playing. Either way the answer
+     is the same: start the book again. */
+  if(!pair){ S.usedCP = []; pair = capsDraw(all); }
+  if(!pair){ toast("That deck cannot make a pair, which should not happen", true); return; }
+  S.usedCP.push(pair[0], pair[1]);
+  S.cap = {a: pair[0], b: pair[1], picked: null, right: null,
+           streak: (S.cap && S.cap.right) ? S.cap.streak : 0};
+  S.phase = "cp_play";
+}
+function capsPick(which){
+  if(S.phase !== "cp_play") return;
+  const d = S.cap, A = CAPS[d.a], B = CAPS[d.b];
+  const correct = A.caps > B.caps ? "a" : "b";
+  d.picked = which; d.right = (which === correct);
+  if(d.right){
+    d.streak++;
+    let pts = 1;
+    /* five in a row pays ten on top, which is what makes carrying on worth more
+       than banking a point and passing the phone */
+    if(d.streak % 5 === 0) pts += 10;
+    S.players[S.turn].score += pts; ching(); popfx();
+    if(d.streak % 5 === 0){ confetti(64); toast("🔥 " + d.streak + " in a row · " + S.players[S.turn].name + " +" + pts); }
+  }else{ buzzer(); flashBad(); }
+  S.phase = "cp_show";
+  if(d.right && maybeFinish()) return;
+  render();
+}
+function capsOn(){ newCaps(); render(); }
+function capsNextPlayer(){
+  if(S.rr) return rrNext();
+  S.turn = (S.turn + 1) % S.players.length;
+  if(S.turn === 0) S.round++;
+  if(S.cap) S.cap.right = null;          // a fresh run starts the streak again
+  newCaps(); render();
 }
 
 /* ============================== NAME THE XI ==============================
@@ -7929,6 +8084,7 @@ function freshState(names, timed=true, mode="classic", target=100, play="board",
     career:null, usedC:[], // career mode: current round + careers already played
     usedM:[], // manager career path: dugout careers already played
     duel:null, usedD:[], // older or taller: current pair + faces already shown
+    cap:null, usedCP:[], // who has more caps: the pair on the table + cards already shown
     rush:null, usedL:[], // league rush: the current 30 seconds + leagues already played
     alum:null, usedA:[], // alumni: the club on the table + clubs already asked
     wall:null, usedW:[], // the wall: the board on the table + boards already played
@@ -18660,6 +18816,61 @@ function render(){
     return;
   }
 
+  /* ---------- who has more caps ----------
+     Two of the album's own stickers and one question. The card is drawn by
+     albumStickerHTML, the same builder the album pages use, so a man looks
+     exactly the way he looks on the shelf: his kit, his number, his flag, his
+     position and his name. has is true and dupe is false because this is not a
+     shelf, it is a question, and a card greyed out for not being collected
+     would be asking about a man you cannot see. */
+  if(S.phase==="cp_play" || S.phase==="cp_show"){
+    const d=S.cap, A=CAPS[d.a], B=CAPS[d.b];
+    const shown = S.phase==="cp_show";
+    const winner = A.caps > B.caps ? "a" : "b";
+    const card=(p,side)=>{
+      const m = capsMan(p);
+      /* HIS ROW WENT MISSING, which can only happen if a pool was refetched
+         underneath a parked match. A card with nothing on it is worse than a
+         name, so it falls back to the one thing the bank always carries. */
+      const face = m
+        ? albumStickerHTML(p.pool, p.side, m, true, false, 0)
+        : `<div class="alst empty"><div class="alsn">${esc(p.n)}</div></div>`;
+      /* THE NAME IS THE QUESTION, so it gets said plainly underneath as well.
+         On the shelf the sticker's own name runs up the side of the card and is
+         allowed to be tight, because you are looking at a page of twenty-three
+         men you already own and the number and the kit are doing the work. Here
+         there are two men and the whole question is which of them is which, and
+         at this width the card clips a long one to KATSOUR... which is not a
+         name anybody can answer about. */
+      return `
+      <button class="capscard${shown?(side===winner?" win":" lose"):""}${shown&&d.picked===side?" chose":""}"
+              onclick="capsPick('${side}')" ${shown?"disabled":""}>
+        ${face}
+        <div class="capsname">${esc(p.full || p.n)}<i>${esc(p.side)}</i></div>
+        <div class="capsv">${shown?`<b>${p.caps}</b><i>caps</i>`:"<b>?</b>"}</div>
+      </button>`;
+    };
+    st.innerHTML = `
+      <div class="kick">Caps · ${esc(S.players[S.turn].name)}'s run · Round ${S.round}${S.target?" · 🏁 first to "+S.target:""}</div>
+      <h1 class="title" style="font-size:clamp(1.5rem,7vw,2rem)">Who has more caps?</h1>
+      <div class="capsrow">${card(A,"a")}${card(B,"b")}</div>
+      ${d.streak && (!shown || d.right)
+        ? `<div class="potpill">${d.streak} in a row${d.streak%5?` · ${5-d.streak%5} more pays +10`:" · +10 banked"}</div>`
+        : ""}
+      ${shown?`
+      <div class="hint" style="text-align:center">${esc(A.n)} ${A.caps} for ${esc(A.side)} · ${esc(B.n)} ${B.caps} for ${esc(B.side)}</div>
+      <div class="spacer"></div>
+      ${d.right
+        ? `<button class="bigbtn ok" onclick="capsOn()">Right, keep going<kbd>Space</kbd></button>`
+        : `<div class="hint" style="text-align:center">Run over. ${esc(S.players[S.turn].name)} kept ${d.streak} of them.</div>
+           <button class="bigbtn" onclick="capsNextPlayer()">Next player<kbd>Space</kbd></button>`}`
+      :`
+      <div class="hint" style="text-align:center">Appearances for his country, career total. The app knows, so there is nothing to argue about until afterwards.</div>
+      <div class="spacer"></div>
+      <div class="foot"><button class="bigbtn ghost" onclick="askEnd()">Full-time whistle</button></div>`}`;
+    return;
+  }
+
   if(S.phase==="x_play" || S.phase==="x_done"){
     const F=XI[S.xi.i];
     const spots=xiSpots(F.formation);
@@ -18897,6 +19108,11 @@ function modeReady(id, play, mc){
      is unconditional because ITS deck is inline. */
   if(id==="mgr")    return !!(MGRS && MGRS.length);
   if(id==="badge")  return !!BADGE;
+  /* the bank AND the books, because the card is the album's own sticker and it
+     is drawn out of the pool the man came from. A bank that has landed while
+     the squads are still in the air would deal two cards with no kit, no flag
+     and no number on them. capsPool() is the one that decides, per man. */
+  if(id==="caps")   return !!(CAPS && CAPS.length && capsReady().length >= 2);
   if(!DECKS[mc ? id + "-mc" : id]) return false;
   /* a quiz can go on a pitch if its DEFAULT POOL has landed. It is the pool
      that supplies the elevens, and the quiz only names which one to start
@@ -18905,7 +19121,7 @@ function modeReady(id, play, mc){
   return true;
 }
 /* and is it playable in ANY combination, which is what greys out a tile */
-const modeLive = id => id==="career" || id==="mgr" || id==="badge" ? modeReady(id) :
+const modeLive = id => id==="career" || id==="mgr" || id==="badge" || id==="caps" ? modeReady(id) :
   !!(DECKS[id] || DECKS[id + "-mc"]);
 let setupTarget = 100;
 // keep whatever names are already typed when flipping a toggle
@@ -21101,7 +21317,7 @@ function renderSetup(st){
         <button class="mm-ghost" onclick="openBoard()">The Table · ${books().length} match${books().length===1?"":"es"}${crewName()?" · "+esc(crewName()):""}</button>`:""}
         <details class="rules">
           <summary>${ico('book')}Rules</summary>
-          <div class="hint"><b>The three ways to play.</b> <b>The Board</b> is the quiz itself: pick a difficulty, answer out loud, take the points, and the others can steal it. <b>One on One</b> is a match between two of you: the ball moves by answering, and how far it travels is how hard the question is. <b>The Dugout</b> is One on One with an eleven you picked yourself, and a ball to a man draws a question from a league he actually played in. <b>What you answer.</b> <b>Let's Ball</b> is the whole bank, 6,984 questions across five tiers. Then twelve leagues, six top flights and the second division under each of them, each with its own deck: the Eredivisie and the Eerste Divisie, the Premier League and the Championship, La Liga and the Segunda, the Bundesliga and the 2. Bundesliga, Serie A and Serie B, the Pro League and the Challenger Pro League. The second divisions live on their own shelf in the drawer. <b>Three you play on the board only.</b> <b>Career Path:</b> club crests appear one by one in the order he played for them, and you shout the player. Guess on the first crest for +15, every extra crest costs 3, never below +3, and a wrong guess is minus 2 and locks you out. <b>Manager Path:</b> the same game with the men in the dugout. <b>Badge Zoom:</b> a crest cropped right in, and you name the club. <b>On the pitch.</b> The ladder is distance: a ball to a centre-back is Easy, to the six is Hard, to the ten is Extreme, and anything from the back four straight into the front three is a BALL question however short it looks. Backwards and square are Easy. Get it wrong and your opponent picks the ball up where you lost it. Three short balls in a row and he comes for it. From the front three you can shoot, and his keeper gets one question to keep it out. First to two, or ninety minutes, then penalties. <b>Tackles.</b> With them on, the man without the ball secretly marks two of your eleven at the start of every possession, and those marks stand until the ball changes hands. A pass into a marked man is his question to win the ball; miss it and it is a foul, a booking, and a penalty if it was in the box. Two yellows for the same man is a red, and he leaves the pitch. Three substitutions a match, offered the moment one of your men gets a question wrong. <b>The Cup, the Album and Your XI.</b> Take a nation through a real World Cup against the computer, seven matches, saved between them. Every pack and every Daily Ball fills the album, 736 men from 2006, and you can only field men you have collected. <b>The Daily Ball</b> is six questions for one sticker, the same man on every phone. <b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Play together:</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone. <b>The Table:</b> every finished match is filed on the phone that played it. Type the same shared table name on all three phones to keep one table between you. Tap the pencil on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
+          <div class="hint"><b>The three ways to play.</b> <b>The Board</b> is the quiz itself: pick a difficulty, answer out loud, take the points, and the others can steal it. <b>One on One</b> is a match between two of you: the ball moves by answering, and how far it travels is how hard the question is. <b>The Dugout</b> is One on One with an eleven you picked yourself, and a ball to a man draws a question from a league he actually played in. <b>What you answer.</b> <b>Let's Ball</b> is the whole bank, 6,984 questions across five tiers. Then twelve leagues, six top flights and the second division under each of them, each with its own deck: the Eredivisie and the Eerste Divisie, the Premier League and the Championship, La Liga and the Segunda, the Bundesliga and the 2. Bundesliga, Serie A and Serie B, the Pro League and the Challenger Pro League. The second divisions live on their own shelf in the drawer. <b>Four you play on the board only.</b> <b>Career Path:</b> club crests appear one by one in the order he played for them, and you shout the player. Guess on the first crest for +15, every extra crest costs 3, never below +3, and a wrong guess is minus 2 and locks you out. <b>Manager Path:</b> the same game with the men in the dugout. <b>Badge Zoom:</b> a crest cropped right in, and you name the club. <b>Caps:</b> two album cards side by side, and you tap the one who played more times for his country. 427 men who got to a hundred caps, never a dead heat and never more than thirty apart, so it is always a question. +1 each time and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. <b>On the pitch.</b> The ladder is distance: a ball to a centre-back is Easy, to the six is Hard, to the ten is Extreme, and anything from the back four straight into the front three is a BALL question however short it looks. Backwards and square are Easy. Get it wrong and your opponent picks the ball up where you lost it. Three short balls in a row and he comes for it. From the front three you can shoot, and his keeper gets one question to keep it out. First to two, or ninety minutes, then penalties. <b>Tackles.</b> With them on, the man without the ball secretly marks two of your eleven at the start of every possession, and those marks stand until the ball changes hands. A pass into a marked man is his question to win the ball; miss it and it is a foul, a booking, and a penalty if it was in the box. Two yellows for the same man is a red, and he leaves the pitch. Three substitutions a match, offered the moment one of your men gets a question wrong. <b>The Cup, the Album and Your XI.</b> Take a nation through a real World Cup against the computer, seven matches, saved between them. Every pack and every Daily Ball fills the album, 736 men from 2006, and you can only field men you have collected. <b>The Daily Ball</b> is six questions for one sticker, the same man on every phone. <b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Play together:</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone. <b>The Table:</b> every finished match is filed on the phone that played it. Type the same shared table name on all three phones to keep one table between you. Tap the pencil on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
         </details>
         ${isStandalone()?"":`<button class="mm-quiet" onclick="installApp()">Add BALL 3 to your home screen</button>`}
         <div class="buildline" onclick="freshen()" title="Tap to fetch the newest one">${esc(BUILD)}</div>
@@ -21223,6 +21439,7 @@ function startGame(){
   }
   modeIntro(matchLabel(S));   // first, so anything that deals waits for it
   if(S.mode==="career") newCareer();
+  if(S.mode==="caps") newCaps();
   if(isPitch(S.play)) h2Start();
   render();
 }
@@ -21278,6 +21495,8 @@ function resumeGame(){
   if(["judge","steal_judge","deadq","steal_offer"].includes(S.phase) && S.qi==null) S.phase="pick";
   if(["c_who","c_judge"].includes(S.phase)) S.phase="c_play";
   if(S.mode==="career" && !S.career) newCareer();
+  if(!S.usedCP) S.usedCP=[];               // saves from before the caps mode existed
+  if(S.mode==="caps" && !S.cap) newCaps();
   if(isPitch(S.play) && !S.h2h) h2Start();   // a save from before the mode existed
   if(S.h2h){
     /* saves from before the tackle existed */
@@ -22082,6 +22301,11 @@ document.addEventListener("keydown", e=>{
     if(k==="2") duelPick("b");
   }else if(S.phase==="d_show"){
     if(k===" "||k==="enter"){ e.preventDefault(); S.duel.right ? duelOn() : duelNextPlayer(); }
+  }else if(S.phase==="cp_play"){
+    if(k==="1") capsPick("a");
+    if(k==="2") capsPick("b");
+  }else if(S.phase==="cp_show"){
+    if(k===" "||k==="enter"){ e.preventDefault(); S.cap.right ? capsOn() : capsNextPlayer(); }
   }else if(S.phase==="x_done"){
     if(k===" "||k==="enter"){ e.preventDefault(); xiAfter(); }
   }else if(S.phase==="tl_play"){

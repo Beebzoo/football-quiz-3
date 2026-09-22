@@ -38,7 +38,7 @@ const load = f => JSON.parse(fs.readFileSync(path.join(REPO, f), "utf8"));
      toggles rather than two more ids. */
   check("every mode is a quiz or a picture mode",
     ev(app, "Object.keys(MODE_META).sort().join(',')") ===
-      "badge,belgian,bundesliga,bundesliga2,career,challenger,champ,classic,eerste,ere,laliga,mgr,premier,segunda,seriea,serieb",
+      "badge,belgian,bundesliga,bundesliga2,caps,career,challenger,champ,classic,eerste,ere,laliga,mgr,premier,segunda,seriea,serieb",
     ev(app, "Object.keys(MODE_META).sort().join(',')"));
   /* twelve leagues now: six countries, two tiers each, plus the classic bank */
   check("twelve leagues plus the classic bank",
