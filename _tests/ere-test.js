@@ -112,9 +112,23 @@ const TIERS = ["easy", "normal", "hard", "extreme", "ball"];
      them and they deliberately SHARE one: they are the same kind of thing and
      read as a family, told apart by their accent colour the way a shelf of
      league badges is. What has to stay unique is the colour. */
+  /* WHICH QUIZZES ARE LEAGUES is now a question with a real answer, where it
+     used to be "all of them except the classic bank". Special is a quiz and
+     is not a league, and it must NOT wear the family icon: the whole point of
+     the shared stripes is that it says league, so handing it to the one deck
+     that is about two clubs and three countries would make the shelf lie.
+
+     A league is a quiz that fields a club side, which the registry already
+     says in its own words: its pool id ends in -clubs. The classic bank plays
+     as a 2006 nation and Special plays as nobody. */
+  const leagues = ev(app, "Object.keys(QUIZZES).filter(k => /-clubs$/.test(QUIZZES[k].pool || ''))");
+  check("there are twelve leagues to be a family of", leagues.length === 12, leagues.length);
   check("the leagues share the family icon",
-    ev(app, "Object.keys(QUIZZES).filter(k=>k!=='classic').every(k=>MODE_META[k][0]==='stripes')"),
+    ev(app, "Object.keys(QUIZZES).filter(k => /-clubs$/.test(QUIZZES[k].pool || '')).every(k=>MODE_META[k][0]==='stripes')"),
     ev(app, "Object.keys(QUIZZES).map(k=>k+':'+MODE_META[k][0]).join(' ')"));
+  check("and the quizzes that are not leagues do not wear it",
+    ev(app, "Object.keys(QUIZZES).filter(k => !/-clubs$/.test(QUIZZES[k].pool || '')).every(k=>MODE_META[k][0]!=='stripes')"),
+    ev(app, "Object.keys(QUIZZES).filter(k => !/-clubs$/.test(QUIZZES[k].pool || '')).map(k=>k+':'+MODE_META[k][0]).join(' ')"));
   check("and no two modes share an accent colour",
     ev(app, "new Set(Object.values(MODE_META).map(v=>v[2])).size") === ev(app, "Object.keys(MODE_META).length"),
     ev(app, "Object.values(MODE_META).map(v=>v[2]).join(' ')"));

@@ -92,6 +92,10 @@ const setups={
   setupb:`S=null; setupMode="classic"; setupPlay="board"; render();`,
   board: `S=freshState(["Martijn","Bram","Ale"],false,"classic",100,"board",false); S.phase="pick"; render();`,
   qcard: `S=freshState(["Martijn","Bram","Ale"],false,"classic",100,"board",false); S.phase="pick"; render(); pickTier("hard");`,
+  /* Special on the board. It is the one quiz with no pool, so there is no
+     team picker in front of it and these two go straight to the board. */
+  specpick: `S=freshState(["Martijn","Bram","Ale"],false,"spec",100,"board",false); S.phase="pick"; render();`,
+  specq: `S=freshState(["Martijn","Bram","Ale"],false,"spec",100,"board",false); S.phase="pick"; render(); pickTier("hard");`,
   teams: `${base} render();`,
   hand:  `${nl2} h2TackleOn=true; S.h2h.who=0; S.h2h.at=0; h2Hand(1,"h_mark");`,
   mark:  `${nl2} h2TackleOn=true; S.h2h.who=0; S.h2h.at=0; S.h2h.hand=null; S.phase="h_mark"; render(); h2Mark(5); h2Mark(9);`,

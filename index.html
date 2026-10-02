@@ -7368,6 +7368,26 @@ const QUIZZES = {
             spoken:null, mc:"assets/mc/index.json",
             pool:"wc2006", flags:"assets/natflags/", ext:".png",
             blurb:"The whole bank, 6,984 questions, and on the pitch you play it as a country from the 2006 World Cup."},
+  /* THE ONE WRITTEN FOR THE THREE OF YOU, and it sits second on purpose: the
+     flagship is the whole bank, and the next thing on the shelf should be the
+     deck that is about the people holding the phone.
+
+     It came over from BALL 1 as a flat array of 63 rows priced 3, 5, 8 and 10,
+     a shape nothing in BALL 3 could read, so it sat in assets/ for three weeks
+     with no mode able to reach it. It is an ordinary quiz now and the ordinary
+     engine plays it. No pool, so it is board only: there is no eleven you
+     could put on a pitch for a deck whose subject is two clubs and three
+     countries. canEver already returns true for board play, so that needs no
+     special case.
+
+     The strand rides on the row as s, and the crest it maps to as club, which
+     means the question card draws the MVV badge over an MVV question with the
+     same code that draws Feyenoord over a Feyenoord one. BALL 1 needed a
+     bespoke screen for that. */
+  spec:    {label:"Special", ic:"book", ac:"#e2453c",
+            spoken:"assets/special/index.json", mc:"assets/special/mc.json",
+            pool:null, flags:"assets/logos/", ext:".png",
+            blurb:"MVV, Las Palmas, Morocco, and the two countries at the table."},
   /* THE LEAGUES all wear the same icon on purpose. They are the same KIND of
      thing, so they read as a family and tell themselves apart by their accent
      colour, the way a shelf of league badges does. */

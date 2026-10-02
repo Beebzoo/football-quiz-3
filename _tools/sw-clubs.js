@@ -148,6 +148,31 @@ for (const p of leaguePools) {
   }
 }
 
+/* ---------- quizzes that no pool speaks for ----------
+   The loop above walks POOLS, so a quiz's deck is only precached because some
+   pool happens to live in the same folder. That held while every quiz was a
+   league with clubs to field. Special is not: it has no pool, because a deck
+   about two clubs and three countries has no eleven to put on a pitch, so its
+   questions were invisible to this tool and would have been the one deck in
+   the app that did not work on a dead connection.
+
+   Walking QUIZZES directly fixes it for any future pool-less quiz as well,
+   which is the version worth writing. The crests come off the rows rather
+   than off a pool for the same reason: nothing else knows this deck draws
+   artwork. */
+const quizSrc = html.slice(html.indexOf("const QUIZZES = {"));
+const quizFiles = [...quizSrc.slice(0, quizSrc.indexOf("\n};")).matchAll(/(?:spoken|mc)\s*:\s*"([^"]+)"/g)].map(m => m[1]);
+for (const rel of quizFiles) {
+  if (decks.includes(rel)) continue;
+  if (!fs.existsSync(path.join(REPO, rel))) continue;     // mc files are named before they are built
+  decks.push(rel);
+  let deck;
+  try { deck = JSON.parse(fs.readFileSync(path.join(REPO, rel), "utf8")); } catch (e) { continue; }
+  for (const row of Object.values(deck).flat()) {
+    if (row && row.club) crests.add("assets/logos/" + row.club + ".png");
+  }
+}
+
 /* ---------- the squad pools, their badges, and the cup ---------- */
 const poolFiles = [];
 const poolFlags = new Set();

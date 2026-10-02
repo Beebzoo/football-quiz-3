@@ -1,0 +1,407 @@
+[
+ {
+  "s": "nl",
+  "p": 3,
+  "q": "Who is the Netherlands' all time leading goalscorer?",
+  "a": "Memphis Depay"
+ },
+ {
+  "s": "nl",
+  "p": 5,
+  "q": "How many goals did Memphis Depay score for the Netherlands?",
+  "a": "55",
+  "note": "Within two either way counts."
+ },
+ {
+  "s": "nl",
+  "p": 5,
+  "q": "Who sits second on the Netherlands' all time scoring list?",
+  "a": "Robin van Persie"
+ },
+ {
+  "s": "nl",
+  "p": 8,
+  "q": "Name any three of the Netherlands' five leading scorers of all time.",
+  "a": "Memphis Depay (55), Robin van Persie (50), Klaas-Jan Huntelaar (42), Patrick Kluivert (40), Dennis Bergkamp (37)",
+  "note": "Any three of the five."
+ },
+ {
+  "s": "nl",
+  "p": 3,
+  "q": "Who has won the most caps for the Netherlands?",
+  "a": "Wesley Sneijder"
+ },
+ {
+  "s": "nl",
+  "p": 5,
+  "q": "How many caps did Wesley Sneijder win for the Netherlands?",
+  "a": "134",
+  "note": "Within three either way counts."
+ },
+ {
+  "s": "nl",
+  "p": 5,
+  "q": "Who is second on the Netherlands' all time caps list?",
+  "a": "Edwin van der Sar"
+ },
+ {
+  "s": "nl",
+  "p": 8,
+  "q": "Name any three of the five most capped Dutch players.",
+  "a": "Wesley Sneijder (134), Edwin van der Sar (130), Frank de Boer (112), Memphis Depay (112), Rafael van der Vaart (109)",
+  "note": "Any three of the five."
+ },
+ {
+  "s": "nl",
+  "p": 8,
+  "q": "Which player makes the top eight for BOTH caps and goals for the Netherlands?",
+  "a": "Memphis Depay"
+ },
+ {
+  "s": "es",
+  "p": 3,
+  "q": "Who is Spain's all time leading goalscorer?",
+  "a": "David Villa"
+ },
+ {
+  "s": "es",
+  "p": 5,
+  "q": "How many goals did David Villa score for Spain?",
+  "a": "59",
+  "note": "Within two either way counts."
+ },
+ {
+  "s": "es",
+  "p": 5,
+  "q": "Who sits second on Spain's all time scoring list?",
+  "a": "Raúl"
+ },
+ {
+  "s": "es",
+  "p": 8,
+  "q": "Name any three of Spain's five leading scorers of all time.",
+  "a": "David Villa (59), Raúl (44), Fernando Torres (38), Álvaro Morata (37), David Silva (35)",
+  "note": "Any three of the five."
+ },
+ {
+  "s": "es",
+  "p": 3,
+  "q": "Who has won the most caps for Spain?",
+  "a": "Sergio Ramos"
+ },
+ {
+  "s": "es",
+  "p": 5,
+  "q": "How many caps did Sergio Ramos win for Spain?",
+  "a": "180",
+  "note": "Within three either way counts."
+ },
+ {
+  "s": "es",
+  "p": 5,
+  "q": "Who is second on Spain's all time caps list?",
+  "a": "Iker Casillas"
+ },
+ {
+  "s": "es",
+  "p": 8,
+  "q": "Name any three of the five most capped Spanish players.",
+  "a": "Sergio Ramos (180), Iker Casillas (167), Sergio Busquets (143), Xavi (133), Andrés Iniesta (131)",
+  "note": "Any three of the five."
+ },
+ {
+  "s": "es",
+  "p": 8,
+  "q": "Which player makes the top eight for BOTH caps and goals for Spain?",
+  "a": "David Silva"
+ },
+ {
+  "s": "ma",
+  "p": 3,
+  "q": "Who is Morocco's all time leading goalscorer?",
+  "a": "Ahmed Faras"
+ },
+ {
+  "s": "ma",
+  "p": 5,
+  "q": "How many goals did Ahmed Faras score for Morocco?",
+  "a": "36",
+  "note": "Within two either way counts."
+ },
+ {
+  "s": "ma",
+  "p": 5,
+  "q": "Who sits second on Morocco's all time scoring list?",
+  "a": "Ayoub El Kaabi"
+ },
+ {
+  "s": "ma",
+  "p": 8,
+  "q": "Name any three of Morocco's five leading scorers of all time.",
+  "a": "Ahmed Faras (36), Ayoub El Kaabi (35), Salaheddine Bassir (27), Hakim Ziyech (25), Youssef En-Nesyri (25)",
+  "note": "Any three of the five."
+ },
+ {
+  "s": "ma",
+  "p": 3,
+  "q": "Who has won the most caps for Morocco?",
+  "a": "Noureddine Naybet"
+ },
+ {
+  "s": "ma",
+  "p": 5,
+  "q": "How many caps did Noureddine Naybet win for Morocco?",
+  "a": "115",
+  "note": "Within three either way counts."
+ },
+ {
+  "s": "ma",
+  "p": 5,
+  "q": "Who is second on Morocco's all time caps list?",
+  "a": "Achraf Hakimi"
+ },
+ {
+  "s": "ma",
+  "p": 8,
+  "q": "Name any three of the five most capped Moroccan players.",
+  "a": "Noureddine Naybet (115), Achraf Hakimi (102), Yassine Bounou (96), Ahmed Faras (94), Youssef En-Nesyri (92)",
+  "note": "Any three of the five."
+ },
+ {
+  "s": "ma",
+  "p": 8,
+  "q": "Which player makes the top eight for BOTH caps and goals for Morocco?",
+  "a": "Ahmed Faras or Youssef En-Nesyri",
+  "note": "More than one answer counts."
+ },
+ {
+  "s": "mvv",
+  "p": 3,
+  "q": "In which year were MVV founded?",
+  "a": "1902",
+  "note": "Within five years counts."
+ },
+ {
+  "s": "mvv",
+  "p": 3,
+  "q": "What is MVV's home ground called?",
+  "a": "De Geusselt"
+ },
+ {
+  "s": "mvv",
+  "p": 5,
+  "q": "Roughly how many does MVV's ground hold?",
+  "a": "10,234",
+  "note": "Within two thousand counts."
+ },
+ {
+  "s": "mvv",
+  "p": 8,
+  "q": "What does the full name of MVV spell out?",
+  "a": "Maatschappelijke Voetbal Vereniging Maastricht"
+ },
+ {
+  "s": "mvv",
+  "p": 5,
+  "q": "What is MVV's nickname?",
+  "a": "Us MVV'ke (supporters & club)"
+ },
+ {
+  "s": "mvv",
+  "p": 8,
+  "q": "MVV have won the Eerste Divisie twice. Name any one of the years.",
+  "a": "1984, 1997",
+  "note": "Any one of them."
+ },
+ {
+  "s": "mvv",
+  "p": 5,
+  "q": "How many times have MVV won the Eerste Divisie?",
+  "a": "2"
+ },
+ {
+  "s": "mvv",
+  "p": 8,
+  "q": "MVV have been promoted to the top flight in which years?",
+  "a": "1978, 1988",
+  "note": "Any one counts."
+ },
+ {
+  "s": "mvv",
+  "p": 10,
+  "q": "MVV went unbeaten in the 1970 Intertoto Cup, four wins and two draws. Why did they not win it?",
+  "a": "No knockout rounds were played that year, so no winner was declared",
+  "note": "They topped group A4 ahead of Zilina, Orebro and Waregem."
+ },
+ {
+  "s": "lp",
+  "p": 3,
+  "q": "In which year were Las Palmas founded?",
+  "a": "1949",
+  "note": "Within five years counts."
+ },
+ {
+  "s": "lp",
+  "p": 3,
+  "q": "What is Las Palmas's home ground called?",
+  "a": "Estadio Gran Canaria"
+ },
+ {
+  "s": "lp",
+  "p": 5,
+  "q": "Roughly how many does Las Palmas's ground hold?",
+  "a": "32,400",
+  "note": "Within two thousand counts."
+ },
+ {
+  "s": "lp",
+  "p": 8,
+  "q": "What does the full name of Las Palmas spell out?",
+  "a": "Unión Deportiva Las Palmas, S.A.D."
+ },
+ {
+  "s": "lp",
+  "p": 5,
+  "q": "What is Las Palmas's nickname?",
+  "a": "Canarias"
+ },
+ {
+  "s": "lp",
+  "p": 10,
+  "q": "Las Palmas finished runners-up in La Liga. In which season?",
+  "a": "1968-69"
+ },
+ {
+  "s": "lp",
+  "p": 8,
+  "q": "Las Palmas have won the Segunda División four times. Name any one of the years.",
+  "a": "1953-54, 1963-64, 1984-85, 1999-2000",
+  "note": "Any one of them."
+ },
+ {
+  "s": "lp",
+  "p": 5,
+  "q": "How many times have Las Palmas won the Segunda División?",
+  "a": "4"
+ },
+ {
+  "s": "lp",
+  "p": 8,
+  "q": "Las Palmas have won the Segunda División B twice. Name any one of the years.",
+  "a": "1992-93, 1995-96",
+  "note": "Any one of them."
+ },
+ {
+  "s": "lp",
+  "p": 5,
+  "q": "How many times have Las Palmas won the Segunda División B?",
+  "a": "2"
+ },
+ {
+  "s": "lp",
+  "p": 10,
+  "q": "Las Palmas finished runners-up in the Copa del Rey. In which season?",
+  "a": "1978"
+ },
+ {
+  "s": "ma",
+  "p": 8,
+  "q": "Morocco have won the Africa Cup of Nations twice. Name a year.",
+  "a": "1976, 2025",
+  "note": "Any one counts."
+ },
+ {
+  "s": "ma",
+  "p": 10,
+  "q": "Name both years Morocco have won the Africa Cup of Nations.",
+  "a": "1976 and 2025"
+ },
+ {
+  "s": "ma",
+  "p": 10,
+  "q": "In which year did Morocco lose an Africa Cup of Nations final?",
+  "a": "2004"
+ },
+ {
+  "s": "ma",
+  "p": 10,
+  "q": "Morocco have won the FIFA Arab Cup. Name a year they did it.",
+  "a": "2012, 2025",
+  "note": "Any one counts."
+ },
+ {
+  "s": "ma",
+  "p": 5,
+  "q": "Who manages Morocco?",
+  "a": "Mohamed Ouahbi"
+ },
+ {
+  "s": "ma",
+  "p": 5,
+  "q": "Who captains Morocco?",
+  "a": "Achraf Hakimi"
+ },
+ {
+  "s": "ma",
+  "p": 3,
+  "q": "What is Morocco's three letter FIFA code?",
+  "a": "MAR"
+ },
+ {
+  "s": "ma",
+  "p": 10,
+  "q": "Where and when did Morocco play their first ever international?",
+  "a": "3-3 (Beirut, Lebanon; 19 October 1957)"
+ },
+ {
+  "s": "ma",
+  "p": 10,
+  "q": "What is the score in Morocco's biggest ever win, and where was it?",
+  "a": "13-1 (Casablanca, Morocco; 6 September 1961)"
+ },
+ {
+  "s": "nl",
+  "p": 8,
+  "q": "The Netherlands have lost three times in a World Cup final. Name a year.",
+  "a": "1974, 1978, 2010",
+  "note": "Any one counts."
+ },
+ {
+  "s": "nl",
+  "p": 10,
+  "q": "The Netherlands finished third at the FIFA World Cup. Name a year.",
+  "a": "2014"
+ },
+ {
+  "s": "nl",
+  "p": 5,
+  "q": "In which year did the Netherlands win the UEFA European Championship?",
+  "a": "1988"
+ },
+ {
+  "s": "nl",
+  "p": 10,
+  "q": "The Netherlands finished third at the UEFA European Championship. Name a year.",
+  "a": "1976"
+ },
+ {
+  "s": "es",
+  "p": 8,
+  "q": "Spain have won the FIFA World Cup twice. Name a year.",
+  "a": "2010, 2026",
+  "note": "Any one counts."
+ },
+ {
+  "s": "es",
+  "p": 8,
+  "q": "Spain have won the UEFA European Championship four times. Name a year.",
+  "a": "1964, 2008, 2012, 2024",
+  "note": "Any one counts."
+ },
+ {
+  "s": "es",
+  "p": 5,
+  "q": "In which year did Spain win the UEFA Nations League?",
+  "a": "2023"
+ }
+]

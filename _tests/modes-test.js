@@ -38,11 +38,21 @@ const load = f => JSON.parse(fs.readFileSync(path.join(REPO, f), "utf8"));
      toggles rather than two more ids. */
   check("every mode is a quiz or a picture mode",
     ev(app, "Object.keys(MODE_META).sort().join(',')") ===
-      "badge,belgian,bundesliga,bundesliga2,caps,career,challenger,champ,classic,eerste,ere,laliga,mgr,premier,segunda,seriea,serieb",
+      "badge,belgian,bundesliga,bundesliga2,caps,career,challenger,champ,classic,eerste,ere,laliga,mgr,premier,segunda,seriea,serieb,spec",
     ev(app, "Object.keys(MODE_META).sort().join(',')"));
-  /* twelve leagues now: six countries, two tiers each, plus the classic bank */
-  check("twelve leagues plus the classic bank",
-    ev(app, "Object.keys(QUIZZES).length") === 13, ev(app, "Object.keys(QUIZZES).length"));
+  /* Twelve leagues, six countries two tiers each, plus the classic bank, plus
+     Special. Special is the reason this is a count and not "every quiz is a
+     league or the bank": it is neither. It has no pool, because a deck about
+     two clubs and three countries has no eleven to field, so it is the first
+     quiz in the app that is board only by nature rather than by accident. */
+  check("twelve leagues, the classic bank and Special",
+    ev(app, "Object.keys(QUIZZES).length") === 14, ev(app, "Object.keys(QUIZZES).length"));
+  /* The pool is what makes a quiz pitchable, so the one quiz without one must
+     report itself honestly rather than offering a match it cannot deal. */
+  check("Special knows it cannot go on a pitch",
+    ev(app, "canPitch('spec')") === false, ev(app, "canPitch('spec')"));
+  check("but it can still be played on the board",
+    ev(app, "canEver('spec','board')") === true, ev(app, "canEver('spec','board')"));
   /* THE SIX DOWNSTAIRS ARE THE SIX SECOND DIVISIONS, and nothing else has been
      swept onto that shelf. The drawer opens on the top flights and the picture
      modes, which is what it did before the second tiers existed. */

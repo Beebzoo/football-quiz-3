@@ -1,1 +1,777 @@
-[{"s":"nl","p":3,"q":"Who is the Netherlands' all time leading goalscorer?","a":"Memphis Depay"},{"s":"nl","p":5,"q":"How many goals did Memphis Depay score for the Netherlands?","a":"55","note":"Within two either way counts."},{"s":"nl","p":5,"q":"Who sits second on the Netherlands' all time scoring list?","a":"Robin van Persie"},{"s":"nl","p":8,"q":"Name any three of the Netherlands' five leading scorers of all time.","a":"Memphis Depay (55), Robin van Persie (50), Klaas-Jan Huntelaar (42), Patrick Kluivert (40), Dennis Bergkamp (37)","note":"Any three of the five."},{"s":"nl","p":3,"q":"Who has won the most caps for the Netherlands?","a":"Wesley Sneijder"},{"s":"nl","p":5,"q":"How many caps did Wesley Sneijder win for the Netherlands?","a":"134","note":"Within three either way counts."},{"s":"nl","p":5,"q":"Who is second on the Netherlands' all time caps list?","a":"Edwin van der Sar"},{"s":"nl","p":8,"q":"Name any three of the five most capped Dutch players.","a":"Wesley Sneijder (134), Edwin van der Sar (130), Frank de Boer (112), Memphis Depay (112), Rafael van der Vaart (109)","note":"Any three of the five."},{"s":"nl","p":8,"q":"Which player makes the top eight for BOTH caps and goals for the Netherlands?","a":"Memphis Depay"},{"s":"es","p":3,"q":"Who is Spain's all time leading goalscorer?","a":"David Villa"},{"s":"es","p":5,"q":"How many goals did David Villa score for Spain?","a":"59","note":"Within two either way counts."},{"s":"es","p":5,"q":"Who sits second on Spain's all time scoring list?","a":"Raúl"},{"s":"es","p":8,"q":"Name any three of Spain's five leading scorers of all time.","a":"David Villa (59), Raúl (44), Fernando Torres (38), Álvaro Morata (37), David Silva (35)","note":"Any three of the five."},{"s":"es","p":3,"q":"Who has won the most caps for Spain?","a":"Sergio Ramos"},{"s":"es","p":5,"q":"How many caps did Sergio Ramos win for Spain?","a":"180","note":"Within three either way counts."},{"s":"es","p":5,"q":"Who is second on Spain's all time caps list?","a":"Iker Casillas"},{"s":"es","p":8,"q":"Name any three of the five most capped Spanish players.","a":"Sergio Ramos (180), Iker Casillas (167), Sergio Busquets (143), Xavi (133), Andrés Iniesta (131)","note":"Any three of the five."},{"s":"es","p":8,"q":"Which player makes the top eight for BOTH caps and goals for Spain?","a":"David Silva"},{"s":"ma","p":3,"q":"Who is Morocco's all time leading goalscorer?","a":"Ahmed Faras"},{"s":"ma","p":5,"q":"How many goals did Ahmed Faras score for Morocco?","a":"36","note":"Within two either way counts."},{"s":"ma","p":5,"q":"Who sits second on Morocco's all time scoring list?","a":"Ayoub El Kaabi"},{"s":"ma","p":8,"q":"Name any three of Morocco's five leading scorers of all time.","a":"Ahmed Faras (36), Ayoub El Kaabi (35), Salaheddine Bassir (27), Hakim Ziyech (25), Youssef En-Nesyri (25)","note":"Any three of the five."},{"s":"ma","p":3,"q":"Who has won the most caps for Morocco?","a":"Noureddine Naybet"},{"s":"ma","p":5,"q":"How many caps did Noureddine Naybet win for Morocco?","a":"115","note":"Within three either way counts."},{"s":"ma","p":5,"q":"Who is second on Morocco's all time caps list?","a":"Achraf Hakimi"},{"s":"ma","p":8,"q":"Name any three of the five most capped Moroccan players.","a":"Noureddine Naybet (115), Achraf Hakimi (102), Yassine Bounou (96), Ahmed Faras (94), Youssef En-Nesyri (92)","note":"Any three of the five."},{"s":"ma","p":8,"q":"Which player makes the top eight for BOTH caps and goals for Morocco?","a":"Ahmed Faras or Youssef En-Nesyri","note":"More than one answer counts."},{"s":"mvv","p":3,"q":"In which year were MVV founded?","a":"1902","note":"Within five years counts."},{"s":"mvv","p":3,"q":"What is MVV's home ground called?","a":"De Geusselt"},{"s":"mvv","p":5,"q":"Roughly how many does MVV's ground hold?","a":"10,234","note":"Within two thousand counts."},{"s":"mvv","p":8,"q":"What does the full name of MVV spell out?","a":"Maatschappelijke Voetbal Vereniging Maastricht"},{"s":"mvv","p":5,"q":"What is MVV's nickname?","a":"Us MVV'ke (supporters & club)"},{"s":"mvv","p":8,"q":"MVV have won the Eerste Divisie twice. Name any one of the years.","a":"1984, 1997","note":"Any one of them."},{"s":"mvv","p":5,"q":"How many times have MVV won the Eerste Divisie?","a":"2"},{"s":"mvv","p":8,"q":"MVV have been promoted to the top flight in which years?","a":"1978, 1988","note":"Any one counts."},{"s":"mvv","p":10,"q":"MVV have won a European trophy. Which one, and in what year?","a":"UEFA Intertoto Cup, 1970"},{"s":"lp","p":3,"q":"In which year were Las Palmas founded?","a":"1949","note":"Within five years counts."},{"s":"lp","p":3,"q":"What is Las Palmas's home ground called?","a":"Estadio Gran Canaria"},{"s":"lp","p":5,"q":"Roughly how many does Las Palmas's ground hold?","a":"32,400","note":"Within two thousand counts."},{"s":"lp","p":8,"q":"What does the full name of Las Palmas spell out?","a":"Unión Deportiva Las Palmas, S.A.D."},{"s":"lp","p":5,"q":"What is Las Palmas's nickname?","a":"Canarias"},{"s":"lp","p":10,"q":"Las Palmas finished runners-up in La Liga. In which season?","a":"1968-69"},{"s":"lp","p":8,"q":"Las Palmas have won the Segunda División four times. Name any one of the years.","a":"1953-54, 1963-64, 1984-85, 1999-2000","note":"Any one of them."},{"s":"lp","p":5,"q":"How many times have Las Palmas won the Segunda División?","a":"4"},{"s":"lp","p":8,"q":"Las Palmas have won the Segunda División B twice. Name any one of the years.","a":"1992-93, 1995-96","note":"Any one of them."},{"s":"lp","p":5,"q":"How many times have Las Palmas won the Segunda División B?","a":"2"},{"s":"lp","p":10,"q":"Las Palmas finished runners-up in the Copa del Rey. In which season?","a":"1978"},{"s":"ma","p":8,"q":"Morocco have won the Africa Cup of Nations twice. Name a year.","a":"1976, 2025","note":"Any one counts."},{"s":"ma","p":10,"q":"Name both years Morocco have won the Africa Cup of Nations.","a":"1976 and 2025"},{"s":"ma","p":10,"q":"In which year did Morocco lose an Africa Cup of Nations final?","a":"2004"},{"s":"ma","p":10,"q":"Morocco have won the FIFA Arab Cup. Name a year they did it.","a":"2012, 2025","note":"Any one counts."},{"s":"ma","p":5,"q":"Who manages Morocco?","a":"Mohamed Ouahbi"},{"s":"ma","p":5,"q":"Who captains Morocco?","a":"Achraf Hakimi"},{"s":"ma","p":3,"q":"What is Morocco's three letter FIFA code?","a":"MAR"},{"s":"ma","p":10,"q":"Where and when did Morocco play their first ever international?","a":"3-3 (Beirut, Lebanon; 19 October 1957)"},{"s":"ma","p":10,"q":"What is the score in Morocco's biggest ever win, and where was it?","a":"13-1 (Casablanca, Morocco; 6 September 1961)"},{"s":"nl","p":8,"q":"The Netherlands have lost three times in a World Cup final. Name a year.","a":"1974, 1978, 2010","note":"Any one counts."},{"s":"nl","p":10,"q":"The Netherlands finished third at the FIFA World Cup. Name a year.","a":"2014"},{"s":"nl","p":5,"q":"In which year did the Netherlands win the UEFA European Championship?","a":"1988"},{"s":"nl","p":10,"q":"The Netherlands finished third at the UEFA European Championship. Name a year.","a":"1976"},{"s":"es","p":8,"q":"Spain have won the FIFA World Cup twice. Name a year.","a":"2010, 2026","note":"Any one counts."},{"s":"es","p":8,"q":"Spain have won the UEFA European Championship four times. Name a year.","a":"1964, 2008, 2012, 2024","note":"Any one counts."},{"s":"es","p":5,"q":"In which year did Spain win the UEFA Nations League?","a":"2023"}]
+{
+ "easy": [
+  {
+   "q": "Who has won the most caps for the Netherlands?",
+   "a": "Wesley Sneijder",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Who has won the most caps for Spain?",
+   "a": "Sergio Ramos",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Who has won the most caps for Morocco?",
+   "a": "Noureddine Naybet",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "In which year were MVV founded?",
+   "a": "1902",
+   "sub": "Within five years counts.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "What is MVV's home ground called?",
+   "a": "De Geusselt",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "In which year were Las Palmas founded?",
+   "a": "1949",
+   "sub": "Within five years counts.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "What is Las Palmas's home ground called?",
+   "a": "Estadio Gran Canaria",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "What is Morocco's three letter FIFA code?",
+   "a": "MAR",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutchman overtook Robin van Persie's 50 goals for the Netherlands with a brace in Lithuania in 2025?",
+   "a": "Memphis Depay",
+   "sub": "He had equalled the record against Malta in June 2025 and passed it in Kaunas that September.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored five of Spain's eight goals on the way to winning the 2010 World Cup?",
+   "a": "David Villa",
+   "sub": "He took Spain's scoring record off Raul in 2011 and finished on 59 goals in 98 caps.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Morocco captain won the 1976 Africa Cup of Nations and was African Footballer of the Year in 1975?",
+   "a": "Ahmed Faras",
+   "sub": "He played his whole career at Chabab Mohammedia and was voted best player of the 1976 tournament.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Which MVV striker of the 1960s and 1970s was known as the blond arrow?",
+   "a": "Willy Brokamp",
+   "sub": "Dutch Footballer of the Year in 1973. Rinus Michels kept leaving him out of the national side.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Which ground did MVV leave for De Geusselt in 1961?",
+   "a": "De Boschpoort",
+   "sub": "The last match there was a 3-3 draw with PSV on Boxing Day 1960. A stand still carries the name.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "MVV were relegated from the Eredivisie in 2000. Which division did they drop into?",
+   "a": "The Eerste Divisie",
+   "sub": "Dave Hollanders scored their last top-flight goal that season, against Willem II.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "In which city do Las Palmas play their home games?",
+   "a": "Las Palmas de Gran Canaria",
+   "sub": "The Estadio de Gran Canaria, owned by the Cabildo, opened in 2003 with a friendly against Anderlecht.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won La Liga in 1968-69, nine points clear of runners-up Las Palmas?",
+   "a": "Real Madrid",
+   "sub": "Their fourteenth title. Las Palmas's top scorer that season got 11 goals.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country did Morocco knock out of the 2026 World Cup on penalties in Monterrey?",
+   "a": "The Netherlands",
+   "sub": "Ismael Saibari scored the winning penalty. It was Achraf Hakimi's 100th cap.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country beat Morocco in the quarter-finals of the 2026 World Cup?",
+   "a": "France",
+   "sub": "Morocco were the first African side to reach two World Cup quarter-finals in a row.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "In which city did Morocco play the 2025 Africa Cup of Nations final?",
+   "a": "Rabat",
+   "sub": "The Prince Moulay Abdellah Stadium, with 66,526 inside.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Who captained the Netherlands to the European title in 1988?",
+   "a": "Ruud Gullit",
+   "sub": "He scored the opener in the final in Munich, before Van Basten's volley.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country beat the Netherlands in the 1978 World Cup final?",
+   "a": "Argentina",
+   "sub": "Dick Nanninga, later an MVV player, scored the Dutch equaliser in Buenos Aires.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Who resigned as Netherlands manager the day after their 2026 World Cup exit?",
+   "a": "Ronald Koeman",
+   "sub": "They had topped their group, then lost a round of 32 shootout to Morocco in Monterrey.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "What is the Spain national team's modern nickname, from the colour of their shirts?",
+   "a": "La Roja",
+   "sub": "It took hold under Luis Aragones in the 2000s. The older nickname was La Furia.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored the only goal of the 2026 World Cup final, in the 106th minute?",
+   "a": "Ferran Torres",
+   "sub": "Nico Williams headed it to him. Rodri took the Golden Ball and lifted the trophy as captain.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Who was Spain's head coach when they won the 2026 World Cup?",
+   "a": "Luis de la Fuente",
+   "sub": "He had already won Euro 2024. Spain conceded one goal in eight matches in 2026.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  }
+ ],
+ "normal": [
+  {
+   "q": "How many goals did Memphis Depay score for the Netherlands?",
+   "a": "55",
+   "sub": "Within two either way counts.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "How many caps did Wesley Sneijder win for the Netherlands?",
+   "a": "134",
+   "sub": "Within three either way counts.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "How many goals did David Villa score for Spain?",
+   "a": "59",
+   "sub": "Within two either way counts.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "How many caps did Sergio Ramos win for Spain?",
+   "a": "180",
+   "sub": "Within three either way counts.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "How many goals did Ahmed Faras score for Morocco?",
+   "a": "36",
+   "sub": "Within two either way counts.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "How many caps did Noureddine Naybet win for Morocco?",
+   "a": "115",
+   "sub": "Within three either way counts.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Roughly how many does MVV's ground hold?",
+   "a": "10,234",
+   "sub": "Within two thousand counts.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "What is MVV's nickname?",
+   "a": "Us MVV'ke (supporters & club)",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "How many times have MVV won the Eerste Divisie?",
+   "a": "2",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Roughly how many does Las Palmas's ground hold?",
+   "a": "32,400",
+   "sub": "Within two thousand counts.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "What is Las Palmas's nickname?",
+   "a": "Canarias",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "How many times have Las Palmas won the Segunda División?",
+   "a": "4",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "How many times have Las Palmas won the Segunda División B?",
+   "a": "2",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Who manages Morocco?",
+   "a": "Mohamed Ouahbi",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Who captains Morocco?",
+   "a": "Achraf Hakimi",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "In which year did the Netherlands win the UEFA European Championship?",
+   "a": "1988",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "In which year did Spain win the UEFA Nations League?",
+   "a": "2023",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutchman scored twice, one a famous diving header, in the 5-1 win over Spain at the 2014 World Cup?",
+   "a": "Robin van Persie",
+   "sub": "The header came off a Daley Blind long ball, with Casillas off his line. He finished on 50 Dutch goals.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Which goalkeeper won 130 caps for the Netherlands between 1995 and 2008?",
+   "a": "Edwin van der Sar",
+   "sub": "He retired after Euro 2008, then came back in the October for two qualifiers during an injury crisis.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Real Madrid striker scored 44 goals for Spain but never won a tournament with them?",
+   "a": "Raul",
+   "sub": "His last cap came in September 2006, after a falling out with Luis Aragones over team rules.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Which goalkeeper won 167 caps for Spain between 2000 and 2016?",
+   "a": "Iker Casillas",
+   "sub": "He was the first goalkeeper to reach 100 international clean sheets, and captain from 2008.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Morocco striker scored the extra-time winner for Olympiacos in the 2024 Conference League final?",
+   "a": "Ayoub El Kaabi",
+   "sub": "A 1-0 win over Fiorentina, the first major European trophy won by a Greek club.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored the winning penalty, a panenka, in Morocco's 2022 World Cup shootout against Spain?",
+   "a": "Achraf Hakimi",
+   "sub": "Spain did not score a single penalty. Morocco went on to be the first African semi-finalists.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  }
+ ],
+ "hard": [
+  {
+   "q": "Which player makes the top eight for BOTH caps and goals for the Netherlands?",
+   "a": "Memphis Depay",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Name any three of the five most capped Spanish players.",
+   "a": "Sergio Ramos (180), Iker Casillas (167), Sergio Busquets (143), Xavi (133), Andrés Iniesta (131)",
+   "sub": "Any three of the five.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Which player makes the top eight for BOTH caps and goals for Spain?",
+   "a": "David Silva",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Name any three of the five most capped Moroccan players.",
+   "a": "Noureddine Naybet (115), Achraf Hakimi (102), Yassine Bounou (96), Ahmed Faras (94), Youssef En-Nesyri (92)",
+   "sub": "Any three of the five.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Which player makes the top eight for BOTH caps and goals for Morocco?",
+   "a": "Ahmed Faras or Youssef En-Nesyri",
+   "sub": "More than one answer counts.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "What does the full name of MVV spell out?",
+   "a": "Maatschappelijke Voetbal Vereniging Maastricht",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "MVV have won the Eerste Divisie twice. Name any one of the years.",
+   "a": "1984, 1997",
+   "sub": "Any one of them.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "MVV have been promoted to the top flight in which years?",
+   "a": "1978, 1988",
+   "sub": "Any one counts.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "What does the full name of Las Palmas spell out?",
+   "a": "Unión Deportiva Las Palmas, S.A.D.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Las Palmas have won the Segunda División four times. Name any one of the years.",
+   "a": "1953-54, 1963-64, 1984-85, 1999-2000",
+   "sub": "Any one of them.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Las Palmas have won the Segunda División B twice. Name any one of the years.",
+   "a": "1992-93, 1995-96",
+   "sub": "Any one of them.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Morocco have won the Africa Cup of Nations twice. Name a year.",
+   "a": "1976, 2025",
+   "sub": "Any one counts.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "The Netherlands have lost three times in a World Cup final. Name a year.",
+   "a": "1974, 1978, 2010",
+   "sub": "Any one counts.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Spain have won the FIFA World Cup twice. Name a year.",
+   "a": "2010, 2026",
+   "sub": "Any one counts.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Spain have won the UEFA European Championship four times. Name a year.",
+   "a": "1964, 2008, 2012, 2024",
+   "sub": "Any one counts.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch forward scored 35 goals in only 38 internationals?",
+   "a": "Faas Wilkes",
+   "sub": "Nearly a goal a game, by far the best ratio of anyone in the Netherlands' top ten scorers.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch defender missed a penalty in normal time and another in the shootout in the Euro 2000 semi-final?",
+   "a": "Frank de Boer",
+   "sub": "Italy went through with ten men. De Boer finished his career on 112 caps.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Spain striker scored in both the Euro 2008 final and the Euro 2012 final?",
+   "a": "Fernando Torres",
+   "sub": "The winner against Germany in 2008 and the third goal against Italy in 2012. He finished on 38 goals.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored twice in Morocco's 3-0 win over Scotland at the 1998 World Cup?",
+   "a": "Salaheddine Bassir",
+   "sub": "Abdeljalil Hadda got the other. Morocco went out all the same.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  }
+ ],
+ "extreme": [
+  {
+   "q": "MVV went unbeaten in the 1970 Intertoto Cup, four wins and two draws. Why did they not win it?",
+   "a": "No knockout rounds were played that year, so no winner was declared",
+   "sub": "They topped group A4 ahead of Zilina, Orebro and Waregem.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Las Palmas finished runners-up in La Liga. In which season?",
+   "a": "1968-69",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Las Palmas finished runners-up in the Copa del Rey. In which season?",
+   "a": "1978",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Name both years Morocco have won the Africa Cup of Nations.",
+   "a": "1976 and 2025",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "In which year did Morocco lose an Africa Cup of Nations final?",
+   "a": "2004",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Morocco have won the FIFA Arab Cup. Name a year they did it.",
+   "a": "2012, 2025",
+   "sub": "Any one counts.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Where and when did Morocco play their first ever international?",
+   "a": "3-3 (Beirut, Lebanon; 19 October 1957)",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "What is the score in Morocco's biggest ever win, and where was it?",
+   "a": "13-1 (Casablanca, Morocco; 6 September 1961)",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "The Netherlands finished third at the FIFA World Cup. Name a year.",
+   "a": "2014",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "The Netherlands finished third at the UEFA European Championship. Name a year.",
+   "a": "1976",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  }
+ ],
+ "ball": [
+  {
+   "q": "Which MVV goalkeeper's clearance bounced all the way in against FC Den Bosch in 1997, voted goal of the year?",
+   "a": "Rein van Duijnhoven",
+   "sub": "Den Bosch had led through a young Ruud van Nistelrooy. MVV won 2-1 and went on to win the division.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "MVV's chairman was held for questioning in the 1993 fraud raids on the club. Which Maastricht body did he later chair?",
+   "a": "The Executive Board of Maastricht University",
+   "sub": "Karl Dittrich led the university from 1995 to 2003. Only the club bookkeeper was convicted.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "How many points was MVV docked at the start of the 2010-11 season?",
+   "a": "Eight",
+   "sub": "The KNVB had blocked a Turkish takeover, and the city bought the stadium to keep the club alive.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Which MVV one-club man, there from 1963 to 1985, went on to coach Nigeria to Olympic gold?",
+   "a": "Jo Bonfrere",
+   "sub": "Atlanta 1996. He played 335 league games for MVV and for nobody else.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Belgium captain played for MVV in 1985, between a bribery scandal ban and a move to PSV?",
+   "a": "Eric Gerets",
+   "sub": "The Standard Liege affair cost him his place at AC Milan. He won 86 caps for Belgium.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two brothers, grandsons of Bert van Marwijk, made their professional debuts at MVV?",
+   "a": "Ruben and Thomas van Bommel",
+   "sub": "Their father Mark van Bommel started at Fortuna Sittard. Bert van Marwijk played 225 games for MVV.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "MVV wore a special shirt in February 2023, the first in more than 120 years. What was it for?",
+   "a": "Carnival",
+   "sub": "White with red, yellow and green bands, worn against TOP Oss.",
+   "club": "mvv-maastricht",
+   "s": "mvv",
+   "cat": "stories"
+  },
+  {
+   "q": "Las Palmas were 90 seconds from promotion in the 2014 play-off final when their own fans ran on. What happened?",
+   "a": "Play restarted after a long delay and Cordoba equalised at 90+3 to go up instead",
+   "sub": "The referee threatened to abandon it. One local headline blamed a handful of lunatics.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Why did Vitolo spend the first half of 2017-18 on loan at Las Palmas after signing for Atletico Madrid?",
+   "a": "Atletico were under a transfer ban and could not register him until January",
+   "sub": "He had triggered his own 37.5 million euro release clause at Sevilla, who threatened to sue.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "The Las Palmas nickname Pio-Pio came from one supporter at a derby with Tenerife. What was he doing?",
+   "a": "Chirping like a canary back at the Tenerife fans for the whole match",
+   "sub": "The fan was known as Fernando el Bandera. The mascot of the same name arrived in 1994.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutchman was managing Barcelona when they beat Las Palmas in the 1978 Copa del Rey final?",
+   "a": "Rinus Michels",
+   "sub": "Las Palmas were managed by the Real Madrid legend Miguel Munoz. All four goals came in the first half.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "In which season did Las Palmas and CD Tenerife meet in La Liga for the first time?",
+   "a": "2001-02",
+   "sub": "Those two games were still the only top-flight Canary Islands derbies ever played by 2026.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "Where was Pedri born, before he joined the Las Palmas academy?",
+   "a": "Tenerife",
+   "sub": "Bajamar, on the rival island. Barcelona agreed a 5 million euro deal for him at 16.",
+   "club": "las-palmas",
+   "s": "lp",
+   "cat": "stories"
+  },
+  {
+   "q": "CAF awarded Morocco the 2025 Africa Cup of Nations final 3-0 in March, two months after they lost it on the pitch. Why?",
+   "a": "Senegal had walked off in protest, and the appeal board ruled that they had forfeited",
+   "sub": "Rabat, January 2026. Senegal came back on and won 1-0 in extra time. Their own appeal went to CAS.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Achraf Hakimi was banned for two matches for his conduct in the rainy 2025 Africa Cup of Nations final. What had he done?",
+   "a": "Blocked attempts to get a towel to the Senegal goalkeeper",
+   "sub": "Ismael Saibari was in on it too. CAF called it unsporting conduct.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Morocco beat Scotland 3-0 at the 1998 World Cup and still went out. Which country's late win over Brazil did it?",
+   "a": "Norway",
+   "sub": "Morocco were second with ten minutes to go in the group. Norway scored twice late to take the place.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "Morocco topped a 1986 World Cup group with England, Poland and Portugal. Who then knocked them out?",
+   "a": "West Germany",
+   "sub": "Lothar Matthaus scored in the 88th minute. Morocco were the first African or Arab side to get out of a group.",
+   "club": "morocco-national-team",
+   "s": "ma",
+   "cat": "stories"
+  },
+  {
+   "q": "The 1974 World Cup final kicked off late because something was missing from the pitch. What?",
+   "a": "The corner flags",
+   "sub": "They had been taken away for the closing ceremony and nobody put them back.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "The Netherlands and Ireland finished the 1990 World Cup group with identical records. How were they separated?",
+   "a": "By drawing lots",
+   "sub": "The Dutch lost the draw and came third. They had drawn all three group games.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Who took charge of the Netherlands after the 2026 World Cup, their first foreign manager since 1978?",
+   "a": "Xavi Hernandez",
+   "sub": "Ronald Koeman resigned the day after the round of 32 exit on penalties to Morocco.",
+   "club": "dutch-national-team",
+   "s": "nl",
+   "cat": "stories"
+  },
+  {
+   "q": "Spain's old nickname La Furia Espanola was coined in 1920 by a newspaper from which country?",
+   "a": "The Netherlands",
+   "sub": "A Dutch headline at the Antwerp Olympics played on the Spanish sack of Antwerp in 1576.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  },
+  {
+   "q": "Argentina did something in the 2026 World Cup final that no team had done before. What?",
+   "a": "They did not have a single shot in the first 90 minutes",
+   "sub": "Spain outshot them 20 to 3. Emiliano Martinez made 11 saves, a record for a World Cup final.",
+   "club": "spain-national-team",
+   "s": "es",
+   "cat": "stories"
+  }
+ ]
+}
