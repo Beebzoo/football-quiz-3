@@ -1,0 +1,784 @@
+[
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club beat Watford 6-0 in the 2019 FA Cup final?",
+  "a": "Manchester City",
+  "sub": "Gabriel Jesus and Raheem Sterling both scored twice.",
+  "src": "https://en.wikipedia.org/wiki/2019_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "By the end of the 2024-25 season, which club had won the FA Cup more times than any other?",
+  "a": "Arsenal",
+  "sub": "Fourteen, the last of them in 2020.",
+  "src": "https://en.wikipedia.org/wiki/FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club beat Manchester City 1-0 in the 2025 FA Cup final to win their first major trophy?",
+  "a": "Crystal Palace",
+  "sub": "Eberechi Eze scored in the 16th minute.",
+  "src": "https://en.wikipedia.org/wiki/2025_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club won the FA Cup for the first time in 2021, beating Chelsea 1-0 at Wembley?",
+  "a": "Leicester City",
+  "sub": "They had lost all four of their previous finals.",
+  "src": "https://en.wikipedia.org/wiki/2021_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "In which city were the FA Cup finals played from 2001 to 2006, while Wembley was being rebuilt?",
+  "a": "Cardiff",
+  "sub": "At the Millennium Stadium.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club won the 2020 FA Cup final 2-1 against Chelsea, in an empty Wembley?",
+  "a": "Arsenal",
+  "sub": "Pierre-Emerick Aubameyang scored both goals.",
+  "src": "https://en.wikipedia.org/wiki/2020_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "What is the English season-opening match between the league champions and the FA Cup holders called?",
+  "a": "The Community Shield",
+  "sub": "It was the Charity Shield until the name changed in 2002.",
+  "src": "https://en.wikipedia.org/wiki/FA_Community_Shield",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club won the 2025 League Cup final, their first major domestic trophy since 1955?",
+  "a": "Newcastle United",
+  "sub": "They beat Liverpool 2-1 at Wembley.",
+  "src": "https://en.wikipedia.org/wiki/2025_EFL_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club beat Manchester City 2-1 in the 2024 FA Cup final?",
+  "a": "Manchester United",
+  "sub": "Alejandro Garnacho and Kobbie Mainoo scored.",
+  "src": "https://en.wikipedia.org/wiki/2024_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which energy drink has given the League Cup its name since 2017?",
+  "a": "Carabao",
+  "sub": "A Thai brand, hence the Carabao Cup.",
+  "src": "https://en.wikipedia.org/wiki/EFL_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club won the 2023 FA Cup final, the first to be contested by both Manchester clubs?",
+  "a": "Manchester City",
+  "sub": "2-1, with two goals from Ilkay Gundogan.",
+  "src": "https://en.wikipedia.org/wiki/2023_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which Arsenal manager won seven FA Cups, the last of them in 2017?",
+  "a": "Arsene Wenger",
+  "src": "https://en.wikipedia.org/wiki/2017_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club did Chelsea beat 1-0 in the 2018 FA Cup final?",
+  "a": "Manchester United",
+  "sub": "Eden Hazard scored a penalty.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club won the 2014 FA Cup final 3-2 against Hull City after extra time?",
+  "a": "Arsenal",
+  "sub": "They had been 2-0 down inside nine minutes.",
+  "src": "https://en.wikipedia.org/wiki/2014_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which club won the 2012 FA Cup final, beating Liverpool 2-1 at Wembley?",
+  "a": "Chelsea",
+  "sub": "Ramires and Didier Drogba scored.",
+  "src": "https://en.wikipedia.org/wiki/2012_FA_Cup_final",
+  "conf": "sure"
+ },
+
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which south coast club won the 2008 FA Cup final under Harry Redknapp?",
+  "a": "Portsmouth",
+  "sub": "Their first FA Cup since 1939, and Redknapp's first trophy.",
+  "src": "https://en.wikipedia.org/wiki/2008_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club beat Bradford City 5-0 in the 2013 League Cup final?",
+  "a": "Swansea City",
+  "sub": "Bradford had come up from League Two.",
+  "src": "https://en.wikipedia.org/wiki/2013_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club won the 2004 League Cup, the first major trophy in their history?",
+  "a": "Middlesbrough",
+  "sub": "Steve McClaren's side beat Bolton 2-1 in Cardiff.",
+  "src": "https://en.wikipedia.org/wiki/2004_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Who scored the only goal of the 2011 FA Cup final, Manchester City's first trophy in 35 years?",
+  "a": "Yaya Toure",
+  "sub": "A 74th minute finish past Thomas Sorensen of Stoke.",
+  "src": "https://en.wikipedia.org/wiki/2011_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Chelsea beat 2-0 in the 1997 FA Cup final?",
+  "a": "Middlesbrough",
+  "src": "https://en.wikipedia.org/wiki/1997_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club beat Arsenal 2-1 in the 2011 League Cup final, then known as the Carling Cup?",
+  "a": "Birmingham City",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Chelsea beat 1-0 in the 2000 FA Cup final, the last played at the old Wembley?",
+  "a": "Aston Villa",
+  "sub": "Roberto Di Matteo scored again.",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club beat Chelsea 4-0 in the 1994 FA Cup final to complete their first league and cup double?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club beat Manchester United 1-0 in the 1995 FA Cup final?",
+  "a": "Everton",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Arsenal beat 2-1 in the 2017 FA Cup final?",
+  "a": "Chelsea",
+  "src": "https://en.wikipedia.org/wiki/2017_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Liverpool won both domestic cups in 2021-22, beating the same club on penalties in both finals. Which club?",
+  "a": "Chelsea",
+  "src": "https://en.wikipedia.org/wiki/2022_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Liverpool won three cups in 2000-01. Which three were they?",
+  "a": "The FA Cup, the League Cup and the UEFA Cup",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Liverpool_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which Frenchman managed Liverpool to their cup treble in 2000-01?",
+  "a": "Gerard Houllier",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Liverpool_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Newcastle United lost the FA Cup final in two years running, 1998 and 1999. Who beat them?",
+  "a": "Arsenal in 1998 and Manchester United in 1999",
+  "sub": "Both finals finished 2-0.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Chelsea beat 1-0 in the 2010 FA Cup final, completing the double?",
+  "a": "Portsmouth",
+  "sub": "Didier Drogba scored the free kick.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club won the 2009 FA Cup final 2-1 against Everton?",
+  "a": "Chelsea",
+  "sub": "Didier Drogba and Frank Lampard scored.",
+  "src": "https://en.wikipedia.org/wiki/2009_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club won the Premier League, the FA Cup and the League Cup all in 2018-19?",
+  "a": "Manchester City",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Manchester_City_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "By what sponsored name was the League Cup known from 2003 to 2012?",
+  "a": "The Carling Cup",
+  "src": "https://en.wikipedia.org/wiki/EFL_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club won the 2007 FA Cup final, the first played at the new Wembley?",
+  "a": "Chelsea",
+  "sub": "Didier Drogba beat Manchester United in extra time.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which Manchester United manager was sacked days after winning the 2016 FA Cup final?",
+  "a": "Louis van Gaal",
+  "sub": "Jose Mourinho was announced the day after he went.",
+  "src": "https://en.wikipedia.org/wiki/2016_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Arsenal beat 4-0 in the 2015 FA Cup final?",
+  "a": "Aston Villa",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Arsenal beat 1-0 in the 2003 FA Cup final?",
+  "a": "Southampton",
+  "src": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Manchester United beat 4-0 in the 2006 League Cup final?",
+  "a": "Wigan Athletic",
+  "src": "https://en.wikipedia.org/wiki/List_of_EFL_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club did Liverpool beat 2-0 in the 2003 League Cup final?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/List_of_EFL_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club beat Bolton Wanderers 2-1 in the 1995 League Cup final?",
+  "a": "Liverpool",
+  "src": "https://en.wikipedia.org/wiki/List_of_EFL_Cup_finals",
+  "conf": "sure"
+ },
+
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Leicester City's winner in the 1997 League Cup final replay at Hillsborough?",
+  "a": "Steve Claridge",
+  "sub": "In the 100th minute against Middlesbrough.",
+  "src": "https://en.wikipedia.org/wiki/1997_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Arsenal's winner in the last minutes of extra time in the 1993 FA Cup final replay?",
+  "a": "Andy Linighan",
+  "sub": "Ian Wright had scored the other.",
+  "src": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Arsenal_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Arsenal won both domestic cups in 1992-93. Which club did they beat in both finals?",
+  "a": "Sheffield Wednesday",
+  "sub": "2-1 in the League Cup, then 2-1 in an FA Cup final replay.",
+  "src": "https://en.wikipedia.org/wiki/1992%E2%80%9393_Arsenal_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored the winning penalty in the 2005 FA Cup final shootout against Manchester United?",
+  "a": "Patrick Vieira",
+  "sub": "His last kick for Arsenal, in the first final decided on penalties.",
+  "src": "https://en.wikipedia.org/wiki/2005_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "The 2006 FA Cup final, Liverpool against West Ham, is remembered by whose name?",
+  "a": "Steven Gerrard",
+  "sub": "3-3, then 3-1 on penalties, with Gerrard scoring twice.",
+  "src": "https://en.wikipedia.org/wiki/2006_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored twice late on for Liverpool to beat Arsenal 2-1 in the 2001 FA Cup final?",
+  "a": "Michael Owen",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Liverpool_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Manchester United's 85th minute winner against Liverpool in the 1996 FA Cup final?",
+  "a": "Eric Cantona",
+  "sub": "It sealed United's second double.",
+  "src": "https://en.wikipedia.org/wiki/1996_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Arsenal's extra-time winner against Hull City in the 2014 FA Cup final?",
+  "a": "Aaron Ramsey",
+  "src": "https://en.wikipedia.org/wiki/2014_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who headed Wigan Athletic's injury-time winner in the 2013 FA Cup final?",
+  "a": "Ben Watson",
+  "sub": "From a Shaun Maloney corner.",
+  "src": "https://en.wikipedia.org/wiki/2013_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Portsmouth's winner in the 2008 FA Cup final against Cardiff City?",
+  "a": "Nwankwo Kanu",
+  "src": "https://en.wikipedia.org/wiki/2008_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which goalkeeper played for Manchester United in the 2009 League Cup final shootout win over Tottenham?",
+  "a": "Ben Foster",
+  "sub": "He took the man of the match award.",
+  "src": "https://en.wikipedia.org/wiki/2009_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Tottenham's extra-time winner in the 2008 League Cup final against Chelsea?",
+  "a": "Jonathan Woodgate",
+  "sub": "A header off Petr Cech and back onto his head.",
+  "src": "https://en.wikipedia.org/wiki/2008_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which club beat Tottenham 2-1 in the 2002 League Cup final, then known as the Worthington Cup?",
+  "a": "Blackburn Rovers",
+  "src": "https://en.wikipedia.org/wiki/List_of_EFL_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Matt Elliott scored twice for Leicester City in the 2000 League Cup final. Which club did they beat?",
+  "a": "Tranmere Rovers",
+  "src": "https://en.wikipedia.org/wiki/2000_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Birmingham City's 89th minute winner in the 2011 League Cup final against Arsenal?",
+  "a": "Obafemi Martins",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which club beat Manchester United 3-1 in the 1994 League Cup final?",
+  "a": "Aston Villa",
+  "src": "https://en.wikipedia.org/wiki/List_of_EFL_Cup_finals",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which Chelsea player was sent off in the 2017 FA Cup final?",
+  "a": "Victor Moses",
+  "sub": "Booked a second time for diving in the box.",
+  "src": "https://en.wikipedia.org/wiki/2017_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which Manchester United defender was sent off in extra time in the 2016 FA Cup final?",
+  "a": "Chris Smalling",
+  "src": "https://en.wikipedia.org/wiki/2016_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored both Manchester City goals in the 2023 FA Cup final against Manchester United?",
+  "a": "Ilkay Gundogan",
+  "src": "https://en.wikipedia.org/wiki/2023_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored Chelsea's opening goal in the 2020 FA Cup final against Arsenal?",
+  "a": "Christian Pulisic",
+  "src": "https://en.wikipedia.org/wiki/2020_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored the only goal of the 2021 FA Cup final for Leicester City?",
+  "a": "Youri Tielemans",
+  "sub": "A strike from distance in the 63rd minute.",
+  "src": "https://en.wikipedia.org/wiki/2021_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which two players scored for Newcastle United in the 2025 League Cup final?",
+  "a": "Dan Burn and Alexander Isak",
+  "src": "https://en.wikipedia.org/wiki/2025_EFL_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which club chose not to defend the FA Cup in 1999-2000, going to the Club World Championship instead?",
+  "a": "Manchester United",
+  "sub": "The first FA Cup winners not to defend the trophy.",
+  "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who was Millwall's player-manager when they lost the 2004 FA Cup final to Manchester United?",
+  "a": "Dennis Wise",
+  "sub": "Millwall were tenth in the First Division that season.",
+  "src": "https://en.wikipedia.org/wiki/2004_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Who scored both Chelsea goals in the 2007 League Cup final against Arsenal?",
+  "a": "Didier Drogba",
+  "sub": "Theo Walcott had put Arsenal ahead.",
+  "src": "https://en.wikipedia.org/wiki/2007_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Where was the 2007 League Cup final played, three months before the new Wembley hosted the FA Cup final?",
+  "a": "The Millennium Stadium in Cardiff",
+  "sub": "The seventh and last League Cup final held there.",
+  "src": "https://en.wikipedia.org/wiki/2007_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which ground hosted the 2012 Community Shield, with Wembley staging the Olympic football final?",
+  "a": "Villa Park",
+  "sub": "Manchester City beat Chelsea 3-2 there.",
+  "src": "https://en.wikipedia.org/wiki/2012_FA_Community_Shield",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which ground hosted the 2022 Community Shield, with Wembley staging the Women's Euro final?",
+  "a": "The King Power Stadium",
+  "sub": "Liverpool beat Manchester City 3-1 in Leicester.",
+  "src": "https://en.wikipedia.org/wiki/2022_FA_Community_Shield",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which club did League Two side Bradford City beat on penalties in the 2012-13 League Cup quarter-final?",
+  "a": "Arsenal",
+  "sub": "1-1 at Valley Parade, then 3-2 in the shootout.",
+  "src": "https://en.wikipedia.org/wiki/2013_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which Championship club knocked Chelsea and Arsenal out of the 2008-09 League Cup?",
+  "a": "Burnley",
+  "sub": "Tottenham beat them in the semi-finals.",
+  "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Football_League_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which non-league club reached the 2017 FA Cup quarter-finals after winning at Burnley?",
+  "a": "Lincoln City",
+  "sub": "The first non-league side in the quarters since 1914.",
+  "src": "https://en.wikipedia.org/wiki/Burnley_F.C._0%E2%80%931_Lincoln_City_F.C._(2017)",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Barnsley beat Liverpool and Chelsea in the 2007-08 FA Cup. Who beat them in the semi-final?",
+  "a": "Cardiff City",
+  "sub": "Joe Ledley scored after nine minutes at Wembley.",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which League Two club beat Newcastle United 3-1 in the FA Cup third round in January 2011?",
+  "a": "Stevenage",
+  "sub": "Cheick Tiote was sent off at Broadhall Way.",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Stevenage_F.C._season",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Who scored the penalty that knocked Manchester United out of the 2007-08 FA Cup at Old Trafford?",
+  "a": "Sulley Muntari",
+  "sub": "Portsmouth won the quarter-final 1-0 and went on to win the cup.",
+  "src": "https://en.wikipedia.org/wiki/2007%E2%80%9308_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Whose penalty did Peter Schmeichel save in the 1999 FA Cup semi-final between Arsenal and Manchester United?",
+  "a": "Dennis Bergkamp",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which Manchester United player was sent off in the 1999 FA Cup semi-final replay against Arsenal?",
+  "a": "Roy Keane",
+  "sub": "Ryan Giggs then won it in extra time.",
+  "src": "https://en.wikipedia.org/wiki/1998%E2%80%9399_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Who scored for Chelsea after 43 seconds of the 1997 FA Cup final, a record for a final at the old Wembley?",
+  "a": "Roberto Di Matteo",
+  "src": "https://en.wikipedia.org/wiki/1997_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Who scored after 25 seconds of the 2009 FA Cup final, a record at the time?",
+  "a": "Louis Saha",
+  "sub": "For Everton against Chelsea, who still won 2-1.",
+  "src": "https://en.wikipedia.org/wiki/2009_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which two players scored for Middlesbrough in the 2004 League Cup final?",
+  "a": "Joseph-Desire Job and Bolo Zenden",
+  "sub": "Both inside the first seven minutes.",
+  "src": "https://en.wikipedia.org/wiki/2004_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "By what sponsored name was the League Cup known from 1992 to 1998?",
+  "a": "The Coca-Cola Cup",
+  "src": "https://en.wikipedia.org/wiki/EFL_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "By what sponsored name was the League Cup known from 2012 to 2016?",
+  "a": "The Capital One Cup",
+  "src": "https://en.wikipedia.org/wiki/EFL_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which club won the last League Cup final played at the old Wembley, in 2000?",
+  "a": "Leicester City",
+  "sub": "2-1 against Tranmere Rovers.",
+  "src": "https://en.wikipedia.org/wiki/2000_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "By the end of the 2024-25 season, which club had won the League Cup most often?",
+  "a": "Liverpool, ten times",
+  "sub": "The tenth came in 2024 against Chelsea.",
+  "src": "https://en.wikipedia.org/wiki/EFL_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which club beat Chelsea 4-2 at Stamford Bridge in the 2015 FA Cup fourth round after going 2-0 down?",
+  "a": "Bradford City",
+  "sub": "They were a League One side at the time.",
+  "src": "https://en.wikipedia.org/wiki/Chelsea_F.C._2%E2%80%934_Bradford_City_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Who put through his own net to give West Ham the lead in the 2006 FA Cup final?",
+  "a": "Jamie Carragher",
+  "src": "https://en.wikipedia.org/wiki/2006_FA_Cup_final",
+  "conf": "sure"
+ },
+
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Steve Morrow scored Arsenal's winner in the 1993 League Cup final and broke his arm celebrating. Who dropped him?",
+  "a": "Tony Adams",
+  "sub": "He got his medal before the FA Cup final a month later.",
+  "src": "https://en.wikipedia.org/wiki/1993_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Liverpool beat Cardiff City on penalties in the 2012 League Cup final. Which Cardiff player missed the last one?",
+  "a": "Anthony Gerrard",
+  "sub": "Cousin of Liverpool's Steven Gerrard, who was on the pitch.",
+  "src": "https://en.wikipedia.org/wiki/2012_Football_League_Cup_Final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Which Chelsea goalkeeper refused to be substituted in the 2019 League Cup final, leaving Maurizio Sarri raging?",
+  "a": "Kepa Arrizabalaga",
+  "sub": "Antonio Rudiger had to hold Sarri back. Chelsea lost on penalties.",
+  "src": "https://en.wikipedia.org/wiki/2019_EFL_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Who scored a hat-trick for Leeds United against Liverpool in the 1992 Charity Shield, then joined Manchester United?",
+  "a": "Eric Cantona",
+  "sub": "Leeds won 4-3. He crossed the Pennines in November.",
+  "src": "https://en.wikipedia.org/wiki/1992_FA_Charity_Shield",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Which Crystal Palace goalkeeper saved a penalty and then the rebound in the 2025 FA Cup final?",
+  "a": "Dean Henderson",
+  "sub": "He stopped Omar Marmoush, then blocked Erling Haaland's follow-up.",
+  "src": "https://en.wikipedia.org/wiki/2025_FA_Cup_final",
+  "conf": "sure"
+ }
+]

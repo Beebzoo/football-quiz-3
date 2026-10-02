@@ -1,0 +1,593 @@
+# Already shipping in the Premier League deck. Do not draft these or near-rewords, in either direction.
+
+===== EASY (30) =====
+Q: Which club won the 2015-16 Premier League under Claudio Ranieri?
+A: Leicester City
+Q: Arsenal went through the 2003-04 league season unbeaten. What were they nicknamed?
+A: The Invincibles
+Q: Which club won the Premier League in 2019-20, ending a thirty-year wait for a league title?
+A: Liverpool
+Q: Which manager won the first thirteen Premier League titles that went to Manchester United?
+A: Sir Alex Ferguson
+Q: Which club won the Premier League in 2011-12 on goal difference, with the last kick of the season?
+A: Manchester City
+Q: Which club won back-to-back Premier League titles in 2004-05 and 2005-06 under Jose Mourinho?
+A: Chelsea
+Q: Which club won the 1994-95 Premier League, their only title of the Premier League era?
+A: Blackburn Rovers
+Q: Who was the top scorer in the 2016-17 Premier League?
+A: Harry Kane
+Q: Who was the top scorer in the 2017-18 Premier League?
+A: Mohamed Salah
+Q: Who was the top scorer in the 2018-19 Premier League?
+A: Premier League Golden Boot
+Q: Who was the top scorer in the 2019-20 Premier League?
+A: Jamie Vardy
+Q: Who was the top scorer in the 2020-21 Premier League?
+A: Harry Kane
+Q: Who was the top scorer in the 2021-22 Premier League?
+A: Mohamed Salah
+Q: Who was the top scorer in the 2022-23 Premier League?
+A: Erling Haaland
+Q: Who was the top scorer in the 2023-24 Premier League?
+A: Erling Haaland
+Q: Who was the top scorer in the 2024-25 Premier League?
+A: Mohamed Salah
+Q: Who was the top scorer in the 2025-26 Premier League?
+A: Erling Haaland
+Q: Which Frenchman managed Arsenal from 1996 to 2018?
+A: Arsene Wenger
+Q: Which manager called himself the Special One on arriving at Chelsea in 2004?
+A: Jose Mourinho
+Q: Which Spaniard took over at Manchester City in 2016?
+A: Pep Guardiola
+Q: Which German managed Liverpool from 2015 to 2024?
+A: Jurgen Klopp
+Q: Which manager retired in 2013 after twenty-six years at Manchester United?
+A: Sir Alex Ferguson
+Q: Which striker scored thirty-four goals in 1994-95 and won the title with Blackburn Rovers?
+A: Alan Shearer
+Q: Which Norwegian striker scored thirty-six league goals in his first Premier League season with Manchester City?
+A: Erling Haaland
+Q: Which Egyptian forward scored thirty-two league goals for Liverpool in 2017-18?
+A: Mohamed Salah
+Q: Which Frenchman won the Premier League Golden Boot four times with Arsenal?
+A: Thierry Henry
+Q: Which England striker won the Premier League Golden Boot three times while at Tottenham?
+A: Harry Kane
+Q: Which Manchester United winger scored thirty-one league goals in 2007-08 before leaving for Real Madrid?
+A: Cristiano Ronaldo
+Q: Which club did Cristiano Ronaldo join from Manchester United in 2009?
+A: Real Madrid
+Q: Which Frenchman did Manchester United re-sign from Juventus in 2016?
+A: Paul Pogba
+
+===== NORMAL (67) =====
+Q: Blackburn Rovers won the 1994-95 title on the final day despite losing. Who was their manager?
+A: Kenny Dalglish
+Q: Which club finished second to Leicester City in 2015-16?
+A: Arsenal
+Q: Manchester City reached a hundred points in a Premier League season. Which season was it?
+A: 2017-18
+Q: Which manager led Chelsea to their first Premier League title in 2004-05?
+A: Jose Mourinho
+Q: Which club did Manchester City pip to the 2018-19 title by a single point?
+A: Liverpool
+Q: Which manager won the Premier League with Liverpool in 2019-20?
+A: Jurgen Klopp
+Q: Which club won the title in 1997-98 and again in 2001-02, both times under Arsene Wenger?
+A: Arsenal
+Q: Manchester United won the treble in 1998-99. Which two trophies did they add to the league title?
+A: The FA Cup and the Champions League
+Q: Who was the top scorer in the 1992-93 Premier League?
+A: Teddy Sheringham
+Q: Who was the top scorer in the 1993-94 Premier League?
+A: Andy Cole
+Q: Who was the top scorer in the 1994-95 Premier League?
+A: Alan Shearer
+Q: Who was the top scorer in the 1995-96 Premier League?
+A: Alan Shearer
+Q: Who was the top scorer in the 1996-97 Premier League?
+A: Alan Shearer
+Q: Who was the top scorer in the 1997-98 Premier League?
+A: Dion Dublin
+Q: Who was the top scorer in the 1998-99 Premier League?
+A: Jimmy Floyd Hasselbaink
+Q: Who was the top scorer in the 1999-00 Premier League?
+A: Kevin Phillips
+Q: Who was the top scorer in the 2000-01 Premier League?
+A: Jimmy Floyd Hasselbaink
+Q: Who was the top scorer in the 2001-02 Premier League?
+A: Thierry Henry
+Q: Who was the top scorer in the 2002-03 Premier League?
+A: Ruud van Nistelrooy
+Q: Who was the top scorer in the 2006-07 Premier League?
+A: Didier Drogba
+Q: Who was the top scorer in the 2007-08 Premier League?
+A: Cristiano Ronaldo
+Q: Who was the top scorer in the 2008-09 Premier League?
+A: Nicolas Anelka
+Q: Who was the top scorer in the 2009-10 Premier League?
+A: Didier Drogba
+Q: Who was the top scorer in the 2010-11 Premier League?
+A: Dimitar Berbatov
+Q: Who was the top scorer in the 2011-12 Premier League?
+A: Robin van Persie
+Q: Who was the top scorer in the 2012-13 Premier League?
+A: Robin van Persie
+Q: Who was the top scorer in the 2013-14 Premier League?
+A: Luis Suárez
+Q: Who was the top scorer in the 2014-15 Premier League?
+A: Sergio Agüero
+Q: Who was the top scorer in the 2015-16 Premier League?
+A: Harry Kane
+Q: Which club finished second in the 2016-17 Premier League?
+A: Tottenham Hotspur
+Q: Which club was Harry Kane playing for when he top scored in the 2016-17 Premier League?
+A: Tottenham Hotspur
+Q: Which club finished second in the 2017-18 Premier League?
+A: Manchester United
+Q: Which club was Mohamed Salah playing for when he top scored in the 2017-18 Premier League?
+A: Liverpool
+Q: Which club finished second in the 2018-19 Premier League?
+A: Liverpool
+Q: Which club finished second in the 2019-20 Premier League?
+A: Manchester City
+Q: Which club was Jamie Vardy playing for when he top scored in the 2019-20 Premier League?
+A: Leicester City
+Q: Which club finished second in the 2020-21 Premier League?
+A: Manchester United
+Q: Which club was Harry Kane playing for when he top scored in the 2020-21 Premier League?
+A: Tottenham Hotspur
+Q: Which club finished second in the 2021-22 Premier League?
+A: Liverpool
+Q: Which club was Mohamed Salah playing for when he top scored in the 2021-22 Premier League?
+A: Liverpool
+Q: Which club finished second in the 2022-23 Premier League?
+A: Arsenal
+Q: Which club was Erling Haaland playing for when he top scored in the 2022-23 Premier League?
+A: Manchester City
+Q: Which club finished second in the 2023-24 Premier League?
+A: Arsenal
+Q: Which club was Erling Haaland playing for when he top scored in the 2023-24 Premier League?
+A: Manchester City
+Q: Which club finished second in the 2024-25 Premier League?
+A: Arsenal
+Q: Which club was Mohamed Salah playing for when he top scored in the 2024-25 Premier League?
+A: Liverpool
+Q: Which club finished second in the 2025-26 Premier League?
+A: Manchester City
+Q: Which club was Erling Haaland playing for when he top scored in the 2025-26 Premier League?
+A: Manchester City
+Q: Which manager won the 2014-15 Premier League with Chelsea in his second spell at the club?
+A: Jose Mourinho
+Q: Which Italian managed Chelsea to the double in 2009-10?
+A: Carlo Ancelotti
+Q: Which manager took Tottenham to the 2019 Champions League final?
+A: Mauricio Pochettino
+Q: Which Spaniard managed Liverpool to the 2005 Champions League title?
+A: Rafael Benitez
+Q: Which former Arsenal midfielder became the club's manager in 2019?
+A: Mikel Arteta
+Q: Which Sunderland striker scored thirty league goals in 1999-2000?
+A: Kevin Phillips
+Q: Which Dutchman scored thirty league goals for Arsenal in 2011-12 and then joined Manchester United?
+A: Robin van Persie
+Q: Which Uruguayan scored thirty-one league goals for Liverpool in 2013-14?
+A: Luis Suarez
+Q: Which Ivorian striker won the Golden Boot at Chelsea in 2006-07 and again in 2009-10?
+A: Didier Drogba
+Q: Which Leicester City striker top scored in the Premier League in 2019-20?
+A: Jamie Vardy
+Q: Which Newcastle striker scored thirty-four league goals in 1993-94 before joining Manchester United?
+A: Andy Cole
+Q: Which Dutch striker top scored in the Premier League in 2002-03, playing for Manchester United?
+A: Ruud van Nistelrooy
+Q: Which striker did Manchester United sign from Newcastle United in January 1995?
+A: Andy Cole
+Q: From which club did Chelsea sign Didier Drogba in 2004?
+A: Marseille
+Q: Which club did Robin van Persie leave Arsenal for in 2012?
+A: Manchester United
+Q: From which club did Arsenal sign Thierry Henry in 1999?
+A: Juventus
+Q: Which club sold Luis Suarez to Barcelona in 2014?
+A: Liverpool
+Q: From which club did Manchester City sign Sergio Aguero in 2011?
+A: Atletico Madrid
+Q: Which club did Gareth Bale join from Tottenham Hotspur in 2013?
+A: Real Madrid
+
+===== HARD (74) =====
+Q: Who scored the goal that won Manchester City the 2011-12 title in stoppage time?
+A: Sergio Aguero
+Q: Which club finished second to Manchester United in 1998-99, a point behind?
+A: Arsenal
+Q: Leicester City's title-winning manager in 2015-16 had been sacked by Greece before he took the job. Name him.
+A: Claudio Ranieri
+Q: Which club finished as runners-up in 2013-14, a season decided in the final weeks?
+A: Liverpool
+Q: Manchester United won three league titles in a row twice. Which manager was in charge for both runs?
+A: Sir Alex Ferguson
+Q: Which club finished second in the 1992-93 Premier League?
+A: Aston Villa
+Q: Which club finished second in the 1993-94 Premier League?
+A: Blackburn Rovers
+Q: Which club finished second in the 1994-95 Premier League?
+A: Manchester United
+Q: Which club finished second in the 1995-96 Premier League?
+A: Newcastle United
+Q: Which club finished second in the 1996-97 Premier League?
+A: Newcastle United
+Q: Which club finished second in the 1997-98 Premier League?
+A: Manchester United
+Q: Which club was Dion Dublin playing for when he top scored in the 1997-98 Premier League?
+A: Coventry City
+Q: Which club finished second in the 1998-99 Premier League?
+A: Arsenal
+Q: Which club was Jimmy Floyd Hasselbaink playing for when he top scored in the 1998-99 Premier League?
+A: Leeds United
+Q: Which club finished second in the 1999-00 Premier League?
+A: Arsenal
+Q: Which club finished second in the 2000-01 Premier League?
+A: Arsenal
+Q: Which club finished second in the 2001-02 Premier League?
+A: Liverpool
+Q: Which club was Thierry Henry playing for when he top scored in the 2001-02 Premier League?
+A: Arsenal
+Q: Which club finished second in the 2002-03 Premier League?
+A: Arsenal
+Q: Which club finished second in the 2003-04 Premier League?
+A: Chelsea
+Q: Which club finished second in the 2004-05 Premier League?
+A: Arsenal
+Q: Which club finished second in the 2005-06 Premier League?
+A: Manchester United
+Q: Which club finished second in the 2006-07 Premier League?
+A: Chelsea
+Q: Which club finished second in the 2007-08 Premier League?
+A: Chelsea
+Q: Which club finished second in the 2008-09 Premier League?
+A: Liverpool
+Q: Which club finished second in the 2009-10 Premier League?
+A: Manchester United
+Q: Which club was Didier Drogba playing for when he top scored in the 2009-10 Premier League?
+A: Chelsea
+Q: Which club finished second in the 2010-11 Premier League?
+A: Chelsea
+Q: Which club finished second in the 2011-12 Premier League?
+A: Manchester United
+Q: Which club was Robin van Persie playing for when he top scored in the 2011-12 Premier League?
+A: Arsenal
+Q: Which club finished second in the 2012-13 Premier League?
+A: Manchester City
+Q: Which club was Robin van Persie playing for when he top scored in the 2012-13 Premier League?
+A: Manchester United
+Q: Which club finished second in the 2013-14 Premier League?
+A: Liverpool
+Q: Which club was Luis Suárez playing for when he top scored in the 2013-14 Premier League?
+A: Liverpool
+Q: Which club finished second in the 2014-15 Premier League?
+A: Manchester City
+Q: Which club was Sergio Agüero playing for when he top scored in the 2014-15 Premier League?
+A: Manchester City
+Q: Which club finished second in the 2015-16 Premier League?
+A: Arsenal
+Q: Which club was Harry Kane playing for when he top scored in the 2015-16 Premier League?
+A: Tottenham Hotspur
+Q: Which club finished third in the 2016-17 Premier League?
+A: Manchester City
+Q: Which clubs went down from the Premier League in 2016-17?
+A: Hull City, Middlesbrough, Sunderland
+Q: Which club finished third in the 2017-18 Premier League?
+A: Tottenham Hotspur
+Q: Which clubs went down from the Premier League in 2017-18?
+A: Swansea City, Stoke City, West Bromwich Albion
+Q: Which club finished third in the 2018-19 Premier League?
+A: Chelsea
+Q: Which clubs went down from the Premier League in 2018-19?
+A: Cardiff City, Fulham, Huddersfield Town
+Q: Which club finished third in the 2019-20 Premier League?
+A: Manchester United
+Q: Which clubs went down from the Premier League in 2019-20?
+A: Bournemouth, Watford, Norwich City
+Q: Which club finished third in the 2020-21 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 2020-21?
+A: Fulham, West Bromwich Albion, Sheffield United
+Q: Which club finished third in the 2021-22 Premier League?
+A: Chelsea
+Q: Which clubs went down from the Premier League in 2021-22?
+A: Burnley, Watford, Norwich City
+Q: Which club finished third in the 2022-23 Premier League?
+A: Manchester United
+Q: Which clubs went down from the Premier League in 2022-23?
+A: Leicester City, Leeds United, Southampton
+Q: Which club finished third in the 2023-24 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 2023-24?
+A: Luton Town, Burnley, Sheffield United
+Q: Which club finished third in the 2024-25 Premier League?
+A: Manchester City
+Q: Which clubs went down from the Premier League in 2024-25?
+A: Leicester City, Ipswich Town, Southampton
+Q: Which club finished third in the 2025-26 Premier League?
+A: Manchester United
+Q: Which clubs went down from the Premier League in 2025-26?
+A: West Ham United, Burnley, Wolverhampton Wanderers
+Q: Which manager led Everton for eleven seasons before joining Manchester United?
+A: David Moyes
+Q: Which Dutchman managed Manchester United from 2014 to 2016?
+A: Louis van Gaal
+Q: Which manager took Wigan Athletic to the 2013 FA Cup and down in the same season?
+A: Roberto Martinez
+Q: Which striker did Manchester United sign in 2012 to help win Ferguson's final title?
+A: Robin van Persie
+Q: Which Portuguese manager took Wolverhampton Wanderers into Europe after promotion in 2018?
+A: Nuno Espirito Santo
+Q: Which manager kept Leicester City up in 2014-15 after they had been bottom at Christmas?
+A: Nigel Pearson
+Q: Three players shared the 1997-98 Golden Boot on eighteen goals. Name any one of them.
+A: Dion Dublin, Michael Owen or Chris Sutton
+Q: Which two players shared the 2021-22 Golden Boot on twenty-three goals?
+A: Mohamed Salah and Son Heung-min
+Q: Which Frenchman top scored for Chelsea in 2008-09 with nineteen league goals?
+A: Nicolas Anelka
+Q: Which two players shared the 2010-11 Golden Boot on twenty goals?
+A: Carlos Tevez and Dimitar Berbatov
+Q: Which Dutch striker won the Golden Boot in 2000-01 while at Chelsea?
+A: Jimmy Floyd Hasselbaink
+Q: Which club did Liverpool sign Fernando Torres from in 2007?
+A: Atletico Madrid
+Q: Liverpool sold Fernando Torres to Chelsea in January 2011 and signed a replacement the same day. Who was it?
+A: Andy Carroll
+Q: From which club did Tottenham Hotspur sign Son Heung-min in 2015?
+A: Bayer Leverkusen
+Q: Which club did Manchester United sign Bruno Fernandes from in January 2020?
+A: Sporting CP
+Q: Which club sold Kevin De Bruyne to Manchester City in 2015?
+A: VfL Wolfsburg
+
+===== EXTREME (95) =====
+Q: Which club finished third behind Leicester City and Arsenal in 2015-16?
+A: Tottenham Hotspur
+Q: Arsenal's Invincibles drew twelve league games in 2003-04. How many did they win?
+A: Twenty-six
+Q: Liverpool finished the 2018-19 season on ninety-seven points without winning the league. Who beat them to it?
+A: Manchester City, on ninety-eight
+Q: Which club did Manchester United beat on the final day of 1995-96 to seal the title, having been twelve points behind Newcastle in January?
+A: Middlesbrough
+Q: Which club finished third in the 1992-93 Premier League?
+A: Norwich City
+Q: Which clubs went down from the Premier League in 1992-93?
+A: Crystal Palace, Middlesbrough, Nottingham Forest
+Q: Which club scored the most goals in the 1992-93 Premier League?
+A: Blackburn Rovers
+Q: Which club finished third in the 1993-94 Premier League?
+A: Newcastle United
+Q: Which clubs went down from the Premier League in 1993-94?
+A: Sheffield United, Oldham Athletic, Swindon Town
+Q: Which club scored the most goals in the 1993-94 Premier League?
+A: Newcastle United
+Q: Which club conceded the fewest goals in the 1993-94 Premier League?
+A: Arsenal
+Q: Which club finished third in the 1994-95 Premier League?
+A: Nottingham Forest
+Q: Which clubs went down from the Premier League in 1994-95?
+A: Crystal Palace, Norwich City, Leicester City, Ipswich Town
+Q: Which club conceded the fewest goals in the 1994-95 Premier League?
+A: Manchester United
+Q: Which club finished third in the 1995-96 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 1995-96?
+A: Manchester City, Queens Park Rangers, Bolton Wanderers
+Q: Which club conceded the fewest goals in the 1995-96 Premier League?
+A: Arsenal
+Q: Which club finished third in the 1996-97 Premier League?
+A: Arsenal
+Q: Which clubs went down from the Premier League in 1996-97?
+A: Middlesbrough, Sunderland, Nottingham Forest
+Q: Which club conceded the fewest goals in the 1996-97 Premier League?
+A: Arsenal
+Q: Which club finished third in the 1997-98 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 1997-98?
+A: Bolton Wanderers, Barnsley, Crystal Palace
+Q: Which club scored the most goals in the 1997-98 Premier League?
+A: Manchester United
+Q: Which club conceded the fewest goals in the 1997-98 Premier League?
+A: Manchester United
+Q: Which club finished third in the 1998-99 Premier League?
+A: Chelsea
+Q: Which clubs went down from the Premier League in 1998-99?
+A: Charlton Athletic, Blackburn Rovers, Nottingham Forest
+Q: Which club conceded the fewest goals in the 1998-99 Premier League?
+A: Arsenal
+Q: Which club finished third in the 1999-00 Premier League?
+A: Leeds United
+Q: Which clubs went down from the Premier League in 1999-00?
+A: Wimbledon, Sheffield Wednesday, Watford
+Q: Which club conceded the fewest goals in the 1999-00 Premier League?
+A: Liverpool
+Q: Which club finished third in the 2000-01 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 2000-01?
+A: Manchester City, Coventry City, Bradford City
+Q: Which club finished third in the 2001-02 Premier League?
+A: Manchester United
+Q: Which clubs went down from the Premier League in 2001-02?
+A: Ipswich Town, Derby County, Leicester City
+Q: Which club scored the most goals in the 2001-02 Premier League?
+A: Manchester United
+Q: Which club conceded the fewest goals in the 2001-02 Premier League?
+A: Liverpool
+Q: Which club finished third in the 2002-03 Premier League?
+A: Newcastle United
+Q: Which clubs went down from the Premier League in 2002-03?
+A: West Ham United, West Bromwich Albion, Sunderland
+Q: Which club scored the most goals in the 2002-03 Premier League?
+A: Arsenal
+Q: Which club finished third in the 2003-04 Premier League?
+A: Manchester United
+Q: Which clubs went down from the Premier League in 2003-04?
+A: Leicester City, Leeds United, Wolverhampton Wanderers
+Q: Which club finished third in the 2004-05 Premier League?
+A: Manchester United
+Q: Which clubs went down from the Premier League in 2004-05?
+A: Crystal Palace, Norwich City, Southampton
+Q: Which club scored the most goals in the 2004-05 Premier League?
+A: Arsenal
+Q: Which club finished third in the 2005-06 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 2005-06?
+A: Birmingham City, West Bromwich Albion, Sunderland
+Q: Which club finished third in the 2006-07 Premier League?
+A: Liverpool
+Q: Which clubs went down from the Premier League in 2006-07?
+A: Sheffield United, Charlton Athletic, Watford
+Q: Which club conceded the fewest goals in the 2006-07 Premier League?
+A: Chelsea
+Q: Which club finished third in the 2007-08 Premier League?
+A: Arsenal
+Q: Which clubs went down from the Premier League in 2007-08?
+A: Reading, Birmingham City, Derby County
+Q: Which club finished third in the 2008-09 Premier League?
+A: Chelsea
+Q: Which clubs went down from the Premier League in 2008-09?
+A: Newcastle United, Middlesbrough, West Bromwich Albion
+Q: Which club scored the most goals in the 2008-09 Premier League?
+A: Liverpool
+Q: Which club finished third in the 2009-10 Premier League?
+A: Arsenal
+Q: Which clubs went down from the Premier League in 2009-10?
+A: Burnley, Hull City, Portsmouth
+Q: Which club conceded the fewest goals in the 2009-10 Premier League?
+A: Manchester United
+Q: Which club finished third in the 2010-11 Premier League?
+A: Manchester City
+Q: Which clubs went down from the Premier League in 2010-11?
+A: Birmingham City, Blackpool, West Ham United
+Q: Which club conceded the fewest goals in the 2010-11 Premier League?
+A: Chelsea
+Q: Which club finished third in the 2011-12 Premier League?
+A: Arsenal
+Q: The 2011-12 Premier League was decided on goal difference. Which club took it?
+A: Manchester City
+Q: Which clubs went down from the Premier League in 2011-12?
+A: Bolton Wanderers, Blackburn Rovers, Wolverhampton Wanderers
+Q: Which club finished third in the 2012-13 Premier League?
+A: Chelsea
+Q: Which clubs went down from the Premier League in 2012-13?
+A: Wigan Athletic, Reading, Queens Park Rangers
+Q: Which club conceded the fewest goals in the 2012-13 Premier League?
+A: Manchester City
+Q: Which club finished third in the 2013-14 Premier League?
+A: Chelsea
+Q: Which clubs went down from the Premier League in 2013-14?
+A: Norwich City, Fulham, Cardiff City
+Q: Which club conceded the fewest goals in the 2013-14 Premier League?
+A: Chelsea
+Q: Which club finished third in the 2014-15 Premier League?
+A: Arsenal
+Q: Which clubs went down from the Premier League in 2014-15?
+A: Hull City, Burnley, Queens Park Rangers
+Q: Which club scored the most goals in the 2014-15 Premier League?
+A: Manchester City
+Q: Which club finished third in the 2015-16 Premier League?
+A: Tottenham Hotspur
+Q: Which clubs went down from the Premier League in 2015-16?
+A: Newcastle United, Norwich City, Aston Villa
+Q: Which club scored the most goals in the 2015-16 Premier League?
+A: Manchester City
+Q: Which club conceded the fewest goals in the 2015-16 Premier League?
+A: Tottenham Hotspur
+Q: Which club scored the most goals in the 2016-17 Premier League?
+A: Tottenham Hotspur
+Q: Which club conceded the fewest goals in the 2016-17 Premier League?
+A: Tottenham Hotspur
+Q: Which club conceded the fewest goals in the 2018-19 Premier League?
+A: Liverpool
+Q: Which club scored the most goals in the 2019-20 Premier League?
+A: Manchester City
+Q: Which club conceded the fewest goals in the 2023-24 Premier League?
+A: Arsenal
+Q: Which club conceded the fewest goals in the 2024-25 Premier League?
+A: Arsenal
+Q: Which club scored the most goals in the 2025-26 Premier League?
+A: Manchester City
+Q: Which manager took charge of Chelsea on an interim basis and won the Europa League in 2013?
+A: Rafael Benitez
+Q: Which manager took charge of Newcastle United in 2010 and left for Crystal Palace five years later?
+A: Alan Pardew
+Q: Which manager led Blackburn Rovers to the 1994-95 title and later managed Liverpool again?
+A: Kenny Dalglish
+Q: Which Swansea City manager left for Liverpool in 2012?
+A: Brendan Rodgers
+Q: How many league goals did Andy Cole score for Newcastle in 1993-94?
+A: Thirty-four
+Q: Alan Shearer won three Golden Boots in a row. Which three seasons were they?
+A: 1994-95, 1995-96 and 1996-97
+Q: Which three players shared the 2018-19 Golden Boot on twenty-two goals?
+A: Mohamed Salah, Sadio Mane and Pierre-Emerick Aubameyang
+Q: Which Coventry City striker shared the 1997-98 Golden Boot?
+A: Dion Dublin
+Q: Which club did Manchester United sign Dimitar Berbatov from in 2008?
+A: Tottenham Hotspur
+Q: From which club did Newcastle United sign Alan Shearer in 1996?
+A: Blackburn Rovers
+Q: Which club did Arsenal sign Nicolas Anelka from as a teenager in 1997?
+A: Paris Saint-Germain
+Q: Which club did Chelsea buy Nemanja Matic back from in 2014, having sold him three years earlier?
+A: Benfica
+
+===== BALL (25) =====
+Q: Chasing Manchester United in 1995-96, which Newcastle manager said on television that he would love it if they beat them?
+A: Kevin Keegan
+Q: Leicester City were confirmed as champions in 2016 without kicking a ball. Which game decided it?
+A: Chelsea against Tottenham Hotspur
+Q: Which Manchester City goalkeeper was pictured weeping on the pitch after the 2011-12 title was won in stoppage time?
+A: Joe Hart
+Q: Which Manchester United manager was pelted with a flying boot in the dressing room, catching David Beckham above the eye?
+A: Sir Alex Ferguson
+Q: Which Newcastle manager resigned in 1997 after failing to catch Manchester United?
+A: Kevin Keegan
+Q: Which Crystal Palace manager was filmed sprinting down the touchline in celebration and became a meme for it?
+A: Alan Pardew
+Q: Which Manchester United substitute scored four goals in the last twenty minutes at Nottingham Forest in 1999?
+A: Ole Gunnar Solskjaer
+Q: Which Everton goalkeeper scored from his own half against Bolton Wanderers in January 2012?
+A: Tim Howard
+Q: Which club was 5000-1 to win the Premier League in August 2015 and won it?
+A: Leicester City
+Q: Which Manchester United player kicked a Crystal Palace supporter in 1995?
+A: Eric Cantona
+Q: Which Newcastle United manager said on live television that he would love it if they beat Manchester United?
+A: Kevin Keegan
+Q: Which Liverpool captain slipped against Chelsea in April 2014, letting Demba Ba through?
+A: Steven Gerrard
+Q: Which club went from the Premier League to administration and the fourth tier between 2010 and 2013?
+A: Portsmouth
+Q: Which two clubs drew 4-4 at Anfield in 2009 in Rafael Benitez's last home game as Liverpool manager?
+A: Liverpool and Arsenal
+Q: Which Manchester City goal in 2012 arrived at ninety-three minutes and twenty seconds?
+A: Sergio Aguero's title winner against Queens Park Rangers
+Q: Which breakaway club was founded in 2005 by supporters protesting at the Glazer takeover at Old Trafford?
+A: FC United of Manchester
+Q: Which striker was sold by Newcastle to Liverpool in January 2011 for a club record fee?
+A: Andy Carroll
+Q: Which Blackburn Rovers benefactor bankrolled their 1994-95 title?
+A: Jack Walker
+Q: Which manager was sacked by Chelsea in December 2015, months after winning the league with them?
+A: Jose Mourinho
+Q: Which club came back from 3-0 down against Barcelona to win a Champions League semi-final in 2019?
+A: Liverpool
+Q: Which Liverpool midfielder scored from inside his own half twice in the 2005-06 season?
+A: Xabi Alonso
+Q: Which club won the Premier League in 2019-20 with seven games still to play?
+A: Liverpool
+Q: Which six clubs announced they were joining a European Super League in April 2021, then withdrew?
+A: Arsenal, Chelsea, Liverpool, Manchester City, Manchester United and Tottenham Hotspur
+Q: Which Argentine crossed Manchester in 2009, and was advertised on a blue billboard reading Welcome to Manchester?
+A: Carlos Tevez
+Q: Which striker scored the winner in Chelsea's 2012 Champions League final, left that summer, and came back two years later?
+A: Didier Drogba
