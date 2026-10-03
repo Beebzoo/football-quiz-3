@@ -38,6 +38,7 @@
 const fs = require("fs");
 const path = require("path");
 const https = require("https");
+const { fameFor } = require("./pageviews");
 
 const REPO = path.join(__dirname, "..");
 const CACHE = path.join(__dirname, "_models");
@@ -58,7 +59,14 @@ const PAGE = "List of men's footballers with 100 or more international caps";
    thirty is a number somebody has actually read, so two apart is a question
    people argue about rather than a coin toss. One apart is the coin toss, and
    a dead heat has no answer at all. */
-const GAP_MIN = 2, GAP_MAX = 30;
+/* THE FLOOR WENT FROM TWO TO FIVE on 3 Oct 2026, because the man who asked for
+   van der Sar against Neuer played it for a fortnight and said two apart is too
+   hard. He was right and the argument above was wrong about who the table is:
+   a hundred and thirty is a number somebody has READ, but 130 against 128 is a
+   number somebody has to have read twice. Five is the first gap where knowing
+   the men is enough. The ceiling stays: thirty apart is a question anybody can
+   answer and the band above it is not a question at all. */
+const GAP_MIN = 5, GAP_MAX = 30;
 
 function once(url) {
   return new Promise((res, rej) => {
@@ -160,6 +168,16 @@ const fold = s => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase
     .filter(d => /^(wc|euro)\d{4}$/.test(d))
     .map(d => ({id: d, year: +d.replace(/\D/g, "")}))
     .sort((a, b) => a.year - b.year);
+  /* EVERY MAN OF THAT NAME, not the last one. This used to key on the name
+     alone and take the most recent book, and the header of this file says a
+     list that names the country beside the player cannot pick the wrong man.
+     It cannot; the matching could, and did: Uruguay's Luis Suárez was handed
+     the card of Colombia's Luis Suárez from the 2026 squad, Egypt's Ahmed Fathy
+     a Qatari's, Costa Rica's Marín a Chilean's, the UAE's Khalil a Tunisian's.
+     Four men in the bank the mode shipped with were somebody else, which is
+     the exact failure the Older or Taller bank had and this one was built to
+     avoid. The list's nation now has to agree with the card's side, and a
+     name with no agreeing card is a man with no card rather than a guess. */
   const men = new Map();
   for (const b of books) {
     const f = path.join(REPO, "assets", b.id, "index.json");
@@ -167,22 +185,58 @@ const fold = s => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase
     const j = JSON.parse(fs.readFileSync(f, "utf8"));
     for (const [side, t] of Object.entries(j))
       for (const m of (t.xi || []).concat(t.bench || []))
-        if (m.full) men.set(fold(m.full), {pool: b.id, side: side, full: m.full, n: m.n});
+        if (m.full) {
+          const k = fold(m.full);
+          if (!men.has(k)) men.set(k, []);
+          men.get(k).push({pool: b.id, side: side, full: m.full, n: m.n, abbr: (t.abbr || "").toUpperCase(), year: b.year});
+        }
   }
-  console.log(men.size + " distinct men across " + books.length + " books");
+  console.log(men.size + " distinct names across " + books.length + " books");
 
+  /* the list writes a man's country as it was when he played it, the pool as
+     it is now: West Germany is Germany, Serbia and Montenegro is Serbia */
+  const SAME = {FRG: "GER", GDR: "GER", SCG: "SRB", YUG: "SRB", TCH: "CZE", URS: "RUS", CIS: "RUS",
+                CHL: "CHI", QTR: "QAT", DRC: "COD", ZAI: "COD", LAT: "LVA", HOL: "NED", ROM: "ROU"};
+  const same = (a, b) => (SAME[a] || a) === (SAME[b] || b);
   const bank = [];
-  const noCard = [];
+  const noCard = [], wrongMan = [];
   for (const p of listed) {
-    const hit = men.get(fold(p.name)) || men.get(fold(p.page));
-    if (!hit) { noCard.push(p.name); continue; }
-    bank.push({n: hit.n, full: hit.full, pool: hit.pool, side: hit.side, nat: p.nat, caps: p.caps});
+    const cands = men.get(fold(p.name)) || men.get(fold(p.page)) || [];
+    if (!cands.length) { noCard.push(p.name); continue; }
+    const ok = cands.filter(c => same(c.abbr, p.nat)).sort((a, b) => b.year - a.year);
+    if (!ok.length) { wrongMan.push(p.name + " (" + p.nat + ", card says " + [...new Set(cands.map(c => c.abbr))].join("/") + ")"); continue; }
+    const hit = ok[0];
+    bank.push({n: hit.n, full: hit.full, pool: hit.pool, side: hit.side, nat: p.nat, abbr: hit.abbr, caps: p.caps, page: p.page});
   }
+  if (wrongMan.length) console.log("  a card of the same name for a DIFFERENT nation, left out: " + wrongMan.join("; "));
   bank.sort((a, b) => b.caps - a.caps);
   console.log(bank.length + " of them have a card, " + noCard.length + " do not");
   console.log("  no card, e.g.: " + noCard.slice(0, 6).join(", "));
   console.log("  the bank runs " + bank[bank.length - 1].caps + " to " + bank[0].caps + " caps");
   console.log("  top five: " + bank.slice(0, 5).map(p => p.n + " " + p.caps).join(", "));
+
+  /* ---------- would anyone know him ----------
+     The hundred-cap list is honest about who has played a hundred times and
+     silent about who anybody has heard of, and those are different lists: it
+     is full of Saudis, Qataris and Central Americans who got there on regional
+     tournaments and friendlies, and the table asked for fewer of them. A year
+     of English pageviews per man rides on the row, so the app can keep the
+     least-known quarter on the shelf and lean the draw toward the rest. It is
+     deliberately NOT filtered here: the row order is what the app's used-list
+     indexes, so the file keeps everybody in caps order and the floor lives in
+     the app where it can move without renumbering anything. */
+  const fame = await fameFor(bank.map(p => p.page), {ua: UA, log: s => console.log("  " + s)});
+  for (const p of bank) { p.fame = fame.get(p.page) || 0; delete p.page; }
+  const sorted = bank.map(p => p.fame).sort((a, b) => a - b);
+  const q = f => sorted[Math.floor(f * (sorted.length - 1))];
+  console.log("  fame quartiles (views in 2025): " + [0, .25, .5, .75, 1].map(f => q(f).toLocaleString("en-GB")).join(" / "));
+  const dim = bank.slice().sort((a, b) => a.fame - b.fame);
+  console.log("  least known: " + dim.slice(0, 8).map(p => p.n + " " + p.nat + " " + p.fame).join(", "));
+  const quarter = dim.slice(0, Math.floor(dim.length / 4));
+  const qNat = {};
+  quarter.forEach(p => qNat[p.nat] = (qNat[p.nat] || 0) + 1);
+  console.log("  the least-known quarter is mostly: " +
+    Object.entries(qNat).sort((a, b) => b[1] - a[1]).slice(0, 6).map(e => e[0] + " " + e[1]).join(", "));
 
   /* ---------- can it actually deal a pair? ----------
      The number that matters is not how many players there are, it is how many

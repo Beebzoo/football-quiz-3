@@ -7474,6 +7474,13 @@ const PICTURE_MODES = {
      his kit, his number, his flag, his position and his name, so two of them
      side by side is the whole screen. */
   caps:   {label:"Caps",        ic:"flag",  ac:"#e07fb8"},
+  /* THE SAME GAME OVER THE OTHER NUMBER on the card: who scored more for his
+     country. It shares every line of Caps's engine and its screen, because
+     the only thing that differs is which field of the row you compare and
+     what the band around it is. Its own bank, because the career total has
+     to come off a curated list rather than off the tournament snapshot the
+     pool carries, for exactly the reason build-caps.js gives. */
+  goals:  {label:"Goals",       ic:"goal",  ac:"#4fc3d9"},
 };
 const MODE_ROW = id => QUIZZES[id] || PICTURE_MODES[id] || null;
 /* What the team picker calls the thing you are choosing. Let's Ball is played
@@ -7552,7 +7559,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "2 Oct 2026 · 16:03";
+const BUILD = "3 Oct 2026 · 15:53";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
@@ -7613,6 +7620,10 @@ fetch("assets/natflags/codes.json").then(r => r.ok ? r.json() : null)
 let CAPS = null;
 fetch("assets/caps/index.json").then(r => r.ok ? r.json() : null)
   .then(j => { if(j){ CAPS = j; if(!S || S.phase === "setup") render(); } }).catch(()=>{});
+/* and the goals bank, same shape with goals where caps is; _tools/build-goals.js */
+let GOALS = null;
+fetch("assets/goals/index.json").then(r => r.ok ? r.json() : null)
+  .then(j => { if(j){ GOALS = j; if(!S || S.phase === "setup") render(); } }).catch(()=>{});
 const h2FlagOf = m => {
   const c = m && m.nat && NATCODES[String(m.nat).toUpperCase()];
   return c ? "assets/natflags/" + c + ".png" : null;
@@ -7784,7 +7795,34 @@ function duelNextPlayer(){               // wrong: the run is over, pass it on
    argue about. And BALL 1's duel bank is the one that shipped thirteen rows
    that were a different person entirely, which is exactly the trap a list
    naming the country beside the player cannot fall into. */
-const CAPS_GAP_MIN = 2, CAPS_GAP_MAX = 30;
+/* THE FLOOR WENT FROM TWO TO FIVE on 3 Oct 2026. The man who asked for van der
+   Sar against Neuer played it for a fortnight and said two apart is too hard,
+   and he was right: 130 against 128 is a number you have to have read twice.
+   Five is the first gap where knowing the men is enough. The ceiling stays. */
+const CAPS_GAP_MIN = 5, CAPS_GAP_MAX = 30;
+/* Goals run 50 to about 150 and bunch at the bottom, so the band is a little
+   tighter at both ends than the caps one. */
+const GOALS_GAP_MIN = 4, GOALS_GAP_MAX = 25;
+/* ONE ENGINE, TWO NUMBERS. Everything below reads the stat for the mode being
+   played and nothing else differs: the bank, the field on the row, the word
+   under the number, the band, and which used-list the cards go on. The used
+   lists are separate because the indexes are into different files. */
+const STATS = {
+  caps:  {bank: () => CAPS,  key: "caps",  unit: "caps",  used: "usedCP", gapMin: CAPS_GAP_MIN,  gapMax: CAPS_GAP_MAX,
+          title: "Who has more caps?",
+          line: "Appearances for his country, career total. The app knows, so there is nothing to argue about until afterwards."},
+  goals: {bank: () => GOALS, key: "goals", unit: "goals", used: "usedGL", gapMin: GOALS_GAP_MIN, gapMax: GOALS_GAP_MAX,
+          title: "Who has more international goals?",
+          line: "Goals for his country, career total. The app knows, so there is nothing to argue about until afterwards."},
+};
+const statOf = id => STATS[id || (S && S.mode)] || STATS.caps;
+/* THE LEAST-KNOWN QUARTER STAYS ON THE SHELF. A hundred-cap list is full of men
+   who got there on regional tournaments, and the table asked for fewer Saudis
+   and Qataris and a few more it had heard of. Each row carries a year of
+   English pageviews; the bottom quarter of a bank by that measure is not dealt,
+   and the draw below leans toward the rest. A quarter rather than a number, so
+   it holds when the bank is rebuilt and every figure moves. */
+const FAME_FLOOR_Q = 0.25;
 /* HIS ROW IN THE BOOK, or null while the book is still in the air. The bank
    stores which pool and which side he came from and nothing about how he looks,
    so the card drawn here is the album's, down to the shirt number, and a
@@ -7802,12 +7840,18 @@ function capsMan(p){
    once per tile on every render of the front page and a fresh scan of four
    hundred men each time would be four hundred for nothing. */
 let capsPoolCache = null, capsPoolAt = -1;
-function capsReady(){
-  if(!CAPS) return [];
-  const n = Object.keys(TEAMS).length;
-  if(capsPoolCache && capsPoolAt === n) return capsPoolCache;
-  capsPoolAt = n;
-  capsPoolCache = CAPS.map((_, i) => i).filter(i => !!capsMan(CAPS[i]));
+function capsReady(id){
+  const st = statOf(id), bank = st.bank();
+  if(!bank) return [];
+  const key = st.key + ":" + Object.keys(TEAMS).length;
+  if(capsPoolCache && capsPoolAt === key) return capsPoolCache;
+  capsPoolAt = key;
+  const drawable = bank.map((_, i) => i).filter(i => !!capsMan(bank[i]));
+  /* a bank built before fame existed carries no field and keeps everybody */
+  const fames = drawable.map(i => bank[i].fame || 0).sort((a, b) => a - b);
+  const floor = fames.length && fames[fames.length - 1] > 0 ? fames[Math.floor(FAME_FLOOR_Q * (fames.length - 1))] : 0;
+  const known = drawable.filter(i => (bank[i].fame || 0) >= floor);
+  capsPoolCache = known.length >= 2 ? known : drawable;
   return capsPoolCache;
 }
 /* Close enough to be a question, far enough apart to have an answer. The floor
@@ -7815,41 +7859,61 @@ function capsReady(){
    pair this mode was asked for: one apart is a coin toss and a dead heat has no
    answer at all. */
 const capsGapOk = (x, y) => {
-  const g = Math.abs(x.caps - y.caps);
-  return g >= CAPS_GAP_MIN && g <= CAPS_GAP_MAX;
+  const st = statOf();
+  const g = Math.abs(x[st.key] - y[st.key]);
+  return g >= st.gapMin && g <= st.gapMax;
 };
+/* WEIGHTED BY FAME, both ends of the pair. The first man is drawn with a
+   weight of the square root of his pageviews, which is strong enough that
+   Ronaldo turns up a lot more than a Panamanian full back and gentle enough
+   that the full back still turns up. Then his partner is drawn the same way
+   from everybody in the band with him, so a famous man is not paired with the
+   most obscure number that happens to fit. Square root rather than the raw
+   figure, because the raw figure would make it the Ronaldo and Messi game. */
 function capsDraw(pool){
-  for(let t = 0; t < 600; t++){
-    const a = pool[Math.floor(Math.random() * pool.length)];
-    const b = pool[Math.floor(Math.random() * pool.length)];
-    if(a !== b && capsGapOk(CAPS[a], CAPS[b])) return [a, b];
+  const st = statOf(), bank = st.bank();
+  const w = pool.map(i => Math.sqrt((bank[i].fame || 0) + 1));
+  const pickW = idx => {
+    let t = 0; for(const k of idx) t += w[k];
+    let r = Math.random() * t;
+    for(const k of idx){ r -= w[k]; if(r <= 0) return k; }
+    return idx[idx.length - 1];
+  };
+  const all = pool.map((_, k) => k);
+  for(let t = 0; t < 200; t++){
+    const ka = pickW(all);
+    const mates = all.filter(k => k !== ka && capsGapOk(bank[pool[ka]], bank[pool[k]]));
+    if(!mates.length) continue;
+    return [pool[ka], pool[pickW(mates)]];
   }
   return null;
 }
 function newCaps(){
-  const all = capsReady();
+  const st = statOf();
+  const all = capsReady(S.mode);
   if(all.length < 2){ toast("That deck is still loading, give it a second", true); return; }
-  if(!S.usedCP) S.usedCP = [];
+  if(!S[st.used]) S[st.used] = [];
   /* Nobody twice while there is anybody left: seeing the same card again tells
      you the answer you already gave. */
-  let pool = all.filter(i => S.usedCP.indexOf(i) === -1);
+  let pool = all.filter(i => S[st.used].indexOf(i) === -1);
   let pair = pool.length >= 2 ? capsDraw(pool) : null;
   /* THE POOL CAN RUN OUT TWO WAYS and only one of them is "everybody has been
      seen". The other is that the handful left are all on the same number of
      caps, so no pair in it clears the band, and a mode that just stops there
      would look broken to a table that is still playing. Either way the answer
      is the same: start the book again. */
-  if(!pair){ S.usedCP = []; pair = capsDraw(all); }
+  if(!pair){ S[st.used] = []; pair = capsDraw(all); }
   if(!pair){ toast("That deck cannot make a pair, which should not happen", true); return; }
-  S.usedCP.push(pair[0], pair[1]);
+  S[st.used].push(pair[0], pair[1]);
   S.cap = {a: pair[0], b: pair[1], picked: null, right: null,
            streak: (S.cap && S.cap.right) ? S.cap.streak : 0};
   S.phase = "cp_play";
 }
 function capsPick(which){
   if(S.phase !== "cp_play") return;
-  const d = S.cap, A = CAPS[d.a], B = CAPS[d.b];
-  const correct = A.caps > B.caps ? "a" : "b";
+  const st = statOf(), bank = st.bank();
+  const d = S.cap, A = bank[d.a], B = bank[d.b];
+  const correct = A[st.key] > B[st.key] ? "a" : "b";
   d.picked = which; d.right = (which === correct);
   if(d.right){
     d.streak++;
@@ -8088,7 +8152,7 @@ function rrNext(){
   render();
 }
 
-function freshState(names, timed=true, mode="classic", target=100, play="board", mc=false){
+function freshState(names, timed=true, mode="classic", target=100, play="board", mc=false, src="own"){
   return {
     mid: matchId(),   // one id for this match, shared by every phone that files it
     players: names.map(n=>({name:n, score:0, off:0})),
@@ -8097,14 +8161,14 @@ function freshState(names, timed=true, mode="classic", target=100, play="board",
        like. See the QUIZZES registry for why these are three fields and not
        one string. */
     tier:null, qi:null, stealer:null, timeUp:false, timed:timed, mode:mode,
-    play:play, mc:mc,
+    play:play, mc:mc, qsrc:src,
     target:target, // first to this score wins; 0 = no limit
     wans:[], wgot:[], // written mode: typed answers + who was marked correct
     ans:"", asub:false, // the answer the player on the hook locked in from their own phone
     career:null, usedC:[], // career mode: current round + careers already played
     usedM:[], // manager career path: dugout careers already played
     duel:null, usedD:[], // older or taller: current pair + faces already shown
-    cap:null, usedCP:[], // who has more caps: the pair on the table + cards already shown
+    cap:null, usedCP:[], usedGL:[], // who has more caps / goals: the pair on the table + cards already shown, one list per bank
     rush:null, usedL:[], // league rush: the current 30 seconds + leagues already played
     alum:null, usedA:[], // alumni: the club on the table + clubs already asked
     wall:null, usedW:[], // the wall: the board on the table + boards already played
@@ -8573,7 +8637,7 @@ function matchLabel(m){
 function playLabel(m){
   if(!m) return "";
   if(m.play==="manager") return m.mc ? "The Dugout · Pick One" : "The Dugout";
-  if(m.play==="pitch") return m.mc ? "One on One · Pick One" : "One on One";
+  if(m.play==="pitch") return (m.mc ? "One on One · Pick One" : "One on One") + (m.qsrc==="classic" && m.mode!=="classic" ? " · general questions" : "");
   return m.mc ? "Multiple choice" : "";
 }
 /* THE RECORD BOOK HAS TO SURVIVE THE APP BEING SHUT.
@@ -8841,6 +8905,8 @@ const IPATHS = {
   route:'<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>',
   clock:'<circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/>',
   inf:'<path d="M18.5 8.5a3.5 3.5 0 1 1 0 7c-3.5 0-6.5-7-10-7a3.5 3.5 0 1 0 0 7c3.5 0 6.5-7 10-7z"/>',
+  /* a goal frame with the net drawn in and the ball on the line */
+  goal:'<path d="M3 21V7h18v14"/><path d="M8 7v14M13 7v14M18 7v14M3 12h18M3 17h18"/><circle cx="12" cy="15.5" r="2.4" fill="currentColor" stroke="none"/>',
   flag:'<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>',
   book:'<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>',
   hand:'<path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 0 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.51-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/>',
@@ -8978,6 +9044,11 @@ function deckFor(){
      missing feature. A registered quiz still gets null when its deck has not
      landed: that is gated at kick-off and must not silently serve Classic. */
   if(!isQuiz(S.mode)) return BANK;
+  /* GENERAL QUESTIONS ON A LEAGUE PITCH. The sides, the crests and the pool
+     stay the league's; only the deck the ball draws from changes. S.used is
+     per match and the deck is fixed for the match, so the indexes stay
+     honest. A save from before this existed has no qsrc and reads as "own". */
+  if(S.qsrc==="classic" && S.mode!=="classic" && isPitch(S.play)) return S.mc ? (DECKS["classic-mc"] || null) : BANK;
   return DECKS[S.mc ? S.mode + "-mc" : S.mode] || null;
 }
 function bankFor(t){ const d = deckFor(); return d ? d[t] : null; }
@@ -18844,9 +18915,13 @@ function render(){
      shelf, it is a question, and a card greyed out for not being collected
      would be asking about a man you cannot see. */
   if(S.phase==="cp_play" || S.phase==="cp_show"){
-    const d=S.cap, A=CAPS[d.a], B=CAPS[d.b];
+    /* sx and not st: st is the stage element in this function, and a const
+       with the same name in this block would quietly point st.innerHTML at
+       the stats table instead of the page. It did, for one build. */
+    const sx=statOf(), bank=sx.bank();
+    const d=S.cap, A=bank[d.a], B=bank[d.b];
     const shown = S.phase==="cp_show";
-    const winner = A.caps > B.caps ? "a" : "b";
+    const winner = A[sx.key] > B[sx.key] ? "a" : "b";
     const card=(p,side)=>{
       const m = capsMan(p);
       /* HIS ROW WENT MISSING, which can only happen if a pool was refetched
@@ -18867,25 +18942,25 @@ function render(){
               onclick="capsPick('${side}')" ${shown?"disabled":""}>
         ${face}
         <div class="capsname">${esc(p.full || p.n)}<i>${esc(p.side)}</i></div>
-        <div class="capsv">${shown?`<b>${p.caps}</b><i>caps</i>`:"<b>?</b>"}</div>
+        <div class="capsv">${shown?`<b>${p[sx.key]}</b><i>${sx.unit}</i>`:"<b>?</b>"}</div>
       </button>`;
     };
     st.innerHTML = `
-      <div class="kick">Caps · ${esc(S.players[S.turn].name)}'s run · Round ${S.round}${S.target?" · 🏁 first to "+S.target:""}</div>
-      <h1 class="title" style="font-size:clamp(1.5rem,7vw,2rem)">Who has more caps?</h1>
+      <div class="kick">${esc(matchLabel(S))} · ${esc(S.players[S.turn].name)}'s run · Round ${S.round}${S.target?" · 🏁 first to "+S.target:""}</div>
+      <h1 class="title" style="font-size:clamp(1.5rem,7vw,2rem)">${sx.title}</h1>
       <div class="capsrow">${card(A,"a")}${card(B,"b")}</div>
       ${d.streak && (!shown || d.right)
         ? `<div class="potpill">${d.streak} in a row${d.streak%5?` · ${5-d.streak%5} more pays +10`:" · +10 banked"}</div>`
         : ""}
       ${shown?`
-      <div class="hint" style="text-align:center">${esc(A.n)} ${A.caps} for ${esc(A.side)} · ${esc(B.n)} ${B.caps} for ${esc(B.side)}</div>
+      <div class="hint" style="text-align:center">${esc(A.n)} ${A[sx.key]} for ${esc(A.side)} · ${esc(B.n)} ${B[sx.key]} for ${esc(B.side)}</div>
       <div class="spacer"></div>
       ${d.right
         ? `<button class="bigbtn ok" onclick="capsOn()">Right, keep going<kbd>Space</kbd></button>`
         : `<div class="hint" style="text-align:center">Run over. ${esc(S.players[S.turn].name)} kept ${d.streak} of them.</div>
            <button class="bigbtn" onclick="capsNextPlayer()">Next player<kbd>Space</kbd></button>`}`
       :`
-      <div class="hint" style="text-align:center">Appearances for his country, career total. The app knows, so there is nothing to argue about until afterwards.</div>
+      <div class="hint" style="text-align:center">${sx.line}</div>
       <div class="spacer"></div>
       <div class="foot"><button class="bigbtn ghost" onclick="askEnd()">Full-time whistle</button></div>`}`;
     return;
@@ -19118,10 +19193,16 @@ const MODE_META = (()=>{ const m={};
    there for three people round one phone, which the pitch cannot do. */
 let setupPlay = "pitch";
 let setupMc = false;
+/* WHOSE QUESTIONS ON THE PITCH. A league quiz on the pitch asks that league's
+   deck by default, which is what makes it that league's quiz. The table asked
+   for the other option too: play as Liverpool against Everton and be asked
+   about football in general. "own" is the quiz's deck, "classic" is the whole
+   bank, and it only means anything on the pitch with a league picked. */
+let setupSrc = "own";
 /* Is this combination actually playable yet? A deck that has not landed, or a
    set of teams that has not, dims the mode rather than letting somebody kick
    off into a blank pitch. */
-function modeReady(id, play, mc){
+function modeReady(id, play, mc, src){
   if(!id) return false;
   if(id==="career") return true;
   /* the dugout deck is a fetch, so it is ready when it has landed. Career Path
@@ -19132,8 +19213,12 @@ function modeReady(id, play, mc){
      is drawn out of the pool the man came from. A bank that has landed while
      the squads are still in the air would deal two cards with no kit, no flag
      and no number on them. capsPool() is the one that decides, per man. */
-  if(id==="caps")   return !!(CAPS && CAPS.length && capsReady().length >= 2);
-  if(!DECKS[mc ? id + "-mc" : id]) return false;
+  if(id==="caps")   return !!(CAPS && CAPS.length && capsReady("caps").length >= 2);
+  if(id==="goals")  return !!(GOALS && GOALS.length && capsReady("goals").length >= 2);
+  /* general questions on a league pitch read the classic deck, so that is
+     the one that has to have landed; the league's own can still be in the air */
+  const deckId = (src==="classic" && isQuiz(id) && id!=="classic") ? "classic" : id;
+  if(!DECKS[mc ? deckId + "-mc" : deckId]) return false;
   /* a quiz can go on a pitch if its DEFAULT POOL has landed. It is the pool
      that supplies the elevens, and the quiz only names which one to start
      with. */
@@ -19141,7 +19226,7 @@ function modeReady(id, play, mc){
   return true;
 }
 /* and is it playable in ANY combination, which is what greys out a tile */
-const modeLive = id => id==="career" || id==="mgr" || id==="badge" || id==="caps" ? modeReady(id) :
+const modeLive = id => id==="career" || id==="mgr" || id==="badge" || id==="caps" || id==="goals" ? modeReady(id) :
   !!(DECKS[id] || DECKS[id + "-mc"]);
 let setupTarget = 100;
 // keep whatever names are already typed when flipping a toggle
@@ -19163,6 +19248,7 @@ function setMode(m){ snapshotNames(); setupMode=m;
   if(!isQuiz(m))   setupMc=false;
   if(isPitch(setupPlay)){ setupCount=2; setupRef=false; }   // two players, no referee
   modesOpen=false; extraOpen=false; render(); }
+function setSrc(v){ snapshotNames(); setupSrc=v; render(); }
 function setPlay(v){
   snapshotNames(); setupPlay=v;
   if(isPitch(v)){ setupCount=2; setupRef=false; }
@@ -21283,6 +21369,12 @@ function renderSetup(st){
         <div class="mm-eyebrow">The questions</div>
         ${seg([{label:"Read aloud", on:!setupMc, go:"setMc(false)", off:!DECKS[setupMode] && setupMode!=="classic"},
                {label:"Multiple choice", on:setupMc, go:"setMc(true)", off:!DECKS[setupMode+"-mc"]}])}
+        ${isPitch(setupPlay) && setupMode!=="classic"?`
+        ${seg([{label:(QUIZZES[setupMode]||{}).label+" questions", on:setupSrc!=="classic", go:"setSrc('own')"},
+               {label:"General football", on:setupSrc==="classic", go:"setSrc('classic')"}])}
+        <div class="mm-note">${setupSrc==="classic"
+          ? "You still play as two of its clubs, with their crests and their elevens. The ball draws from the whole bank instead of this league's deck."
+          : "The ball draws from this league's own deck. Switch to general football to keep the clubs and ask about anything."}</div>`:""}
       </div>`:""}
 
       ${isPitch(setupPlay)?`<div class="mm-sect">
@@ -21337,7 +21429,7 @@ function renderSetup(st){
         <button class="mm-ghost" onclick="openBoard()">The Table · ${books().length} match${books().length===1?"":"es"}${crewName()?" · "+esc(crewName()):""}</button>`:""}
         <details class="rules">
           <summary>${ico('book')}Rules</summary>
-          <div class="hint"><b>The three ways to play.</b> <b>The Board</b> is the quiz itself: pick a difficulty, answer out loud, take the points, and the others can steal it. <b>One on One</b> is a match between two of you: the ball moves by answering, and how far it travels is how hard the question is. <b>The Dugout</b> is One on One with an eleven you picked yourself, and a ball to a man draws a question from a league he actually played in. <b>What you answer.</b> <b>Let's Ball</b> is the whole bank, 6,984 questions across five tiers. Then twelve leagues, six top flights and the second division under each of them, each with its own deck: the Eredivisie and the Eerste Divisie, the Premier League and the Championship, La Liga and the Segunda, the Bundesliga and the 2. Bundesliga, Serie A and Serie B, the Pro League and the Challenger Pro League. The second divisions live on their own shelf in the drawer. <b>Four you play on the board only.</b> <b>Career Path:</b> club crests appear one by one in the order he played for them, and you shout the player. Guess on the first crest for +15, every extra crest costs 3, never below +3, and a wrong guess is minus 2 and locks you out. <b>Manager Path:</b> the same game with the men in the dugout. <b>Badge Zoom:</b> a crest cropped right in, and you name the club. <b>Caps:</b> two album cards side by side, and you tap the one who played more times for his country. 427 men who got to a hundred caps, never a dead heat and never more than thirty apart, so it is always a question. +1 each time and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. <b>On the pitch.</b> The ladder is distance: a ball to a centre-back is Easy, to the six is Hard, to the ten is Extreme, and anything from the back four straight into the front three is a BALL question however short it looks. Backwards and square are Easy. Get it wrong and your opponent picks the ball up where you lost it. Three short balls in a row and he comes for it. From the front three you can shoot, and his keeper gets one question to keep it out. First to two, or ninety minutes, then penalties. <b>Tackles.</b> With them on, the man without the ball secretly marks two of your eleven at the start of every possession, and those marks stand until the ball changes hands. A pass into a marked man is his question to win the ball; miss it and it is a foul, a booking, and a penalty if it was in the box. Two yellows for the same man is a red, and he leaves the pitch. Three substitutions a match, offered the moment one of your men gets a question wrong. <b>The Cup, the Album and Your XI.</b> Take a nation through a real World Cup against the computer, seven matches, saved between them. Every pack and every Daily Ball fills the album, 736 men from 2006, and you can only field men you have collected. <b>The Daily Ball</b> is six questions for one sticker, the same man on every phone. <b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Play together:</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone. <b>The Table:</b> every finished match is filed on the phone that played it. Type the same shared table name on all three phones to keep one table between you. Tap the pencil on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
+          <div class="hint"><b>The three ways to play.</b> <b>The Board</b> is the quiz itself: pick a difficulty, answer out loud, take the points, and the others can steal it. <b>One on One</b> is a match between two of you: the ball moves by answering, and how far it travels is how hard the question is. <b>The Dugout</b> is One on One with an eleven you picked yourself, and a ball to a man draws a question from a league he actually played in. <b>What you answer.</b> <b>Let's Ball</b> is the whole bank, 6,984 questions across five tiers. Then twelve leagues, six top flights and the second division under each of them, each with its own deck: the Eredivisie and the Eerste Divisie, the Premier League and the Championship, La Liga and the Segunda, the Bundesliga and the 2. Bundesliga, Serie A and Serie B, the Pro League and the Challenger Pro League. The second divisions live on their own shelf in the drawer. <b>Four you play on the board only.</b> <b>Career Path:</b> club crests appear one by one in the order he played for them, and you shout the player. Guess on the first crest for +15, every extra crest costs 3, never below +3, and a wrong guess is minus 2 and locks you out. <b>Manager Path:</b> the same game with the men in the dugout. <b>Badge Zoom:</b> a crest cropped right in, and you name the club. <b>Caps:</b> two album cards side by side, and you tap the one who played more times for his country. Men who got to a hundred caps, never closer than five apart and never more than thirty, so it is always a question and never a coin toss. <b>Goals:</b> the same two cards, and you tap the one who scored more for his country, from the men with fifty or more. +1 each time and five in a row pays +10 on top; the first one you get wrong ends your run and passes the phone. <b>On the pitch.</b> The ladder is distance: a ball to a centre-back is Easy, to the six is Hard, to the ten is Extreme, and anything from the back four straight into the front three is a BALL question however short it looks. Backwards and square are Easy. Get it wrong and your opponent picks the ball up where you lost it. Three short balls in a row and he comes for it. From the front three you can shoot, and his keeper gets one question to keep it out. First to two, or ninety minutes, then penalties. <b>Tackles.</b> With them on, the man without the ball secretly marks two of your eleven at the start of every possession, and those marks stand until the ball changes hands. A pass into a marked man is his question to win the ball; miss it and it is a foul, a booking, and a penalty if it was in the box. Two yellows for the same man is a red, and he leaves the pitch. Three substitutions a match, offered the moment one of your men gets a question wrong. <b>The Cup, the Album and Your XI.</b> Take a nation through a real World Cup against the computer, seven matches, saved between them. Every pack and every Daily Ball fills the album, 736 men from 2006, and you can only field men you have collected. <b>The Daily Ball</b> is six questions for one sticker, the same man on every phone. <b>Referee mode:</b> two play, the third holds the phone, reads everything and hands out the points, and the ref's word is final. <b>Play together:</b> one phone hosts and keeps the score, the others join with the room code and play their own turn from their own phone. <b>The Table:</b> every finished match is filed on the phone that played it. Type the same shared table name on all three phones to keep one table between you. Tap the pencil on a scoreboard tab to fix a score, or the yellow card to book a player.</div>
         </details>
         ${isStandalone()?"":`<button class="mm-quiet" onclick="installApp()">Add BALL 3 to your home screen</button>`}
         <div class="buildline" onclick="freshen()" title="Tap to fetch the newest one">${esc(BUILD)}</div>
@@ -21444,11 +21536,15 @@ function startGame(){
   /* PICK ONE, AGAINST A COMPUTER, ALWAYS. It cannot judge a spoken answer, and
      a human marking his own against a machine is not a game. */
   const mc = solo ? true : setupMc;
-  if(!modeReady(setupMode, setupPlay, mc)){
+  /* general questions are only an option on the pitch with a league picked;
+     everywhere else the quiz asks its own deck, which for Let's Ball is the
+     same thing */
+  const src = isPitch(setupPlay) && isQuiz(setupMode) && setupMode!=="classic" ? setupSrc : "own";
+  if(!modeReady(setupMode, setupPlay, mc, src)){
     toast("That deck is still loading, give it a second", true); return;
   }
   if(solo) names.push(AI_MEN[setupAi].label);
-  S=freshState(names, setupTimed, setupMode, setupTarget, setupPlay, mc);
+  S=freshState(names, setupTimed, setupMode, setupTarget, setupPlay, mc, src);
   if(solo){
     S.players[1].ai = setupAi;
     S.players[1].level = setupAiLevel;
@@ -21459,7 +21555,7 @@ function startGame(){
   }
   modeIntro(matchLabel(S));   // first, so anything that deals waits for it
   if(S.mode==="career") newCareer();
-  if(S.mode==="caps") newCaps();
+  if(S.mode==="caps" || S.mode==="goals") newCaps();
   if(isPitch(S.play)) h2Start();
   render();
 }
@@ -21497,7 +21593,7 @@ function resumeGame(){
   }
   if(!S.usedX) S.usedX=[]; if(!S.usedT) S.usedT=[]; // saves from before xi/timeline existed
   if(S.rr===undefined){ S.rr=false; S.rrTurn=0; S.rrLast=null; } // saves from before Let's Ball
-  if(!modeReady(S.mode, S.play, S.mc)){ toast("That deck is still loading, give it a second", true); return; }
+  if(!modeReady(S.mode, S.play, S.mc, S.qsrc)){ toast("That deck is still loading, give it a second", true); return; }
   if(!S.usedA) S.usedA=[];                 // saves from before alumni existed
   if(!S.usedW) S.usedW=[];                 // saves from before the wall existed
   if(!S.usedY) S.usedY=[];                 // saves from before the mystery man existed
@@ -21516,7 +21612,8 @@ function resumeGame(){
   if(["c_who","c_judge"].includes(S.phase)) S.phase="c_play";
   if(S.mode==="career" && !S.career) newCareer();
   if(!S.usedCP) S.usedCP=[];               // saves from before the caps mode existed
-  if(S.mode==="caps" && !S.cap) newCaps();
+  if(!S.usedGL) S.usedGL=[];               // saves from before the goals mode existed
+  if((S.mode==="caps" || S.mode==="goals") && !S.cap) newCaps();
   if(isPitch(S.play) && !S.h2h) h2Start();   // a save from before the mode existed
   if(S.h2h){
     /* saves from before the tackle existed */

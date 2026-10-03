@@ -75,6 +75,22 @@ const lost = bank.filter(p => {
 check("every man in the bank is still in the book it says he is in",
   lost.length === 0, lost.slice(0, 4).map(p => p.full + " (" + p.pool + "/" + p.side + ")").join(", "));
 
+/* IS THIS THE RIGHT PEPE. The header above says there is no clever test for
+   it. There is one, and it is not clever: the list prints his country beside
+   him and the card knows which side it belongs to, and they have to agree.
+   The first shipped bank had four men wearing another man's card (Uruguay's
+   Suárez on Colombia's, among them) and this is the check that was missing.
+   Older codes are the same country: FRG is GER, SCG is SRB. */
+const SAME = {FRG: "GER", GDR: "GER", SCG: "SRB", YUG: "SRB", TCH: "CZE", URS: "RUS", CIS: "RUS",
+              CHL: "CHI", QTR: "QAT", DRC: "COD", ZAI: "COD", LAT: "LVA", HOL: "NED", ROM: "ROU"};
+const otherMan = bank.filter(p => {
+  const t = (pools[p.pool] || {})[p.side];
+  const card = ((t && t.abbr) || p.abbr || "").toUpperCase();
+  return card && (SAME[card] || card) !== (SAME[p.nat] || p.nat);
+});
+check("every card belongs to the nation the list says he played for", otherMan.length === 0,
+  otherMan.slice(0, 4).map(p => p.n + " list=" + p.nat + " card=" + p.side).join(", "));
+
 /* and the side he is filed under has what a sticker needs */
 const naked = bank.filter(p => {
   const t = (pools[p.pool] || {})[p.side] || {};
@@ -94,9 +110,22 @@ console.log("\n--- the pair it deals ---");
 
   check("the mode reads as ready once the bank and the books are in",
     ev(app, 'modeReady("caps")') === true, ev(app, 'modeReady("caps")'));
-  check("and every man in the bank resolves to a row in his book",
-    ev(app, "capsReady().length") === bank.length,
-    ev(app, "capsReady().length") + " of " + bank.length);
+  /* EVERY MAN RESOLVES TO A CARD, which the disk check above already proved,
+     but NOT every man is dealt: the least-known quarter by English pageviews
+     stays on the shelf, because the table asked for fewer Saudis and Qataris
+     and this is the measure that tells them apart from Buffon. So the pool is
+     smaller than the bank by about a quarter, and everyone left out has to be
+     less known than everyone kept in, or the floor is just random. */
+  const ready = JSON.parse(ev(app, "JSON.stringify(capsReady('caps'))"));
+  check("the least-known quarter is kept off the table",
+    ready.length >= Math.floor(bank.length * 0.7) && ready.length <= Math.ceil(bank.length * 0.8),
+    ready.length + " of " + bank.length + " dealt");
+  const inFame = ready.map(i => bank[i].fame || 0), outFame = bank.map((p, i) => ready.includes(i) ? null : (p.fame || 0)).filter(v => v !== null);
+  check("and everyone left out is less known than everyone kept",
+    !outFame.length || Math.max(...outFame) <= Math.min(...inFame),
+    "shelf max " + Math.max(...outFame) + " vs table min " + Math.min(...inFame));
+  check("the bank carries a fame figure for everybody", bank.every(p => Number.isInteger(p.fame)),
+    bank.filter(p => !Number.isInteger(p.fame)).length + " without");
 
   run(app, 'setMode("caps"); startGame();');
   await tick(300);

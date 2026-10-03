@@ -149,9 +149,14 @@ const TIERS = ["easy", "normal", "hard", "extreme", "ball"];
      being setupMc when the computer arrived, because a match against it is
      Pick One whether you asked for that or not, and a test that greps for the
      variable name fails on a rename that changed nothing it cared about. */
+  /* The gate grew a fourth argument on 3 Oct 2026, the question source, when
+     One on One learned to ask general questions on a league pitch. Allowed
+     here as optional, for the reason the comment above gives: the test cares
+     that the combination is gated, not how many axes the combination has. */
   check("starting is gated on the combination",
-    /modeReady\(setupMode,\s*setupPlay,\s*\w+\)/.test(html), "no start gate");
-  check("resuming is gated on the combination", html.indexOf("modeReady(S.mode, S.play, S.mc)") > 0, "no resume gate");
+    /modeReady\(setupMode,\s*setupPlay,\s*\w+(?:,\s*\w+)?\)/.test(html), "no start gate");
+  check("resuming is gated on the combination",
+    /modeReady\(S\.mode,\s*S\.play,\s*S\.mc(?:,\s*S\.\w+)?\)/.test(html), "no resume gate");
 
   console.log("\n--- a go ---");
   run(app, 'S = freshState(["Ale","Bram","Martijn"], false, "ere", 0, "board", false); render();');
