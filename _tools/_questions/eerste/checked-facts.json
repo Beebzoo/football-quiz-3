@@ -612,12 +612,12 @@
  {
   "tier": "hard",
   "cat": "relegation",
-  "q": "Which clubs went down from the Eerste Divisie in 2017-18?",
-  "a": "Jong FC Utrecht",
+  "q": "Which club went down from the Eerste Divisie in 2016-17?",
+  "a": "Achilles '29",
   "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Eerste_Divisie",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped hard 18."
  },
  {
   "tier": "extreme",

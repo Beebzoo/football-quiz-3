@@ -3937,6 +3937,881 @@
    "q": "Which Frenchman opened the scoring for Real Madrid in their 3-0 Intercontinental Cup final win over Pachuca in December 2024?",
    "a": "Kylian Mbappé",
    "cat": "scorers"
+  },
+  {
+   "q": "Which Welsh club won the FA Cup in 1927, beating Arsenal 1-0 at Wembley?",
+   "a": "Cardiff City",
+   "cat": "cups"
+  },
+  {
+   "q": "Which north-east club are nicknamed the Black Cats?",
+   "a": "Sunderland",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club's fans adopted the self-mocking nickname the Tractor Boys during their 2000 to 2002 Premier League spell?",
+   "a": "Ipswich Town",
+   "cat": "stories"
+  },
+  {
+   "q": "AFC Bournemouth are nicknamed after which fruit?",
+   "a": "Cherries",
+   "cat": "stories"
+  },
+  {
+   "q": "Which nickname do Luton Town, of Kenilworth Road, go by?",
+   "a": "The Hatters",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club's fans sing the Geordie folk song Blaydon Races?",
+   "a": "Newcastle United",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the Steel City derby?",
+   "a": "Sheffield United and Sheffield Wednesday",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the Edinburgh derby?",
+   "a": "Hearts and Hibernian",
+   "cat": "stories"
+  },
+  {
+   "q": "Sunderland contest the Tyne-Wear derby against which club?",
+   "a": "Newcastle United",
+   "cat": "stories"
+  },
+  {
+   "q": "Cardiff City contest the South Wales derby against which club?",
+   "a": "Swansea City",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Welsh club was formed in October 1864 at the Turf Tavern, later the Turf Hotel?",
+   "a": "Wrexham",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Edinburgh club play their home games at Easter Road?",
+   "a": "Hibernian",
+   "cat": "grounds"
+  },
+  {
+   "q": "Burnley's nickname comes from the colour they adopted in 1910. What is it?",
+   "a": "The Clarets",
+   "cat": "stories"
+  },
+  {
+   "q": "Which south coast club are nicknamed Pompey and play at Fratton Park?",
+   "a": "Portsmouth",
+   "cat": "stories"
+  },
+  {
+   "q": "Derby County's nickname honours their links with an old militia regiment, whose mascot was what animal?",
+   "a": "A ram, they are the Rams",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club are nicknamed the Robins and play at Ashton Gate?",
+   "a": "Bristol City",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club traditionally play in old gold shirts at Molineux?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club, nicknamed the Lions, moved to The Den in New Cross in 1910?",
+   "a": "Millwall",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which colour, with white, do Hearts of Edinburgh traditionally wear?",
+   "a": "Maroon",
+   "cat": "stories"
+  },
+  {
+   "q": "Wrexham are a Welsh club. In which country's league system do they play?",
+   "a": "England's",
+   "cat": "stories"
+  },
+  {
+   "q": "Belfast club Linfield play their football in which country?",
+   "a": "Northern Ireland",
+   "cat": "stories"
+  },
+  {
+   "q": "Who kept goal for England in the 1966 World Cup final?",
+   "a": "Gordon Banks",
+   "cat": "stories"
+  },
+  {
+   "q": "Which colour is the main shirt colour of Edinburgh club Hibernian?",
+   "a": "Green",
+   "cat": "stories"
+  },
+  {
+   "q": "Schalke were 4-0 down at Dortmund after 25 minutes in November 2017. How did the derby finish?",
+   "a": "4-4",
+   "cat": "stories"
+  },
+  {
+   "q": "Marseille's Stade Vélodrome takes its name from the sport it was first built for. Which sport?",
+   "a": "Cycling",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which famous race used the Parc des Princes, PSG's future home, as its finish for decades?",
+   "a": "The Tour de France",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which two clubs shared Turin's Stadio delle Alpi from 1990 until 2006?",
+   "a": "Juventus and Torino",
+   "cat": "grounds"
+  },
+  {
+   "q": "Turin's Stadio delle Alpi was built for which tournament?",
+   "a": "The 1990 World Cup",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which English manager won a cup treble in his only season in charge of Barcelona, 1996-97?",
+   "a": "Bobby Robson",
+   "cat": "managers"
+  },
+  {
+   "q": "Juventus were founded in Turin in 1897 by which group of people?",
+   "a": "Pupils from a secondary school, the Massimo d'Azeglio Lyceum",
+   "cat": "stories"
+  },
+  {
+   "q": "Milan were founded by Englishman Herbert Kilpin in 1899 as a club for football and which other sport?",
+   "a": "Cricket",
+   "cat": "stories"
+  },
+  {
+   "q": "Atlético Madrid's old Vicente Calderón stadium was named after which kind of figure at the club?",
+   "a": "Their long-serving president",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Paris landmark appears in red on the Paris Saint-Germain badge?",
+   "a": "The Eiffel Tower",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs meet in the Genoa derby, the Derby della Lanterna?",
+   "a": "Genoa and Sampdoria",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs meet in Le Classique, France's biggest rivalry?",
+   "a": "Paris Saint-Germain and Marseille",
+   "cat": "stories"
+  },
+  {
+   "q": "Saint-Étienne's fiercest rivals are based about 50 kilometres away. Which club?",
+   "a": "Lyon",
+   "cat": "stories"
+  },
+  {
+   "q": "The Nordderby in northern Germany is Hamburger SV against which club?",
+   "a": "Werder Bremen",
+   "cat": "stories"
+  },
+  {
+   "q": "What does the 04 in the name Schalke 04 refer to?",
+   "a": "The year the club was founded, 1904",
+   "cat": "stories"
+  },
+  {
+   "q": "Bayern's squad of the mid-1990s made more headlines in the gossip pages than on the pitch. What were they nicknamed?",
+   "a": "FC Hollywood",
+   "cat": "stories"
+  },
+  {
+   "q": "Which bird is the traditional symbol on Lazio's badge?",
+   "a": "The eagle",
+   "cat": "stories"
+  },
+  {
+   "q": "Fiorentina are nicknamed I Gigliati after the symbol of Florence. Which flower is it?",
+   "a": "The lily",
+   "cat": "stories"
+  },
+  {
+   "q": "Which animal, the symbol of Turin, appears on Torino's badge?",
+   "a": "A bull",
+   "cat": "stories"
+  },
+  {
+   "q": "Nantes are nicknamed Les Canaris. What does it mean?",
+   "a": "The Canaries",
+   "cat": "stories"
+  },
+  {
+   "q": "Barcelona's founder Joan Gamper came from which country?",
+   "a": "Switzerland",
+   "cat": "stories"
+  },
+  {
+   "q": "Which colour do Fiorentina play in, giving them the nickname La Viola?",
+   "a": "Purple",
+   "cat": "stories"
+  },
+  {
+   "q": "Which German club beat Saint-Étienne 1-0 in the 1976 European Cup final at Hampden Park?",
+   "a": "Bayern Munich",
+   "cat": "europe"
+  },
+  {
+   "q": "Marseille owner Bernard Tapie also owned which German sportswear brand from 1990 to 1993?",
+   "a": "Adidas",
+   "cat": "stories"
+  },
+  {
+   "q": "Grande Torino captain Valentino Mazzola had a son, Sandro, who became a legend at which club?",
+   "a": "Inter Milan",
+   "cat": "stories"
+  },
+  {
+   "q": "Which English club is nicknamed the Tractor Boys?",
+   "a": "Ipswich Town",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Hertfordshire club is nicknamed the Hornets?",
+   "a": "Watford",
+   "cat": "stories"
+  },
+  {
+   "q": "Which west London club is nicknamed the Bees?",
+   "a": "Brentford",
+   "cat": "stories"
+  },
+  {
+   "q": "Which south coast club is nicknamed the Cherries?",
+   "a": "Bournemouth",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club from Wearside is nicknamed the Black Cats?",
+   "a": "Sunderland",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club's nickname Blaugrana comes from the blue and deep red of its shirts?",
+   "a": "Barcelona",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed El Tri?",
+   "a": "Mexico",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed La Celeste, the sky blue?",
+   "a": "Uruguay",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed the Boys in Green?",
+   "a": "The Republic of Ireland",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed the Dragons?",
+   "a": "Wales",
+   "cat": "stories"
+  },
+  {
+   "q": "Takefusa Kubo has played international football for which country?",
+   "a": "Japan",
+   "cat": "stories"
+  },
+  {
+   "q": "Hakan Çalhanoğlu has played international football for which country?",
+   "a": "Turkey",
+   "cat": "stories"
+  },
+  {
+   "q": "Dušan Vlahović has played international football for which country?",
+   "a": "Serbia",
+   "cat": "stories"
+  },
+  {
+   "q": "Michael Essien played international football for which country?",
+   "a": "Ghana",
+   "cat": "stories"
+  },
+  {
+   "q": "Which London club signed Michael Essien from Lyon in 2005?",
+   "a": "Chelsea",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Rasmus Højlund join from Atalanta in 2023?",
+   "a": "Manchester United",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Cole Palmer leave to join Chelsea in 2023?",
+   "a": "Manchester City",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club signed Marouane Fellaini from Everton in 2013?",
+   "a": "Manchester United",
+   "cat": "transfers"
+  },
+  {
+   "q": "Marouane Fellaini played international football for which country?",
+   "a": "Belgium",
+   "cat": "stories"
+  },
+  {
+   "q": "Which London club did Leandro Trossard join from Brighton in January 2023?",
+   "a": "Arsenal",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did the Belgian winger Jérémy Doku join from Rennes in 2023?",
+   "a": "Manchester City",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which English club signed Tijjani Reijnders from AC Milan in 2025?",
+   "a": "Manchester City",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Joshua Zirkzee join from Bologna in 2024?",
+   "a": "Manchester United",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Jeremie Frimpong join from Bayer Leverkusen in 2025?",
+   "a": "Liverpool",
+   "cat": "transfers"
+  },
+  {
+   "q": "Noussair Mazraoui has played international football for which country?",
+   "a": "Morocco",
+   "cat": "stories"
+  },
+  {
+   "q": "Adnan Januzaj, who chose to play for Belgium, broke through at which English club?",
+   "a": "Manchester United",
+   "cat": "stories"
+  },
+  {
+   "q": "Trent Alexander-Arnold left Liverpool in 2025 to join which club?",
+   "a": "Real Madrid",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club signed Hugo Ekitike from Eintracht Frankfurt in 2025?",
+   "a": "Liverpool",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club signed Matheus Cunha from Wolves in 2025?",
+   "a": "Manchester United",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club signed Martín Zubimendi from Real Sociedad in 2025?",
+   "a": "Arsenal",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which London club signed Viktor Gyökeres from Sporting in 2025?",
+   "a": "Arsenal",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Mason Mount join from Chelsea in 2023?",
+   "a": "Manchester United",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which London club signed Enzo Fernández from Benfica in January 2023?",
+   "a": "Chelsea",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club signed Moisés Caicedo from Brighton in 2023?",
+   "a": "Chelsea",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club signed Alexis Mac Allister from Brighton in 2023?",
+   "a": "Liverpool",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which English club did Raphinha leave to join Barcelona in 2022?",
+   "a": "Leeds United",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Antonio Rüdiger leave to join Real Madrid in 2022?",
+   "a": "Chelsea",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did James Maddison leave to join Tottenham in 2023?",
+   "a": "Leicester City",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Sandro Tonali leave to join Newcastle in 2023?",
+   "a": "AC Milan",
+   "cat": "transfers"
+  },
+  {
+   "q": "Dominik Szoboszlai has played international football for which country?",
+   "a": "Hungary",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club did Casemiro leave to join Manchester United in 2022?",
+   "a": "Real Madrid",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Portuguese club sold Darwin Núñez to Liverpool in 2022?",
+   "a": "Benfica",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Federico Chiesa leave to join Liverpool in 2024?",
+   "a": "Juventus",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which shirt number did Thierry Henry wear at Arsenal from 1999 to 2007?",
+   "a": "14",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Steven Gerrard wear for most of his Liverpool career?",
+   "a": "8",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Eric Cantona wear at Manchester United, collar turned up?",
+   "a": "7",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Arjen Robben wear at Bayern Munich?",
+   "a": "10",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Wayne Rooney wear for most of his Manchester United career?",
+   "a": "10",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Bukayo Saka take at Arsenal in 2020?",
+   "a": "7",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Francesco Totti wear at Roma from 1997 until he retired?",
+   "a": "10",
+   "cat": "stories"
+  },
+  {
+   "q": "Which forward took Real Madrid's number 10 shirt after Luka Modrić left in 2025?",
+   "a": "Kylian Mbappé",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Raúl wear at Real Madrid from 1996 to 2010?",
+   "a": "7",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Sergio Ramos wear at Real Madrid?",
+   "a": "4",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Andrés Iniesta wear for most of his Barcelona career?",
+   "a": "8",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Lamine Yamal take at Barcelona in 2025?",
+   "a": "10",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country was chosen in 2024 to host the 2034 World Cup?",
+   "a": "Saudi Arabia",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Harry Kane wear at Tottenham from 2015 until he left in 2023?",
+   "a": "10",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2023 Vinícius Júnior swapped his number 20 for which famous Real Madrid number?",
+   "a": "7",
+   "cat": "stories"
+  },
+  {
+   "q": "Wolverhampton Wanderers traditionally play at home in shirts of which colour?",
+   "a": "Old gold",
+   "cat": "stories"
+  },
+  {
+   "q": "Norwich City traditionally play at home in yellow and which other colour?",
+   "a": "Green",
+   "cat": "stories"
+  },
+  {
+   "q": "Sporting of Lisbon traditionally play in horizontal stripes of white and which colour?",
+   "a": "Green",
+   "cat": "stories"
+  },
+  {
+   "q": "Porto's traditional home shirt has stripes of white and which other colour?",
+   "a": "Blue",
+   "cat": "stories"
+  },
+  {
+   "q": "Benfica traditionally play at home in shirts of which colour?",
+   "a": "Red",
+   "cat": "stories"
+  },
+  {
+   "q": "Werder Bremen's traditional club colours are white and which other colour?",
+   "a": "Green",
+   "cat": "stories"
+  },
+  {
+   "q": "Since 1986, Olympique de Marseille have played at home in which colour?",
+   "a": "White",
+   "cat": "stories"
+  },
+  {
+   "q": "Since the early 1990s, Colombia's national team has played at home in which colour?",
+   "a": "Yellow",
+   "cat": "stories"
+  },
+  {
+   "q": "Ivory Coast's national team traditionally plays at home in which colour?",
+   "a": "Orange",
+   "cat": "stories"
+  },
+  {
+   "q": "Ukraine's national team traditionally plays at home in which colour?",
+   "a": "Yellow",
+   "cat": "stories"
+  },
+  {
+   "q": "What colours are Sunderland's traditional striped home shirts?",
+   "a": "Red and white",
+   "cat": "stories"
+  },
+  {
+   "q": "Leicester City traditionally play at home in which colour?",
+   "a": "Blue",
+   "cat": "stories"
+  },
+  {
+   "q": "Bayer Leverkusen's traditional colours are red and which other colour?",
+   "a": "Black",
+   "cat": "stories"
+  },
+  {
+   "q": "VfL Wolfsburg have played in white and which other colour since 1945?",
+   "a": "Green",
+   "cat": "stories"
+  },
+  {
+   "q": "Egypt's national team traditionally plays at home in which colour?",
+   "a": "Red",
+   "cat": "stories"
+  },
+  {
+   "q": "Ian Rush, the Liverpool goalscorer, played international football for which country?",
+   "a": "Wales",
+   "cat": "stories"
+  },
+  {
+   "q": "Kenny Dalglish played international football for which country?",
+   "a": "Scotland",
+   "cat": "stories"
+  },
+  {
+   "q": "Mexico's Javier Hernández is better known by which nickname, meaning little pea?",
+   "a": "Chicharito",
+   "cat": "stories"
+  },
+  {
+   "q": "Carlos Valderrama, known as El Pibe, played for which country?",
+   "a": "Colombia",
+   "cat": "stories"
+  },
+  {
+   "q": "Clint Dempsey, once of Tottenham, played for which country?",
+   "a": "The United States",
+   "cat": "stories"
+  },
+  {
+   "q": "Harry Kewell, the Leeds and Liverpool winger, played for which country?",
+   "a": "Australia",
+   "cat": "stories"
+  },
+  {
+   "q": "Emmanuel Adebayor, once of Arsenal and Manchester City, played for which country?",
+   "a": "Togo",
+   "cat": "stories"
+  },
+  {
+   "q": "Pierre-Emerick Aubameyang played international football for which country?",
+   "a": "Gabon",
+   "cat": "stories"
+  },
+  {
+   "q": "Hakim Ziyech was born in Dronten in the Netherlands. Which country did he choose to play for?",
+   "a": "Morocco",
+   "cat": "stories"
+  },
+  {
+   "q": "Nwankwo Kanu, of Ajax and Arsenal, played international football for which country?",
+   "a": "Nigeria",
+   "cat": "stories"
+  },
+  {
+   "q": "Hristo Stoichkov played international football for which country?",
+   "a": "Bulgaria",
+   "cat": "stories"
+  },
+  {
+   "q": "Gheorghe Hagi played international football for which country?",
+   "a": "Romania",
+   "cat": "stories"
+  },
+  {
+   "q": "Edin Džeko has played international football for which country?",
+   "a": "Bosnia and Herzegovina",
+   "cat": "stories"
+  },
+  {
+   "q": "Granit Xhaka has played international football for which country?",
+   "a": "Switzerland",
+   "cat": "stories"
+  },
+  {
+   "q": "Sami Hyypiä, the Liverpool centre-back, played for which country?",
+   "a": "Finland",
+   "cat": "stories"
+  },
+  {
+   "q": "Ole Gunnar Solskjær played international football for which country?",
+   "a": "Norway",
+   "cat": "stories"
+  },
+  {
+   "q": "Pavel Nedvěd played international football for which country?",
+   "a": "The Czech Republic",
+   "cat": "stories"
+  },
+  {
+   "q": "Arturo Vidal played international football for which country?",
+   "a": "Chile",
+   "cat": "stories"
+  },
+  {
+   "q": "James Rodríguez, once of Real Madrid and Bayern Munich, has played for which country?",
+   "a": "Colombia",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the Tyne-Wear derby?",
+   "a": "Newcastle United and Sunderland",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest Le Classique in France?",
+   "a": "Paris Saint-Germain and Marseille",
+   "cat": "stories"
+  },
+  {
+   "q": "Fans of which Manchester club adopted Blue Moon as their anthem?",
+   "a": "Manchester City",
+   "cat": "stories"
+  },
+  {
+   "q": "A match should not continue if a team is down to fewer than how many players?",
+   "a": "Seven",
+   "cat": "stories"
+  },
+  {
+   "q": "Can a player be offside while he is in his own half?",
+   "a": "No",
+   "cat": "stories"
+  },
+  {
+   "q": "Can a player be caught offside directly from a goal kick?",
+   "a": "No",
+   "cat": "stories"
+  },
+  {
+   "q": "Who won the Golden Ball as the best player of the 2026 World Cup?",
+   "a": "Rodri",
+   "cat": "cups"
+  },
+  {
+   "q": "Who won the Golden Boot at the 2026 World Cup, the first man to win it twice?",
+   "a": "Kylian Mbappé",
+   "cat": "scorers"
+  },
+  {
+   "q": "Erling Haaland scored twice as Norway knocked which five-time champions out of the 2026 World Cup?",
+   "a": "Brazil",
+   "cat": "cups"
+  },
+  {
+   "q": "Which four-time champions went out of the 2026 World Cup to Paraguay on penalties in the round of 32?",
+   "a": "Germany",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country beat England 2-1 in the semi-finals of the 2026 World Cup?",
+   "a": "Argentina",
+   "cat": "cups"
+  },
+  {
+   "q": "In June 2026, which 41-year-old became the first man to score at six different World Cups?",
+   "a": "Cristiano Ronaldo",
+   "cat": "records"
+  },
+  {
+   "q": "Which four-time world champions missed the 2026 World Cup, their third finals in a row without them?",
+   "a": "Italy",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Belgium goalkeeper went off injured in the 2026 World Cup quarter-final against Spain?",
+   "a": "Thibaut Courtois",
+   "cat": "stories"
+  },
+  {
+   "q": "After winning the 2026 World Cup, Spain held which other world title at the same time, a first for any country?",
+   "a": "The Women's World Cup",
+   "cat": "records"
+  },
+  {
+   "q": "Who scored a hat-trick in Argentina's 3-0 win over Algeria in their first game of the 2026 World Cup?",
+   "a": "Lionel Messi",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which country knocked Belgium out of the 2026 World Cup in the quarter-finals?",
+   "a": "Spain, 2-1",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country did Spain beat 2-0 in the semi-finals of the 2026 World Cup?",
+   "a": "France",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country did hosts Germany beat 5-1 in the opening game of Euro 2024?",
+   "a": "Scotland",
+   "cat": "cups"
+  },
+  {
+   "q": "Who scored England's equaliser in the Euro 2024 final against Spain?",
+   "a": "Cole Palmer",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Bayern Munich star broke his leg in a collision with PSG keeper Gianluigi Donnarumma at the 2025 Club World Cup?",
+   "a": "Jamal Musiala",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club paid a British record 107 million pounds for Enzo Fernández in 2023?",
+   "a": "Chelsea",
+   "cat": "transfers"
+  },
+  {
+   "q": "Newcastle United were bought in 2021 by the Public Investment Fund of which country?",
+   "a": "Saudi Arabia",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which shirt number, once worn by Messi, did Lamine Yamal take at Barcelona in July 2025?",
+   "a": "10",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Real Madrid president was named chairman of the European Super League in April 2021?",
+   "a": "Florentino Pérez",
+   "cat": "stories"
+  },
+  {
+   "q": "Liverpool's 2024-25 title was their 20th, equalling which club's record at that time?",
+   "a": "Manchester United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which country beat the co-hosts USA 4-1 in the last 16 of the 2026 World Cup?",
+   "a": "Belgium",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country did England beat 2-1 after extra time in the 2026 World Cup quarter-finals?",
+   "a": "Norway",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country did Argentina beat 3-1 after extra time in the 2026 World Cup quarter-finals?",
+   "a": "Switzerland",
+   "cat": "cups"
+  },
+  {
+   "q": "Argentina came from 2-0 down to win 3-2 in the last 16 of the 2026 World Cup. Who were their opponents?",
+   "a": "Egypt",
+   "cat": "cups"
+  },
+  {
+   "q": "Cristiano Ronaldo's last World Cup match was a 1-0 defeat in the 2026 last 16. Who beat Portugal?",
+   "a": "Spain",
+   "cat": "stories"
+  },
+  {
+   "q": "Morocco knocked which co-hosts out of the 2026 World Cup in the last 16?",
+   "a": "Canada",
+   "cat": "cups"
+  },
+  {
+   "q": "Which substitute striker started Belgium's comeback from 2-0 down against Senegal at the 2026 World Cup?",
+   "a": "Romelu Lukaku",
+   "cat": "scorers"
+  },
+  {
+   "q": "In June 2026, which Argentina captain became the first man to play at six World Cups?",
+   "a": "Lionel Messi",
+   "cat": "records"
+  },
+  {
+   "q": "Which Brazil star scored a stoppage-time penalty in his country's 2026 last-16 defeat by Norway?",
+   "a": "Neymar",
+   "cat": "stories"
   }
  ],
  "normal": [
@@ -8153,6 +9028,816 @@
    "q": "Which Athens club, the Greens, has a shamrock on its badge?",
    "a": "Panathinaikos",
    "cat": "stories"
+  },
+  {
+   "q": "Which hymn was sung before the 1927 FA Cup final and became a cup final tradition?",
+   "a": "Abide with Me",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Argentine dribbled past the Manchester City defence to win the 1981 FA Cup final replay for Tottenham?",
+   "a": "Ricky Villa",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Tottenham midfielder wrecked his own knee with a reckless tackle early in the 1991 FA Cup final against Forest?",
+   "a": "Paul Gascoigne",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Nottingham Forest manager lost his only FA Cup final, to Tottenham in 1991, the one major domestic trophy he never won?",
+   "a": "Brian Clough",
+   "cat": "managers"
+  },
+  {
+   "q": "Whose late extra-time strike won the 1971 FA Cup final for Arsenal against Liverpool and sealed the double?",
+   "a": "Charlie George",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored both Bolton goals against a Manchester United side rebuilt after Munich in the 1958 FA Cup final?",
+   "a": "Nat Lofthouse",
+   "cat": "scorers"
+  },
+  {
+   "q": "Portsmouth won the 1939 FA Cup and kept the trophy until 1946. Why so long?",
+   "a": "The competition was suspended during the Second World War",
+   "cat": "cups"
+  },
+  {
+   "q": "Which club won the first League Cup final in 1961, beating Rotherham United over two legs?",
+   "a": "Aston Villa",
+   "cat": "cups"
+  },
+  {
+   "q": "Which club won the last old First Division title before the Premier League began, in 1991-92?",
+   "a": "Leeds United",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Everton centre-forward scored 60 league goals in the 1927-28 season?",
+   "a": "Dixie Dean",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose late goal at Anfield on 26 May 1989 gave Arsenal the 2-0 win they needed to take the title from Liverpool?",
+   "a": "Michael Thomas",
+   "cat": "champions"
+  },
+  {
+   "q": "Arsenal and Liverpool finished 1988-89 level on points and goal difference. What decided the title?",
+   "a": "Goals scored, Arsenal had 73 to Liverpool's 65",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Scottish club sacked Alex Ferguson in 1978, just as he was about to join Aberdeen?",
+   "a": "St Mirren",
+   "cat": "managers"
+  },
+  {
+   "q": "In which Swedish city did Aberdeen beat Real Madrid 2-1 in the 1983 Cup Winners' Cup final?",
+   "a": "Gothenburg",
+   "cat": "europe"
+  },
+  {
+   "q": "Hearts take their name partly from a novel, The Heart of Midlothian. Which Scottish author wrote it?",
+   "a": "Walter Scott",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Belfast ground, Linfield's home since 1905, is also where Northern Ireland play their home matches?",
+   "a": "Windsor Park",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Northern Irish club joined the Republic of Ireland's League of Ireland in 1985, after years out of the Irish League?",
+   "a": "Derry City",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Cardiff City ground opened in 1910 and was used for 99 years until the move in 2009?",
+   "a": "Ninian Park",
+   "cat": "grounds"
+  },
+  {
+   "q": "Before managing Manchester United, Matt Busby played for which two of their great rivals?",
+   "a": "Manchester City and Liverpool",
+   "cat": "managers"
+  },
+  {
+   "q": "Geoff Hurst scored three in the 1966 World Cup final. Who scored England's other goal?",
+   "a": "Martin Peters",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose injury in the 1966 World Cup group stage let Geoff Hurst into the England side for the final?",
+   "a": "Jimmy Greaves",
+   "cat": "stories"
+  },
+  {
+   "q": "Watford fans picked a new insect nickname when the club changed its colours in 1959. Which one?",
+   "a": "The Hornets",
+   "cat": "stories"
+  },
+  {
+   "q": "Northampton Town are nicknamed the Cobblers after which local industry?",
+   "a": "Shoe-making",
+   "cat": "stories"
+  },
+  {
+   "q": "Bristol Rovers are known as the Gas. What stood next to their old Eastville ground?",
+   "a": "A gasworks",
+   "cat": "stories"
+  },
+  {
+   "q": "Chesterfield are nicknamed the Spireites after which famous feature of the town?",
+   "a": "The Crooked Spire",
+   "cat": "stories"
+  },
+  {
+   "q": "The 1989 Hillsborough disaster happened at an FA Cup semi-final between Liverpool and which club?",
+   "a": "Nottingham Forest",
+   "cat": "stories"
+  },
+  {
+   "q": "At which club's ground did fire destroy the wooden main stand on 11 May 1985, killing 56 people?",
+   "a": "Bradford City, at Valley Parade",
+   "cat": "grounds"
+  },
+  {
+   "q": "At which Glasgow ground did 66 people die in a crush on an exit stairway in January 1971?",
+   "a": "Ibrox Park",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club's fans adopted Tom Jones's hit Delilah as their anthem?",
+   "a": "Stoke City",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club's anthem is Glad All Over, a UK number one for the Dave Clark Five in January 1964?",
+   "a": "Crystal Palace",
+   "cat": "stories"
+  },
+  {
+   "q": "The Proclaimers' song Sunshine on Leith is the unofficial anthem of which club?",
+   "a": "Hibernian",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two Belfast clubs are known locally as the Big Two?",
+   "a": "Linfield and Glentoran",
+   "cat": "stories"
+  },
+  {
+   "q": "From 2022 to 2025, which club became the first in the top five English tiers to win three promotions in a row?",
+   "a": "Wrexham",
+   "cat": "records"
+  },
+  {
+   "q": "Hibernian were founded in 1875 by members of which community in Edinburgh?",
+   "a": "The Irish community",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Lancashire club were champions of England in 1920-21 and again in 1959-60?",
+   "a": "Burnley",
+   "cat": "champions"
+  },
+  {
+   "q": "Tottenham Hotspur are named after which fiery medieval nobleman?",
+   "a": "Harry Hotspur",
+   "cat": "stories"
+  },
+  {
+   "q": "Bill Shankly stunned Liverpool by retiring in 1974. Which long-time assistant succeeded him?",
+   "a": "Bob Paisley",
+   "cat": "managers"
+  },
+  {
+   "q": "Barcelona's Camp Nou, with its continuous oval stands, was inspired by which Dutch stadium?",
+   "a": "De Kuip in Rotterdam",
+   "cat": "grounds"
+  },
+  {
+   "q": "How did Joan Gamper find players to found Barcelona in 1899?",
+   "a": "He placed an advert in a newspaper, Los Deportes",
+   "cat": "stories"
+  },
+  {
+   "q": "Helenio Herrera, the coach of Grande Inter, was born in which South American country?",
+   "a": "Argentina, in Buenos Aires",
+   "cat": "managers"
+  },
+  {
+   "q": "Hennes Weisweiler left Borussia Mönchengladbach in 1975 after eleven years. Which club did he join?",
+   "a": "Barcelona",
+   "cat": "managers"
+  },
+  {
+   "q": "Which stadium did Nantes move into in 1984, leaving the Stade Marcel Saupin behind?",
+   "a": "Stade de la Beaujoire",
+   "cat": "grounds"
+  },
+  {
+   "q": "Milan thrashed Inter in the derby of May 2001. What was the score?",
+   "a": "6-0 to Milan",
+   "cat": "records"
+  },
+  {
+   "q": "The Genoa derby between Genoa and Sampdoria is called the Derby della Lanterna. What is the Lanterna?",
+   "a": "The city's lighthouse",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2009 Werder Bremen and Hamburger SV met four times in 19 days, two of them in a semi-final of which European competition?",
+   "a": "The UEFA Cup",
+   "cat": "europe"
+  },
+  {
+   "q": "Which French TV company bought Paris Saint-Germain in 1991, partly to take on Marseille?",
+   "a": "Canal Plus",
+   "cat": "stories"
+  },
+  {
+   "q": "Saint-Étienne's Stade Geoffroy-Guichard has a French nickname meaning the cauldron. What is it?",
+   "a": "Le Chaudron",
+   "cat": "grounds"
+  },
+  {
+   "q": "The San Siro opened in 1926 as the home of which club?",
+   "a": "AC Milan",
+   "cat": "grounds"
+  },
+  {
+   "q": "Where did Barcelona play before the Camp Nou opened in 1957?",
+   "a": "Camp de Les Corts",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which player's signing in 1950 pushed Barcelona to build the Camp Nou?",
+   "a": "László Kubala",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Welsh striker made up Juventus's Magical Trio of the late 1950s with Omar Sívori and Giampiero Boniperti?",
+   "a": "John Charles",
+   "cat": "imports"
+  },
+  {
+   "q": "Juventus were the first Italian club to earn a second gold star on their shirt. How many league titles did that mark?",
+   "a": "Twenty",
+   "cat": "champions"
+  },
+  {
+   "q": "What was the nickname of Milan's famous Swedish trio of Gunnar Gren, Gunnar Nordahl and Nils Liedholm?",
+   "a": "Gre-No-Li",
+   "cat": "imports"
+  },
+  {
+   "q": "Which Milan captain retired after winning the club's tenth Scudetto, and first star, in 1979?",
+   "a": "Gianni Rivera",
+   "cat": "champions"
+  },
+  {
+   "q": "What nickname did Helenio Herrera earn as the coach of the Grande Inter side that won two European Cups?",
+   "a": "Il Mago, the magician",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club won the first Italian football championship, in 1898?",
+   "a": "Genoa",
+   "cat": "champions"
+  },
+  {
+   "q": "Atlético Madrid began in 1903 as a Madrid branch of which club, set up by Basque students?",
+   "a": "Athletic Bilbao",
+   "cat": "stories"
+  },
+  {
+   "q": "Paris Saint-Germain were formed in 1970 by merging Paris FC with which club?",
+   "a": "Stade Saint-Germain",
+   "cat": "stories"
+  },
+  {
+   "q": "Which manager led Paris Saint-Germain to their first French title, in 1985-86?",
+   "a": "Gérard Houllier",
+   "cat": "managers"
+  },
+  {
+   "q": "In 1937 Schalke became the first German club to achieve what?",
+   "a": "The league and cup double",
+   "cat": "champions"
+  },
+  {
+   "q": "Weeks after taking over at Schalke in 2011, Ralf Rangnick won 5-2 away in a Champions League quarter-final. At which club?",
+   "a": "Inter Milan",
+   "cat": "europe"
+  },
+  {
+   "q": "Schalke moved in 1973 to which ground, newly built for the 1974 World Cup?",
+   "a": "The Parkstadion",
+   "cat": "grounds"
+  },
+  {
+   "q": "Bayern Munich were founded in 1900 by footballers who broke away from what kind of club?",
+   "a": "A gymnastics club, MTV 1879",
+   "cat": "stories"
+  },
+  {
+   "q": "In 1968-69 Bayern Munich were the first club to achieve what in the Bundesliga era?",
+   "a": "The league and cup double",
+   "cat": "champions"
+  },
+  {
+   "q": "Borussia Dortmund took the word Borussia from something local. What?",
+   "a": "A beer, from the nearby Borussia brewery",
+   "cat": "stories"
+  },
+  {
+   "q": "Lazio's sky blue and white colours were inspired by the emblem of which country?",
+   "a": "Greece",
+   "cat": "stories"
+  },
+  {
+   "q": "Which attacking duo fired Torino to the 1975-76 Scudetto?",
+   "a": "Paolo Pulici and Francesco Graziani",
+   "cat": "scorers"
+  },
+  {
+   "q": "Why do Saint-Étienne play in green?",
+   "a": "It was the colour of the Casino grocery chain, whose employees founded the club",
+   "cat": "stories"
+  },
+  {
+   "q": "Lazio won the 1999-2000 title on the final day with a 3-0 home win. Who did they beat?",
+   "a": "Reggina",
+   "cat": "champions"
+  },
+  {
+   "q": "In 1968 Helenio Herrera left Inter and became the world's highest-paid manager at which club?",
+   "a": "Roma",
+   "cat": "managers"
+  },
+  {
+   "q": "Who scored Real Madrid's first European Cup goal in 1955 and later coached them for 16 seasons?",
+   "a": "Miguel Muñoz",
+   "cat": "managers"
+  },
+  {
+   "q": "Under coach Miguel Muñoz, how many La Liga titles in a row did Real Madrid win from 1961 to 1965?",
+   "a": "Five",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Dutch club gave Ernst Happel his first job as a coach, winning the 1968 Dutch Cup with him?",
+   "a": "ADO Den Haag",
+   "cat": "managers"
+  },
+  {
+   "q": "By the end of 2019-20, which Swede was AC Milan's all-time record goalscorer?",
+   "a": "Gunnar Nordahl",
+   "cat": "scorers"
+  },
+  {
+   "q": "Just Fontaine scored 121 goals in six seasons for which French club, alongside Raymond Kopa?",
+   "a": "Stade de Reims",
+   "cat": "scorers"
+  },
+  {
+   "q": "Auxerre's Stade de l'Abbé-Deschamps is named after the man who founded the club in 1905. What was he?",
+   "a": "A Catholic priest, an abbot",
+   "cat": "grounds"
+  },
+  {
+   "q": "Hamburger SV were long nicknamed der Dinosaurier, the dinosaur. Why?",
+   "a": "Their age, as one of Germany's oldest clubs, and never being relegated until 2018",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Lancashire club is nicknamed the Clarets?",
+   "a": "Burnley",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2025-26, which London club played its home games at The Den?",
+   "a": "Millwall",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Rome club is nicknamed the Biancocelesti, the white and sky blues?",
+   "a": "Lazio",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Turin club is nicknamed Il Toro, the bull?",
+   "a": "Torino",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed Los Cafeteros, the coffee growers?",
+   "a": "Colombia",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed the Vatreni, the blazers?",
+   "a": "Croatia",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed the Desert Foxes?",
+   "a": "Algeria",
+   "cat": "stories"
+  },
+  {
+   "q": "Which German club was mocked as FC Hollywood in the 1990s as its players filled the gossip pages?",
+   "a": "Bayern Munich",
+   "cat": "stories"
+  },
+  {
+   "q": "Which London club is also nicknamed the Lilywhites?",
+   "a": "Tottenham Hotspur",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Istanbul club is nicknamed the Yellow Canaries?",
+   "a": "Fenerbahçe",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Bundesliga club is nicknamed Die Adler, the eagles?",
+   "a": "Eintracht Frankfurt",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Italian club is nicknamed La Dea, the goddess?",
+   "a": "Atalanta",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2025-26, which French club played its home games at the Groupama Stadium?",
+   "a": "Lyon",
+   "cat": "grounds"
+  },
+  {
+   "q": "In 2025-26, which French club played its home games at the Stade Bollaert-Delelis?",
+   "a": "Lens",
+   "cat": "grounds"
+  },
+  {
+   "q": "In 2025-26, which Belfast ground was the home of the Northern Ireland national team?",
+   "a": "Windsor Park",
+   "cat": "grounds"
+  },
+  {
+   "q": "Jamal Musiala was born in Stuttgart and grew up partly in England. Which country did he choose to play for?",
+   "a": "Germany",
+   "cat": "stories"
+  },
+  {
+   "q": "Slovakia's Marek Hamšík spent twelve seasons at which Italian club?",
+   "a": "Napoli",
+   "cat": "stories"
+  },
+  {
+   "q": "Before joining Celtic in 1997, Henrik Larsson played for which Dutch club?",
+   "a": "Feyenoord",
+   "cat": "transfers"
+  },
+  {
+   "q": "Henrik Larsson left Celtic in 2004 for which Spanish club?",
+   "a": "Barcelona",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Italian club did Tijjani Reijnders join from AZ in 2023?",
+   "a": "AC Milan",
+   "cat": "transfers"
+  },
+  {
+   "q": "Yannick Carrasco scored in the 2016 Champions League final for which club?",
+   "a": "Atlético Madrid",
+   "cat": "europe"
+  },
+  {
+   "q": "Dean Huijsen was born in Amsterdam. Which country did he choose to play for?",
+   "a": "Spain",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Turkish club did Arda Güler leave to join Real Madrid in 2023?",
+   "a": "Fenerbahçe",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which shirt number did Robin van Persie wear at Manchester United?",
+   "a": "20",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Bayern Munich retire in 2024 in honour of Franz Beckenbauer?",
+   "a": "5",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did David Beckham wear at AC Milan?",
+   "a": "32",
+   "cat": "stories"
+  },
+  {
+   "q": "Jürgen Klopp took which job in January 2025, his first since leaving Liverpool?",
+   "a": "Head of global football at Red Bull",
+   "cat": "managers"
+  },
+  {
+   "q": "Which national team did Roberto Martínez take over in 2023 after leaving Belgium?",
+   "a": "Portugal",
+   "cat": "managers"
+  },
+  {
+   "q": "Which three countries are the main hosts of the 2030 World Cup?",
+   "a": "Spain, Portugal and Morocco",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2025-26, in which town was the Dutch football association, the KNVB, based?",
+   "a": "Zeist",
+   "cat": "stories"
+  },
+  {
+   "q": "What is the Belgium women's national team nicknamed?",
+   "a": "The Red Flames, the Belgian Red Flames",
+   "cat": "stories"
+  },
+  {
+   "q": "Since 2021 the Belgian FA has had its headquarters next to its training centre in which Walloon town?",
+   "a": "Tubize",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country won the men's Olympic football gold in 2008, with Lionel Messi in the team?",
+   "a": "Argentina",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country won its first men's Olympic football gold in 2016, at home in the Maracanã?",
+   "a": "Brazil",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country won the 2023 CONCACAF Gold Cup?",
+   "a": "Mexico",
+   "cat": "cups"
+  },
+  {
+   "q": "Didier Drogba started at Chelsea in the 15 shirt. Which number did he take over when Damien Duff left?",
+   "a": "11",
+   "cat": "stories"
+  },
+  {
+   "q": "Birmingham City retired Jude Bellingham's shirt when he left for Dortmund. Which number was it?",
+   "a": "22",
+   "cat": "stories"
+  },
+  {
+   "q": "Which shirt number did Gianfranco Zola wear at Chelsea?",
+   "a": "25",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Hamburg club has worn brown and white since 1910?",
+   "a": "St. Pauli",
+   "cat": "stories"
+  },
+  {
+   "q": "Atalanta are known as the Nerazzurri after their shirt stripes. Which two colours are they?",
+   "a": "Black and blue",
+   "cat": "stories"
+  },
+  {
+   "q": "Queens Park Rangers are nicknamed after the pattern on their shirts. What is it?",
+   "a": "Hoops",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2006 Rafael Márquez became the first player from which country to win the Champions League?",
+   "a": "Mexico",
+   "cat": "stories"
+  },
+  {
+   "q": "Landon Donovan scored a famous late winner against Algeria at the 2010 World Cup for which country?",
+   "a": "The United States",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two Turin clubs contest the Derby della Mole?",
+   "a": "Juventus and Torino",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the Nordderby, the north derby, in Germany?",
+   "a": "Hamburger SV and Werder Bremen",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the best-known Rheinderby, the Rhine derby, first played in 1950?",
+   "a": "Köln and Borussia Mönchengladbach",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the Lisbon derby?",
+   "a": "Benfica and Sporting",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two clubs contest the Derby of the North in the Netherlands?",
+   "a": "FC Groningen and Heerenveen",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Neil Diamond song did England supporters sing throughout Euro 2020?",
+   "a": "Sweet Caroline",
+   "cat": "stories"
+  },
+  {
+   "q": "The chant Will Grigg's on fire is sung to the tune of which Gala dance hit?",
+   "a": "Freed from Desire",
+   "cat": "stories"
+  },
+  {
+   "q": "In June 2026 Lionel Messi passed whose total of 16 goals to become the top scorer in World Cup history?",
+   "a": "Miroslav Klose",
+   "cat": "records"
+  },
+  {
+   "q": "Which Spain goalkeeper won the Golden Glove at the 2026 World Cup?",
+   "a": "Unai Simón",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Barcelona centre-back won the Young Player Award at the 2026 World Cup?",
+   "a": "Pau Cubarsí",
+   "cat": "cups"
+  },
+  {
+   "q": "Which England midfielder scored seven goals at the 2026 World Cup, the most by an England player at one tournament?",
+   "a": "Jude Bellingham",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored a hat-trick as England beat France 6-4 in the 2026 World Cup third-place match?",
+   "a": "Bukayo Saka",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Spain substitute scored the winning goals against Portugal and Belgium at the 2026 World Cup?",
+   "a": "Mikel Merino",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which World Cup debutants held eventual champions Spain to a 0-0 draw in June 2026?",
+   "a": "Cape Verde",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Frenchman managed Belgium at the 2026 World Cup?",
+   "a": "Rudi Garcia",
+   "cat": "managers"
+  },
+  {
+   "q": "Who hit a hat-trick as Canada beat Qatar 6-0 at the 2026 World Cup, their first ever World Cup win?",
+   "a": "Jonathan David",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Belgian's penalty against Senegal in 2026, at 124 minutes and 44 seconds, was the latest goal ever scored at a World Cup?",
+   "a": "Youri Tielemans",
+   "cat": "records"
+  },
+  {
+   "q": "Which country did the Netherlands draw 2-2 with in their first game of the 2026 World Cup?",
+   "a": "Japan",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country did the USA beat 4-1 in their first game of the 2026 World Cup?",
+   "a": "Paraguay",
+   "cat": "cups"
+  },
+  {
+   "q": "Six players shared the Euro 2024 Golden Boot on three goals. Who was the only Dutchman among them?",
+   "a": "Cody Gakpo",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who became the oldest scorer in European Championship history at Euro 2024, aged 38?",
+   "a": "Luka Modrić",
+   "cat": "records"
+  },
+  {
+   "q": "Which Dutchman gave the Netherlands an early lead in the Euro 2024 semi-final against England?",
+   "a": "Xavi Simons",
+   "cat": "scorers"
+  },
+  {
+   "q": "England reached the Euro 2024 semi-finals by beating which country on penalties?",
+   "a": "Switzerland",
+   "cat": "cups"
+  },
+  {
+   "q": "Who won the Golden Ball at the 2025 Club World Cup?",
+   "a": "Cole Palmer",
+   "cat": "cups"
+  },
+  {
+   "q": "Who was named player of the match in the 2022 Champions League final after nine saves against Liverpool?",
+   "a": "Thibaut Courtois",
+   "cat": "europe"
+  },
+  {
+   "q": "Who scored a hat-trick in 17 minutes as Real Madrid came back to knock PSG out of the 2021-22 Champions League?",
+   "a": "Karim Benzema",
+   "cat": "europe"
+  },
+  {
+   "q": "PSG's 5-0 win over Inter in 2025 set which record for a Champions League final?",
+   "a": "The biggest winning margin",
+   "cat": "records"
+  },
+  {
+   "q": "In 2024-25 the Champions League group stage became a single league phase. How many clubs were in it?",
+   "a": "36",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club did Borussia Dortmund beat in the semi-finals on their way to the 2024 Champions League final?",
+   "a": "Paris Saint-Germain",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club sold Enzo Fernández to Chelsea for a British record fee in 2023?",
+   "a": "Benfica",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which American led the group that bought Chelsea from Roman Abramovich in 2022?",
+   "a": "Todd Boehly",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which billionaire, owner of INEOS, bought a 25 percent stake in Manchester United in a deal announced in December 2023?",
+   "a": "Sir Jim Ratcliffe",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which English club sold Viktor Gyökeres to Sporting in 2023?",
+   "a": "Coventry City",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Scotland midfielder scored a scissor kick as Napoli sealed the 2024-25 Serie A title against Cagliari?",
+   "a": "Scott McTominay",
+   "cat": "champions"
+  },
+  {
+   "q": "Jamal Musiala chose to play for Germany in 2021. Which country had he played for at under-21 level?",
+   "a": "England",
+   "cat": "stories"
+  },
+  {
+   "q": "In September 2025, who became the first player to win the Kopa Trophy for the best young player twice?",
+   "a": "Lamine Yamal",
+   "cat": "records"
+  },
+  {
+   "q": "Which goalkeeper made 11 saves in the 2026 World Cup final, the most on record in a World Cup final?",
+   "a": "Emiliano Martínez",
+   "cat": "records"
+  },
+  {
+   "q": "In July 2026, who became the first man on record to provide ten assists in World Cup matches?",
+   "a": "Lionel Messi",
+   "cat": "records"
+  },
+  {
+   "q": "Which country did Spain beat 3-0 in the round of 32 at the 2026 World Cup?",
+   "a": "Austria",
+   "cat": "cups"
+  },
+  {
+   "q": "Which new Chelsea signing scored their third goal in the 2025 Club World Cup final against PSG?",
+   "a": "João Pedro",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Juventus chairman was one of the chief architects of the 2021 Super League plan?",
+   "a": "Andrea Agnelli",
+   "cat": "stories"
+  },
+  {
+   "q": "Who headed Argentina's stoppage-time winner against England in the 2026 World Cup semi-final?",
+   "a": "Lautaro Martínez",
+   "cat": "scorers"
   }
  ],
  "hard": [
@@ -11953,8 +13638,8 @@
    "cat": "managers"
   },
   {
-   "q": "Which veteran Dutch coach guided Curaçao through qualifying for their first World Cup, in 2026?",
-   "a": "Dick Advocaat",
+   "q": "Dick Advocaat stepped down as Curaçao coach in February 2026. Who stood in until Advocaat returned in May, weeks before the World Cup?",
+   "a": "Fred Rutten",
    "cat": "managers"
   },
   {
@@ -12301,6 +13986,476 @@
    "q": "Celtic won the 2026 Scottish Cup final 3-1 at Hampden. Which club did they beat?",
    "a": "Dunfermline Athletic",
    "cat": "cups"
+  },
+  {
+   "q": "Who scored for Bolton after two minutes of the 1923 White Horse Final against West Ham, the first match at Wembley?",
+   "a": "David Jack",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who came off the bench to score twice for Crystal Palace in the 3-3 1990 FA Cup final, just back from a broken leg?",
+   "a": "Ian Wright",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored Chelsea's extra-time winner in the 1970 FA Cup final replay against Leeds at Old Trafford?",
+   "a": "David Webb",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose goal won the centenary FA Cup final in 1972, Leeds United's first FA Cup?",
+   "a": "Allan Clarke",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Third Division club beat a flu-hit Arsenal 3-1 on a mudbath in the 1969 League Cup final?",
+   "a": "Swindon Town",
+   "cat": "cups"
+  },
+  {
+   "q": "Which veteran scored the winner as Stoke City beat Chelsea in the 1972 League Cup final, their first major trophy?",
+   "a": "George Eastham",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which lower-league club beat Herbert Chapman's Arsenal 2-0 in the FA Cup third round in January 1933?",
+   "a": "Walsall",
+   "cat": "cups"
+  },
+  {
+   "q": "Dixie Dean began at his hometown club before joining Everton. Which club?",
+   "a": "Tranmere Rovers",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club retained the First Division title in 1949-50, finishing level on points with Wolves?",
+   "a": "Portsmouth",
+   "cat": "champions"
+  },
+  {
+   "q": "First Division goals jumped from 1192 to 1703 in 1925-26 after a change to which law of the game?",
+   "a": "Offside, needing two defenders instead of three",
+   "cat": "records"
+  },
+  {
+   "q": "Inverness Caledonian Thistle were formed in 1994 by merging Caledonian with which other Highland League club?",
+   "a": "Inverness Thistle",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Scottish club won three divisions in three successive seasons from 2005 to 2007, then went bust a year later?",
+   "a": "Gretna",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Scottish club won the league in 1961-62 under Bob Shankly, brother of Bill?",
+   "a": "Dundee",
+   "cat": "champions"
+  },
+  {
+   "q": "Hearts won the 2012 Scottish Cup final 5-1. Which club did they thrash?",
+   "a": "Hibernian, their Edinburgh rivals",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Belfast club, named after a Glasgow giant, withdrew from the Irish League for good in 1949?",
+   "a": "Belfast Celtic",
+   "cat": "stories"
+  },
+  {
+   "q": "Derry City's red and white striped shirts give them which nickname?",
+   "a": "The Candystripes",
+   "cat": "stories"
+  },
+  {
+   "q": "Founded in 1879, which north Belfast club calls itself the founder of football in Ireland?",
+   "a": "Cliftonville",
+   "cat": "stories"
+  },
+  {
+   "q": "Glentoran were founded in 1882 by workers from which East Belfast shipyard?",
+   "a": "Harland and Wolff",
+   "cat": "stories"
+  },
+  {
+   "q": "Which ground hosted Wales's first home international, in 1877?",
+   "a": "The Racecourse Ground, Wrexham",
+   "cat": "grounds"
+  },
+  {
+   "q": "In 1927 Cardiff City won the FA Cup. Which other national cup did they win that same season?",
+   "a": "The Welsh Cup",
+   "cat": "cups"
+  },
+  {
+   "q": "Bill Shankly was born in 1913 in which tiny Ayrshire mining village?",
+   "a": "Glenbuck",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club did Bill Shankly leave to become Liverpool manager in 1959?",
+   "a": "Huddersfield Town",
+   "cat": "managers"
+  },
+  {
+   "q": "Brian Clough's playing career was wrecked by a knee injury on Boxing Day 1962. Which club was he playing for?",
+   "a": "Sunderland",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Third Division club did Brian Clough manage for eight months just before his 44 days at Leeds?",
+   "a": "Brighton and Hove Albion",
+   "cat": "managers"
+  },
+  {
+   "q": "Manchester City's 1954-55 tactic of a deep-lying centre-forward was named after which player?",
+   "a": "Don Revie, the Revie Plan",
+   "cat": "stories"
+  },
+  {
+   "q": "Don Revie broke the British transfer record paying 165,000 pounds for which Leicester City striker?",
+   "a": "Allan Clarke",
+   "cat": "transfers"
+  },
+  {
+   "q": "Herbert Chapman won the league in 1924 and 1925 with which club, before leaving for Arsenal?",
+   "a": "Huddersfield Town",
+   "cat": "managers"
+  },
+  {
+   "q": "Bobby Moore's last Wembley game as a professional was an FA Cup final for Fulham. Who beat them 2-0?",
+   "a": "West Ham United, his old club",
+   "cat": "cups"
+  },
+  {
+   "q": "Millwall were founded in 1885 by workers at what kind of factory on the Isle of Dogs?",
+   "a": "A canning and preserves factory, J.T. Morton's",
+   "cat": "stories"
+  },
+  {
+   "q": "What did the second Hillsborough inquests conclude in April 2016?",
+   "a": "That the victims were unlawfully killed, and the fans were not to blame",
+   "cat": "stories"
+  },
+  {
+   "q": "A 1969 inquiry cleared captain James Thain of blame for the Munich air disaster. What did it find was the cause?",
+   "a": "Slush on the runway",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Portuguese giant did Wrexham knock out during their Cup Winners' Cup adventures as Welsh Cup winners?",
+   "a": "Porto",
+   "cat": "europe"
+  },
+  {
+   "q": "What was the home ground of the Grande Torino, where they won 19 of 20 home games in 1947-48?",
+   "a": "Stadio Filadelfia",
+   "cat": "grounds"
+  },
+  {
+   "q": "The season after Superga, what were Italy's other top clubs asked to do for Torino?",
+   "a": "Each donate a player",
+   "cat": "stories"
+  },
+  {
+   "q": "In 1966-67 Borussia Mönchengladbach won 11-0 at home, then the biggest win in Bundesliga history. Who did they beat?",
+   "a": "Schalke 04",
+   "cat": "records"
+  },
+  {
+   "q": "Which member of Real Madrid's Quinta del Buitre was the only one never to play for another club?",
+   "a": "Manolo Sanchís",
+   "cat": "stories"
+  },
+  {
+   "q": "Which coach, hired by Nantes in 1960, first built their famous team-based passing game, the jeu à la nantaise?",
+   "a": "José Arribas",
+   "cat": "managers"
+  },
+  {
+   "q": "Marseille's motto, Droit au but, dates from when the club's main sport was something else. Which sport?",
+   "a": "Rugby union",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Yugoslav striker scored 44 league goals as Marseille won the 1970-71 French title?",
+   "a": "Josip Skoblar",
+   "cat": "scorers"
+  },
+  {
+   "q": "In the 1971 Bundesliga scandal, Schalke's players sold a 1-0 home defeat in April to which club?",
+   "a": "Arminia Bielefeld",
+   "cat": "stories"
+  },
+  {
+   "q": "The 1980 Totonero betting ring began in a Rome restaurant popular with which club's players?",
+   "a": "Lazio",
+   "cat": "stories"
+  },
+  {
+   "q": "After appeals, how many points did Juventus start the 2006-07 Serie B season with deducted?",
+   "a": "Nine",
+   "cat": "stories"
+  },
+  {
+   "q": "The very first Milan derby, in October 1908, was the final of a small cup played in which country?",
+   "a": "Switzerland",
+   "cat": "stories"
+  },
+  {
+   "q": "Inter and Milan shared eleven goals in a derby in November 1949. What was the score?",
+   "a": "6-5 to Inter",
+   "cat": "records"
+  },
+  {
+   "q": "In 1979 Lazio fan Vincenzo Paparelli became the first person killed by violence at an Italian football match. What hit him?",
+   "a": "A flare fired by a Roma fan from the opposite end",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Lazio defender scored the own goal that won the December 2000 Rome derby, on Roma's way to the title?",
+   "a": "Paolo Negro",
+   "cat": "champions"
+  },
+  {
+   "q": "Real Sociedad clinched the 1981-82 La Liga title with a 2-1 win on the final day. Who did they beat?",
+   "a": "Athletic Bilbao, in the Basque derby",
+   "cat": "champions"
+  },
+  {
+   "q": "Real Madrid and Atlético met in the 1958-59 European Cup semi-final and each won at home. How was the tie decided?",
+   "a": "A replay, which Real Madrid won 2-1",
+   "cat": "europe"
+  },
+  {
+   "q": "In the 1970s Real Madrid fans gave Atlético a nickname mocking their Latin American signings. What was it?",
+   "a": "Los Indios, the Indians",
+   "cat": "stories"
+  },
+  {
+   "q": "In May 1989 Marseille beat leaders PSG 1-0 at the Vélodrome with a stoppage-time 25-yard strike. Who scored it?",
+   "a": "Franck Sauzée",
+   "cat": "champions"
+  },
+  {
+   "q": "Which PSG winger covered his ears at the Marseille fans after a late winner in 2003, then joined Marseille nine months later?",
+   "a": "Fabrice Fiorèse",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which future World Cup-winning coach of France played 13 years for Saint-Étienne, then crossed to rivals Lyon?",
+   "a": "Aimé Jacquet",
+   "cat": "transfers"
+  },
+  {
+   "q": "Athletic Bilbao are called the Lions because of a church near San Mamés. What happened to Saint Mammes?",
+   "a": "The Romans threw him to the lions",
+   "cat": "stories"
+  },
+  {
+   "q": "Fabio Capello's Milan, the Invincibles, went how many Serie A matches without defeat in the early 1990s?",
+   "a": "58",
+   "cat": "records"
+  },
+  {
+   "q": "Which English coach, who first arrived in 1922, led Athletic Bilbao to league and cup doubles in 1930 and 1931?",
+   "a": "Fred Pentland",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Belgian singer and actress recorded PSG's first official anthem, Allez Paris, in 1971?",
+   "a": "Annie Cordy",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch midfielder starred in Saint-Étienne's first French title side of 1956-57?",
+   "a": "Kees Rijvers",
+   "cat": "imports"
+  },
+  {
+   "q": "Cagliari's 1969-70 Scudetto was the first won by a club from south of which city?",
+   "a": "Rome",
+   "cat": "champions"
+  },
+  {
+   "q": "Before Barcelona and Inter, Helenio Herrera won back-to-back La Liga titles in 1950 and 1951 with which club?",
+   "a": "Atlético Madrid",
+   "cat": "managers"
+  },
+  {
+   "q": "Udo Lattek had never coached a club side when Bayern hired him in 1970. Which player recommended him?",
+   "a": "Franz Beckenbauer",
+   "cat": "managers"
+  },
+  {
+   "q": "By the end of 2019-20, which striker of Pro Vercelli, Lazio, Juventus and Novara had scored the most goals in Serie A history?",
+   "a": "Silvio Piola",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Valenciennes player won the FIFA Fair Play Award in 1995 for refusing Marseille's bribe?",
+   "a": "Jacques Glassmann",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Borussia Mönchengladbach striker shared the 1973-74 Bundesliga top scorer award with Gerd Müller, both on 30?",
+   "a": "Jupp Heynckes",
+   "cat": "scorers"
+  },
+  {
+   "q": "After two unfinished finals between Nürnberg and Hamburger SV, who were crowned German champions in 1922?",
+   "a": "Nobody, the trophy was not awarded",
+   "cat": "champions"
+  },
+  {
+   "q": "The Grande Torino's fans waited for the quarto d'ora granata, their maroon quarter of an hour. What did captain Valentino Mazzola do to start it?",
+   "a": "He rolled up his sleeves",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country beat Italy on penalties in the play-off final for a place at the 2026 World Cup?",
+   "a": "Bosnia and Herzegovina",
+   "cat": "cups"
+  },
+  {
+   "q": "Who scored the Netherlands' goal in the 1-1 draw with Morocco that ended their 2026 World Cup on penalties?",
+   "a": "Cody Gakpo",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Dutch striker scored twice in the first 17 minutes of the 5-1 win over Sweden at the 2026 World Cup?",
+   "a": "Brian Brobbey",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which country beat Mexico at the Azteca in the 2026 last 16, Mexico's first ever World Cup defeat there?",
+   "a": "England, 3-2",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Belgian scored the only goal Spain conceded at the 2026 World Cup?",
+   "a": "Charles De Ketelaere",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which country beat Australia on penalties in 2026 for their first ever World Cup knockout win?",
+   "a": "Egypt",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Argentina midfielder was sent off in stoppage time of the 2026 World Cup final?",
+   "a": "Enzo Fernández",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Frenchman scored a hat-trick inside 32 minutes against Norway at the 2026 World Cup?",
+   "a": "Ousmane Dembélé",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Slovenian refereed the 2026 World Cup final?",
+   "a": "Slavko Vinčić",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Georgian striker shared the Euro 2024 Golden Boot with Harry Kane?",
+   "a": "Georges Mikautadze",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose 98th-minute equaliser for Italy knocked Croatia out of Euro 2024?",
+   "a": "Mattia Zaccagni",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who headed Spain's 119th-minute winner against hosts Germany in the Euro 2024 quarter-final?",
+   "a": "Mikel Merino",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which country topped Euro 2024 Group D ahead of France and the Netherlands?",
+   "a": "Austria",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Brazilian club beat Paris Saint-Germain 1-0 in the group stage of the 2025 Club World Cup?",
+   "a": "Botafogo",
+   "cat": "cups"
+  },
+  {
+   "q": "The 2022 Champions League final in Paris kicked off 36 minutes late. Why?",
+   "a": "Chaos and crushes as fans tried to get into the Stade de France",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian came off the bench to score twice in two minutes as Real Madrid knocked Manchester City out in 2022?",
+   "a": "Rodrygo",
+   "cat": "europe"
+  },
+  {
+   "q": "Who headed Real Madrid's opening goal in the 2024 Champions League final against Dortmund?",
+   "a": "Dani Carvajal",
+   "cat": "europe"
+  },
+  {
+   "q": "Which 37-year-old Inter defender scored a stoppage-time equaliser against Barcelona in the 2025 semi-final?",
+   "a": "Francesco Acerbi",
+   "cat": "europe"
+  },
+  {
+   "q": "Who was the top scorer in the 2020-21 Champions League with ten goals for Borussia Dortmund?",
+   "a": "Erling Haaland",
+   "cat": "scorers"
+  },
+  {
+   "q": "Liverpool agreed a British record 111 million pounds with Brighton for Moisés Caicedo in 2023. Where did he go instead?",
+   "a": "Chelsea",
+   "cat": "transfers"
+  },
+  {
+   "q": "Cristiano Ronaldo scored his 900th career goal in September 2024. Against which country?",
+   "a": "Croatia",
+   "cat": "records"
+  },
+  {
+   "q": "Which three founding clubs held on to the Super League after the other nine pulled out in 2021?",
+   "a": "Real Madrid, Barcelona and Juventus",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club forced a Premier League vote in 2024 on scrapping VAR?",
+   "a": "Wolverhampton Wanderers",
+   "cat": "stories"
+  },
+  {
+   "q": "Liverpool's Luis Díaz had a goal wrongly ruled out at Tottenham in 2023. What did the referees' body PGMOL call it?",
+   "a": "A significant human error",
+   "cat": "stories"
+  },
+  {
+   "q": "Who put England 1-0 up in the 2026 World Cup semi-final against Argentina?",
+   "a": "Anthony Gordon",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored Morocco's winning penalty in the 2026 shoot-out against the Netherlands?",
+   "a": "Ismael Saibari",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Arsenal forward scored Brazil's stoppage-time winner against Japan in the 2026 round of 32?",
+   "a": "Gabriel Martinelli",
+   "cat": "scorers"
+  },
+  {
+   "q": "In the 2026 quarter-final, VAR cancelled a yellow card for Leandro Paredes and sent off which Switzerland striker for diving?",
+   "a": "Breel Embolo",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Morocco midfielder scored twice as they beat Canada 3-0 in the 2026 last 16?",
+   "a": "Azzedine Ounahi",
+   "cat": "scorers"
   }
  ],
  "extreme": [
@@ -16314,6 +18469,261 @@
    "q": "Which club were Scottish champions in 1955 but were passed over for the first European Cup, in favour of fifth-placed Hibernian?",
    "a": "Aberdeen",
    "cat": "stories"
+  },
+  {
+   "q": "Whose shot squirmed through the Arsenal keeper's hands for the only goal of the 1927 FA Cup final?",
+   "a": "Hughie Ferguson, for Cardiff City",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Manchester United defender scored the only goal of the 1990 FA Cup final replay against Crystal Palace?",
+   "a": "Lee Martin",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Chelsea striker scored in every round of the 1969-70 FA Cup, including the final replay against Leeds?",
+   "a": "Peter Osgood",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which little-known Everton forward scored twice as they came from 2-0 down to beat Sheffield Wednesday in the 1966 FA Cup final?",
+   "a": "Mike Trebilcock",
+   "cat": "scorers"
+  },
+  {
+   "q": "Bury won the 1903 FA Cup final 6-0, a record winning margin for a final. Which club did they beat?",
+   "a": "Derby County",
+   "cat": "cups"
+  },
+  {
+   "q": "Who scored the first and the 90th-minute winning goal for Luton against Arsenal in the 1988 League Cup final?",
+   "a": "Brian Stein",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which south London club topped the First Division early in 1988-89, before fading to tenth?",
+   "a": "Millwall",
+   "cat": "champions"
+  },
+  {
+   "q": "Livingston began in 1943 as the works team of an engineering firm. What was the club called before Meadowbank Thistle?",
+   "a": "Ferranti Thistle",
+   "cat": "stories"
+  },
+  {
+   "q": "Which part-time club gave Alex Ferguson his first managerial job in 1974, at 40 pounds a week?",
+   "a": "East Stirlingshire",
+   "cat": "managers"
+  },
+  {
+   "q": "What is the name of Cliftonville's home ground in north Belfast, used since 1890?",
+   "a": "Solitude",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Belfast club won the Vienna Cup on a European tour in 1914, beating Hertha Berlin along the way?",
+   "a": "Glentoran",
+   "cat": "europe"
+  },
+  {
+   "q": "Cardiff City lost their first FA Cup final in 1925. Which club beat them?",
+   "a": "Sheffield United",
+   "cat": "cups"
+  },
+  {
+   "q": "Under what name was Cardiff City founded in 1899, to keep a cricket club's players fit in winter?",
+   "a": "Riverside AFC",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club gave Brian Clough his first managerial job in 1965, aged 30, with Peter Taylor as assistant?",
+   "a": "Hartlepools United",
+   "cat": "managers"
+  },
+  {
+   "q": "Don Revie applied to manage which club in 1961, before Leeds made him player-manager instead?",
+   "a": "Bournemouth and Boscombe Athletic",
+   "cat": "managers"
+  },
+  {
+   "q": "Huddersfield won the 1923-24 title by a goal average gap of 0.024. Which Welsh club finished level on points?",
+   "a": "Cardiff City",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Isthmian League club did Bobby Moore manage in 1980, with Harry Redknapp as his assistant?",
+   "a": "Oxford City",
+   "cat": "managers"
+  },
+  {
+   "q": "Gordon Banks started at which Third Division club, before Leicester bought him for 7000 pounds in 1959?",
+   "a": "Chesterfield",
+   "cat": "transfers"
+  },
+  {
+   "q": "Part of a wooden stand collapsed at Ibrox in 1902, killing 25. Which match was being played?",
+   "a": "Scotland against England",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club, serial champions of the Welsh league, are based entirely in England, in Oswestry?",
+   "a": "The New Saints, TNS",
+   "cat": "stories"
+  },
+  {
+   "q": "Which industrialist became Torino president in 1939 and built the Grande Torino?",
+   "a": "Ferruccio Novo",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Torino full-back missed the fatal 1949 flight home from Lisbon because of a knee injury?",
+   "a": "Sauro Tomà",
+   "cat": "stories"
+  },
+  {
+   "q": "Which English coach of the Grande Torino died in the Superga air disaster in 1949?",
+   "a": "Leslie Lievesley",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Quinta del Buitre midfielder left Real Madrid for Torino in 1990, before returning two years later?",
+   "a": "Rafael Martín Vázquez",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Nantes striker scored 36 league goals in 37 games as they won the French title in 1964-65?",
+   "a": "Philippe Gondet",
+   "cat": "scorers"
+  },
+  {
+   "q": "Arminia Bielefeld played out the whole 1971-72 Bundesliga season after the bribery scandal. What happened to them at the end?",
+   "a": "They were relegated automatically, with zero points counted for every game",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Milan goalkeeper was banned in the 1980 Totonero betting scandal?",
+   "a": "Enrico Albertosi",
+   "cat": "stories"
+  },
+  {
+   "q": "Which newspaper, written entirely for Roma supporters, was the first to break the Calciopoli story in 2006?",
+   "a": "Il Romanista",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Milan striker scored four goals in a single Milan derby in March 1960?",
+   "a": "José Altafini",
+   "cat": "scorers"
+  },
+  {
+   "q": "What name was given to Schalke's short-passing style of the 1920s and 1930s?",
+   "a": "The Schalker Kreisel, the Schalke spinning top",
+   "cat": "stories"
+  },
+  {
+   "q": "Real Sociedad opened their Atotxa stadium with a 3-3 draw against Athletic in 1913. Which Athletic legend scored the first goal there?",
+   "a": "Pichichi",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which former Real Madrid coach led Atlético Madrid to beat Real in the Spanish cup finals of 1960 and 1961?",
+   "a": "José Villalonga",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Lyon striker moved to Saint-Étienne in 1978, was booed by his new fans, and left for Bordeaux a year later?",
+   "a": "Bernard Lacombe",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Englishman did Joan Gamper hire as Barcelona's first full-time manager?",
+   "a": "Jack Greenwell",
+   "cat": "managers"
+  },
+  {
+   "q": "Which painter, one of Inter's founders in 1908, designed the club's first badge?",
+   "a": "Giorgio Muggiani",
+   "cat": "stories"
+  },
+  {
+   "q": "Real Madrid's new Chamartín ground, later the Bernabéu, opened in December 1947 against which Portuguese club?",
+   "a": "Os Belenenses",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Cape Verde player curled in a stunning extra-time equaliser against Argentina in the 2026 last 32?",
+   "a": "Sidny Lopes Cabral",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose stoppage-time header for Morocco against the Netherlands in the 2026 last 32 forced extra time?",
+   "a": "Issa Diop",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Egypt goalkeeper saved a Lionel Messi penalty in the 2026 World Cup last 16?",
+   "a": "Mostafa Shobeir",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored Canada's stoppage-time winner against South Africa in the 2026 last 32?",
+   "a": "Stephen Eustáquio",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose own goal gave the Netherlands their 2-1 win over Turkey in the Euro 2024 quarter-final?",
+   "a": "Mert Müldür",
+   "cat": "scorers"
+  },
+  {
+   "q": "At Euro 2024 a Romelu Lukaku goal against Slovakia was ruled out for a handball by a team-mate. Who?",
+   "a": "Loïs Openda",
+   "cat": "stories"
+  },
+  {
+   "q": "Which young Real Madrid striker won the top scorer award at the 2025 Club World Cup?",
+   "a": "Gonzalo García",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Chelsea goalkeeper won the Golden Glove at the 2025 Club World Cup?",
+   "a": "Robert Sánchez",
+   "cat": "cups"
+  },
+  {
+   "q": "Who was in goal for Paris Saint-Germain when they won the 2026 Champions League final on penalties?",
+   "a": "Matvey Safonov",
+   "cat": "europe"
+  },
+  {
+   "q": "Which court ruled in December 2023 that UEFA and FIFA had broken EU law by blocking the Super League?",
+   "a": "The European Court of Justice",
+   "cat": "stories"
+  },
+  {
+   "q": "What was the name of the company behind the Super League that relaunched the plans in December 2023?",
+   "a": "A22 Sports Management",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Japan midfielder gave them the lead against Brazil in the 2026 round of 32, before Brazil won 2-1?",
+   "a": "Kaishu Sano",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which defender scored the winning penalty as Paraguay knocked Germany out of the 2026 World Cup?",
+   "a": "José Canale",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Ecuador defender was the second player sent off at the 2026 World Cup for covering his mouth?",
+   "a": "Piero Hincapié",
+   "cat": "stories"
+  },
+  {
+   "q": "Which striker headed Bosnia ahead in their 1-1 draw with Canada, the first men's World Cup finals match played in Canada?",
+   "a": "Jovo Lukić",
+   "cat": "scorers"
   }
  ],
  "ball": [
@@ -20786,6 +23196,266 @@
    "q": "Saarbrücken played in the first European Cup in 1955-56. Which long-gone territory did they represent?",
    "a": "The Saar Protectorate",
    "cat": "europe"
+  },
+  {
+   "q": "Which Manchester City player scored for both sides in the drawn 1981 FA Cup final against Tottenham?",
+   "a": "Tommy Hutchison",
+   "cat": "stories"
+  },
+  {
+   "q": "Portsmouth manager Jack Tinn credited a lucky item of clothing for their 1939 FA Cup win. What was it?",
+   "a": "His spats",
+   "cat": "managers"
+  },
+  {
+   "q": "Norwich beat Sunderland in the 1985 League Cup final. What happened to both clubs at the end of that season?",
+   "a": "Both were relegated from the First Division",
+   "cat": "relegation"
+  },
+  {
+   "q": "Wycombe's 2001 appeal for a striker, which found cup hero Roy Essandoh, was famously carried on which BBC text service?",
+   "a": "Ceefax",
+   "cat": "stories"
+  },
+  {
+   "q": "Inverness Caledonian Thistle won 3-1 at Celtic Park in 2000. Finish The Sun's headline: Super Caley Go Ballistic...",
+   "a": "Celtic Are Atrocious",
+   "cat": "stories"
+  },
+  {
+   "q": "In November 1914, sixteen players of the Scottish league leaders joined McCrae's Battalion together. Which club?",
+   "a": "Hearts, Heart of Midlothian",
+   "cat": "stories"
+  },
+  {
+   "q": "Before joining the Scottish League in 2002, Gretna spent over fifty years playing in which country's leagues?",
+   "a": "England's",
+   "cat": "stories"
+  },
+  {
+   "q": "Some Aberdeen fans sailed from Scotland to Gothenburg for the 1983 Cup Winners' Cup final on what kind of working boat?",
+   "a": "A fishing boat",
+   "cat": "europe"
+  },
+  {
+   "q": "The first Edinburgh derby between Hearts and Hibs was played on the Meadows in 1875. On which day?",
+   "a": "Christmas Day",
+   "cat": "stories"
+  },
+  {
+   "q": "Manchester City were English champions in 1937. What happened to them the next season, despite scoring more goals than anyone?",
+   "a": "They were relegated",
+   "cat": "relegation"
+  },
+  {
+   "q": "Hibernian are sometimes called the Cabbage. Where does that come from?",
+   "a": "Rhyming slang, cabbage and ribs for Hibs",
+   "cat": "stories"
+  },
+  {
+   "q": "Hartlepool United's monkey mascot recalls a local legend. Why did locals supposedly hang a shipwrecked monkey?",
+   "a": "They thought it was a French spy",
+   "cat": "stories"
+  },
+  {
+   "q": "Fratton Park is not on mainland Great Britain. On which island do Portsmouth play?",
+   "a": "Portsea Island",
+   "cat": "grounds"
+  },
+  {
+   "q": "Aberdeen's Pittodrie was the first ground with which now standard bit of touchline furniture?",
+   "a": "The dug-out",
+   "cat": "grounds"
+  },
+  {
+   "q": "Northampton rose from the Fourth Division in 1960-61 to the First in 1965-66. Where were they playing in 1969-70?",
+   "a": "Back in the Fourth Division",
+   "cat": "relegation"
+  },
+  {
+   "q": "Bournemouth substitute James Hayter came on late against Wrexham in 2003-04. What did he do in two minutes and 21 seconds?",
+   "a": "Scored a hat-trick",
+   "cat": "records"
+  },
+  {
+   "q": "Gus Mears bought Stamford Bridge in 1904 and founded Chelsea to play there. Which club had turned down his offer to rent it?",
+   "a": "Fulham",
+   "cat": "stories"
+  },
+  {
+   "q": "Chelsea put two small boys behind the goal of their giant keeper William Fatty Foulke. Why?",
+   "a": "To make him look even bigger",
+   "cat": "stories"
+  },
+  {
+   "q": "After the Superga crash in 1949, Torino had four league games left. How were they played?",
+   "a": "Torino and all four opponents fielded their youth teams",
+   "cat": "stories"
+  },
+  {
+   "q": "Nantes play in yellow and green because of founder Jean Le Guillou. What gave the club those colours?",
+   "a": "The silks of the jockey on his racehorse, Ali Pacha",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2000, disgraced Marseille owner Bernard Tapie took to the stage to play which Jack Nicholson role?",
+   "a": "Randle McMurphy in One Flew Over the Cuckoo's Nest",
+   "cat": "stories"
+  },
+  {
+   "q": "Schalke players swore an oath of innocence in the 1971 Bundesliga scandal, and it proved false. What did rivals nickname the club?",
+   "a": "FC Meineid, which means FC Perjury",
+   "cat": "stories"
+  },
+  {
+   "q": "Milan were at first thrown out of the 2006-07 Champions League over Calciopoli. How did that competition end for them?",
+   "a": "They were let back in on appeal and won it",
+   "cat": "europe"
+  },
+  {
+   "q": "Milan knocked Inter out of the 2002-03 Champions League semi-final on away goals. What was odd about that?",
+   "a": "Both legs were played at the same stadium, San Siro",
+   "cat": "europe"
+  },
+  {
+   "q": "Torino were founded in 1906 partly by Juventus rebel Alfred Dick. What is said to have happened to him at the first Turin derby?",
+   "a": "He was locked in the changing room and missed the game",
+   "cat": "stories"
+  },
+  {
+   "q": "Francesco Totti scored twice in the January 2015 Rome derby. How did he celebrate his equaliser?",
+   "a": "He took a selfie in front of the Roma fans in the Curva Sud",
+   "cat": "stories"
+  },
+  {
+   "q": "Sampdoria's Giuseppe Baldini scored a thunderbolt in the first Genoa derby in 1946. What did Genoa's Juan Carlos Verdeal do?",
+   "a": "He went over and shook his hand",
+   "cat": "stories"
+  },
+  {
+   "q": "Marseille protested at a cut in away tickets for the March 2006 Classique in Paris. What team did they send?",
+   "a": "Their reserve and youth players, who drew 0-0",
+   "cat": "stories"
+  },
+  {
+   "q": "Marseille fans had a special use for the old sloping cycling track under the Vélodrome seats. What was it?",
+   "a": "A slide to invade the pitch at the end of matches",
+   "cat": "grounds"
+  },
+  {
+   "q": "Italian players call their coach Mister. Who started that, at Genoa?",
+   "a": "William Garbutt, an Englishman and Italy's first professional manager",
+   "cat": "managers"
+  },
+  {
+   "q": "Fashion designer Daniel Hechter created PSG's classic shirt in 1973. People said he copied Ajax. What did he say inspired it?",
+   "a": "The bonnet stripes of a Ford Mustang",
+   "cat": "stories"
+  },
+  {
+   "q": "Eintracht Braunschweig went further with their sponsor Jägermeister than any shirt deal. What did the DFB eventually refuse?",
+   "a": "Renaming the club Jägermeister Braunschweig",
+   "cat": "stories"
+  },
+  {
+   "q": "Hamburg keeper Mathias Schober handled a back pass in the last seconds of 2000-01 and Bayern scored to win the title. Who had loaned him out?",
+   "a": "Schalke, the club that lost the title",
+   "cat": "champions"
+  },
+  {
+   "q": "Schalke's Friedel Rausch got a nasty surprise during the 1969 Revierderby against Dortmund. What happened to him?",
+   "a": "He was bitten by an Alsatian dog",
+   "cat": "stories"
+  },
+  {
+   "q": "Detectives found 250,000 francs of Marseille bribe money in 1993. Where was it?",
+   "a": "In the back garden of Valenciennes player Christophe Robert's aunt",
+   "cat": "stories"
+  },
+  {
+   "q": "Aged ten, Valentino Mazzola jumped into the river Adda to save a younger boy from drowning. Who did that boy grow up to be?",
+   "a": "Andrea Bonomi, later the captain of Milan",
+   "cat": "stories"
+  },
+  {
+   "q": "Fiorentina began in red and white. According to tradition, how did they end up in purple?",
+   "a": "The red and white kits were washed in the river and came out purple",
+   "cat": "stories"
+  },
+  {
+   "q": "Tunisia sacked Sabri Lamouchi after one game of the 2026 World Cup. Which Frenchman took over mid-tournament?",
+   "a": "Hervé Renard",
+   "cat": "managers"
+  },
+  {
+   "q": "What did Paraguay's president declare after his team knocked Germany out of the 2026 World Cup?",
+   "a": "A national holiday",
+   "cat": "stories"
+  },
+  {
+   "q": "In June 2026 Paraguay's Miguel Almirón was the first player sent off under a new law. What had he done?",
+   "a": "Covered his mouth while talking to an opponent",
+   "cat": "stories"
+  },
+  {
+   "q": "Australia lost a 2026 World Cup shoot-out to Egypt. What did coach Tony Popovic do in the last minute of extra time?",
+   "a": "Sent on Mathew Ryan in goal for Patrick Beach",
+   "cat": "stories"
+  },
+  {
+   "q": "Shakira and BTS headlined the first ever World Cup final half-time show in 2026 with which American pop star?",
+   "a": "Madonna",
+   "cat": "stories"
+  },
+  {
+   "q": "Norway claimed one of England's goals in the 2026 quarter-final should not have stood because the ball had hit what?",
+   "a": "A Spidercam wire",
+   "cat": "stories"
+  },
+  {
+   "q": "The 2026 opening game between Mexico and South Africa set a World Cup record for an opener. What was it?",
+   "a": "Three red cards",
+   "cat": "records"
+  },
+  {
+   "q": "England met France in the 2026 third-place match, the highest-scoring bronze match ever. What was the score?",
+   "a": "6-4 to England",
+   "cat": "records"
+  },
+  {
+   "q": "PSG's João Neves was sent off late in the 2025 Club World Cup final. What for?",
+   "a": "Pulling Marc Cucurella's hair",
+   "cat": "stories"
+  },
+  {
+   "q": "Which former Stoke and Newcastle striker scored twice in three minutes to put Real Madrid past Bayern in the 2024 semi-final?",
+   "a": "Joselu",
+   "cat": "europe"
+  },
+  {
+   "q": "Which German club sacked Erik ten Hag in September 2025 after only two league games?",
+   "a": "Bayer Leverkusen",
+   "cat": "managers"
+  },
+  {
+   "q": "Which shirt number did Birmingham City retire when 17-year-old Jude Bellingham left for Dortmund in 2020?",
+   "a": "22",
+   "cat": "stories"
+  },
+  {
+   "q": "Manchester United against Liverpool was postponed in May 2021. Why?",
+   "a": "Fans protesting against the Glazers broke into Old Trafford",
+   "cat": "stories"
+  },
+  {
+   "q": "Which English referee was abused by Roma fans at Budapest airport after the 2023 Europa League final?",
+   "a": "Anthony Taylor",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentina midfielder grabbed Spain's Eric Garcia by the throat after the final whistle of the 2026 World Cup final?",
+   "a": "Leandro Paredes",
+   "cat": "stories"
   }
  ]
 }

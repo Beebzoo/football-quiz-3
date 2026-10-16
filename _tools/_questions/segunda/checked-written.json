@@ -14,10 +14,11 @@
   "cat": "stories",
   "q": "Which club won La Liga in 2000 and had fallen to the third tier twenty years later?",
   "a": "Deportivo La Coruña",
-  "sub": "Champions under Javier Irureta, down to the Primera Federación in 2020.",
+  "sub": "Champions under Javier Irureta, down to Segunda B in 2020.",
   "src": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
   "conf": "sure",
-  "verdict": "ok"
+  "verdict": "fixed",
+  "note": "Synced from in-place fix to shipped ball 1."
  },
  {
   "tier": "ball",
@@ -31,13 +32,13 @@
  },
  {
   "tier": "ball",
-  "cat": "records",
-  "q": "A reserve side can win promotion from the Segunda but is barred from which division?",
-  "a": "La Liga",
-  "sub": "So Barcelona Atlètic and Real Madrid Castilla stop where they are.",
+  "cat": "stories",
+  "q": "Why can Real Madrid Castilla never be promoted to La Liga?",
+  "a": "A reserve side can never play in the same division as its first team",
   "src": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok"
+  "verdict": "fixed",
+  "note": "Synced from in-place fix to shipped ball 3."
  },
  {
   "tier": "ball",
@@ -52,12 +53,12 @@
  {
   "tier": "ball",
   "cat": "stories",
-  "q": "Which Basque club spent one season in La Liga in 1998-99 and has not been back since that decade?",
+  "q": "Which Basque club, from a town of about 27,000 people, reached La Liga for the first time in 2014?",
   "a": "Eibar",
-  "sub": "They went up again in 2014 and stayed eight years.",
   "src": "https://en.wikipedia.org/wiki/SD_Eibar",
   "conf": "likely",
-  "verdict": "ok"
+  "verdict": "fixed",
+  "note": "Synced from in-place fix to shipped ball 5."
  },
  {
   "tier": "easy",
@@ -106,12 +107,13 @@
  },
  {
   "tier": "hard",
-  "cat": "stories",
-  "q": "Which club won the Segunda in 1999-2000 and was relegated straight back down the next season?",
-  "a": "Osasuna",
+  "cat": "champions",
+  "q": "Which club won the Segunda in 1999-2000?",
+  "a": "Las Palmas",
   "src": "https://en.wikipedia.org/wiki/CA_Osasuna",
   "conf": "likely",
-  "verdict": "ok"
+  "verdict": "fixed",
+  "note": "Synced from in-place fix to shipped hard 60."
  },
  {
   "tier": "hard",

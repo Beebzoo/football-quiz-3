@@ -291,6 +291,183 @@
    "sub": "He scored 28 that season.",
    "cat": "scorers",
    "club": "almeria"
+  },
+  {
+   "q": "From 2023-24 the Segunda was branded LaLiga Hypermotion, after technology from which video game series?",
+   "a": "EA Sports FC, formerly the FIFA games",
+   "sub": "EA Sports became the sponsor of all LaLiga competitions.",
+   "cat": "stories"
+  },
+  {
+   "q": "LaLiga SmartBank, the Segunda's sponsored name from 2019 to 2023, came from which bank?",
+   "a": "Banco Santander",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian, later a Champions League winner with Liverpool, spent 2012-13 on loan at Real Madrid Castilla in the Segunda?",
+   "a": "Fabinho",
+   "sub": "He was on loan from Rio Ave.",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which goalkeeper, later the world's most expensive keeper, was loaned by Athletic Bilbao to Ponferradina and then Valladolid in the Segunda?",
+   "a": "Kepa Arrizabalaga",
+   "cat": "transfers",
+   "club": "valladolid"
+  },
+  {
+   "q": "Which son of Diego Simeone spent 2022-23 on loan at Real Zaragoza in the Segunda?",
+   "a": "Giuliano Simeone",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which former Real Madrid midfielder took over Almería in November 2019, with the club in the Segunda?",
+   "a": "Guti",
+   "cat": "managers",
+   "club": "almeria"
+  },
+  {
+   "q": "Newcastle United signed which forward from Segunda side Tenerife in 2014?",
+   "a": "Ayoze Pérez",
+   "sub": "The fee was around three million euros.",
+   "cat": "transfers",
+   "club": "tenerife"
+  },
+  {
+   "q": "Which club signed 18-year-old defender Jesús Vallejo from Segunda side Zaragoza in 2015, then loaned him straight back?",
+   "a": "Real Madrid",
+   "cat": "transfers"
+  },
+  {
+   "q": "Julen Lopetegui's first job as a head coach, in 2003, was at which Segunda club, where he had also kept goal?",
+   "a": "Rayo Vallecano",
+   "cat": "managers"
+  },
+  {
+   "q": "The Segunda was halted in March 2020 and only restarted in June. What had stopped it?",
+   "a": "The COVID-19 pandemic",
+   "cat": "stories"
+  },
+  {
+   "q": "In February 2020 a judge removed the Qatari owner of which Andalusian Segunda club and appointed an administrator?",
+   "a": "Málaga",
+   "cat": "stories"
+  },
+  {
+   "q": "Raúl de Tomás scored 24 goals on loan at Rayo Vallecano in 2017-18. Which club owned him?",
+   "a": "Real Madrid",
+   "sub": "It was a season record for any Rayo player.",
+   "cat": "transfers"
+  },
+  {
+   "q": "Álex Baena spent 2021-22 on loan at Girona in the Segunda. Which club sent him there?",
+   "a": "Villarreal",
+   "cat": "transfers",
+   "club": "girona"
+  },
+  {
+   "q": "Umar Sadiq joined Segunda side Almería in 2020. Which country did he go on to play for?",
+   "a": "Nigeria",
+   "cat": "imports",
+   "club": "almeria"
+  },
+  {
+   "q": "Fabián Ruiz spent part of 2016-17 on loan at Segunda side Elche. Which club sent him there?",
+   "a": "Real Betis",
+   "cat": "transfers"
+  },
+  {
+   "q": "Roberto Soldado scored 19 Segunda goals in 2005-06 for which reserve side?",
+   "a": "Real Madrid Castilla",
+   "cat": "scorers"
+  },
+  {
+   "q": "Alberto Moleiro, who joined Villarreal in 2025, came through the academy of which Canary Islands club?",
+   "a": "Las Palmas",
+   "cat": "transfers"
+  },
+  {
+   "q": "Barcelona signed Alen Halilović for their B team in the Segunda in 2014. Which Croatian club sold him?",
+   "a": "Dinamo Zagreb",
+   "cat": "transfers"
+  },
+  {
+   "q": "In which year did the Segunda División play its very first season?",
+   "a": "1929",
+   "sub": "It kicked off on 17 February 1929 and ran until the end of June.",
+   "cat": "stories"
+  },
+  {
+   "q": "Why was no Segunda season played between 1936 and 1939?",
+   "a": "The Spanish Civil War",
+   "sub": "The 1939-40 season was the first after a three-year break.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two Seville clubs played in the very first Segunda season, in 1929?",
+   "a": "Sevilla and Real Betis",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two Galician clubs played in the very first Segunda season, in 1929?",
+   "a": "Celta Vigo and Deportivo La Coruña",
+   "cat": "stories"
+  },
+  {
+   "q": "What was the new third tier, created below the Segunda in 1977, called?",
+   "a": "Segunda División B",
+   "cat": "relegation"
+  },
+  {
+   "q": "Before Segunda B arrived in 1977, which division was Spain's third tier?",
+   "a": "The Tercera División",
+   "sub": "With Segunda B in place, the Tercera became the fourth tier.",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Real Madrid legend coached Valencia in the Segunda in 1986-87 and took them straight back up?",
+   "a": "Alfredo Di Stéfano",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Hungarian-born Barcelona great coached Málaga to promotion from the Segunda in 1988?",
+   "a": "Ladislao Kubala",
+   "cat": "managers"
+  },
+  {
+   "q": "Mágico González lit up the Segunda for Cádiz from 1982. Which country was he from?",
+   "a": "El Salvador",
+   "sub": "He scored on his Segunda debut, against Real Murcia in September 1982.",
+   "cat": "imports",
+   "club": "cadiz"
+  },
+  {
+   "q": "Which Argentine forward, later a World Cup winner, played for Alavés in the Segunda from 1975 to 1979?",
+   "a": "Jorge Valdano",
+   "sub": "He scored in the 1986 World Cup final against West Germany.",
+   "cat": "imports"
+  },
+  {
+   "q": "Real Betis were league champions in 1935. Which tier had they sunk to by 1947?",
+   "a": "The third tier, the Tercera División",
+   "sub": "They went down with a 4-1 defeat in Santander, where they had won the 1935 title.",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Basque club from Vitoria became the first ever to be promoted from the Segunda to La Liga, in 1930?",
+   "a": "Alavés",
+   "cat": "relegation"
+  },
+  {
+   "q": "Quini topped the Segunda scoring chart in 1969-70 and 1976-77 for which Asturian club?",
+   "a": "Sporting Gijón",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Madrid club, then known as Athletic, spent 1930 to 1934 in the Segunda?",
+   "a": "Atlético Madrid",
+   "sub": "Relegated after two La Liga seasons, they came back up in 1934.",
+   "cat": "relegation"
   }
  ],
  "normal": [
@@ -833,6 +1010,401 @@
    "q": "Which Barcelona B winger scored 18 Segunda goals in 2012-13 before a loan to Everton?",
    "a": "Gerard Deulofeu",
    "cat": "scorers"
+  },
+  {
+   "q": "Which former Leeds United and Swansea winger took charge of Castellón in September 2025, first as caretaker?",
+   "a": "Pablo Hernández",
+   "sub": "He was born in Castellón and joined them as a player in 2021.",
+   "cat": "managers",
+   "club": "castellon"
+  },
+  {
+   "q": "Under which sponsored name was the Segunda known from 2008-09 to 2015-16?",
+   "a": "Liga Adelante",
+   "cat": "stories"
+  },
+  {
+   "q": "In 2004-05 which Segunda side knocked Real Madrid out of the Copa del Rey on away goals?",
+   "a": "Real Valladolid",
+   "sub": "A 0-0 at home, then 1-1 at the Bernabéu.",
+   "cat": "cups"
+  },
+  {
+   "q": "In January 2024 Segunda side Tenerife knocked which top-flight island neighbours out of the Copa del Rey?",
+   "a": "Las Palmas",
+   "sub": "Tenerife won 2-0.",
+   "cat": "cups",
+   "club": "tenerife"
+  },
+  {
+   "q": "Which former Real Madrid Castilla midfielder topped the 2025-26 Segunda scoring chart for Almería?",
+   "a": "Sergio Arribas",
+   "sub": "He scored 25 league goals.",
+   "cat": "scorers",
+   "club": "almeria"
+  },
+  {
+   "q": "UCAM Murcia reached the Segunda in 2016. What kind of institution owned the club?",
+   "a": "A university, the Catholic University of Murcia",
+   "cat": "stories"
+  },
+  {
+   "q": "Which former Southampton and Hull manager took over Real Zaragoza in October 2025, with the club bottom of the Segunda?",
+   "a": "Rubén Sellés",
+   "sub": "He was dismissed the following March.",
+   "cat": "managers"
+  },
+  {
+   "q": "Which former Atlético Madrid captain took charge of Real Zaragoza in March 2025, having once played for them?",
+   "a": "Gabi",
+   "sub": "He lasted until October 2025.",
+   "cat": "managers"
+  },
+  {
+   "q": "Relegated Villarreal appointed which coach in January 2013, and went straight back up?",
+   "a": "Marcelino",
+   "cat": "managers"
+  },
+  {
+   "q": "Which coach led Girona to La Liga for the first time in their history in 2017?",
+   "a": "Pablo Machín",
+   "sub": "He had taken over in March 2014 with Girona bottom.",
+   "cat": "managers",
+   "club": "girona"
+  },
+  {
+   "q": "Which coach took Leganés up twice in three seasons, to the Segunda in 2014 and to La Liga in 2016?",
+   "a": "Asier Garitano",
+   "cat": "managers",
+   "club": "leganes"
+  },
+  {
+   "q": "Which coach led Elche back to La Liga in 2013, in his first season, after 24 years away?",
+   "a": "Fran Escribá",
+   "cat": "managers"
+  },
+  {
+   "q": "Which former Sporting Gijón defender took them back to La Liga in 2015 amid severe money troubles?",
+   "a": "Abelardo",
+   "cat": "managers",
+   "club": "sporting-gijon"
+  },
+  {
+   "q": "Which former Russia midfielder, once of Celta and Real Sociedad, coached Mallorca in the Segunda in 2014-15?",
+   "a": "Valery Karpin",
+   "cat": "managers",
+   "club": "mallorca"
+  },
+  {
+   "q": "Atlético Madrid loaned which winger to Mirandés for 2021-22, where he scored eight goals and made 12 assists?",
+   "a": "Rodrigo Riquelme",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which goalkeeper, on loan from Athletic Bilbao, missed only one game as Huesca won their first ever promotion in 2018?",
+   "a": "Álex Remiro",
+   "cat": "transfers"
+  },
+  {
+   "q": "Granada went up in 2011 with a squad full of loan players from which Italian club?",
+   "a": "Udinese",
+   "cat": "imports",
+   "club": "granada"
+  },
+  {
+   "q": "Segunda side Almería knocked Sevilla out of the Copa del Rey in January 2025. What was the score?",
+   "a": "4-1 to Almería",
+   "cat": "cups"
+  },
+  {
+   "q": "Segunda side Cádiz won 5-3 away at which top-flight club in the 2017-18 Copa del Rey?",
+   "a": "Real Betis",
+   "sub": "Cádiz went through 6-5 on aggregate.",
+   "cat": "cups",
+   "club": "cadiz"
+  },
+  {
+   "q": "Which top-flight club did Segunda side Sporting Gijón knock out of the Copa del Rey in January 2022, winning 2-1?",
+   "a": "Villarreal",
+   "cat": "cups",
+   "club": "sporting-gijon"
+  },
+  {
+   "q": "Albacete's run in the 2025-26 Copa del Rey ended in the quarter-finals. Who beat them?",
+   "a": "Barcelona, 2-1 at Albacete",
+   "cat": "cups"
+  },
+  {
+   "q": "Deportivo's last game of 2019-20, against Fuenlabrada, was delayed by COVID cases until August. How did it end?",
+   "a": "Deportivo won 2-1",
+   "sub": "Deportivo had already been relegated by then.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine winger, later of Roma, helped Sevilla Atlético stay in the Segunda in 2007-08?",
+   "a": "Diego Perotti",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which former Swansea striker, by then Burgos' director of football, took charge of the team as caretaker in October 2024?",
+   "a": "Michu",
+   "cat": "stories",
+   "club": "burgos"
+  },
+  {
+   "q": "Leeds United loaned which Japanese midfielder to Cultural Leonesa in January 2018, the day he signed?",
+   "a": "Yosuke Ideguchi",
+   "sub": "Cultural were owned by the Aspire Academy and served as a feeder club for Leeds.",
+   "cat": "transfers"
+  },
+  {
+   "q": "Real Zaragoza's temporary ground from 2025, used while La Romareda is rebuilt, is named after which bank?",
+   "a": "Ibercaja",
+   "cat": "stories"
+  },
+  {
+   "q": "From 2021 FC Andorra played their home games at which ground, under a deal with the Andorran government?",
+   "a": "The Estadi Nacional",
+   "cat": "grounds",
+   "club": "fc-andorra"
+  },
+  {
+   "q": "Eldense reached the Segunda in 2023 after a 4-4 aggregate play-off draw with which reserve side?",
+   "a": "Real Madrid Castilla",
+   "sub": "Eldense went up thanks to their higher league finish.",
+   "cat": "stories",
+   "club": "eldense"
+  },
+  {
+   "q": "Cultural Leonesa returned to the Segunda in 2017 after 42 years by beating which reserve side in the play-off?",
+   "a": "Barcelona B",
+   "cat": "stories"
+  },
+  {
+   "q": "In January 2022 Ibiza won 5-0 away at which Andalusian giant?",
+   "a": "Málaga",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Las Palmas youth product, nicknamed after a Brazilian striker, hit a hat-trick in a 5-3 win at Barcelona B in 2011?",
+   "a": "Jonathan Viera, nicknamed Romário",
+   "cat": "transfers",
+   "club": "las-palmas"
+  },
+  {
+   "q": "Which coach took Recreativo back to La Liga in 2002 after 23 years away, and Real Murcia up in 2007?",
+   "a": "Lucas Alcaraz",
+   "cat": "managers"
+  },
+  {
+   "q": "Cristian Tello rejoined Barcelona B, then in the Segunda, in 2010. From which rival's reserves did he come?",
+   "a": "Espanyol",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which coach took Almería back to La Liga in 2013 in his only season there?",
+   "a": "Javi Gracia",
+   "cat": "managers",
+   "club": "almeria"
+  },
+  {
+   "q": "Which Greek-Canadian businessman took control of Castellón in July 2022, bringing a data-led approach to signings?",
+   "a": "Haralabos Voulgaris",
+   "cat": "stories",
+   "club": "castellon"
+  },
+  {
+   "q": "Huesca sealed their first ever promotion to La Liga in May 2018 with a 2-0 win away at which club?",
+   "a": "Lugo",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Deportivo winger topped the Segunda scoring chart in 1961-62, before joining Real Madrid?",
+   "a": "Amancio Amaro",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Real Madrid great coached Castilla's Quinta del Buitre side in the Segunda in 1983-84?",
+   "a": "Amancio Amaro",
+   "sub": "Butragueño, Míchel, Sanchís, Martín Vázquez and Pardeza all played for him.",
+   "cat": "managers"
+  },
+  {
+   "q": "Which future Real Madrid idol helped Burgos up from the Segunda in 1975-76?",
+   "a": "Juanito",
+   "cat": "transfers",
+   "club": "burgos"
+  },
+  {
+   "q": "Betis went up from the Segunda in 1932. They were the first club from which region to reach the top flight?",
+   "a": "Andalusia",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which club from the Spanish protectorate in Morocco played in the Segunda and reached La Liga for 1951-52?",
+   "a": "Atlético Tetuán",
+   "sub": "It was their only top-flight season, and they finished bottom.",
+   "cat": "stories"
+  },
+  {
+   "q": "Sevilla's ultras, the Biris, are named after which Gambian winger signed in 1973, with Sevilla in the Segunda?",
+   "a": "Biri Biri",
+   "sub": "He was Sevilla's first black player.",
+   "cat": "imports"
+  },
+  {
+   "q": "Real Murcia played at which ground for over 80 years, until moving out in 2006?",
+   "a": "La Condomina",
+   "cat": "grounds"
+  },
+  {
+   "q": "Real Sociedad left which San Sebastián ground in 1993 after 80 years there?",
+   "a": "Atotxa, also spelled Atocha",
+   "sub": "They moved to Anoeta, and Atotxa was later demolished for housing.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Between 1949 and 1968 the Segunda was split into two groups. On what basis?",
+   "a": "Geography, a northern group and a southern group",
+   "cat": "stories"
+  },
+  {
+   "q": "From 1977 to 1984 the Segunda had a slightly different official name. What was it?",
+   "a": "Segunda División A",
+   "sub": "The A was needed once Segunda B existed below it.",
+   "cat": "stories"
+  },
+  {
+   "q": "In 1948 which club became the first from Castile and León to reach La Liga?",
+   "a": "Real Valladolid",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Asturian club spent the whole of the 1960s in the Segunda?",
+   "a": "Sporting Gijón",
+   "cat": "relegation"
+  },
+  {
+   "q": "Real Sociedad dropped their royal name under the Second Republic. What were they called until 1939?",
+   "a": "Donostia Club de Fútbol",
+   "cat": "stories"
+  },
+  {
+   "q": "The first Segunda season, in 1929, had a top Group A and a lower Group B. How many clubs were in Group A?",
+   "a": "Ten",
+   "cat": "records"
+  },
+  {
+   "q": "Which Racing Santander striker topped the 1970-71 Segunda scoring chart, then moved to Real Madrid?",
+   "a": "Santillana",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which English coach, known for his bowler hat, rejoined Athletic Madrid in 1933 while they were in the Segunda?",
+   "a": "Fred Pentland",
+   "sub": "Athletic Madrid went back up to La Liga at the end of that 1933-34 season.",
+   "cat": "managers"
+  },
+  {
+   "q": "Which two Galician clubs were relegated together from the Segunda into Segunda B in 1980?",
+   "a": "Celta Vigo and Deportivo La Coruña",
+   "cat": "relegation"
+  },
+  {
+   "q": "While still in the Segunda in 1932, Deportivo knocked which club out of the Cup, the league champions that season?",
+   "a": "Real Madrid",
+   "cat": "cups"
+  },
+  {
+   "q": "Iberia SC, founder members of the Segunda, merged in 1932 to form which club?",
+   "a": "Real Zaragoza, first called Zaragoza FC",
+   "cat": "relegation"
+  },
+  {
+   "q": "Las Palmas were founded in 1949. How long did it take them to reach La Liga?",
+   "a": "Two seasons, with back-to-back promotions",
+   "cat": "relegation",
+   "club": "las-palmas"
+  },
+  {
+   "q": "When Segunda B began in 1977-78, how many groups did it have?",
+   "a": "Two, of 20 clubs each",
+   "cat": "relegation"
+  },
+  {
+   "q": "Sevilla missed out on promotion in 1929 after losing the first ever promoción. Which La Liga club beat them?",
+   "a": "Racing de Santander",
+   "sub": "Sevilla won the home leg 2-1 but lost 2-0 in Santander.",
+   "cat": "relegation"
+  },
+  {
+   "q": "From which season did a win in the Segunda earn three points instead of two?",
+   "a": "1995-96",
+   "cat": "records"
+  },
+  {
+   "q": "Villarreal went straight back down from La Liga in 1999 after losing the promoción to which Segunda side?",
+   "a": "Sevilla, 3-0 on aggregate",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Ballon d'Or winner coached his home-town club Deportivo in the Segunda in 1978-79?",
+   "a": "Luis Suárez",
+   "cat": "managers"
+  },
+  {
+   "q": "Sevilla played the very first Segunda season at which ground, closed in 1958?",
+   "a": "The Estadio de Nervión",
+   "sub": "It was replaced by the Ramón Sánchez Pizjuán.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Leganés moved into which new ground in February 1998, halfway through a Segunda season?",
+   "a": "Butarque",
+   "cat": "grounds",
+   "club": "leganes"
+  },
+  {
+   "q": "When CD Málaga were wound up in 1992, which former reserve side carried on and later became Málaga CF?",
+   "a": "Club Atlético Malagueño",
+   "sub": "It had been made independent in 1959 to dodge relegation alongside the first team.",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Real Oviedo striker topped the 1987-88 Segunda chart and scored in the promoción win over Mallorca?",
+   "a": "Carlos Muñoz, known as Carlos",
+   "cat": "scorers",
+   "club": "oviedo"
+  },
+  {
+   "q": "Which small Catalan town club reached the 1992 promoción, only to lose to Cádiz?",
+   "a": "UE Figueres",
+   "cat": "relegation",
+   "club": "cadiz"
+  },
+  {
+   "q": "Which 29-year-old coach led Salamanca up through the 1995 promoción?",
+   "a": "Juan Manuel Lillo",
+   "cat": "managers"
+  },
+  {
+   "q": "Real Oviedo returned to La Liga in 1988 by beating which top-flight club in the promoción?",
+   "a": "Mallorca, 2-1 on aggregate",
+   "cat": "relegation",
+   "club": "oviedo"
+  },
+  {
+   "q": "Sporting Gijón kept their La Liga place in 1995 by beating which Segunda side in the promoción?",
+   "a": "Lleida, 5-4 on aggregate",
+   "cat": "relegation",
+   "club": "sporting-gijon"
+  },
+  {
+   "q": "Under Franco, which name did Sporting Gijón play under before recovering 'Sporting' in 1970?",
+   "a": "Real Gijón",
+   "sub": "Racing Santander likewise became Real Santander.",
+   "cat": "stories",
+   "club": "sporting-gijon"
   }
  ],
  "hard": [
@@ -1580,6 +2152,371 @@
    "a": "Igor Gluščević",
    "sub": "He topped the Segunda scoring chart that season.",
    "cat": "imports"
+  },
+  {
+   "q": "What was the Segunda's sponsored name from 2016-17 to 2018-19, with an oversized 2 in the middle?",
+   "a": "LaLiga 123, written with bars between the digits",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Segunda side knocked Villarreal out of the 2009-10 Copa del Rey before losing a quarter-final to Atlético Madrid?",
+   "a": "Celta Vigo",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Segunda side reached the 2016-17 Copa quarter-finals after knocking Espanyol out on penalties?",
+   "a": "Alcorcón",
+   "sub": "Alavés ended their run.",
+   "cat": "cups"
+  },
+  {
+   "q": "Segunda side Almería reached the 2020-21 Copa del Rey quarter-finals. Who knocked them out?",
+   "a": "Sevilla",
+   "sub": "Almería had beaten Alavés 5-0 and Osasuna on penalties.",
+   "cat": "cups",
+   "club": "almeria"
+  },
+  {
+   "q": "Segunda side Numancia knocked Málaga out of the 2017-18 Copa del Rey. Who beat them in the last 16?",
+   "a": "Real Madrid",
+   "cat": "cups"
+  },
+  {
+   "q": "Which club made Uroš Đurđević a club-record signing in 2018, paying about 2.5 million euros?",
+   "a": "Sporting Gijón",
+   "cat": "transfers"
+  },
+  {
+   "q": "Almería paid a reported eight million pounds in 2019 for which Nottingham Forest teenager?",
+   "a": "Arvin Appiah",
+   "cat": "transfers",
+   "club": "almeria"
+  },
+  {
+   "q": "Which Serie A club signed Zaragoza's academy striker Iván Azón in February 2025?",
+   "a": "Como",
+   "cat": "transfers"
+  },
+  {
+   "q": "In December 2011, aged 30, who became the youngest coach in Segunda history when Villarreal B appointed him?",
+   "a": "Julio Velázquez",
+   "cat": "managers"
+  },
+  {
+   "q": "Which coach took both Tenerife, in 2009, and Deportivo, in 2012, up from the Segunda?",
+   "a": "José Luis Oltra",
+   "cat": "managers",
+   "club": "tenerife"
+  },
+  {
+   "q": "Which coach took Numancia up for the first time in 1999 and Osasuna up a year later?",
+   "a": "Miguel Ángel Lotina",
+   "cat": "managers"
+  },
+  {
+   "q": "Which coach took Celta back up from the Segunda in 2005, then into the UEFA Cup a year later?",
+   "a": "Fernando Vázquez",
+   "cat": "managers"
+  },
+  {
+   "q": "Who were Leganés playing when a 1-0 away win clinched their first ever place in La Liga, in June 2016?",
+   "a": "Mirandés",
+   "cat": "stories",
+   "club": "leganes"
+  },
+  {
+   "q": "In May 2023 Málaga fell into the third tier for the first time since 1998. What was that tier called?",
+   "a": "The third tier, the Primera Federación",
+   "cat": "stories"
+  },
+  {
+   "q": "Sabadell finished in the Segunda drop zone in 2011-12 but stayed up. Why?",
+   "a": "Villarreal went down, so Villarreal B were relegated automatically",
+   "cat": "stories",
+   "club": "sabadell"
+  },
+  {
+   "q": "In 2001, money troubles forced Sporting Gijón to sell which asset to the town hall for 12 million euros?",
+   "a": "Mareo, their youth academy",
+   "cat": "stories",
+   "club": "sporting-gijon"
+  },
+  {
+   "q": "An international investment fund led by whom bought 51 percent of Real Zaragoza in April 2022?",
+   "a": "Jorge Mas",
+   "cat": "stories"
+  },
+  {
+   "q": "UD Ibiza, in the Segunda from 2021, were founded in 2015 by which former Valencia president?",
+   "a": "Amadeo Salvo",
+   "cat": "stories"
+  },
+  {
+   "q": "The first official match at Real Zaragoza's temporary Ibercaja Stadium, in August 2025, was a 3-1 defeat to which club?",
+   "a": "FC Andorra",
+   "cat": "grounds"
+  },
+  {
+   "q": "FC Andorra won promotion to the Segunda for the first time in May 2022 with a 1-0 home win over which club?",
+   "a": "UCAM Murcia",
+   "cat": "stories",
+   "club": "fc-andorra"
+  },
+  {
+   "q": "Barcelona B won 6-0 away at which Andalusian club on the last day of 2011-12?",
+   "a": "Xerez",
+   "cat": "records"
+  },
+  {
+   "q": "Eibar beat which reserve side 6-0 in November 2013, the joint biggest home win of that Segunda season?",
+   "a": "Real Madrid Castilla",
+   "cat": "records",
+   "club": "eibar"
+  },
+  {
+   "q": "In October 2025 Real Zaragoza lost 5-0 at home to which newly promoted club?",
+   "a": "Cultural Leonesa",
+   "cat": "records"
+  },
+  {
+   "q": "Which club won 5-0 away at Real Oviedo on the final day of 2015-16?",
+   "a": "Osasuna",
+   "cat": "records",
+   "club": "oviedo"
+  },
+  {
+   "q": "Which club lost ten Segunda games in a row in 2017-18?",
+   "a": "Lorca FC",
+   "cat": "records"
+  },
+  {
+   "q": "Which club, founded in 2009, won promotion to the Segunda in July 2020 by beating Castellón on penalties in a COVID-shortened play-off?",
+   "a": "UD Logroñés",
+   "cat": "stories",
+   "club": "castellon"
+  },
+  {
+   "q": "Fabinho's first goal for Real Madrid Castilla was an added-time header for a 3-3 draw in April 2013. Against which club?",
+   "a": "Numancia",
+   "cat": "scorers"
+  },
+  {
+   "q": "Kepa Arrizabalaga made his professional debut on loan in January 2015. For which Segunda club?",
+   "a": "Ponferradina",
+   "cat": "transfers"
+  },
+  {
+   "q": "Real Sociedad B returned to the Segunda in 2021, after 59 years away, by beating which club in the play-off final?",
+   "a": "Algeciras",
+   "cat": "stories",
+   "club": "real-sociedad"
+  },
+  {
+   "q": "Ponferradina moved into which new ground in September 2000, with a friendly against Celta?",
+   "a": "El Toralín",
+   "cat": "grounds"
+  },
+  {
+   "q": "The 2019-20 Segunda was suspended on 12 March 2020. In which month did it restart?",
+   "a": "June 2020",
+   "cat": "stories"
+  },
+  {
+   "q": "UCAM Murcia reached the Segunda in 2016 by beating which reserve side 4-3 on aggregate in the play-offs?",
+   "a": "Real Madrid Castilla",
+   "cat": "stories"
+  },
+  {
+   "q": "Deportivo kept their top-flight place in 1992 by beating which club in the promoción?",
+   "a": "Real Betis, 2-1 on aggregate",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Mallorcan coach arrived at Betis in March 1994 and took them up from the Segunda that season?",
+   "a": "Lorenzo Serra Ferrer",
+   "cat": "managers"
+  },
+  {
+   "q": "Which reserve side was among the first four clubs relegated from the Segunda into the new Segunda B in 1977?",
+   "a": "Barcelona Atlètic",
+   "sub": "Levante, Pontevedra and San Andrés went down with them.",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Asturian club, in Europe by 1991, spent 1978-79 in the third-tier Segunda B?",
+   "a": "Real Oviedo",
+   "cat": "relegation"
+  },
+  {
+   "q": "Why could no club be relegated from the Segunda in 1986-87?",
+   "a": "The Segunda was expanded to 20 clubs for the next season",
+   "cat": "stories"
+  },
+  {
+   "q": "In 1986-87 each Segunda club played a 34-game league and then a second phase. How many games did they play in all?",
+   "a": "44, the second phase added ten",
+   "sub": "Points from the first phase were carried into the second.",
+   "cat": "records"
+  },
+  {
+   "q": "Elche went up from the Segunda in 1984 despite finishing only fifth. Why?",
+   "a": "The top two were reserve sides, Castilla and Bilbao Athletic, who could not go up",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Getxo club, third in La Liga in 1929-30, later spent six seasons in the Segunda and most of the decades since in the Tercera?",
+   "a": "Arenas Club",
+   "cat": "stories"
+  },
+  {
+   "q": "When Morocco became independent in 1956, Atlético Tetuán's Segunda place passed to a new club in which city?",
+   "a": "Ceuta, as Club Atlético de Ceuta",
+   "cat": "stories"
+  },
+  {
+   "q": "Real Burgos sealed promotion to La Liga in May 1990 at San Mamés. Against which side?",
+   "a": "Bilbao Athletic, Athletic's reserve team",
+   "cat": "relegation",
+   "club": "burgos"
+  },
+  {
+   "q": "Quini joined Sporting Gijón in 1968 from which works club in Avilés?",
+   "a": "Ensidesa, the steelworks club",
+   "cat": "transfers",
+   "club": "sporting-gijon"
+  },
+  {
+   "q": "Which Argentine, a 1950s Real Madrid forward, won promotion to La Liga as a coach with five different clubs?",
+   "a": "Roque Olsen",
+   "sub": "The first was Córdoba's first ever promotion to the top flight.",
+   "cat": "managers"
+  },
+  {
+   "q": "Mallorca's home from 1945 to 1999 was renamed in 1960 after which club president?",
+   "a": "Lluís Sitjar",
+   "sub": "It was first known as Es Fortí, and was demolished in 2015.",
+   "cat": "grounds",
+   "club": "mallorca"
+  },
+  {
+   "q": "Levante played at which Valencia ground before moving to a new stadium in 1969?",
+   "a": "The Estadio de Vallejo",
+   "cat": "grounds"
+  },
+  {
+   "q": "Why did the Segunda grow to 22 clubs in 1997-98?",
+   "a": "La Liga was cut back to 20 clubs",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which body took over the running of the Segunda in 1984?",
+   "a": "The LFP, the professional football league",
+   "cat": "stories"
+  },
+  {
+   "q": "In the first ever Segunda season, in 1929, there were two groups. What was Group B in practice?",
+   "a": "The third tier",
+   "sub": "Its top two moved up, the rest went into the new Tercera.",
+   "cat": "stories"
+  },
+  {
+   "q": "Celta and Racing de Madrid went down from the first Segunda in 1929. What did both then refuse to do?",
+   "a": "Play in the new Tercera División",
+   "cat": "relegation"
+  },
+  {
+   "q": "Valencia went down in 1986 for the first time. How many years had they spent in the top flight?",
+   "a": "55",
+   "cat": "records"
+  },
+  {
+   "q": "Alavés reached La Liga again in 1998. How long had they been away?",
+   "a": "42 years",
+   "sub": "In 1988 they had been eighth in a fourth-tier group.",
+   "cat": "relegation"
+  },
+  {
+   "q": "In the 1940 play-off for a top-flight place, Celta beat Deportivo 1-0. Where was it played?",
+   "a": "At Chamartín, Real Madrid's ground, a neutral venue",
+   "cat": "relegation"
+  },
+  {
+   "q": "Abel Fernández topped the Segunda scoring chart three times, for Racing Santander and which other club?",
+   "a": "Celta Vigo",
+   "sub": "At the end of 2022-23, only Rubén Castro and Nino had scored more Segunda goals than his 155.",
+   "cat": "scorers"
+  },
+  {
+   "q": "After leaving Athletic in 1955, Telmo Zarra played for which Bilbao club in their first ever Segunda season?",
+   "a": "Indautxu",
+   "cat": "scorers"
+  },
+  {
+   "q": "Español went down again through the promoción in 1993. Which club beat them?",
+   "a": "Racing de Santander, 1-0 on aggregate",
+   "cat": "relegation"
+  },
+  {
+   "q": "CD Málaga lost the 1991 promoción on penalties. Which top-flight club beat them?",
+   "a": "Cádiz",
+   "sub": "Málaga had also lost the 1990 promoción on penalties, to Español.",
+   "cat": "relegation"
+  },
+  {
+   "q": "Levante first reached La Liga in 1963 by beating which club in the promoción?",
+   "a": "Deportivo La Coruña, 4-2 on aggregate",
+   "cat": "relegation"
+  },
+  {
+   "q": "In 1939 Levante FC merged with which club, inheriting its ground at Vallejo?",
+   "a": "Gimnástico FC",
+   "sub": "Levante's blue and claret home colours came from Gimnástico.",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Hungarian coach took CD Málaga up from the Segunda in 1970?",
+   "a": "Jenő Kálmár",
+   "sub": "He was back on the bench, alongside Viberti, for another promotion in 1979.",
+   "cat": "imports"
+  },
+  {
+   "q": "Racing de Madrid built a stadium in Vallecas in 1930. Which club later made it their home?",
+   "a": "Rayo Vallecano",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Sporting Gijón forward scored 46 Segunda goals in 1956-57?",
+   "a": "Ricardo",
+   "cat": "scorers",
+   "club": "sporting-gijon"
+  },
+  {
+   "q": "Mallorca went up in 1997 by beating which top-flight club on away goals in the promoción?",
+   "a": "Rayo Vallecano",
+   "cat": "relegation",
+   "club": "mallorca"
+  },
+  {
+   "q": "In the 1990 promoción, Tenerife stayed up by beating which Galician Segunda side 1-0 on aggregate?",
+   "a": "Deportivo La Coruña",
+   "cat": "relegation",
+   "club": "tenerife"
+  },
+  {
+   "q": "Which striker, a Real Madrid youth product, starred as Recreativo first reached La Liga in 1978?",
+   "a": "Hipólito Rincón",
+   "cat": "transfers"
+  },
+  {
+   "q": "In 1954-55 a young Luis Suárez also played in the Segunda for which Barcelona reserve side?",
+   "a": "España Industrial, later CD Condal",
+   "sub": "Six years later he became the first Spanish-born winner of the Ballon d'Or.",
+   "cat": "transfers"
+  },
+  {
+   "q": "Hércules reached the Segunda in 1934. How long did it take them to reach La Liga?",
+   "a": "One season, they went up at the first attempt in 1935",
+   "cat": "relegation"
   }
  ],
  "extreme": [
@@ -2324,6 +3261,307 @@
    "q": "Which striker became the first player to reach 700 games across Spain's top two divisions?",
    "a": "Nino",
    "cat": "records"
+  },
+  {
+   "q": "Which Japanese businessman owned Sabadell in the Segunda in 2013, setting up a link with FC Tokyo?",
+   "a": "Keisuke Sakamoto",
+   "cat": "stories",
+   "club": "sabadell"
+  },
+  {
+   "q": "The Segunda first carried a sponsor's name in 2006-07. Which name did it use for its first two sponsored seasons?",
+   "a": "Liga BBVA",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won 5-4 at home to Albacete in December 2023, the highest-scoring Segunda game of that season?",
+   "a": "Racing Ferrol",
+   "cat": "records",
+   "club": "albacete"
+  },
+  {
+   "q": "Castellón won the highest-scoring Segunda game of 2025-26 by 5-4 in November 2025. Against which reserve side?",
+   "a": "Real Sociedad B",
+   "cat": "records",
+   "club": "castellon"
+  },
+  {
+   "q": "In May 2021 Leganés won 5-0 away at which club, the biggest away win of that Segunda season?",
+   "a": "Real Zaragoza",
+   "cat": "records",
+   "club": "leganes"
+  },
+  {
+   "q": "Leganés beat which Basque club 6-0 in October 2023, the biggest home win of that Segunda season?",
+   "a": "Amorebieta",
+   "cat": "records",
+   "club": "leganes"
+  },
+  {
+   "q": "Las Palmas beat which Galician club 6-1 in April 2021, the biggest home win and highest-scoring Segunda game that season?",
+   "a": "Lugo",
+   "cat": "records",
+   "club": "las-palmas"
+  },
+  {
+   "q": "Only 409 fans watched a Segunda game in March 2018, the season's lowest crowd. Which reserve side was at home?",
+   "a": "Sevilla Atlético",
+   "sub": "They lost 2-1 to Albacete.",
+   "cat": "records"
+  },
+  {
+   "q": "Which club lost nine Segunda games in a row in 2024-25, and went 19 without a win?",
+   "a": "Cartagena",
+   "cat": "records"
+  },
+  {
+   "q": "Only 592 people watched Amorebieta beat which club 2-1 in August 2021, the lowest Segunda crowd that season?",
+   "a": "Almería",
+   "cat": "records"
+  },
+  {
+   "q": "Betis drew a crowd of 48,462 in May 2015, the biggest of that Segunda season, beating which club 3-0?",
+   "a": "Alcorcón",
+   "cat": "records"
+  },
+  {
+   "q": "In March 2023 Mirandés won 4-3 away at which club, one of the highest-scoring Segunda games that season?",
+   "a": "Sporting Gijón",
+   "cat": "records"
+  },
+  {
+   "q": "In October 2017, after 12 rounds, which Galician club led the Segunda for the first time in its history?",
+   "a": "Lugo",
+   "cat": "stories"
+  },
+  {
+   "q": "Ponferradina first reached the Segunda in 2006 after knocking out Universidad Las Palmas and which other club in the play-offs?",
+   "a": "Alicante",
+   "cat": "stories",
+   "club": "las-palmas"
+  },
+  {
+   "q": "UD Ibiza reached the third tier in 2018 by paying the debts of which club, which had been blocked from playing there?",
+   "a": "Lorca FC",
+   "cat": "stories"
+  },
+  {
+   "q": "Pedro Emanuel left Almería by mutual consent in November 2019, with Guti taking over. Where were Almería in the table?",
+   "a": "Second",
+   "cat": "managers",
+   "club": "almeria"
+  },
+  {
+   "q": "Guti was sacked by Almería in June 2020 after a 1-0 home defeat to which club?",
+   "a": "Alcorcón",
+   "cat": "managers",
+   "club": "almeria"
+  },
+  {
+   "q": "Atlético loanee Rodrigo Riquelme moved on from Mirandés in 2022 to another loan at which top-flight club?",
+   "a": "Girona",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which top-flight club did Segunda side Levante beat 3-2 in the 2022-23 Copa del Rey round of 32?",
+   "a": "Getafe",
+   "cat": "cups"
+  },
+  {
+   "q": "Almería changed coach four times under new owner Turki Al-Sheikh in 2019-20. Who replaced Guti in June 2020, only to be replaced himself in July?",
+   "a": "Mário Silva",
+   "sub": "José Gomes took over for the play-offs.",
+   "cat": "managers",
+   "club": "almeria"
+  },
+  {
+   "q": "Huesca's first ever promotion play-off campaign, in 2017, ended in the semi-finals against which club?",
+   "a": "Getafe",
+   "cat": "stories"
+  },
+  {
+   "q": "Ponferradina returned to the Segunda in June 2019 by beating which Alicante club in the play-offs?",
+   "a": "Hércules",
+   "cat": "stories"
+  },
+  {
+   "q": "Sevilla Atlético won 6-2 at home in April 2017, one of the highest-scoring Segunda games that season. Who did they beat?",
+   "a": "Real Valladolid",
+   "cat": "records"
+  },
+  {
+   "q": "Which Galician club reached the 1939 Copa del Generalísimo final and lost 6-2 to Sevilla?",
+   "a": "Racing de Ferrol",
+   "sub": "Ferrol had never played in the top flight.",
+   "cat": "cups"
+  },
+  {
+   "q": "The 1939-40 Segunda, the first after the Civil War, had how many clubs?",
+   "a": "40, in five groups of eight",
+   "cat": "records"
+  },
+  {
+   "q": "In 1950-51 the Segunda promotion mini-league also included which two other clubs?",
+   "a": "Málaga and Murcia, two La Liga sides fighting to stay up",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Galician club won the 1940 FEF President Cup, a consolation tournament for Segunda group runners-up?",
+   "a": "Racing de Ferrol",
+   "sub": "They only got in because CD Malacitano, later CD Málaga, declined.",
+   "cat": "cups"
+  },
+  {
+   "q": "Julio Elícegui went up from the Segunda with Athletic Madrid in 1934 and with which club in 1941?",
+   "a": "Deportivo La Coruña",
+   "sub": "He scored Deportivo's first ever top-flight goal, against Castellón.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Xerez striker topped the Segunda scoring chart in both 1943-44 and 1944-45?",
+   "a": "Juan Araujo",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Osasuna striker topped the Segunda scoring chart in both 1978-79 and 1979-80?",
+   "a": "Patxi Iriguíbel",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Celta striker scored 26 goals to top the Segunda chart as Celta went up in 1981-82?",
+   "a": "Pichi Lucas",
+   "cat": "scorers"
+  },
+  {
+   "q": "Ángel María Arregui scored 120 of his 121 Segunda goals for which club?",
+   "a": "Real Jaén",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Celta striker topped the Segunda scoring chart in both 1934-35 and 1935-36?",
+   "a": "Nolete",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Betis striker scored 32 goals to top the 1968-69 Segunda chart?",
+   "a": "Quino",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Badalona striker topped the 1947-48 Segunda chart with 31 goals?",
+   "a": "Serratusell",
+   "cat": "scorers"
+  },
+  {
+   "q": "Antonio Illán topped the Segunda scoring chart twice, for Rayo Vallecano and which island club?",
+   "a": "Tenerife",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which coach took Lleida from Segunda B into La Liga between 1989 and 1993?",
+   "a": "Mané",
+   "sub": "He arrived during 1988-89 but could not stop Lleida going down.",
+   "cat": "managers"
+  },
+  {
+   "q": "Cádiz first reached La Liga in 1977 with a 2-0 home win over which club?",
+   "a": "Terrassa, then spelled Tarrasa",
+   "cat": "relegation",
+   "club": "cadiz"
+  },
+  {
+   "q": "Elche first reached La Liga in 1959 with a 3-0 win over which club?",
+   "a": "Tenerife",
+   "cat": "relegation"
+  },
+  {
+   "q": "Iberia SC, founder members of the Segunda, were nicknamed after which insect because of their yellow and black shirts?",
+   "a": "Wasps, los avispas",
+   "sub": "Real Zaragoza later wore the same colours as an away kit in their honour.",
+   "cat": "stories"
+  },
+  {
+   "q": "Iberia played the first Segunda season at a Zaragoza ground that Real Zaragoza then used until 1957. Name it.",
+   "a": "Torrero",
+   "sub": "It also hosted the 1927 Copa final.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Before moving to Es Fortí in 1945, Mallorca played at a field sharing its name with which South American capital?",
+   "a": "Buenos Aires",
+   "cat": "grounds",
+   "club": "mallorca"
+  },
+  {
+   "q": "In the 1936 promotion play-off, Celta and Zaragoza both won 5-0 on the last day to go up. Which Basque club missed out?",
+   "a": "Arenas",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Castilian Segunda side lost the 1994 promoción to Valladolid after winning the home leg 1-0?",
+   "a": "CD Toledo",
+   "sub": "Valladolid won the return 4-0.",
+   "cat": "relegation",
+   "club": "valladolid"
+  },
+  {
+   "q": "Real Zaragoza stayed up in 1991 by winning the promoción second leg 5-2 at home. Against which club?",
+   "a": "Real Murcia",
+   "cat": "relegation"
+  },
+  {
+   "q": "Real Murcia stayed in La Liga in 1988 by beating which Madrid club 4-1 on aggregate in the promoción?",
+   "a": "Rayo Vallecano",
+   "cat": "relegation"
+  },
+  {
+   "q": "Albacete stayed in La Liga in 1993 by beating which Segunda side 4-3 on aggregate in the promoción?",
+   "a": "Mallorca",
+   "cat": "relegation",
+   "club": "albacete"
+  },
+  {
+   "q": "CD Ensidesa of Avilés played one Segunda season, in 1975-76. In 1983 they were absorbed by which club?",
+   "a": "Real Avilés, creating Real Avilés Industrial",
+   "cat": "stories"
+  },
+  {
+   "q": "Osasuna first reached the Segunda in 1932 by winning a play-off against which Madrid club?",
+   "a": "Nacional de Madrid",
+   "cat": "relegation"
+  },
+  {
+   "q": "In 1940 the federation reorganised the Segunda. In Group 4, which two clubs were the only ones not sent down?",
+   "a": "Murcia and Cartagena",
+   "sub": "The other six all lost their place, whatever their results.",
+   "cat": "relegation"
+  },
+  {
+   "q": "After a long break, in which season did the promoción between Segunda and La Liga clubs return?",
+   "a": "1987-88",
+   "cat": "relegation"
+  },
+  {
+   "q": "Which Catalan referee took charge of the 1988 promoción first leg between Real Oviedo and Mallorca in Oviedo?",
+   "a": "José María Enríquez Negreira",
+   "cat": "stories",
+   "club": "oviedo"
+  },
+  {
+   "q": "In June 1949 Canary Islands clubs learned they could join Spain's national leagues. How did the news arrive?",
+   "a": "By telegram from Madrid",
+   "sub": "Las Palmas were formed that August and were in La Liga two seasons later.",
+   "cat": "stories"
+  },
+  {
+   "q": "Before joining Sevilla in 1973, Biri Biri had been at which English club under Brian Clough?",
+   "a": "Derby County",
+   "cat": "imports"
+  },
+  {
+   "q": "Betis legend Rafael Gordillo spent his final playing season with which small Andalusian club, then in the Segunda?",
+   "a": "Écija Balompié",
+   "cat": "transfers"
   }
  ],
  "ball": [
@@ -2544,6 +3782,133 @@
    "a": "Rubén Castro and Nino",
    "sub": "Castro had the 195.",
    "cat": "records"
+  },
+  {
+   "q": "Deportivo won seven Segunda games in a row in 2019-20, the longest run of anyone that season. How did their season end?",
+   "a": "Relegated, in 19th place",
+   "cat": "stories"
+  },
+  {
+   "q": "Segunda side Betis lost a 2011 Copa quarter-final first leg 5-0 at Barcelona. What happened in the return?",
+   "a": "Betis won 3-1, but went out 6-3 on aggregate",
+   "sub": "Messi had scored a hat-trick in the first leg.",
+   "cat": "cups"
+  },
+  {
+   "q": "Segunda side Almería drew the first leg 3-3 at home to Villarreal in the 2018-19 Copa. What happened in the second leg?",
+   "a": "Villarreal won 8-0",
+   "cat": "cups",
+   "club": "almeria"
+  },
+  {
+   "q": "FC Andorra joined the third tier in 2019 by paying about 452,000 euros to take whose place?",
+   "a": "CF Reus, thrown out for not paying players",
+   "cat": "stories",
+   "club": "fc-andorra"
+  },
+  {
+   "q": "Villarreal, just relegated, appointed Manolo Preciado as coach on 6 June 2012. What happened later that day?",
+   "a": "He died of a heart attack in a hotel",
+   "cat": "managers"
+  },
+  {
+   "q": "Shinji Okazaki signed for Málaga in July 2019 but never played for them. Why?",
+   "a": "His wages broke Málaga's LaLiga spending limit, so the deal was cancelled after 34 days",
+   "sub": "He joined Huesca instead.",
+   "cat": "imports"
+  },
+  {
+   "q": "Espanyol's first home game back in the Segunda, in August 2023, was played without fans. Why?",
+   "a": "Punishment for fans invading the pitch as Barcelona clinched the title at their ground in May 2023",
+   "sub": "The ban was cut from two games to one on appeal.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Murcia keeper Alberto Cifuentes saved an added-time penalty at Girona on the last day of 2009-10. Why did it not save Murcia?",
+   "a": "The ball deflected in off him, the 1-1 sent them down",
+   "cat": "relegation",
+   "club": "girona"
+  },
+  {
+   "q": "Real Zaragoza's temporary home from 2025 was the first of what kind in Spanish football?",
+   "a": "A modular stadium that can be taken down and moved",
+   "sub": "It was built on a car park at the old Expo site in 2025.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Guti offered to resign and refund his Almería salary in February 2020 if which rumour were proven?",
+   "a": "That he had been at a nightclub with his players after a defeat",
+   "cat": "managers",
+   "club": "almeria"
+  },
+  {
+   "q": "In February 2026 which superstar bought a 25 percent stake in Segunda side Almería?",
+   "a": "Cristiano Ronaldo",
+   "cat": "stories",
+   "club": "almeria"
+  },
+  {
+   "q": "Álvaro Arbeloa's first game as Real Madrid head coach, in January 2026, ended in a 3-2 Copa defeat at which Segunda club?",
+   "a": "Albacete",
+   "cat": "managers"
+  },
+  {
+   "q": "Racing de Madrid, founders of the Segunda, defied the federation with a 1931 tour of the Americas. How did it end?",
+   "a": "The promoter abandoned them in the United States, and the federation had to bring them home",
+   "sub": "They were fined and demoted, refused to accept it, and the football side folded.",
+   "cat": "stories"
+  },
+  {
+   "q": "On 4 January 1948 Málaga beat Hércules 9-2 in the Segunda. How many of the nine did Pedro Bazán score?",
+   "a": "All nine",
+   "sub": "He finished that season with 29 goals in 26 Segunda games.",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which future world-famous sculptor kept goal for Real Sociedad in the Segunda in 1942-43, aged 18?",
+   "a": "Eduardo Chillida",
+   "sub": "An injury ended his career before he ever played in La Liga.",
+   "cat": "stories"
+  },
+  {
+   "q": "At Atotxa, Real Sociedad let off fireworks when goals were scored. According to legend, who was that for?",
+   "a": "Seamen out in the Bay of Biscay, so they knew the score",
+   "sub": "One rocket for an away goal, two for a home goal.",
+   "cat": "grounds"
+  },
+  {
+   "q": "Real Burgos finished ninth in La Liga in 1992. By 1996 what had a court done to them?",
+   "a": "Banned them from competing for 15 years over their debts",
+   "cat": "stories",
+   "club": "burgos"
+  },
+  {
+   "q": "Which club was founded in 1971, reached La Liga in 1979 and was voted out of existence by its own members in 1982?",
+   "a": "AD Almería",
+   "cat": "stories"
+  },
+  {
+   "q": "When Telmo Zarra joined Erandio, just before his Segunda debut, he could not shoot at first. Why?",
+   "a": "He was used to playing in espadrilles, not football boots",
+   "cat": "stories"
+  },
+  {
+   "q": "In the 1990 promoción shoot-out, Málaga keeper Pedro Jaro saved two penalties against Español. What else did he do?",
+   "a": "Missed one himself, and Málaga went down",
+   "sub": "Español won the sudden death and went back up.",
+   "cat": "relegation"
+  },
+  {
+   "q": "Español reached the 1988 UEFA Cup final. What happened to them the following season?",
+   "a": "They were relegated, losing the promoción to Mallorca",
+   "cat": "stories"
+  },
+  {
+   "q": "AD Almería's players protested in 1982 when the federation demoted the club over debts. Where did they lock themselves in?",
+   "a": "The town hall",
+   "sub": "Nobody came, they left after a few hours, and the club was wound up.",
+   "cat": "stories",
+   "club": "almeria"
   }
  ]
 }

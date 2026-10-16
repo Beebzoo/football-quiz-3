@@ -103,11 +103,11 @@
   "tier": "extreme",
   "cat": "relegation",
   "q": "Which clubs went down from the Segunda División in 1999-00?",
-  "a": "Atlético B, Logroñés, Toledo",
+  "a": "Mérida, Atlético B, Logroñés, Toledo",
   "src": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped extreme 5."
  },
  {
   "tier": "hard",
@@ -613,11 +613,11 @@
   "tier": "hard",
   "cat": "champions",
   "q": "Which clubs went up from the Segunda División in 2008-09?",
-  "a": "Zaragoza, Tenerife",
+  "a": "Xerez, Zaragoza, Tenerife",
   "src": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped hard 19."
  },
  {
   "tier": "extreme",
@@ -653,11 +653,12 @@
   "tier": "hard",
   "cat": "champions",
   "q": "Which club finished second in the 2009-10 Segunda División?",
-  "a": "Betis",
+  "a": "Hércules",
   "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped hard 20.",
+  "sub": "Level on 71 points with Levante and Betis, ahead on head-to-head."
  },
  {
   "tier": "extreme",
@@ -673,11 +674,11 @@
   "tier": "extreme",
   "cat": "relegation",
   "q": "Which clubs went down from the Segunda División in 2009-10?",
-  "a": "Murcia, Real Unión, Castellón",
+  "a": "Cádiz, Murcia, Real Unión, Castellón",
   "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped extreme 35."
  },
  {
   "tier": "extreme",
@@ -923,11 +924,11 @@
   "tier": "extreme",
   "cat": "relegation",
   "q": "Which clubs went down from the Segunda División in 2013-14?",
-  "a": "Murcia, Real Madrid Castilla",
+  "a": "Hércules, Jaén, Real Madrid Castilla, and Murcia on administrative grounds",
   "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped extreme 48."
  },
  {
   "tier": "extreme",
@@ -1243,11 +1244,11 @@
   "tier": "hard",
   "cat": "relegation",
   "q": "Which clubs went down from the Segunda División in 2018-19?",
-  "a": "Rayo Majadahonda, Gimnàstic, Córdoba",
+  "a": "Reus, expelled mid-season, plus Rayo Majadahonda, Gimnàstic, Córdoba",
   "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped hard 38."
  },
  {
   "tier": "normal",
@@ -1483,11 +1484,11 @@
   "tier": "normal",
   "cat": "champions",
   "q": "Which clubs went up from the Segunda División in 2021-22?",
-  "a": "Valladolid, Girona",
+  "a": "Almería, Valladolid, Girona",
   "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped normal 27."
  },
  {
   "tier": "hard",
@@ -1703,11 +1704,11 @@
   "tier": "normal",
   "cat": "champions",
   "q": "Which clubs went up from the Segunda División in 2024-25?",
-  "a": "Levante, Elche",
+  "a": "Levante, Elche, Real Oviedo",
   "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
   "conf": "sure",
-  "verdict": "ok",
-  "note": "harvested from the season table"
+  "verdict": "fixed",
+  "note": "harvested from the season table Synced from in-place fix to shipped normal 33."
  },
  {
   "tier": "extreme",

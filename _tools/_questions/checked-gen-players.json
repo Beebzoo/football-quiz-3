@@ -939,13 +939,12 @@
  {
   "tier": "hard",
   "cat": "managers",
-  "q": "Which veteran Dutch coach guided Curaçao through qualifying for their first World Cup, in 2026?",
-  "a": "Dick Advocaat",
+  "q": "Dick Advocaat stepped down as Curaçao coach in February 2026. Who stood in until Advocaat returned in May, weeks before the World Cup?",
+  "a": "Fred Rutten",
   "src": "https://www.concacaf.com/competitions/fifa-world-cup/news/fifa-world-cup-2026-team-profile-curacao",
   "conf": "sure",
-  "sub": "He stepped down in February 2026 for family reasons, so he never led them at the finals.",
   "verdict": "fixed",
-  "note": "Fixed. Curaçao qualified on 18 November 2025 (Africanews). Advocaat missed that last game for family reasons and resigned on 23 February 2026, with Fred Rutten replacing him (ESPN). So he did not take them to the finals."
+  "note": "Fixed. Curaçao qualified on 18 November 2025 (Africanews). Advocaat missed that last game for family reasons and resigned on 23 February 2026, with Fred Rutten replacing him (ESPN). So he did not take them to the finals. Main session: Advocaat returned 12 May 2026 after Rutten resigned (Curaçao Chronicle, beIN); shipped hard 770 rewritten to Rutten."
  },
  {
   "tier": "hard",

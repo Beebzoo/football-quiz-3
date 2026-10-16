@@ -89,11 +89,11 @@
   "cat": "managers",
   "q": "Which veteran Dutch coach led Curaçao through qualifying for their first World Cup, sealed in November 2025?",
   "a": "Dick Advocaat",
-  "sub": "He stepped down for family reasons in February 2026, and Fred Rutten took them to the finals.",
+  "sub": "He stepped down in February 2026 and came back in May to lead them at the finals.",
   "src": "https://en.ilsole24ore.com/art/curacao-qualifies-for-the-2026-world-cup-and-smallest-national-team-ever-to-do-so-AHhon0pD",
   "conf": "sure",
   "verdict": "fixed",
-  "note": "Flashscore and Curaçao Chronicle: Advocaat resigned on 23 February 2026 and Fred Rutten coached at the finals, so \"took them to the World Cup\" was misleading. Reworded to qualifying."
+  "note": "Flashscore and Curaçao Chronicle: Advocaat resigned on 23 February 2026 and Fred Rutten coached at the finals, so \"took them to the World Cup\" was misleading. Reworded to qualifying. Main session: Advocaat returned 12 May 2026 after Rutten resigned (Curaçao Chronicle, beIN); shipped hard 770 rewritten to Rutten."
  },
  {
   "tier": "easy",

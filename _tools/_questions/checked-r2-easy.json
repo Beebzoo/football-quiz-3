@@ -1,0 +1,1724 @@
+[
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which English club is nicknamed the Tractor Boys?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Ipswich Town F.C., infobox nickname The Tractor Boys"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Sheffield club is nicknamed the Owls?",
+  "a": "Sheffield Wednesday",
+  "src": "https://en.wikipedia.org/wiki/Sheffield_Wednesday_F.C.",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, near repeat. Bank has Which Sheffield club plays its home games at Hillsborough, Sheffield Wednesday"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Hertfordshire club is nicknamed the Hornets?",
+  "a": "Watford",
+  "src": "https://en.wikipedia.org/wiki/Watford_F.C.",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Watford F.C., nickname The Hornets"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which west London club is nicknamed the Bees?",
+  "a": "Brentford",
+  "src": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Brentford F.C., nickname The Bees. Barnet are also the Bees and are a London club, so narrowed to west London"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which south coast club is nicknamed the Cherries?",
+  "a": "Bournemouth",
+  "src": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia AFC Bournemouth, nickname The Cherries"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Lancashire club is nicknamed the Clarets?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/Burnley_F.C.",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Burnley F.C., nickname the Clarets"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club from Wearside is nicknamed the Black Cats?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Sunderland A.F.C., nickname the Black Cats"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "In 2025-26, which London club played its home games at The Den?",
+  "a": "Millwall",
+  "src": "https://en.wikipedia.org/wiki/Millwall_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Millwall F.C., ground The Den. Anchored to a season"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club's nickname Blaugrana comes from the blue and deep red of its shirts?",
+  "a": "Barcelona",
+  "src": "https://en.wikipedia.org/wiki/FC_Barcelona",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia FC Barcelona, blue and garnet stripes, hence Blaugrana"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Rome club is nicknamed the Biancocelesti, the white and sky blues?",
+  "a": "Lazio",
+  "src": "https://en.wikipedia.org/wiki/SS_Lazio",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia SS Lazio, nickname I Biancocelesti"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Turin club is nicknamed Il Toro, the bull?",
+  "a": "Torino",
+  "src": "https://en.wikipedia.org/wiki/Torino_FC",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Torino FC, nickname Il Toro, the bull"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which national team is nicknamed El Tri?",
+  "a": "Mexico",
+  "src": "https://en.wikipedia.org/wiki/Mexico_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Mexico national football team, nickname El Tri"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which national team is nicknamed La Celeste, the sky blue?",
+  "a": "Uruguay",
+  "src": "https://en.wikipedia.org/wiki/Uruguay_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Uruguay national football team, nickname La Celeste"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which national team is nicknamed Los Cafeteros, the coffee growers?",
+  "a": "Colombia",
+  "src": "https://en.wikipedia.org/wiki/Colombia_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Colombia national football team, nickname Los Cafeteros"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which national team is nicknamed the Vatreni, the blazers?",
+  "a": "Croatia",
+  "src": "https://en.wikipedia.org/wiki/Croatia_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Croatia national football team, nickname Vatreni, Blazers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which national team is nicknamed the Boys in Green?",
+  "a": "The Republic of Ireland",
+  "src": "https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Republic of Ireland national football team, nickname The Boys in Green"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which national team is nicknamed the Desert Foxes?",
+  "a": "Algeria",
+  "src": "https://en.wikipedia.org/wiki/Algeria_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Algeria national football team, body text calls them the Desert Foxes, also Fennecs"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which German club was mocked as FC Hollywood in the 1990s as its players filled the gossip pages?",
+  "a": "Bayern Munich",
+  "src": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia FC Bayern Munich, players in the gossip pages earned the nickname FC Hollywood. Page does not say dressing room rows, reworded"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which London club is also nicknamed the Lilywhites?",
+  "a": "Tottenham Hotspur",
+  "src": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Tottenham Hotspur F.C., nickname The Lilywhites. Preston share it, London rules them out"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which national team is nicknamed the Dragons?",
+  "a": "Wales",
+  "src": "https://en.wikipedia.org/wiki/Wales_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Wales national football team, nickname The Dragons"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Istanbul club is nicknamed the Yellow Canaries?",
+  "a": "Fenerbahçe",
+  "src": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Fenerbahçe S.K., nickname Sarı Kanaryalar, the Yellow Canaries"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Bundesliga club is nicknamed Die Adler, the eagles?",
+  "a": "Eintracht Frankfurt",
+  "src": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Eintracht Frankfurt, nickname Die Adler"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Italian club is nicknamed La Dea, the goddess?",
+  "a": "Atalanta",
+  "src": "https://en.wikipedia.org/wiki/Atalanta_BC",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Atalanta BC, nickname La Dea, the Goddess"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "In 2025-26, which French club played its home games at the Groupama Stadium?",
+  "a": "Lyon",
+  "src": "https://en.wikipedia.org/wiki/Parc_Olympique_Lyonnais",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Parc Olympique Lyonnais, Groupama Stadium, home of Lyon. Anchored to a season"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "In 2025-26, which French club played its home games at the Stade Bollaert-Delelis?",
+  "a": "Lens",
+  "src": "https://en.wikipedia.org/wiki/Stade_Bollaert-Delelis",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Stade Bollaert-Delelis, home of RC Lens since 1933. Anchored to a season"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "In 2025-26, which Belfast ground was the home of the Northern Ireland national team?",
+  "a": "Windsor Park",
+  "src": "https://en.wikipedia.org/wiki/Windsor_Park",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Windsor Park, tenants include Northern Ireland national team since 1910. Anchored to a season"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Takefusa Kubo has played international football for which country?",
+  "a": "Japan",
+  "src": "https://en.wikipedia.org/wiki/Takefusa_Kubo",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Takefusa Kubo, senior caps for Japan. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Hakan Çalhanoğlu has played international football for which country?",
+  "a": "Turkey",
+  "src": "https://en.wikipedia.org/wiki/Hakan_%C3%87alhano%C4%9Flu",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Hakan Çalhanoğlu, senior caps for Turkey. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Dušan Vlahović has played international football for which country?",
+  "a": "Serbia",
+  "src": "https://en.wikipedia.org/wiki/Du%C5%A1an_Vlahovi%C4%87",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Dušan Vlahović, senior caps for Serbia. Tense fixed"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Jamal Musiala was born in Stuttgart and grew up partly in England. Which country did he choose to play for?",
+  "a": "Germany",
+  "src": "https://en.wikipedia.org/wiki/Jamal_Musiala",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Jamal Musiala, born Stuttgart, England youth caps at Southampton and Chelsea, senior caps for Germany"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Slovakia's Marek Hamšík spent twelve seasons at which Italian club?",
+  "a": "Napoli",
+  "src": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Marek Hamšík infobox, Napoli 2007 to February 2019, about eleven and a half years, so twelve seasons"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Before joining Celtic in 1997, Henrik Larsson played for which Dutch club?",
+  "a": "Feyenoord",
+  "src": "https://en.wikipedia.org/wiki/Henrik_Larsson",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Henrik Larsson infobox, Feyenoord 1993 to 1997, Celtic 1997 to 2004"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Henrik Larsson left Celtic in 2004 for which Spanish club?",
+  "a": "Barcelona",
+  "src": "https://en.wikipedia.org/wiki/Henrik_Larsson",
+  "conf": "likely",
+  "verdict": "ok",
+  "note": "Wikipedia Henrik Larsson infobox, Celtic 1997 to 2004 then Barcelona 2004 to 2006. CNN 29 June 2004, Larsson all set to join Barcelona"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Michael Essien played international football for which country?",
+  "a": "Ghana",
+  "src": "https://en.wikipedia.org/wiki/Michael_Essien",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Michael Essien, senior caps for Ghana"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which London club signed Michael Essien from Lyon in 2005?",
+  "a": "Chelsea",
+  "src": "https://en.wikipedia.org/wiki/Michael_Essien",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Michael Essien infobox, Lyon 2003 to 2005 then Chelsea 2005, £24.4m fee"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Rasmus Højlund join from Atalanta in 2023?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Rasmus_H%C3%B8jlund",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Rasmus Højlund infobox, Atalanta 2022 to 2023 then Manchester United 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Cole Palmer leave to join Chelsea in 2023?",
+  "a": "Manchester City",
+  "src": "https://en.wikipedia.org/wiki/Cole_Palmer",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Cole Palmer infobox, Manchester City 2020 to 2023 then Chelsea 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Marouane Fellaini from Everton in 2013?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Marouane_Fellaini",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Marouane Fellaini infobox, Everton 2008 to 2013 then Manchester United 2013"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Marouane Fellaini played international football for which country?",
+  "a": "Belgium",
+  "src": "https://en.wikipedia.org/wiki/Marouane_Fellaini",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Marouane Fellaini, senior caps for Belgium"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which London club did Leandro Trossard join from Brighton in January 2023?",
+  "a": "Arsenal",
+  "src": "https://en.wikipedia.org/wiki/Leandro_Trossard",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Leandro Trossard, Brighton 2019 to 2023 then Arsenal, January 2023 fallout with De Zerbi"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did the Belgian winger Jérémy Doku join from Rennes in 2023?",
+  "a": "Manchester City",
+  "src": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9my_Doku",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Jérémy Doku infobox, Rennes 2020 to 2023 then Manchester City 2023"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which Italian club did Tijjani Reijnders join from AZ in 2023?",
+  "a": "AC Milan",
+  "src": "https://en.wikipedia.org/wiki/Tijjani_Reijnders",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Tijjani Reijnders infobox, AZ to AC Milan 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which English club signed Tijjani Reijnders from AC Milan in 2025?",
+  "a": "Manchester City",
+  "src": "https://en.wikipedia.org/wiki/Tijjani_Reijnders",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Tijjani Reijnders, signed for Manchester City 11 June 2025. Second source: mancity.com signing article and The National, 11 June 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Joshua Zirkzee join from Bologna in 2024?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Joshua_Zirkzee",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Joshua Zirkzee infobox, Bologna 2022 to 2024 then Manchester United 2024"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Jeremie Frimpong join from Bayer Leverkusen in 2025?",
+  "a": "Liverpool",
+  "src": "https://en.wikipedia.org/wiki/Jeremie_Frimpong",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Jeremie Frimpong infobox, Bayer Leverkusen 2021 to 2025 then Liverpool 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Noussair Mazraoui has played international football for which country?",
+  "a": "Morocco",
+  "src": "https://en.wikipedia.org/wiki/Noussair_Mazraoui",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Noussair Mazraoui, senior caps for Morocco. Tense fixed"
+ },
+ {
+  "tier": "normal",
+  "cat": "europe",
+  "q": "Yannick Carrasco scored in the 2016 Champions League final for which club?",
+  "a": "Atlético Madrid",
+  "src": "https://en.wikipedia.org/wiki/Yannick_Carrasco",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Yannick Carrasco, scored Atlético equaliser in the 2016 Champions League final"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Adnan Januzaj, who chose to play for Belgium, broke through at which English club?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Adnan_Januzaj",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Adnan Januzaj, Manchester United academy and first club, senior caps for Belgium"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Trent Alexander-Arnold left Liverpool in 2025 to join which club?",
+  "a": "Real Madrid",
+  "src": "https://en.wikipedia.org/wiki/Trent_Alexander-Arnold",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Trent Alexander-Arnold infobox, Liverpool 2016 to 2025 then Real Madrid 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Hugo Ekitike from Eintracht Frankfurt in 2025?",
+  "a": "Liverpool",
+  "src": "https://en.wikipedia.org/wiki/Hugo_Ekitike",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Hugo Ekitike infobox, Eintracht Frankfurt 2024 to 2025 then Liverpool 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Matheus Cunha from Wolves in 2025?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Matheus_Cunha",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Matheus Cunha infobox, Wolves 2023 to 2025 then Manchester United 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Martín Zubimendi from Real Sociedad in 2025?",
+  "a": "Arsenal",
+  "src": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Zubimendi",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Martín Zubimendi infobox, Real Sociedad 2019 to 2025 then Arsenal 2025"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Dean Huijsen was born in Amsterdam. Which country did he choose to play for?",
+  "a": "Spain",
+  "src": "https://en.wikipedia.org/wiki/Dean_Huijsen",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Dean Huijsen, born Amsterdam, Dutch youth caps, Spain senior caps. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Benjamin Šeško from RB Leipzig in 2025?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Benjamin_%C5%A0e%C5%A1ko",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, near repeat. Bank has Šeško is the only Slovenia player to turn out for which club, Manchester United"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which London club signed Viktor Gyökeres from Sporting in 2025?",
+  "a": "Arsenal",
+  "src": "https://en.wikipedia.org/wiki/Viktor_Gy%C3%B6keres",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Viktor Gyökeres infobox, Sporting CP 2023 to 2025 then Arsenal 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Mason Mount join from Chelsea in 2023?",
+  "a": "Manchester United",
+  "src": "https://en.wikipedia.org/wiki/Mason_Mount",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Mason Mount infobox, Chelsea to Manchester United 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which London club signed Enzo Fernández from Benfica in January 2023?",
+  "a": "Chelsea",
+  "src": "https://en.wikipedia.org/wiki/Enzo_Fern%C3%A1ndez",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Enzo Fernández, Benfica summer 2022, joined Chelsea January 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Moisés Caicedo from Brighton in 2023?",
+  "a": "Chelsea",
+  "src": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Caicedo",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Moisés Caicedo infobox, Brighton 2021 to 2023 then Chelsea 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed Alexis Mac Allister from Brighton in 2023?",
+  "a": "Liverpool",
+  "src": "https://en.wikipedia.org/wiki/Alexis_Mac_Allister",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Alexis Mac Allister infobox, Brighton 2019 to 2023 then Liverpool 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which English club did Raphinha leave to join Barcelona in 2022?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/Raphinha",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Raphinha infobox, Leeds United 2020 to 2022 then Barcelona 2022"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which Turkish club did Arda Güler leave to join Real Madrid in 2023?",
+  "a": "Fenerbahçe",
+  "src": "https://en.wikipedia.org/wiki/Arda_G%C3%BCler",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Arda Güler infobox, Fenerbahçe 2021 to 2023 then Real Madrid 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Antonio Rüdiger leave to join Real Madrid in 2022?",
+  "a": "Chelsea",
+  "src": "https://en.wikipedia.org/wiki/Antonio_R%C3%BCdiger",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Antonio Rüdiger infobox, Chelsea 2017 to 2022 then Real Madrid 2022"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did James Maddison leave to join Tottenham in 2023?",
+  "a": "Leicester City",
+  "src": "https://en.wikipedia.org/wiki/James_Maddison",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia James Maddison infobox, Leicester City 2018 to 2023 then Tottenham 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Sandro Tonali leave to join Newcastle in 2023?",
+  "a": "AC Milan",
+  "src": "https://en.wikipedia.org/wiki/Sandro_Tonali",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Sandro Tonali infobox, AC Milan 2021 to 2023 then Newcastle 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Dominik Szoboszlai has played international football for which country?",
+  "a": "Hungary",
+  "src": "https://en.wikipedia.org/wiki/Dominik_Szoboszlai",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Dominik Szoboszlai, senior caps for Hungary. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Casemiro leave to join Manchester United in 2022?",
+  "a": "Real Madrid",
+  "src": "https://en.wikipedia.org/wiki/Casemiro",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Casemiro infobox, Real Madrid 2013 to 2022 then Manchester United 2022"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which Portuguese club sold Darwin Núñez to Liverpool in 2022?",
+  "a": "Benfica",
+  "src": "https://en.wikipedia.org/wiki/Darwin_N%C3%BA%C3%B1ez",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Darwin Núñez infobox, Benfica 2020 to 2022 then Liverpool 2022"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club did Federico Chiesa leave to join Liverpool in 2024?",
+  "a": "Juventus",
+  "src": "https://en.wikipedia.org/wiki/Federico_Chiesa",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Federico Chiesa infobox, Juventus 2022 to 2024 then Liverpool 2024"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Thierry Henry wear at Arsenal from 1999 to 2007?",
+  "a": "14",
+  "src": "https://en.wikipedia.org/wiki/Thierry_Henry",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Thierry Henry, wore 14 at Arsenal, but took 12 on his 2012 loan return as his old 14 was taken. Narrowed to first spell"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Steven Gerrard wear for most of his Liverpool career?",
+  "a": "8",
+  "src": "https://en.wikipedia.org/wiki/Steven_Gerrard",
+  "conf": "likely",
+  "verdict": "ok",
+  "note": "Wikipedia Steven Gerrard, caption: Gerrard wore number eight for most of his career"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did Kaká wear at AC Milan?",
+  "a": "22",
+  "src": "https://en.wikipedia.org/wiki/Kak%C3%A1",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Eric Cantona wear at Manchester United, collar turned up?",
+  "a": "7",
+  "src": "https://en.wikipedia.org/wiki/Eric_Cantona",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Eric Cantona, wore the iconic number 7 with his collar turned up"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did Robin van Persie wear at Manchester United?",
+  "a": "20",
+  "src": "https://en.wikipedia.org/wiki/Robin_van_Persie",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Robin van Persie, chose the number 20 at Manchester United, BBC Sport 2013"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Arjen Robben wear at Bayern Munich?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Arjen_Robben",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Arjen Robben, given the number 10 on joining Bayern in 2009, there until 2019"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Mohamed Salah take when he joined Liverpool in 2017?",
+  "a": "11",
+  "src": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Wayne Rooney wear for most of his Manchester United career?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Wayne_Rooney",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Wayne Rooney, number 8 from 2004, number 10 from June 2007 to 2017"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Bukayo Saka take at Arsenal in 2020?",
+  "a": "7",
+  "src": "https://en.wikipedia.org/wiki/Bukayo_Saka",
+  "conf": "likely",
+  "verdict": "ok",
+  "note": "Wikipedia Bukayo Saka, cited Givemesport 24 July 2020, Arsenal's new number 7"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Francesco Totti wear at Roma from 1997 until he retired?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Francesco_Totti",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Francesco Totti, presented with the number 10 in 1997, earlier wore other numbers. Narrowed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Alessandro Del Piero wear at Juventus?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Alessandro_Del_Piero",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which forward took Real Madrid's number 10 shirt after Luka Modrić left in 2025?",
+  "a": "Kylian Mbappé",
+  "src": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Kylian Mbappé, switched to number 10 for 2025-26. Second source: Reuters via TimesLIVE 30 July 2025 and beIN, Mbappé inherits No 10 after Modrić exit"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Raúl wear at Real Madrid from 1996 to 2010?",
+  "a": "7",
+  "src": "https://en.wikipedia.org/wiki/Ra%C3%BAl_(footballer)",
+  "conf": "likely",
+  "verdict": "fixed",
+  "note": "Wikipedia Raúl González, wore the number 7 for Real Madrid between 1996 and 2010, bdfutbol. Narrowed as he wore other numbers before"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Sergio Ramos wear at Real Madrid?",
+  "a": "4",
+  "src": "https://en.wikipedia.org/wiki/Sergio_Ramos",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Sergio Ramos, given the number 4 at Real Madrid, worn throughout"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Andrés Iniesta wear for most of his Barcelona career?",
+  "a": "8",
+  "src": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Andrés Iniesta, swapped 24 for 8 in 2007, fcbarcelona.cat. Narrowed"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did Thierry Henry usually wear for France?",
+  "a": "12",
+  "src": "https://en.wikipedia.org/wiki/Thierry_Henry",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Lamine Yamal take at Barcelona in 2025?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Lamine_Yamal",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Lamine Yamal, presented with the number 10 at contract signing 16 July 2025. Second source: AFP via Citizen Digital and CBS Sports, July 2025"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number was Robert Lewandowski handed when he joined Barcelona in 2022?",
+  "a": "9",
+  "src": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did Bayern Munich retire in 2024 in honour of Franz Beckenbauer?",
+  "a": "5",
+  "src": "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
+  "conf": "likely",
+  "verdict": "ok",
+  "note": "Wikipedia Franz Beckenbauer, number 5 shirt retired by Bayern Munich in 2024, bundesliga.com source"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did David Beckham wear at AC Milan?",
+  "a": "32",
+  "src": "https://en.wikipedia.org/wiki/David_Beckham",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia David Beckham, chose the number 32 at Milan in December 2008"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Gareth Bale wear at Real Madrid?",
+  "a": "11",
+  "src": "https://en.wikipedia.org/wiki/Gareth_Bale",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Jürgen Klopp took which job in January 2025, his first since leaving Liverpool?",
+  "a": "Head of global football at Red Bull",
+  "src": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Jürgen Klopp, Head of Global Football at Red Bull from 1 January 2025. Second source: Guardian 9 October 2024 and AP, start date 1 January 2025"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which national team did Roberto Martínez take over in 2023 after leaving Belgium?",
+  "a": "Portugal",
+  "src": "https://en.wikipedia.org/wiki/Roberto_Mart%C3%ADnez",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Roberto Martínez, announced as Portugal head coach 9 January 2023"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which three countries are the main hosts of the 2030 World Cup?",
+  "a": "Spain, Portugal and Morocco",
+  "src": "https://en.wikipedia.org/wiki/2030_FIFA_World_Cup",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia 2030 FIFA World Cup, hosts Morocco, Portugal and Spain, with opening games in Argentina, Paraguay and Uruguay"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which country was chosen in 2024 to host the 2034 World Cup?",
+  "a": "Saudi Arabia",
+  "src": "https://en.wikipedia.org/wiki/2034_FIFA_World_Cup",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia 2034 FIFA World Cup, Saudi Arabia confirmed December 2024, BBC Sport"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "In 2025-26, in which town was the Dutch football association, the KNVB, based?",
+  "a": "Zeist",
+  "src": "https://en.wikipedia.org/wiki/Royal_Dutch_Football_Association",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Royal Dutch Football Association, headquarters Zeist. Anchored"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "What is the Belgium women's national team nicknamed?",
+  "a": "The Red Flames, the Belgian Red Flames",
+  "src": "https://en.wikipedia.org/wiki/Belgium_women's_national_football_team",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Belgium women's national football team, nickname Belgian Red Flames"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Since 2021 the Belgian FA has had its headquarters next to its training centre in which Walloon town?",
+  "a": "Tubize",
+  "src": "https://en.wikipedia.org/wiki/Royal_Belgian_Football_Association",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Royal Belgian Football Association, HQ in Tubize since October 2021, next to its technical centre. Anchored"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which country won the men's Olympic football gold in 2008, with Lionel Messi in the team?",
+  "a": "Argentina",
+  "src": "https://en.wikipedia.org/wiki/Football_at_the_2008_Summer_Olympics_%E2%80%93_Men's_tournament",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia 2008 Olympics men's football, FIFA: Messi and Argentina grab gold"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which country won its first men's Olympic football gold in 2016, at home in the Maracanã?",
+  "a": "Brazil",
+  "src": "https://en.wikipedia.org/wiki/Football_at_the_2016_Summer_Olympics_%E2%80%93_Men's_tournament",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia 2016 Olympics men's football, Brazil captured their first gold, final at the Maracanã"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which country won the 2023 CONCACAF Gold Cup?",
+  "a": "Mexico",
+  "src": "https://en.wikipedia.org/wiki/2023_CONCACAF_Gold_Cup",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia 2023 CONCACAF Gold Cup, Mexico beat Panama 1-0 in the final"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Didier Drogba started at Chelsea in the 15 shirt. Which number did he take over when Damien Duff left?",
+  "a": "11",
+  "src": "https://en.wikipedia.org/wiki/Didier_Drogba",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Didier Drogba, switched from 15 to the 11 vacated by Damien Duff"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Neymar wear at Paris Saint-Germain?",
+  "a": "10",
+  "sub": "Javier Pastore handed it over as a welcome gift.",
+  "src": "https://en.wikipedia.org/wiki/Neymar",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Birmingham City retired Jude Bellingham's shirt when he left for Dortmund. Which number was it?",
+  "a": "22",
+  "src": "https://en.wikipedia.org/wiki/Jude_Bellingham",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Jude Bellingham, Birmingham retired his number 22 shirt, Independent 2020"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Harry Kane wear at Tottenham from 2015 until he left in 2023?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Harry_Kane",
+  "conf": "likely",
+  "verdict": "fixed",
+  "note": "Wikipedia Harry Kane, squad number changed from 18 to 10 in 2015, earlier 37 and 18. Narrowed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Andriy Shevchenko wear at AC Milan?",
+  "a": "7",
+  "src": "https://en.wikipedia.org/wiki/Andriy_Shevchenko",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Franck Ribéry wear at Bayern Munich?",
+  "a": "7",
+  "sub": "It came free when Mehmet Scholl retired.",
+  "src": "https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did Michael Ballack wear throughout his career?",
+  "a": "13",
+  "src": "https://en.wikipedia.org/wiki/Michael_Ballack",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which shirt number did Gianfranco Zola wear at Chelsea?",
+  "a": "25",
+  "src": "https://en.wikipedia.org/wiki/Gianfranco_Zola",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Gianfranco Zola, assigned number 25, shirt in the Chelsea museum. Sub about nobody wearing it until Caicedo not confirmed, removed. Moved to normal"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "In 2023 Vinícius Júnior swapped his number 20 for which famous Real Madrid number?",
+  "a": "7",
+  "src": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Vinícius Júnior, swapped No. 20 for No. 7 from 2023-24, ESPN 12 June 2023"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Vincent Kompany wear at Manchester City?",
+  "a": "4",
+  "src": "https://en.wikipedia.org/wiki/Vincent_Kompany",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Marcus Rashford take at Manchester United in 2018?",
+  "a": "10",
+  "src": "https://en.wikipedia.org/wiki/Marcus_Rashford",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which shirt number did Karim Benzema wear at Real Madrid from 2010?",
+  "a": "9",
+  "src": "https://en.wikipedia.org/wiki/Karim_Benzema",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, too many shirt numbers"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Wolverhampton Wanderers traditionally play at home in shirts of which colour?",
+  "a": "Old gold",
+  "src": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Wolverhampton Wanderers F.C., traditional kit old gold shirts, black shorts. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Norwich City traditionally play at home in yellow and which other colour?",
+  "a": "Green",
+  "src": "https://en.wikipedia.org/wiki/Norwich_City_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Norwich City F.C., strip changed to yellow and green as the Canaries. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Sporting of Lisbon traditionally play in horizontal stripes of white and which colour?",
+  "a": "Green",
+  "src": "https://en.wikipedia.org/wiki/Sporting_CP",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Sporting CP, green and white horizontal stripes. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Porto's traditional home shirt has stripes of white and which other colour?",
+  "a": "Blue",
+  "src": "https://en.wikipedia.org/wiki/FC_Porto",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia FC Porto, blue vertical stripes, Azuis e brancos. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Benfica traditionally play at home in shirts of which colour?",
+  "a": "Red",
+  "src": "https://en.wikipedia.org/wiki/S.L._Benfica",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia S.L. Benfica, red and white colours, red shirts. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Schalke 04 are nicknamed Die Königsblauen after their shirts. Which colour are they?",
+  "a": "Royal blue",
+  "src": "https://en.wikipedia.org/wiki/FC_Schalke_04",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, near repeat. Bank nicknames pack has Which club is nicknamed Die Königsblauen, Schalke 04"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Werder Bremen's traditional club colours are white and which other colour?",
+  "a": "Green",
+  "src": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia SV Werder Bremen, club colours green and white. Tense fixed"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Hamburg club has worn brown and white since 1910?",
+  "a": "St. Pauli",
+  "src": "https://en.wikipedia.org/wiki/FC_St._Pauli",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia FC St. Pauli, brown and white since 1910. Anchored"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Atalanta are known as the Nerazzurri after their shirt stripes. Which two colours are they?",
+  "a": "Black and blue",
+  "src": "https://en.wikipedia.org/wiki/Atalanta_BC",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Atalanta BC, I Nerazzurri, the black and blues. Reworded, old text near-matched the Inter stripes question"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Since 1986, Olympique de Marseille have played at home in which colour?",
+  "a": "White",
+  "src": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Olympique de Marseille, all white since 1986. Anchored"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Since the early 1990s, Colombia's national team has played at home in which colour?",
+  "a": "Yellow",
+  "src": "https://en.wikipedia.org/wiki/Colombia_national_football_team",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Colombia national football team, yellow promoted to first choice in the early 1990s, red before. Anchored"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Ivory Coast's national team traditionally plays at home in which colour?",
+  "a": "Orange",
+  "src": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Ivory Coast national football team, home colours all orange. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Ukraine's national team traditionally plays at home in which colour?",
+  "a": "Yellow",
+  "src": "https://en.wikipedia.org/wiki/Ukraine_national_football_team",
+  "conf": "likely",
+  "verdict": "fixed",
+  "note": "Wikipedia Ukraine national football team, home kit body F9E733 yellow, nickname the Blue and Yellow. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "What colours are Sunderland's traditional striped home shirts?",
+  "a": "Red and white",
+  "src": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Sunderland A.F.C., red and white stripes since 1887-88. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "What colours are Stoke City's traditional striped home shirts?",
+  "a": "Red and white",
+  "src": "https://en.wikipedia.org/wiki/Stoke_City_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Stoke City F.C., traditional red and white striped shirts. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Leicester City traditionally play at home in which colour?",
+  "a": "Blue",
+  "src": "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Leicester City F.C., traditional home colours royal blue shirts. Tense fixed"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Queens Park Rangers are nicknamed after the pattern on their shirts. What is it?",
+  "a": "Hoops",
+  "src": "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Queens Park Rangers F.C., nicknames The Hoops, Super Hoops. Answer tidied"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "What colours are Athletic Bilbao's traditional striped home shirts?",
+  "a": "Red and white",
+  "src": "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Athletic Bilbao, home colours red and white striped shirts. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Bayer Leverkusen's traditional colours are red and which other colour?",
+  "a": "Black",
+  "src": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Bayer 04 Leverkusen, main colours red and black. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "VfL Wolfsburg have played in white and which other colour since 1945?",
+  "a": "Green",
+  "src": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia VfL Wolfsburg, green and white adopted 1945, continues today. Anchored"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "FC Groningen play in which two colours?",
+  "a": "Green and white",
+  "src": "https://en.wikipedia.org/wiki/FC_Groningen",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, near repeat. Bank has Which Dutch club wears green and white and comes from the north, FC Groningen"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Sparta Rotterdam copied their shirts from Sunderland. Which two colours are they?",
+  "a": "Red and white",
+  "src": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, near repeat. Bank has Sparta Rotterdam copied which club's red and white kit, Sunderland"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Egypt's national team traditionally plays at home in which colour?",
+  "a": "Red",
+  "src": "https://en.wikipedia.org/wiki/Egypt_national_football_team",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Egypt national football team, home kit traditionally a red jersey. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "South Korea's national team traditionally plays at home in which colour?",
+  "a": "Red",
+  "src": "https://en.wikipedia.org/wiki/South_Korea_national_football_team",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia South Korea national football team, nicknamed the Reds for the primary kit colour. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Ian Rush, the Liverpool goalscorer, played international football for which country?",
+  "a": "Wales",
+  "src": "https://en.wikipedia.org/wiki/Ian_Rush",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Ian Rush, senior caps for Wales"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Kenny Dalglish played international football for which country?",
+  "a": "Scotland",
+  "src": "https://en.wikipedia.org/wiki/Kenny_Dalglish",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Kenny Dalglish, senior caps for Scotland"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Mexico's Javier Hernández is better known by which nickname, meaning little pea?",
+  "a": "Chicharito",
+  "src": "https://en.wikipedia.org/wiki/Javier_Hern%C3%A1ndez",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Javier Hernández, Chicharito, little pea"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Carlos Valderrama, known as El Pibe, played for which country?",
+  "a": "Colombia",
+  "src": "https://en.wikipedia.org/wiki/Carlos_Valderrama",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Carlos Valderrama, known as El Pibe, caps for Colombia"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "In 2006 Rafael Márquez became the first player from which country to win the Champions League?",
+  "a": "Mexico",
+  "src": "https://en.wikipedia.org/wiki/Rafael_M%C3%A1rquez",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Rafael Márquez, first Mexican to win the Champions League, 2006"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Landon Donovan scored a famous late winner against Algeria at the 2010 World Cup for which country?",
+  "a": "The United States",
+  "src": "https://en.wikipedia.org/wiki/Landon_Donovan",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Landon Donovan, stoppage-time winner v Algeria at the 2010 World Cup"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Clint Dempsey, once of Tottenham, played for which country?",
+  "a": "The United States",
+  "src": "https://en.wikipedia.org/wiki/Clint_Dempsey",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Clint Dempsey, Tottenham, United States caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Harry Kewell, the Leeds and Liverpool winger, played for which country?",
+  "a": "Australia",
+  "src": "https://en.wikipedia.org/wiki/Harry_Kewell",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Harry Kewell, Leeds and Liverpool, Australia caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Emmanuel Adebayor, once of Arsenal and Manchester City, played for which country?",
+  "a": "Togo",
+  "src": "https://en.wikipedia.org/wiki/Emmanuel_Adebayor",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Emmanuel Adebayor, Arsenal and Manchester City, Togo caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Pierre-Emerick Aubameyang played international football for which country?",
+  "a": "Gabon",
+  "src": "https://en.wikipedia.org/wiki/Pierre-Emerick_Aubameyang",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Pierre-Emerick Aubameyang, France under-21 then Gabon senior caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Hakim Ziyech was born in Dronten in the Netherlands. Which country did he choose to play for?",
+  "a": "Morocco",
+  "src": "https://en.wikipedia.org/wiki/Hakim_Ziyech",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Hakim Ziyech, born Dronten, Dutch youth caps, Morocco senior caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Nwankwo Kanu, of Ajax and Arsenal, played international football for which country?",
+  "a": "Nigeria",
+  "src": "https://en.wikipedia.org/wiki/Nwankwo_Kanu",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Nwankwo Kanu, Ajax and Arsenal, Nigeria caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Hristo Stoichkov played international football for which country?",
+  "a": "Bulgaria",
+  "src": "https://en.wikipedia.org/wiki/Hristo_Stoichkov",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Hristo Stoichkov, Bulgaria caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Gheorghe Hagi played international football for which country?",
+  "a": "Romania",
+  "src": "https://en.wikipedia.org/wiki/Gheorghe_Hagi",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Gheorghe Hagi, Romania caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Edin Džeko has played international football for which country?",
+  "a": "Bosnia and Herzegovina",
+  "src": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Edin Džeko, Bosnia and Herzegovina caps. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Granit Xhaka has played international football for which country?",
+  "a": "Switzerland",
+  "src": "https://en.wikipedia.org/wiki/Granit_Xhaka",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Granit Xhaka, Switzerland caps. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Sami Hyypiä, the Liverpool centre-back, played for which country?",
+  "a": "Finland",
+  "src": "https://en.wikipedia.org/wiki/Sami_Hyypi%C3%A4",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Sami Hyypiä, Finland caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Ole Gunnar Solskjær played international football for which country?",
+  "a": "Norway",
+  "src": "https://en.wikipedia.org/wiki/Ole_Gunnar_Solskj%C3%A6r",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Ole Gunnar Solskjær, Norway caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Pavel Nedvěd played international football for which country?",
+  "a": "The Czech Republic",
+  "src": "https://en.wikipedia.org/wiki/Pavel_Nedv%C4%9Bd",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Pavel Nedvěd, Czech Republic caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Arturo Vidal played international football for which country?",
+  "a": "Chile",
+  "src": "https://en.wikipedia.org/wiki/Arturo_Vidal",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Arturo Vidal, Chile caps"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "James Rodríguez, once of Real Madrid and Bayern Munich, has played for which country?",
+  "a": "Colombia",
+  "src": "https://en.wikipedia.org/wiki/James_Rodr%C3%ADguez",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia James Rodríguez, Colombia caps. Golden Boot clause removed, it near-matched the bank's 2014 Golden Boot question. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which two clubs contest the Tyne-Wear derby?",
+  "a": "Newcastle United and Sunderland",
+  "src": "https://en.wikipedia.org/wiki/Tyne%E2%80%93Wear_derby",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Tyne-Wear derby, Newcastle United v Sunderland"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which two clubs contest Le Classique in France?",
+  "a": "Paris Saint-Germain and Marseille",
+  "src": "https://en.wikipedia.org/wiki/Le_Classique",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Le Classique, Paris Saint-Germain v Marseille"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which two Turin clubs contest the Derby della Mole?",
+  "a": "Juventus and Torino",
+  "src": "https://en.wikipedia.org/wiki/Derby_della_Mole",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Derby della Mole, Juventus v Torino"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which two clubs contest the Nordderby, the north derby, in Germany?",
+  "a": "Hamburger SV and Werder Bremen",
+  "src": "https://en.wikipedia.org/wiki/Nordderby",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Nordderby, Hamburger SV v Werder Bremen"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which two clubs contest the best-known Rheinderby, the Rhine derby, first played in 1950?",
+  "a": "Köln and Borussia Mönchengladbach",
+  "src": "https://en.wikipedia.org/wiki/Rhine_derby",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Rhine derby, the name also covers Düsseldorf and Leverkusen games, mostly used for Köln v Gladbach, first contested 1950. Narrowed"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which two clubs contest the Lisbon derby?",
+  "a": "Benfica and Sporting",
+  "src": "https://en.wikipedia.org/wiki/Derby_de_Lisboa",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Derby de Lisboa, Benfica v Sporting"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which two clubs contest the Derby of the North in the Netherlands?",
+  "a": "FC Groningen and Heerenveen",
+  "src": "https://en.wikipedia.org/wiki/SC_Heerenveen",
+  "conf": "likely",
+  "verdict": "ok",
+  "note": "Wikipedia Derby of the North, FC Groningen v SC Heerenveen, also on the Groningen and Heerenveen pages"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Fans of which Manchester club adopted Blue Moon as their anthem?",
+  "a": "Manchester City",
+  "src": "https://en.wikipedia.org/wiki/Blue_Moon_(1934_song)",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Blue Moon, anthem of Manchester City, originally Crewe. Tense fixed"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Fans of which English club adopted Tom Jones's Delilah as their anthem?",
+  "a": "Stoke City",
+  "src": "https://en.wikipedia.org/wiki/Delilah_(Tom_Jones_song)",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Delilah, Stoke City supporters adopted it as their club anthem. Tense fixed"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Fans of which south coast club sing When the Saints Go Marching In?",
+  "a": "Southampton",
+  "src": "https://en.wikipedia.org/wiki/Southampton_F.C.",
+  "conf": "sure",
+  "verdict": "drop",
+  "note": "trimmed, near repeat. Bank has The Saints is the nickname of which south coast English club, Southampton"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Neil Diamond song did England supporters sing throughout Euro 2020?",
+  "a": "Sweet Caroline",
+  "src": "https://en.wikipedia.org/wiki/Sweet_Caroline",
+  "conf": "sure",
+  "verdict": "fixed",
+  "note": "Wikipedia Sweet Caroline, used by England supporters during Euro 2020, re-entered the UK chart. Reworded, adopted overstated"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "The chant Will Grigg's on fire is sung to the tune of which Gala dance hit?",
+  "a": "Freed from Desire",
+  "src": "https://en.wikipedia.org/wiki/Freed_from_Desire",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Freed from Desire, Wigan fan's Will Grigg's on Fire version"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "A match should not continue if a team is down to fewer than how many players?",
+  "a": "Seven",
+  "src": "https://en.wikipedia.org/wiki/Association_football",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "IFAB Laws of the Game, Law 3.1: may not start or continue if either team has fewer than seven players"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Can a player be caught offside directly from a throw-in?",
+  "a": "No",
+  "src": "https://en.wikipedia.org/wiki/Offside_(association_football)",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Offside, no offence directly from a goal kick, corner or throw-in"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Can a player be offside while he is in his own half?",
+  "a": "No",
+  "src": "https://en.wikipedia.org/wiki/Offside_(association_football)",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Offside, must be in the opponents' half to be in an offside position"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Can a player be caught offside directly from a goal kick?",
+  "a": "No",
+  "src": "https://en.wikipedia.org/wiki/Offside_(association_football)",
+  "conf": "sure",
+  "verdict": "ok",
+  "note": "Wikipedia Offside, no offence directly from a goal kick"
+ }
+]

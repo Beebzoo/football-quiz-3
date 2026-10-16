@@ -1,0 +1,1042 @@
+[
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Since 2023-24 the Segunda has been branded LaLiga Hypermotion, after technology in which video game series?",
+  "a": "EA Sports FC, formerly the FIFA games",
+  "sub": "EA Sports became the sponsor of all LaLiga competitions.",
+  "src": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "LaLiga SmartBank, the Segunda's sponsored name from 2019 to 2023, came from which bank?",
+  "a": "Banco Santander",
+  "src": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "imports",
+  "q": "Which Japanese striker, a Premier League champion with Leicester, joined Segunda side Huesca in September 2019?",
+  "a": "Shinji Okazaki",
+  "src": "https://en.wikipedia.org/wiki/Shinji_Okazaki",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which Brazilian, later a Champions League winner with Liverpool, spent 2012-13 on loan at Real Madrid Castilla in the Segunda?",
+  "a": "Fabinho",
+  "sub": "He was on loan from Rio Ave.",
+  "src": "https://en.wikipedia.org/wiki/Fabinho_(footballer,_born_1993)",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which goalkeeper, later Chelsea's record signing, was loaned by Athletic Bilbao to Ponferradina and then Valladolid in the Segunda?",
+  "a": "Kepa Arrizabalaga",
+  "src": "https://en.wikipedia.org/wiki/Kepa_Arrizabalaga",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which son of Atlético coach Diego Simeone spent 2022-23 on loan at Real Zaragoza?",
+  "a": "Giuliano Simeone",
+  "src": "https://en.wikipedia.org/wiki/Giuliano_Simeone",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "managers",
+  "q": "Which former Real Madrid midfielder took over Almería in November 2019, with the club in the Segunda?",
+  "a": "Guti",
+  "src": "https://en.wikipedia.org/wiki/Guti",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Newcastle United signed which forward from Segunda side Tenerife in 2014?",
+  "a": "Ayoze Pérez",
+  "sub": "The fee was around three million euros.",
+  "src": "https://en.wikipedia.org/wiki/Ayoze_P%C3%A9rez",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which club signed 18-year-old defender Jesús Vallejo from Segunda side Zaragoza in 2015, then loaned him straight back?",
+  "a": "Real Madrid",
+  "src": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Vallejo",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "managers",
+  "q": "Which former Leeds United and Swansea winger became Castellón's head coach in September 2025?",
+  "a": "Pablo Hernández",
+  "sub": "He was born in Castellón and joined them as a player in 2021.",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "managers",
+  "q": "Julen Lopetegui's first job as a head coach, in 2003, was at which Segunda club, where he had also kept goal?",
+  "a": "Rayo Vallecano",
+  "src": "https://en.wikipedia.org/wiki/Julen_Lopetegui",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "The Segunda was halted in March 2020 and only finished in July. What had stopped it?",
+  "a": "The COVID-19 pandemic",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "In February 2020 a judge removed the Qatari owner of which Andalusian Segunda club and appointed an administrator?",
+  "a": "Málaga",
+  "src": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Raúl de Tomás scored 24 goals on loan at Rayo Vallecano in 2017-18. Which club owned him?",
+  "a": "Real Madrid",
+  "sub": "It was a season record for any Rayo player.",
+  "src": "https://en.wikipedia.org/wiki/Ra%C3%BAl_de_Tom%C3%A1s",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Álex Baena spent 2021-22 on loan at Girona in the Segunda. Which club sent him there?",
+  "a": "Villarreal",
+  "src": "https://en.wikipedia.org/wiki/%C3%81lex_Baena",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "imports",
+  "q": "Umar Sadiq joined Segunda side Almería in 2020. Which country does he play for?",
+  "a": "Nigeria",
+  "src": "https://en.wikipedia.org/wiki/Umar_Sadiq",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Fabián Ruiz spent part of 2016-17 on loan at Segunda side Elche. Which club sent him there?",
+  "a": "Real Betis",
+  "src": "https://en.wikipedia.org/wiki/Fabi%C3%A1n_Ruiz",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "scorers",
+  "q": "Roberto Soldado scored 19 Segunda goals in 2005-06 for which reserve side?",
+  "a": "Real Madrid Castilla",
+  "src": "https://en.wikipedia.org/wiki/Roberto_Soldado",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Alberto Moleiro, who joined Villarreal in 2025, came through the academy of which Canary Islands club?",
+  "a": "Las Palmas",
+  "src": "https://en.wikipedia.org/wiki/Alberto_Moleiro",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Barcelona signed Alen Halilović for their B team in the Segunda in 2014. Which Croatian club sold him?",
+  "a": "Dinamo Zagreb",
+  "src": "https://en.wikipedia.org/wiki/Alen_Halilovi%C4%87",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Under which sponsored name was the Segunda known from 2008-09 to 2015-16?",
+  "a": "Liga Adelante",
+  "src": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "In 2004-05 which Segunda side knocked Real Madrid out of the Copa del Rey on away goals?",
+  "a": "Real Valladolid",
+  "sub": "A 0-0 at home, then 1-1 at the Bernabéu.",
+  "src": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "In January 2024 Segunda side Tenerife knocked which top-flight island neighbours out of the Copa del Rey?",
+  "a": "Las Palmas",
+  "sub": "Tenerife won 2-0.",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Which former Real Madrid midfielder topped the 2025-26 Segunda scoring chart for Almería, with 24 goals?",
+  "a": "Sergio Arribas",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "UCAM Murcia reached the Segunda in 2016. What kind of institution runs the club?",
+  "a": "A university, the Catholic University of Murcia",
+  "src": "https://en.wikipedia.org/wiki/UCAM_Murcia_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which former Southampton and Hull manager took over Real Zaragoza in October 2025, with the club bottom of the Segunda?",
+  "a": "Rubén Sellés",
+  "sub": "He was dismissed the following March.",
+  "src": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Sell%C3%A9s",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which former Atlético Madrid captain took charge of Real Zaragoza in March 2025, having once played for them?",
+  "a": "Gabi",
+  "sub": "He lasted until October 2025.",
+  "src": "https://en.wikipedia.org/wiki/Gabi_(footballer,_born_1983)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Relegated Villarreal appointed which coach in January 2013, and went straight back up?",
+  "a": "Marcelino",
+  "src": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which coach led Girona to La Liga for the first time in their history in 2017?",
+  "a": "Pablo Machín",
+  "sub": "He had taken over in March 2014 with Girona bottom.",
+  "src": "https://en.wikipedia.org/wiki/Pablo_Mach%C3%ADn",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which coach took Leganés up twice in three seasons, to the Segunda in 2014 and to La Liga in 2016?",
+  "a": "Asier Garitano",
+  "src": "https://en.wikipedia.org/wiki/Asier_Garitano",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which coach led Elche back to La Liga in 2013, in his first season, after 24 years away?",
+  "a": "Fran Escribá",
+  "src": "https://en.wikipedia.org/wiki/Fran_Escrib%C3%A1",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which former Sporting Gijón defender took them back to La Liga in 2015 amid severe money troubles?",
+  "a": "Abelardo",
+  "src": "https://en.wikipedia.org/wiki/Abelardo_Fern%C3%A1ndez",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which former Russia midfielder, once of Celta and Real Sociedad, coached Mallorca in the Segunda in 2014-15?",
+  "a": "Valery Karpin",
+  "src": "https://en.wikipedia.org/wiki/Valery_Karpin",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Atlético Madrid loaned which winger to Mirandés for 2021-22, where he made eight goals and 12 assists?",
+  "a": "Rodrigo Riquelme",
+  "src": "https://en.wikipedia.org/wiki/Rodrigo_Riquelme_(footballer,_born_2000)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which goalkeeper, on loan from Athletic Bilbao, missed only one game as Huesca won their first ever promotion in 2018?",
+  "a": "Álex Remiro",
+  "src": "https://en.wikipedia.org/wiki/%C3%81lex_Remiro",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "imports",
+  "q": "Granada went up in 2011 with a squad full of loan players from which Italian club?",
+  "a": "Udinese",
+  "src": "https://en.wikipedia.org/wiki/Granada_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Segunda side Almería knocked Sevilla out of the Copa del Rey in January 2025. What was the score?",
+  "a": "4-1 to Almería",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Segunda side Cádiz won 5-3 away at which top-flight club in the 2017-18 Copa del Rey?",
+  "a": "Real Betis",
+  "sub": "Cádiz went through 6-5 on aggregate.",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which top-flight club did Segunda side Sporting Gijón knock out of the Copa del Rey in January 2022, winning 2-1?",
+  "a": "Villarreal",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Albacete's run in the 2025-26 Copa del Rey ended in the quarter-finals. Who beat them?",
+  "a": "Barcelona, 2-1 at Albacete",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Deportivo's last game of 2019-20, against Fuenlabrada, was delayed by COVID cases until August. How did it end?",
+  "a": "Deportivo won 2-1",
+  "sub": "Deportivo had already been relegated by then.",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which Argentine winger, later of Roma, helped Sevilla Atlético stay in the Segunda in 2007-08?",
+  "a": "Diego Perotti",
+  "src": "https://en.wikipedia.org/wiki/Diego_Perotti",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which former Swansea striker, by then Burgos' director of football, took charge of the team as caretaker in October 2024?",
+  "a": "Michu",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Leeds United loaned which Japanese midfielder to Cultural Leonesa in January 2018, the day he signed?",
+  "a": "Yosuke Ideguchi",
+  "sub": "Leeds had a partnership with Cultural's owners, the Aspire Academy.",
+  "src": "https://en.wikipedia.org/wiki/Yosuke_Ideguchi",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Real Zaragoza's temporary ground from 2025, used while La Romareda is rebuilt, is named after which bank?",
+  "a": "Ibercaja",
+  "src": "https://en.wikipedia.org/wiki/Ibercaja_Stadium",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Since 2021 FC Andorra have played their home games at which ground, under a deal with the government?",
+  "a": "The Estadi Nacional",
+  "src": "https://en.wikipedia.org/wiki/FC_Andorra",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Eldense reached the Segunda in 2023 after a 4-4 aggregate play-off draw with which reserve side?",
+  "a": "Real Madrid Castilla",
+  "sub": "Eldense went up thanks to their higher league finish.",
+  "src": "https://en.wikipedia.org/wiki/CD_Eldense",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Cultural Leonesa returned to the Segunda in 2017 after 42 years by beating which reserve side in the play-off?",
+  "a": "Barcelona B",
+  "src": "https://en.wikipedia.org/wiki/Cultural_y_Deportiva_Leonesa",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "In January 2022 Ibiza won 5-0 away at which Andalusian giant?",
+  "a": "Málaga",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which Las Palmas youth product, nicknamed after a Brazilian striker, hit a hat-trick in a 5-3 win at Barcelona B in 2011?",
+  "a": "Jonathan Viera, nicknamed Romário",
+  "src": "https://en.wikipedia.org/wiki/Jonathan_Viera",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which coach took Recreativo back to La Liga in 2002 after 23 years away, and Real Murcia up in 2007?",
+  "a": "Lucas Alcaraz",
+  "src": "https://en.wikipedia.org/wiki/Lucas_Alcaraz",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Who scored twice for Albacete, including a stoppage-time winner, as they beat Real Madrid 3-2 in the January 2026 Copa?",
+  "a": "Jefté Betancor",
+  "sub": "He was born in Las Palmas and is of Malaysian descent.",
+  "src": "https://en.wikipedia.org/wiki/Jeft%C3%A9_Betancor",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Cristian Tello rejoined Barcelona B, then in the Segunda, in 2010. From which rival's reserves did he come?",
+  "a": "Espanyol",
+  "src": "https://en.wikipedia.org/wiki/Cristian_Tello",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which coach took Almería back to La Liga in 2013 in his only season there?",
+  "a": "Javi Gracia",
+  "src": "https://en.wikipedia.org/wiki/Javi_Gracia",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Greek-Canadian businessman took control of Castellón in July 2022, bringing a data-led approach to signings?",
+  "a": "Haralabos Voulgaris",
+  "src": "https://en.wikipedia.org/wiki/CD_Castell%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Huesca sealed their first ever promotion to La Liga in May 2018 with a 2-0 win away at which club?",
+  "a": "Lugo",
+  "src": "https://en.wikipedia.org/wiki/SD_Huesca",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "What was the Segunda's sponsored name from 2016-17 to 2018-19, with an oversized 2 in the middle?",
+  "a": "LaLiga 123, written with bars between the digits",
+  "src": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which Segunda side knocked Villarreal out of the 2009-10 Copa del Rey before losing a quarter-final to Atlético Madrid?",
+  "a": "Celta Vigo",
+  "src": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which Segunda side reached the 2016-17 Copa quarter-finals after knocking Espanyol out on penalties?",
+  "a": "Alcorcón",
+  "sub": "Alavés ended their run.",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Segunda side Almería reached the 2020-21 Copa del Rey quarter-finals. Who knocked them out?",
+  "a": "Sevilla",
+  "sub": "Almería had beaten Alavés 5-0 and Osasuna on penalties.",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Segunda side Numancia knocked Málaga out of the 2017-18 Copa del Rey. Who beat them in the last 16?",
+  "a": "Real Madrid",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Deportivo won seven Segunda games in a row in 2019-20, the longest run of anyone that season. How did their season end?",
+  "a": "Relegated, in 19th place",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Which club made Uroš Đurđević its most expensive ever signing in 2018, paying about 2.5 million euros?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/Uro%C5%A1_%C4%90ur%C4%91evi%C4%87",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Almería paid a reported eight million pounds in 2019 for which Nottingham Forest teenager?",
+  "a": "Arvin Appiah",
+  "src": "https://en.wikipedia.org/wiki/Arvin_Appiah",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Which Serie A club signed Zaragoza's academy striker Iván Azón in February 2025?",
+  "a": "Como",
+  "src": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Az%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "In December 2011, aged 30, who became the youngest coach in Segunda history when Villarreal B appointed him?",
+  "a": "Julio Velázquez",
+  "src": "https://en.wikipedia.org/wiki/Julio_Vel%C3%A1zquez",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which coach took both Tenerife, in 2009, and Deportivo, in 2012, up from the Segunda?",
+  "a": "José Luis Oltra",
+  "src": "https://en.wikipedia.org/wiki/Jos%C3%A9_Luis_Oltra",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which coach took Numancia up for the first time in 1999 and Osasuna up a year later?",
+  "a": "Miguel Ángel Lotina",
+  "src": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Lotina",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which coach took Celta back up from the Segunda in 2005, then into the UEFA Cup a year later?",
+  "a": "Fernando Vázquez",
+  "src": "https://en.wikipedia.org/wiki/Fernando_V%C3%A1zquez",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Who were Leganés playing when a 1-0 away win clinched their first ever place in La Liga, in June 2016?",
+  "a": "Mirandés",
+  "src": "https://en.wikipedia.org/wiki/CD_Legan%C3%A9s",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In May 2023 Málaga dropped a division for the first time since 1998. Which tier did they fall into?",
+  "a": "The third tier, the Primera Federación",
+  "src": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Sabadell finished in the Segunda drop zone in 2011-12 but stayed up. Why?",
+  "a": "Villarreal went down, so Villarreal B were relegated automatically",
+  "src": "https://en.wikipedia.org/wiki/CE_Sabadell_FC",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In 2001, money troubles forced Sporting Gijón to sell which asset to the town hall for 12 million euros?",
+  "a": "Mareo, their youth academy",
+  "src": "https://en.wikipedia.org/wiki/Sporting_de_Gij%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "An international investment fund led by whom bought 51 percent of Real Zaragoza in April 2022?",
+  "a": "Jorge Mas",
+  "src": "https://en.wikipedia.org/wiki/Real_Zaragoza",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "UD Ibiza, in the Segunda from 2021, were founded in 2015 by which former Valencia president?",
+  "a": "Amadeo Salvo",
+  "src": "https://en.wikipedia.org/wiki/UD_Ibiza",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "The first official match at Real Zaragoza's temporary Ibercaja Stadium, in August 2025, was a 3-1 defeat to which club?",
+  "a": "FC Andorra",
+  "src": "https://en.wikipedia.org/wiki/Ibercaja_Stadium",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "FC Andorra won promotion to the Segunda for the first time in May 2022 with a 1-0 home win over which club?",
+  "a": "UCAM Murcia",
+  "src": "https://en.wikipedia.org/wiki/FC_Andorra",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Barcelona B won 6-0 away at which Andalusian club on the last day of 2011-12?",
+  "a": "Xerez",
+  "src": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Eibar beat which reserve side 6-0 in November 2013, the joint biggest home win of that Segunda season?",
+  "a": "Real Madrid Castilla",
+  "src": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "In October 2025 Real Zaragoza lost 5-0 at home to which newly promoted club?",
+  "a": "Cultural Leonesa",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Which club won 5-0 away at Real Oviedo on the final day of 2015-16?",
+  "a": "Osasuna",
+  "src": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Which club lost ten Segunda games in a row in 2017-18?",
+  "a": "Lorca FC",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Segunda side Betis lost a 2011 Copa quarter-final first leg 5-0 at Barcelona. What happened in the return?",
+  "a": "Betis won 3-1, but went out 6-3 on aggregate",
+  "sub": "Messi had scored a hat-trick in the first leg.",
+  "src": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club, founded in 2009, won promotion to the Segunda in July 2020 by beating Castellón on penalties in a COVID-shortened play-off?",
+  "a": "UD Logroñés",
+  "src": "https://en.wikipedia.org/wiki/UD_Logro%C3%B1%C3%A9s",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Japanese businessman owned Sabadell in the Segunda in 2013, setting up a link with FC Tokyo?",
+  "a": "Keisuke Sakamoto",
+  "src": "https://en.wikipedia.org/wiki/CE_Sabadell_FC",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Fabinho's first goal for Real Madrid Castilla was an added-time header for a 3-3 draw in April 2013. Against which club?",
+  "a": "Numancia",
+  "src": "https://en.wikipedia.org/wiki/Fabinho_(footballer,_born_1993)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Kepa Arrizabalaga made his professional debut on loan in January 2015. For which Segunda club?",
+  "a": "Ponferradina",
+  "src": "https://en.wikipedia.org/wiki/Kepa_Arrizabalaga",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Real Sociedad B returned to the Segunda in 2021, after 59 years away, by beating which club in the play-off final?",
+  "a": "Algeciras",
+  "src": "https://en.wikipedia.org/wiki/Real_Sociedad_B",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Ponferradina moved into which new ground in September 2000, with a friendly against Celta?",
+  "a": "El Toralín",
+  "src": "https://en.wikipedia.org/wiki/SD_Ponferradina",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "The Segunda first carried a sponsor's name in 2006-07. Which name did it use for its first two sponsored seasons?",
+  "a": "Liga BBVA",
+  "src": "https://en.wikipedia.org/wiki/Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "The 2019-20 Segunda was suspended on 12 March 2020. On what date did it restart?",
+  "a": "10 June 2020",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club won 5-4 at home to Albacete in December 2023, the highest-scoring Segunda game of that season?",
+  "a": "Racing Ferrol",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Castellón won the highest-scoring Segunda game of 2025-26 by 5-4 in November 2025. Against which reserve side?",
+  "a": "Real Sociedad B",
+  "src": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "In May 2021 Leganés won 5-0 away at which club, the biggest away win of that Segunda season?",
+  "a": "Real Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Leganés beat which Basque club 6-0 in October 2023, the biggest home win of that Segunda season?",
+  "a": "Amorebieta",
+  "src": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Las Palmas beat which Galician club 6-1 in April 2021, the biggest Segunda win of that season?",
+  "a": "Lugo",
+  "src": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Only 409 fans watched a Segunda game in March 2018, the season's lowest crowd. Which reserve side was at home?",
+  "a": "Sevilla Atlético",
+  "sub": "They lost 2-1 to Albacete.",
+  "src": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Which club lost nine Segunda games in a row in 2024-25, and went 19 without a win?",
+  "a": "Cartagena",
+  "src": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Only 592 people watched Amorebieta beat which club 2-1 in August 2021, the lowest Segunda crowd that season?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Betis drew a crowd of 48,462 in May 2015, the biggest of that Segunda season, beating which club 3-0?",
+  "a": "Alcorcón",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "In March 2023 Mirandés won 4-3 away at which club, one of the highest-scoring Segunda games that season?",
+  "a": "Sporting Gijón",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "In October 2017, after 12 rounds, which Galician club led the Segunda for the first time in its history?",
+  "a": "Lugo",
+  "src": "https://en.wikipedia.org/wiki/CD_Lugo",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Ponferradina first reached the Segunda in 2006 after knocking out Universidad Las Palmas and which other club in the play-offs?",
+  "a": "Alicante",
+  "src": "https://en.wikipedia.org/wiki/SD_Ponferradina",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "UD Ibiza reached the third tier in 2018 by paying the debts of which club, which had been blocked from playing there?",
+  "a": "Lorca FC",
+  "src": "https://en.wikipedia.org/wiki/UD_Ibiza",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Sporting Gijón had run up debts of how much in their worst years, leaving them close to administrative relegation in 2005?",
+  "a": "51 million euros",
+  "src": "https://en.wikipedia.org/wiki/Sporting_de_Gij%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Pedro Emanuel left Almería by mutual consent in November 2019, with Guti taking over. Where were Almería in the table?",
+  "a": "Second",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Guti was sacked by Almería in June 2020 after a 1-0 home defeat to which club?",
+  "a": "Alcorcón",
+  "src": "https://en.wikipedia.org/wiki/Guti",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "transfers",
+  "q": "Atlético loanee Rodrigo Riquelme moved on from Mirandés in 2022 to another loan at which top-flight club?",
+  "a": "Girona",
+  "src": "https://en.wikipedia.org/wiki/Rodrigo_Riquelme_(footballer,_born_2000)",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "Segunda side Almería drew the first leg 3-3 at home to Villarreal in the 2018-19 Copa. What happened in the second leg?",
+  "a": "Villarreal won 8-0",
+  "src": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which top-flight club did Segunda side Levante beat 3-2 in the 2022-23 Copa del Rey round of 32?",
+  "a": "Getafe",
+  "src": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Copa_del_Rey",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "FC Andorra joined the third tier in 2019 by paying about 452,000 euros to take whose place?",
+  "a": "CF Reus, thrown out for not paying players",
+  "src": "https://en.wikipedia.org/wiki/FC_Andorra",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "managers",
+  "q": "Villarreal, just relegated, appointed Manolo Preciado as coach on 6 June 2012. What happened later that day?",
+  "a": "He died of a heart attack in a hotel",
+  "src": "https://en.wikipedia.org/wiki/Manuel_Preciado",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "imports",
+  "q": "Shinji Okazaki signed for Málaga in July 2019 but never played for them. Why?",
+  "a": "His wages broke Málaga's LaLiga spending limit, so the deal was cancelled after 34 days",
+  "sub": "He joined Huesca instead.",
+  "src": "https://en.wikipedia.org/wiki/Shinji_Okazaki",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "managers",
+  "q": "Why did Málaga suspend and then sack coach Víctor Sánchez del Amo in January 2020?",
+  "a": "An intimate video of him leaked online",
+  "src": "https://en.wikipedia.org/wiki/V%C3%ADctor_S%C3%A1nchez_(footballer,_born_1976)",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "grounds",
+  "q": "Espanyol's first home game back in the Segunda, in August 2023, was played without fans. Why?",
+  "a": "Punishment for fans invading the pitch as Barcelona clinched the title at their ground in May 2023",
+  "sub": "The ban was cut from two games to one on appeal.",
+  "src": "https://www.football-espana.net/2023/08/08/espanyol-to-have-stadium-ban-reduced-for-pitch-invasion-against-barcelona",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "relegation",
+  "q": "Murcia keeper Alberto Cifuentes saved an added-time penalty at Girona on the last day of 2009-10. Why did it not save Murcia?",
+  "a": "The ball deflected in off him, the 1-1 sent them down",
+  "src": "https://en.wikipedia.org/wiki/Real_Murcia_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "grounds",
+  "q": "Real Zaragoza's temporary home from 2025 was the first of what kind in Spanish football?",
+  "a": "A modular stadium that can be taken down and moved",
+  "sub": "It was built in about four months for 2.6 million euros.",
+  "src": "https://en.wikipedia.org/wiki/Ibercaja_Stadium",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "managers",
+  "q": "Guti offered to resign and refund his Almería salary in February 2020 if which rumour were proven?",
+  "a": "That he had been at a nightclub with his players after a defeat",
+  "src": "https://en.wikipedia.org/wiki/Guti",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "managers",
+  "q": "Julio Velázquez became the Segunda's youngest ever coach at 30. At what age had he started coaching?",
+  "a": "15",
+  "src": "https://en.wikipedia.org/wiki/Julio_Vel%C3%A1zquez",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "In February 2026 which superstar bought a 25 percent stake in Segunda side Almería?",
+  "a": "Cristiano Ronaldo",
+  "src": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which Argentine superstar agreed in September 2026 to buy Eldense, a Segunda club from 2023 to 2025?",
+  "a": "Lionel Messi",
+  "sub": "The deal needed approval from Spain's sports council.",
+  "src": "https://en.wikipedia.org/wiki/CD_Eldense",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "managers",
+  "q": "Álvaro Arbeloa's first game as Real Madrid head coach, in January 2026, ended in a 3-2 Copa defeat at which Segunda club?",
+  "a": "Albacete",
+  "src": "https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Almería changed coach four times under new owner Turki Al-Sheikh in 2019-20. Who replaced Guti in June 2020, only to be replaced himself in July?",
+  "a": "Mário Silva",
+  "sub": "José Gomes took over for the play-offs.",
+  "src": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "UCAM Murcia reached the Segunda in 2016 by beating which reserve side 4-3 on aggregate in the play-offs?",
+  "a": "Real Madrid Castilla",
+  "src": "https://en.wikipedia.org/wiki/UCAM_Murcia_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Huesca's first ever promotion play-off campaign, in 2017, ended in the semi-finals against which club?",
+  "a": "Getafe",
+  "src": "https://en.wikipedia.org/wiki/SD_Huesca",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Ponferradina returned to the Segunda in June 2019 by beating which Alicante club in the play-offs?",
+  "a": "Hércules",
+  "src": "https://en.wikipedia.org/wiki/SD_Ponferradina",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Sevilla Atlético won 6-2 at home in April 2017, one of the highest-scoring Segunda games that season. Who did they beat?",
+  "a": "Real Valladolid",
+  "src": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ }
+]

@@ -1,0 +1,1174 @@
+[
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "Which Welsh club won the FA Cup in 1927, beating Arsenal 1-0 at Wembley?",
+  "a": "Cardiff City",
+  "sub": "The press hailed the cup going to Wales for the first time.",
+  "src": "https://en.wikipedia.org/wiki/1927_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which north-east club are nicknamed the Black Cats?",
+  "a": "Sunderland",
+  "src": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club's fans adopted the self-mocking nickname the Tractor Boys during their 2000 to 2002 Premier League spell?",
+  "a": "Ipswich Town",
+  "src": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "AFC Bournemouth are nicknamed after which fruit?",
+  "a": "Cherries",
+  "sub": "Probably from their cherry-red striped shirts.",
+  "src": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which nickname do Luton Town, of Kenilworth Road, go by?",
+  "a": "The Hatters",
+  "src": "https://en.wikipedia.org/wiki/Luton_Town_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club's fans sing the Geordie folk song Blaydon Races?",
+  "a": "Newcastle United",
+  "sub": "They sang it over and over at the 1974 FA Cup final.",
+  "src": "https://en.wikipedia.org/wiki/Blaydon_Races",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which two clubs contest the Steel City derby?",
+  "a": "Sheffield United and Sheffield Wednesday",
+  "src": "https://en.wikipedia.org/wiki/Steel_City_derby",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which two clubs contest the Edinburgh derby?",
+  "a": "Hearts and Hibernian",
+  "src": "https://en.wikipedia.org/wiki/Edinburgh_derby",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "West Bromwich Albion's fiercest rivals in the Black Country derby are which club?",
+  "a": "Wolverhampton Wanderers",
+  "src": "https://en.wikipedia.org/wiki/Black_Country_derby",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Sunderland contest the Tyne-Wear derby against which club?",
+  "a": "Newcastle United",
+  "sub": "First played in 1898.",
+  "src": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Cardiff City contest the South Wales derby against which club?",
+  "a": "Swansea City",
+  "src": "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Welsh club was formed in October 1864 at a pub called the Turf Hotel?",
+  "a": "Wrexham",
+  "src": "https://en.wikipedia.org/wiki/Wrexham_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Edinburgh club play their home games at Easter Road?",
+  "a": "Hibernian",
+  "src": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Burnley are named after the colour they adopted in 1910. What is their nickname?",
+  "a": "The Clarets",
+  "src": "https://en.wikipedia.org/wiki/Burnley_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which south coast club are nicknamed Pompey and play at Fratton Park?",
+  "a": "Portsmouth",
+  "src": "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Derby County's nickname honours their links with an old militia regiment, whose mascot was what animal?",
+  "a": "A ram, they are the Rams",
+  "src": "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Derby County contest the East Midlands derby against which club?",
+  "a": "Nottingham Forest",
+  "src": "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club are nicknamed the Robins and play at Ashton Gate?",
+  "a": "Bristol City",
+  "src": "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club traditionally play in old gold shirts at Molineux?",
+  "a": "Wolverhampton Wanderers",
+  "src": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which club, nicknamed the Lions, moved to The Den in New Cross in 1910?",
+  "a": "Millwall",
+  "src": "https://en.wikipedia.org/wiki/Millwall_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which colour, with white, do Hearts of Edinburgh traditionally wear?",
+  "a": "Maroon",
+  "src": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Wrexham are a Welsh club. In which country's league system do they play?",
+  "a": "England's",
+  "src": "https://en.wikipedia.org/wiki/Wrexham_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Belfast club Linfield play their football in which country?",
+  "a": "Northern Ireland",
+  "src": "https://en.wikipedia.org/wiki/Linfield_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Who kept goal for England in the 1966 World Cup final?",
+  "a": "Gordon Banks",
+  "src": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which colour is the main shirt colour of Edinburgh club Hibernian?",
+  "a": "Green",
+  "sub": "Usually with white sleeves, a nod to the club's Irish roots.",
+  "src": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Burnley contest the East Lancashire derby against which club?",
+  "a": "Blackburn Rovers",
+  "src": "https://en.wikipedia.org/wiki/Burnley_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Bristol City contest the Bristol derby against which club?",
+  "a": "Bristol Rovers",
+  "src": "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Portsmouth's arch-rivals are which other south coast club?",
+  "a": "Southampton",
+  "src": "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which hymn was sung before the 1927 FA Cup final and became a cup final tradition?",
+  "a": "Abide with Me",
+  "src": "https://en.wikipedia.org/wiki/1927_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Which Argentine dribbled past the Manchester City defence to win the 1981 FA Cup final replay for Tottenham?",
+  "a": "Ricky Villa",
+  "sub": "Voted the Wembley Goal of the Century in 2001.",
+  "src": "https://en.wikipedia.org/wiki/1981_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Tottenham midfielder wrecked his own knee with a reckless tackle early in the 1991 FA Cup final against Forest?",
+  "a": "Paul Gascoigne",
+  "sub": "Torn cruciate ligaments kept him out for a year.",
+  "src": "https://en.wikipedia.org/wiki/1991_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which Nottingham Forest manager lost his only FA Cup final, to Tottenham in 1991, the one major domestic trophy he never won?",
+  "a": "Brian Clough",
+  "src": "https://en.wikipedia.org/wiki/1991_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Whose late extra-time strike won the 1971 FA Cup final for Arsenal against Liverpool and sealed the double?",
+  "a": "Charlie George",
+  "sub": "He celebrated lying flat on his back with his arms spread out.",
+  "src": "https://en.wikipedia.org/wiki/1971_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who scored both Bolton goals against a Manchester United side rebuilt after Munich in the 1958 FA Cup final?",
+  "a": "Nat Lofthouse",
+  "sub": "The second came after he bundled keeper Harry Gregg over the line.",
+  "src": "https://en.wikipedia.org/wiki/1958_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Portsmouth won the 1939 FA Cup and kept the trophy until 1946. Why so long?",
+  "a": "The competition was suspended during the Second World War",
+  "src": "https://en.wikipedia.org/wiki/1939_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Which club won the first League Cup final in 1961, beating Rotherham United over two legs?",
+  "a": "Aston Villa",
+  "src": "https://en.wikipedia.org/wiki/1961_Football_League_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which club won the last old First Division title before the Premier League began, in 1991-92?",
+  "a": "Leeds United",
+  "sub": "They clinched it on the penultimate weekend with a 3-2 win at Sheffield United.",
+  "src": "https://en.wikipedia.org/wiki/1991%E2%80%9392_Football_League",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Which Everton centre-forward scored 60 league goals in the 1927-28 season?",
+  "a": "Dixie Dean",
+  "sub": "Everton scored 102 in total, and won the title.",
+  "src": "https://en.wikipedia.org/wiki/Dixie_Dean",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Whose late goal at Anfield on 26 May 1989 gave Arsenal the 2-0 win they needed to take the title from Liverpool?",
+  "a": "Michael Thomas",
+  "src": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Football_League",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Arsenal and Liverpool finished 1988-89 level on points and goal difference. What decided the title?",
+  "a": "Goals scored, Arsenal had 73 to Liverpool's 65",
+  "src": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Football_League",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Which Scottish club sacked Alex Ferguson in 1978, just as he was about to join Aberdeen?",
+  "a": "St Mirren",
+  "sub": "He took them to an industrial tribunal over it and lost.",
+  "src": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "europe",
+  "q": "In which Swedish city did Aberdeen beat Real Madrid 2-1 in the 1983 Cup Winners' Cup final?",
+  "a": "Gothenburg",
+  "sub": "At the Ullevi, in the rain, after extra time.",
+  "src": "https://en.wikipedia.org/wiki/1983_European_Cup_Winners%27_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Hearts take their name partly from a novel, The Heart of Midlothian. Which Scottish author wrote it?",
+  "a": "Walter Scott",
+  "src": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Which Belfast ground, Linfield's home since 1905, is also where Northern Ireland play their home matches?",
+  "a": "Windsor Park",
+  "sub": "Linfield's badge shows Windsor Castle.",
+  "src": "https://en.wikipedia.org/wiki/Linfield_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Northern Irish club joined the Republic of Ireland's League of Ireland in 1985, after years out of the Irish League?",
+  "a": "Derry City",
+  "sub": "Troubles-era security fears had forced them out of the Brandywell in 1971.",
+  "src": "https://en.wikipedia.org/wiki/Derry_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Which Cardiff City ground opened in 1910 and was used for 99 years until the move in 2009?",
+  "a": "Ninian Park",
+  "src": "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Before managing Manchester United, Matt Busby played for which two of their great rivals?",
+  "a": "Manchester City and Liverpool",
+  "src": "https://en.wikipedia.org/wiki/Matt_Busby",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Geoff Hurst scored three in the 1966 World Cup final. Who scored England's other goal?",
+  "a": "Martin Peters",
+  "src": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Whose injury in the 1966 World Cup group stage let Geoff Hurst into the England side for the final?",
+  "a": "Jimmy Greaves",
+  "src": "https://en.wikipedia.org/wiki/Jimmy_Greaves",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Watford fans picked a new insect nickname when the club changed its colours in 1959. Which one?",
+  "a": "The Hornets",
+  "sub": "Their first nickname was the Brewers, after the brewery that owned Vicarage Road.",
+  "src": "https://en.wikipedia.org/wiki/Watford_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Northampton Town are nicknamed the Cobblers after which local industry?",
+  "a": "Shoe-making",
+  "src": "https://en.wikipedia.org/wiki/Northampton_Town_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Bristol Rovers are known as the Gas. What stood next to their old Eastville ground?",
+  "a": "A gasworks",
+  "sub": "It began as an insult from Bristol City fans and was adopted with pride.",
+  "src": "https://en.wikipedia.org/wiki/Bristol_Rovers_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Chesterfield are nicknamed the Spireites after which famous feature of the town?",
+  "a": "The Crooked Spire",
+  "src": "https://en.wikipedia.org/wiki/Chesterfield_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "The 1989 Hillsborough disaster happened at an FA Cup semi-final between Liverpool and which club?",
+  "a": "Nottingham Forest",
+  "src": "https://en.wikipedia.org/wiki/Hillsborough_disaster",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "At which club's ground did fire destroy the wooden main stand on 11 May 1985, killing 56 people?",
+  "a": "Bradford City, at Valley Parade",
+  "sub": "The disaster led to a ban on new wooden grandstands.",
+  "src": "https://en.wikipedia.org/wiki/Bradford_City_stadium_fire",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "At which Glasgow ground did 66 people die in a crush on an exit stairway in January 1971?",
+  "a": "Ibrox Park",
+  "sub": "Stairway 13 had been flagged as unsafe years earlier.",
+  "src": "https://en.wikipedia.org/wiki/1971_Ibrox_disaster",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which club's fans adopted Tom Jones's hit Delilah as their anthem?",
+  "a": "Stoke City",
+  "src": "https://en.wikipedia.org/wiki/Delilah_(Tom_Jones_song)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which club's anthem is Glad All Over, a 1963 UK number one for the Dave Clark Five?",
+  "a": "Crystal Palace",
+  "src": "https://en.wikipedia.org/wiki/Glad_All_Over",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "The Proclaimers' song Sunshine on Leith is the unofficial anthem of which club?",
+  "a": "Hibernian",
+  "src": "https://en.wikipedia.org/wiki/Sunshine_on_Leith_(song)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which two Belfast clubs are known locally as the Big Two?",
+  "a": "Linfield and Glentoran",
+  "sub": "They traditionally meet in a Boxing Day derby.",
+  "src": "https://en.wikipedia.org/wiki/Linfield_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "records",
+  "q": "From 2022 to 2025, which club became the first in the top five English tiers to win three promotions in a row?",
+  "a": "Wrexham",
+  "src": "https://en.wikipedia.org/wiki/Wrexham_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Hibernian were founded in 1875 by members of which community in Edinburgh?",
+  "a": "The Irish community",
+  "sub": "The name comes from the Latin for Ireland.",
+  "src": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "champions",
+  "q": "Which Lancashire club were champions of England in 1920-21 and again in 1959-60?",
+  "a": "Burnley",
+  "src": "https://en.wikipedia.org/wiki/Burnley_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Tottenham Hotspur are named after which fiery medieval nobleman?",
+  "a": "Harry Hotspur",
+  "sub": "Spurs and fighting cocks explain the cockerel on the crest.",
+  "src": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "managers",
+  "q": "Bill Shankly stunned Liverpool by retiring in 1974. Which long-time assistant succeeded him?",
+  "a": "Bob Paisley",
+  "src": "https://en.wikipedia.org/wiki/Bill_Shankly",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who scored for Bolton after two minutes of the 1923 White Horse Final against West Ham, the first match at Wembley?",
+  "a": "David Jack",
+  "sub": "He had scored the only goal in every Bolton tie from the third round on.",
+  "src": "https://en.wikipedia.org/wiki/1923_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who came off the bench to score twice for Crystal Palace in the 3-3 1990 FA Cup final, just back from a broken leg?",
+  "a": "Ian Wright",
+  "src": "https://en.wikipedia.org/wiki/1990_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Who scored Chelsea's extra-time winner in the 1970 FA Cup final replay against Leeds at Old Trafford?",
+  "a": "David Webb",
+  "src": "https://en.wikipedia.org/wiki/1970_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Whose goal won the centenary FA Cup final in 1972, Leeds United's first FA Cup?",
+  "a": "Allan Clarke",
+  "sub": "Arsenal were the beaten holders.",
+  "src": "https://en.wikipedia.org/wiki/1972_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which Third Division club beat a flu-hit Arsenal 3-1 on a mudbath in the 1969 League Cup final?",
+  "a": "Swindon Town",
+  "src": "https://en.wikipedia.org/wiki/1969_Football_League_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "scorers",
+  "q": "Which veteran scored the winner as Stoke City beat Chelsea in the 1972 League Cup final, their first major trophy?",
+  "a": "George Eastham",
+  "src": "https://en.wikipedia.org/wiki/1972_Football_League_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which lower-league club beat Herbert Chapman's Arsenal 2-0 in the FA Cup third round in January 1933?",
+  "a": "Walsall",
+  "src": "https://en.wikipedia.org/wiki/1932%E2%80%9333_FA_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Dixie Dean began at his hometown club before joining Everton. Which club?",
+  "a": "Tranmere Rovers",
+  "src": "https://en.wikipedia.org/wiki/Dixie_Dean",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which club retained the First Division title in 1949-50, finishing level on points with Wolves?",
+  "a": "Portsmouth",
+  "src": "https://en.wikipedia.org/wiki/1949%E2%80%9350_Football_League",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "First Division goals jumped from 1192 to 1703 in 1925-26 after a change to which law of the game?",
+  "a": "Offside, needing two defenders instead of three",
+  "src": "https://en.wikipedia.org/wiki/1925%E2%80%9326_Football_League",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Inverness Caledonian Thistle were formed in 1994 by merging Caledonian with which other Highland League club?",
+  "a": "Inverness Thistle",
+  "src": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Gretna became the first third-tier club to reach a Scottish Cup final, in 2006. Who beat them on penalties?",
+  "a": "Hearts",
+  "src": "https://en.wikipedia.org/wiki/Gretna_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which Scottish club won three divisions in three successive seasons from 2005 to 2007, then went bust a year later?",
+  "a": "Gretna",
+  "src": "https://en.wikipedia.org/wiki/Gretna_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "champions",
+  "q": "Which Scottish club won the league in 1961-62 under Bob Shankly, brother of Bill?",
+  "a": "Dundee",
+  "sub": "They reached the European Cup semi-finals the next season.",
+  "src": "https://en.wikipedia.org/wiki/Dundee_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "europe",
+  "q": "Dundee reached the 1962-63 European Cup semi-finals. Which club knocked them out?",
+  "a": "AC Milan",
+  "sub": "Dundee won the home leg at Dens Park.",
+  "src": "https://en.wikipedia.org/wiki/Dundee_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Hearts won the 2012 Scottish Cup final 5-1. Which club did they thrash?",
+  "a": "Hibernian, their Edinburgh rivals",
+  "src": "https://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which former Northern Ireland striker was appointed Linfield manager in October 2015?",
+  "a": "David Healy",
+  "src": "https://en.wikipedia.org/wiki/Linfield_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Belfast club, named after a Glasgow giant, withdrew from the Irish League for good in 1949?",
+  "a": "Belfast Celtic",
+  "sub": "They left for political reasons and played their last match in 1960.",
+  "src": "https://en.wikipedia.org/wiki/Belfast_Celtic_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Derry City's red and white striped shirts give them which nickname?",
+  "a": "The Candystripes",
+  "src": "https://en.wikipedia.org/wiki/Derry_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Founded in 1879, which north Belfast club calls itself the founder of football in Ireland?",
+  "a": "Cliftonville",
+  "src": "https://en.wikipedia.org/wiki/Cliftonville_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Glentoran were founded in 1882 by workers from which East Belfast shipyard?",
+  "a": "Harland and Wolff",
+  "sub": "The shipyard cranes overlook their ground, The Oval.",
+  "src": "https://en.wikipedia.org/wiki/Glentoran_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Which ground hosted Wales's first home international, in 1877?",
+  "a": "The Racecourse Ground, Wrexham",
+  "src": "https://en.wikipedia.org/wiki/Racecourse_Ground",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "In 1927 Cardiff City won the FA Cup. Which other national cup did they win that same season?",
+  "a": "The Welsh Cup",
+  "sub": "They beat Rhyl 2-0 in that final.",
+  "src": "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Bill Shankly was born in 1913 in which tiny Ayrshire mining village?",
+  "a": "Glenbuck",
+  "sub": "All five Shankly brothers played professionally.",
+  "src": "https://en.wikipedia.org/wiki/Bill_Shankly",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which club did Bill Shankly leave to become Liverpool manager in 1959?",
+  "a": "Huddersfield Town",
+  "src": "https://en.wikipedia.org/wiki/Bill_Shankly",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Brian Clough's playing career was wrecked by a knee injury on Boxing Day 1962. Which club was he playing for?",
+  "a": "Sunderland",
+  "sub": "He scored 251 league goals in 274 games for Middlesbrough and Sunderland.",
+  "src": "https://en.wikipedia.org/wiki/Brian_Clough",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which Third Division club did Brian Clough manage for eight months just before his 44 days at Leeds?",
+  "a": "Brighton and Hove Albion",
+  "src": "https://en.wikipedia.org/wiki/Brian_Clough",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Manchester City's 1954-55 tactic of a deep-lying centre-forward was named after which player?",
+  "a": "Don Revie, the Revie Plan",
+  "sub": "He was Footballer of the Year that season.",
+  "src": "https://en.wikipedia.org/wiki/Don_Revie",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Don Revie broke the British transfer record paying 165,000 pounds for which Leicester City striker?",
+  "a": "Allan Clarke",
+  "src": "https://en.wikipedia.org/wiki/Don_Revie",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Herbert Chapman won the league in 1924 and 1925 with which club, before leaving for Arsenal?",
+  "a": "Huddersfield Town",
+  "src": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which TV show did Jimmy Greaves co-host with Ian St John from 1985 to 1992?",
+  "a": "Saint and Greavsie",
+  "src": "https://en.wikipedia.org/wiki/Jimmy_Greaves",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Bobby Moore's last Wembley game as a professional was an FA Cup final for Fulham. Who beat them 2-0?",
+  "a": "West Ham United, his old club",
+  "src": "https://en.wikipedia.org/wiki/Bobby_Moore",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Millwall were founded in 1885 by workers at what kind of factory on the Isle of Dogs?",
+  "a": "A canning and preserves factory, J.T. Morton's",
+  "src": "https://en.wikipedia.org/wiki/Millwall_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "At Hillsborough in 1989, the fatal crush happened in the central pens of which end of the ground?",
+  "a": "The Leppings Lane end",
+  "src": "https://en.wikipedia.org/wiki/Hillsborough_disaster",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "What did the second Hillsborough inquests conclude in April 2016?",
+  "a": "That the victims were unlawfully killed, and the fans were not to blame",
+  "sub": "The first inquests in 1991 had returned accidental death.",
+  "src": "https://en.wikipedia.org/wiki/Hillsborough_disaster",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "A 1969 inquiry cleared captain James Thain of blame for the Munich air disaster. What did it find was the cause?",
+  "a": "Slush on the runway",
+  "src": "https://en.wikipedia.org/wiki/Munich_air_disaster",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "europe",
+  "q": "Which Portuguese giant did Wrexham knock out during their Cup Winners' Cup adventures as Welsh Cup winners?",
+  "a": "Porto",
+  "sub": "Wrexham reached the quarter-finals in 1976.",
+  "src": "https://en.wikipedia.org/wiki/Wrexham_A.F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Whose shot squirmed through the Arsenal keeper's hands for the only goal of the 1927 FA Cup final?",
+  "a": "Hughie Ferguson, for Cardiff City",
+  "src": "https://en.wikipedia.org/wiki/1927_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Which Manchester United defender scored the only goal of the 1990 FA Cup final replay against Crystal Palace?",
+  "a": "Lee Martin",
+  "sub": "One of only two goals he scored for the club.",
+  "src": "https://en.wikipedia.org/wiki/1990_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Which Chelsea striker scored in every round of the 1969-70 FA Cup, including the final replay against Leeds?",
+  "a": "Peter Osgood",
+  "src": "https://en.wikipedia.org/wiki/1970_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Which little-known Everton forward scored twice as they came from 2-0 down to beat Sheffield Wednesday in the 1966 FA Cup final?",
+  "a": "Mike Trebilcock",
+  "sub": "Derek Temple got the winner.",
+  "src": "https://en.wikipedia.org/wiki/1966_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Bury won the 1903 FA Cup final 6-0, a record winning margin for a final. Which club did they beat?",
+  "a": "Derby County",
+  "sub": "Manchester City equalled the margin against Watford in 2019.",
+  "src": "https://en.wikipedia.org/wiki/1903_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "scorers",
+  "q": "Who scored the first and the 90th-minute winning goal for Luton against Arsenal in the 1988 League Cup final?",
+  "a": "Brian Stein",
+  "src": "https://en.wikipedia.org/wiki/1988_Football_League_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Which south London club topped the First Division early in 1988-89, before fading to tenth?",
+  "a": "Millwall",
+  "src": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Football_League",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Livingston began in 1943 as the works team of an engineering firm. What was the club called before Meadowbank Thistle?",
+  "a": "Ferranti Thistle",
+  "src": "https://en.wikipedia.org/wiki/Livingston_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Which part-time club gave Alex Ferguson his first managerial job in 1974, at 40 pounds a week?",
+  "a": "East Stirlingshire",
+  "sub": "They did not have a single goalkeeper when he arrived.",
+  "src": "https://en.wikipedia.org/wiki/Alex_Ferguson",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "grounds",
+  "q": "What is the name of Cliftonville's home ground in north Belfast, used since 1890?",
+  "a": "Solitude",
+  "src": "https://en.wikipedia.org/wiki/Cliftonville_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "europe",
+  "q": "Which Belfast club won the Vienna Cup on a European tour in 1914, beating Hertha Berlin along the way?",
+  "a": "Glentoran",
+  "src": "https://en.wikipedia.org/wiki/Glentoran_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Cardiff City lost their first FA Cup final in 1925. Which club beat them?",
+  "a": "Sheffield United",
+  "src": "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Under what name was Cardiff City founded in 1899, to keep a cricket club's players fit in winter?",
+  "a": "Riverside AFC",
+  "src": "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Which club gave Brian Clough his first managerial job in 1965, aged 30, with Peter Taylor as assistant?",
+  "a": "Hartlepools United",
+  "src": "https://en.wikipedia.org/wiki/Brian_Clough",
+  "conf": "sure",
+  "sub": "He was then the youngest manager in the Football League."
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Don Revie applied to manage which club in 1961, before Leeds made him player-manager instead?",
+  "a": "Bournemouth and Boscombe Athletic",
+  "sub": "Bournemouth could not find the 6000 pounds Leeds wanted for him.",
+  "src": "https://en.wikipedia.org/wiki/Don_Revie",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "champions",
+  "q": "Huddersfield won the 1923-24 title by a goal average gap of 0.024. Which Welsh club finished level on points?",
+  "a": "Cardiff City",
+  "src": "https://en.wikipedia.org/wiki/Herbert_Chapman",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "managers",
+  "q": "Which Isthmian League club did Bobby Moore manage in 1980, with Harry Redknapp as his assistant?",
+  "a": "Oxford City",
+  "src": "https://en.wikipedia.org/wiki/Bobby_Moore",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "transfers",
+  "q": "Gordon Banks started at which Third Division club, before Leicester bought him for 7000 pounds in 1959?",
+  "a": "Chesterfield",
+  "src": "https://en.wikipedia.org/wiki/Gordon_Banks",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "grounds",
+  "q": "Part of a wooden stand collapsed at Ibrox in 1902, killing 25. Which match was being played?",
+  "a": "Scotland against England",
+  "src": "https://en.wikipedia.org/wiki/1971_Ibrox_disaster",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which Manchester City player scored for both sides in the drawn 1981 FA Cup final against Tottenham?",
+  "a": "Tommy Hutchison",
+  "sub": "He put City ahead, then deflected a Spurs free kick into his own net.",
+  "src": "https://en.wikipedia.org/wiki/1981_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "managers",
+  "q": "Portsmouth manager Jack Tinn credited a lucky item of clothing for their 1939 FA Cup win. What was it?",
+  "a": "His spats",
+  "sub": "Portsmouth were in the relegation zone and beat favourites Wolves 4-1.",
+  "src": "https://en.wikipedia.org/wiki/1939_FA_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "relegation",
+  "q": "Norwich beat Sunderland in the 1985 League Cup final. What happened to both clubs at the end of that season?",
+  "a": "Both were relegated from the First Division",
+  "src": "https://en.wikipedia.org/wiki/1985_Football_League_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Wycombe found Roy Essandoh, who won their 2001 FA Cup quarter-final at Leicester, through an appeal shown where?",
+  "a": "On Ceefax, the BBC teletext service",
+  "sub": "He came off the bench and headed a last-minute winner.",
+  "src": "https://en.wikipedia.org/wiki/Roy_Essandoh",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Inverness Caledonian Thistle won 3-1 at Celtic Park in 2000. Finish The Sun's headline: Super Caley Go Ballistic...",
+  "a": "Celtic Are Atrocious",
+  "sub": "The front page is framed in the foyer at Inverness.",
+  "src": "https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "In November 1914, sixteen players of the Scottish league leaders joined McCrae's Battalion together. Which club?",
+  "a": "Hearts, Heart of Midlothian",
+  "sub": "Some 500 supporters and ticket-holders enlisted with them.",
+  "src": "https://en.wikipedia.org/wiki/McCrae%27s_Battalion",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Before joining the Scottish League in 2002, Gretna spent over fifty years playing in which country's leagues?",
+  "a": "England's",
+  "sub": "From the Carlisle and District League up to the Northern Premier League.",
+  "src": "https://en.wikipedia.org/wiki/Gretna_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "europe",
+  "q": "How did some Aberdeen fans get to Sweden for the 1983 Cup Winners' Cup final against Real Madrid?",
+  "a": "By fishing boat",
+  "sub": "Others slept on the streets next to the stadium.",
+  "src": "https://en.wikipedia.org/wiki/1983_European_Cup_Winners%27_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club, serial champions of the Welsh league, are based entirely in England, in Oswestry?",
+  "a": "The New Saints, TNS",
+  "src": "https://en.wikipedia.org/wiki/The_New_Saints_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "The first Edinburgh derby between Hearts and Hibs was played on the Meadows in 1875. On which day?",
+  "a": "Christmas Day",
+  "src": "https://en.wikipedia.org/wiki/Edinburgh_derby",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "relegation",
+  "q": "Manchester City were English champions in 1937. What happened to them the next season, despite scoring more goals than anyone?",
+  "a": "They were relegated",
+  "src": "https://en.wikipedia.org/wiki/History_of_Manchester_City_F.C._(1928%E2%80%931965)",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Hibernian are sometimes called the Cabbage. Where does that come from?",
+  "a": "Rhyming slang, cabbage and ribs for Hibs",
+  "src": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Hartlepool people are called monkey hangers. In the legend, why did locals hang a shipwrecked monkey?",
+  "a": "They thought it was a French spy",
+  "sub": "It washed up in uniform from a French wreck during the Napoleonic Wars.",
+  "src": "https://en.wikipedia.org/wiki/Monkey_hanger",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "grounds",
+  "q": "Fratton Park is not on mainland Great Britain. On which island do Portsmouth play?",
+  "a": "Portsea Island",
+  "src": "https://en.wikipedia.org/wiki/Portsmouth_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "grounds",
+  "q": "Aberdeen's Pittodrie was the first ground with which now standard bit of touchline furniture?",
+  "a": "The dug-out",
+  "sub": "Coach Donald Colman invented it to watch the players' feet. Everton copied it.",
+  "src": "https://en.wikipedia.org/wiki/Aberdeen_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "relegation",
+  "q": "Northampton rose from the Fourth Division in 1960-61 to the First in 1965-66. Where were they playing in 1969-70?",
+  "a": "Back in the Fourth Division",
+  "sub": "1965-66 was their only top-flight season.",
+  "src": "https://en.wikipedia.org/wiki/Northampton_Town_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "records",
+  "q": "Bournemouth substitute James Hayter came on late against Wrexham in 2003-04. What did he do in two minutes and 21 seconds?",
+  "a": "Scored a hat-trick",
+  "sub": "Bournemouth won 6-0.",
+  "src": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Gus Mears bought Stamford Bridge in 1904 and founded Chelsea to play there. Which club had turned down his offer to rent it?",
+  "a": "Fulham",
+  "src": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Chelsea put two small boys behind the goal of their giant keeper William Fatty Foulke. Why?",
+  "a": "To make him look even bigger",
+  "sub": "He may have weighed around 24 stone by the end of his career.",
+  "src": "https://en.wikipedia.org/wiki/William_Foulke_(footballer)",
+  "conf": "sure"
+ }
+]
