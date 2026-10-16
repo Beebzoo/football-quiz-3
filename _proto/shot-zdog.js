@@ -124,17 +124,22 @@ function figure(addTo, kit, shorts, s, gloves){
   for(const side of [-1, 1]){
     const hip = new Zdog.Anchor({ addTo:body, translate:{x:side*7*S, y:-24*S} });
     new Zdog.Shape({ addTo:hip, path:[{y:0},{y:13*S}], stroke:9.5*S, color:SKIN });
-    new Zdog.Shape({ addTo:hip, path:[{y:12*S},{y:22*S}], stroke:9.5*S, color:mix(SH,"#ffffff",.35) }); // sock
+    new Zdog.Shape({ addTo:hip, path:[{y:12*S},{y:22*S}], stroke:10*S, color:mix(SH,"#ffffff",.35) }); // sock
     new Zdog.Shape({ addTo:hip, path:[{y:22*S, z:1*S},{y:23*S, z:6*S}], stroke:8*S, color:BOOT });        // boot
     legs.push(hip);
   }
-  new Zdog.Shape({ addTo:body, path:[{x:-6*S, y:-26*S},{x:6*S, y:-26*S}], stroke:17*S, color:SH });   // shorts
+  /* shorts: two short legs rather than one wide band, so they read as shorts */
+  for(const side of [-1, 1])
+    new Zdog.Shape({ addTo:body, path:[{x:side*6*S, y:-29*S},{x:side*6.5*S, y:-19*S}], stroke:12*S, color:SH });
+  /* THE SHIRT: one capsule, a shade down his left side at the same depth so it
+     draws on top as a sliver rather than as a second shirt, and a collar */
   new Zdog.Shape({ addTo:body, path:[{y:-30*S},{y:-52*S}], stroke:21*S, color:K });                   // torso
-  new Zdog.Shape({ addTo:body, path:[{y:-30*S},{y:-52*S}], stroke:21*S, color:Kd, translate:{x:-3*S, z:-2*S} }); // shaded side
-  new Zdog.Shape({ addTo:body, path:[{y:-30*S},{y:-52*S}], stroke:21*S, color:K, translate:{x:1*S} });
+  new Zdog.Shape({ addTo:body, path:[{y:-31*S},{y:-51*S}], stroke:6*S, color:Kd, translate:{x:-7*S} }); // shade
+  new Zdog.Shape({ addTo:body, path:[{x:-5*S, y:-57*S},{x:5*S, y:-57*S}], stroke:5*S, color:Kd });     // collar
   for(const side of [-1, 1]){
     const sh = new Zdog.Anchor({ addTo:body, translate:{x:side*12*S, y:-50*S} });
     new Zdog.Shape({ addTo:sh, path:[{y:0},{y:9*S}], stroke:8.5*S, color:K });          // sleeve
+    new Zdog.Shape({ addTo:sh, path:[{y:8.5*S},{y:9.5*S}], stroke:8.5*S, color:Kd });   // the sleeve's hem
     new Zdog.Shape({ addTo:sh, path:[{y:8*S},{y:24*S}], stroke:7.5*S, color:SKIN });    // arm
     new Zdog.Shape({ addTo:sh, path:[{y:24*S},{y:27*S}], stroke:gloves ? 9.5*S : 7.5*S, color:gloves ? GLOVE : SKIN }); // hand
     arms.push(sh);
@@ -215,15 +220,21 @@ function ball(addTo){
     const h = new Zdog.Anchor({ addTo:spin, rotate:{x:r.y, y:r.x} });
     new Zdog.Ellipse({ addTo:h, diameter:5.4, fill:true, color:"#232a2e", stroke:false, translate:{z:7.2} });
   }
-  return { a:a, spin:spin };
+  const ghosts = [.22, .14, .08, .04].map(al => new Zdog.Shape({ addTo:addTo, stroke:19, color:"rgba(255,255,255," + al + ")", visible:false }));
+  return { a:a, spin:spin, ghosts:ghosts };
 }
 
 /* ---------------- the flight, in world xz with a height ----------------
    boot -> target. Straight: lerp with lift. Bent: a cubic through two control
    points set outside the far post. */
+/* where the ball sits before it is struck: just outside his kicking foot */
+function bootAt(C, flip){
+  const fx = v => flip ? -v : v, s = C.man.s;
+  return { x: fx(C.man.x) + fx(9*s), y: -7, z: C.man.z - 11*s };
+}
 function flight(C, flip, target, t){
   const fx = v => flip ? -v : v;
-  const a = {x:fx(C.man.x) + fx(14), z:C.man.z - 10}, b = {x:target.x, z:C.zg - 6};
+  const a0 = bootAt(C, flip), a = {x:a0.x, z:a0.z}, b = {x:target.x, z:C.zg - 6};
   const m = 1-t;
   let x, z;
   if(!C.bend){ x = lerp(a.x, b.x, t); z = lerp(a.z, b.z, t); }
@@ -245,7 +256,7 @@ function targetFor(corner){
    Painted under the Zdog scene through the same projection: roof, a tier of
    crowd, hoardings, then grass with stripes that pinch towards the goal. */
 let crowd = null;
-function ground(ctx, cam, flip, box, W, H, p){
+function ground(ctx, cam, flip, box, W, H, p, when){
   const C = CAMS[cam] || CAMS.close;
   const gl = p(0, 0, C.zg).y;                       // goal line on screen
   const far = p(0, 0, C.zg - 150).y;                // the hoardings
@@ -306,6 +317,26 @@ function ground(ctx, cam, flip, box, W, H, p){
     const e = p(-bw, 0, C.zg), f = p(-bw*1.08, 0, bz), g = p(bw*1.08, 0, bz), h = p(bw, 0, C.zg);
     ctx.beginPath(); ctx.moveTo(e.x, e.y); ctx.lineTo(f.x, f.y); ctx.lineTo(g.x, g.y); ctx.lineTo(h.x, h.y); ctx.stroke();
   }
+  /* the penalty spot */
+  const ps = p(0, 0, C.zg + 150);
+  ctx.fillStyle = "rgba(255,255,255,.8)"; ctx.beginPath(); ctx.ellipse(ps.x, ps.y, 3.2, 1.4, 0, 0, Math.PI*2); ctx.fill();
+  /* two floodlight pylons, as the glare they throw into the lens */
+  for(const x of [W*.08, W*.92]){
+    const g = ctx.createRadialGradient(x, standTop - 26, 2, x, standTop - 26, 120);
+    g.addColorStop(0, "rgba(255,248,224,.55)"); g.addColorStop(.12, "rgba(255,248,224,.18)"); g.addColorStop(1, "rgba(255,248,224,0)");
+    ctx.fillStyle = g; ctx.fillRect(x - 120, standTop - 150, 240, 240);
+    ctx.fillStyle = "#fff8e0"; ctx.fillRect(x - 7, standTop - 29, 14, 5);
+  }
+  /* phones go up in the stand when it goes in */
+  if(when && when.out === "scored" && when.u > .62){
+    const n = Math.floor(when.u * 60);
+    for(let i=0;i<14;i++){
+      const h = (n*2654435761 ^ i*40503) >>> 0;
+      if(h % 3) continue;
+      ctx.fillStyle = "rgba(255,255,255,.9)";
+      ctx.fillRect((h % 997)/997*W, standTop + 4 + ((h >>> 10) % 44), 2.5, 2.5);
+    }
+  }
   /* vignette */
   const v = ctx.createRadialGradient(W/2, H*.55, H*.35, W/2, H*.55, W*.75);
   v.addColorStop(0, "rgba(0,0,0,0)"); v.addColorStop(1, "rgba(0,0,0,.45)");
@@ -343,8 +374,10 @@ function scene(cfg, u){
   const X = built, C = X.C, F = X.F, fx = v => F ? -v : v, p = X.p;
   const out = cfg.out, tgt = X.target;
 
-  /* the striker */
-  const m = X.man, kickIdx = F ? 0 : 1, plantIdx = F ? 1 : 0;
+  /* the striker. He has his back to us (rotate.y is pi), so his local -x leg
+     is the one on the RIGHT of the screen, which is the side the ball sits on
+     for an unflipped shot: legs[0] kicks, legs[1] plants. */
+  const m = X.man, kickIdx = F ? 1 : 0, plantIdx = F ? 0 : 1;
   let mx = fx(C.man.x), mz = C.man.z;
   if(u < T.arrive){
     const a = ease(u / T.arrive), w = Math.sin(u*46);
@@ -365,29 +398,36 @@ function scene(cfg, u){
   }
   m.root.translate.x = mx; m.root.translate.z = mz;
 
-  /* the keeper */
-  const gk = X.gk, go = cfg.dive ? targetFor(cfg.dive) : null;
-  const d = ease(clamp((u - T.hit) / .24));
-  let gx = fx(C.gk.x), gy = 0, grot = 0;
+  /* THE KEEPER DIVES AT THE CORNER, not sideways. The dive is solved from
+     where the gloves have to end up: his body is rotated about his feet until
+     it points at the corner, both arms go up along it, and his feet are then
+     put wherever leaves the glove tips on the spot. A save reaches the corner
+     itself; a goal falls short of it by a quarter, which is what leaves him
+     beaten rather than standing still. */
+  const gk = X.gk, go = cfg.dive ? targetFor(cfg.dive) : null, gs = C.gk.s;
+  const d = ease(clamp((u - T.hit) / .26));
+  let gx = fx(C.gk.x), gyRoot = 0;
   if(go && d > 0){
     const left = go.x < 0, low = go.y > -GH*.5;
-    const reach = low ? .78 : .74;
-    gx = lerp(fx(C.gk.x), go.x * reach + (left ? 14 : -14), d);
-    gy = lerp(0, low ? -8 : (go.y + 34), d);
-    grot = lerp(0, (left ? 1 : -1) * (low ? 1.25 : 1.05), d);
-    const str = lerp(0, 2.9, d);
-    pose(gk, { azL: left ? str : -.4, azR: left ? .4 : -str, aL: 0, aR: 0,
-               zL: left ? -.5*d : .5*d, zR: left ? -.5*d : .5*d, lL: .3*d, lR: -.2*d, tilt: grot, crouch: gy });
-    if(out === "saved" && u > T.land){ /* he holds it: arms come in */
+    const reach = out === "saved" ? 1 : (low ? .8 : .76);
+    const P = { x: go.x*reach, y: Math.min(-9, go.y*reach) };     // where the gloves go
+    const a = (left ? -1 : 1) * (low ? 1.42 : 1.02);             // body angle, head to the corner
+    const R = 76*gs;                                              // feet to glove tips
+    const rootX = P.x - R*Math.sin(a), rootY = Math.min(0, P.y + R*Math.cos(a));
+    gx = lerp(fx(C.gk.x), rootX, d);
+    gyRoot = lerp(0, rootY, d) - 9*gs*Math.sin(d*Math.PI);        // a little air on the way
+    const str = Math.PI - .25;                                    // arms along the body, past the head
+    pose(gk, { tilt: lerp(0, a, d), azL: lerp(.75, str, d), azR: lerp(-.75, -str, d), aL:0, aR:0,
+               zL: (left ? .25 : -.25)*d, zR: (left ? .25 : -.25)*d, lL: .45*d, lR: -.25*d, lean: lerp(.18, .05, d) });
+    if(out === "saved" && u > T.land){ /* he has it: the arms gather it in */
       const t = ease(clamp((u-T.land)/.2));
-      pose(gk, { azL: left ? lerp(str, 1.6, t) : -.6, azR: left ? .6 : lerp(-str, -1.6, t), zL: left ? -.5 : .5, zR: left ? -.5 : .5, lL:.3, lR:-.2, tilt: grot, crouch: gy });
+      pose(gk, { tilt: a, azL: lerp(str, 1.95, t), azR: lerp(-str, -1.95, t), zL: left ? .25 : -.25, zR: left ? .25 : -.25, lL:.45, lR:-.25, lean:.05 });
     }
   } else {
     const b = Math.sin(u*9)*.03;
     pose(gk, { zL:-.28, zR:.28, azL:.75, azR:-.75, aL:.35, aR:.35, lean:.18 + b, crouch: 4 });
   }
-  gk.root.translate.x = gx;
-  gk.root.rotate.z = 0;
+  gk.root.translate.x = gx; gk.root.translate.y = gyRoot;
 
   /* the defender just stands there, which is what he was doing */
   if(X.def) pose(X.def, { zL:-.15, zR:.15, azL:.25, azR:-.25, lean:.05 });
@@ -395,7 +435,7 @@ function scene(cfg, u){
   /* the ball */
   const B = X.B, q = clamp((u - T.hit) / (T.land - T.hit));
   let bx, by, bz, bs;
-  const boot = { x: fx(C.man.x) + fx(14), y: -7, z: C.man.z - 10 };
+  const boot = bootAt(C, F);
   if(u < T.hit){ bx = boot.x; by = boot.y; bz = boot.z; bs = 1; }
   else if(out === "over"){ const f = flight(C, F, {x:tgt.x, y:-GH-60}, q); bx = f.x; by = f.y - 30*q; bz = f.z; bs = 1 - .35*q; }
   else if(out === "saved" && q >= 1){ const t = clamp((u - T.land)/.3); const f = flight(C, F, tgt, 1); bx = f.x + (go && go.x < 0 ? -1 : 1)*40*t; by = Math.min(-7, f.y + 60*t*t); bz = f.z + 90*t; bs = .62 + .2*t; }
@@ -403,6 +443,13 @@ function scene(cfg, u){
   else { const f = flight(C, F, tgt, q); bx = f.x; by = f.y; bz = f.z; bs = 1 - .38*q; }
   B.a.translate = { x:bx, y:by, z:bz }; B.a.scale = bs;
   B.spin.rotate.x = u*14; B.spin.rotate.y = u*5 + (F ? -1 : 1)*q*3;
+  /* the trail: ghosts of where it just was, only while it is in the air */
+  B.ghosts.forEach((g, k) => {
+    const tt = q - (k+1)*.055;
+    const on = q > 0 && q < 1 && tt > 0 && out !== "over";
+    g.visible = on;
+    if(on){ const f = flight(C, F, tgt, tt); g.translate = { x:f.x, y:f.y, z:f.z }; g.scale = (1 - .38*tt) * (1 - k*.12); }
+  });
 
   /* the net */
   const hit = T.land;
@@ -416,7 +463,7 @@ function scene(cfg, u){
     c.save(); c.setTransform(1,0,0,1,0,0);
     const pr = cv.width / W;
     c.scale(pr, pr);
-    ground(c, cfg.cam, F, C.box, W, H, p);
+    ground(c, cfg.cam, F, C.box, W, H, p, {u:u, out:out});
     shadow(c, p, gx, C.zg + 8, 22*C.gk.s, 7*C.gk.s, go && d > 0 ? .18 : .28);
     if(X.def) shadow(c, p, fx(C.def.x), C.def.z, 20, 6.5);
     shadow(c, p, mx, mz, 26*C.man.s*.8, 8*C.man.s*.8);
