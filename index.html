@@ -2944,24 +2944,38 @@
      reads as a person; at 150px it still does, which is what lets the same
      component be the keeper on his line and the striker in the foreground. */
   .fig{position:relative;width:calc(var(--h) * .42);height:var(--h);
-    --skin:#e3b58c; --shorts:color-mix(in srgb, var(--kit) 42%, #10140f);
+    --skin:#e3b58c; --skin-d:#c8966d; --shorts:color-mix(in srgb, var(--kit) 42%, #10140f);
+    /* ONE LIGHT, UPPER LEFT, on every part of him, which is what makes seven
+       boxes read as one body: the lit edge is on the same side of the arm as
+       of the shirt as of the shin */
+    --lit:linear-gradient(100deg,rgba(255,255,255,.26),rgba(255,255,255,.04) 42%,rgba(0,0,0,.08) 60%,rgba(0,0,0,.34));
     filter:drop-shadow(0 3px 5px rgba(0,0,0,.6))}
   .fig > *{position:absolute}
 
-  .f-head{left:50%;top:0;width:40%;height:16.5%;transform:translateX(-50%);
-    border-radius:50% 50% 46% 46%;background:var(--skin);
-    box-shadow:inset 0 -2px 3px rgba(0,0,0,.18)}
-  .f-head::after{content:"";position:absolute;left:-5%;right:-5%;top:-5%;height:44%;
-    border-radius:52% 52% 26% 26%;background:#2a1c12}      /* hair */
+  .f-head{left:50%;top:1.5%;width:35%;height:15%;transform:translateX(-50%);
+    border-radius:50% 50% 47% 47%/48% 48% 52% 52%;
+    background:var(--skin);
+    background-image:linear-gradient(100deg,rgba(255,255,255,.22),transparent 45%,rgba(0,0,0,.14));
+    box-shadow:inset 0 -2px 3px rgba(0,0,0,.2)}
+  /* the neck, so the head sits on the shoulders rather than resting on the collar */
+  .f-head::before{content:"";position:absolute;left:50%;bottom:-16%;width:30%;height:26%;
+    transform:translateX(-50%);background:var(--skin-d);border-radius:0 0 30% 30%}
+  .f-head::after{content:"";position:absolute;left:-6%;right:-4%;top:-7%;height:50%;
+    border-radius:56% 50% 24% 38%/70% 64% 20% 28%;background:#2a1c12;
+    background-image:linear-gradient(100deg,rgba(255,255,255,.14),transparent 50%)}      /* hair, parted */
 
-  .f-torso{left:16%;top:14.5%;width:68%;height:35.5%;background:var(--kit);
-    border-radius:22% 22% 12% 12%/28% 28% 10% 10%;
-    background-image:linear-gradient(180deg,rgba(255,255,255,.2),rgba(0,0,0,.26));
-    display:flex;align-items:center;justify-content:center}
-  .f-torso i{font:800 calc(var(--h) * .12)/1 var(--ui);font-style:normal;color:var(--ink,#fff);
-    opacity:.92;margin-top:8%}
-  .f-torso::before{content:"";position:absolute;left:33%;right:33%;top:-3%;height:12%;
-    background:rgba(0,0,0,.4);border-radius:0 0 60% 60%/0 0 130% 130%}   /* collar */
+  .f-torso{left:16%;top:15%;width:68%;height:34%;background:var(--kit);
+    border-radius:30% 30% 13% 13%/34% 34% 10% 10%;
+    background-image:var(--lit);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:inset 0 -3px 4px rgba(0,0,0,.22)}
+  .f-torso i{font:800 calc(var(--h) * .125)/1 var(--ui);font-style:normal;color:var(--ink,#fff);
+    opacity:.94;margin-top:9%;text-shadow:0 1px 1px rgba(0,0,0,.35)}
+  /* a V at the collar, and the shoulders lit */
+  .f-torso::before{content:"";position:absolute;left:36%;right:36%;top:-2%;height:17%;
+    background:rgba(0,0,0,.42);clip-path:polygon(0 0,100% 0,50% 100%)}
+  .f-torso::after{content:"";position:absolute;left:4%;right:4%;top:1%;height:11%;
+    border-radius:50%;background:rgba(255,255,255,.14);pointer-events:none}
 
   /* ---------- the three of us ----------
      THE DRAWING IS THE WHOLE HEAD, hair and all, in a 24 by 16 box, so the
@@ -2992,28 +3006,34 @@
     background-size:36% auto,auto;
     background-position:11% 36%,0 0}
 
-  .f-arm{top:16.5%;width:14%;height:32%;background:var(--kit);border-radius:44%;
-    background-image:linear-gradient(180deg,rgba(255,255,255,.14),rgba(0,0,0,.3))}
-  .f-arm::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;
-    background:var(--skin);border-radius:40%}               /* forearm and hand */
-  .f-arm.l{left:3%;transform-origin:50% 6%;transform:rotate(8deg)}
-  .f-arm.r{right:3%;transform-origin:50% 6%;transform:rotate(-8deg)}
+  .f-arm{top:17.5%;width:12.5%;height:31%;background:var(--kit);border-radius:46% 46% 40% 40%;
+    background-image:var(--lit)}
+  /* forearm and hand, skin, with the hand a shade darker and rounder at the end */
+  .f-arm::after{content:"";position:absolute;left:4%;right:4%;bottom:0;height:56%;
+    background:var(--skin);border-radius:30% 30% 50% 50%;
+    background-image:linear-gradient(180deg,transparent 60%,rgba(0,0,0,.16)),
+      linear-gradient(100deg,rgba(255,255,255,.16),transparent 55%,rgba(0,0,0,.14))}
+  .f-arm.l{left:3.5%;transform-origin:50% 6%;transform:rotate(8deg)}
+  .f-arm.r{right:3.5%;transform-origin:50% 6%;transform:rotate(-8deg)}
 
-  .f-shorts{left:21%;top:47%;width:58%;height:17%;background:var(--shorts);
-    border-radius:14% 14% 8% 8%;
-    background-image:linear-gradient(180deg,rgba(255,255,255,.16),rgba(0,0,0,.22))}
-  .f-shorts::after{content:"";position:absolute;left:48%;right:48%;top:40%;bottom:0;
-    background:rgba(0,0,0,.35)}                             /* the gap between the legs */
+  .f-shorts{left:22%;top:46.5%;width:56%;height:16.5%;background:var(--shorts);
+    border-radius:10% 10% 12% 12%;
+    background-image:linear-gradient(180deg,rgba(0,0,0,.32) 0 13%,transparent 13%),var(--lit)}
+  .f-shorts::after{content:"";position:absolute;left:47%;right:47%;top:38%;bottom:0;
+    background:rgba(0,0,0,.38);border-radius:40% 40% 0 0}  /* the gap between the legs */
 
-  .f-leg{top:62%;width:20%;height:38%;background:var(--skin);border-radius:34% 34% 20% 20%}
-  .f-leg.l{left:20%;transform-origin:50% 0}
-  .f-leg.r{right:20%;transform-origin:50% 0}
-  .f-leg::before{content:"";position:absolute;left:0;right:0;top:46%;bottom:14%;
-    background:var(--kit);border-radius:12%;
-    background-image:linear-gradient(180deg,rgba(255,255,255,.12),rgba(0,0,0,.28))}  /* sock */
-  .f-leg::after{content:"";position:absolute;left:-22%;right:-6%;bottom:0;height:15%;
-    background:#15181a;border-radius:44% 30% 22% 40%}       /* boot */
-  .f-leg.r::after{left:-6%;right:-22%;border-radius:30% 44% 40% 22%}
+  .f-leg{top:61%;width:17%;height:39%;background:var(--skin);border-radius:36% 36% 22% 22%;
+    background-image:linear-gradient(100deg,rgba(255,255,255,.14),transparent 50%,rgba(0,0,0,.16))}
+  .f-leg.l{left:23%;transform-origin:50% 0}
+  .f-leg.r{right:23%;transform-origin:50% 0}
+  /* sock: the kit colour with a turnover at the top, over a shin that tapers */
+  .f-leg::before{content:"";position:absolute;left:2%;right:2%;top:44%;bottom:13%;
+    background:var(--kit);border-radius:14% 14% 10% 10%;
+    background-image:linear-gradient(180deg,rgba(255,255,255,.34) 0 20%,rgba(255,255,255,.06) 20% 30%,transparent 30%),var(--lit)}
+  .f-leg::after{content:"";position:absolute;left:-18%;right:-4%;bottom:0;height:13%;
+    background:#15181a;border-radius:46% 30% 24% 44%;
+    background-image:linear-gradient(180deg,rgba(255,255,255,.22),transparent 55%)}  /* boot */
+  .f-leg.r::after{left:-4%;right:-18%;border-radius:30% 46% 44% 24%}
 
   /* THE KEEPER'S POSE AND THE STRIKER'S HAVE GONE, along with the two men who
      wore them. h2FigHTML built both of them for the goal scene and the goal
@@ -7644,7 +7664,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "16 Oct 2026 · 14:07";
+const BUILD = "16 Oct 2026 · 14:22";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
