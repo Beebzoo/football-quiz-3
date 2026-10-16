@@ -2497,6 +2497,45 @@
   .h2spot{position:absolute;left:50%;top:50%;width:4px;height:4px;transform:translate(-50%,-50%);
     background:rgba(255,255,255,.5);border-radius:50%;pointer-events:none}
 
+  /* ---------- THE CAMERA ----------
+     The stage is scaled about a point of interest, and both numbers are
+     animated from the last render's by h2CamApply, because the stage is a
+     brand new element every render and a transition has nothing to travel
+     from. A nudge, never a cut: there is no overflow to hide behind, since
+     hiding it flattens the 3D. */
+  .h2stage{transform-origin:50% 50%;will-change:transform}
+  /* ---------- THE GOALS STAND UP ----------
+     A frame at each end, perpendicular to the grass inside the tilted scene:
+     the frame is a child turned ninety degrees out of the pitch plane and
+     hinged on its goal line, so the camera's own tilt is what makes it read
+     as two posts and a bar. The net lies on the grass behind the line and
+     hangs in the frame as a pattern. The flat view gets a flat rectangle
+     behind the line, which is what a diagram draws. */
+  .h2goal{position:absolute;left:38.5%;right:38.5%;height:2.4%;pointer-events:none;z-index:1;
+    background:
+      repeating-linear-gradient(90deg,rgba(255,255,255,.2) 0 1px,transparent 1px 7px),
+      repeating-linear-gradient(0deg,rgba(255,255,255,.2) 0 1px,transparent 1px 7px),
+      rgba(255,255,255,.05)}
+  .h2pitch.tilt .h2goal{transform-style:preserve-3d}
+  .h2goal.t{top:-.4%}
+  .h2goal.b{bottom:-.4%}
+  .h2goal i{position:absolute;left:-1px;right:-1px;height:30px;display:block;
+    border:2.5px solid #f3f6f4;border-radius:2px;
+    background:
+      repeating-linear-gradient(90deg,rgba(255,255,255,.18) 0 1px,transparent 1px 6px),
+      repeating-linear-gradient(0deg,rgba(255,255,255,.18) 0 1px,transparent 1px 6px),
+      rgba(220,235,225,.07);
+    box-shadow:0 0 10px rgba(255,255,255,.16)}
+  .h2goal.t i{bottom:0;border-bottom:0;transform-origin:50% 100%;transform:rotateX(-90deg)}
+  .h2goal.b i{top:0;border-top:0;transform-origin:50% 0;transform:rotateX(90deg)}
+  .h2pitch:not(.tilt) .h2goal i{transform:none;height:100%;border-width:2px;box-shadow:none}
+  /* two floodlight pylons behind the far end, as the glare they throw */
+  .h2stage::before,.h2stage::after{content:"";position:absolute;top:-5%;width:130px;height:130px;margin-left:-65px;
+    pointer-events:none;z-index:7;border-radius:50%;
+    background:radial-gradient(circle,rgba(255,250,228,.6) 0,rgba(255,250,228,.16) 9%,rgba(255,250,228,.05) 26%,transparent 58%)}
+  .h2stage::before{left:7%}
+  .h2stage::after{left:93%}
+  .h2stage:not(.tilt)::before,.h2stage:not(.tilt)::after{display:none}
   /* a man: shadow flat on the grass, figure standing on top of it */
   .h2man{position:absolute;width:110px;transform:translate(-50%,-100%);z-index:2;
     text-align:center;pointer-events:none;-webkit-tap-highlight-color:transparent}
@@ -2733,6 +2772,52 @@
   .h2ballwrap.pass.run.ground .h2lift,.h2ballwrap.pass.run.ground .h2bsh{animation:none}
   .h2ballwrap.pass.run.ground .h2ball{animation:h2rollrun var(--dur,1.4s) cubic-bezier(.42,.05,.35,1) both}
   @keyframes h2rollrun{0%{transform:rotate(0)}58%,74%{transform:rotate(620deg)}100%{transform:rotate(840deg)}}
+  /* THREE KINDS OF BALL. Easy and Normal roll (above). A DRIVEN ball, which is
+     Hard, stays low and arrives quicker. A LOB, Extreme and up, goes up into
+     the lights, hangs, and bounces once when it lands, and the shadow on the
+     grass says how high it went. Not on a run, which has its own two-leg clock. */
+  .h2ballwrap.pass.lob:not(.run) .h2lift{animation-name:h2arclob}
+  @keyframes h2arclob{
+    0%{transform:translateY(0)}
+    48%{transform:translateY(calc(-1 * var(--lift,20px)))}
+    82%{transform:translateY(0)}
+    91%{transform:translateY(calc(-.16 * var(--lift,20px)))}
+    100%{transform:translateY(0)}}
+  .h2ballwrap.pass.lob:not(.run) .h2bsh{animation-name:h2bshlob}
+  @keyframes h2bshlob{
+    0%,82%,100%{transform:translate(-50%,-50%) scale(1);opacity:.5}
+    48%{transform:translate(-50%,-50%) scale(.42);opacity:.16}
+    91%{transform:translate(-50%,-50%) scale(.88);opacity:.42}}
+  .h2ballwrap.pass.drive:not(.run) .h2lift{animation-timing-function:cubic-bezier(.2,.8,.4,1)}
+  .h2ballwrap.pass.drive:not(.run) .h2ball{animation-name:h2drive}
+  @keyframes h2drive{0%{transform:scale(.95) rotate(0)}100%{transform:scale(1) rotate(900deg)}}
+  /* AND THE OTHER ELEVEN FEEL IT. On a goal the scorer goes up highest with
+     his arms up and the rest of his side's arms go up with him; their keeper
+     is on the floor and the rest of them hang their heads. The stand throws a
+     few flashes. */
+  .h2pitch.cele .h2man.hold .fig.pm{animation:h2jumpscorer .9s cubic-bezier(.3,1.5,.4,1) both}
+  @keyframes h2jumpscorer{0%{transform:translateY(0)}30%{transform:translateY(-16px) scale(1.18)}
+    58%{transform:translateY(0)}78%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+  .h2pitch.cele .h2man:not(.them) .fig.pm .f-arm.l{animation:h2armsl .6s .12s cubic-bezier(.3,1.4,.4,1) both}
+  .h2pitch.cele .h2man:not(.them) .fig.pm .f-arm.r{animation:h2armsr .6s .12s cubic-bezier(.3,1.4,.4,1) both}
+  @keyframes h2armsl{from{transform:rotate(8deg)}to{transform:rotate(152deg)}}
+  @keyframes h2armsr{from{transform:rotate(-8deg)}to{transform:rotate(-152deg)}}
+  .h2pitch.cele .h2man.them.gk .fig.pm{animation:h2gkdown 1.4s cubic-bezier(.4,0,.3,1) both}
+  @keyframes h2gkdown{0%{transform:rotate(0)}35%,100%{transform:rotate(76deg) translateY(4px)}}
+  .h2pitch.cele .h2man.them:not(.gk) .fig.pm{animation:h2sag 1.2s ease-out both}
+  @keyframes h2sag{from{transform:rotate(0)}to{transform:rotate(6deg) translateY(2px)}}
+  .h2flash{position:absolute;top:-1%;width:4px;height:4px;border-radius:50%;background:#fff;pointer-events:none;z-index:8;
+    box-shadow:0 0 8px 3px rgba(255,255,255,.9);opacity:0;animation:h2flash .5s ease-out both}
+  @keyframes h2flash{0%{opacity:0}18%{opacity:1}100%{opacity:0}}
+  /* THE CUT TO THE SHOT: the scene arrives like a camera pushing in, once, on
+     the render that brings it up. One-render flag, like the flight, because
+     the aim screen redraws on its clock and a class that animates would
+     replay it every second. */
+  .g3.cut{animation:g3cut .42s cubic-bezier(.2,.8,.3,1) both}
+  @keyframes g3cut{0%{transform:scale(1.22);filter:brightness(1.7) blur(3px);opacity:.3}100%{transform:scale(1);filter:none;opacity:1}}
+  @media (prefers-reduced-motion: reduce){
+    .g3.cut,.h2pitch.cele .h2man.hold .fig.pm,.h2pitch.cele .h2man.them.gk .fig.pm,.h2flash{animation:none}
+  }
   /* The man making it: out from his own spot (--ox/--oy) to the receiving
      spot on the same clock as the ball, the beat, and the trot back. The
      legs pump for the run out and again for the trot back and rest in the
@@ -7559,7 +7644,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "16 Oct 2026 · 13:42";
+const BUILD = "16 Oct 2026 · 14:07";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
@@ -9989,6 +10074,7 @@ function h2ToggleView(){
    it is a lob: shots and the challenge never pass one. */
 function h2Fly(fx, fy, tx, ty, from, to, dur, tier){
   h2Anim = {fx, fy, tx, ty, from, to, dur, tier};
+  kickfx();                                   // every flight starts with a boot on it
 }
 /* THE RUN. A ball to one of the front three is not played to a man standing
    still: he goes, the ball is played to where he is going, and the pair of
@@ -10363,6 +10449,41 @@ function h2Sfx(name, vol){
     a.play().catch(()=>{});
   }catch(e){}
 }
+/* ---------- THE SOUND OF THE GAME, made rather than sampled ----------
+   A thud is a burst of filtered noise with a low sine under it; a whistle is
+   a square wave sliding up; the net is a swish of brighter noise; a groan is
+   a sawtooth falling away. All of it sits behind the sound toggle and all of
+   it is allowed to fail, because the harness has no AudioContext and a phone
+   keeps its own locked until the first tap. */
+function noisefx(dur, gain, lp, hp){
+  const ac = audio(); if(!ac) return;
+  const n = Math.max(1, Math.floor(ac.sampleRate * dur)), b = ac.createBuffer(1, n, ac.sampleRate), d = b.getChannelData(0);
+  for(let i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / n);
+  const src = ac.createBufferSource(); src.buffer = b;
+  const f = ac.createBiquadFilter(); f.type = "lowpass"; f.frequency.value = lp;
+  const g = ac.createGain(); g.gain.value = gain;
+  src.connect(f);
+  if(hp){ const h = ac.createBiquadFilter(); h.type = "highpass"; h.frequency.value = hp; f.connect(h); h.connect(g); }
+  else f.connect(g);
+  g.connect(ac.destination); src.start(); src.stop(ac.currentTime + dur);
+}
+function sweepfx(f0, f1, dur, type, gain){
+  const ac = audio(); if(!ac) return;
+  const o = ac.createOscillator(), g = ac.createGain();
+  o.type = type; o.frequency.setValueAtTime(f0, ac.currentTime);
+  o.frequency.exponentialRampToValueAtTime(f1, ac.currentTime + dur);
+  g.gain.value = gain; o.connect(g); g.connect(ac.destination);
+  o.start(); g.gain.exponentialRampToValueAtTime(.0001, ac.currentTime + dur); o.stop(ac.currentTime + dur);
+}
+const h2Fx = fn => { if(typeof h2Sound !== "undefined" && h2Sound){ try { fn(); } catch(e){} } };
+const kickfx    = () => h2Fx(() => { noisefx(.07, .5, 700); sweepfx(140, 60, .11, "sine", .16); });
+const netfx     = () => h2Fx(() => noisefx(.28, .3, 2600, 500));
+const groanfx   = () => h2Fx(() => { sweepfx(230, 120, .55, "sawtooth", .035); noisefx(.5, .12, 900); });
+/* one long peep for a kick-off, two short for a foul, the three for full time */
+const whistlefx = n => h2Fx(() => {
+  const peep = (at, len) => setTimeout(() => h2Fx(() => sweepfx(2650, 2900, len, "square", .045)), at);
+  if(n === 1) peep(0, .5); else if(n === 2){ peep(0, .14); peep(190, .14); } else { peep(0, .22); peep(300, .22); peep(600, .6); }
+});
 function h2CrowdStart(){
   if(!h2Sound) return;
   try{
@@ -10733,6 +10854,7 @@ function h2Land(){
 function h2KickOff(){
   audio();
   h2CrowdStart();
+  whistlefx(1);
   h2().safe = 0;
   if(h2Private() && h2().markedAgainst !== h2().who) return h2Hand(h2Other(), "h_mark");
   S.phase = "h_pick";
@@ -11010,7 +11132,7 @@ function h2TackleJudge(won){
     /* the WHOLE geometry, not a subset: the pitch draws the resolve through
        exactly the same code path as the freeze, so it wants every field that
        path reads or it throws on the first missing one. */
-    if(C) h2Foul = Object.assign({}, C, {stay: true});
+    if(C){ whistlefx(2); h2Foul = Object.assign({}, C, {stay: true}); }
     /* the ball resumes from where it was frozen rather than jumping back to the
        passer's boot to be kicked a second time */
     const fx = C ? C.bx : h2BX(from, true), fy = C ? C.by2 : h2BY(from, true);
@@ -11028,7 +11150,7 @@ function h2TackleJudge(won){
   const who = h2Who(man, other), on = marked == null ? "him" : h2Of(marked, H.who);
   /* out of the freeze: he carries on THROUGH, which is what a mistimed tackle
      is, and the man he took out goes over the top of him */
-  if(C) h2Foul = Object.assign({}, C, {stay: false});
+  if(C){ whistlefx(2); h2Foul = Object.assign({}, C, {stay: false}); }
   flashBad();
 
   /* through the back of one of the front three is a penalty, and it is priced
@@ -14833,10 +14955,12 @@ function h2Settle(ok){
    left holding the STRIKER's question all the way through the duel, which is
    what makes it impossible for anything downstream to file a keeper's answer
    against a question the keeper was never shown. */
+let h2Cut = false;                 // one render: the scene arrives with a push-in
 function h2ToSave(){
   const H = h2();
   H.shot = null; H.dive = null; H.graze = false;
   S.timeUp = false; S.phase = "h_aim";
+  h2Cut = true;
   render();
 }
 /* HOW MANY CORNERS THE MAN IN GOAL MAY GO TO. One, unless he is a keeper, and
@@ -14954,7 +15078,7 @@ function h2SaveSettle(saved){
   /* Neither outcome takes effect yet. The strike is watched first, from behind
      the striker, and the consequences land when it is over. */
   H.result = saved ? "saved" : "scored";
-  if(!saved) h2Sfx("goal", 0.95);
+  if(!saved){ h2Sfx("goal", 0.95); netfx(); } else groanfx();
   S.phase = "h_strike";
   render();
   clearTimeout(h2StrikeHold);
@@ -15178,6 +15302,7 @@ function h2ClockLabel(){
 function h2Whistle(){
   const H = h2();
   stopTimer();
+  whistlefx(3);
   H.sel = null; H.shooting = false; H.pen = false; H.contest = null; H.caught = null; H.hand = null;
   H.adv = null;                      // the shape re-forms for the handshake
   S.phase = "h_ft";
@@ -15669,6 +15794,7 @@ function h2PitchHTML(tappable){
     '" style="--land:' + h2LandMs() + 'ms">' +
     '<div class="h2box t"></div><div class="h2box b"></div>' +
     '<div class="h2six t"></div><div class="h2six b"></div>' +
+    '<div class="h2goal t"><i></i></div><div class="h2goal b"><i></i></div>' +
     '<div class="h2circle"></div><div class="h2spot"></div>' + h2DLineHTML();
 
   // the ball being considered, drawn on the grass so it lies in the same plane
@@ -15695,6 +15821,8 @@ function h2PitchHTML(tappable){
        o.caught && "caught", o.caught && o.going && "brace", o.caught && o.felled && "felled",
        /* the run: the man going for the ball, and the man stepping across to take it */
        o.run && "run", o.step && "step", o.moved && "moved",
+       /* the keeper is the first man in every shape, and on a goal he is the one on the floor */
+       i === 0 && "gk",
        o.key && "key"].filter(Boolean).join(" ");
     /* The goal scene had proper footballers and the pitch had little jerseys,
        and side by side the jerseys looked wrong. Same component, smaller. */
@@ -15795,15 +15923,20 @@ function h2PitchHTML(tappable){
      than it was, because by then it only ever means a real long ball. A flight
      with no tier (a shot, the challenge, a restart) is a lob. */
   const ground = !!A && !!A.tier && H2_SAFE.includes(A.tier);
+  /* and above the ground balls, two more kinds: Hard is driven, flat and
+     quick; Extreme, BALL and a ball with no tier (a shot, a restart) are lobs */
+  const drive = !!A && !ground && !R && !A.dur && A.tier === "hard";   // a ball into space, on its own clock, is always a lob
   /* on a run the lob is the first leg, to the spot; the trot back is on the floor */
   const dist = !A ? 0 : R ? Math.hypot(R.rx - A.fx, (R.ry - A.fy) * 1.3) : Math.hypot(A.tx - A.fx, (A.ty - A.fy) * 1.3);
-  const lift = !A || ground ? 0 : Math.min(64, 14 + dist * 0.6);
+  const lift = !A || ground ? 0 : drive ? Math.min(26, 8 + dist * 0.25) : Math.min(64, 14 + dist * 0.6);
+  /* a driven ball arrives sooner and a lob hangs; a run keeps its own clock */
+  const dur = !A ? 0 : A.dur ? A.dur : R ? 0 : drive ? 640 : ground ? 800 : 920;
   const flight = A ? ';--fx:' + A.fx + '%;--fy:' + A.fy + '%;--tx:' + A.tx + '%;--ty:' + A.ty +
                      '%;--lift:' + lift.toFixed(0) + 'px' +
-                     (A.dur ? ';--dur:' + A.dur + 'ms' : "") +
+                     (dur ? ';--dur:' + dur + 'ms' : "") +
                      (R ? ';--rx:' + R.rx + '%;--ry:' + R.ry + '%' : "") : "";
   const ball = (cls, extra) =>
-    '<div class="h2ballwrap' + (A ? (ground ? " pass ground" : " pass lob") + (R ? " run" : "") : "") + cls +
+    '<div class="h2ballwrap' + (A ? (ground ? " pass ground" : drive ? " pass drive" : " pass lob") + (R ? " run" : "") : "") + cls +
     '" style="left:' + bx + '%;top:' + by + '%' +
     flight + extra + '"><span class="h2bsh"></span>' +
     '<span class="h2lift"><img class="h2ball" src="assets/ball.png" alt=""></span></div>';
@@ -15819,8 +15952,45 @@ function h2PitchHTML(tappable){
     '%;top:' + C.by2.toFixed(1) + '%;--hit:' + Math.round(C.sd * 0.84) + 'ms"><i></i></div>';
   if(cele) out += '<div class="h2net"></div>';
   out += '</div>';
-  if(cele) out += '<div class="h2goalcry"><span>GOAL</span></div>';
+  if(cele) out += [9, 23, 41, 58, 74, 88].map((x, k) =>
+    '<i class="h2flash" style="left:' + x + '%;animation-delay:' + (120 + k * 170 + (k % 2) * 60) + 'ms"></i>').join("") +
+    '<div class="h2goalcry"><span>GOAL</span></div>';
+  /* WHERE THE CAMERA LOOKS. The swing keeps it centred and still; a goal
+     pushes in on the scorer; a ball in flight pans to where it is going, on
+     the flight's own clock; otherwise it sits a touch in on the man on the
+     ball. The y is squeezed because the tilt compresses the far end. */
+  const camY = y => 50 + (y - 50) * .72;
+  if(turn) h2CamAsk(1, 50, 50, 300);
+  else if(cele) h2CamAsk(1.12, bx, camY(by), 700);
+  else if(A) h2CamAsk(1.05, A.tx, camY(A.ty), dur || H2_RUN_MS);
+  else h2CamAsk(1.04, bx, camY(by), 900);
+  try { requestAnimationFrame(h2CamApply); } catch(e){}
   return out + '</div>';
+}
+
+/* ---------- THE CAMERA ----------
+   The pitch is written with innerHTML, so the stage is a brand new element on
+   every render and a CSS transition has nothing to travel from. So the camera
+   lives here: one zoom and one point of interest, and after each render the
+   new stage is animated from where the last one was to where this one wants
+   to be. A re-render mid-move lands it rather than restarting it. */
+let h2Cam = { z: 1, x: 50, y: 50 };
+let h2CamWant = null;
+function h2CamAsk(z, x, y, ms){ h2CamWant = { z: z, x: +x, y: +y, ms: ms || 900 }; }
+function h2CamApply(){
+  const want = h2CamWant; h2CamWant = null;
+  let el = null;
+  try { el = document.querySelector(".h2stage"); } catch(e){ el = null; }
+  if(!el) return;
+  const to = want || { z: 1, x: 50, y: 50, ms: 700 }, from = h2Cam;
+  const tf = c => "scale(" + c.z + ")", org = c => c.x.toFixed(1) + "% " + c.y.toFixed(1) + "%";
+  const rm = (() => { try { return matchMedia("(prefers-reduced-motion:reduce)").matches; } catch(e){ return false; } })();
+  try {
+    if(rm || !el.animate){ el.style.transform = tf(to); el.style.transformOrigin = org(to); }
+    else el.animate([{ transform: tf(from), transformOrigin: org(from) }, { transform: tf(to), transformOrigin: org(to) }],
+                    { duration: to.ms, easing: "cubic-bezier(.3,.7,.3,1)", fill: "both" });
+  } catch(e){}
+  h2Cam = { z: to.z, x: to.x, y: to.y };
 }
 
 /* The shot, seen from behind the man taking it.
@@ -16485,7 +16655,8 @@ function h2GoalSceneHTML(state, over){
      : state === "saved" ? "The keeper gets to it." : "It goes over the bar.")
     : "The goal, seen from behind the man about to shoot.";
 
-  return '<div class="g3 ' + state + '" style="--gmL:' + M.L + '%;--gmR:' + M.R +
+  const cut = h2Cut; h2Cut = false;
+  return '<div class="g3 ' + state + (cut ? " cut" : "") + '" style="--gmL:' + M.L + '%;--gmR:' + M.R +
       '%;--gmT:' + M.T + '%;--gmH:' + M.H + '%;--g3cry:' + cryAt.toFixed(2) + 's">' +
     '<canvas class="g3c" id="g3c" width="' + M.w + '" height="' + M.h +
       '" role="img" aria-label="' + esc(alt) + '"></canvas>' +
