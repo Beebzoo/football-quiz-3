@@ -761,7 +761,7 @@
     position:fixed;inset:0;z-index:44;pointer-events:none;
     display:flex;align-items:center;justify-content:center;
   }
-  .ballgoal img{
+  .ballgoal img,.ballgoal .bgball{
     width:min(46vw,240px);height:min(46vw,240px);border-radius:50%;
     filter:drop-shadow(0 0 34px rgba(233,184,76,.75)) drop-shadow(0 10px 22px rgba(0,0,0,.5));
     /* the pop is eased, the fade is not: with both on one eased timeline the
@@ -1172,7 +1172,7 @@
     display:flex;align-items:center;justify-content:center;
     transition:transform .06s ease,background .15s ease;
   }
-  .homeball img{width:100%;height:auto;display:block;filter:drop-shadow(0 1px 3px rgba(0,0,0,.45))}
+  .homeball img,.homeball svg{width:100%;height:auto;display:block;filter:drop-shadow(0 1px 3px rgba(0,0,0,.45))}
   .homeball:active{transform:scale(.92);background:var(--edge)}
 
   /* the record book */
@@ -7227,7 +7227,7 @@ function tierBar(pts){
     : `<span class="lnum">${+p<10?'<span class="z">0</span>':""}${p}</span>`;
   const isBall = S.tier==="ball";
   return `<div class="qmeta${isBall?" ball":""}" style="--dc:${TIERS[S.tier].color}">`
-       + `<span class="tierchip">${isBall?`<img class="balllamp" src="assets/ball.png" alt="">`:""}${tlabel(S.tier)}</span>`
+       + `<span class="tierchip">${isBall?`${ballSVG("balllamp")}`:""}${tlabel(S.tier)}</span>`
        + `<span class="leader"></span>${num}</div>`;
 }
 function badgeQ(){
@@ -7664,7 +7664,7 @@ const playableAs = (id, play) => canEver(id, play) && modeLive(id);
    --bg and offered two buttons for it. BALL 3 is a floodlit night and nothing
    else, so the palette is bare :root, the meta is a literal, and the whole
    machine is four lines of nothing. */
-const BUILD = "16 Oct 2026 · 14:22";
+const BUILD = "16 Oct 2026 · 14:47";
 const DECKS = {};
 const TEAMS = {};
 /* the inline bank IS the classic deck. Same array, not a copy, so the five
@@ -9075,7 +9075,7 @@ function ballGoal(){
   document.querySelectorAll(".ballgoal").forEach(el=>el.remove());
   const o=document.createElement("div");
   o.className="ballgoal";
-  o.innerHTML=`<div class="bgflare"></div><img src="assets/ball.png" alt="">`;
+  o.innerHTML=`<div class="bgflare"></div>${ballSVG("bgball")}`;
   document.body.appendChild(o);
   setTimeout(()=>o.remove(), 1400);
 }
@@ -9179,7 +9179,7 @@ function renderBug(){
      of its own, which is the only score it has. */
   if(!S || S.phase==="setup" || S.play==="daily"){ bug.hidden=true; bug.innerHTML=""; return; }
   bug.hidden=false;
-  const home = `<button class="homeball" onclick="toMenu()" aria-label="Back to the menu" title="Back to the menu"><img src="assets/ball.png" alt=""></button>`;
+  const home = `<button class="homeball" onclick="toMenu()" aria-label="Back to the menu" title="Back to the menu">${ballSVG("")}</button>`;
   const best=Math.max(...S.players.map(p=>p.score));
   const leadI = S.players.filter(p=>p.score===best).length===1 ? S.players.findIndex(p=>p.score===best) : -1;
   bug.innerHTML = home + S.players.map((p,i)=>{
@@ -9189,7 +9189,7 @@ function renderBug(){
     return `<div class="bug${i===S.turn && S.phase!=="results" ?" active":""}${i===leadI?" lead":""}">
       <button class="book" aria-label="Book ${esc(p.name)}" onclick="askBook(${i})"></button>
       <button class="edit" aria-label="Edit ${esc(p.name)}'s score" onclick="askAdjust(${i})">✏️</button>
-      <div class="nm">${i===leadI?`<img class="leadball" src="assets/ball.png" alt="">`:""}${esc(p.name)}</div>
+      <div class="nm">${i===leadI?`${ballSVG("leadball")}`:""}${esc(p.name)}</div>
       <div class="sc${p.score<0?" neg":""}">${p.score}</div>
       <div class="cards">${pips}</div>
     </div>`;
@@ -15959,7 +15959,7 @@ function h2PitchHTML(tappable){
     '<div class="h2ballwrap' + (A ? (ground ? " pass ground" : drive ? " pass drive" : " pass lob") + (R ? " run" : "") : "") + cls +
     '" style="left:' + bx + '%;top:' + by + '%' +
     flight + extra + '"><span class="h2bsh"></span>' +
-    '<span class="h2lift"><img class="h2ball" src="assets/ball.png" alt=""></span></div>';
+    '<span class="h2lift">' + ballSVG("h2ball") + '</span></div>';
   /* Two ghosts running the same flight a fraction behind smear into a trail.
      Cheaper and better looking than trying to draw one. */
   if(A){ out += ball(" ghost g2", ";animation-delay:-.12s") + ball(" ghost g1", ";animation-delay:-.06s"); }
@@ -16569,6 +16569,42 @@ return { arm:arm, stop:stop, paint:paint, sweep:sweep, mouth:mouth, marks:marks,
          armed: () => PEND ? { cam:PEND.cam, out:PEND.out, kit:PEND.kit, gkKit:PEND.gkKit, no:PEND.no, hold:!!PEND.hold } : null };
 })();
 /* One footballer, built once and used for the two captains at the toss. */
+/* ---------- THE BALL, DRAWN ----------
+   One ball for the whole app, as vectors: a white sphere lit from the upper
+   left like the figures and the shot scene, a dark pentagon in the middle and
+   five more around it, clipped to the rim. It is crisp at eighteen pixels on
+   the pitch and at sixty on a button, it spins when the stylesheet turns it
+   because the panels turn with it, and it is nobody's product photograph.
+   The photo stays in two places only: the favicon, and the hero beside the
+   wordmark, where it is big enough to be a photo.
+
+   IDS ARE UNIQUE PER BALL. Several balls share a page (the lamp on a tier
+   chip, the lead ball on the table, the one on the pitch), and a gradient
+   referenced by id resolves to the first element carrying it, which may be
+   sitting in a hidden lane. */
+let ballSvgN = 0, ballPanels = null;
+function ballSVG(cls){
+  if(!ballPanels){
+    const pent = (cx, cy, r, rot) => { const pts = []; for(let j=0;j<5;j++){ const a = (rot + j*72 - 90) * Math.PI/180; pts.push((cx + r*Math.cos(a)).toFixed(2) + "," + (cy + r*Math.sin(a)).toFixed(2)); } return pts.join(" "); };
+    let d = '<polygon points="' + pent(20, 20, 6.6, 0) + '"/>';
+    for(let k=0;k<5;k++){
+      const th = (36 + k*72 - 90) * Math.PI/180;
+      d += '<polygon points="' + pent(20 + 14.6*Math.cos(th), 20 + 14.6*Math.sin(th), 5.9, 36 + k*72 + 180) + '"/>';
+    }
+    ballPanels = d;
+  }
+  const n = ++ballSvgN, g = "bsh" + n, c = "bcl" + n;
+  return '<svg class="' + (cls || "") + '" viewBox="0 0 40 40" aria-hidden="true" focusable="false">' +
+    '<defs><radialGradient id="' + g + '" cx="34%" cy="30%" r="74%">' +
+      '<stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#f0f3f2"/><stop offset="1" stop-color="#8e989c"/></radialGradient>' +
+      '<clipPath id="' + c + '"><circle cx="20" cy="20" r="19"/></clipPath></defs>' +
+    '<circle cx="20" cy="20" r="19" fill="url(#' + g + ')"/>' +
+    '<ellipse cx="14.5" cy="12.5" rx="5" ry="3.2" fill="rgba(255,255,255,.55)" transform="rotate(-30 14.5 12.5)"/>' +
+    '<g clip-path="url(#' + c + ')" fill="#222a2e" opacity=".92">' + ballPanels + '</g>' +
+    '<circle cx="20" cy="20" r="19" fill="none" stroke="rgba(0,0,0,.38)" stroke-width="1"/>' +
+  '</svg>';
+}
+
 function h2FigHTML(cls, kit, h, no){
   return '<div class="fig ' + cls + '" style="--kit:' + kit + ';--ink:' + kitInk(kit) +
     ';--pxshorts:' + kitShorts(kit) +
@@ -18086,7 +18122,7 @@ function render(){
         return `
         <button class="lane${k==="ball"?" ball":""}" style="--dc:${t.color};--d:${i*80}ms" onclick="pickTier('${k}')" ${remaining(k)===0?"disabled":""}>
           ${k==="ball"
-            ? `<img class="balllamp" src="assets/ball.png" alt="">`
+            ? `${ballSVG("balllamp")}`
             : `<span class="lamp"></span>`}
           <span class="lname">${tlabel(k)}</span>
           <span class="leader"></span>
@@ -19271,7 +19307,7 @@ function renderBoard(st){
       ${rows.map((r,i)=>`
         <div class="lbrow${i===0?" top":""}">
           <span class="pos">${i+1}</span>
-          <span class="fn">${esc(r.name)}${i===0?` <img class="leadball" src="assets/ball.png" alt="">`:""}</span>
+          <span class="fn">${esc(r.name)}${i===0?` ${ballSVG("leadball")}`:""}</span>
           <span class="num">${r.played}</span>
           <span class="num">${r.wins}</span>
           <span class="num${r.pts<0?" neg":""}">${r.pts}</span>
@@ -21268,7 +21304,7 @@ function renderSetup(st){
    to its palette and its poses, so it is still a tested thing rather than dead
    code, but the reason written down for keeping it is now one reader short. */
 function kickBallHTML(){
-  return '<img class="kickball" src="assets/ball.png" alt="" aria-hidden="true">';
+  return ballSVG("kickball");
 }
 /* THE ONE TAP THAT FIXES A STALE PHONE. The app is served network first, so
    an online reload is normally enough, but a home screen PWA can sit on an
@@ -21601,7 +21637,7 @@ function modeIntro(label){
   o.className="modeintro";
   o.innerHTML=`<div class="flare"></div><div class="ring"></div>
     <div class="miwrap">
-      <img class="miball" src="assets/ball.png" alt="">
+      ${ballSVG("miball")}
       <span class="mi">${esc(label)}</span>
       <span class="mirule"></span>
     </div>`;

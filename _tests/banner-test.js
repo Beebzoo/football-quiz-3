@@ -275,7 +275,8 @@ console.log("\n--- the ball on the front door is the ball the pitch plays with -
 check("the kick button carries the real ball",
   /class="mm-kick"[\s\S]{0,200}kickBallHTML\(\)/.test(html), "the kick button lost its ball");
 check("and it is the one the match plays with",
-  /function kickBallHTML\(\)[\s\S]{0,240}assets\/ball\.png/.test(html), "a second ball got drawn");
+  /function kickBallHTML\(\)[\s\S]{0,240}ballSVG\("kickball"\)/.test(html) && /ballSVG\("h2ball"\)/.test(html),
+  "the button and the pitch draw different balls");
 check("the pixel ball is gone rather than sitting there unused",
   html.indexOf("function pxBallHTML") === -1, "pxBallHTML is back");
 /* AND THE BANNER IS STILL BUILT, which is the thing that just lost its last
