@@ -120,6 +120,11 @@ function makeInstance(label) {
   ctx.globalThis = ctx;
   ctx.self = ctx;
   vm.createContext(ctx);
+  /* the shot scene is drawn with Zdog, which the page loads from assets/vendor
+     before its own script, so the sandbox gets it the same way */
+  const ZDOG = path.join(__dirname, "..", "assets", "vendor", "zdog.dist.min.js");
+  try { vm.runInContext(fs.readFileSync(ZDOG, "utf8"), ctx, { filename: "zdog.js" }); }
+  catch (e) { console.log(`[${label}] ZDOG LOAD ERROR:`, e.message); throw e; }
   try { vm.runInContext(code, ctx, { filename: label + ".js" }); }
   catch (e) { console.log(`[${label}] LOAD ERROR:`, e.message); throw e; }
   return ctx;

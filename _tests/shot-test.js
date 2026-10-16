@@ -1,36 +1,29 @@
-/* THE SHOT SCENE, DRIVEN FRAME BY FRAME AND READ OFF THE PIXELS.
+/* THE SHOT SCENE, DRIVEN FRAME BY FRAME AND READ OFF ITS OWN GEOMETRY.
  *
  *     node _tests/shot-test.js
  *
- * The scene is a canvas now, which changes what a test of it can be. There is
- * no markup left to search for a keeper in, so almost everything below runs the
- * real drawing code against a recording context that keeps a framebuffer, and
- * then asks what is actually painted where. That is a better test than the one
- * it replaces, not a worse one: "the markup contains the string g3-keeper" was
- * only ever evidence that a div had been written.
+ * The scene is drawn with Zdog now rather than stamped from pixel grids, so
+ * there is no framebuffer worth reading: a sphere is a stroked point and a
+ * shirt is a thick line, and a cell's last colour says nothing about where a
+ * ball is. What the scene has instead is a read-back, G3.last(), which after
+ * every paint says where the ball, the gloves and the two men landed in the
+ * canvas's logical pixels. Everything below asks that, and asks the markup
+ * the same questions it always asked.
  *
  * THE FOUR THINGS THIS EXISTS TO CATCH.
  *
- * THE PICKER COMING OFF THE GOAL. This is the one that would actually cost
- * somebody a match, and it is the only failure here that is silent: the overlay
- * still looks like a goal divided in four, it is just no longer divided over
- * the goal that got painted. So the four percentages are not compared against
- * a remembered set of numbers, they are walked back into canvas space and the
- * PIXELS either side of each edge are read. Inside the left edge must not be a
- * post and just outside it must be, or the edge is not where the post is. Done
- * for every camera, because a camera is exactly the thing that moves the goal.
+ * THE PICKER COMING OFF THE GOAL. The overlay is pinned to four percentages
+ * that mouth() works out of the same camera the frame is drawn from. The
+ * honest test is not that the numbers are inside the frame, it is that a ball
+ * the scene sends to "top left" arrives in the top left quarter of the
+ * rectangle the picker was handed, on every camera.
  *
- * FOUR CORNERS COLLAPSING BACK INTO TWO. The prototype shipped one dive sprite
- * and mirrored it, so top left and bottom left drew the identical frame. Two
- * frames that differ by a pixel would pass an equality check and still be
- * wrong, so this measures the GLOVES: for a low corner they have to be below
- * where they are for a high one, by enough to see.
+ * A KEEPER THROWN THE WRONG WAY. He is given a corner and has to finish with
+ * his gloves in that quarter of the mouth, and all four corners have to be
+ * four different dives.
  *
- * A FRAME THAT THROWS SOMEWHERE IN THE MIDDLE. A screenshot only tests the
- * instant it lands on. The banner shipped a chip that threw on every frame
- * after it while three separate screenshots all happened to land before the
- * fault. So every camera, every outcome and both mirrors are stepped end to
- * end and the throws are counted rather than sampled.
+ * A FRAME THAT THROWS SOMEWHERE IN THE MIDDLE. Every camera, every outcome
+ * and both mirrors are stepped end to end and the throws are counted.
  *
  * AND getContext AT PARSE TIME, which has taken this whole suite down twice.
  */
@@ -56,42 +49,26 @@ const check = (n, c, x) => {
 };
 
 /* ---------- the block, as text ---------- */
-const g0 = src.indexOf("/* ======================== THE SHOT, IN PIXELS ===");
+const g0 = src.indexOf("/* ======================== THE SHOT, IN ZDOG ===");
 const g1 = src.indexOf("\n/* One footballer, built once", g0);
-console.log("--- it is one closure, and it builds nothing until it is painting ---");
-check("the block is in the file", g0 > 0 && g1 > g0, g0 + ".." + g1);
+check("the scene is in the file where it was", g0 > 0 && g1 > g0, g0 + "/" + g1);
 const block = src.slice(g0, g1);
-/* THE ONE THAT HAS KILLED THIS SUITE TWICE. Both the menu hero and the banner
-   went out with a canvas built at parse time, and the harness's DOM has no
-   canvas in it, so every suite in the directory died on load. It is asserted by
-   position rather than by absence: there may be as many getContext calls as the
-   drawing wants, as long as every one of them is inside the function that is
-   only ever reached from a requestAnimationFrame. */
-/* comments first: the prose in here says the word getContext several times,
-   and a test that cannot tell prose from code is a test that fails on its own
-   documentation. */
-const code = block.replace(/\/\*[\s\S]*?\*\//g, "").replace(/^\s*\/\/.*$/gm, "");
-const paintAt = code.indexOf("function paint(u, el)");
-check("paint() is where the context is taken", paintAt > 0, paintAt);
-const early = [];
-let at = code.indexOf("getContext(");
-while (at > -1) { if (at < paintAt) early.push(at); at = code.indexOf("getContext(", at + 1); }
-/* a property check is not a call: canvasEl() asks whether el.getContext EXISTS,
-   which is the guard that keeps the harness alive, so only an actual call
-   counts against this. */
-check("and nothing calls for one before it", early.length === 0, early.join(","));
-check("every name in it is inside the closure",
-  /^const G3 = \(function\(\)\{/m.test(block) && /^\}\)\(\);$/m.test(block.trim()),
-  "the closure is not closed");
+check("and the page loads Zdog before it", /<script src="assets\/vendor\/zdog\.dist\.min\.js"><\/script>/.test(src) &&
+  src.indexOf("zdog.dist.min.js") < g0, "no vendor script tag ahead of the scene");
+check("and the service worker ships it", /assets\/vendor\/zdog\.dist\.min\.js/.test(fs.readFileSync(path.join(REPO, "sw.js"), "utf8")),
+  "zdog is not precached");
 
-/* ---------- the stylesheet no longer owns the mouth ---------- */
-console.log("\n--- the four numbers live in one place ---");
-const styleEnd = src.indexOf("</style>");
-const css = src.slice(0, styleEnd);
-check("the stylesheet declares none of them",
-  !/--gm[LRTH]\s*:/.test(css), (css.match(/--gm[LRTH]\s*:[^;}]*/g) || []).join(" "));
-check("and it has no fallback to drift towards either",
-  !/var\(--gm[LRTH]\s*,/.test(css), (css.match(/var\(--gm[LRTH][^)]*\)/g) || []).join(" "));
+/* ---------- nothing touches a context at parse time ---------- */
+console.log("\n--- getContext is only ever reached from a paint ---");
+const firstCtx = block.indexOf("getContext(");
+const buildAt = block.indexOf("function build(");
+check("no getContext call sits ahead of the scene builder", firstCtx === -1 || firstCtx > buildAt, firstCtx + " vs " + buildAt);
+check("the drawing waits for an element", /function paint\(u, el\)\{\n  const cv = el \|\| canvasEl\(\);\n  if\(!cv \|\| !cv\.getContext \|\| !PEND\) return false;/.test(block),
+  "paint no longer guards the element");
+
+/* ---------- the stylesheet still holds the overlay to the frame ---------- */
+console.log("\n--- the picker and the shout ---");
+const css = src.slice(src.indexOf("<style>"), src.indexOf("</style>"));
 check("the picker is still pinned to them",
   /\.h2gm\{position:absolute;left:var\(--gmL\);right:var\(--gmR\);top:var\(--gmT\);height:var\(--gmH\)/.test(css),
   "the overlay has come off the custom properties");
@@ -99,57 +76,24 @@ check("and it still sits over the keeper rather than under the goal",
   /\.h2gm\{[^}]*z-index:7/.test(css), "wrong stacking");
 check("h2GoalSceneHTML is the only thing that writes them",
   (src.match(/--gmL:/g) || []).length === 1, (src.match(/--gmL:/g) || []).length);
-/* the still frame is the canvas's job now, so this is where it has to be true */
+check("the canvas is no longer told to stay pixelated", !/\.g3c\{[^}]*pixelated/.test(css), "image-rendering:pixelated is still on it");
 check("a man who asked for less movement is painted the END of the shot",
   /if\(PEND\.hold \|\| PEND\.rm\)\{ paint\(PEND\.hold \? STILL : 1\); return; \}/.test(block) &&
   /cfg\.rm = still\(\);/.test(block),
   "reduced motion does not hold the last frame");
-/* AND IT HAS TO OUTRANK THE RULE IT IS SWITCHING OFF, which a bare .g3-cry does
-   not: the shout is animated by ".g3.scored .g3-cry", three selectors to one,
-   and a media query adds no specificity of its own. Written the short way the
-   animation simply wins and the man who asked for less movement watches the
-   whole thing scale in anyway, which is what the browser actually did. */
 check("and the shout stops moving with it",
   /@media \(prefers-reduced-motion: reduce\)\{\n\s*\.g3\.scored \.g3-cry,\.g3\.saved \.g3-cry,\.g3\.missed \.g3-cry\{animation:none;opacity:1\}/.test(css),
   "the shout still animates");
 
-/* ---------- a recording canvas ----------
-   Not a stub that counts calls: a framebuffer. The drawing never reads a pixel
-   back, so keeping one costs nothing and it is the difference between "it
-   painted eleven thousand times" and "the post is at x=21". */
-function recorder(W, H) {
-  const px = [];
-  for (let y = 0; y < H; y++) px.push(new Array(W).fill(null));
-  let cur = "#000000", fills = 0;
-  const ctx = {
-    imageSmoothingEnabled: false,
-    set fillStyle(v) { cur = String(v); },
-    get fillStyle() { return cur; },
-    setTransform() {}, save() {}, restore() {}, beginPath() {}, ellipse() {}, fill() {},
-    clearRect() { for (let y = 0; y < H; y++) px[y].fill(null); },
-    fillRect(x, y, w, h) {
-      fills++;
-      const x0 = Math.round(x), y0 = Math.round(y), x1 = x0 + Math.round(w), y1 = y0 + Math.round(h);
-      for (let j = y0; j < y1; j++) for (let i = x0; i < x1; i++)
-        if (i >= 0 && i < W && j >= 0 && j < H) px[j][i] = cur;
-    },
-  };
-  return {
-    el: { width: W * 5, height: H * 5, getContext: () => ctx },
-    px: px,
-    get fills() { return fills; },
-    at: (x, y) => (px[y] && px[y][x]) || null,
-    band(y0, y1) { const s = new Set();
-      for (let y = y0; y <= y1; y++) for (let x = 0; x < W; x++) if (px[y][x]) s.add(px[y][x]);
-      return s; },
-    count(col) { let n = 0;
-      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (px[y][x] === col) n++;
-      return n; },
-    where(col) { const out = [];
-      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (px[y][x] === col) out.push([x, y]);
-      return out; },
-  };
-}
+/* ---------- a canvas the scene will accept ---------- */
+const canvasStub = (W, H) => {
+  let calls = 0; const props = {};
+  const c = new Proxy({}, {
+    get: (t, k) => (k in props) ? props[k] : (k === "measureText" ? () => ({ width: 10 }) :
+      (k === "createLinearGradient" || k === "createRadialGradient") ? () => ({ addColorStop() {} }) : () => { calls++; }),
+    set: (t, k, v) => { props[k] = v; return true; } });
+  return { el: { nodeName: "CANVAS", width: W, height: H, style: {}, getContext: () => c }, get calls() { return calls; } };
+};
 
 (async () => {
   const app = makeInstance("shot");
@@ -162,90 +106,44 @@ function recorder(W, H) {
   const CW = SZ.CW, CH = SZ.CH;
   const CAMS = Object.keys(ev(app, "G3.cams"));
   const CORNERS = ev(app, "H2_CORNERS");
+  const T0 = ev(app, "G3.clock");
+  check("the canvas is the same shape the page lays out for", Math.abs(CW / CH - 124 / 84) < .01, CW + "x" + CH);
 
-  /* ---------- the art ----------
-     A row one character short is a missing pixel you will look past for six
-     weeks, and there are two hundred rows of it in there. */
-  console.log("\n--- every grid is square ---");
-  const art = ev(app, "JSON.stringify(G3.art)");
-  const A = JSON.parse(art);
-  const ragged = [];
-  const gridOk = (name, g) => {
-    const w = g[0].length;
-    g.forEach((r, i) => { if (r.length !== w) ragged.push(name + " row " + i + " is " + r.length + " not " + w); });
-    return w;
+  run(app, `function __cfg(o){
+    const base = {cam:"close", flip:false, out:"scored", shot:"tl", dive:"tl", hold:false, no:9,
+      kit:"#e04a34", shorts:"#ffffff", gkKit:"#3d7ae8", gkShorts:"#111111", ink:"#ffffff", sig:"t" + Math.random()};
+    return Object.assign(base, o || {});
+  }`);
+  const draw = (o, u) => {
+    const can = canvasStub(CW, CH);
+    app.__can = can.el;
+    run(app, "G3.arm(__cfg(" + JSON.stringify(o) + ")); G3.stop();");
+    run(app, "G3.paint(" + u + ", __can)");
+    const last = ev(app, "G3.last()");
+    return Object.assign({ calls: can.calls }, last || {});
   };
-  check("the striker's body is 36 wide", gridOk("BODY", A.BODY) === 36, A.BODY[0].length);
-  A.LEGS.forEach((p, i) => gridOk("LEGS[" + i + "]", p));
-  A.RUN.forEach((p, i) => gridOk("RUN[" + i + "]", p));
-  A.GK.forEach((p, i) => gridOk("GK[" + i + "]", p));
-  gridOk("DEF", A.DEF);
-  check("and no row anywhere is short", ragged.length === 0, ragged.slice(0, 4).join(" | "));
-  /* THE COUNT IS DERIVED, NEVER WRITTEN DOWN. A hard-coded array length outlives
-     the art it was written for: this very app once carried a [0,1,2,3] through a
-     move from four poses to eight and killed the animation on frame four. */
-  check("the strike is four poses and the approach is two",
-    A.LEGS.length === 4 && A.RUN.length === 2, A.LEGS.length + "/" + A.RUN.length);
-  check("and the keeper has a set, a high dive and a low one", A.GK.length === 3, A.GK.length);
-  check("the legs are a separate strip, stamped under one body",
-    A.LEGS[0].length === 9 && A.BODY.length === 31, A.LEGS[0].length + "/" + A.BODY.length);
+  const mouthPx = cam => {
+    const m = ev(app, "G3.mouth(" + JSON.stringify(cam) + ")");
+    const l = m.L / 100 * CW, r = CW - m.R / 100 * CW, t = m.T / 100 * CH, b = t + m.H / 100 * CH;
+    return { l, r, t, b, cx: (l + r) / 2, cy: (t + b) / 2, m };
+  };
+  const quarter = (p, M, c) => (c[1] === "l" ? p.x < M.cx : p.x > M.cx) && (c[0] === "t" ? p.y < M.cy : p.y > M.cy);
 
   /* ---------- the one that matters ---------- */
   console.log("\n--- the picker is pinned to the goal that got painted ---");
-  run(app, `function __cfg(o){
-    const kit = "#e04a34", gk = "#3d7ae8", P = G3.art.PAL, mix = G3.mix;
-    const base = {cam:"close", flip:false, out:"scored", shot:"tl", dive:"tl", hold:false, no:9,
-      strPal: Object.assign({}, P, {k:kit, K:mix(kit,"#000000",.34), j:mix(kit,"#ffffff",.26),
-                                    n:"#ffffff", w:"#f4f1ea", W:mix("#f4f1ea","#000000",.18)}),
-      gkPal:  Object.assign({}, P, {g:gk, G:mix(gk,"#000000",.34), e:mix(gk,"#ffffff",.26),
-                                    d:gk, D:mix(gk,"#000000",.34), w:"#f4f1ea", W:mix("#f4f1ea","#000000",.18)}),
-      sig:"t" + Math.random()};
-    return Object.assign(base, o || {});
-  }`);
-  const POST = "#eef3f5", POSTD = "#9fb0b4";
-  const isPost = c => c === POST || c === POSTD;
-  const draw = (o, u) => {
-    const r = recorder(CW, CH);
-    app.__rec = r;
-    run(app, "G3.arm(__cfg(" + JSON.stringify(o) + ")); G3.stop();");
-    run(app, "G3.paint(" + u + ", __rec.el)");
-    return r;
-  };
   for (const cam of CAMS) {
-    const m = ev(app, "G3.mouth(" + JSON.stringify(cam) + ")");
-    /* back out of per cent into the canvas the per cent was computed from. The
-       overlay does this same sum in CSS against the same box, because the canvas
-       IS the box: it is an ordinary block whose intrinsic ratio sets the height. */
-    const L = Math.round(m.L / 100 * CW), R = CW - Math.round(m.R / 100 * CW);
-    const T = Math.round(m.T / 100 * CH), B = T + Math.round(m.H / 100 * CH);
-    const r = draw({ cam: cam, hold: true }, 0.16);
-    check(cam + ": the left edge of the picker is the inside of the left post",
-      !isPost(r.at(L + 1, T + 6)) && isPost(r.at(L - 1, T + 6)),
-      "in=" + r.at(L + 1, T + 6) + " out=" + r.at(L - 1, T + 6));
-    check(cam + ": the right edge is the inside of the right post",
-      !isPost(r.at(R - 1, T + 6)) && isPost(r.at(R, T + 6)),
-      "in=" + r.at(R - 1, T + 6) + " out=" + r.at(R, T + 6));
-    check(cam + ": the top edge is under the bar",
-      !isPost(r.at((L + R) >> 1, T + 1)) && isPost(r.at((L + R) >> 1, T - 2)),
-      "in=" + r.at((L + R) >> 1, T + 1) + " out=" + r.at((L + R) >> 1, T - 2));
-    /* FIND THE GOAL LINE RATHER THAN SAMPLING IT. It is the one row painted
-       white right across the frame, and counting is the only reading of it that
-       survives two men standing on it, which at three of the four cameras they
-       are. If the brightest row in the grass is not the row the picker calls its
-       bottom edge, the overlay is hanging below or above the line. */
-    let lineAt = -1, most = -1;
-    for (let y = 26; y < CH; y++) {
-      const n = r.px[y].filter(c => c === "#ffffff").length;
-      if (n > most) { most = n; lineAt = y; }
-    }
-    check(cam + ": and the bottom edge is the goal line itself",
-      lineAt === B, "line at " + lineAt + ", edge at " + B);
+    const M = mouthPx(cam);
     check(cam + ": all four numbers are inside the frame",
-      m.L > 0 && m.R > 0 && m.T > 0 && m.H > 0 && m.T + m.H < 100,
-      JSON.stringify(m));
+      M.m.L > 0 && M.m.R > 0 && M.m.T > 0 && M.m.H > 0 && M.m.T + M.m.H < 100 && M.m.L + M.m.R < 100, JSON.stringify(M.m));
+    check(cam + ": the goal is centred, so a mirrored shot keeps the same picker", M.m.L === M.m.R, M.m.L + "/" + M.m.R);
+    for (const c of CORNERS) {
+      const r = draw({ cam, out: "scored", shot: c, dive: null }, T0.land);
+      check(cam + ": a ball sent " + c + " arrives in that quarter of the picker",
+        quarter(r.ball, M, c) && r.ball.x > M.l && r.ball.x < M.r && r.ball.y > M.t - 4 && r.ball.y < M.b + 4,
+        JSON.stringify(r.ball) + " in " + JSON.stringify([Math.round(M.l), Math.round(M.t), Math.round(M.r), Math.round(M.b)]));
+    }
   }
-  /* AND THE SAME NUMBERS REACH THE SCREEN. The pixels above prove the mouth
-     describes the goal; this proves the element is told about it. */
+  /* AND THE SAME NUMBERS REACH THE SCREEN. */
   const mouthOf = s => {
     const m = s.match(/--gmL:([\d.]+)%;--gmR:([\d.]+)%;--gmT:([\d.]+)%;--gmH:([\d.]+)%/);
     return m ? { L: +m[1], R: +m[2], T: +m[3], H: +m[4] } : null;
@@ -253,108 +151,70 @@ function recorder(W, H) {
 
   /* ---------- four corners, four dives ---------- */
   console.log("\n--- a keeper who called the bottom left does not play the top left frame ---");
-  const GLOVE = "#f2f2ee";
-  const frames = {};
-  for (const c of CORNERS) frames[c] = draw({ dive: c, out: "saved", shot: c }, 0.50);
-  const glove = c => {
-    const g = frames[c].where(GLOVE);
-    if (!g.length) return null;
-    return { x: Math.round(g.reduce((a, p) => a + p[0], 0) / g.length),
-             y: Math.round(g.reduce((a, p) => a + p[1], 0) / g.length) };
-  };
-  const G = {}; for (const c of CORNERS) G[c] = glove(c);
+  const M0 = mouthPx("close");
+  const G = {};
+  for (const c of CORNERS) G[c] = draw({ dive: c, out: "saved", shot: c }, T0.land).gloves;
   check("he has gloves in all four", CORNERS.every(c => G[c]), JSON.stringify(G));
+  for (const c of CORNERS)
+    check("for the " + c + " his gloves finish in that quarter of the mouth", quarter(G[c], M0, c),
+      JSON.stringify(G[c]) + " about " + Math.round(M0.cx) + "," + Math.round(M0.cy));
   check("the two low corners put them lower than the two high ones",
-    G.bl.y > G.tl.y + 4 && G.br.y > G.tr.y + 4,
-    JSON.stringify([G.tl.y, G.bl.y, G.tr.y, G.br.y]));
+    G.bl.y > G.tl.y + 10 && G.br.y > G.tr.y + 10, JSON.stringify([G.tl.y, G.bl.y, G.tr.y, G.br.y]));
   check("the two left corners put them left of the two right ones",
-    G.tl.x < G.tr.x - 8 && G.bl.x < G.br.x - 8,
-    JSON.stringify([G.tl.x, G.tr.x, G.bl.x, G.br.x]));
-  const sig = c => frames[c].px.map(r => r.join("")).join("");
-  check("and all four frames are genuinely different pictures",
-    new Set(CORNERS.map(sig)).size === 4, new Set(CORNERS.map(sig)).size);
-  /* HE GOES WHERE HE SAID HE WAS GOING, which is the half of the mechanic the
-     screen is responsible for. A keeper thrown the other way would be the app
-     calling the man who just tapped it a liar. */
-  for (const c of CORNERS) {
-    const m = ev(app, "G3.mouth('close')");
-    const mid = (Math.round(m.L / 100 * CW) + (CW - Math.round(m.R / 100 * CW))) / 2;
-    const left = c === "tl" || c === "bl";
-    check("he throws himself " + (left ? "left" : "right") + " for the " + c,
-      left ? G[c].x < mid : G[c].x > mid, G[c].x + " vs " + mid);
-  }
+    G.tl.x < G.tr.x - 20 && G.bl.x < G.br.x - 20, JSON.stringify([G.tl.x, G.tr.x, G.bl.x, G.br.x]));
+  check("and all four are genuinely different places", new Set(CORNERS.map(c => G[c].x + "," + G[c].y)).size === 4, JSON.stringify(G));
+  /* a save gets there, a goal falls short: the gloves on a goal are nearer the keeper's own body than on a save */
+  const short = draw({ dive: "tr", out: "scored", shot: "tl" }, T0.land).gloves;
+  check("beaten, he falls short of the corner he went for",
+    Math.hypot(short.x - M0.cx, short.y - M0.cy) < Math.hypot(G.tr.x - M0.cx, G.tr.y - M0.cy) - 6,
+    JSON.stringify([short, G.tr]));
+  const stood = draw({ dive: null, hold: true }, 0.16).gloves;
   check("and standing on his line he is doing none of it",
-    JSON.stringify(glove("tl")) !== JSON.stringify((() => {
-      const r = draw({ dive: null, hold: true }, 0.16);
-      const g = r.where(GLOVE);
-      return { x: Math.round(g.reduce((a, p) => a + p[0], 0) / g.length),
-               y: Math.round(g.reduce((a, p) => a + p[1], 0) / g.length) };
-    })()), "he dives with nothing to dive at");
+    Math.abs(stood.x - M0.cx) < 30 && stood.y > M0.cy, JSON.stringify(stood) + " about " + Math.round(M0.cx) + "," + Math.round(M0.cy));
 
   /* ---------- the run-up ---------- */
   console.log("\n--- there is a run-up, and the strike waits for it ---");
-  const KIT = "#e04a34";
-  const manX = u => { const r = draw({ hold: false }, u); const w = r.where(KIT);
-    return w.length ? Math.round(w.reduce((a, p) => a + p[0], 0) / w.length) : null; };
-  const manY = u => { const r = draw({ hold: false }, u); const w = r.where(KIT);
-    return w.length ? Math.round(w.reduce((a, p) => a + p[1], 0) / w.length) : null; };
-  const T0 = ev(app, "G3.clock");
-  check("he starts back and to the side of it", manX(0.01) < manX(T0.arrive) - 8,
-    manX(0.01) + " -> " + manX(T0.arrive));
-  check("and higher up the screen, because he is further away",
-    manY(0.01) < manY(T0.arrive) - 3, manY(0.01) + " -> " + manY(T0.arrive));
-  check("he has arrived before the leg goes back",
-    manX(T0.cock) === manX(T0.arrive) && manX(0.99) === manX(T0.arrive),
-    manX(T0.cock) + "/" + manX(T0.arrive) + "/" + manX(0.99));
-  /* THE BALL MUST NOT LEAVE DURING THE APPROACH. Every delay in the old scene
-     was a literal tuned against a ball that left the boot at time zero, and a
-     run-up in front of that is exactly what broke them. Here there is one
-     clock, so this is a check that it is being read and not bypassed. */
-  const BALLW = "#c3c9d2";   // the ball's rim, and nothing else in the frame
-  const ballAt = u => { const r = draw({ hold: false, out: "scored" }, u);
-    const w = r.where(BALLW);
-    return w.length ? { x: Math.round(w.reduce((a, p) => a + p[0], 0) / w.length),
-                        y: Math.round(w.reduce((a, p) => a + p[1], 0) / w.length) } : null; };
+  const manAt = u => draw({ hold: false }, u).man;
+  const m0 = manAt(0.01), mA = manAt(T0.arrive), mC = manAt(T0.cock), mE = manAt(0.99);
+  check("he starts to the side of it", Math.abs(m0.x - mA.x) > 20, m0.x + " -> " + mA.x);
+  check("and nearer the camera, because he comes from behind", m0.y > mA.y + 10, m0.y + " -> " + mA.y);
+  check("he has arrived before the leg goes back", Math.abs(mC.x - mA.x) <= 5 && Math.abs(mE.x - mA.x) <= 5,
+    mC.x + "/" + mA.x + "/" + mE.x);
+  const ballAt = u => draw({ hold: false, out: "scored" }, u).ball;
   const b0 = ballAt(0.02), bHit = ballAt(T0.hit - .01);
   check("the ball is still on his boot through the whole approach",
-    b0 && bHit && Math.abs(b0.x - bHit.x) <= 1 && Math.abs(b0.y - bHit.y) <= 1,
-    JSON.stringify([b0, bHit]));
-  check("and it is gone by the time he has followed through",
-    ballAt(T0.thru).y < bHit.y - 6, JSON.stringify([bHit, ballAt(T0.thru)]));
+    Math.abs(b0.x - bHit.x) <= 1 && Math.abs(b0.y - bHit.y) <= 1, JSON.stringify([b0, bHit]));
+  check("and it sits outside the foot that kicks it, which is his right",
+    bHit.x > mA.x + 8, JSON.stringify([bHit, mA]));
+  check("and it is gone by the time he has followed through", ballAt(T0.thru).y < bHit.y - 20, JSON.stringify([bHit, ballAt(T0.thru)]));
+  const flipped = draw({ hold: false, flip: true }, T0.hit - .01);
+  check("mirrored, it sits outside his left", flipped.ball.x < flipped.man.x - 8, JSON.stringify(flipped));
 
   /* ---------- where it finishes ---------- */
   console.log("\n--- the three endings look like three different things ---");
-  const endOf = o => { const r = draw(Object.assign({ hold: false }, o), 0.995);
-    const w = r.where(BALLW);
-    return w.length ? { x: Math.round(w.reduce((a, p) => a + p[0], 0) / w.length),
-                        y: Math.round(w.reduce((a, p) => a + p[1], 0) / w.length) } : null; };
+  const endOf = o => draw(Object.assign({ hold: false }, o), 0.995).ball;
   const goal = endOf({ out: "scored", shot: "tr", dive: "bl" });
   const save = endOf({ out: "saved", shot: "tr", dive: "tr" });
-  const over = draw({ hold: false, out: "over", shot: "tr", dive: null }, 0.995);
-  const mC = ev(app, "G3.mouth('close')");
-  const mT = Math.round(mC.T / 100 * CH), mB = mT + Math.round(mC.H / 100 * CH);
-  check("a goal finishes inside the goal", goal && goal.y > mT && goal.y < mB + 2,
-    JSON.stringify(goal) + " mouth " + mT + ".." + mB);
-  check("a save finishes somewhere else entirely",
-    save && Math.abs(save.x - goal.x) > 10, JSON.stringify([goal, save]));
-  check("and one over the bar is above it, or out of the frame",
-    over.where(BALLW).filter(p => p[1] > mT).length === 0,
-    JSON.stringify(over.where(BALLW).slice(0, 3)));
-  /* the net takes it, which is the thing the old scene could not do at all:
-     it shrank the ball to a speck in the corner and stopped */
+  const over = endOf({ out: "over", shot: "tr", dive: null });
+  check("a goal finishes inside the goal", goal.x > M0.l && goal.x < M0.r && goal.y > M0.t && goal.y < M0.b + 2,
+    JSON.stringify(goal) + " mouth " + JSON.stringify([Math.round(M0.l), Math.round(M0.t), Math.round(M0.r), Math.round(M0.b)]));
+  check("a save finishes somewhere else entirely", Math.abs(save.x - goal.x) > 30 || Math.abs(save.y - goal.y) > 30, JSON.stringify([goal, save]));
+  check("and one over the bar is above it", over.y < M0.t - 10, JSON.stringify(over) + " bar " + Math.round(M0.t));
   const netHit = draw({ hold: false, out: "scored", shot: "tr", dive: "bl" }, T0.land + .04);
-  check("the mesh lights where it lands", netHit.count("#eefaf1") > 12, netHit.count("#eefaf1"));
+  check("the net takes it", netHit.bulge > .5, netHit.bulge);
+  check("and has settled by the end", draw({ hold: false, out: "scored", shot: "tr", dive: "bl" }, 0.995).bulge === 0,
+    draw({ hold: false, out: "scored" }, 0.995).bulge);
 
   /* ---------- nothing throws, anywhere ---------- */
   console.log("\n--- every camera, every ending, both ways round ---");
   let bad = 0, blank = 0;
   for (const cam of CAMS) for (const out of ["scored", "saved", "over"]) for (const flip of [false, true]) {
-    const r = recorder(CW, CH);
-    app.__rec = r;
+    const can = canvasStub(CW, CH);
+    app.__can = can.el;
     run(app, "G3.arm(__cfg(" + JSON.stringify({ cam, out, flip, shot: "br", dive: "tl" }) + ")); G3.stop();");
-    const n = ev(app, "G3.sweep(__rec.el, .01)");
+    const n = ev(app, "G3.sweep(__can, .01)");
     if (n !== 0) bad += Math.max(n, 1);
-    if (r.fills < 2000) blank++;
+    if (can.calls < 20000) blank++;
   }
   check("not one frame of any of them throws", bad === 0, bad);
   check("and not one of them comes out empty", blank === 0, blank);
@@ -364,16 +224,12 @@ function recorder(W, H) {
   check("a penalty is a penalty whoever is taking it",
     ev(app, "G3.cameraFor(9, 0, true)") === "pen" && ev(app, "G3.cameraFor(7, 0, true)") === "pen",
     ev(app, "G3.cameraFor(9, 0, true)"));
-  check("the striker is six yards out", ev(app, "G3.cameraFor(9, 0, false)") === "close",
-    ev(app, "G3.cameraFor(9, 0, false)"));
+  check("the striker is six yards out", ev(app, "G3.cameraFor(9, 0, false)") === "close", ev(app, "G3.cameraFor(9, 0, false)"));
   check("a winger is shooting from the angle",
     ev(app, "G3.cameraFor(8, 0, false)") === "angle" && ev(app, "G3.cameraFor(10, 0, false)") === "angle",
     ev(app, "G3.cameraFor(8, 0, false)") + "/" + ev(app, "G3.cameraFor(10, 0, false)"));
   check("and the ten is outside the box, bending it round somebody",
     ev(app, "G3.cameraFor(7, 0, false)") === "curler", ev(app, "G3.cameraFor(7, 0, false)"));
-  /* EVERY SLOT IN EVERY SHAPE, because The Dugout has five of them and a shape
-     with a shooter this cannot place is a screen that draws the wrong picture
-     rather than an error anybody sees. */
   const shapes = ev(app, "Object.keys(H2_SHAPES)");
   const stray = [];
   for (const id of shapes) {
@@ -385,8 +241,7 @@ function recorder(W, H) {
       if (CAMS.indexOf(cam) < 0) stray.push(id + "[" + i + "]=" + cam);
     }
   }
-  check("every man in every shape who is allowed a shot gets a camera",
-    stray.length === 0, stray.join(" "));
+  check("every man in every shape who is allowed a shot gets a camera", stray.length === 0, stray.join(" "));
 
   /* ---------- and the whole thing, through the app ---------- */
   console.log("\n--- driven for real ---");
@@ -403,10 +258,8 @@ function recorder(W, H) {
   run(app, "h2Judge(true)"); await tick(180);
   check("a clean strike puts him on the corner picker", ev(app, "S.phase") === "h_aim", ev(app, "S.phase"));
   const aim = stage(app);
-  check("the scene is one canvas", (aim.match(/class="g3c"/g) || []).length === 1,
-    (aim.match(/class="g3c"/g) || []).length);
-  check("with the four corners over it", (aim.match(/class="h2gmc /g) || []).length === 4,
-    (aim.match(/class="h2gmc /g) || []).length);
+  check("the scene is one canvas", (aim.match(/class="g3c"/g) || []).length === 1, (aim.match(/class="g3c"/g) || []).length);
+  check("with the four corners over it", (aim.match(/class="h2gmc /g) || []).length === 4, (aim.match(/class="h2gmc /g) || []).length);
   const aimM = mouthOf(aim);
   check("and the mouth on the element is this camera's mouth",
     aimM && JSON.stringify(aimM) === JSON.stringify((() => {
@@ -419,58 +272,43 @@ function recorder(W, H) {
   run(app, "h2Aim('tl')"); await tick(150);
   if (ev(app, "S.phase") === "h_hand") { run(app, "h2HandGo()"); await tick(150); }
   const dive = stage(app);
-  /* THE SCREEN IS THE WHOLE OF THE SECRET, and a canvas is a better place to
-     keep one than a style attribute was: there is no longer anything in the
-     markup to read. That is asserted rather than assumed, because "it is on a
-     canvas" would stop being true the moment somebody wrote the corner into a
-     data attribute for convenience. */
   check("the keeper is choosing", ev(app, "S.phase") === "h_dive", ev(app, "S.phase"));
   check("and the corner the striker picked is nowhere in what he is looking at",
     !/\b(tl|tr|bl|br)\b/.test(dive.replace(/class="h2gmc [a-z]+"/g, "").replace(/h2Dive\('[a-z]+'\)/g, "")),
     "a corner leaked onto the keeper's screen");
   check("no corner is lit on it", !/class="h2gmc [a-z]+ on"/.test(dive), "a corner is already picked");
-  check("all four are offered identically",
-    (dive.match(/aria-pressed="false"/g) || []).length === 4,
+  check("all four are offered identically", (dive.match(/aria-pressed="false"/g) || []).length === 4,
     (dive.match(/aria-pressed="false"/g) || []).length);
   check("and the scene is held rather than looping under his decision",
     ev(app, "(function(){ var r = false; try { r = G3.sweep(null) === -1; } catch(e){ r = String(e); } return r; })()") === true,
     "the still scene could not be checked");
+  check("and the scene armed under him is held, with no shot in it",
+    (() => { const a = ev(app, "G3.armed()"); return a && a.hold === true; })(), JSON.stringify(ev(app, "G3.armed()")));
 
   run(app, "h2Dive('br')"); await tick(240);
   const strike = stage(app);
   check("the reveal is the same canvas", strike.includes('class="g3c"'), "no canvas");
   check("it says GOAL", strike.includes("GOAL") && /class="g3 scored"/.test(strike), "no call");
-  /* the shout is the one thing left out here, so its moment has to come off the
-     canvas's own clock rather than off a number somebody typed twice */
   const cry = strike.match(/--g3cry:([\d.]+)s/);
   check("and the shout waits for the ball to arrive",
-    cry && +cry[1] > T0.land * SZ.dur / 1000 && +cry[1] < SZ.dur / 1000,
-    cry ? cry[1] : "no --g3cry");
+    cry && +cry[1] > T0.land * SZ.dur / 1000 && +cry[1] < SZ.dur / 1000, cry ? cry[1] : "no --g3cry");
 
   /* ---------- the kits are the match's ---------- */
   console.log("\n--- both kits come off the match, not out of the art ---");
-  const rec2 = recorder(CW, CH);
-  app.__rec = rec2;
-  run(app, "G3.paint(0.16, __rec.el)");
+  const armed = ev(app, "G3.armed()");
   const kitHome = ev(app, "h2Kit(0)"), kitAway = ev(app, "h2Kit(1)");
-  check("the man who hit it is in his country's kit", rec2.count(kitHome) > 40,
-    kitHome + " x" + rec2.count(kitHome));
-  check("the keeper is in the other one", rec2.count(kitAway) > 20,
-    kitAway + " x" + rec2.count(kitAway));
+  check("the man who hit it is in his country's kit", armed && armed.kit === kitHome, JSON.stringify(armed) + " vs " + kitHome);
+  check("the keeper is in the other one", armed && armed.gkKit === kitAway, JSON.stringify(armed) + " vs " + kitAway);
   check("and neither of them is the prototype's red and blue",
-    kitHome !== kitAway && rec2.count("#d8442f") === 0 && rec2.count("#2f6fd0") === 0,
-    rec2.count("#d8442f") + "/" + rec2.count("#2f6fd0"));
-  /* HIS OWN NUMBER, COUNTED. Not "there is ink on the shirt", which a stray
-     highlight would satisfy: the digits of h2No are looked up in the same grid
-     the drawing stamps and the lit pixels are counted, so a seven has to paint
-     exactly a seven. */
+    kitHome !== kitAway && armed.kit !== "#e04a34" && armed.gkKit !== "#3d7ae8", JSON.stringify(armed));
   const no = String(ev(app, "h2No(S.h2h.at, S.h2h.who)")).replace(/[^0-9]/g, "").slice(-2);
-  const ink = ev(app, "kitInk(h2Kit(S.h2h.who))");
-  const wanted = [...no].reduce((a, ch) =>
-    a + (A.NUM[ch].join("").match(/X/g) || []).length, 0);
-  check("the number on his back is his own, to the pixel",
-    no.length > 0 && rec2.count(ink) === wanted,
-    "shirt " + no + " wants " + wanted + " got " + rec2.count(ink));
+  check("the number on his back is his own", no.length > 0 && String(armed.no).replace(/[^0-9]/g, "").slice(-2) === no,
+    "shirt " + no + " got " + armed.no);
+  /* and the frame it paints is this match's, through the real element path */
+  const can2 = canvasStub(CW, CH);
+  app.__can = can2.el;
+  run(app, "G3.paint(0.16, __can)");
+  check("and it paints through the element it is handed", can2.calls > 1500, can2.calls);
 
   /* ---------- the shootout, which has no duel behind it ---------- */
   console.log("\n--- a shootout still draws something sensible ---");
@@ -481,13 +319,14 @@ function recorder(W, H) {
     ev(app, "G3.cameraFor(S.h2h.at, S.h2h.who, true)") === "pen" && ev(app, "G3.cams.pen.def") === null,
     ev(app, "G3.cameraFor(S.h2h.at, S.h2h.who, true)"));
   const soMiss = ev(app, 'h2GoalSceneHTML("missed")');
-  check("a kick put over the bar says so", soMiss.includes("OVER") && /class="g3 missed"/.test(soMiss),
-    soMiss.slice(0, 60));
-  const rec3 = recorder(CW, CH);
-  app.__rec = rec3;
-  run(app, "G3.paint(0.99, __rec.el)");
+  check("a kick put over the bar says so", soMiss.includes("OVER") && /class="g3 missed"/.test(soMiss), soMiss.slice(0, 60));
+  const can3 = canvasStub(CW, CH);
+  app.__can = can3.el;
+  run(app, "G3.paint(0.99, __can)");
+  const so = ev(app, "G3.last()");
+  const Mp = mouthPx("pen");
   check("and the keeper who was never told anything is still on his line",
-    rec3.count(GLOVE) > 0, rec3.count(GLOVE));
+    so && so.gloves && Math.abs(so.keeper.x - Mp.cx) < 40 && so.gloves.y > Mp.cy, JSON.stringify(so && so.keeper));
 
   console.log(fails ? "\n" + fails + " FAILING CHECK(S)" : "\nALL PASS");
   process.exit(fails ? 1 : 0);

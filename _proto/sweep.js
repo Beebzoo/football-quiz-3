@@ -1,4 +1,4 @@
-/* step every frame of the Zdog shot prototype, every camera, outcome, corner
+/* step every frame of the app's Zdog shot scene (read out of index.html), every camera, outcome, corner
    and mirror, under a stub canvas, and count the frames that throw run: node _proto/sweep.js */
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const REPO = path.join(__dirname, "..");
@@ -14,8 +14,10 @@ const sandbox = { console, Math, Date, JSON, Object, Array, String, Number, Bool
 sandbox.window = sandbox; sandbox.self = sandbox; sandbox.globalThis = sandbox;
 const ctx = vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(REPO, "assets/vendor/zdog.dist.min.js"), "utf8"), ctx);
-vm.runInContext(fs.readFileSync(path.join(REPO, "_proto/shot-zdog.js"), "utf8"), ctx);
-const G4 = vm.runInContext("G4", ctx);
+const html = fs.readFileSync(path.join(REPO, "index.html"), "utf8").replace(/\r\n/g, "\n");
+const a = html.indexOf("/* ======================== THE SHOT, IN ZDOG ==="), b = html.indexOf("\n/* One footballer, built once", a);
+vm.runInContext(html.slice(a, b), ctx);
+const G4 = vm.runInContext("G3", ctx);
 let bad = 0, frames = 0, worst = null;
 const corners = ["tl", "tr", "bl", "br"];
 for (const cam of Object.keys(G4.cams)) for (const out of ["scored", "saved", "over"]) for (const flip of [false, true])

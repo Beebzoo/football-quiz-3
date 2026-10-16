@@ -58,8 +58,19 @@
   <div class="note">Drag u to scrub. The four corners overlay is pinned to the goal mouth the same way the app pins it.</div>
 </div>
 <script src="../assets/vendor/zdog.dist.min.js"></script>
-<script src="shot-zdog.js"></script>
 <script>
+/* THE SCENE IS THE APP'S OWN. index.html is the only copy: this page fetches it,
+   cuts the shot block out between its two markers and evaluates it, so what you
+   scrub here is exactly what One on One draws. */
+async function loadScene(){
+  const t = await (await fetch("../index.html")).text();
+  const a = t.indexOf("/* ======================== THE SHOT, IN ZDOG ==="), b = t.indexOf("\n/* One footballer, built once", a);
+  if(a < 0 || b < 0) throw new Error("the shot block is not where the prototype expects it");
+  (0, eval)(t.slice(a, b).replace("const G3 = (function(){", "window.G4 = (function(){"));
+}
+</script>
+<script>
+loadScene().then(() => {
 const $ = id => document.getElementById(id);
 let cfg = null, playing = false, pt0 = 0, rafId = null;
 const CORNER_SAYS = {tl:"top left", tr:"top right", bl:"bottom left", br:"bottom right"};
@@ -106,6 +117,7 @@ for(const id of ["cam","out","shot","dive","flip","kit"]) if(q.has(id)) $(id).va
 const u0 = q.has("u") ? +q.get("u") : .16;
 $("u").value = Math.round(u0*1000); $("uv").textContent = u0.toFixed(2);
 show(u0, q.has("hold"));
+}).catch(e => { document.getElementById("stage").innerHTML = "<pre style=color:#f88>" + e + "</pre>"; });
 </script>
 </body>
 </html>

@@ -346,48 +346,47 @@ const GK = 0, LCB = 1, RCB = 2, LWB = 3, RWB = 4, SIX = 5, EIGHT = 6, TEN = 7, L
      THE CONTEXT IS A STUB AND THAT IS ENOUGH. The drawing never reads a pixel
      back, it only paints, so a framebuffer that records the last colour written
      to each cell is exactly as good as a browser for every question below. */
+  /* A CANVAS THE SCENE WILL ACCEPT. Zdog wants an element with a node name
+     and a 2D context with the whole drawing API on it; it never reads a pixel
+     back. So the context is a proxy that swallows every call and counts them,
+     and the questions below are asked of G3.last(), the scene's own read-back
+     of where it put things, in the canvas's logical pixels. */
+  const canvasStub = (W, H) => {
+    let calls = 0; const props = {};
+    const c = new Proxy({}, {
+      get: (t, k) => (k in props) ? props[k] : (k === "measureText" ? () => ({ width: 10 }) :
+        (k === "createLinearGradient" || k === "createRadialGradient") ? () => ({ addColorStop() {} }) : () => { calls++; }),
+      set: (t, k, v) => { props[k] = v; return true; } });
+    return { el: { nodeName: "CANVAS", width: W, height: H, style: {}, getContext: () => c }, get calls() { return calls; } };
+  };
   const shotFrame = (u) => {
     const W = ev(app, "G3.size.CW"), H = ev(app, "G3.size.CH");
-    const px = []; for (let y = 0; y < H; y++) px.push(new Array(W).fill(null));
-    let cur = "#000";
-    const c = { imageSmoothingEnabled: false,
-      set fillStyle(v) { cur = String(v); }, get fillStyle() { return cur; },
-      setTransform() {}, save() {}, restore() {}, beginPath() {}, ellipse() {}, fill() {},
-      clearRect() { for (let y = 0; y < H; y++) px[y].fill(null); },
-      fillRect(x, y, w, h) {
-        const x0 = Math.round(x), y0 = Math.round(y);
-        for (let j = y0; j < y0 + Math.round(h); j++) for (let i = x0; i < x0 + Math.round(w); i++)
-          if (i >= 0 && i < W && j >= 0 && j < H) px[j][i] = cur; } };
-    app.__can = { width: W * 5, height: H * 5, getContext: () => c };
+    const can = canvasStub(W, H);
+    app.__can = can.el;
     run(app, "G3.paint(" + u + ", __can)");
-    return {
-      band: (a, b) => { const s = new Set();
-        for (let y = a; y <= b; y++) for (let x = 0; x < W; x++) if (px[y][x]) s.add(px[y][x]);
-        return s; },
-      count: col => { let n = 0;
-        for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (px[y][x] === col) n++;
-        return n; },
-    };
+    return { calls: can.calls, last: ev(app, "G3.last()"), mouth: ev(app, "G3.mouth(G3.cameraFor(S.h2h.at, S.h2h.who, false))") };
   };
   const f = shotFrame(0.5);
-  check("there is a crowd behind the goal, and it is a crowd rather than a wall",
-    f.band(4, 19).size > 20, f.band(4, 19).size);
-  check("boards along the back of the pitch", f.band(22, 25).size >= 6, f.band(22, 25).size);
-  check("grass in front of them", f.count("#1d5a2e") > 400, f.count("#1d5a2e"));
-  check("and a goal standing on it", f.count("#eef3f5") > 60, f.count("#eef3f5"));
+  check("the scene paints, and paints a great deal", f.calls > 1500, f.calls);
+  check("with a goal standing in the frame",
+    f.mouth && f.mouth.L > 0 && f.mouth.R > 0 && f.mouth.T > 0 && f.mouth.T + f.mouth.H < 100, JSON.stringify(f.mouth));
+  check("a keeper in it", !!(f.last && f.last.keeper), JSON.stringify(f.last));
+  check("and the ball on its way", !!(f.last && f.last.ball && f.last.ball.y < f.last.man.y), JSON.stringify(f.last));
 
   console.log("\n--- the two men ---");
+  /* the kits reach the scene as colours in its config now, and that is what
+     is checked: the pixels are strokes of those colours, and nothing else is */
+  const armed = ev(app, "G3.armed()") || {};
   check("the man who hit it is in his own country's kit",
-    f.count(WC["Netherlands"].kit) > 40,
-    WC["Netherlands"].kit + " x" + f.count(WC["Netherlands"].kit));
+    armed.kit === WC["Netherlands"].kit, WC["Netherlands"].kit + " vs " + armed.kit);
   check("and the keeper is in the other country's",
-    f.count(WC["Italy"].kit) > 20, WC["Italy"].kit + " x" + f.count(WC["Italy"].kit));
+    armed.gkKit === WC["Italy"].kit, WC["Italy"].kit + " vs " + armed.gkKit);
   /* the prototype hard-coded a red striker and a blue keeper, which is the one
      thing that would look completely fine and be completely wrong */
-  check("neither of them is wearing the colours the art was drawn in",
-    f.count("#d8442f") === 0 && f.count("#2f6fd0") === 0, "a hard-coded kit is being painted");
-  check("both have boots on the grass", f.count("#26221c") > 20, f.count("#26221c"));
-  check("and the keeper has gloves on", f.count("#f2f2ee") > 8, f.count("#f2f2ee"));
+  check("neither of them is wearing the colours the prototype was drawn in",
+    armed.kit !== "#e04a34" && armed.gkKit !== "#3d7ae8", JSON.stringify(armed));
+  check("both are standing in the frame", !!(f.last && f.last.man && f.last.keeper), JSON.stringify(f.last));
+  check("and the keeper has gloves on", !!(f.last && f.last.gloves), JSON.stringify(f.last));
   check("and they are named over it", scene.includes(ev(app, "h2Who(0,1)")) &&
     scene.includes(ev(app, "h2Who(9,0)")), "the men are anonymous");
 

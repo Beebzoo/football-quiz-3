@@ -314,7 +314,7 @@ console.log("\n--- nothing leaked out of the closure ---");
    names is loose at FILE level, not that one function in the app is the only
    one allowed a variable called ctx, and anything sitting between the two
    blocks is still caught. */
-const s0 = html.indexOf("/* ======================== THE SHOT, IN PIXELS ===");
+const s0 = html.indexOf("/* ======================== THE SHOT, IN ZDOG ===");
 const s1 = html.indexOf("\n/* One footballer, built once", s0);
 check("the shot scene is a closure too", s0 > 0 && s1 > s0, s0 + ".." + s1);
 let outside = html;

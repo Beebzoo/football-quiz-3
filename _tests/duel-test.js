@@ -280,26 +280,27 @@ const CORNERS = ["tl", "tr", "bl", "br"];
      right of it. A keeper thrown the other way is the app calling the man who
      just tapped it a liar, and that is the failure worth a test. */
   {
+    /* A CANVAS THE SCENE WILL ACCEPT. Zdog wants an element with a node name
+       and a 2D context with the whole drawing API on it; it never reads a pixel
+       back. So the context is a proxy that swallows every call and counts them,
+       and the questions below are asked of G3.last(), the scene's own read-back
+       of where it put things, in the canvas's logical pixels. */
+    const canvasStub = (W, H) => {
+      let calls = 0; const props = {};
+      const c = new Proxy({}, {
+        get: (t, k) => (k in props) ? props[k] : (k === "measureText" ? () => ({ width: 10 }) :
+          (k === "createLinearGradient" || k === "createRadialGradient") ? () => ({ addColorStop() {} }) : () => { calls++; }),
+        set: (t, k, v) => { props[k] = v; return true; } });
+      return { el: { nodeName: "CANVAS", width: W, height: H, style: {}, getContext: () => c }, get calls() { return calls; } };
+    };
     const W = ev(app, "G3.size.CW"), H = ev(app, "G3.size.CH");
-    const px = []; for (let y = 0; y < H; y++) px.push(new Array(W).fill(null));
-    let cur = "#000";
-    const rc = { imageSmoothingEnabled: false,
-      set fillStyle(v) { cur = String(v); }, get fillStyle() { return cur; },
-      setTransform() {}, save() {}, restore() {}, beginPath() {}, ellipse() {}, fill() {},
-      clearRect() { for (let y = 0; y < H; y++) px[y].fill(null); },
-      fillRect(x, y, w, h) { const x0 = Math.round(x), y0 = Math.round(y);
-        for (let j = y0; j < y0 + Math.round(h); j++) for (let i = x0; i < x0 + Math.round(w); i++)
-          if (i >= 0 && i < W && j >= 0 && j < H) px[j][i] = cur; } };
-    app.__can = { width: W * 5, height: H * 5, getContext: () => rc };
+    app.__can = canvasStub(W, H).el;
     run(app, "G3.paint(G3.clock.land, __can)");
-    const mid = col => { const p = [];
-      for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (px[y][x] === col) p.push([x, y]);
-      return p.length ? { x: p.reduce((a, q) => a + q[0], 0) / p.length,
-                          y: p.reduce((a, q) => a + q[1], 0) / p.length } : null; };
     const m = ev(app, "G3.mouth(G3.cameraFor(S.h2h.at, S.h2h.who, !!(S.h2h.pen || S.h2h.so)))");
     const cx = (m.L / 100 * W + (W - m.R / 100 * W)) / 2;
     const cy = (m.T / 100 * H + m.T / 100 * H + m.H / 100 * H) / 2;
-    const ball = mid("#c3c9d2"), gloves = mid("#f2f2ee");
+    const last = ev(app, "G3.last()") || {};
+    const ball = last.ball, gloves = last.gloves;
     check("the ball is sent to the corner he chose",
       !!ball && ball.x < cx && ball.y > cy,
       JSON.stringify(ball) + " about " + Math.round(cx) + "," + Math.round(cy));
