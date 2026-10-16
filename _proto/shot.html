@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shot prototype</title>
+<style>
+  :root{--ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  html,body{margin:0;background:#0b1f14;color:#e9efe9;font:14px/1.4 var(--ui)}
+  .wrap{max-width:430px;margin:0 auto;padding:12px 10px}
+  .g3{position:relative;border-radius:14px;overflow:hidden;background:#07110b;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+  .g3c{display:block;width:100%;height:auto}
+  .g3-name{position:absolute;z-index:6;transform:translateX(-50%);pointer-events:none;white-space:nowrap;
+    font:700 8.5px/1.2 var(--ui);letter-spacing:.03em;color:rgba(255,255,255,.72);text-shadow:0 1px 3px rgba(0,0,0,.9)}
+  .g3-striker{bottom:3%;font-size:11px;color:rgba(255,255,255,.85)}
+  .g3.scored .g3-keeper,.g3.saved .g3-keeper,.g3.missed .g3-keeper{opacity:0;transition:opacity .2s}
+  .g3-cry{position:absolute;left:0;right:0;top:34%;z-index:8;text-align:center;font:900 44px/1 var(--ui);letter-spacing:.08em;
+    opacity:0;pointer-events:none}
+  @keyframes g3cry{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+  .g3.scored .g3-cry{color:#f9e6ae;text-shadow:0 2px 0 #8a6414,0 0 22px rgba(249,221,150,.85);animation:g3cry .7s var(--g3cry) cubic-bezier(.2,1.6,.3,1) both}
+  .g3.saved .g3-cry{color:#bfe6cf;text-shadow:0 2px 0 #17402a,0 0 20px rgba(120,220,170,.6);animation:g3cry .6s var(--g3cry) cubic-bezier(.2,1.6,.3,1) both}
+  .g3.missed .g3-cry{color:#ffc4b8;text-shadow:0 2px 0 #5a1d14,0 0 20px rgba(255,140,120,.55);animation:g3cry .6s var(--g3cry) cubic-bezier(.2,1.6,.3,1) both}
+  .h2gm{position:absolute;left:var(--gmL);right:var(--gmR);top:var(--gmT);height:var(--gmH);z-index:7;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
+  .h2gm::before,.h2gm::after{content:"";position:absolute;pointer-events:none;background:rgba(255,255,255,.32)}
+  .h2gm::before{left:6%;right:6%;top:50%;height:1px}
+  .h2gm::after{top:6%;bottom:6%;left:50%;width:1px}
+  .h2gmc{appearance:none;border:0;border-radius:0;cursor:pointer;background:rgba(255,255,255,.04);display:flex;padding:7px 9px;
+    font:800 9.5px/1.15 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.9);text-shadow:0 1px 3px rgba(0,0,0,.95)}
+  .h2gmc.tl{align-items:flex-start;justify-content:flex-start}.h2gmc.tr{align-items:flex-start;justify-content:flex-end}
+  .h2gmc.bl{align-items:flex-end;justify-content:flex-start}.h2gmc.br{align-items:flex-end;justify-content:flex-end}
+  .h2gmc:hover{background:rgba(255,255,255,.12)}
+  .g3.set .h2gm{display:grid}.g3:not(.set) .h2gm{display:none}
+  .ctl{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px}
+  .ctl label{display:flex;flex-direction:column;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#9fb8a6}
+  select,button,input[type=range]{font:inherit;margin-top:3px;background:#143a24;color:#fff;border:1px solid #2d6b45;border-radius:8px;padding:6px}
+  button{cursor:pointer}
+  .row{grid-column:1/-1;display:flex;gap:6px;align-items:center}
+  .row input{flex:1}
+  .kick{grid-column:1/-1;background:#1f8a4c;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:10px}
+  .note{font-size:12px;color:#9fb8a6;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="stage"></div>
+  <div class="ctl">
+    <label>Camera<select id="cam"><option>close</option><option>pen</option><option>angle</option><option>curler</option></select></label>
+    <label>Outcome<select id="out"><option>scored</option><option>saved</option><option>over</option></select></label>
+    <label>Shot<select id="shot"><option>tl</option><option>tr</option><option>bl</option><option>br</option></select></label>
+    <label>Dive<select id="dive"><option>br</option><option>bl</option><option>tr</option><option>tl</option><option value="">none</option></select></label>
+    <label>Flip<select id="flip"><option value="">no</option><option value="1">yes</option></select></label>
+    <label>Kit<select id="kit"><option value="#e04a34|#ffffff|#3d7ae8|#111111">NED v ITA</option><option value="#ffffff|#000000|#1b7a3a|#1b7a3a">Real v keeper green</option><option value="#c8102e|#c8102e|#f6d400|#000000">Liverpool v yellow</option></select></label>
+    <div class="row"><span>u</span><input id="u" type="range" min="0" max="1000" value="160"><span id="uv">0.16</span></div>
+    <button class="kick" id="play">Play the shot</button>
+    <button id="hold">Show the aim screen (held frame)</button>
+    <button id="end">Jump to the end</button>
+  </div>
+  <div class="note">Drag u to scrub. The four corners overlay is pinned to the goal mouth the same way the app pins it.</div>
+</div>
+<script src="../assets/vendor/zdog.dist.min.js"></script>
+<script src="shot-zdog.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+let cfg = null, playing = false, pt0 = 0, rafId = null;
+const CORNER_SAYS = {tl:"top left", tr:"top right", bl:"bottom left", br:"bottom right"};
+function current(held){
+  const k = $("kit").value.split("|");
+  const out = $("out").value, state = held ? "set" : (out === "over" ? "missed" : out);
+  const c = { cam:$("cam").value, flip:!!$("flip").value, out:out, shot:$("shot").value, dive:$("dive").value || null,
+    hold:!!held, no:9, kit:k[0], shorts:k[1], gkKit:k[2], gkShorts:k[3], ink: k[0] === "#ffffff" ? "#222" : "#fff" };
+  c.sig = [state, c.cam, c.flip?1:0, c.shot, c.dive||"-", c.kit, c.gkKit].join("|");
+  c.state = state;
+  return c;
+}
+function markup(c){
+  const M = G4.mouth(c.cam), K = G4.marks(c.cam, c.flip);
+  const cry = c.state === "scored" ? "GOAL" : c.state === "saved" ? "SAVED" : c.state === "missed" ? "OVER" : "";
+  const cryAt = (c.state === "saved" ? .64 : c.state === "missed" ? .80 : .72) * G4.size.dur / 1000;
+  $("stage").innerHTML = '<div class="g3 ' + c.state + '" style="--gmL:' + M.L + '%;--gmR:' + M.R + '%;--gmT:' + M.T + '%;--gmH:' + M.H + '%;--g3cry:' + cryAt.toFixed(2) + 's">' +
+    '<canvas class="g3c" id="g3c" width="' + M.w + '" height="' + M.h + '"></canvas>' +
+    '<span class="g3-name g3-keeper" style="left:' + K.gk.x + '%;top:' + K.gk.y + '%">Buffon</span>' +
+    '<span class="g3-name g3-striker" style="left:' + K.man.x + '%">Kuyt</span>' +
+    '<div class="h2gm">' + ["tl","tr","bl","br"].map(k => '<button class="h2gmc ' + k + '"><span>' + CORNER_SAYS[k] + '</span></button>').join("") + '</div>' +
+    '<div class="g3-cry">' + cry + '</div></div>';
+}
+function show(u, held){
+  G4.stop(); cfg = current(held); markup(cfg);
+  /* arm without the loop: paint the frame asked for */
+  cfg.hold = true; G4.arm(cfg); G4.stop(); cfg.hold = !!held;
+  G4.paint(u, $("g3c"));
+}
+function play(){
+  G4.stop(); cfg = current(false); markup(cfg); G4.arm(cfg);
+  cancelAnimationFrame(rafId); pt0 = 0;
+  const tick = now => { if(!pt0) pt0 = now; const u = Math.min(1, (now - pt0) / G4.size.dur); $("u").value = Math.round(u*1000); $("uv").textContent = u.toFixed(2); if(u < 1) rafId = requestAnimationFrame(tick); };
+  rafId = requestAnimationFrame(tick);
+}
+$("u").addEventListener("input", () => { G4.stop(); cancelAnimationFrame(rafId); const u = $("u").value/1000; $("uv").textContent = u.toFixed(2); show(u, false); });
+$("play").onclick = play;
+$("hold").onclick = () => { $("u").value = 160; $("uv").textContent = "0.16"; show(.16, true); };
+$("end").onclick = () => { $("u").value = 1000; $("uv").textContent = "1.00"; show(1, false); };
+for(const id of ["cam","out","shot","dive","flip","kit"]) $(id).onchange = () => show($("u").value/1000, false);
+/* ?u=0.5&cam=close&out=scored&shot=tl&dive=br&hold=1 for screenshots */
+const q = new URLSearchParams(location.search);
+for(const id of ["cam","out","shot","dive","flip","kit"]) if(q.has(id)) $(id).value = q.get(id);
+const u0 = q.has("u") ? +q.get("u") : .16;
+$("u").value = Math.round(u0*1000); $("uv").textContent = u0.toFixed(2);
+show(u0, q.has("hold"));
+</script>
+</body>
+</html>
