@@ -1,0 +1,1108 @@
+[
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which actor played Brian Clough in the 2009 film The Damned United?",
+  "a": "Michael Sheen",
+  "src": "https://en.wikipedia.org/wiki/The_Damned_United_(film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "The film The Damned United tells of Brian Clough's 44 days in charge of which club?",
+  "a": "Leeds United",
+  "src": "https://en.wikipedia.org/wiki/The_Damned_United_(film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which former Manchester United star appears as himself in Ken Loach's 2009 film Looking for Eric?",
+  "a": "Eric Cantona",
+  "sub": "He pops up as a vision to give life advice to a Manchester postman.",
+  "src": "https://en.wikipedia.org/wiki/Looking_for_Eric",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Nick Hornby's book Fever Pitch, filmed in 1997 with Colin Firth, is about following which club?",
+  "a": "Arsenal",
+  "sub": "The film centres on the 1988-89 title season.",
+  "src": "https://en.wikipedia.org/wiki/Fever_Pitch_(1997_film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In the 2005 film Goal!, which English club gives the young Santiago Munez a trial?",
+  "a": "Newcastle United",
+  "src": "https://en.wikipedia.org/wiki/Goal!_(film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which 2001 Stephen Chow comedy has a former monk build a football team out of his kung fu brothers?",
+  "a": "Shaolin Soccer",
+  "src": "https://en.wikipedia.org/wiki/Shaolin_Soccer",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which 2001 Vinnie Jones film has a disgraced former England captain running a prison football team?",
+  "a": "Mean Machine",
+  "sub": "It is a remake of The Longest Yard, with football instead of American football.",
+  "src": "https://en.wikipedia.org/wiki/Mean_Machine_(film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "The 2006 film Zidane: A 21st Century Portrait follows him through one whole Real Madrid match with 17 cameras. How does his match end?",
+  "a": "He gets sent off after a brawl",
+  "sub": "The opponents were Villarreal, in April 2005.",
+  "src": "https://en.wikipedia.org/wiki/Zidane:_A_21st_Century_Portrait",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which England winger performed the rap on New Order's 1990 World Cup song World in Motion?",
+  "a": "John Barnes",
+  "sub": "Beardsley, Gascoigne, McMahon and Walker auditioned for it too.",
+  "src": "https://en.wikipedia.org/wiki/World_in_Motion",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which singer released La Copa de la Vida, the official song of the 1998 World Cup?",
+  "a": "Ricky Martin",
+  "src": "https://en.wikipedia.org/wiki/La_Copa_de_la_Vida",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which 1998 World Cup song by Fat Les was named after a curry?",
+  "a": "Vindaloo",
+  "sub": "Blur bassist Alex James co-wrote it.",
+  "src": "https://en.wikipedia.org/wiki/Vindaloo_(song)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Vindaloo reached number two in June 1998. Which football song kept it off the top?",
+  "a": "3 Lions '98, the re-recorded Three Lions",
+  "src": "https://en.wikipedia.org/wiki/Vindaloo_(song)",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Whose recording of Nessun Dorma was the BBC's theme tune for the 1990 World Cup?",
+  "a": "Luciano Pavarotti",
+  "src": "https://en.wikipedia.org/wiki/Nessun_dorma",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "The table football game Subbuteo is named after which bird?",
+  "a": "The hobby, a small falcon, Falco subbuteo",
+  "sub": "Its creator wanted to call the game Hobby but could not get the trademark.",
+  "src": "https://en.wikipedia.org/wiki/Subbuteo",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Millwall teenager became a cult hero of the computer game Championship Manager for turning into a world-beater?",
+  "a": "Cherno Samba",
+  "sub": "In real life he went on to Cádiz, Plymouth and Finland.",
+  "src": "https://en.wikipedia.org/wiki/Cherno_Samba",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "In the TV comedy Ted Lasso, which sport did Ted coach before he took over AFC Richmond?",
+  "a": "American football",
+  "src": "https://en.wikipedia.org/wiki/Ted_Lasso",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Which real London ground stands in for Nelson Road, AFC Richmond's stadium in Ted Lasso?",
+  "a": "Selhurst Park",
+  "src": "https://en.wikipedia.org/wiki/Ted_Lasso",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which actress played Jules alongside Parminder Nagra in Bend It Like Beckham?",
+  "a": "Keira Knightley",
+  "src": "https://en.wikipedia.org/wiki/Bend_It_Like_Beckham",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Who directed the 2002 film Bend It Like Beckham?",
+  "a": "Gurinder Chadha",
+  "src": "https://en.wikipedia.org/wiki/Bend_It_Like_Beckham",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Cuban-American rapper sang We Are One, the official song of the 2014 World Cup?",
+  "a": "Pitbull",
+  "sub": "Jennifer Lopez and Claudia Leitte sang on it too.",
+  "src": "https://en.wikipedia.org/wiki/We_Are_One_(Ole_Ola)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Who played the hapless title role in the 2001 comedy Mike Bassett: England Manager?",
+  "a": "Ricky Tomlinson",
+  "src": "https://en.wikipedia.org/wiki/Mike_Bassett:_England_Manager",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Zlatan Ibrahimović acted in the 2023 film Asterix and Obelix: The Middle Kingdom. What was his character called?",
+  "a": "Antivirus, a Roman warrior serving Caesar",
+  "src": "https://en.wikipedia.org/wiki/Asterix_%26_Obelix:_The_Middle_Kingdom",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "In the 1981 film Escape to Victory, which position does Sylvester Stallone play?",
+  "a": "Goalkeeper",
+  "sub": "He saves a penalty as time runs out against the Germans.",
+  "src": "https://en.wikipedia.org/wiki/Escape_to_Victory",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Players from which English club filled out the football scenes in Escape to Victory?",
+  "a": "Ipswich Town",
+  "sub": "Gordon Banks coached Stallone on his goalkeeping.",
+  "src": "https://en.wikipedia.org/wiki/Escape_to_Victory",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which two Italian singers recorded Un'estate italiana, the song of Italia 90?",
+  "a": "Gianna Nannini and Edoardo Bennato",
+  "sub": "Giorgio Moroder wrote the music.",
+  "src": "https://en.wikipedia.org/wiki/Un%27estate_italiana",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which actor plays an expelled Harvard student drawn into a West Ham hooligan firm in the 2005 film Green Street?",
+  "a": "Elijah Wood",
+  "sub": "Charlie Hunnam co-stars.",
+  "src": "https://en.wikipedia.org/wiki/Green_Street_(film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "In which Dutch city did the Netherlands win the Women's Euro 2017 final?",
+  "a": "Enschede",
+  "sub": "At De Grolsch Veste, FC Twente's ground, 4-2 against Denmark.",
+  "src": "https://en.wikipedia.org/wiki/UEFA_Women%27s_Euro_2017_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "In which French city did the Netherlands lose the 2019 Women's World Cup final to the USA?",
+  "a": "Lyon",
+  "sub": "The stadium sits in the suburb of Décines-Charpieu.",
+  "src": "https://en.wikipedia.org/wiki/2019_FIFA_Women%27s_World_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "scorers",
+  "q": "Who scored the USA's opening goal, a penalty, against the Netherlands in the 2019 Women's World Cup final?",
+  "a": "Megan Rapinoe",
+  "sub": "Rose Lavelle added the second in a 2-0 win.",
+  "src": "https://en.wikipedia.org/wiki/2019_FIFA_Women%27s_World_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "cups",
+  "q": "Which England goalkeeper saved two penalties in the shoot-out of the Women's Euro 2025 final?",
+  "a": "Hannah Hampton",
+  "sub": "She was named player of the match.",
+  "src": "https://en.wikipedia.org/wiki/UEFA_Women%27s_Euro_2025_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "cups",
+  "q": "Who scored the winning penalty for England against Spain in the Women's Euro 2025 final shoot-out?",
+  "a": "Chloe Kelly",
+  "sub": "She had also scored the winner in the 2022 final.",
+  "src": "https://en.wikipedia.org/wiki/UEFA_Women%27s_Euro_2025_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "In which Swiss city was the Women's Euro 2025 final played?",
+  "a": "Basel",
+  "sub": "At St. Jakob-Park.",
+  "src": "https://en.wikipedia.org/wiki/UEFA_Women%27s_Euro_2025_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "The Netherlands women played the first FIFA-recognised women's international in 1971. Who were the opponents?",
+  "a": "France",
+  "sub": "The Dutch lost 4-0 in Hazebrouck.",
+  "src": "https://en.wikipedia.org/wiki/Netherlands_women%27s_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "The Dutch men are Oranje. What is the Dutch women's team nicknamed?",
+  "a": "The Leeuwinnen, the Lionesses",
+  "sub": "Their badge has a lioness instead of a lion.",
+  "src": "https://en.wikipedia.org/wiki/Netherlands_women%27s_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which country will host the 2027 Women's World Cup, the first in South America?",
+  "a": "Brazil",
+  "src": "https://en.wikipedia.org/wiki/2027_FIFA_Women%27s_World_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "At which tournament did the Netherlands women play their first major finals, finishing joint third?",
+  "a": "Women's Euro 2009",
+  "sub": "They shared third place with Norway.",
+  "src": "https://en.wikipedia.org/wiki/Netherlands_women%27s_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which country's women's team is nicknamed the Super Falcons?",
+  "a": "Nigeria",
+  "src": "https://en.wikipedia.org/wiki/Nigeria_women%27s_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which country's women's team is nicknamed Banyana Banyana?",
+  "a": "South Africa",
+  "sub": "It means the girls, in Sesotho.",
+  "src": "https://en.wikipedia.org/wiki/South_Africa_women%27s_national_soccer_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which country's women's team is known as Nadeshiko?",
+  "a": "Japan",
+  "sub": "The name, a kind of flower, was picked from about 2,700 public entries in 2004.",
+  "src": "https://en.wikipedia.org/wiki/Japan_women%27s_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which country's women's team are the Matildas?",
+  "a": "Australia",
+  "sub": "The name comes from the song Waltzing Matilda, and the players disliked it at first.",
+  "src": "https://en.wikipedia.org/wiki/Australia_women%27s_national_soccer_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "What is the derby between LA Galaxy and Los Angeles FC called?",
+  "a": "El Tráfico",
+  "src": "https://en.wikipedia.org/wiki/El_Tr%C3%A1fico",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "The Hudson River Derby is played between New York City FC and which club?",
+  "a": "New York Red Bulls",
+  "sub": "The river runs between their two stadiums.",
+  "src": "https://en.wikipedia.org/wiki/Hudson_River_Derby",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "The Cascadia Cup is fought over by Seattle Sounders, Portland Timbers and which Canadian club?",
+  "a": "Vancouver Whitecaps",
+  "sub": "Supporters of the three clubs created the trophy in 2004.",
+  "src": "https://en.wikipedia.org/wiki/Cascadia_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "imports",
+  "q": "Which American prodigy was signed by DC United aged 14 in 2004 and hailed as the next Pelé?",
+  "a": "Freddy Adu",
+  "sub": "He went on to play for 15 teams in nine countries.",
+  "src": "https://en.wikipedia.org/wiki/Freddy_Adu",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Gareth Bale scored a stoppage-time equaliser in the 2022 MLS Cup final for LAFC. Who were the opponents?",
+  "a": "Philadelphia Union",
+  "sub": "LAFC won the shoot-out 3-0.",
+  "src": "https://en.wikipedia.org/wiki/MLS_Cup_2022",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "champions",
+  "q": "Which club won its first MLS Cup in 2025, with Lionel Messi named man of the match in the final?",
+  "a": "Inter Miami",
+  "sub": "They beat Vancouver Whitecaps 3-1.",
+  "src": "https://en.wikipedia.org/wiki/MLS_Cup_2025",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Mexico City club, owned by Televisa, is nicknamed Las Águilas, the Eagles?",
+  "a": "Club América",
+  "src": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "What are matches between Club América and Chivas Guadalajara called?",
+  "a": "El Súper Clásico",
+  "src": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "imports",
+  "q": "Which French striker left Marseille for Mexican club Tigres and won five league titles there?",
+  "a": "André-Pierre Gignac",
+  "sub": "He finished as Tigres' leading scorer across all competitions.",
+  "src": "https://en.wikipedia.org/wiki/Andr%C3%A9-Pierre_Gignac",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "The Clásico Regio is the derby of which Mexican city?",
+  "a": "Monterrey",
+  "sub": "It is Monterrey against Tigres UANL.",
+  "src": "https://en.wikipedia.org/wiki/Cl%C3%A1sico_Regiomontano",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "europe",
+  "q": "Which Japanese club did Saudi side Al-Ahli beat in the 2025 Asian Champions League Elite final?",
+  "a": "Kawasaki Frontale",
+  "sub": "It finished 2-0 in Jeddah, with both goals set up by Roberto Firmino.",
+  "src": "https://en.wikipedia.org/wiki/2025_AFC_Champions_League_Elite_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which England striker joined Saudi club Al-Ahli for a reported 40 million pounds in 2024?",
+  "a": "Ivan Toney",
+  "src": "https://en.wikipedia.org/wiki/Ivan_Toney",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "managers",
+  "q": "Which Liverpool legend managed Saudi club Al-Ettifaq from 2023 to 2025?",
+  "a": "Steven Gerrard",
+  "src": "https://en.wikipedia.org/wiki/Steven_Gerrard",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "transfers",
+  "q": "Which former Manchester United forward signed for South Korean club FC Seoul in 2024?",
+  "a": "Jesse Lingard",
+  "sub": "It was called the biggest signing in K League history.",
+  "src": "https://en.wikipedia.org/wiki/Jesse_Lingard",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "transfers",
+  "q": "After FC Seoul, Jesse Lingard joined which Brazilian club in 2026?",
+  "a": "Corinthians",
+  "src": "https://en.wikipedia.org/wiki/Jesse_Lingard",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "imports",
+  "q": "Which German World Cup winner played three seasons for Japan's Vissel Kobe from 2017?",
+  "a": "Lukas Podolski",
+  "src": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Lukas Podolski won the Polish Cup with Górnik Zabrze in May 2026. What did he do later that month?",
+  "a": "Became the club's majority owner and retired",
+  "src": "https://en.wikipedia.org/wiki/Lukas_Podolski",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "transfers",
+  "q": "Which Brazilian left Chelsea for Shanghai SIPG in January 2017 for 60 million pounds?",
+  "a": "Oscar",
+  "src": "https://en.wikipedia.org/wiki/Oscar_(footballer,_born_1991)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "imports",
+  "q": "Which Juventus legend joined Australian club Sydney FC in 2012?",
+  "a": "Alessandro Del Piero",
+  "sub": "He was paid about 3.5 million Australian dollars a season.",
+  "src": "https://en.wikipedia.org/wiki/Alessandro_Del_Piero",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "imports",
+  "q": "Alessandro Del Piero finished his career in 2014 with which Indian Super League club?",
+  "a": "Delhi Dynamos",
+  "src": "https://en.wikipedia.org/wiki/Alessandro_Del_Piero",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which Italian World Cup winner became player-manager of Chennaiyin in the first Indian Super League season, in 2014?",
+  "a": "Marco Materazzi",
+  "src": "https://en.wikipedia.org/wiki/Marco_Materazzi",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "imports",
+  "q": "Kaizer Chiefs founder Kaizer Motaung played in the NASL in 1968 for which American club?",
+  "a": "Atlanta Chiefs",
+  "sub": "He scored twice on his debut, a friendly against Manchester City.",
+  "src": "https://en.wikipedia.org/wiki/Kaizer_Motaung",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Boca Juniors' founders were sons of immigrants from which Italian city?",
+  "a": "Genoa",
+  "sub": "Hence the nickname Xeneizes, the Genoese.",
+  "src": "https://en.wikipedia.org/wiki/Boca_Juniors",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "europe",
+  "q": "Which club beat Palmeiras 1-0 in Lima to win the 2025 Copa Libertadores?",
+  "a": "Flamengo",
+  "sub": "It made them the first Brazilian club to win it four times.",
+  "src": "https://en.wikipedia.org/wiki/2025_Copa_Libertadores_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "The Gre-Nal is the derby of which Brazilian city?",
+  "a": "Porto Alegre",
+  "sub": "Grêmio against Internacional, played since 1909.",
+  "src": "https://en.wikipedia.org/wiki/Grenal",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Peñarol and Nacional contest Uruguay's great derby. In which city are both based?",
+  "a": "Montevideo",
+  "src": "https://en.wikipedia.org/wiki/Uruguayan_Cl%C3%A1sico",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Newell's Old Boys are nicknamed the Lepers. How did they earn it?",
+  "a": "By playing a charity match for leprosy that Rosario Central had refused",
+  "sub": "Central became the Canallas, the scoundrels.",
+  "src": "https://en.wikipedia.org/wiki/Rosario_derby",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Argentine club is nicknamed Rey de Copas, the King of Cups?",
+  "a": "Independiente",
+  "sub": "Seven Copa Libertadores titles, four of them in a row.",
+  "src": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Independiente",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "records",
+  "q": "At which World Cup did semi-automated offside technology make its men's debut?",
+  "a": "2022, in Qatar",
+  "sub": "A sensor inside the match ball helps pin down the moment of the pass.",
+  "src": "https://en.wikipedia.org/wiki/Semi-automated_offside_technology",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Which World Cup was the first to award three points for a win?",
+  "a": "1994, in the USA",
+  "sub": "It was also the first with the back-pass rule.",
+  "src": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "In which year were goalkeepers first restricted to handling the ball only inside their penalty area?",
+  "a": "1912",
+  "sub": "The goalkeeper first appeared in the Laws in 1871.",
+  "src": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "records",
+  "q": "Numbered shirts were first recorded in 1911, worn by Sydney Leichhardt and HMS Powerful. In which country?",
+  "a": "Australia",
+  "sub": "A year later numbers were made compulsory in New South Wales.",
+  "src": "https://en.wikipedia.org/wiki/Squad_number_(association_football)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Which was the first World Cup to use the golden goal in extra time?",
+  "a": "1998, in France",
+  "sub": "It was also the first to allow three substitutions per game.",
+  "src": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "records",
+  "q": "Since 2025, what does the other team get if a goalkeeper holds the ball for more than eight seconds?",
+  "a": "A corner kick",
+  "sub": "It replaced the old indirect free kick, which was rarely given.",
+  "src": "https://global.espn.com/football/story/_/id/44068077/corners-given-combat-gk-wasting-refs-body-says",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Germany's 2006 World Cup mascot Goleo was a lion in a football shirt. What was he famously missing?",
+  "a": "Trousers",
+  "sub": "The toy firm licensed to make him went bankrupt a month before the tournament.",
+  "src": "https://en.wikipedia.org/wiki/Goleo_VI",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "What kind of animal was Zakumi, mascot of the 2010 World Cup?",
+  "a": "A leopard",
+  "sub": "ZA for South Africa, kumi for ten in several African languages.",
+  "src": "https://en.wikipedia.org/wiki/Zakumi",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "What kind of animal was Fuleco, mascot of the 2014 World Cup in Brazil?",
+  "a": "An armadillo",
+  "sub": "The name blends futebol and ecologia.",
+  "src": "https://en.wikipedia.org/wiki/Fuleco",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "What kind of animal was Zabivaka, mascot of the 2018 World Cup in Russia?",
+  "a": "A wolf",
+  "sub": "He beat a tiger and a cat in a public vote.",
+  "src": "https://en.wikipedia.org/wiki/Zabivaka",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which puppet was the first European Championship mascot, at Euro 1980 in Italy?",
+  "a": "Pinocchio",
+  "src": "https://en.wikipedia.org/wiki/UEFA_European_Championship_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Euro 2000's mascot Benelucky was a cross between which two creatures?",
+  "a": "A lion and a devil",
+  "sub": "The Dutch lion and the Belgian Red Devils, with a name punning on Benelux.",
+  "src": "https://en.wikipedia.org/wiki/UEFA_Euro_2000",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Mexico City stadium became the first to host matches at three World Cups when it staged the 2026 opener?",
+  "a": "Estadio Azteca",
+  "sub": "It had already hosted the 1970 and 1986 finals.",
+  "src": "https://en.wikipedia.org/wiki/Estadio_Azteca",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Which stadium hosted the 2026 World Cup final?",
+  "a": "MetLife Stadium, in East Rutherford, New Jersey",
+  "src": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Qatar's Stadium 974 was built out of what?",
+  "a": "Recycled shipping containers",
+  "sub": "974 of them, also Qatar's international dialling code.",
+  "src": "https://en.wikipedia.org/wiki/Stadium_974",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Which Qatar 2022 stadium, designed like a nomadic tent, hosted the opening match?",
+  "a": "Al Bayt Stadium",
+  "src": "https://en.wikipedia.org/wiki/Al_Bayt_Stadium",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Kettering Town wore England's first shirt sponsor, Kettering Tyres, in 1976. When the FA ordered it off, what did they try?",
+  "a": "Shortening it to Kettering T, claiming the T stood for Town",
+  "sub": "Player-manager Derek Dougan had negotiated the deal.",
+  "src": "https://en.wikipedia.org/wiki/Kettering_Town_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "The sportswear brand Hummel takes its name from the German word for which insect?",
+  "a": "The bumblebee",
+  "sub": "The company is based in Aarhus, Denmark.",
+  "src": "https://en.wikipedia.org/wiki/Hummel_International",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Three fans in Rosario founded a church in 1998 to worship which footballer?",
+  "a": "Diego Maradona",
+  "sub": "They write his name D10S, from Dios and his number 10.",
+  "src": "https://en.wikipedia.org/wiki/Iglesia_Maradoniana",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "During which 1914 ceasefire did British and German soldiers play football in no man's land?",
+  "a": "The Christmas truce",
+  "src": "https://en.wikipedia.org/wiki/Christmas_truce",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Comic hero Roy Race, of Roy of the Rovers, played for which fictional club?",
+  "a": "Melchester Rovers",
+  "sub": "The strip began in the Tiger comic in 1954.",
+  "src": "https://en.wikipedia.org/wiki/Roy_of_the_Rovers",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Japanese company made the Pro Evolution Soccer games, now called eFootball?",
+  "a": "Konami",
+  "sub": "In Japan the series was called Winning Eleven.",
+  "src": "https://en.wikipedia.org/wiki/EFootball",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Dutch singer had a number one with Viva Hollandia in 2008?",
+  "a": "Wolter Kroes",
+  "src": "https://en.wikipedia.org/wiki/Wolter_Kroes",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Adidas and Puma were founded by two feuding brothers. What was their surname?",
+  "a": "Dassler",
+  "sub": "Adolf started Adidas and Rudolf started Puma, both in Herzogenaurach.",
+  "src": "https://en.wikipedia.org/wiki/Adidas",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which national team is nicknamed the Elephants?",
+  "a": "Ivory Coast",
+  "src": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which country's national team is known as the All Whites?",
+  "a": "New Zealand",
+  "src": "https://en.wikipedia.org/wiki/New_Zealand_men%27s_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which national team are the Lions of Teranga?",
+  "a": "Senegal",
+  "src": "https://en.wikipedia.org/wiki/Senegal_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which national team is nicknamed La Vinotinto, after the red wine colour of its shirts?",
+  "a": "Venezuela",
+  "src": "https://en.wikipedia.org/wiki/Venezuela_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which country's national team is nicknamed the Reggae Boyz?",
+  "a": "Jamaica",
+  "src": "https://en.wikipedia.org/wiki/Jamaica_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Zambia's national team is nicknamed Chipolopolo. What does it mean?",
+  "a": "The Copper Bullets",
+  "sub": "In the 1980s they were the KK 11, after President Kenneth Kaunda.",
+  "src": "https://en.wikipedia.org/wiki/Zambia_national_football_team",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "What animal was World Cup Willie, the mascot of the 1966 World Cup?",
+  "a": "A lion",
+  "sub": "He was one of the first mascots at any major sporting event.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Footix, the mascot of the 1998 World Cup in France, was what kind of bird?",
+  "a": "A cockerel",
+  "src": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Pique, the official mascot of the 1986 World Cup in Mexico, was what?",
+  "a": "A jalapeño pepper",
+  "src": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "The 2026 World Cup had three mascots: a moose, a jaguar and a bald eagle. Which one stood for Mexico?",
+  "a": "The jaguar, Zayu",
+  "sub": "Maple the moose was Canada, Clutch the eagle the USA.",
+  "src": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Ciao, the mascot of Italia 90, was a stick figure with what for a head?",
+  "a": "A football",
+  "src": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Tip and Tap, two boys in kit, were the mascots of which World Cup?",
+  "a": "1974, in West Germany",
+  "src": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_mascots",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Colombian singer met Gerard Piqué when he appeared in her Waka Waka video?",
+  "a": "Shakira",
+  "sub": "They were together from 2010 to 2022.",
+  "src": "https://en.wikipedia.org/wiki/Gerard_Piqu%C3%A9",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Kaizer Chiefs and Orlando Pirates are giant clubs in which country?",
+  "a": "South Africa",
+  "sub": "Both come from Soweto.",
+  "src": "https://en.wikipedia.org/wiki/Orlando_Pirates_F.C.",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "cups",
+  "q": "The AFC Champions League Elite is for clubs from which continent?",
+  "a": "Asia",
+  "src": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "transfers",
+  "q": "Which Uruguayan striker joined his old Barcelona teammate Lionel Messi at Inter Miami in 2024?",
+  "a": "Luis Suárez",
+  "sub": "He won the MLS Cup in his second season there.",
+  "src": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer,_born_1987)",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Which Rio de Janeiro stadium hosted the 2014 World Cup final?",
+  "a": "The Maracanã",
+  "sub": "Germany beat Argentina 1-0 after extra time.",
+  "src": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_final",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which 2023 Taika Waititi film tells the story of American Samoa's football team and their new coach?",
+  "a": "Next Goal Wins",
+  "sub": "It was based on a 2014 documentary of the same name.",
+  "src": "https://en.wikipedia.org/wiki/Next_Goal_Wins_(2023_film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "managers",
+  "q": "Which Dutch-American coach, played by Michael Fassbender in Next Goal Wins, took charge of American Samoa?",
+  "a": "Thomas Rongen",
+  "sub": "He was MLS coach of the year in the league's first season, 1996.",
+  "src": "https://en.wikipedia.org/wiki/Thomas_Rongen",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "The Mexican wave got its name from TV pictures of which tournament?",
+  "a": "The 1986 World Cup in Mexico",
+  "sub": "The wave itself started at American sports events around 1979.",
+  "src": "https://en.wikipedia.org/wiki/Wave_(audience)",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which MLS club began life in 1996 as the New York New Jersey MetroStars?",
+  "a": "New York Red Bulls",
+  "sub": "Red Bull bought the club in 2006.",
+  "src": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which MLS club started out in 1996 as the Kansas City Wiz?",
+  "a": "Sporting Kansas City",
+  "sub": "They were the Kansas City Wizards from 1997.",
+  "src": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "When Ada Hegerberg collected the first women's Ballon d'Or in 2018, what did host Martin Solveig ask her?",
+  "a": "Whether she knew how to twerk",
+  "sub": "She said no, and he later apologised.",
+  "src": "https://en.wikipedia.org/wiki/Ada_Hegerberg",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "transfers",
+  "q": "Neymar's 2023 move to Al-Hilal was widely called a flop. How many games did he play for them?",
+  "a": "Seven, with one goal",
+  "sub": "He ruptured a cruciate ligament in October 2023.",
+  "src": "https://en.wikipedia.org/wiki/Neymar",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Brandi Chastain scored the winning penalty in the 1999 Women's World Cup final. How did she celebrate?",
+  "a": "She took her shirt off, celebrating in her sports bra",
+  "sub": "The image became a symbol of women's sport worldwide.",
+  "src": "https://en.wikipedia.org/wiki/Brandi_Chastain",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "cups",
+  "q": "New Zealand's Auckland City lost 10-0 to Bayern at the 2025 Club World Cup. What did they do against Boca Juniors?",
+  "a": "Drew 1-1",
+  "sub": "Boca's goal was an Auckland own goal.",
+  "src": "https://en.wikipedia.org/wiki/Auckland_City_FC",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "imports",
+  "q": "Carlos Tevez was among the world's best-paid players at Shanghai Shenhua. How did he describe his time in China?",
+  "a": "As a holiday",
+  "sub": "His manager had called him overweight and unfit.",
+  "src": "https://en.wikipedia.org/wiki/Carlos_Tevez",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "imports",
+  "q": "Oscar was banned for eight games in China in 2017. What had he done?",
+  "a": "Kicked the ball at Guangzhou R&F players, twice on purpose, starting a brawl",
+  "sub": "Two Guangzhou players were sent off and he was not even booked.",
+  "src": "https://en.wikipedia.org/wiki/Oscar_(footballer,_born_1991)",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "imports",
+  "q": "How did Zlatan Ibrahimović announce his arrival at LA Galaxy in 2018?",
+  "a": "A full-page ad in the LA Times saying Dear Los Angeles, you're welcome",
+  "sub": "He then scored twice on debut in the first El Tráfico.",
+  "src": "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Sylvester Stallone was injured making Escape to Victory. How?",
+  "a": "He broke a finger trying to save a Pelé penalty",
+  "src": "https://en.wikipedia.org/wiki/Escape_to_Victory",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "New Order's World in Motion was first going to be called E for England. Why did the FA say no?",
+  "a": "It sounded like a reference to the drug ecstasy",
+  "src": "https://en.wikipedia.org/wiki/World_in_Motion",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "How did comic hero Roy Race's playing career end in 1993?",
+  "a": "He lost his left foot in a helicopter crash",
+  "sub": "In the 1980s he had been shot in his office by a mystery gunman, Dallas-style.",
+  "src": "https://en.wikipedia.org/wiki/Roy_of_the_Rovers",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "records",
+  "q": "By what score did the USA beat Thailand in their opening game of the 2019 Women's World Cup?",
+  "a": "13-0",
+  "sub": "Alex Morgan scored five.",
+  "src": "https://en.wikipedia.org/wiki/United_States_v_Thailand_(2019_FIFA_Women%27s_World_Cup)",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which footballer appears in the 1998 Cate Blanchett film Elizabeth, as the Frenchman Paul de Foix?",
+  "a": "Eric Cantona",
+  "src": "https://en.wikipedia.org/wiki/Elizabeth_(film)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In the comedy Mike Bassett: England Manager, which club does Bassett manage before getting the England job?",
+  "a": "Norwich City",
+  "sub": "He had just won the Mr Clutch Cup final with them at Wembley.",
+  "src": "https://en.wikipedia.org/wiki/Mike_Bassett:_England_Manager",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which comedian wrote the words for both World in Motion in 1990 and Vindaloo in 1998?",
+  "a": "Keith Allen",
+  "src": "https://en.wikipedia.org/wiki/Vindaloo_(song)",
+  "conf": "sure"
+ }
+]

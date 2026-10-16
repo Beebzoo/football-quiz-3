@@ -3372,6 +3372,571 @@
    "q": "Barcelona's women drew a world record crowd of over 91,000 in 2022 at which stadium?",
    "a": "The Camp Nou",
    "cat": "grounds"
+  },
+  {
+   "q": "The film The Damned United tells of Brian Clough's 44 days in charge of which club?",
+   "a": "Leeds United",
+   "cat": "stories"
+  },
+  {
+   "q": "Which former Manchester United star appears as himself in Ken Loach's 2009 film Looking for Eric?",
+   "a": "Eric Cantona",
+   "cat": "stories"
+  },
+  {
+   "q": "Nick Hornby's book Fever Pitch, filmed in 1997 with Colin Firth, is about following which club?",
+   "a": "Arsenal",
+   "cat": "stories"
+  },
+  {
+   "q": "Which 2001 Stephen Chow comedy has a former monk build a football team out of his kung fu brothers?",
+   "a": "Shaolin Soccer",
+   "cat": "stories"
+  },
+  {
+   "q": "Which singer released La Copa de la Vida, the official song of the 1998 World Cup?",
+   "a": "Ricky Martin",
+   "cat": "stories"
+  },
+  {
+   "q": "Which 1998 World Cup song by Fat Les was named after a curry?",
+   "a": "Vindaloo",
+   "cat": "stories"
+  },
+  {
+   "q": "Whose recording of Nessun Dorma was the BBC's theme tune for the 1990 World Cup?",
+   "a": "Luciano Pavarotti",
+   "cat": "stories"
+  },
+  {
+   "q": "In the TV comedy Ted Lasso, which sport did Ted coach before he took over AFC Richmond?",
+   "a": "American football",
+   "cat": "stories"
+  },
+  {
+   "q": "Which actress played Jules alongside Parminder Nagra in Bend It Like Beckham?",
+   "a": "Keira Knightley",
+   "cat": "stories"
+  },
+  {
+   "q": "In the 1981 film Escape to Victory, which position does Sylvester Stallone play?",
+   "a": "Goalkeeper",
+   "cat": "stories"
+  },
+  {
+   "q": "The Dutch men are Oranje. What is the Dutch women's team nicknamed?",
+   "a": "The Leeuwinnen, the Lionesses",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country will host the 2027 Women's World Cup, the first in South America?",
+   "a": "Brazil",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country's women's team are the Matildas?",
+   "a": "Australia",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won its first MLS Cup in 2025, with Lionel Messi named man of the match in the final?",
+   "a": "Inter Miami",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Liverpool legend managed Saudi club Al-Ettifaq from 2023 to 2025?",
+   "a": "Steven Gerrard",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club beat Palmeiras 1-0 in Lima to win the 2025 Copa Libertadores?",
+   "a": "Flamengo",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Mexico City stadium became the first to host matches at three World Cups when it staged the 2026 opener?",
+   "a": "Estadio Azteca",
+   "cat": "grounds"
+  },
+  {
+   "q": "Qatar's Stadium 974 was built out of what?",
+   "a": "Recycled shipping containers",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Japanese company made the Pro Evolution Soccer games, now called eFootball?",
+   "a": "Konami",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch singer had a number one with Viva Hollandia in 2008?",
+   "a": "Wolter Kroes",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country's national team is nicknamed the Reggae Boyz?",
+   "a": "Jamaica",
+   "cat": "stories"
+  },
+  {
+   "q": "What animal was World Cup Willie, the mascot of the 1966 World Cup?",
+   "a": "A lion",
+   "cat": "stories"
+  },
+  {
+   "q": "Footix, the mascot of the 1998 World Cup in France, was what kind of bird?",
+   "a": "A cockerel",
+   "cat": "stories"
+  },
+  {
+   "q": "The 2026 World Cup had three mascots: a moose, a jaguar and a bald eagle. Which one stood for Mexico?",
+   "a": "The jaguar, Zayu",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Colombian singer met Gerard Piqué when he appeared in her Waka Waka video?",
+   "a": "Shakira",
+   "cat": "stories"
+  },
+  {
+   "q": "Kaizer Chiefs and Orlando Pirates are giant clubs in which country?",
+   "a": "South Africa",
+   "cat": "stories"
+  },
+  {
+   "q": "The AFC Champions League Elite is for clubs from which continent?",
+   "a": "Asia",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Uruguayan striker joined his old Barcelona teammate Lionel Messi at Inter Miami in 2024?",
+   "a": "Luis Suárez",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Rio de Janeiro stadium hosted the 2014 World Cup final?",
+   "a": "The Maracanã",
+   "cat": "grounds"
+  },
+  {
+   "q": "The Mexican wave got its name from TV pictures of which tournament?",
+   "a": "The 1986 World Cup in Mexico",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Spanish striker was nicknamed El Niño, the kid?",
+   "a": "Fernando Torres",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine striker is known by the nickname Kun?",
+   "a": "Sergio Agüero",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Uruguayan striker is nicknamed El Pistolero, the gunslinger?",
+   "a": "Luis Suárez",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Fiorentina striker did Italian fans call Batigol?",
+   "a": "Gabriel Batistuta",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Italian striker was nicknamed Super Pippo?",
+   "a": "Filippo Inzaghi",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Liverpool legend is known to the fans as King Kenny?",
+   "a": "Kenny Dalglish",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch midfielder was nicknamed the Pitbull?",
+   "a": "Edgar Davids",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Arsenal manager was nicknamed Le Professeur?",
+   "a": "Arsène Wenger",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Argentine is remembered as El Pibe de Oro, the golden boy?",
+   "a": "Diego Maradona",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch striker was nicknamed the Hunter?",
+   "a": "Klaas-Jan Huntelaar",
+   "cat": "stories"
+  },
+  {
+   "q": "Which English manager is known as Big Sam?",
+   "a": "Sam Allardyce",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Liverpool striker did the Kop simply call God?",
+   "a": "Robbie Fowler",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Manchester United striker was known as the Baby-faced Assassin?",
+   "a": "Ole Gunnar Solskjær",
+   "cat": "stories"
+  },
+  {
+   "q": "Which England left back was nicknamed Psycho?",
+   "a": "Stuart Pearce",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Spanish club did Thierry Henry join from Arsenal in 2007?",
+   "a": "Barcelona",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did David Beckham play for in the last season of his career, 2012-13?",
+   "a": "Paris Saint-Germain",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Spanish club did José Mourinho manage from 2010 to 2013?",
+   "a": "Real Madrid",
+   "cat": "managers"
+  },
+  {
+   "q": "Who took over as Barcelona manager from Frank Rijkaard in 2008?",
+   "a": "Pep Guardiola",
+   "cat": "managers"
+  },
+  {
+   "q": "Which coach won the 2025 Champions League with Paris Saint-Germain?",
+   "a": "Luis Enrique",
+   "cat": "managers"
+  },
+  {
+   "q": "Which national team did Carlo Ancelotti take charge of in 2025?",
+   "a": "Brazil",
+   "cat": "managers"
+  },
+  {
+   "q": "Which American club did Luis Suárez sign for ahead of the 2024 season, teaming up with Lionel Messi again?",
+   "a": "Inter Miami",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which manager won Manchester City's first Premier League title, in 2011-12?",
+   "a": "Roberto Mancini",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Argentine forward is nicknamed La Joya, the jewel?",
+   "a": "Paulo Dybala",
+   "cat": "stories"
+  },
+  {
+   "q": "Which forward celebrates his goals with a spinning jump and a shout of Siu?",
+   "a": "Cristiano Ronaldo",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country's national team did Mauricio Pochettino take over in 2024?",
+   "a": "The United States",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Italian club did Luka Modrić join after leaving Real Madrid in 2025?",
+   "a": "AC Milan",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Liverpool captain was sent off 38 seconds after coming on against Manchester United in 2015?",
+   "a": "Steven Gerrard",
+   "cat": "stories"
+  },
+  {
+   "q": "Why was no Ballon d'Or awarded in 2020?",
+   "a": "The COVID-19 pandemic",
+   "cat": "records"
+  },
+  {
+   "q": "Albärt, the mascot of Euro 2024 in Germany, was based on what kind of toy?",
+   "a": "A teddy bear",
+   "cat": "stories"
+  },
+  {
+   "q": "In which city was the 2006 World Cup final between Italy and France played?",
+   "a": "Berlin, at the Olympiastadion",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which city did Germany beat Argentina in the 2014 World Cup final?",
+   "a": "Rio de Janeiro, at the Maracanã",
+   "cat": "grounds"
+  },
+  {
+   "q": "South Korea and Japan shared the 2002 World Cup. Which of the two staged the final?",
+   "a": "Japan, in Yokohama",
+   "cat": "grounds"
+  },
+  {
+   "q": "Lionel Messi won his first major senior trophy with Argentina in 2021. Which tournament was it?",
+   "a": "The Copa América",
+   "cat": "champions"
+  },
+  {
+   "q": "Which veteran Dutch coach led Curaçao through qualifying for their first World Cup, sealed in November 2025?",
+   "a": "Dick Advocaat",
+   "cat": "managers"
+  },
+  {
+   "q": "Which country hosted the 2023 Nations League finals, won by Spain?",
+   "a": "The Netherlands",
+   "cat": "cups"
+  },
+  {
+   "q": "In 2023 UEFA awarded Euro 2032 jointly to Turkey and which other country?",
+   "a": "Italy",
+   "cat": "grounds"
+  },
+  {
+   "q": "Euro 2028 was awarded in 2023 to England, Scotland, Wales, Northern Ireland and which other country?",
+   "a": "The Republic of Ireland",
+   "cat": "grounds"
+  },
+  {
+   "q": "What did Germany's players cover in their team photo before playing Japan at the 2022 World Cup?",
+   "a": "Their mouths",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutchman was clean through on Iker Casillas in the 2010 World Cup final, only for the keeper's boot to stop it?",
+   "a": "Arjen Robben",
+   "cat": "stories"
+  },
+  {
+   "q": "The Netherlands opened Euro 2008 by beating the reigning world champions 3-0. Which country?",
+   "a": "Italy",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Belgian striker missed a string of late chances as Belgium went out of the 2022 World Cup against Croatia?",
+   "a": "Romelu Lukaku",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian's scissor kick against Serbia was voted goal of the 2022 World Cup?",
+   "a": "Richarlison",
+   "cat": "scorers"
+  },
+  {
+   "q": "In 2022, who became the first man to score at five different World Cups?",
+   "a": "Cristiano Ronaldo",
+   "cat": "records"
+  },
+  {
+   "q": "The 2026 World Cup opened at which famous Mexico City stadium?",
+   "a": "The Estadio Azteca",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Spain winger turned 17 the day before the Euro 2024 final?",
+   "a": "Lamine Yamal",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentina keeper saved from Randal Kolo Muani in the last minute of extra time in the 2022 World Cup final?",
+   "a": "Emiliano Martínez",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country went top of the FIFA world ranking for the first time in November 2015?",
+   "a": "Belgium",
+   "cat": "records"
+  },
+  {
+   "q": "Which Dutch coach took Australia to the 2006 World Cup?",
+   "a": "Guus Hiddink",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Liverpool striker climbed into the stands to confront fans after Uruguay's 2024 Copa América semi-final?",
+   "a": "Darwin Núñez",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Spain defender was booed by German fans for the rest of Euro 2024 after a handball in the quarter-final?",
+   "a": "Marc Cucurella",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch winger scored both goals in a 2-0 qualifier win in October 2017, then quit Oranje as the Dutch missed the World Cup anyway?",
+   "a": "Arjen Robben",
+   "cat": "stories"
+  },
+  {
+   "q": "Which France star missed the decisive penalty as Switzerland knocked the world champions out of Euro 2020?",
+   "a": "Kylian Mbappé",
+   "cat": "stories"
+  },
+  {
+   "q": "Which West German played on with his arm strapped in a sling in the 1970 World Cup semi-final against Italy?",
+   "a": "Franz Beckenbauer",
+   "cat": "stories"
+  },
+  {
+   "q": "Which French coach was in charge of Saudi Arabia when they beat Argentina at the 2022 World Cup?",
+   "a": "Hervé Renard",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Ireland captain was sent home from the squad's 2002 World Cup training camp on Saipan?",
+   "a": "Roy Keane",
+   "cat": "stories"
+  },
+  {
+   "q": "Which English club won the 2025-26 Europa League, beating Freiburg 3-0 in Istanbul?",
+   "a": "Aston Villa",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Istanbul club won the 2025-26 Turkish Süper Lig, their fourth title in a row?",
+   "a": "Galatasaray",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Spanish manager led Paris Saint-Germain to Champions League wins in 2025 and 2026?",
+   "a": "Luis Enrique",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club won the 2024-25 French title in the same season as their first Champions League?",
+   "a": "Paris Saint-Germain",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Lisbon club won back-to-back Portuguese titles in 2023-24 and 2024-25?",
+   "a": "Sporting CP",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Portuguese manager took charge of Fenerbahçe for the 2024-25 season?",
+   "a": "José Mourinho",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Scottish club did Liverpool sign Kenny Dalglish from in 1977?",
+   "a": "Celtic",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Portuguese club sold João Félix to Atlético Madrid for 126 million euros in 2019?",
+   "a": "Benfica",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Portuguese club did Manchester City sign the defender Rúben Dias from in 2020?",
+   "a": "Benfica",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Glasgow club are known as the Bhoys?",
+   "a": "Celtic",
+   "cat": "stories"
+  },
+  {
+   "q": "Celtic Park has two nicknames. Name either.",
+   "a": "Parkhead or Paradise",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club beat Aston Villa 2-1 in the 2026 Super Cup in Salzburg?",
+   "a": "Paris Saint-Germain",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Spanish club did Cristiano Ronaldo win four Champions Leagues with?",
+   "a": "Real Madrid",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club did Lionel Messi win all four of his Champions Leagues with?",
+   "a": "Barcelona",
+   "cat": "europe"
+  },
+  {
+   "q": "Who managed Manchester United to the 2017 Europa League?",
+   "a": "José Mourinho",
+   "cat": "managers"
+  },
+  {
+   "q": "Which two colours make up Galatasaray's home shirt?",
+   "a": "Red and yellow",
+   "cat": "stories"
+  },
+  {
+   "q": "In which city do Hearts play their home games at Tynecastle?",
+   "a": "Edinburgh",
+   "cat": "grounds"
+  },
+  {
+   "q": "By the end of 2025-26, which Turkish club had won the most league titles, with 26?",
+   "a": "Galatasaray",
+   "cat": "records"
+  },
+  {
+   "q": "In which city do Panathinaikos play?",
+   "a": "Athens",
+   "cat": "grounds"
+  },
+  {
+   "q": "Sheriff Tiraspol shocked Real Madrid at the Bernabéu in 2021. Which country's league do they play in?",
+   "a": "Moldova",
+   "cat": "europe"
+  },
+  {
+   "q": "Bodø Glimt knocked Inter out of the Champions League in 2026. Which country are they from?",
+   "a": "Norway",
+   "cat": "europe"
+  },
+  {
+   "q": "APOEL reached the Champions League quarter-finals in 2012. Which country are they from?",
+   "a": "Cyprus",
+   "cat": "europe"
+  },
+  {
+   "q": "Which English club won the 2019 Super Cup in Istanbul, beating Chelsea on penalties?",
+   "a": "Liverpool",
+   "cat": "europe"
+  },
+  {
+   "q": "Which English club won the 2023 Super Cup in Piraeus, beating Sevilla on penalties?",
+   "a": "Manchester City",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Spanish club beat Atalanta 2-0 to win the 2024 Super Cup in Warsaw?",
+   "a": "Real Madrid",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Spanish midfielder scored the only goal of the 2023 Champions League final and was named man of the match?",
+   "a": "Rodri",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Manchester City striker scored five in a 7-0 win over RB Leipzig in the 2022-23 Champions League?",
+   "a": "Erling Haaland",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Frenchman opened the scoring for Real Madrid in their 3-0 Intercontinental Cup final win over Pachuca in December 2024?",
+   "a": "Kylian Mbappé",
+   "cat": "scorers"
   }
  ],
  "normal": [
@@ -6898,6 +7463,696 @@
    "q": "Lucy Bronze won three Women's Champions Leagues with which French club?",
    "a": "Lyon",
    "cat": "europe"
+  },
+  {
+   "q": "Which actor played Brian Clough in the 2009 film The Damned United?",
+   "a": "Michael Sheen",
+   "cat": "stories"
+  },
+  {
+   "q": "Which England winger performed the rap on New Order's 1990 World Cup song World in Motion?",
+   "a": "John Barnes",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Cuban-American rapper sang We Are One, the official song of the 2014 World Cup?",
+   "a": "Pitbull",
+   "cat": "stories"
+  },
+  {
+   "q": "Which actor plays an expelled Harvard student drawn into a West Ham hooligan firm in the 2005 film Green Street?",
+   "a": "Elijah Wood",
+   "cat": "stories"
+  },
+  {
+   "q": "In which Dutch city did the Netherlands win the Women's Euro 2017 final?",
+   "a": "Enschede",
+   "cat": "grounds"
+  },
+  {
+   "q": "Who scored the USA's opening goal, a penalty, against the Netherlands in the 2019 Women's World Cup final?",
+   "a": "Megan Rapinoe",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored the winning penalty for England against Spain in the Women's Euro 2025 final shoot-out?",
+   "a": "Chloe Kelly",
+   "cat": "cups"
+  },
+  {
+   "q": "Which country's women's team is nicknamed the Super Falcons?",
+   "a": "Nigeria",
+   "cat": "stories"
+  },
+  {
+   "q": "What is the derby between LA Galaxy and Los Angeles FC called?",
+   "a": "El Tráfico",
+   "cat": "stories"
+  },
+  {
+   "q": "The Hudson River Derby is played between New York City FC and which club?",
+   "a": "New York Red Bulls",
+   "cat": "stories"
+  },
+  {
+   "q": "Which American prodigy was signed by DC United aged 14 in 2004 and hailed as the next Pelé?",
+   "a": "Freddy Adu",
+   "cat": "imports"
+  },
+  {
+   "q": "Which Mexico City club, long owned by Televisa, is nicknamed Las Águilas, the Eagles?",
+   "a": "Club América",
+   "cat": "stories"
+  },
+  {
+   "q": "The Clásico Regio is the derby of which Mexican city?",
+   "a": "Monterrey",
+   "cat": "stories"
+  },
+  {
+   "q": "Which England striker joined Saudi club Al-Ahli for a reported 40 million pounds in 2024?",
+   "a": "Ivan Toney",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which former Manchester United forward signed for South Korean club FC Seoul in 2024?",
+   "a": "Jesse Lingard",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which German World Cup winner played three seasons for Japan's Vissel Kobe from 2017?",
+   "a": "Lukas Podolski",
+   "cat": "imports"
+  },
+  {
+   "q": "Which Juventus legend joined Australian club Sydney FC in 2012?",
+   "a": "Alessandro Del Piero",
+   "cat": "imports"
+  },
+  {
+   "q": "Peñarol and Nacional contest Uruguay's great derby. In which city are both based?",
+   "a": "Montevideo",
+   "cat": "stories"
+  },
+  {
+   "q": "At which World Cup did semi-automated offside technology make its men's debut?",
+   "a": "2022, in Qatar",
+   "cat": "records"
+  },
+  {
+   "q": "What kind of animal was Zakumi, mascot of the 2010 World Cup?",
+   "a": "A leopard",
+   "cat": "stories"
+  },
+  {
+   "q": "What kind of animal was Fuleco, mascot of the 2014 World Cup in Brazil?",
+   "a": "An armadillo",
+   "cat": "stories"
+  },
+  {
+   "q": "What kind of animal was Zabivaka, mascot of the 2018 World Cup in Russia?",
+   "a": "A wolf",
+   "cat": "stories"
+  },
+  {
+   "q": "Which stadium hosted the 2026 World Cup final?",
+   "a": "MetLife Stadium, in East Rutherford, New Jersey",
+   "cat": "grounds"
+  },
+  {
+   "q": "The sportswear brand Hummel takes its name from the German word for which insect?",
+   "a": "The bumblebee",
+   "cat": "stories"
+  },
+  {
+   "q": "During which 1914 ceasefire did British and German soldiers play football in no man's land?",
+   "a": "The Christmas truce",
+   "cat": "stories"
+  },
+  {
+   "q": "Comic hero Roy Race, of Roy of the Rovers, played for which fictional club?",
+   "a": "Melchester Rovers",
+   "cat": "stories"
+  },
+  {
+   "q": "Adidas and Puma were founded by two feuding brothers. What was their surname?",
+   "a": "Dassler",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team is nicknamed the Elephants?",
+   "a": "Ivory Coast",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country's national team is known as the All Whites?",
+   "a": "New Zealand",
+   "cat": "stories"
+  },
+  {
+   "q": "Which national team are the Lions of Teranga?",
+   "a": "Senegal",
+   "cat": "stories"
+  },
+  {
+   "q": "Ciao, the mascot of Italia 90, was a stick figure with what for a head?",
+   "a": "A football",
+   "cat": "stories"
+  },
+  {
+   "q": "Which 2023 Taika Waititi film tells the story of American Samoa's football team and their new coach?",
+   "a": "Next Goal Wins",
+   "cat": "stories"
+  },
+  {
+   "q": "Which MLS club began life in 1996 as the New York New Jersey MetroStars?",
+   "a": "New York Red Bulls",
+   "cat": "stories"
+  },
+  {
+   "q": "Which coach replaced Jürgen Klopp at Borussia Dortmund in 2015?",
+   "a": "Thomas Tuchel",
+   "cat": "managers"
+  },
+  {
+   "q": "Which goalkeeper was nicknamed San Iker, Saint Iker, for his saves?",
+   "a": "Iker Casillas",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian playmaker was nicknamed the White Pelé?",
+   "a": "Zico",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian striker did Inter fans call L'Imperatore, the Emperor?",
+   "a": "Adriano",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Uruguayan striker is nicknamed El Matador?",
+   "a": "Edinson Cavani",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine forward is nicknamed El Apache, after the neighbourhood he grew up in?",
+   "a": "Carlos Tevez",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine winger is nicknamed El Fideo, the noodle?",
+   "a": "Ángel Di María",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Belgian midfielder is nicknamed the Ninja?",
+   "a": "Radja Nainggolan",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Italian manager was nicknamed the Tinkerman at Chelsea for rotating his side?",
+   "a": "Claudio Ranieri",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Dutch coach of Ajax and Barcelona was nicknamed the General?",
+   "a": "Rinus Michels",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Dutch coach is known as the Little General?",
+   "a": "Dick Advocaat",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Marseille striker won the 1991 Ballon d'Or?",
+   "a": "Jean-Pierre Papin",
+   "cat": "records"
+  },
+  {
+   "q": "Which Inter midfielder won the 1990 Ballon d'Or, months after captaining West Germany to the World Cup?",
+   "a": "Lothar Matthäus",
+   "cat": "records"
+  },
+  {
+   "q": "Which Manchester United winger won the 1968 Ballon d'Or?",
+   "a": "George Best",
+   "cat": "records"
+  },
+  {
+   "q": "Which Italian striker won the 1982 Ballon d'Or after his World Cup summer?",
+   "a": "Paolo Rossi",
+   "cat": "records"
+  },
+  {
+   "q": "Which Bayern Munich defender won the Ballon d'Or in both 1972 and 1976?",
+   "a": "Franz Beckenbauer",
+   "cat": "records"
+  },
+  {
+   "q": "Who won the 2023 European Golden Shoe with 36 Premier League goals?",
+   "a": "Erling Haaland",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who won the 2024 European Golden Shoe in his first Bundesliga season?",
+   "a": "Harry Kane",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who won the 2025 European Golden Shoe in his first La Liga season?",
+   "a": "Kylian Mbappé",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Chelsea striker was sent off in the 2008 Champions League final for slapping Nemanja Vidić?",
+   "a": "Didier Drogba",
+   "cat": "stories"
+  },
+  {
+   "q": "Which England striker was sent off against Portugal at the 2006 World Cup after planting his foot on Ricardo Carvalho?",
+   "a": "Wayne Rooney",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Netherlands defender was sent off in extra time of the 2010 World Cup final?",
+   "a": "John Heitinga",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Cameroonian striker began his career in Real Madrid's youth system before starring for Barcelona?",
+   "a": "Samuel Eto'o",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Brazilian did AC Milan sign from Barcelona in 2008, giving him the number 80 shirt?",
+   "a": "Ronaldinho",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which shirt number did David Beckham wear at Real Madrid, borrowed from Michael Jordan?",
+   "a": "23",
+   "cat": "records"
+  },
+  {
+   "q": "Which Barcelona defender announced his retirement in November 2022, in the middle of the season?",
+   "a": "Gerard Piqué",
+   "cat": "stories"
+  },
+  {
+   "q": "At which club did Gianluigi Buffon end his playing career in 2023?",
+   "a": "Parma",
+   "cat": "stories"
+  },
+  {
+   "q": "Which English club did Christian Eriksen join in 2022, months after his cardiac arrest at Euro 2020?",
+   "a": "Brentford",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which coach led Bayern Munich to the sextuple, completed by winning the Club World Cup in February 2021?",
+   "a": "Hansi Flick",
+   "cat": "managers"
+  },
+  {
+   "q": "With which club did Unai Emery win his fourth Europa League, in 2021?",
+   "a": "Villarreal",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Brazilian striker moved from Barcelona to Inter in 1997 for a world record fee?",
+   "a": "Ronaldo",
+   "cat": "transfers"
+  },
+  {
+   "q": "Manchester United made Paul Pogba a world record signing in 2016. Which club did they buy him back from?",
+   "a": "Juventus",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which striker did Liverpool sign from Newcastle in September 2025 for a British record fee?",
+   "a": "Alexander Isak",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Robert Lewandowski join on a free transfer in 2014?",
+   "a": "Bayern Munich",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Liverpool winger left for Real Madrid on a Bosman free transfer in 1999?",
+   "a": "Steve McManaman",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Austrian left Bayern Munich for Real Madrid on a free transfer in 2021?",
+   "a": "David Alaba",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which coach quit as Netherlands manager after the Euro 2020 defeat by the Czech Republic?",
+   "a": "Frank de Boer",
+   "cat": "managers"
+  },
+  {
+   "q": "Cristiano Ronaldo burst into tears at Euro 2024 after which Slovenia keeper saved his extra-time penalty?",
+   "a": "Jan Oblak",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country did Spain beat on penalties in the 2023 Nations League final in Rotterdam?",
+   "a": "Croatia",
+   "cat": "champions"
+  },
+  {
+   "q": "In 2022 Qatar became the first hosts ever to lose the opening game of a World Cup. Who beat them?",
+   "a": "Ecuador, 2-0",
+   "cat": "records"
+  },
+  {
+   "q": "Belgium went out of the 2014 World Cup in a 1-0 quarter-final defeat. Who beat them?",
+   "a": "Argentina, Gonzalo Higuaín scoring",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Poland keeper saved a Lionel Messi penalty at the 2022 World Cup?",
+   "a": "Wojciech Szczęsny",
+   "cat": "stories"
+  },
+  {
+   "q": "Who hit a hat-trick against Switzerland at the 2022 World Cup, starting in place of the benched Cristiano Ronaldo?",
+   "a": "Gonçalo Ramos",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which country, playing its first major tournament, beat Portugal 2-0 at Euro 2024?",
+   "a": "Georgia",
+   "cat": "cups"
+  },
+  {
+   "q": "Belgium went out of Euro 2024 to a late own goal by Jan Vertonghen. Who were the opponents?",
+   "a": "France",
+   "cat": "cups"
+  },
+  {
+   "q": "Who was Belgium's coach at Euro 2024?",
+   "a": "Domenico Tedesco",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Heerenveen keeper made his Netherlands debut in the first game of the 2022 World Cup, against Senegal?",
+   "a": "Andries Noppert",
+   "cat": "stories"
+  },
+  {
+   "q": "What did Iran's starting eleven refuse to do before their first game of the 2022 World Cup, against England?",
+   "a": "Sing the national anthem",
+   "cat": "stories"
+  },
+  {
+   "q": "What animal was Fuleco, the mascot of the 2014 World Cup in Brazil?",
+   "a": "An armadillo, a three-banded one",
+   "cat": "stories"
+  },
+  {
+   "q": "What was the 2014 World Cup ball called, the first one named by the fans?",
+   "a": "The Brazuca",
+   "cat": "stories"
+  },
+  {
+   "q": "What animal was Striker, the mascot of the 1994 World Cup in the USA?",
+   "a": "A dog",
+   "cat": "stories"
+  },
+  {
+   "q": "Euro 1980 in Italy took its mascot from a famous Italian children's story. Who was it?",
+   "a": "Pinocchio",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country did the Netherlands thrash 4-1 in the group stage of Euro 2008?",
+   "a": "France",
+   "cat": "cups"
+  },
+  {
+   "q": "Who scored the first World Cup penalty awarded by VAR, for France against Australia in 2018?",
+   "a": "Antoine Griezmann",
+   "cat": "scorers"
+  },
+  {
+   "q": "Stadium 974 at the 2022 World Cup was named after Qatar's dialling code. What was it built from?",
+   "a": "Shipping containers",
+   "cat": "grounds"
+  },
+  {
+   "q": "After missing a shoot-out penalty in which 2016 final did Lionel Messi briefly quit international football?",
+   "a": "The Copa América Centenario final, against Chile",
+   "cat": "stories"
+  },
+  {
+   "q": "Euro 2020 was spread around Europe for the tournament's 60th birthday. How many host cities were there?",
+   "a": "Eleven",
+   "cat": "grounds"
+  },
+  {
+   "q": "Australia went out of the 2006 World Cup to a last-minute penalty in the last 16. Who were the opponents?",
+   "a": "Italy, Francesco Totti scored it",
+   "cat": "cups"
+  },
+  {
+   "q": "Which England midfielder knocked Belgium out of the 1990 World Cup with a volley in the 119th minute?",
+   "a": "David Platt",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which island nation off West Africa qualified for its first World Cup in October 2025?",
+   "a": "Cape Verde",
+   "cat": "stories"
+  },
+  {
+   "q": "Which coach won the Africa Cup of Nations with Zambia in 2012 and again with Ivory Coast in 2015?",
+   "a": "Hervé Renard",
+   "cat": "managers"
+  },
+  {
+   "q": "Who lobbed Ederson for the only goal of the 2021 Copa América final?",
+   "a": "Ángel Di María",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Turkey defender got a two-match ban at Euro 2024 for a wolf salute, missing the quarter-final against the Netherlands?",
+   "a": "Merih Demiral",
+   "cat": "stories"
+  },
+  {
+   "q": "By the end of 2024, which country had won the Africa Cup of Nations a record seven times?",
+   "a": "Egypt",
+   "cat": "records"
+  },
+  {
+   "q": "Which Czech striker scored from near the halfway line against Scotland at Euro 2020?",
+   "a": "Patrik Schick",
+   "cat": "scorers"
+  },
+  {
+   "q": "USA keeper Tim Howard set a World Cup record for saves in one match in 2014. Who were the opponents?",
+   "a": "Belgium",
+   "cat": "records"
+  },
+  {
+   "q": "Which country topped a 2014 World Cup group containing Uruguay, Italy and England?",
+   "a": "Costa Rica",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Australian volleyed a famous goal against the Netherlands at the 2014 World Cup?",
+   "a": "Tim Cahill",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who coached West Germany to their first World Cup, the Miracle of Bern in 1954?",
+   "a": "Sepp Herberger",
+   "cat": "managers"
+  },
+  {
+   "q": "Who coached France to the 1998 World Cup on home soil?",
+   "a": "Aimé Jacquet",
+   "cat": "managers"
+  },
+  {
+   "q": "MetLife Stadium was chosen to stage the 2026 World Cup final. In which US state is it?",
+   "a": "New Jersey",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Spanish manager won his fifth Europa League in 2026, this time with Aston Villa?",
+   "a": "Unai Emery",
+   "cat": "managers"
+  },
+  {
+   "q": "Which German scored Arsenal's goal in the 2026 Champions League final, five years after winning the 2021 final for Chelsea?",
+   "a": "Kai Havertz",
+   "cat": "scorers"
+  },
+  {
+   "q": "In which Welsh city did Real Madrid beat Juventus 4-1 in the 2017 Champions League final?",
+   "a": "Cardiff",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which Portuguese city did Chelsea beat Manchester City in the 2021 Champions League final?",
+   "a": "Porto",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which city did Bayern Munich beat Paris Saint-Germain in the empty-stadium 2020 Champions League final?",
+   "a": "Lisbon",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which city did Manchester City win their first Champions League, beating Inter in 2023?",
+   "a": "Istanbul",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which German city did Paris Saint-Germain beat Inter 5-0 in the 2025 Champions League final?",
+   "a": "Munich",
+   "cat": "grounds"
+  },
+  {
+   "q": "Atalanta won the 2024 Europa League final 3-0. Which German club's 51-game unbeaten run did that end?",
+   "a": "Bayer Leverkusen",
+   "cat": "europe"
+  },
+  {
+   "q": "Which French referee took the 2019 Super Cup in Istanbul, the first woman to referee a UEFA men's final?",
+   "a": "Stéphanie Frappart",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Dutch club lost the 2002 Super Cup 3-1 to Real Madrid in Monaco, months after winning the UEFA Cup?",
+   "a": "Feyenoord",
+   "cat": "europe"
+  },
+  {
+   "q": "Which London club won the 1965 Cup Winners' Cup at Wembley, beating 1860 Munich 2-0?",
+   "a": "West Ham United",
+   "cat": "europe"
+  },
+  {
+   "q": "Which German club did Chelsea beat 1-0 in the 1998 Cup Winners' Cup final in Stockholm?",
+   "a": "VfB Stuttgart",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Scottish club lost the 1987 UEFA Cup final to IFK Göteborg?",
+   "a": "Dundee United",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Brazilian club beat Chelsea 1-0 in the 2012 Club World Cup final?",
+   "a": "Corinthians",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Mexican club did Real Madrid beat 3-0 in the 2024 FIFA Intercontinental Cup final in Qatar?",
+   "a": "Pachuca",
+   "cat": "europe"
+  },
+  {
+   "q": "In 2025 which club became the first from Norway to reach the semi-finals of a UEFA club competition?",
+   "a": "Bodø Glimt",
+   "cat": "europe"
+  },
+  {
+   "q": "Celtic won the 2025-26 Scottish title by beating their closest rivals 3-1 at Parkhead on the final day. Which club missed out?",
+   "a": "Hearts, Heart of Midlothian",
+   "cat": "champions"
+  },
+  {
+   "q": "Which veteran manager returned to Celtic in January 2026 and won them the 2025-26 title?",
+   "a": "Martin O'Neill",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Swede scored 39 league goals for Sporting in 2024-25, the most in Europe, but missed out on the Golden Shoe?",
+   "a": "Viktor Gyökeres",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored the stoppage-time VAR penalty as Manchester United knocked PSG out in Paris in 2019?",
+   "a": "Marcus Rashford",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club beat Celtic on penalties in the 2025 Scottish Cup final, their first Scottish Cup since 1990?",
+   "a": "Aberdeen",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Istanbul club won the Turkish title for the first time in 2019-20, under Okan Buruk?",
+   "a": "Istanbul Başakşehir",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Black Sea club won the 2021-22 Turkish title, their first for 38 years?",
+   "a": "Trabzonspor",
+   "cat": "champions"
+  },
+  {
+   "q": "Which Argentine was top scorer for Galatasaray's record 102-point title side of 2023-24?",
+   "a": "Mauro Icardi",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Frenchman scored PSG's penalty equaliser against Arsenal in the 2026 Champions League final?",
+   "a": "Ousmane Dembélé",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which PSG defender, a former Inter player, opened the scoring against them in the 2025 Champions League final?",
+   "a": "Achraf Hakimi",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Georgian winger joined PSG from Napoli in January 2025 and scored in the Champions League final that May?",
+   "a": "Khvicha Kvaratskhelia",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Istanbul club, nicknamed the Black Eagles, hosted the 2026 Europa League final at their home ground?",
+   "a": "Beşiktaş",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which French club plays at the Stade Geoffroy-Guichard?",
+   "a": "Saint-Étienne",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Glasgow club are nicknamed the Gers, the Light Blues and the Teddy Bears?",
+   "a": "Rangers",
+   "cat": "stories"
+  },
+  {
+   "q": "Celtic won their 56th Scottish title in 2025-26. Which club did that take them past, on 55?",
+   "a": "Rangers",
+   "cat": "records"
+  },
+  {
+   "q": "Which Frenchman opened the scoring for Manchester United against Ajax in the 2017 Europa League final?",
+   "a": "Paul Pogba",
+   "cat": "scorers"
+  },
+  {
+   "q": "Galatasaray were founded in 1905 by pupils of what kind of institution?",
+   "a": "A school, Galatasaray High School",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Athens club, the Greens, has a shamrock on its badge?",
+   "a": "Panathinaikos",
+   "cat": "stories"
   }
  ],
  "hard": [
@@ -10426,6 +11681,626 @@
    "q": "Everton came from 2-0 down to beat Wimbledon 3-2 on the last day of 1993-94 and stay up. Which club went down instead?",
    "a": "Sheffield United",
    "cat": "relegation"
+  },
+  {
+   "q": "In the 2005 film Goal!, which English club gives the young Santiago Munez a trial?",
+   "a": "Newcastle United",
+   "cat": "stories"
+  },
+  {
+   "q": "Which 2001 Vinnie Jones film has a disgraced former England captain running a prison football team?",
+   "a": "Mean Machine",
+   "cat": "stories"
+  },
+  {
+   "q": "Vindaloo reached number two in June 1998. Which football song kept it off the top?",
+   "a": "3 Lions '98, the re-recorded Three Lions",
+   "cat": "stories"
+  },
+  {
+   "q": "The table football game Subbuteo is named after which bird?",
+   "a": "The hobby, a small falcon, Falco subbuteo",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Millwall teenager became a cult hero of the computer game Championship Manager for turning into a world-beater?",
+   "a": "Cherno Samba",
+   "cat": "stories"
+  },
+  {
+   "q": "Which real London ground stands in for Nelson Road, AFC Richmond's stadium in Ted Lasso?",
+   "a": "Selhurst Park",
+   "cat": "grounds"
+  },
+  {
+   "q": "Who played the hapless title role in the 2001 comedy Mike Bassett: England Manager?",
+   "a": "Ricky Tomlinson",
+   "cat": "stories"
+  },
+  {
+   "q": "In which French city did the Netherlands lose the 2019 Women's World Cup final to the USA?",
+   "a": "Lyon",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which England goalkeeper saved two penalties in the shoot-out of the Women's Euro 2025 final?",
+   "a": "Hannah Hampton",
+   "cat": "cups"
+  },
+  {
+   "q": "In which Swiss city was the Women's Euro 2025 final played?",
+   "a": "Basel",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which country's women's team is nicknamed Banyana Banyana?",
+   "a": "South Africa",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country's women's team is known as Nadeshiko?",
+   "a": "Japan",
+   "cat": "stories"
+  },
+  {
+   "q": "The Cascadia Cup is fought over by Seattle Sounders, Portland Timbers and which Canadian club?",
+   "a": "Vancouver Whitecaps",
+   "cat": "stories"
+  },
+  {
+   "q": "What are matches between Club América and Chivas Guadalajara called?",
+   "a": "El Súper Clásico, also called the Clásico Nacional",
+   "cat": "stories"
+  },
+  {
+   "q": "Which French striker left Marseille for Mexican club Tigres and won five league titles there?",
+   "a": "André-Pierre Gignac",
+   "cat": "imports"
+  },
+  {
+   "q": "Lukas Podolski won the Polish Cup with Górnik Zabrze in May 2026. What did he do later that month?",
+   "a": "Became the club's majority owner and retired",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian left Chelsea for Shanghai SIPG in January 2017 for a reported 60 million pounds?",
+   "a": "Oscar",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Italian World Cup winner became player-manager of Chennaiyin in the first Indian Super League season, in 2014?",
+   "a": "Marco Materazzi",
+   "cat": "managers"
+  },
+  {
+   "q": "Boca Juniors' founders were sons of immigrants from which Italian city?",
+   "a": "Genoa",
+   "cat": "stories"
+  },
+  {
+   "q": "The Gre-Nal is the derby of which Brazilian city?",
+   "a": "Porto Alegre",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine club is nicknamed Rey de Copas, the King of Cups?",
+   "a": "Independiente",
+   "cat": "cups"
+  },
+  {
+   "q": "Which World Cup was the first to award three points for a win?",
+   "a": "1994, in the USA",
+   "cat": "records"
+  },
+  {
+   "q": "Which was the first World Cup to use the golden goal in extra time?",
+   "a": "1998, in France",
+   "cat": "records"
+  },
+  {
+   "q": "Since 2025, what does the other team get if a goalkeeper holds the ball for more than eight seconds?",
+   "a": "A corner kick",
+   "cat": "records"
+  },
+  {
+   "q": "Which Qatar 2022 stadium, designed like a nomadic tent, hosted the opening match?",
+   "a": "Al Bayt Stadium",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which national team is nicknamed La Vinotinto, after the red wine colour of its shirts?",
+   "a": "Venezuela",
+   "cat": "stories"
+  },
+  {
+   "q": "Tip and Tap, two boys in kit, were the mascots of which World Cup?",
+   "a": "1974, in West Germany",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch-American coach, played by Michael Fassbender in Next Goal Wins, took charge of American Samoa?",
+   "a": "Thomas Rongen",
+   "cat": "managers"
+  },
+  {
+   "q": "In the comedy Mike Bassett: England Manager, which club does Bassett manage before getting the England job?",
+   "a": "Norwich City",
+   "cat": "stories"
+  },
+  {
+   "q": "Which comedian co-wrote the words to World in Motion in 1990 and wrote the lyrics of Vindaloo in 1998?",
+   "a": "Keith Allen",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine midfielder is nicknamed El Jefecito, the little chief?",
+   "a": "Javier Mascherano",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Manchester United treble-winning goalkeeper later played a season for Manchester City?",
+   "a": "Peter Schmeichel",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Dutch striker was nicknamed the Swan of Utrecht?",
+   "a": "Marco van Basten",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Juventus captain did club owner Gianni Agnelli nickname Pinturicchio?",
+   "a": "Alessandro Del Piero",
+   "cat": "stories"
+  },
+  {
+   "q": "Napoli fans gave Dries Mertens a typical Neapolitan nickname. What was it?",
+   "a": "Ciro",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Scot won the 1964 Ballon d'Or?",
+   "a": "Denis Law",
+   "cat": "records"
+  },
+  {
+   "q": "Which Liverpool striker won the European Golden Shoe in 1984?",
+   "a": "Ian Rush",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Frenchman was sent off for stamping on a Saudi Arabian player at the 1998 World Cup?",
+   "a": "Zinedine Zidane",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Aston Villa goalkeeper scored against Everton in 2001, the first keeper to score in the Premier League?",
+   "a": "Peter Schmeichel",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Coventry goalkeeper scored with a long kick against Sheffield Wednesday in 1986?",
+   "a": "Steve Ogrizovic",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Englishman moved from Everton to Liverpool in 2000, the first direct transfer between them since 1959?",
+   "a": "Nick Barmby",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which German midfielder played for Barcelona, Real Madrid and Atlético Madrid in the 1980s and 1990s?",
+   "a": "Bernd Schuster",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Romanian playmaker played for Real Madrid and then Barcelona in the 1990s?",
+   "a": "Gheorghe Hagi",
+   "cat": "transfers"
+  },
+  {
+   "q": "Clarence Seedorf joined AC Milan from Inter in 2002 in a swap. Which defender went the other way?",
+   "a": "Francesco Coco",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which shirt number did Inter retire for Javier Zanetti?",
+   "a": "4",
+   "cat": "records"
+  },
+  {
+   "q": "Which defender wore Arsenal's number 10 shirt after Dennis Bergkamp retired?",
+   "a": "William Gallas",
+   "cat": "records"
+  },
+  {
+   "q": "Paul Scholes came out of retirement in January 2012. Against which club was his comeback?",
+   "a": "Manchester City",
+   "cat": "stories"
+  },
+  {
+   "q": "At which Qatari club did Wesley Sneijder end his playing career?",
+   "a": "Al-Gharafa",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Arsenal goalkeeper came out of retirement at 41 in 2011 to cover an injury crisis?",
+   "a": "Jens Lehmann",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Newcastle defender chipped Peter Schmeichel to make it 5-0 against Manchester United in 1996?",
+   "a": "Philippe Albert",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Belgian striker scored the goal at West Brom that clinched Chelsea the 2016-17 title?",
+   "a": "Michy Batshuayi",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dutch midfielder won the UEFA Cup with Ipswich in 1981 and the FA Cup with Manchester United in 1983?",
+   "a": "Arnold Mühren",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Dutchman scored twice for Sevilla in the 2020 Europa League final against Inter?",
+   "a": "Luuk de Jong",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Dutch coach made Die Null muss stehen, the nil must stand, his motto at Schalke?",
+   "a": "Huub Stevens",
+   "cat": "managers"
+  },
+  {
+   "q": "Which veteran Dutch coach guided Curaçao through qualifying for their first World Cup, in 2026?",
+   "a": "Dick Advocaat",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club did Kenny Dalglish win the double with as player-manager in 1985-86?",
+   "a": "Liverpool",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club did Glenn Hoddle lead into the Premier League as player-manager in 1993, before leaving for Chelsea?",
+   "a": "Swindon Town",
+   "cat": "managers"
+  },
+  {
+   "q": "Which club sold Hernán Crespo to Lazio for a world record fee in 2000?",
+   "a": "Parma",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Dutch striker left Ajax for AC Milan on a free transfer in 1997?",
+   "a": "Patrick Kluivert",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Dutch coach won three straight La Liga titles with Real Madrid from 1987?",
+   "a": "Leo Beenhakker",
+   "cat": "managers"
+  },
+  {
+   "q": "Euro 2000's mascot Benelucky, named after the Benelux, was a lion with what added?",
+   "a": "A devil's tail, and human hands",
+   "cat": "stories"
+  },
+  {
+   "q": "The 2022 World Cup ball Al Rihla had a name that means what in Arabic?",
+   "a": "The journey",
+   "cat": "stories"
+  },
+  {
+   "q": "La'eeb, the mascot of the 2022 World Cup, was based on what?",
+   "a": "A floating white ghutra, the Arab headdress",
+   "cat": "stories"
+  },
+  {
+   "q": "Pique, the mascot of the 1986 World Cup in Mexico, was what?",
+   "a": "A jalapeño pepper, with a moustache and a sombrero",
+   "cat": "stories"
+  },
+  {
+   "q": "Which country pulled out of the 2010 Africa Cup of Nations after gunmen attacked its team bus in Cabinda?",
+   "a": "Togo",
+   "cat": "cups"
+  },
+  {
+   "q": "Going into the 2025 Africa Cup of Nations, who held the record of 18 goals at the tournament?",
+   "a": "Samuel Eto'o",
+   "cat": "records"
+  },
+  {
+   "q": "Who scored the only goal as Portugal beat the Netherlands in the first Nations League final, in 2019?",
+   "a": "Gonçalo Guedes",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose goal for Ireland in Dublin in 2001 all but ended Louis van Gaal's hopes of taking the Netherlands to the 2002 World Cup?",
+   "a": "Jason McAteer",
+   "cat": "scorers"
+  },
+  {
+   "q": "At Euro 2004 Dick Advocaat took off Arjen Robben against the Czech Republic with the Dutch 2-1 up. Who came on?",
+   "a": "Paul Bosvelt",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Spain goalkeeper let Michel Platini's free kick slip under his body in the Euro 1984 final?",
+   "a": "Luis Arconada",
+   "cat": "stories"
+  },
+  {
+   "q": "Xavi Simons had a goal against France ruled out at Euro 2024 because which Dutch team-mate stood offside in front of the keeper?",
+   "a": "Denzel Dumfries",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Argentine finished off a 24-pass move against Serbia and Montenegro at the 2006 World Cup?",
+   "a": "Esteban Cambiasso",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Belgium captain had a header against Brazil disallowed at the 2002 World Cup, a call Belgians still argue about?",
+   "a": "Marc Wilmots",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Belgian won the first award for best goalkeeper at a World Cup, in 1994?",
+   "a": "Michel Preud'homme",
+   "cat": "records"
+  },
+  {
+   "q": "Who scored the first golden goal in World Cup history, for France against Paraguay in 1998?",
+   "a": "Laurent Blanc",
+   "cat": "records"
+  },
+  {
+   "q": "Who coached Belgium to the Euro 1980 final and the 1986 World Cup semi-finals?",
+   "a": "Guy Thys",
+   "cat": "managers"
+  },
+  {
+   "q": "Belgium went home from the 1998 World Cup without losing a game. How?",
+   "a": "They drew all three, with the Netherlands, Mexico and South Korea",
+   "cat": "cups"
+  },
+  {
+   "q": "Netherlands against Argentina in 2022 set a World Cup record of 18 yellow cards. Which Spanish referee showed them?",
+   "a": "Antonio Mateu Lahoz",
+   "cat": "records"
+  },
+  {
+   "q": "Which Croatia keeper saved three Japanese penalties in a 2022 World Cup shoot-out?",
+   "a": "Dominik Livaković",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Russia keeper saved Iago Aspas's penalty with his trailing leg to knock Spain out of the 2018 World Cup?",
+   "a": "Igor Akinfeev",
+   "cat": "stories"
+  },
+  {
+   "q": "Robin van Persie's 2014 header against Spain finished third in that year's Puskás vote. Whose World Cup volley won it?",
+   "a": "James Rodríguez, against Uruguay",
+   "cat": "scorers"
+  },
+  {
+   "q": "Whose long free kick won the 1994 World Cup quarter-final for Brazil against the Netherlands?",
+   "a": "Branco",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who chipped a Panenka penalty to win Chile's first ever Copa América, in 2015?",
+   "a": "Alexis Sánchez",
+   "cat": "champions"
+  },
+  {
+   "q": "Which two Asian countries were invited to play at the 2019 Copa América?",
+   "a": "Qatar and Japan",
+   "cat": "cups"
+  },
+  {
+   "q": "Who coached West Germany to the 1974 World Cup, beating the Netherlands in the final?",
+   "a": "Helmut Schön",
+   "cat": "managers"
+  },
+  {
+   "q": "Which African country did Sven-Göran Eriksson manage at the 2010 World Cup?",
+   "a": "Ivory Coast",
+   "cat": "managers"
+  },
+  {
+   "q": "Which country hosted Euro 1976, where Antonín Panenka chipped his famous penalty?",
+   "a": "Yugoslavia",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which Qatar forward scored a hat-trick of penalties in the 2023 Asian Cup final against Jordan?",
+   "a": "Akram Afif",
+   "cat": "scorers"
+  },
+  {
+   "q": "Belgium led France 2-0 in the 2021 Nations League semi-final and lost 3-2. Which France full-back hit the 90th-minute winner?",
+   "a": "Theo Hernández",
+   "cat": "scorers"
+  },
+  {
+   "q": "In 2024 Albania's Nedim Bajrami scored after 23 seconds, a new record for the fastest Euros goal. Against which country?",
+   "a": "Italy",
+   "cat": "records"
+  },
+  {
+   "q": "Which country hosted Euro 1972 and finished third, beating Hungary?",
+   "a": "Belgium",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which country pipped the Netherlands to a 2018 World Cup play-off place on goal difference?",
+   "a": "Sweden",
+   "cat": "cups"
+  },
+  {
+   "q": "Who scored the only goal of the 2026 Conference League final for Crystal Palace?",
+   "a": "Jean-Philippe Mateta",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Madrid club did Crystal Palace beat 1-0 in the 2026 Conference League final in Leipzig?",
+   "a": "Rayo Vallecano",
+   "cat": "europe"
+  },
+  {
+   "q": "Which city hosted both the 2023 Europa League final and the 2026 Champions League final?",
+   "a": "Budapest",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which Italian stadium did Feyenoord win the 1970 European Cup final against Celtic?",
+   "a": "The San Siro in Milan",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which Dutch city did Benfica beat Real Madrid 5-3 in the 1962 European Cup final?",
+   "a": "Amsterdam",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which city did Ajax beat Juventus 1-0 in 1973 to complete three European Cups in a row?",
+   "a": "Belgrade",
+   "cat": "grounds"
+  },
+  {
+   "q": "In which German city did Porto beat Monaco 3-0 in the 2004 Champions League final?",
+   "a": "Gelsenkirchen",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club did Benfica beat 3-2 in Bern to win their first European Cup, in 1961?",
+   "a": "Barcelona",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Chelsea striker had the decisive penalty saved by Adrián as Liverpool won the 2019 Super Cup?",
+   "a": "Tammy Abraham",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Lisbon club won the 1964 Cup Winners' Cup, beating MTK Budapest in a replay?",
+   "a": "Sporting CP",
+   "cat": "europe"
+  },
+  {
+   "q": "Which German club beat Rangers after extra time in the 1967 Cup Winners' Cup final in Nuremberg?",
+   "a": "Bayern Munich",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Italian club beat Leeds United 1-0 in the 1973 Cup Winners' Cup final in Thessaloniki?",
+   "a": "AC Milan",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Italian club lost the 1989 Cup Winners' Cup final 2-0 to Barcelona, then won the trophy a year later?",
+   "a": "Sampdoria",
+   "cat": "europe"
+  },
+  {
+   "q": "The last ever Cup Winners' Cup final, Lazio against Mallorca in 1999, was played at which English ground?",
+   "a": "Villa Park, Birmingham",
+   "cat": "grounds"
+  },
+  {
+   "q": "Which club played the 1979 Intercontinental Cup after European champions Nottingham Forest declined?",
+   "a": "Malmö FF",
+   "cat": "europe"
+  },
+  {
+   "q": "Which German club played the 1977 Intercontinental Cup because Liverpool refused, and lost to Boca Juniors?",
+   "a": "Borussia Mönchengladbach",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Brazilian club beat Barcelona 1-0 in the 2006 Club World Cup final?",
+   "a": "Internacional",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Brazilian club did Paris Saint-Germain beat on penalties in the 2025 FIFA Intercontinental Cup final?",
+   "a": "Flamengo",
+   "cat": "europe"
+  },
+  {
+   "q": "Who managed Galatasaray to the 2025-26 Turkish title, their fourth in a row?",
+   "a": "Okan Buruk",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Athens club won the 2025-26 Greek title, ahead of Olympiacos?",
+   "a": "AEK Athens",
+   "cat": "champions"
+  },
+  {
+   "q": "Brest's own ground fell short of UEFA rules for their 2024-25 Champions League debut. Which club's stadium did they borrow?",
+   "a": "Guingamp's, the Roudourou",
+   "cat": "grounds"
+  },
+  {
+   "q": "Roma lost 4-1 at Barcelona in the 2018 Champions League quarter-final and won the return 3-0. Which Greek defender headed the decisive goal?",
+   "a": "Kostas Manolas",
+   "cat": "europe"
+  },
+  {
+   "q": "Which 18-year-old came off the bench to score Celtic's second goal in their 2-1 win over Barcelona in November 2012?",
+   "a": "Tony Watt",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Greek club went the whole 2018-19 league season unbeaten, a year after their owner ran on the pitch with a gun?",
+   "a": "PAOK",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Turkish club beat Liverpool 1-0 in the 1976-77 European Cup, the season Liverpool went on to win it?",
+   "a": "Trabzonspor",
+   "cat": "europe"
+  },
+  {
+   "q": "Which young Frenchman scored twice and was man of the match as PSG beat Inter 5-0 in the 2025 final?",
+   "a": "Désiré Doué",
+   "cat": "scorers"
+  },
+  {
+   "q": "Rangers won the 1972 Cup Winners' Cup in Barcelona. What did UEFA do to them after the fans invaded the pitch?",
+   "a": "Banned them from Europe, for two years cut to one on appeal",
+   "cat": "europe"
+  },
+  {
+   "q": "Which England player took both corners that led to Manchester United's two stoppage-time goals in the 1999 final?",
+   "a": "David Beckham",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Bayern defender equalised in the last minute of extra time of the 1974 European Cup final, forcing a replay against Atlético?",
+   "a": "Georg Schwarzenbeck",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who scored the winning penalty in the 2016 Champions League final shoot-out against Atlético Madrid?",
+   "a": "Cristiano Ronaldo",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Greek club won 1-0 in Amsterdam in the 1996 Champions League semi-final, then lost the return 3-0 to Ajax?",
+   "a": "Panathinaikos",
+   "cat": "europe"
+  },
+  {
+   "q": "Celtic won the 2026 Scottish Cup final 3-1 at Hampden. Which club did they beat?",
+   "a": "Dunfermline Athletic",
+   "cat": "cups"
   }
  ],
  "extreme": [
@@ -14129,6 +16004,316 @@
    "q": "Which club won promotion to the Premier League in 2005, 27 years after being elected to the Football League?",
    "a": "Wigan Athletic",
    "cat": "records"
+  },
+  {
+   "q": "Who directed the 2002 film Bend It Like Beckham?",
+   "a": "Gurinder Chadha",
+   "cat": "stories"
+  },
+  {
+   "q": "Players from which English club filled out the football scenes in Escape to Victory?",
+   "a": "Ipswich Town",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two Italian singers recorded Un'estate italiana, the song of Italia 90?",
+   "a": "Gianna Nannini and Edoardo Bennato",
+   "cat": "stories"
+  },
+  {
+   "q": "The Netherlands women played the first FIFA-recognised women's international in 1971. Who were the opponents?",
+   "a": "France",
+   "cat": "records"
+  },
+  {
+   "q": "At which tournament did the Netherlands women play their first major finals, finishing joint third?",
+   "a": "Women's Euro 2009",
+   "cat": "cups"
+  },
+  {
+   "q": "Gareth Bale scored a stoppage-time equaliser in the 2022 MLS Cup final for LAFC. Who were the opponents?",
+   "a": "Philadelphia Union",
+   "cat": "cups"
+  },
+  {
+   "q": "Which Japanese club did Saudi side Al-Ahli beat in the 2025 AFC Champions League Elite final?",
+   "a": "Kawasaki Frontale",
+   "cat": "europe"
+  },
+  {
+   "q": "After FC Seoul, Jesse Lingard joined which Brazilian club in 2026?",
+   "a": "Corinthians",
+   "cat": "transfers"
+  },
+  {
+   "q": "Alessandro Del Piero finished his career in 2014 with which Indian Super League club?",
+   "a": "Delhi Dynamos",
+   "cat": "imports"
+  },
+  {
+   "q": "Kaizer Chiefs founder Kaizer Motaung played in the NASL in 1968 for which American club?",
+   "a": "Atlanta Chiefs",
+   "cat": "imports"
+  },
+  {
+   "q": "In which year were goalkeepers first restricted to handling the ball only inside their penalty area?",
+   "a": "1912",
+   "cat": "records"
+  },
+  {
+   "q": "Numbered shirts were first recorded in 1911, worn by Sydney Leichhardt and HMS Powerful. In which country?",
+   "a": "Australia",
+   "cat": "records"
+  },
+  {
+   "q": "Which puppet was the first European Championship mascot, at Euro 1980 in Italy?",
+   "a": "Pinocchio",
+   "cat": "stories"
+  },
+  {
+   "q": "Zambia's national team is nicknamed Chipolopolo. What does it mean?",
+   "a": "The Copper Bullets",
+   "cat": "stories"
+  },
+  {
+   "q": "Which MLS club started out in 1996 as the Kansas City Wiz?",
+   "a": "Sporting Kansas City",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Dane won the 1977 Ballon d'Or with Borussia Mönchengladbach?",
+   "a": "Allan Simonsen",
+   "cat": "records"
+  },
+  {
+   "q": "Which German goalkeeper, a Schalke favourite, joined their rivals Borussia Dortmund from AC Milan in 1999?",
+   "a": "Jens Lehmann",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which midfielder moved from Manchester United to Manchester City in 2011 and scored on his debut?",
+   "a": "Owen Hargreaves",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which shirt number did Manchester City retire after Marc-Vivien Foé died in 2003?",
+   "a": "23",
+   "cat": "records"
+  },
+  {
+   "q": "Which shirt number did Antonio Puerta wear for Sevilla before he died in 2007?",
+   "a": "16",
+   "cat": "records"
+  },
+  {
+   "q": "At which club in the United Arab Emirates did Andrés Iniesta end his career in 2024?",
+   "a": "Emirates Club",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which club did Stuart Pearce manage as caretaker player-manager in 1996-97?",
+   "a": "Nottingham Forest",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Swiss club did Gennaro Gattuso play for and manage at the same time in 2013?",
+   "a": "Sion",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Ipswich midfielder was named English Footballer of the Year in 1981, the first Dutchman to win it?",
+   "a": "Frans Thijssen",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which French club did Johnny Rep take to the 1978 UEFA Cup final?",
+   "a": "Bastia",
+   "cat": "europe"
+  },
+  {
+   "q": "Which English club did Hans van Breukelen keep goal for before PSV?",
+   "a": "Nottingham Forest",
+   "cat": "transfers"
+  },
+  {
+   "q": "Which Spanish coach was known as El Sabio de Hortaleza, the wise man of Hortaleza?",
+   "a": "Luis Aragonés",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two strikers shared the 1990 European Golden Shoe, one at CSKA Sofia and one at Real Madrid?",
+   "a": "Hristo Stoichkov and Hugo Sánchez",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Celtic midfielder left for Monaco in 1996 on a free transfer under the Bosman ruling?",
+   "a": "John Collins",
+   "cat": "transfers"
+  },
+  {
+   "q": "Who took over Aston Villa mid-season in 1981-82 and won the European Cup months later?",
+   "a": "Tony Barton",
+   "cat": "managers"
+  },
+  {
+   "q": "The Netherlands played their first World Cup match in Milan in 1934. Which country beat them 3-2?",
+   "a": "Switzerland",
+   "cat": "cups"
+  },
+  {
+   "q": "Which World Cup ball, used in 1986, was the first fully synthetic one?",
+   "a": "The Azteca",
+   "cat": "stories"
+  },
+  {
+   "q": "Which ball, used in 1998, was the first multi-coloured ball at a World Cup?",
+   "a": "The Tricolore",
+   "cat": "stories"
+  },
+  {
+   "q": "The 1970 Telstar was the first World Cup ball with which famous look?",
+   "a": "32 black and white panels",
+   "cat": "stories"
+  },
+  {
+   "q": "The first World Cup goal given by goal-line technology, France against Honduras in 2014, went down as an own goal. Whose?",
+   "a": "Noel Valladares, the Honduras keeper",
+   "cat": "records"
+  },
+  {
+   "q": "Mbappé's winner in the 2021 Nations League final looked offside but stood. Which Spain defender's touch made it legal?",
+   "a": "Eric García",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored the winning penalty, a Panenka, as Spain beat Croatia in the 2023 Nations League final?",
+   "a": "Dani Carvajal",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Dutch World Cup finalist coached China in the 2004 Asian Cup final and refused his runner-up medal?",
+   "a": "Arie Haan",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Belgian keeper gifted Hakan Şükür a goal and was then sent off as Turkey knocked co-hosts Belgium out of Euro 2000?",
+   "a": "Filip De Wilde",
+   "cat": "stories"
+  },
+  {
+   "q": "Ciao, the 1990 World Cup mascot in Italy, is the only one without what?",
+   "a": "A face, it was a stick figure with a football for a head",
+   "cat": "stories"
+  },
+  {
+   "q": "Euro 1988, won by the Netherlands, had a rabbit as its mascot. What was he called?",
+   "a": "Berni",
+   "cat": "stories"
+  },
+  {
+   "q": "Uruguay's José Batista was sent off after under a minute in 1986, the fastest red card in World Cup history. Against whom?",
+   "a": "Scotland",
+   "cat": "records"
+  },
+  {
+   "q": "Ivory Coast sacked their coach mid-tournament and still won the 2024 Africa Cup of Nations. Who took over?",
+   "a": "Emerse Faé",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Portugal keeper saved all three Slovenian penalties in the Euro 2024 last 16 shoot-out?",
+   "a": "Diogo Costa",
+   "cat": "stories"
+  },
+  {
+   "q": "Who scored Belgium's winner against holders Argentina in the opening game of the 1982 World Cup?",
+   "a": "Erwin Vandenbergh",
+   "cat": "scorers"
+  },
+  {
+   "q": "Who was man of the match in the 2026 Europa League final, scoring Aston Villa's second goal just before half time?",
+   "a": "Emiliano Buendía",
+   "cat": "scorers"
+  },
+  {
+   "q": "Which Arsenal defender blazed the decisive penalty over the bar in the 2026 Champions League final shoot-out?",
+   "a": "Gabriel Magalhães",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club did Inter beat 3-1 in Vienna to win their first European Cup, in 1964?",
+   "a": "Real Madrid",
+   "cat": "europe"
+  },
+  {
+   "q": "In which Italian city did PSG come from 2-0 down to beat Tottenham on penalties in the 2025 Super Cup?",
+   "a": "Udine",
+   "cat": "grounds"
+  },
+  {
+   "q": "By the end of 2025, which club had lost more UEFA Super Cups than anyone else, with six defeats?",
+   "a": "Sevilla",
+   "cat": "records"
+  },
+  {
+   "q": "Juventus beat which club 9-2 on aggregate in the 1996 Super Cup?",
+   "a": "Paris Saint-Germain",
+   "cat": "europe"
+  },
+  {
+   "q": "Barcelona won the 1979 Cup Winners' Cup final 4-3 after extra time in Basel. Which German club did they beat?",
+   "a": "Fortuna Düsseldorf",
+   "cat": "europe"
+  },
+  {
+   "q": "Which East German club lost the 1981 Cup Winners' Cup final to Dinamo Tbilisi?",
+   "a": "Carl Zeiss Jena",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Austrian club did Paris Saint-Germain beat in the 1996 Cup Winners' Cup final in Brussels?",
+   "a": "Rapid Vienna",
+   "cat": "europe"
+  },
+  {
+   "q": "Juventus won the 1977 UEFA Cup on away goals against which Basque club?",
+   "a": "Athletic Bilbao",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Austrian club lost the 1994 UEFA Cup final 1-0 home and away to Inter?",
+   "a": "Austria Salzburg",
+   "cat": "europe"
+  },
+  {
+   "q": "Real Madrid won the 1986 UEFA Cup 5-3 on aggregate. Which German club did they beat?",
+   "a": "1. FC Köln",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Moroccan club lost the 2013 Club World Cup final 2-0 to Bayern Munich?",
+   "a": "Raja Casablanca",
+   "cat": "europe"
+  },
+  {
+   "q": "In 2023 which club became the first from the Faroe Islands to reach the group stage of a UEFA competition?",
+   "a": "KÍ Klaksvík",
+   "cat": "europe"
+  },
+  {
+   "q": "Which German coach won the European Cup with Bayern, the UEFA Cup with Gladbach and the Cup Winners' Cup with Barcelona?",
+   "a": "Udo Lattek",
+   "cat": "managers"
+  },
+  {
+   "q": "The first ever European Cup match was played in Lisbon in September 1955 and ended 3-3. Sporting against which club?",
+   "a": "Partizan Belgrade",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club were Scottish champions in 1955 but were passed over for the first European Cup, in favour of fifth-placed Hibernian?",
+   "a": "Aberdeen",
+   "cat": "stories"
   }
  ],
  "ball": [
@@ -18206,6 +20391,401 @@
    "q": "Julio Grondona ran Argentine football for 35 years wearing a ring engraved with which two words?",
    "a": "Todo pasa, everything passes",
    "cat": "stories"
+  },
+  {
+   "q": "The 2006 film Zidane: A 21st Century Portrait follows him through one whole Real Madrid match with 17 cameras. How does his match end?",
+   "a": "He gets sent off after a brawl",
+   "cat": "stories"
+  },
+  {
+   "q": "Zlatan Ibrahimović acted in the 2023 film Asterix and Obelix: The Middle Kingdom. What was his character called?",
+   "a": "Antivirus, a Roman warrior serving Caesar",
+   "cat": "stories"
+  },
+  {
+   "q": "Newell's Old Boys are nicknamed the Lepers. How did they earn it?",
+   "a": "By playing a charity match for leprosy that Rosario Central had refused",
+   "cat": "stories"
+  },
+  {
+   "q": "Germany's 2006 World Cup mascot Goleo was a lion in a football shirt. What was he famously missing?",
+   "a": "Trousers",
+   "cat": "stories"
+  },
+  {
+   "q": "Euro 2000's mascot Benelucky was a cross between which two creatures?",
+   "a": "A lion and a devil",
+   "cat": "stories"
+  },
+  {
+   "q": "Kettering Town wore England's first shirt sponsor, Kettering Tyres, in 1976. When the FA ordered it off, what did they try?",
+   "a": "Shortening it to Kettering T, claiming the T stood for Town",
+   "cat": "stories"
+  },
+  {
+   "q": "Three fans in Rosario founded a church in 1998 to worship which footballer?",
+   "a": "Diego Maradona",
+   "cat": "stories"
+  },
+  {
+   "q": "Pique, the official mascot of the 1986 World Cup in Mexico, was what?",
+   "a": "A jalapeño pepper",
+   "cat": "stories"
+  },
+  {
+   "q": "When Ada Hegerberg collected the first women's Ballon d'Or in 2018, what did host Martin Solveig ask her?",
+   "a": "Whether she knew how to twerk",
+   "cat": "stories"
+  },
+  {
+   "q": "Neymar's 2023 move to Al-Hilal was widely called a flop. How many games did he play for them?",
+   "a": "Seven, with one goal",
+   "cat": "transfers"
+  },
+  {
+   "q": "Brandi Chastain scored the winning penalty in the 1999 Women's World Cup final. How did she celebrate?",
+   "a": "She took her shirt off, celebrating in her sports bra",
+   "cat": "stories"
+  },
+  {
+   "q": "New Zealand's Auckland City lost 10-0 to Bayern at the 2025 Club World Cup. What did they do against Boca Juniors?",
+   "a": "Drew 1-1",
+   "cat": "cups"
+  },
+  {
+   "q": "Carlos Tevez was among the world's best-paid players at Shanghai Shenhua. How did he describe his time in China?",
+   "a": "As a holiday",
+   "cat": "imports"
+  },
+  {
+   "q": "Oscar was banned for eight games in China in 2017. What had he done?",
+   "a": "He deliberately kicked the ball at two Guangzhou R&F players, sparking a brawl",
+   "cat": "imports"
+  },
+  {
+   "q": "How did Zlatan Ibrahimović announce his arrival at LA Galaxy in 2018?",
+   "a": "A full-page ad in the LA Times saying Dear Los Angeles, you're welcome",
+   "cat": "imports"
+  },
+  {
+   "q": "Sylvester Stallone was injured making Escape to Victory. How?",
+   "a": "He broke a finger trying to save a Pelé penalty",
+   "cat": "stories"
+  },
+  {
+   "q": "New Order's World in Motion was first going to be called E for England. Why did the FA say no?",
+   "a": "It sounded like a reference to the drug ecstasy",
+   "cat": "stories"
+  },
+  {
+   "q": "How did comic hero Roy Race's playing career end in 1993?",
+   "a": "He lost his left foot in a helicopter crash",
+   "cat": "stories"
+  },
+  {
+   "q": "By what score did the USA beat Thailand in their opening game of the 2019 Women's World Cup?",
+   "a": "13-0",
+   "cat": "records"
+  },
+  {
+   "q": "Which footballer appears in the 1998 Cate Blanchett film Elizabeth, as the Frenchman Paul de Foix?",
+   "a": "Eric Cantona",
+   "cat": "stories"
+  },
+  {
+   "q": "Robin van Persie was sent off at the Camp Nou in 2011 for a second yellow. What had he done?",
+   "a": "Shot at goal a second after the offside whistle",
+   "cat": "stories"
+  },
+  {
+   "q": "Which striker angered both Old Firm fanbases in 1989 by joining Rangers after announcing he would rejoin Celtic?",
+   "a": "Mo Johnston",
+   "cat": "stories"
+  },
+  {
+   "q": "Which German midfielder is credited with the line Milan or Madrid, as long as it's Italy?",
+   "a": "Andreas Möller",
+   "cat": "stories"
+  },
+  {
+   "q": "Frank de Boer was sacked by Crystal Palace in 2017 after four league games. How many league goals had they scored?",
+   "a": "None",
+   "cat": "managers"
+  },
+  {
+   "q": "Arsène Wenger asked a teenage Zlatan Ibrahimović to come for a trial at Arsenal. What did Zlatan say?",
+   "a": "No, Zlatan does not do auditions",
+   "cat": "stories"
+  },
+  {
+   "q": "Why did Wayne Rooney wear number 32 at Derby County?",
+   "a": "The shirt sponsor was the betting firm 32Red",
+   "cat": "stories"
+  },
+  {
+   "q": "Didier Drogba finished his career at Phoenix Rising in the United States. What else was he at the club?",
+   "a": "A co-owner",
+   "cat": "stories"
+  },
+  {
+   "q": "Which Brazilian forged a career of over a decade at clubs like Botafogo and Flamengo while barely playing a match?",
+   "a": "Carlos Kaiser",
+   "cat": "stories"
+  },
+  {
+   "q": "Which two Newcastle team-mates were sent off for fighting each other against Aston Villa in 2005?",
+   "a": "Lee Bowyer and Kieron Dyer",
+   "cat": "stories"
+  },
+  {
+   "q": "Which France coach admitted that astrology played a part in how he picked his players?",
+   "a": "Raymond Domenech",
+   "cat": "managers"
+  },
+  {
+   "q": "Which Bayern coach ended a furious 1998 press conference with Ich habe fertig, I have finished?",
+   "a": "Giovanni Trapattoni",
+   "cat": "managers"
+  },
+  {
+   "q": "Which former Ballon d'Or winner joined English second tier club Charlton Athletic in 1982?",
+   "a": "Allan Simonsen",
+   "cat": "stories"
+  },
+  {
+   "q": "Jean-Marie Pfaff's first Bundesliga game for Bayern in 1982 is remembered for which blunder?",
+   "a": "He let a throw-in go into his own net",
+   "cat": "stories"
+  },
+  {
+   "q": "Madeira airport unveiled a bust of Cristiano Ronaldo in 2017. Why did it go round the world?",
+   "a": "It looked nothing like him",
+   "cat": "stories"
+  },
+  {
+   "q": "Emmanuel Adebayor scored for Manchester City against Arsenal in 2009. What did he do next?",
+   "a": "Sprinted the length of the pitch to celebrate in front of the Arsenal fans",
+   "cat": "stories"
+  },
+  {
+   "q": "Temuri Ketsbaia scored a late winner for Newcastle in 1998. How did he celebrate?",
+   "a": "He ripped his shirt off and kicked the advertising boards in a rage",
+   "cat": "stories"
+  },
+  {
+   "q": "Where did Andriy Shevchenko take his 2003 Champions League winner's medal?",
+   "a": "To the grave of his old coach Valeriy Lobanovskyi",
+   "cat": "stories"
+  },
+  {
+   "q": "What broke when Jürgen Klopp celebrated Liverpool's 5-4 winner at Norwich in 2016?",
+   "a": "His glasses",
+   "cat": "managers"
+  },
+  {
+   "q": "Louis van Gaal confronted the fourth official at Old Trafford in 2016 in an unusual way. What did he do?",
+   "a": "Threw himself to the ground, imitating a dive",
+   "cat": "managers"
+  },
+  {
+   "q": "How did Robbie Fowler answer taunting Everton fans after scoring in the 1999 derby?",
+   "a": "He got down and pretended to snort the white line of the penalty area",
+   "cat": "stories"
+  },
+  {
+   "q": "Goleo, the lion mascot of the 2006 World Cup in Germany, was mocked for missing what?",
+   "a": "Trousers",
+   "cat": "stories"
+  },
+  {
+   "q": "Cameroon's Vincent Aboubakar headed a late winner against Brazil in 2022. Why was he then sent off?",
+   "a": "He took his shirt off celebrating, a second yellow card",
+   "cat": "stories"
+  },
+  {
+   "q": "Cristiano Ronaldo celebrated Portugal's opener against Uruguay in 2022 as his own. What proved Bruno Fernandes scored it?",
+   "a": "A sensor inside the ball showed Ronaldo never touched it",
+   "cat": "stories"
+  },
+  {
+   "q": "Cristiano Ronaldo lay injured and in tears early in the Euro 2016 final. What landed on his face?",
+   "a": "A moth",
+   "cat": "stories"
+  },
+  {
+   "q": "Northern Ireland fans sang that Will Grigg was on fire all through Euro 2016. How many minutes did he play?",
+   "a": "None at all",
+   "cat": "stories"
+  },
+  {
+   "q": "Switzerland went out of the 2006 World Cup without conceding a goal. How?",
+   "a": "They lost a shoot-out to Ukraine 3-0, missing all three of their penalties",
+   "cat": "stories"
+  },
+  {
+   "q": "Croatia's Josip Šimunić was shown three yellow cards in one match at the 2006 World Cup. Which English referee did it?",
+   "a": "Graham Poll",
+   "cat": "stories"
+  },
+  {
+   "q": "Rivaldo was fined at the 2002 World Cup for collapsing clutching his face. Where had the ball actually hit him?",
+   "a": "On the leg, nowhere near his face",
+   "cat": "stories"
+  },
+  {
+   "q": "The 1978 World Cup final was held up before kick-off when Argentina complained about which Dutch player's plaster cast?",
+   "a": "René van de Kerkhof",
+   "cat": "stories"
+  },
+  {
+   "q": "Ruud van Nistelrooy's goal against Italy at Euro 2008 looked miles offside. Why did it stand?",
+   "a": "Christian Panucci was lying off the pitch behind the goal and still counted as a defender",
+   "cat": "stories"
+  },
+  {
+   "q": "Portugal keeper Ricardo did two odd things in the Euro 2004 shoot-out against England. What were they?",
+   "a": "Took off his gloves to save Vassell's kick, then scored the winning penalty himself",
+   "cat": "stories"
+  },
+  {
+   "q": "Gary McAllister's penalty for Scotland against England at Euro 96 was saved. Who claimed he moved the ball from a helicopter?",
+   "a": "Uri Geller, the spoon-bending psychic",
+   "cat": "stories"
+  },
+  {
+   "q": "Why did the 2024 Copa América final in Miami kick off more than an hour late?",
+   "a": "Thousands of fans without tickets tried to force their way into the stadium",
+   "cat": "stories"
+  },
+  {
+   "q": "Comoros played hosts Cameroon at the 2022 Africa Cup of Nations with no goalkeeper available. Who went in goal?",
+   "a": "Chaker Alhadhur, their left-back",
+   "cat": "stories"
+  },
+  {
+   "q": "The Gambia's flight to the 2024 Africa Cup of Nations turned back after nine minutes. What had happened on board?",
+   "a": "The cabin lost oxygen and the players started falling asleep",
+   "cat": "stories"
+  },
+  {
+   "q": "Akram Afif celebrated a goal for Qatar at the 2023 Asian Cup with a magic trick. What did he produce?",
+   "a": "A playing card with his own face on it",
+   "cat": "stories"
+  },
+  {
+   "q": "FIFA docked Cameroon six World Cup qualifying points in 2004 over their kit. What was wrong with it?",
+   "a": "Shirt and shorts were one piece, a Puma bodysuit",
+   "cat": "stories"
+  },
+  {
+   "q": "Denzel Dumfries was sent off against Argentina at the 2022 World Cup at a very odd moment. When?",
+   "a": "At the penalty shoot-out, with both his bookings coming after extra time had ended",
+   "cat": "stories"
+  },
+  {
+   "q": "Saudi Arabia beat Argentina 2-1 at the 2022 World Cup. What did King Salman give the country the next day?",
+   "a": "A public holiday, for workers and students alike",
+   "cat": "stories"
+  },
+  {
+   "q": "Edgar Davids was sent home from Euro 96. What had he said Guus Hiddink should stop doing?",
+   "a": "Putting his head up some players' backsides",
+   "cat": "stories"
+  },
+  {
+   "q": "Which club won the 1974 Intercontinental Cup despite losing that year's European Cup final?",
+   "a": "Atlético Madrid",
+   "cat": "europe"
+  },
+  {
+   "q": "Porto won the 1987 Intercontinental Cup in Tokyo with a Madjer lob in extra time. What made the pitch nearly unplayable?",
+   "a": "Heavy snow",
+   "cat": "europe"
+  },
+  {
+   "q": "Which club from Transnistria won 2-1 at the Bernabéu against Real Madrid in the 2021-22 Champions League?",
+   "a": "Sheriff Tiraspol",
+   "cat": "europe"
+  },
+  {
+   "q": "Brendan Rodgers' first competitive game as Celtic manager in 2016 ended in a 1-0 defeat. Which club from Gibraltar beat them?",
+   "a": "Lincoln Red Imps",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Norwegian club beat José Mourinho's Roma 6-1 in the 2021-22 Conference League, the first time a Mourinho side had let in six?",
+   "a": "Bodø Glimt",
+   "cat": "europe"
+  },
+  {
+   "q": "Milan's 1988 European Cup tie in Belgrade was stopped with Red Star 1-0 up, and replayed the next day. Why?",
+   "a": "Thick fog",
+   "cat": "europe"
+  },
+  {
+   "q": "Real Madrid against Dortmund in the 1998 Champions League semi-final kicked off over an hour late. What had happened?",
+   "a": "Fans climbing the fence brought one of the goals down",
+   "cat": "europe"
+  },
+  {
+   "q": "Greece suspended its league in March 2018 after PAOK's owner Ivan Savvidis ran onto the pitch. What was on his hip?",
+   "a": "A gun, a pistol in its holster",
+   "cat": "stories"
+  },
+  {
+   "q": "Hearts needed a point at Dens Park on the last day of 1985-86 to win the league. Which Dundee substitute scored twice to stop them?",
+   "a": "Albert Kidd",
+   "cat": "stories"
+  },
+  {
+   "q": "Why is the last day of the 2004-05 Scottish season called Helicopter Sunday?",
+   "a": "The helicopter with the trophy turned round in mid-air when the title swung from Celtic to Rangers",
+   "cat": "stories"
+  },
+  {
+   "q": "Dundee United have played Barcelona four times in European ties, in 1966 and 1987. How many of those games did Barcelona win?",
+   "a": "None, Dundee United won all four",
+   "cat": "europe"
+  },
+  {
+   "q": "Atalanta's 4-1 win over Valencia at San Siro in February 2020 was later linked to the spread of Covid in Bergamo. What was it nicknamed?",
+   "a": "Game Zero",
+   "cat": "europe"
+  },
+  {
+   "q": "Fenerbahçe sacked José Mourinho in August 2025 after losing a Champions League play-off. Which club beat them, then hired him weeks later?",
+   "a": "Benfica",
+   "cat": "managers"
+  },
+  {
+   "q": "UEFA's president left his seat to present the 1999 Champions League trophy with Bayern 1-0 up. What did he say when he reached the pitch?",
+   "a": "The winners are crying and the losers are dancing",
+   "cat": "europe"
+  },
+  {
+   "q": "Liverpool finished fifth in 2004-05 but won the Champions League. Which Welsh club did UEFA's special entry make them play first as holders?",
+   "a": "TNS, Total Network Solutions",
+   "cat": "europe"
+  },
+  {
+   "q": "Up to 200,000 Rangers fans went to Manchester for the 2008 UEFA Cup final, most without tickets. What failure in the city centre set off a riot?",
+   "a": "A big screen showing the match broke down",
+   "cat": "europe"
+  },
+  {
+   "q": "Which Romanian was sent off for hitting Tony Adams in extra time of the 2000 UEFA Cup final, a final Galatasaray went on to win?",
+   "a": "Gheorghe Hagi",
+   "cat": "stories"
+  },
+  {
+   "q": "Wilfried Nancy lasted about a month as Celtic manager, from December 2025. Which club beat them 3-1 in the League Cup final during his spell?",
+   "a": "St Mirren",
+   "cat": "managers"
+  },
+  {
+   "q": "Saarbrücken played in the first European Cup in 1955-56. Which long-gone territory did they represent?",
+   "a": "The Saar Protectorate",
+   "cat": "europe"
   }
  ]
 }

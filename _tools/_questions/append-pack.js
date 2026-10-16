@@ -85,7 +85,7 @@ for (const f of ins) for (const r of rd(f)) {
   const ak = norm(String(r.a));
   if (!byAns.has(ak)) byAns.set(ak, []);
   byAns.get(ak).push({ t: r.tier, words: new Set(k.split(" ")), q: r.q });
-  (pack[r.tier] = pack[r.tier] || []).push({ q: r.q, a: r.a });
+  (pack[r.tier] = pack[r.tier] || []).push(r.cat ? { q: r.q, a: r.a, cat: r.cat } : { q: r.q, a: r.a });
   added++;
 }
 

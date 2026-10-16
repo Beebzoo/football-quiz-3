@@ -1,0 +1,1187 @@
+[
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Fernando Torres made his first team debut in May 2001 for which club, then playing in the Segunda?",
+  "a": "Atlético Madrid",
+  "sub": "He came on against Leganés at the Vicente Calderón, aged 17.",
+  "src": "https://en.wikipedia.org/wiki/Fernando_Torres",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Real Madrid's reserve side, Castilla, play at a stadium named after which club legend?",
+  "a": "Alfredo Di Stéfano",
+  "src": "https://en.wikipedia.org/wiki/Real_Madrid_Castilla",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Barcelona's reserve side play their home games at a stadium named after which Dutch great?",
+  "a": "Johan Cruyff",
+  "src": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Real Oviedo and Sporting Gijón meet in the derby of which Spanish region?",
+  "a": "Asturias",
+  "sub": "Oviedo sit inland, Sporting on the coast to the north.",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "What is the name of Sevilla's reserve side, in the Segunda as recently as 2017-18?",
+  "a": "Sevilla Atlético",
+  "src": "https://es.wikipedia.org/wiki/Sevilla_Atl%C3%A9tico",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "What is Athletic Bilbao's reserve side called?",
+  "a": "Bilbao Athletic",
+  "src": "https://es.wikipedia.org/wiki/Bilbao_Athletic",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "grounds",
+  "q": "Fuenlabrada play at a stadium named after which striker, born in the town in 1984?",
+  "a": "Fernando Torres",
+  "sub": "The ground opened in 2011.",
+  "src": "https://es.wikipedia.org/wiki/Club_de_F%C3%BAtbol_Fuenlabrada",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Andalusian club, founded in 1889, is known as El Decano, the dean of Spanish football?",
+  "a": "Recreativo de Huelva",
+  "sub": "It began life as the Huelva Recreation Club.",
+  "src": "https://es.wikipedia.org/wiki/Real_Club_Recreativo_de_Huelva",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "relegation",
+  "q": "Which Andalusian club, Champions League quarter-finalists in 2013, went down to the Segunda in 2018?",
+  "a": "Málaga",
+  "sub": "They were relegated after a stoppage-time defeat to Levante.",
+  "src": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "FC Andorra played in the Segunda in 2023-24. In which capital city are they based?",
+  "a": "Andorra la Vella",
+  "src": "https://es.wikipedia.org/wiki/Futbol_Club_Andorra",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club from a Spanish city on the North African coast played in the Segunda in 2025-26?",
+  "a": "Ceuta",
+  "sub": "Their nickname is the Caballas, the mackerels.",
+  "src": "https://es.wikipedia.org/wiki/Agrupaci%C3%B3n_Deportiva_Ceuta_F%C3%BAtbol_Club",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Villarreal B carry which nickname, a smaller version of their parent club's?",
+  "a": "The Mini Submarino Amarillo, the mini yellow submarine",
+  "src": "https://es.wikipedia.org/wiki/Villarreal_Club_de_F%C3%BAtbol_%22B%22",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "relegation",
+  "q": "Which Galician club were relegated in 2020 before their last game was played, because their opponents had COVID cases?",
+  "a": "Deportivo La Coruña",
+  "sub": "The game against Fuenlabrada was finally played on 7 August. Depor won 2-1, too late.",
+  "src": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Catalan club was thrown out of the Segunda in January 2019 for not paying its players?",
+  "a": "Reus",
+  "src": "https://en.wikipedia.org/wiki/CF_Reus_Deportiu",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which club returned to La Liga in 2025 for the first time in 24 years, beating Mirandés in the play-off final?",
+  "a": "Real Oviedo",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Xabi Alonso coached which reserve side into the Segunda in 2021?",
+  "a": "Real Sociedad B, known as Sanse",
+  "src": "https://es.wikipedia.org/wiki/Real_Sociedad_de_F%C3%BAtbol_%22B%22",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which former Barcelona player led Barcelona B back into the Segunda in 2010 before managing the first team?",
+  "a": "Luis Enrique",
+  "sub": "He had taken over the reserves from Pep Guardiola in 2008.",
+  "src": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which NBA star was part of the group that bought Mallorca in January 2016, with the club fighting relegation in the Segunda?",
+  "a": "Steve Nash",
+  "src": "https://en.wikipedia.org/wiki/RCD_Mallorca",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Which Qatari sheikh owned Málaga through their spell in the Segunda from 2018?",
+  "a": "Abdullah bin Nasser Al Thani",
+  "sub": "He bought the club in 2010. A court-appointed administrator took over in 2020.",
+  "src": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Saudi official bought Almería in August 2019, while they were in the Segunda?",
+  "a": "Turki Al-Sheikh",
+  "sub": "He paid about 20 million euros.",
+  "src": "https://es.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Almer%C3%ADa",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which future Liverpool manager took Extremadura back up to La Liga in 1997-98?",
+  "a": "Rafael Benítez",
+  "src": "https://en.wikipedia.org/wiki/CF_Extremadura",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Spaniards say someone has more morale than which club, a Segunda side as recently as 2011-12?",
+  "a": "Alcoyano",
+  "sub": "The saying comes from a team that always believed it would survive.",
+  "src": "https://es.wikipedia.org/wiki/Club_Deportivo_Alcoyano",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Real Valladolid are widely known by which nickname?",
+  "a": "Pucela",
+  "src": "https://es.wikipedia.org/wiki/Real_Valladolid_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Leganés are nicknamed the Pepineros. Which vegetable gives them that name?",
+  "a": "The cucumber",
+  "src": "https://es.wikipedia.org/wiki/Club_Deportivo_Legan%C3%A9s",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Basque club is nicknamed the Armeros, after the town's gun-making trade?",
+  "a": "Eibar",
+  "src": "https://es.wikipedia.org/wiki/Sociedad_Deportiva_Eibar",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Real Oviedo's stadium is named after which man, the club's first president?",
+  "a": "Carlos Tartiere",
+  "sub": "The new Tartiere opened in 2000, with a friendly against Partizan Belgrade.",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Rayo Vallecano's ground carried the name of which club president from 2004 to 2011?",
+  "a": "Teresa Rivero",
+  "sub": "In 1994 she became the first woman to run a top-flight club in Spain.",
+  "src": "https://es.wikipedia.org/wiki/Rayo_Vallecano_de_Madrid",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "In which season was VAR first used in the Segunda?",
+  "a": "2019-20",
+  "src": "https://es.wikipedia.org/wiki/Segunda_Divisi%C3%B3n_de_Espa%C3%B1a_2019-20",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Mérida first reached La Liga in 1995. Which other club from Extremadura followed them up a year later?",
+  "a": "CF Extremadura, from Almendralejo",
+  "src": "https://en.wikipedia.org/wiki/CF_Extremadura",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Madrid club were relegated from La Liga in 2000 after their president Jesús Gil was suspended in December 1999?",
+  "a": "Atlético Madrid",
+  "sub": "A government-appointed administrator ran the club.",
+  "src": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Real Madrid feeder club, named after Spain's national motto, played in the Segunda from 1949?",
+  "a": "AD Plus Ultra",
+  "sub": "It folded in 1972 and Castilla took its place.",
+  "src": "https://en.wikipedia.org/wiki/Real_Madrid_Castilla",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Which club plays at the Estadio Romano, a nod to its city's ancient past?",
+  "a": "Mérida",
+  "src": "https://es.wikipedia.org/wiki/Club_Polideportivo_M%C3%A9rida",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "relegation",
+  "q": "In 2019-20 Racing de Santander finished bottom of the Segunda. How many of their 42 games did they win?",
+  "a": "Five",
+  "src": "https://en.wikipedia.org/wiki/Racing_de_Santander",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Indian businessman took over Racing de Santander in January 2011, shortly before their slide into the Segunda?",
+  "a": "Ahsan Ali Syed",
+  "sub": "He sacked the coach straight away.",
+  "src": "https://en.wikipedia.org/wiki/Racing_de_Santander",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Galician club escaped dropping to the third tier in 1988 thanks to an added-time goal against Racing Santander?",
+  "a": "Deportivo La Coruña",
+  "sub": "Vicente Celeiro scored it. Six years later Depor were a whisker from the title.",
+  "src": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "relegation",
+  "q": "Which club, Copa del Rey winners in 2004, dropped into the third tier for the first time in decades in 2026?",
+  "a": "Real Zaragoza",
+  "src": "https://en.wikipedia.org/wiki/Real_Zaragoza",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Fernando Torres scored his first Atlético goal in June 2001, in the Segunda. Against which club?",
+  "a": "Albacete",
+  "sub": "It came one week after his debut.",
+  "src": "https://en.wikipedia.org/wiki/Fernando_Torres",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Getafe's stadium was named after which Getafe-born player until the council dropped his name in 2023?",
+  "a": "Alfonso Pérez",
+  "sub": "It was renamed simply the Coliseum after a controversial comment by him.",
+  "src": "https://es.wikipedia.org/wiki/Getafe_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Hércules of Alicante and which club contest the Costa Blanca derby?",
+  "a": "Elche",
+  "sub": "The two cities are about 21 kilometres apart.",
+  "src": "https://es.wikipedia.org/wiki/H%C3%A9rcules_de_Alicante_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Real Murcia are the Pimentoneros. Which spice gives them that nickname?",
+  "a": "Paprika, pimentón in Spanish",
+  "src": "https://es.wikipedia.org/wiki/Real_Murcia_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Alcorcón are nicknamed the Alfareros. What trade does that refer to?",
+  "a": "Pottery, they are the potters",
+  "src": "https://es.wikipedia.org/wiki/Agrupaci%C3%B3n_Deportiva_Alcorc%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which club played its first ever Segunda season in 2019-20 and was at the centre of the COVID-19 postponement on the last day?",
+  "a": "Fuenlabrada",
+  "src": "https://es.wikipedia.org/wiki/Segunda_Divisi%C3%B3n_de_Espa%C3%B1a_2019-20",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "In 2015 a Qatari sports academy took over which León club, steering it up to the Segunda?",
+  "a": "Cultural Leonesa",
+  "sub": "The owner is the Aspire Academy.",
+  "src": "https://es.wikipedia.org/wiki/Cultural_y_Deportiva_Leonesa",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Andalusian club was promoted in 2008 when Antonio Hidalgo scored twice against Tenerife on the last day?",
+  "a": "Málaga",
+  "src": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "relegation",
+  "q": "Mallorca dropped to the third tier in June 2017 for the first time since which year?",
+  "a": "1981",
+  "sub": "They came straight back up, and went up again the year after.",
+  "src": "https://en.wikipedia.org/wiki/RCD_Mallorca",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Real Madrid Castilla beat which Andalusian club 8-1 on aggregate in 2012 to reach the Segunda?",
+  "a": "Cádiz",
+  "src": "https://en.wikipedia.org/wiki/Real_Madrid_Castilla",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which club won the 2024 Segunda play-off final against Real Oviedo with two goals from Javi Puado?",
+  "a": "Espanyol",
+  "sub": "Oviedo had won the first leg 1-0.",
+  "src": "https://en.wikipedia.org/wiki/2024_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "grounds",
+  "q": "Rayo Majadahonda won their first ever home game in the Segunda in 2018 at which famous ground?",
+  "a": "The Metropolitano, Atlético Madrid's stadium",
+  "sub": "They beat Lugo there.",
+  "src": "https://es.wikipedia.org/wiki/Club_de_F%C3%BAtbol_Rayo_Majadahonda",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "relegation",
+  "q": "Which club were relegated from the Segunda in 2002 after finishing 16th, because they had not become a public limited sports company?",
+  "a": "Burgos",
+  "src": "https://en.wikipedia.org/wiki/Burgos_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which Basque club, a founding member of La Liga, spent 2009-10 in the Segunda?",
+  "a": "Real Unión of Irún",
+  "sub": "They won the Copa del Rey four times but left the top flight in 1932.",
+  "src": "https://en.wikipedia.org/wiki/Real_Uni%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Which German great coached Xerez in 2001-02, when they collapsed in the run-in and missed promotion?",
+  "a": "Bernd Schuster",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Betis won promotion from the Segunda in 2001 at a ground then named after which owner?",
+  "a": "Manuel Ruiz de Lopera",
+  "sub": "It went back to being the Benito Villamarín in October 2010.",
+  "src": "https://es.wikipedia.org/wiki/Real_Betis_Balompi%C3%A9",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Atlético Madrid missed promotion in 2000-01 level on points with the side that went up instead. Which club?",
+  "a": "Tenerife",
+  "sub": "Torres had just made his debut.",
+  "src": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Betis missed promotion in 2009-10 despite finishing level on points with which two clubs above them?",
+  "a": "Hércules and Levante",
+  "src": "https://en.wikipedia.org/wiki/H%C3%A9rcules_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club overturned a 2-0 first-leg defeat at Deportivo to win the 2019 Segunda play-off final 3-0 at home?",
+  "a": "Mallorca",
+  "sub": "A year earlier they had been in the third tier.",
+  "src": "https://en.wikipedia.org/wiki/2019_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club lost the 2015 play-off final on away goals despite winning the first leg 3-1 at home?",
+  "a": "Real Zaragoza",
+  "sub": "Las Palmas won 2-0 in the second leg and went up.",
+  "src": "https://en.wikipedia.org/wiki/2015_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club won promotion in 2020 with a goal in the sixth minute of stoppage time of the play-off final at Girona?",
+  "a": "Elche",
+  "sub": "Pere Milla scored it, in an empty Montilivi.",
+  "src": "https://en.wikipedia.org/wiki/2020_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Who scored a penalty deep into stoppage time of extra time in the 2023 play-off final to send Alavés up at Levante's expense?",
+  "a": "Asier Villalibre",
+  "src": "https://en.wikipedia.org/wiki/2023_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club went up in 2017 after overturning a 1-0 first-leg defeat at Tenerife in the play-off final?",
+  "a": "Getafe",
+  "sub": "They won the second leg 3-1.",
+  "src": "https://en.wikipedia.org/wiki/2017_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In January 2019 the LaLiga judge expelled Reus from professional football for how long?",
+  "a": "Three seasons, with a 250,000 euro fine",
+  "src": "https://en.wikipedia.org/wiki/CF_Reus_Deportiu",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Reus players protested unpaid wages in 2018-19 by standing arm in arm in the centre circle for the first minute against which club?",
+  "a": "Alcorcón",
+  "src": "https://es.wikipedia.org/wiki/Club_de_Futbol_Reus_Deportiu",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Extremadura UD retired the number 19 shirt after which former Arsenal and Sevilla winger died in a 2019 car crash?",
+  "a": "José Antonio Reyes",
+  "src": "https://en.wikipedia.org/wiki/Extremadura_UD",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club was founded in 2007 in Almendralejo while CF Extremadura were collapsing, and reached the Segunda in 2018?",
+  "a": "Extremadura UD",
+  "src": "https://en.wikipedia.org/wiki/Extremadura_UD",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "UD Salamanca were liquidated in 2013. Name either of the two clubs founded that year to carry on.",
+  "a": "Unionistas de Salamanca or Salamanca CF UDS",
+  "src": "https://en.wikipedia.org/wiki/UD_Salamanca",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "UD Salamanca, liquidated in 2013, were known by which nickname?",
+  "a": "Los Charros",
+  "sub": "They played in white shirts and black shorts.",
+  "src": "https://en.wikipedia.org/wiki/UD_Salamanca",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Galician club won promotion to La Liga in 1994 with a 3-1 play-off win over Rayo Vallecano?",
+  "a": "Compostela",
+  "src": "https://en.wikipedia.org/wiki/SD_Compostela",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club beat Compostela on away goals in the 1998 play-off to win promotion to La Liga?",
+  "a": "Villarreal",
+  "src": "https://en.wikipedia.org/wiki/SD_Compostela",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Already-promoted Valencia lost 1-0 at Las Gaunas in 1987, sending which club to La Liga for the first time?",
+  "a": "CD Logroñés",
+  "src": "https://en.wikipedia.org/wiki/CD_Logro%C3%B1%C3%A9s",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Segunda side Ciudad de Murcia were bought in 2007 and moved to the province of Granada. What were they renamed?",
+  "a": "Granada 74",
+  "sub": "Businessman Carlos Marsá took the club to Pinos Puente.",
+  "src": "https://es.wikipedia.org/wiki/Granada_74_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which former China national coach bought Lorca in 2015 and took them into the Segunda?",
+  "a": "Xu Genbao",
+  "src": "https://es.wikipedia.org/wiki/Lorca_F%C3%BAtbol_Club_(2003)",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "During their two Segunda seasons, Amorebieta played home games at which famous training complex?",
+  "a": "Lezama, Athletic Bilbao's base",
+  "sub": "Their own ground, Urritxe, could not be expanded.",
+  "src": "https://es.wikipedia.org/wiki/Sociedad_Deportiva_Amorebieta",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Llagostera could not use their own ground in the Segunda. In which nearby town did they play home games?",
+  "a": "Palamós",
+  "src": "https://es.wikipedia.org/wiki/Uni%C3%B3_Esportiva_Llagostera",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club stayed up in 2012-13 despite finishing 19th, because Guadalajara were demoted over their capital increase?",
+  "a": "Real Murcia",
+  "src": "https://es.wikipedia.org/wiki/Real_Murcia_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Which club reached the 2014 promotion play-offs, lost to Córdoba, and were then relegated to the third tier by LaLiga?",
+  "a": "Real Murcia",
+  "sub": "Thousands marched in Murcia against the decision.",
+  "src": "https://es.wikipedia.org/wiki/Real_Murcia_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Real Madrid Castilla were relegated in 2014 after a last-day defeat to which club?",
+  "a": "Real Murcia",
+  "src": "https://en.wikipedia.org/wiki/Real_Madrid_Castilla",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club, wearing borrowed Barcelona kit in 1943-44, have played in claret and blue ever since?",
+  "a": "Eibar",
+  "sub": "Before that they played in red and white stripes like Athletic.",
+  "src": "https://es.wikipedia.org/wiki/Sociedad_Deportiva_Eibar",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which Ukrainian-American owner took Alavés up from the Segunda in 2004-05, his first season in charge?",
+  "a": "Dmitry Piterman",
+  "src": "https://en.wikipedia.org/wiki/Dmitry_Piterman",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Deportivo sealed promotion back to the Segunda in 2024 in front of 31,833 fans. Who scored the only goal?",
+  "a": "Lucas Pérez",
+  "sub": "The opponents were Barcelona Atlètic.",
+  "src": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Xerez played many home games away from Jerez during their 2001-02 money troubles. In which town?",
+  "a": "Sanlúcar de Barrameda",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In 2008 Xerez escaped relegation on the last day after a run of eight straight home wins. Who was the coach?",
+  "a": "Esteban Vigo",
+  "sub": "A year later he won the Segunda with them.",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Granada went up in 2011 on away goals after a 1-1 aggregate draw with which club in the play-off final?",
+  "a": "Elche",
+  "src": "https://en.wikipedia.org/wiki/2011_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Which club won promotion to La Liga in 2013, beating Girona 4-0 on aggregate in the play-off final?",
+  "a": "Almería",
+  "src": "https://en.wikipedia.org/wiki/2013_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "Real Jaén are known by which reptile nickname?",
+  "a": "Lagartos, the lizards",
+  "src": "https://es.wikipedia.org/wiki/Real_Ja%C3%A9n_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "relegation",
+  "q": "Real Oviedo fell to which tier in 2003, after two relegations and months of unpaid wages?",
+  "a": "The fourth tier",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "stories",
+  "q": "In a 1961 play-off to stay in the second tier, Sporting Gijón drew 3-3 and went through on a coin toss. Who were the opponents?",
+  "a": "Castellón",
+  "sub": "Captain Pepe Ortiz called tails for the third time that day, and won.",
+  "src": "https://en.wikipedia.org/wiki/Sporting_de_Gij%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Extremadura got a promotion play-off place in 1996 only because which side above them was ineligible?",
+  "a": "Real Madrid Castilla",
+  "sub": "They then beat Albacete 2-0 on aggregate to reach La Liga.",
+  "src": "https://en.wikipedia.org/wiki/CF_Extremadura",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Extremadura dropped out of La Liga in 1999 after losing the promotion and relegation play-off to which club?",
+  "a": "Rayo Vallecano",
+  "src": "https://en.wikipedia.org/wiki/CF_Extremadura",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Salamanca won the 1995 play-off after losing the first leg 2-0 at home to Albacete. What did they win the second leg by?",
+  "a": "5-0, away from home",
+  "sub": "Their coach was a 29-year-old Juanma Lillo.",
+  "src": "https://en.wikipedia.org/wiki/UD_Salamanca",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "In which Salamanca café was UD Salamanca formally founded in 1923?",
+  "a": "Café Novelty, in the Plaza Mayor",
+  "src": "https://en.wikipedia.org/wiki/UD_Salamanca",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "grounds",
+  "q": "UD Salamanca's Helmántico stadium was not actually in Salamanca. In which neighbouring municipality was it?",
+  "a": "Villares de la Reina",
+  "src": "https://es.wikipedia.org/wiki/Uni%C3%B3n_Deportiva_Salamanca",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Reus won their first ever promotion to the Segunda in 2016, winning the first leg 3-0 away at which club?",
+  "a": "Racing de Santander",
+  "src": "https://en.wikipedia.org/wiki/CF_Reus_Deportiu",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which 32-year-old striker scored 15 goals in 19 games for Extremadura in 2018-19, his first professional season?",
+  "a": "Enric Gallego",
+  "sub": "Huesca bought him for two million euros in January.",
+  "src": "https://en.wikipedia.org/wiki/Extremadura_UD",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Who scored the first goal at Compostela's new San Lázaro stadium in 1993?",
+  "a": "Bebeto, for Deportivo against River Plate",
+  "src": "https://en.wikipedia.org/wiki/SD_Compostela",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which two strikers scored 23 league goals between them for Compostela in their best La Liga season, 1995-96?",
+  "a": "Christopher Ohen and Bent Christensen",
+  "src": "https://en.wikipedia.org/wiki/SD_Compostela",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which club did Burgos beat in the 2021 play-off final to return to the Segunda after 19 years?",
+  "a": "Bilbao Athletic",
+  "src": "https://en.wikipedia.org/wiki/Burgos_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which club did Hércules beat 2-0 away on the last day of 2009-10 to clinch promotion?",
+  "a": "Real Unión",
+  "src": "https://en.wikipedia.org/wiki/H%C3%A9rcules_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Barcelona's reserve side played a La Liga season as an independent club in 1956-57. Under what name?",
+  "a": "CD Condal",
+  "sub": "They finished 16th and last.",
+  "src": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which Barcelona president changed the reserve side's name back to Barcelona Atlètic in 2008, and again in 2022?",
+  "a": "Joan Laporta",
+  "sub": "Sandro Rosell had changed it back to Barcelona B in between.",
+  "src": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which reserve side won the first Segunda División League Cup in 1983, beating Deportivo in the final?",
+  "a": "Atlético Madrileño",
+  "src": "https://es.wikipedia.org/wiki/Atl%C3%A9tico_Madrile%C3%B1o",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "cups",
+  "q": "Which club won the Segunda División League Cup in 1984-85, beating Atlético Madrileño in the final?",
+  "a": "Real Oviedo",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which club did Rayo beat 2-0 away in the second leg of the 2021 play-off final, after losing the home leg 2-1?",
+  "a": "Girona",
+  "src": "https://en.wikipedia.org/wiki/2021_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Girona lost Segunda play-offs in 2013, 2015 and 2016. Name any of the three clubs that beat them.",
+  "a": "Almería, Real Zaragoza or Osasuna",
+  "src": "https://en.wikipedia.org/wiki/2016_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which veteran striker, born in 1980, scored Elche's late winner at Zaragoza in the 2020 play-off semi-final?",
+  "a": "Nino",
+  "src": "https://en.wikipedia.org/wiki/2020_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Who scored for Almería in the 121st minute to beat Las Palmas in the 2013 play-off semi-final?",
+  "a": "Charles",
+  "src": "https://en.wikipedia.org/wiki/2013_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which club beat Gimnàstic in the 2025 third-tier play-off final to return to the Segunda for 2025-26?",
+  "a": "Real Sociedad B",
+  "src": "https://es.wikipedia.org/wiki/Real_Sociedad_de_F%C3%BAtbol_%22B%22",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "relegation",
+  "q": "Real Sociedad's reserve side were in the Segunda in 1962 but dropped to the third tier without being relegated. Why?",
+  "a": "Real Sociedad's first team went down to the Segunda",
+  "sub": "That group of reserves took the first team back up five years later.",
+  "src": "https://es.wikipedia.org/wiki/Real_Sociedad_de_F%C3%BAtbol_%22B%22",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "grounds",
+  "q": "Racing de Ferrol played some 2001-02 home games at the ground of which other Galician club?",
+  "a": "Lugo, at the Anxo Carro",
+  "src": "https://en.wikipedia.org/wiki/2001%E2%80%9302_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which Japanese midfielder scored Tenerife's winner against Cádiz in the 2017 play-off semi-final?",
+  "a": "Gaku Shibasaki",
+  "src": "https://en.wikipedia.org/wiki/2017_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Xerez went up to La Liga in 2009. Which club did they beat 2-1 at home to make it mathematically certain?",
+  "a": "Huesca",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which Extremadura club, in La Liga in 1995-96 and 1997-98, was dissolved in 2000?",
+  "a": "CP Mérida",
+  "src": "https://en.wikipedia.org/wiki/CP_M%C3%A9rida",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Las Palmas reached the 2015 play-off final past Valladolid with a 1-1 aggregate. Why did they go through?",
+  "a": "They had finished higher in the league",
+  "src": "https://en.wikipedia.org/wiki/2015_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which club from Lorca had the nickname El Brócoli Mecánico, the mechanical broccoli?",
+  "a": "Lorca FC",
+  "sub": "They were in the Segunda in 2017-18.",
+  "src": "https://es.wikipedia.org/wiki/Lorca_F%C3%BAtbol_Club_(2003)",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Which Greek club's fans have a friendship with Hércules supporters, because their names mean the same hero?",
+  "a": "Iraklis",
+  "src": "https://en.wikipedia.org/wiki/H%C3%A9rcules_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Girona won the first leg of their 2015 play-off semi-final 3-0 away at Zaragoza. What happened next?",
+  "a": "They lost 4-1 at home and went out on away goals",
+  "sub": "A week earlier they had missed automatic promotion on the last day against Lugo.",
+  "src": "https://en.wikipedia.org/wiki/2015_Segunda_Divisi%C3%B3n_play-offs",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "records",
+  "q": "On 20 December 2014, Numancia and Lugo played the highest-scoring game of that Segunda season. What was the score?",
+  "a": "6-6",
+  "src": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Segunda_Divisi%C3%B3n",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "relegation",
+  "q": "When Atlético Madrid went down in 2000, their reserve side were relegated too without finishing in the drop zone. Why?",
+  "a": "A reserve side cannot play in the same division as its first team",
+  "sub": "Atlético B had been second in the Segunda the year before.",
+  "src": "https://es.wikipedia.org/wiki/Atl%C3%A9tico_Madrile%C3%B1o",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Which future mayor of New York bought a share in Real Oviedo during the 2012 rescue campaign?",
+  "a": "Zohran Mamdani",
+  "sub": "He tweeted about it in November 2012.",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "When SD Compostela were dissolved in 2006, a judge auctioned off the club's property. What else went under the hammer?",
+  "a": "The club's name, its trophies and its place in the league",
+  "src": "https://en.wikipedia.org/wiki/SD_Compostela",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "In January 2009 a club with nine seasons of La Liga behind it took the field with only nine players, in protest at unpaid wages. Which club?",
+  "a": "CD Logroñés",
+  "sub": "They did not turn up for the next game and were withdrawn from the competition.",
+  "src": "https://en.wikipedia.org/wiki/CD_Logro%C3%B1%C3%A9s",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Rayo fans protesting the owners in 2011 tore what off their own stadium?",
+  "a": "The letters spelling Teresa Rivero, the name the stadium then carried",
+  "src": "https://es.wikipedia.org/wiki/Rayo_Vallecano_de_Madrid",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Xerez players protested about unpaid wages in the 2000s in an unusual way. What did they do?",
+  "a": "Posed semi-naked for a magazine",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Why do Xerez spell their name with an X when their city is Jerez?",
+  "a": "It is the old spelling of the city, used after the Reconquista",
+  "sub": "The pronunciation is the same.",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "UD Salamanca were liquidated in June 2013. What anniversary did that fall on?",
+  "a": "Their 90th, the club was founded in 1923",
+  "src": "https://en.wikipedia.org/wiki/UD_Salamanca",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Real Murcia were relegated from the Segunda in 2014 by LaLiga, not on the pitch. Which union threatened a players' strike in their support?",
+  "a": "The AFE, the Spanish footballers' union",
+  "src": "https://es.wikipedia.org/wiki/Real_Murcia_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Reus's players were offered their wages by LaLiga in late 2018 but turned it down. Why?",
+  "a": "It did not cover the coaching staff and other workers, and meant relegation anyway",
+  "src": "https://es.wikipedia.org/wiki/Club_de_Futbol_Reus_Deportiu",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "In 2019 a group announced it had bought Reus via a tweet. Why did it not save them?",
+  "a": "The purchase came after Reus had already failed to pay their players",
+  "src": "https://es.wikipedia.org/wiki/Club_de_Futbol_Reus_Deportiu",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Burgos dissolved their original club in 1983. What happened to its reserve team?",
+  "a": "It broke away as Real Burgos and reached La Liga",
+  "sub": "When Real Burgos faded after 1993, Burgos CF was refounded.",
+  "src": "https://en.wikipedia.org/wiki/Burgos_CF",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Dmitry Piterman, later owner of Alavés, wanted to manage Racing from the touchline. How did he dodge the ban on being in the technical area?",
+  "a": "He got himself accredited as a journalist or photographer",
+  "src": "https://en.wikipedia.org/wiki/Dmitry_Piterman",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Bilbao Athletic and Castilla finished 1983-84 level on points at the top of the Segunda. What happened in La Liga that season?",
+  "a": "Athletic Bilbao and Real Madrid also finished level on points, and Athletic won it",
+  "src": "https://es.wikipedia.org/wiki/Bilbao_Athletic",
+  "conf": "sure"
+ },
+ {
+  "tier": "easy",
+  "cat": "stories",
+  "q": "Elche and Hércules, rivals in the Costa Blanca derby, both come from which Spanish province?",
+  "a": "Alicante",
+  "src": "https://es.wikipedia.org/wiki/H%C3%A9rcules_de_Alicante_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Under Franco, Racing de Santander had to drop their foreign-sounding name in 1941. What were they renamed?",
+  "a": "Real Santander",
+  "sub": "The old name came back in 1973.",
+  "src": "https://en.wikipedia.org/wiki/Racing_de_Santander",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Atlético Madrid's reserve side went back to which historic name in 2025?",
+  "a": "Atlético Madrileño",
+  "src": "https://es.wikipedia.org/wiki/Atl%C3%A9tico_Madrile%C3%B1o",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Castilla CF became Real Madrid B in 1991. Why did the old name have to go?",
+  "a": "The federation banned reserve teams from using separate names",
+  "sub": "The Castilla name came back in 2005.",
+  "src": "https://en.wikipedia.org/wiki/Real_Madrid_Castilla",
+  "conf": "sure"
+ },
+ {
+  "tier": "hard",
+  "cat": "grounds",
+  "q": "Xerez moved to Chapín in 1988. Which old ground did they leave behind?",
+  "a": "The Estadio Domecq",
+  "sub": "Chapín was opened with a game against Real Madrid.",
+  "src": "https://en.wikipedia.org/wiki/Xerez_CD",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Atlético Aviación kept their La Liga place in 1939 in a play-off against which Segunda champion?",
+  "a": "Osasuna",
+  "sub": "They only got the chance because Real Oviedo could not play.",
+  "src": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "stories",
+  "q": "Deportivo reached La Liga for the first time in 1941. Which club did they beat 2-1 in the promotion play-off?",
+  "a": "Murcia",
+  "src": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "grounds",
+  "q": "Which club spoiled the opening of Cádiz's Ramón de Carranza stadium in September 1955, winning 4-0?",
+  "a": "Barcelona",
+  "src": "https://es.wikipedia.org/wiki/C%C3%A1diz_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "extreme",
+  "cat": "grounds",
+  "q": "Real Murcia played their first official game at the Nueva Condomina in November 2006. Who were the visitors?",
+  "a": "Real Valladolid",
+  "sub": "They went up to La Liga at the end of that season.",
+  "src": "https://es.wikipedia.org/wiki/Real_Murcia_Club_de_F%C3%BAtbol",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "Real Oviedo could not play the 1939-40 season. What had Franco's troops used their stadium for?",
+  "a": "An ammunition dump",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ },
+ {
+  "tier": "ball",
+  "cat": "stories",
+  "q": "One version of the Alcoyano legend has them losing heavily when the referee blew up early. How did players and fans react?",
+  "a": "They protested, because they believed they could yet come back",
+  "src": "https://es.wikipedia.org/wiki/Club_Deportivo_Alcoyano",
+  "conf": "sure"
+ },
+ {
+  "tier": "normal",
+  "cat": "stories",
+  "q": "Real Oviedo returned to the Segunda in 2015 after 13 years away. Which club did they beat 2-1 on aggregate in the play-off?",
+  "a": "Cádiz",
+  "src": "https://en.wikipedia.org/wiki/Real_Oviedo",
+  "conf": "sure"
+ }
+]
